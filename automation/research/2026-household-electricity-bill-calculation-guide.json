@@ -1,0 +1,128 @@
+{
+  "slug": "2026-household-electricity-bill-calculation-guide",
+  "checkedAt": "2026-10-02",
+  "facts": [
+    {
+      "claim": "주택용 저압 기본요금과 전력량요금은 2025년 1월 1일부터 적용 중인 월간 전기요금표 기준",
+      "value": "200kWh 이하 910원·120.0원/kWh, 201~400kWh 1,600원·214.6원/kWh, 400kWh 초과 7,300원·307.3원/kWh",
+      "sourceUrl": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/D/C/CYDCHP00401.jsp",
+      "asOf": "2026-10-02"
+    },
+    {
+      "claim": "주택용 저압 하계 누진구간",
+      "value": "7월 1일~8월 31일 300kWh 이하, 301~450kWh, 450kWh 초과",
+      "sourceUrl": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/D/C/CYDCHP00401.jsp",
+      "asOf": "2026-10-02"
+    },
+    {
+      "claim": "주택용 저압 하계 전력량요금 단가",
+      "value": "첫 300kWh 120.0원/kWh, 다음 150kWh 214.6원/kWh, 450kWh 초과 307.3원/kWh",
+      "sourceUrl": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/D/C/CYDCHP00401.jsp",
+      "asOf": "2026-10-02"
+    },
+    {
+      "claim": "주택용 저압 슈퍼유저 요금",
+      "value": "7~8월 및 12~2월 월 사용량 1,000kWh 초과분 736.2원/kWh",
+      "sourceUrl": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/D/C/CYDCHP00401.jsp",
+      "asOf": "2026-10-02"
+    },
+    {
+      "claim": "전기요금 구성",
+      "value": "기본요금 + 전력량요금 + 기후환경요금 + 연료비조정요금",
+      "sourceUrl": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/D/C/CYDCHP00108.jsp",
+      "asOf": "2026-10-02"
+    },
+    {
+      "claim": "기후환경요금 단가",
+      "value": "9.0원/kWh",
+      "sourceUrl": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/D/C/CYDCHP00408.jsp",
+      "evidence": "공식 단가 이력 페이지의 2023년 1월 1일 적용 단가가 9.0원/kWh이며 이후 변경 단가가 게시되지 않음",
+      "asOf": "2026-10-02"
+    },
+    {
+      "claim": "2026년 4분기 연료비조정단가",
+      "value": "+5.0원/kWh",
+      "sourceUrl": "https://www.kepco.co.kr/home/media/newsroom/notice/boardView.do?boardMngNo=14&boardNo=2759",
+      "evidence": "2026년 10~12월분 최종 연료비조정단가",
+      "asOf": "2026-10-01~2026-12-31"
+    },
+    {
+      "claim": "2026년 4분기 산정상 연료비조정 필요 단가와 상한",
+      "value": "산정 7.3원/kWh, 상·하한 ±5원/kWh, 최종 +5.0원/kWh",
+      "sourceUrl": "https://www.kepco.co.kr/home/media/newsroom/notice/boardView.do?boardMngNo=14&boardNo=2759",
+      "asOf": "2026-10-01~2026-12-31"
+    },
+    {
+      "claim": "2026년 4분기 연료비조정단가 공지 작성일",
+      "value": "2026-09-21",
+      "sourceUrl": "https://www.kepco.co.kr/home/media/newsroom/notice/boardView.do?boardMngNo=14&boardNo=2759",
+      "asOf": "2026-10-02"
+    },
+    {
+      "claim": "부가가치세율",
+      "value": "10%",
+      "sourceUrl": "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1028444683",
+      "evidence": "부가가치세법 제30조",
+      "asOf": "2026-10-02"
+    },
+    {
+      "claim": "전력산업기반기금 부담금률",
+      "value": "전기요금의 2.7%",
+      "sourceUrl": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?ccfNo=2&cciNo=1&cnpClsNo=1&csmSeq=1008",
+      "evidence": "전기사업법 제51조 및 시행령 제36조를 근거로 현재 2.7% 안내",
+      "asOf": "2026-10-02"
+    },
+    {
+      "claim": "전기요금 청구금액의 끝수 처리",
+      "value": "부가세 포함 청구금액의 10원 미만 끝수는 계산하지 않음",
+      "sourceUrl": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/D/C/CYDCHP00101.jsp",
+      "evidence": "기본공급약관 제7조 제2항",
+      "asOf": "2026-10-02"
+    },
+    {
+      "claim": "고압 공급 아파트의 요금 계산은 단순 주택용 저압 계산과 다를 수 있음",
+      "value": "아파트 전체 사용량과 호수, 계약방식에 따라 평균사용량 또는 종합계약 방식 적용 가능",
+      "sourceUrl": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/D/C/CYDCHP00108.jsp",
+      "asOf": "2026-10-02"
+    },
+    {
+      "claim": "오래된 한전 사이버지점 계산기에 남아 있는 과거 전력산업기반기금률",
+      "value": "3.7%",
+      "sourceUrl": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/J/J/CYJJPP000_SM.jsp",
+      "evidence": "현재 2.7%와 충돌하므로 계산에는 사용하지 않는 과거 값",
+      "asOf": "legacy-page-checked-2026-10-02"
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "전력산업기반기금 부담금률",
+      "detail": "한전의 오래된 사이버지점 계산기에는 3.7%가 남아 있으나, 현재 시행 법령을 반영한 생활법령정보는 2.7%를 안내한다. 본문 계산은 현재 2.7%를 사용한다.",
+      "sources": [
+        "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/J/J/CYJJPP000_SM.jsp",
+        "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?ccfNo=2&cciNo=1&cnpClsNo=1&csmSeq=1008"
+      ]
+    }
+  ],
+  "calculations": [
+    {
+      "table": "비하계 주택용 저압 예상 청구액",
+      "formula": "전기요금계 = 기본요금 + 누진 전력량요금 + 사용량×9.0 + 사용량×5.0; 부가세 = 전기요금계×10%; 기금 = 전기요금계×2.7%(10원 미만 절사); 최종 청구액 = 합계의 10원 미만 절사",
+      "assumptions": "2026년 10~12월, 주택용 저압, 할인·TV수신료·자동이체 할인 없음",
+      "values": [2, 5, 9, 10, 21, 30, 60, 80, 100, 120, 180, 200, 201400, 300, 400, 430, 500, 1000, 120.0, 214.6, 307.3, 736.2, 3.7, 7.3, 9.0, 2700, 1500, 1600, 7300, 45460, 27710, 2771, 740, 31220, 51260, 5126, 1380, 57760, 74120, 7412, 2000, 83530, 111950, 11195, 3020, 126160]
+    },
+    {
+      "table": "7~8월 주택용 저압 예상 청구액",
+      "formula": "하계 누진구간 0~300, 301~450, 451kWh 이상을 적용하고 나머지 계산은 비하계와 동일",
+      "assumptions": "연료비조정단가는 비교 목적상 2026년 4분기 +5.0원/kWh를 동일하게 넣은 예시이며 실제 7~8월 계산 시 해당 분기 연료비조정단가를 다시 확인해야 함",
+      "values": [300, 301450, 450, 500, 41110, 4111, 1100, 46320, 76090, 7609, 2050, 85740, 97855, 9786, 2640, 110280]
+    }
+  ],
+  "watch": [
+    "분기별 연료비조정단가 변경",
+    "기후환경요금 단가 변경",
+    "주택용 저압·고압 누진요율 변경",
+    "전력산업기반기금 부담금률 변경",
+    "하계 누진구간 또는 적용기간 변경",
+    "아파트 단일계약·종합계약 계산 방식 변경"
+  ]
+}
