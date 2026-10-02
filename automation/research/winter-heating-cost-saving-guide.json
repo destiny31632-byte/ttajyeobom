@@ -1,0 +1,68 @@
+{
+  "slug": "winter-heating-cost-saving-guide",
+  "checkedAt": "2026-10-02",
+  "facts": [
+    {
+      "claim": "한국에너지공단의 겨울철 적정 실내 난방온도",
+      "value": "20℃",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do"
+    },
+    {
+      "claim": "실내 설정온도를 낮췄을 때 에너지소비량 절감 안내",
+      "value": "1℃ 낮추면 약 7% 절감",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do"
+    },
+    {
+      "claim": "온수 온도로 난방을 조절할 때의 안내값",
+      "value": "55℃ 내외",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do"
+    },
+    {
+      "claim": "겨울철 실내 적정 온도와 습도",
+      "value": "18℃에서 20℃, 40%에서 60%",
+      "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148924892"
+    },
+    {
+      "claim": "단열 보조수단의 실내온도 상승 효과 안내",
+      "value": "약 2℃에서 3℃",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do"
+    },
+    {
+      "claim": "겨울철 1회 환기 권장 시간",
+      "value": "5분에서 10분",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do"
+    },
+    {
+      "claim": "노후 난방배관 청소의 효율 개선 안내",
+      "value": "난방효율 5% 이상 개선",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do"
+    },
+    {
+      "claim": "틈새 열손실 차단 절감 예시",
+      "value": "도시가스 사용량 5.5%, 5,227원 절감",
+      "sourceUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024875"
+    },
+    {
+      "claim": "사용하지 않는 방 분배기 조절 절감 예시",
+      "value": "도시가스 사용량 4.4%, 4,160원 절감",
+      "sourceUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024875"
+    },
+    {
+      "claim": "노후 보일러 교체 절감 예시",
+      "value": "도시가스 사용량 10.4%, 9,901원 절감",
+      "sourceUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024875"
+    },
+    {
+      "claim": "여러 난방비 절약 행동을 함께 적용한 예시",
+      "value": "한 달 사용량 38%, 36,101원 절감",
+      "sourceUrl": "https://www.energy.or.kr/front/board/View21.do?boardMngNo=21&boardNo=10000670"
+    }
+  ],
+  "calculations": [],
+  "watch": [
+    "한국에너지공단 겨울철 적정 난방온도 권고 변경",
+    "도시가스 단가 변경에 따른 금액 예시의 시의성",
+    "보일러 제조사별 외출모드와 동파 방지 동작 변경",
+    "겨울철 실내 적정 습도 안내 변경"
+  ]
+}
