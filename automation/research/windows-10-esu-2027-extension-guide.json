@@ -1,0 +1,29 @@
+{
+  "slug": "windows-10-esu-2027-extension-guide",
+  "checkedAt": "2026-10-01",
+  "facts": [
+    { "claim": "윈도우 10 일반 지원 종료일", "value": "2025-10-14", "sourceUrl": "https://www.microsoft.com/ko-kr/windows/extended-security-updates" },
+    { "claim": "개인용 ESU 종료일(현재)", "value": "2027-10-12", "sourceUrl": "https://www.microsoft.com/ko-kr/windows/extended-security-updates", "evidence": "프로그램이 2027년 10월 12일에 종료될 때까지 언제든지 ESU에 등록" },
+    { "claim": "개인용 ESU 처음 안내된 종료일 / 기업용 ESU 1년 차 종료일", "value": "2026-10-13", "sourceUrl": "https://learn.microsoft.com/en-us/lifecycle/faq/extended-security-updates" },
+    { "claim": "기업용 ESU 2년 차·3년 차 종료일", "value": "2027-10-12, 2028-10-10", "sourceUrl": "https://learn.microsoft.com/en-us/lifecycle/faq/extended-security-updates" },
+    { "claim": "연장 안내 변경일", "value": "2026-06-25", "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/" },
+    { "claim": "ESU 등록 비용", "value": "무료(설정 백업), 리워드 1,000점, 30달러 일회성", "sourceUrl": "https://www.microsoft.com/ko-kr/windows/extended-security-updates" },
+    { "claim": "라이선스 1개 사용 가능 기기 수", "value": "10대", "sourceUrl": "https://www.microsoft.com/ko-kr/windows/extended-security-updates" },
+    { "claim": "ESU 준비 패키지", "value": "KB5126256", "sourceUrl": "https://www.microsoft.com/ko-kr/windows/extended-security-updates" },
+    { "claim": "Microsoft 365 앱(윈도우 10) 보안 업데이트 종료일", "value": "2028-10-10", "sourceUrl": "https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-10-support" },
+    { "claim": "Microsoft 365 앱 기능 업데이트 마지막 버전", "value": "2608", "sourceUrl": "https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-10-support" },
+    { "claim": "Office 2021 지원 종료", "value": "2026-10-13 (PT, 10/14/2026 6:59:59 AM PT)", "sourceUrl": "https://learn.microsoft.com/en-us/lifecycle/products/office-2021" },
+    { "claim": "윈도우 11 최소 요구 사항", "value": "1GHz 2코어 64비트, RAM 4GB, 저장 공간 64GB, UEFI 보안 부팅, TPM 2.0, DirectX 12 WDDM 2.0, 9인치 초과 720p", "sourceUrl": "https://www.microsoft.com/ko-kr/windows/windows-11-specifications" },
+    { "claim": "미지원 PC 윈도우 11 설치 후 되돌리기 가능 기간", "value": "10일", "sourceUrl": "https://support.microsoft.com/ko-kr/windows/windows-11%EC%9D%84-%EC%B5%9C%EC%86%8C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%9A%94%EA%B5%AC-%EC%82%AC%ED%95%AD%EC%9D%84-%EC%B6%A9%EC%A1%B1%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%EC%97%90-%EC%84%A4%EC%B9%98-0b2dc4a2-5933-4ad4-9c09-ef0a331518f1" }
+  ],
+  "calculations": [
+    { "table": "PC 수별 1대당 비용", "formula": "30달러 / PC 수 (1, 2, 3, 5, 10대)", "values": [30, 15, 10, 6, 3] },
+    { "table": "2026-10-01 기준 남은 기간", "formula": "(종료일 - 2026-10-01) 일수 / 30.44", "assumptions": "Office 2021 12일, 개인용 ESU 376일, 2028-10-10까지 740일", "values": [12, 376, 740, 0.4, 12.4, 24.3] }
+  ],
+  "watch": [
+    "개인용 ESU 종료일(2027-10-12) 추가 변경 여부",
+    "ESU 등록 비용·방법 변경",
+    "등록 필수 조건(KB5126256 등) 변경",
+    "Microsoft 365 앱·OneDrive 윈도우 10 지원 종료일"
+  ]
+}

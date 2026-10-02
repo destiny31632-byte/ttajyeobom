@@ -1,0 +1,158 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import TableOfContents from '../../components/TableOfContents.astro';
+import SourceList from '../../components/SourceList.astro';
+import Disclosure from '../../components/Disclosure.astro';
+import AuthorBox from '../../components/AuthorBox.astro';
+import PrevNext from '../../components/PrevNext.astro';
+import RelatedPosts from '../../components/RelatedPosts.astro';
+import ArticleTopAd from '../../components/ads/ArticleTopAd.astro';
+import ArticleBottomAd from '../../components/ads/ArticleBottomAd.astro';
+import SidebarAd from '../../components/ads/SidebarAd.astro';
+import { AUTHORS, getCategory } from '../../config/taxonomy';
+import { formatDateKo, isoKst, ymdKst } from '../../lib/format';
+import {
+  categoryUrl,
+  getPrevNext,
+  getPublishedPosts,
+  getRelatedPosts,
+  lastModified,
+  postUrl,
+  readingTime,
+  tagUrl,
+  type Post,
+} from '../../lib/posts';
+import { articleLd, breadcrumbLd, graph, organizationLd, personLd, websiteLd } from '../../lib/seo';
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+interface Props {
+  post: Post;
+}
+const { post } = Astro.props;
+const d = post.data;
+const { Content, headings } = await render(post);
+const category = getCategory(d.category)!;
+const author = AUTHORS[d.author] ?? AUTHORS.editor;
+const modified = lastModified(post);
+const wasUpdated = modified.valueOf() !== d.pubDate.valueOf();
+const site = Astro.site!;
+const ogImage = d.ogImage ?? '/og-default.png';
+const crumbs = [
+  { name: '홈', href: '/' },
+  { name: category.name, href: categoryUrl(d.category) },
+  { name: d.title, href: postUrl(post) },
+];
+const related = await getRelatedPosts(post, 4);
+const { prev, next } = await getPrevNext(post);
+const latest = (await getPublishedPosts()).filter((p) => p.id !== post.id).slice(0, 5);
+const jsonLd = graph(
+  articleLd(site, post, new URL(ogImage, site).href),
+  breadcrumbLd(site, crumbs),
+  personLd(site, author.id),
+  organizationLd(site),
+  websiteLd(site),
+);
+---
+
+<BaseLayout
+  title={d.title}
+  description={d.description}
+  image={ogImage}
+  imageAlt={d.title}
+  type="article"
+  noindex={d.draft}
+  jsonLd={jsonLd}
+  article={{ published: isoKst(d.pubDate), modified: isoKst(modified), section: category.name, tags: d.tags }}
+>
+  <div class="container">
+    <div class="article-shell">
+      <article data-pagefind-body data-pagefind-sort={`date:${ymdKst(d.pubDate)}`}>
+        <header class="article-header">
+          <Breadcrumb items={crumbs} />
+          <p style="margin:14px 0 0">
+            <a class="badge" href={categoryUrl(d.category)} data-pagefind-filter="category">{category.name}</a>
+            {d.draft && <span class="badge badge--draft">초안 · 미발행</span>}
+          </p>
+          <h1>{d.title}</h1>
+          <p class="lede">{d.description}</p>
+          <div class="byline">
+            <span>작성 <a href={`/author/${author.id}/`}>{author.name}</a></span>
+            <span>작성일 <time datetime={isoKst(d.pubDate)}>{formatDateKo(d.pubDate)}</time></span>
+            {
+              wasUpdated && (
+                <span>
+                  최종 수정일 <time datetime={isoKst(modified)}>{formatDateKo(modified)}</time>
+                </span>
+              )
+            }
+            <span>읽는 시간 약 {readingTime(post)}분</span>
+          </div>
+        </header>
+
+        {
+          d.summary && d.summary.length > 0 && (
+            <section class="summary-box" aria-labelledby="summary-title">
+              <h2 id="summary-title">핵심 요약</h2>
+              <ul>
+                {d.summary.map((s) => (
+                  <li>{s}</li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+
+        <TableOfContents headings={headings} variant="inline" />
+        <div data-pagefind-ignore><ArticleTopAd /></div>
+
+        <div class="prose">
+          <Content />
+        </div>
+
+        <div data-pagefind-ignore><ArticleBottomAd /></div>
+        <SourceList sources={d.sources} images={d.images} />
+        <Disclosure method={d.generation.method} />
+
+        <ul class="tag-list" aria-label="태그" data-pagefind-ignore>
+          {
+            d.tags.map((t) => (
+              <li>
+                <a href={tagUrl(t)}>#{t}</a>
+              </li>
+            ))
+          }
+        </ul>
+        <AuthorBox authorId={author.id} />
+        <PrevNext prev={prev} next={next} />
+      </article>
+
+      <aside class="sidebar" aria-label="보조 메뉴">
+        <div class="sidebar-block"><SidebarAd /></div>
+        {
+          latest.length > 0 && (
+            <div class="sidebar-block">
+              <h2>최신 글</h2>
+              <ul class="compact-list">
+                {latest.map((p) => (
+                  <li>
+                    <a href={postUrl(p)}>{p.data.title}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
+        <div class="sidebar-sticky">
+          <TableOfContents headings={headings} variant="sidebar" />
+        </div>
+      </aside>
+    </div>
+    <RelatedPosts posts={related} />
+  </div>
+</BaseLayout>

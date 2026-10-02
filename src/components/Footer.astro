@@ -1,0 +1,52 @@
+---
+import { FOOTER_LINKS, SITE } from '../config/site';
+import { CATEGORIES } from '../config/taxonomy';
+
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <section>
+        <h2>{SITE.name}</h2>
+        <p>{SITE.description}</p>
+        <p>
+          <a href="/rss.xml">RSS 구독</a> · <a href="/sitemap.xml">사이트맵</a> · <a href="/search/">검색</a>
+        </p>
+      </section>
+      <nav aria-label="사이트 정보">
+        <h2>사이트 정보</h2>
+        <ul>
+          {
+            FOOTER_LINKS.map((l) => (
+              <li>
+                <a href={l.href}>{l.label}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+      <nav aria-label="카테고리 바로가기">
+        <h2>카테고리</h2>
+        <ul>
+          {
+            CATEGORIES.map((c) => (
+              <li>
+                <a href={`/category/${c.slug}/`}>{c.name}</a>
+              </li>
+            ))
+          }
+          <li><a href="/posts/">전체 글</a></li>
+          <li><a href="/tags/">태그 모음</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer-note">
+      이 사이트의 글은 공개 자료를 확인·정리해 작성하며, 일부 과정에 AI 도구를 활용합니다. 요금·가격·제도는 바뀔 수 있으니
+      중요한 결정 전에는 각 글에 적힌 공식 출처를 다시 확인해 주세요. 자세한 기준은 <a href="/editorial-policy/">편집 원칙</a>에
+      있습니다.<br />© {year}
+      {SITE.name}. All rights reserved.
+    </p>
+  </div>
+</footer>

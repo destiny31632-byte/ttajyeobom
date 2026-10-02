@@ -1,0 +1,42 @@
+{
+  "name": "ttajyeobom",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "따져봄 - 숫자로 따져보는 한국어 생활 가이드 블로그 (Astro + 무료 자동화 파이프라인)",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "test": "vitest run",
+    "check:dist": "node automation/cli/check-dist.ts",
+    "check:links": "node automation/cli/check-dist.ts --external",
+    "gate": "node automation/cli/gate.ts",
+    "chart": "node automation/cli/chart.ts",
+    "readiness": "node automation/cli/readiness.ts",
+    "links:update": "node automation/cli/links.ts",
+    "publish:draft": "node automation/cli/publish.ts",
+    "pipeline:daily": "node automation/run-daily.ts",
+    "pipeline:weekly": "node automation/run-weekly.ts",
+    "assets:brand": "node automation/cli/brand-assets.ts",
+    "verify": "npm run build && npm test && npm run check:dist"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "7.3.1",
+    "@astrojs/rss": "4.0.19",
+    "@mozilla/readability": "0.6.0",
+    "astro": "7.3.5",
+    "fast-xml-parser": "5.11.2",
+    "linkedom": "0.18.13",
+    "pagefind": "1.5.2",
+    "robots-parser": "3.0.1",
+    "sharp": "0.35.5",
+    "yaml": "2.9.1"
+  },
+  "devDependencies": {
+    "vitest": "5.0.3"
+  }
+}

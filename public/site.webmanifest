@@ -1,0 +1,14 @@
+{
+  "name": "따져봄",
+  "short_name": "따져봄",
+  "description": "사기 전, 신청 전, 바꾸기 전에 숫자로 따져보는 생활 가이드",
+  "lang": "ko",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "icons": [
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/logo-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

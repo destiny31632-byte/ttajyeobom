@@ -1,0 +1,31 @@
+---
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+interface Props {
+  headings: Heading[];
+  variant?: 'inline' | 'sidebar';
+}
+const { headings, variant = 'inline' } = Astro.props;
+const items = headings.filter((h) => h.depth === 2 || h.depth === 3);
+const h2Count = items.filter((h) => h.depth === 2).length;
+---
+
+{
+  items.length >= 3 && (
+    <details class={`toc toc--${variant}`} open={variant === 'sidebar'} data-pagefind-ignore>
+      <summary>목차 ({h2Count}개 주제)</summary>
+      <nav aria-label="목차">
+        <ol>
+          {items.map((h) => (
+            <li class={`depth-${h.depth}`}>
+              <a href={`#${h.slug}`}>{h.text}</a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+    </details>
+  )
+}

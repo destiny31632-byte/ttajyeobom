@@ -1,0 +1,21 @@
+---
+import { AUTHORS } from '../config/taxonomy';
+
+interface Props {
+  authorId: string;
+}
+const a = AUTHORS[Astro.props.authorId] ?? AUTHORS.editor;
+---
+
+<section class="author-box" aria-label="작성자 정보" data-pagefind-ignore>
+  <div class="avatar" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+      <circle cx="12" cy="8" r="4"></circle>
+      <path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"></path>
+    </svg>
+  </div>
+  <div>
+    <h2><a href={`/author/${a.id}/`}>{a.name}</a> <small>· {a.role}</small></h2>
+    <p>{a.shortBio}</p>
+  </div>
+</section>

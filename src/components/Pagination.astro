@@ -1,0 +1,35 @@
+---
+interface Props {
+  current: number;
+  last: number;
+  /** 페이지 번호 → URL */
+  hrefFor: (page: number) => string;
+}
+const { current, last, hrefFor } = Astro.props;
+const pages: number[] = [];
+for (let p = Math.max(1, current - 2); p <= Math.min(last, current + 2); p++) pages.push(p);
+---
+
+{
+  last > 1 && (
+    <nav class="pagination" aria-label="페이지 이동">
+      {current > 1 && (
+        <a href={hrefFor(current - 1)} rel="prev">
+          이전
+        </a>
+      )}
+      {pages.map((p) =>
+        p === current ? (
+          <span aria-current="page">{p}</span>
+        ) : (
+          <a href={hrefFor(p)}>{p}</a>
+        ),
+      )}
+      {current < last && (
+        <a href={hrefFor(current + 1)} rel="next">
+          다음
+        </a>
+      )}
+    </nav>
+  )
+}

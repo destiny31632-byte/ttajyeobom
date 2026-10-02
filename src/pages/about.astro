@@ -1,0 +1,64 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE } from '../config/site';
+import { CATEGORIES } from '../config/taxonomy';
+import { getPublishedPosts } from '../lib/posts';
+
+const count = (await getPublishedPosts()).filter((p) => !p.data.draft).length;
+---
+
+<PageLayout
+  title="블로그 소개"
+  description={`${SITE.name}는 요금·비용·기간처럼 숫자로 판단해야 하는 생활 정보를 공식 자료와 직접 계산한 표로 정리하는 블로그입니다.`}
+  updated="2026-10-01"
+  schemaType="AboutPage"
+>
+  <p>
+    <strong>{SITE.name}</strong>는 "그래서 나는 뭘 고르면 되지?"라는 질문에 답하려고 만든 생활 정보 블로그입니다. 휴대폰 배터리를 지금
+    바꿔야 하는지, 전기장판과 히터 중 어느 쪽이 전기요금이 덜 나오는지, 해외직구를 몇 달러까지 하면 세금이 붙지 않는지처럼 결국
+    숫자로 판단해야 하는 문제를 다룹니다.
+  </p>
+  <p>지금까지 발행한 글은 {count}개이며, 품질 검수를 통과한 글만 하나씩 늘려 가고 있습니다.</p>
+
+  <h2>무엇을 다루나요</h2>
+  <ul>
+    {
+      CATEGORIES.map((c) => (
+        <li>
+          <a href={`/category/${c.slug}/`}>{c.name}</a> — {c.description}
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2>글은 이런 순서로 읽히게 만듭니다</h2>
+  <ol>
+    <li><strong>핵심 요약</strong> — 바쁜 분은 맨 위 요약만 읽어도 결론을 알 수 있게 씁니다.</li>
+    <li><strong>판단 기준과 계산표</strong> — 요금·비용·기간은 기준과 가정을 밝히고 직접 계산한 표로 보여 줍니다.</li>
+    <li><strong>상황별 선택</strong> — "이런 경우엔 A, 저런 경우엔 B"처럼 독자 상황에 맞춰 나눕니다.</li>
+    <li><strong>자주 하는 실수와 FAQ</strong> — 실제로 많이 헷갈리는 지점을 따로 정리합니다.</li>
+    <li><strong>출처와 조회일</strong> — 근거가 된 공식 자료를 글 끝에 모두 남깁니다.</li>
+  </ol>
+
+  <h2>어떻게 만드나요</h2>
+  <p>
+    정부·공공기관과 제조사 공식 문서를 1차 근거로 삼고, 언론 보도는 사실을 교차 확인하는 데 씁니다. 자료 정리와 초안 작성에는 AI
+    도구를 활용합니다. 그 대신 발행 전에 출처 확인, 기존 글과의 중복 검사, 반복 표현·맞춤법 점검, 민감 주제 검사 같은 자동 품질
+    검수를 거치고, 기준에 못 미치면 발행하지 않고 초안으로 남깁니다. 자세한 기준은 <a href="/editorial-policy/">편집 원칙·AI 활용 고지</a>에
+    공개해 두었습니다.
+  </p>
+
+  <h2>다루지 않는 것</h2>
+  <ul>
+    <li>특정 주식·코인 같은 개별 투자 추천</li>
+    <li>질병 진단이나 치료법 같은 의료 판단</li>
+    <li>개인 사건에 대한 법률 자문</li>
+    <li>사건·사고, 정치 논쟁, 연예인 사생활처럼 정보보다 화제성이 큰 주제</li>
+  </ul>
+
+  <h2>운영자와 연락처</h2>
+  <p>
+    {SITE.name}는 개인이 운영합니다. 운영자 소개는 <a href="/author/editor/">작성자 소개</a>에서, 정정 요청이나 제보는
+    <a href="/contact/">문의 페이지</a>에서 확인하실 수 있습니다.
+  </p>
+</PageLayout>

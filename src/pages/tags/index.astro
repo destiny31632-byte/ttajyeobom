@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { SITE } from '../../config/site';
+import { getTagCounts, tagUrl } from '../../lib/posts';
+import { breadcrumbLd, graph } from '../../lib/seo';
+
+const tags = await getTagCounts();
+const crumbs = [
+  { name: '홈', href: '/' },
+  { name: '태그', href: '/tags/' },
+];
+---
+
+<BaseLayout
+  title="태그 모음"
+  description={`${SITE.name}의 글에 붙은 태그 ${tags.length}개를 글 수가 많은 순서로 모았습니다.`}
+  jsonLd={graph(breadcrumbLd(Astro.site!, crumbs))}
+>
+  <div class="container page-section">
+    <Breadcrumb items={crumbs} />
+    <h1 class="section-title" style="font-size:1.75rem;margin-top:14px">태그 모음</h1>
+    <p style="color:var(--muted)">관심 있는 키워드를 눌러 관련 글을 한 번에 보세요. 괄호 안 숫자는 글 수입니다.</p>
+    <ul class="tag-list">
+      {
+        tags.map(({ tag, count }) => (
+          <li>
+            <a href={tagUrl(tag)}>
+              #{tag} ({count})
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</BaseLayout>

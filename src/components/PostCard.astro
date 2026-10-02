@@ -1,0 +1,26 @@
+---
+import { getCategory } from '../config/taxonomy';
+import { formatDateKo, isoKst } from '../lib/format';
+import { categoryUrl, postUrl, readingTime, type Post } from '../lib/posts';
+
+interface Props {
+  post: Post;
+  headingLevel?: 2 | 3;
+}
+const { post } = Astro.props;
+const d = post.data;
+const cat = getCategory(d.category);
+---
+
+<article class="post-card">
+  <div>
+    <a class="badge" href={categoryUrl(d.category)}>{cat?.name ?? d.category}</a>
+    {d.draft && <span class="badge badge--draft">초안</span>}
+  </div>
+  <h3><a href={postUrl(post)}>{d.title}</a></h3>
+  <p>{d.description}</p>
+  <div class="meta">
+    <time datetime={isoKst(d.pubDate)}>{formatDateKo(d.pubDate)}</time>
+    <span>읽는 시간 약 {readingTime(post)}분</span>
+  </div>
+</article>

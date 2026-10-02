@@ -1,0 +1,11 @@
+// Cloudflare Workers(정적 자산) 무료 플랜으로 옮길 때 사용하는 설정.
+// 광고(AdSense)를 켜기 전 Vercel Hobby(비상업 전용)에서 이전할 때 쓰세요. 자세한 절차: OPERATIONS.md
+{
+  "name": "ttajyeobom",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "html_handling": "force-trailing-slash"
+  }
+}

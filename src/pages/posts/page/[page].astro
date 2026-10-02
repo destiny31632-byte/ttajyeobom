@@ -1,0 +1,40 @@
+---
+import ListPage from '../../../components/ListPage.astro';
+import { SITE } from '../../../config/site';
+import { getPublishedPosts, type Post } from '../../../lib/posts';
+
+export async function getStaticPaths() {
+  const all = await getPublishedPosts();
+  const per = SITE.postsPerPage;
+  const last = Math.ceil(all.length / per);
+  const paths = [];
+  for (let n = 2; n <= last; n++) {
+    paths.push({ params: { page: String(n) }, props: { posts: all.slice((n - 1) * per, n * per), current: n, last, total: all.length } });
+  }
+  return paths;
+}
+
+interface Props {
+  posts: Post[];
+  current: number;
+  last: number;
+  total: number;
+}
+const { posts, current, last, total } = Astro.props;
+---
+
+<ListPage
+  title="전체 글"
+  heading={`전체 글 (${current}페이지)`}
+  description={`${SITE.name}의 전체 글 ${total}개 중 ${current}페이지 목록입니다.`}
+  posts={posts}
+  current={current}
+  last={last}
+  baseHref="/posts/"
+  pageHref={(n) => (n === 1 ? '/posts/' : `/posts/page/${n}/`)}
+  crumbs={[
+    { name: '홈', href: '/' },
+    { name: '전체 글', href: '/posts/' },
+    { name: `${current}페이지`, href: `/posts/page/${current}/` },
+  ]}
+/>

@@ -1,0 +1,13 @@
+---
+// 공통 광고 슬롯. 게시자 ID·슬롯 ID가 설정되지 않으면 아무것도 출력하지 않습니다.
+// 광고는 "광고" 라벨과 구분선으로 본문과 분리하며, 클릭 유도 문구는 넣지 않습니다.
+import { ADS } from '../../config/site';
+import { adMarkup } from '../../lib/ads-markup.mjs';
+
+interface Props {
+  kind: 'article-top' | 'in-article' | 'article-bottom' | 'sidebar';
+}
+const html = adMarkup(Astro.props.kind, ADS);
+---
+
+{html && <Fragment set:html={html} />}

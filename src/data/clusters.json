@@ -1,0 +1,74 @@
+[
+  {
+    "id": "windows-pc",
+    "name": "윈도우·PC 관리",
+    "category": "it",
+    "description": "윈도우 업데이트, 지원 종료, PC 교체 판단 기준"
+  },
+  {
+    "id": "smartphone-battery",
+    "name": "스마트폰 배터리",
+    "category": "it",
+    "description": "아이폰·갤럭시 배터리 수명, 교체 기준, 충전 설정"
+  },
+  {
+    "id": "winter-heating",
+    "name": "겨울 난방·가전",
+    "category": "home",
+    "description": "난방 가전 전기요금, 보일러 설정, 가습기 선택"
+  },
+  {
+    "id": "electricity-bill",
+    "name": "전기요금 계산",
+    "category": "living",
+    "description": "주택용 누진제 구간과 가전별 전기요금 계산"
+  },
+  {
+    "id": "overseas-shopping",
+    "name": "해외직구·관세",
+    "category": "living",
+    "description": "면세 한도, 관세·부가세 계산, 통관 절차"
+  },
+  {
+    "id": "year-end-tax",
+    "name": "연말정산 준비",
+    "category": "living",
+    "description": "카드 소득공제, 공제 한도 계산, 연말 전 점검 항목"
+  },
+  {
+    "id": "passport-travel-docs",
+    "name": "여권·출입국 서류",
+    "category": "public",
+    "description": "여권 발급·재발급 비용과 기간, 출입국 절차"
+  },
+  {
+    "id": "civil-documents",
+    "name": "민원 서류 발급",
+    "category": "public",
+    "description": "주민등록등본 등 민원 서류의 발급 방법·수수료·온라인 발급"
+  },
+  {
+    "id": "driver-license",
+    "name": "운전면허 관리",
+    "category": "public",
+    "description": "운전면허 갱신·적성검사 기간, 수수료, 온라인 신청"
+  },
+  {
+    "id": "public-transport-pass",
+    "name": "대중교통 할인",
+    "category": "travel",
+    "description": "K-패스, 기후동행카드 등 교통비 환급·정액권 비교"
+  },
+  {
+    "id": "airport",
+    "name": "공항 이용",
+    "category": "travel",
+    "description": "공항 주차, 이동 수단, 출국 준비 비용"
+  },
+  {
+    "id": "overseas-data",
+    "name": "해외 데이터",
+    "category": "travel",
+    "description": "로밍, eSIM, 유심, 포켓와이파이 비용 비교"
+  }
+]

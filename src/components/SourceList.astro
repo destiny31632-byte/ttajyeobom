@@ -1,0 +1,72 @@
+---
+import { SOURCE_TYPE_LABELS, type SourceType } from '../config/taxonomy';
+import { ymdKst } from '../lib/format';
+
+interface Source {
+  title: string;
+  url: string;
+  publisher: string;
+  type: SourceType;
+  accessed: Date;
+  note?: string;
+}
+interface ImageMeta {
+  src: string;
+  alt: string;
+  kind: string;
+  author?: string;
+  license: string;
+  licenseUrl?: string;
+  sourceUrl?: string;
+  sourceName?: string;
+  dataSource?: string;
+}
+interface Props {
+  sources: Source[];
+  images: ImageMeta[];
+}
+const { sources, images } = Astro.props;
+const external = images.filter((i) => i.kind !== 'own-chart' && i.kind !== 'own-diagram');
+---
+
+<section class="info-block" aria-labelledby="sources-title" data-pagefind-ignore>
+  <h2 id="sources-title">참고한 자료</h2>
+  <ol>
+    {
+      sources.map((s) => (
+        <li>
+          <span class="source-type">{SOURCE_TYPE_LABELS[s.type]}</span>
+          <a href={s.url} target="_blank" rel="noopener noreferrer">
+            {s.title}
+          </a>{' '}
+          — {s.publisher} <small>(조회: {ymdKst(s.accessed)})</small>
+          {s.note && <small> · {s.note}</small>}
+        </li>
+      ))
+    }
+  </ol>
+  <p class="note">
+    요금·가격·제도는 바뀔 수 있습니다. 글에 적힌 기준일과 조회일을 확인하고, 중요한 결정 전에는 공식 안내를 다시 확인해 주세요.
+  </p>
+  {
+    external.length > 0 && (
+      <>
+        <h2>이미지 출처</h2>
+        <ul>
+          {external.map((i) => (
+            <li>
+              {i.sourceUrl ? (
+                <a href={i.sourceUrl} target="_blank" rel="noopener noreferrer">
+                  {i.alt}
+                </a>
+              ) : (
+                i.alt
+              )}{' '}
+              — {i.author ?? i.sourceName}, {i.licenseUrl ? <a href={i.licenseUrl} target="_blank" rel="noopener license">{i.license}</a> : i.license}
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+</section>

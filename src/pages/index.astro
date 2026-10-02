@@ -1,0 +1,103 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostGrid from '../components/PostGrid.astro';
+import { SITE } from '../config/site';
+import { CATEGORIES } from '../config/taxonomy';
+import { categoryUrl, getPopularPosts, getPublishedPosts, postUrl } from '../lib/posts';
+import { graph, organizationLd, websiteLd } from '../lib/seo';
+
+const posts = await getPublishedPosts();
+const latest = posts.slice(0, 9);
+const { posts: popular, basis } = await getPopularPosts(5);
+const byCategory = CATEGORIES.map((c) => ({ ...c, posts: posts.filter((p) => p.data.category === c.slug) }));
+const site = Astro.site!;
+---
+
+<BaseLayout title={SITE.name} description={SITE.description} jsonLd={graph(websiteLd(site), organizationLd(site))}>
+  <section class="hero">
+    <div class="container">
+      <h1>결정하기 전에, 숫자로 따져보세요</h1>
+      <p>
+        {SITE.tagline}. 공식 자료를 먼저 확인하고, 요금·비용·기간은 직접 계산한 표로 비교합니다.
+      </p>
+      <form class="search-form" action="/search/" method="get" role="search">
+        <label class="sr-only" for="home-q">사이트 검색</label>
+        <input id="home-q" name="q" type="search" placeholder="예: 전기요금, 여권 재발급, 배터리 교체" autocomplete="off" />
+        <button class="btn" type="submit">검색</button>
+      </form>
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="page-section" aria-labelledby="latest-title">
+      <div class="section-head">
+        <h2 id="latest-title" class="section-title">최신 글</h2>
+        <a class="more-link" href="/posts/">전체 글 보기 →</a>
+      </div>
+      <PostGrid posts={latest} />
+    </section>
+
+    {
+      popular.length > 0 && (
+        <section class="page-section" aria-labelledby="popular-title">
+          <h2 id="popular-title" class="section-title">
+            {basis === 'search' ? '많이 읽은 글' : '먼저 읽어 볼 만한 글'}
+          </h2>
+          <ol class="compact-list ranked">
+            {popular.map((p) => (
+              <li>
+                <a href={postUrl(p)}>{p.data.title}</a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )
+    }
+
+    <section class="page-section" aria-labelledby="cat-title">
+      <h2 id="cat-title" class="section-title">카테고리별로 보기</h2>
+      <div class="category-grid">
+        {
+          byCategory.map((c) => (
+            <section class="category-card">
+              <h3>
+                <a href={categoryUrl(c.slug)}>{c.name}</a> <small>({c.posts.length})</small>
+              </h3>
+              <p>{c.description}</p>
+              {c.posts.length > 0 && (
+                <ul class="compact-list">
+                  {c.posts.slice(0, 3).map((p) => (
+                    <li>
+                      <a href={postUrl(p)}>{p.data.title}</a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </section>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="page-section" aria-labelledby="how-title">
+      <h2 id="how-title" class="section-title">따져봄은 이렇게 만듭니다</h2>
+      <div class="category-grid">
+        <section class="category-card">
+          <h3>공식 자료가 먼저</h3>
+          <p>정부·공공기관과 제조사 공식 문서를 1차 근거로 삼고, 보도는 교차 확인용으로 씁니다. 모든 글 끝에 출처와 조회일을 남깁니다.</p>
+        </section>
+        <section class="category-card">
+          <h3>직접 계산한 표</h3>
+          <p>요금·비용·기간처럼 숫자가 필요한 내용은 계산 기준을 밝히고 표로 다시 계산합니다. 흩어진 정보를 결정 순서대로 묶습니다.</p>
+        </section>
+        <section class="category-card">
+          <h3>틀리면 고칩니다</h3>
+          <p>
+            정보가 바뀌거나 오류를 확인하면 본문을 고치고 수정일을 표시합니다. 기준은 <a href="/editorial-policy/">편집 원칙</a>에 공개해
+            두었습니다.
+          </p>
+        </section>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

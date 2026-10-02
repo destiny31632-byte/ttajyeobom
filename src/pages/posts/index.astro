@@ -1,0 +1,25 @@
+---
+import ListPage from '../../components/ListPage.astro';
+import { SITE } from '../../config/site';
+import { getPublishedPosts } from '../../lib/posts';
+
+const all = await getPublishedPosts();
+const per = SITE.postsPerPage;
+const last = Math.max(1, Math.ceil(all.length / per));
+---
+
+<ListPage
+  title="전체 글"
+  heading="전체 글"
+  description={`${SITE.name}에 발행된 모든 글을 최신순으로 모았습니다. 총 ${all.length}개의 생활 가이드가 있습니다.`}
+  intro={`최신순으로 정렬한 전체 글 목록입니다. 주제별로 보려면 상단 카테고리나 태그 모음을 이용하세요.`}
+  posts={all.slice(0, per)}
+  current={1}
+  last={last}
+  baseHref="/posts/"
+  pageHref={(n) => (n === 1 ? '/posts/' : `/posts/page/${n}/`)}
+  crumbs={[
+    { name: '홈', href: '/' },
+    { name: '전체 글', href: '/posts/' },
+  ]}
+/>

@@ -1,0 +1,19 @@
+{
+  "$comment": "자동 품질 검수 기준. fail 이 하나라도 있거나 점수가 passScore 미만이면 발행하지 않고 초안으로 남깁니다.",
+  "minChars": 2500,
+  "targetChars": 3500,
+  "minH2": 4,
+  "minSources": 3,
+  "minInternalLinks": 2,
+  "maxTableColumns": 6,
+  "titleChars": { "min": 18, "max": 60 },
+  "descriptionChars": { "min": 70, "max": 160 },
+  "duplicateBody": { "warn": 0.45, "fail": 0.6 },
+  "duplicateTitle": { "warn": 0.75, "fail": 0.9 },
+  "duplicateTopic": { "warn": 0.6, "fail": 0.82 },
+  "plagiarism": { "maxCopiedRunChars": 60, "containmentWarn": 0.08, "containmentFail": 0.15 },
+  "factSupport": { "warnRatio": 0.1, "failRatio": 0.2 },
+  "sourceMaxAgeDays": { "high": 120, "medium": 365, "low": 1095 },
+  "passScore": 75,
+  "penalty": { "fail": 15, "warn": 3 }
+}

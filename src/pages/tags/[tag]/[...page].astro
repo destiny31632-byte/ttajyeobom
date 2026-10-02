@@ -1,0 +1,47 @@
+---
+import ListPage from '../../../components/ListPage.astro';
+import { SITE } from '../../../config/site';
+import { getPublishedPosts, getTagCounts, tagSlug, tagUrl, type Post } from '../../../lib/posts';
+
+export async function getStaticPaths() {
+  const all = await getPublishedPosts();
+  const tags = await getTagCounts();
+  const per = SITE.postsPerPage;
+  return tags.flatMap(({ tag }) => {
+    const posts = all.filter((p) => p.data.tags.includes(tag));
+    const last = Math.max(1, Math.ceil(posts.length / per));
+    return Array.from({ length: last }, (_, i) => ({
+      params: { tag: tagSlug(tag), page: i === 0 ? undefined : String(i + 1) },
+      props: { tag, posts: posts.slice(i * per, (i + 1) * per), current: i + 1, last, total: posts.length },
+    }));
+  });
+}
+
+interface Props {
+  tag: string;
+  posts: Post[];
+  current: number;
+  last: number;
+  total: number;
+}
+const { tag, posts, current, last, total } = Astro.props;
+const base = tagUrl(tag);
+---
+
+<ListPage
+  title={`#${tag} 관련 글`}
+  heading={`#${tag}`}
+  description={`'${tag}' 태그가 붙은 ${SITE.name} 글 ${total}개를 모았습니다.`}
+  intro={`'${tag}'와 관련해 정리한 글 ${total}개입니다.`}
+  posts={posts}
+  current={current}
+  last={last}
+  baseHref={base}
+  pageHref={(n) => (n === 1 ? base : `${base}${n}/`)}
+  noindex={total < 2}
+  crumbs={[
+    { name: '홈', href: '/' },
+    { name: '태그', href: '/tags/' },
+    { name: `#${tag}`, href: base },
+  ]}
+/>

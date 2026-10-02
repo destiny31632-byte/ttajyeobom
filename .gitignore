@@ -1,0 +1,24 @@
+# dependencies / build output
+node_modules/
+dist/
+.astro/
+coverage/
+
+# local env & secrets (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*-service-account*.json
+
+# platform
+.vercel/
+.wrangler/
+
+# automation caches (raw fetched pages are never committed)
+automation/.cache/
+automation/tmp/
+
+# OS / editor
+.DS_Store
+Thumbs.db

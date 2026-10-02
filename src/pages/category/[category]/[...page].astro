@@ -1,0 +1,47 @@
+---
+import ListPage from '../../../components/ListPage.astro';
+import { SITE } from '../../../config/site';
+import { CATEGORIES, type Category } from '../../../config/taxonomy';
+import { getPublishedPosts, type Post } from '../../../lib/posts';
+
+export async function getStaticPaths() {
+  const all = await getPublishedPosts();
+  const per = SITE.postsPerPage;
+  return CATEGORIES.flatMap((category) => {
+    const posts = all.filter((p) => p.data.category === category.slug);
+    const last = Math.max(1, Math.ceil(posts.length / per));
+    return Array.from({ length: last }, (_, i) => ({
+      params: { category: category.slug, page: i === 0 ? undefined : String(i + 1) },
+      props: { category, posts: posts.slice(i * per, (i + 1) * per), current: i + 1, last, total: posts.length },
+    }));
+  });
+}
+
+interface Props {
+  category: Category;
+  posts: Post[];
+  current: number;
+  last: number;
+  total: number;
+}
+const { category, posts, current, last, total } = Astro.props;
+const base = `/category/${category.slug}/`;
+---
+
+<ListPage
+  title={category.name}
+  heading={category.name}
+  description={`${category.description} ${SITE.name}의 ${category.name} 글 ${total}개를 모았습니다.`}
+  intro={category.description}
+  posts={posts}
+  current={current}
+  last={last}
+  baseHref={base}
+  pageHref={(n) => (n === 1 ? base : `${base}${n}/`)}
+  noindex={total === 0}
+  crumbs={[
+    { name: '홈', href: '/' },
+    { name: category.name, href: base },
+    ...(current > 1 ? [{ name: `${current}페이지`, href: `${base}${current}/` }] : []),
+  ]}
+/>

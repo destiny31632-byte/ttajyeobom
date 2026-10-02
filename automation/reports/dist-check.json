@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-02T05:02:27.588Z",
+  "site": "https://ttajyeobom.vercel.app",
+  "pages": 23,
+  "indexable": 12,
+  "failures": [],
+  "warnings": [],
+  "externalLinks": [
+    "https://learn.microsoft.com/en-us/lifecycle/faq/extended-security-updates",
+    "https://learn.microsoft.com/en-us/lifecycle/products/office-2021",
+    "https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-10-support",
+    "https://support.google.com/chromeosflex/answer/11513094?hl=ko",
+    "https://support.microsoft.com/ko-kr/windows/windows-10-%EC%A7%80%EC%9B%90%EC%9D%B4-2025%EB%85%84-10%EC%9B%94-14%EC%9D%BC%EC%97%90-%EC%A2%85%EB%A3%8C%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-2ca8b313-1946-43d3-b55c-2b95b107f281",
+    "https://support.microsoft.com/ko-kr/windows/windows-11%EC%9D%84-%EC%B5%9C%EC%86%8C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%9A%94%EA%B5%AC-%EC%82%AC%ED%95%AD%EC%9D%84-%EC%B6%A9%EC%A1%B1%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%EC%97%90-%EC%84%A4%EC%B9%98-0b2dc4a2-5933-4ad4-9c09-ef0a331518f1",
+    "https://vercel.com/legal/privacy-policy",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
+    "https://www.microsoft.com/ko-kr/windows/extended-security-updates",
+    "https://www.microsoft.com/ko-kr/windows/windows-11-specifications"
+  ],
+  "sitemapUrls": 11,
+  "stats": {
+    "maxHtmlKb": 44.1,
+    "avgHtmlKb": 11.1,
+    "scriptsPerPage": 0
+  },
+  "external": []
+}

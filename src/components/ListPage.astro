@@ -1,0 +1,46 @@
+---
+// 글 목록 페이지 공통 레이아웃 (전체 글 / 카테고리 / 태그)
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from './Breadcrumb.astro';
+import PostGrid from './PostGrid.astro';
+import Pagination from './Pagination.astro';
+import { breadcrumbLd, graph, organizationLd, websiteLd } from '../lib/seo';
+import type { Post } from '../lib/posts';
+
+interface Props {
+  title: string;
+  heading: string;
+  description: string;
+  intro?: string;
+  posts: Post[];
+  current: number;
+  last: number;
+  baseHref: string;
+  pageHref: (n: number) => string;
+  crumbs: { name: string; href: string }[];
+  noindex?: boolean;
+}
+const { title, heading, description, intro, posts, current, last, pageHref, crumbs, noindex = false } = Astro.props;
+const site = Astro.site!;
+const pageTitle = current > 1 ? `${title} (${current}페이지)` : title;
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={description}
+  noindex={noindex}
+  jsonLd={graph(
+    { '@type': 'CollectionPage', name: pageTitle, description, url: new URL(Astro.url.pathname, site).href, inLanguage: 'ko-KR' },
+    breadcrumbLd(site, crumbs),
+    websiteLd(site),
+    organizationLd(site),
+  )}
+>
+  <div class="container page-section">
+    <Breadcrumb items={crumbs} />
+    <h1 class="section-title" style="font-size:1.75rem;margin-top:14px">{heading}</h1>
+    {intro && <p style="color:var(--muted);max-width:720px;margin:0 0 24px">{intro}</p>}
+    {posts.length > 0 ? <PostGrid posts={posts} /> : <p>아직 이 목록에 발행된 글이 없습니다.</p>}
+    <Pagination current={current} last={last} hrefFor={pageHref} />
+  </div>
+</BaseLayout>

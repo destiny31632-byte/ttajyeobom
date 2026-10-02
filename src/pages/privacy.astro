@@ -1,0 +1,165 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { ADS, ANALYTICS, SITE } from '../config/site';
+import { hostingProvider } from '../lib/static-pages';
+
+const host = hostingProvider();
+const email = SITE.contactEmail;
+const usesGa = Boolean(ANALYTICS.ga4);
+const usesCf = Boolean(ANALYTICS.cfBeacon);
+---
+
+<PageLayout
+  title="개인정보처리방침"
+  description={`${SITE.name}가 처리하는 개인정보 항목, 이용 목적, 보유 기간, 쿠키와 광고, 이용자 권리를 안내합니다.`}
+  updated="2026-10-01"
+>
+  <p>
+    {SITE.name}(이하 "사이트")는 「개인정보 보호법」 등 관련 법령을 지키며, 이용자의 개인정보를 어떻게 처리하는지 아래와 같이
+    알려 드립니다. 사이트에는 회원가입, 댓글, 결제 기능이 없고, 이름이나 전화번호 같은 정보를 이용자에게 직접 요구하지 않습니다.
+  </p>
+
+  <h2>1. 처리하는 개인정보 항목과 목적</h2>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>항목</th><th>수집 방법</th><th>목적</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>문의</td><td>이메일 주소, 문의 내용, 이용자가 직접 적은 정보</td><td>이용자가 이메일을 보낼 때</td><td>답변, 정정·저작권 요청 처리</td>
+      </tr>
+      <tr>
+        <td>접속 기록</td><td>IP 주소, 브라우저 종류, 접속 일시, 요청한 페이지</td><td>웹사이트 전송 과정에서 호스팅 서버가 자동 기록</td><td>보안, 장애 대응, 부정 이용 방지</td>
+      </tr>
+      <tr>
+        <td>브라우저 저장소</td><td>화면 테마 설정(밝게/어둡게)</td><td>이용자 기기의 localStorage</td><td>테마 유지 — 사이트 서버로 전송되지 않습니다</td>
+      </tr>
+      {
+        (ADS.enabled || usesGa) && (
+          <tr>
+            <td>쿠키</td><td>쿠키 식별자, 광고·페이지 상호작용 정보, 대략적인 위치</td><td>Google 등 제3자 서비스</td><td>{ADS.enabled ? '광고 제공' : ''}{ADS.enabled && usesGa ? ', ' : ''}{usesGa ? '방문 통계' : ''}</td>
+          </tr>
+        )
+      }
+    </tbody>
+  </table>
+
+  <h2>2. 보유 및 이용 기간</h2>
+  <ul>
+    <li>문의 메일: 답변을 마친 뒤 1년 동안 보관하고 삭제합니다(같은 문의의 재발생·분쟁 대응 목적). 삭제를 요청하시면 바로 지웁니다.</li>
+    <li>접속 기록: 호스팅 사업자({host.name})가 서비스 운영을 위해 처리하며, 보존 기간은 해당 사업자의 정책을 따릅니다.</li>
+    <li>관계 법령에 따라 보존해야 하는 경우에는 그 기간 동안 보관합니다.</li>
+  </ul>
+
+  <h2>3. 쿠키, 광고, 방문 통계</h2>
+  {
+    ADS.enabled ? (
+      <>
+        <p>
+          사이트는 Google AdSense로 광고를 게재합니다. Google을 포함한 제3자 공급업체는 쿠키를 사용해 이용자가 이 사이트나 다른
+          사이트를 방문한 기록을 바탕으로 광고를 보여 줍니다. Google은 광고 쿠키를 사용해 이용자의 사이트 방문 기록을 바탕으로
+          Google과 파트너가 광고를 게재할 수 있게 합니다.
+        </p>
+        <p>
+          맞춤 광고는 <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">Google 광고 설정</a>에서 끌 수
+          있고, 제3자 공급업체의 맞춤 광고 쿠키는{' '}
+          <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer">aboutads.info</a>에서 거부할 수 있습니다.
+          Google이 정보를 사용하는 방식은{' '}
+          <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">
+            Google 파트너 사이트 정책
+          </a>
+          에서 확인할 수 있습니다.
+        </p>
+      </>
+    ) : (
+      <p>현재 사이트에는 광고가 게재되지 않으며, 광고 목적의 쿠키를 사용하지 않습니다. 광고를 시작하면 이 항목을 먼저 고쳐 알립니다.</p>
+    )
+  }
+  {
+    usesGa && (
+      <p>
+        방문 통계를 위해 Google Analytics를 사용합니다. 수집되는 정보와 거부 방법은{' '}
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google 개인정보처리방침</a>과{' '}
+        <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google 애널리틱스 차단 부가기능</a>
+        에서 확인할 수 있습니다.
+      </p>
+    )
+  }
+  {
+    usesCf && (
+      <p>
+        방문 통계를 위해 쿠키를 쓰지 않는 Cloudflare Web Analytics를 사용합니다. 개인을 식별하는 정보는 수집하지 않습니다.
+      </p>
+    )
+  }
+  {!usesGa && !usesCf && <p>현재 방문 통계 도구를 사용하지 않습니다.</p>}
+  <p>
+    쿠키는 브라우저 설정에서 언제든 거부하거나 지울 수 있습니다. 다만 일부 기능(테마 설정 유지 등)이 동작하지 않을 수 있습니다.
+  </p>
+
+  <h2>4. 제3자 제공</h2>
+  <p>이용자의 개인정보를 제3자에게 제공하지 않습니다. 다만 법령에 근거가 있거나 수사기관이 적법한 절차로 요청하는 경우는 예외입니다.</p>
+
+  <h2>5. 처리 위탁과 국외 이전</h2>
+  <p>사이트 운영을 위해 아래 사업자가 정보를 처리하며, 이 과정에서 정보가 국외로 전송될 수 있습니다.</p>
+  <table>
+    <thead>
+      <tr><th>이전받는 자</th><th>국가</th><th>항목</th><th>목적·시기</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href={host.privacyUrl} target="_blank" rel="noopener noreferrer">{host.name}</a></td>
+        <td>{host.country}</td>
+        <td>접속 기록(IP, 브라우저 정보 등)</td>
+        <td>웹사이트 전송 — 페이지에 접속할 때마다</td>
+      </tr>
+      {
+        (ADS.enabled || usesGa) && (
+          <tr>
+            <td>
+              <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google LLC</a>
+            </td>
+            <td>미국</td>
+            <td>쿠키 식별자, 광고·방문 정보</td>
+            <td>{ADS.enabled ? '광고 게재' : '방문 통계'} — 페이지에 접속할 때</td>
+          </tr>
+        )
+      }
+    </tbody>
+  </table>
+  <p>이전을 원하지 않으시면 브라우저에서 쿠키를 거부하거나 광고 차단 기능을 사용할 수 있습니다. 이 경우에도 글은 모두 볼 수 있습니다.</p>
+
+  <h2>6. 이용자의 권리</h2>
+  <p>
+    이용자는 자신의 개인정보에 대해 열람, 정정, 삭제, 처리 정지를 요청할 수 있습니다. 아래 연락처로 요청하시면 본인 확인 후 10일 안에
+    조치하고 결과를 알려 드립니다.
+  </p>
+
+  <h2>7. 만 14세 미만 아동</h2>
+  <p>사이트는 만 14세 미만 아동의 개인정보를 알면서 수집하지 않습니다. 그런 사실을 알게 되면 바로 삭제합니다.</p>
+
+  <h2>8. 안전성 확보 조치</h2>
+  <ul>
+    <li>문의 메일 계정에는 2단계 인증을 적용하고, 답변에 필요한 최소한의 정보만 보관합니다.</li>
+    <li>사이트는 정적 페이지로만 구성되어 이용자 정보를 저장하는 데이터베이스를 두지 않습니다.</li>
+    <li>모든 페이지는 HTTPS로 암호화해 전송합니다.</li>
+  </ul>
+
+  <h2>9. 개인정보 보호책임자</h2>
+  <ul>
+    <li>책임자: {SITE.name} 운영자(개인 운영)</li>
+    <li>연락처: {email ? <a href={`mailto:${email}`}>{email}</a> : '문의 페이지에 안내된 연락 방법'}</li>
+  </ul>
+
+  <h2>10. 권익 침해 구제 방법</h2>
+  <p>개인정보 침해에 대한 상담이나 신고가 필요하면 아래 기관에 문의할 수 있습니다.</p>
+  <ul>
+    <li>개인정보분쟁조정위원회: 국번 없이 1833-6972 (www.kopico.go.kr)</li>
+    <li>개인정보침해신고센터: 국번 없이 118 (privacy.kisa.or.kr)</li>
+    <li>대검찰청: 국번 없이 1301 (www.spo.go.kr)</li>
+    <li>경찰청: 국번 없이 182 (ecrm.police.go.kr)</li>
+  </ul>
+
+  <h2>11. 방침의 변경</h2>
+  <p>이 방침을 바꾸면 시행 7일 전에 이 페이지에 알리고, 변경 내용과 시행일을 함께 적습니다. 이 방침은 2026년 10월 1일부터 시행합니다.</p>
+</PageLayout>
