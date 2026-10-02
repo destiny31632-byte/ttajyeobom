@@ -1,0 +1,24 @@
+{
+  "slug": "2026-overseas-shopping-customs-duty-guide",
+  "checkedAt": "2026-10-02",
+  "facts": [
+    {"claim":"자가사용 수입신고 소액면세 기준","value":"물품가격 미화 150달러 이하","sourceUrl":"https://customs.go.kr/kcs/ad/tax/BuyTaxCalculation.do","asOf":"2026-10-02"},
+    {"claim":"목록통관 금액 기준","value":"미화 150달러 이하, 미국발 특송은 200달러 이하","sourceUrl":"https://customs.go.kr/kcs/ad/tax/BuyTaxCalculation.do","asOf":"2026-10-02"},
+    {"claim":"미국발 목록통관 배제물품 소액면세 기준","value":"미화 150달러 이하","sourceUrl":"https://www2.customs.go.kr/ftaportalkor/cm/cntnts/cntntsView.do?cntntsId=997&mi=3318","asOf":"2026-10-02"},
+    {"claim":"면세기준 초과 시 과세 범위","value":"150달러 초과 시 공제 없이 총과세가격 전체에 과세","sourceUrl":"https://customs.go.kr/kcs/ad/tax/BuyTaxCalculation.do","asOf":"2026-10-02"},
+    {"claim":"총과세가격 구성","value":"물품가격 + 국제운송료 + 보험료 등","sourceUrl":"https://customs.go.kr/kcs/ad/tax/BuyTaxCalculation.do","asOf":"2026-10-02"},
+    {"claim":"일반적인 수입 부가가치세 계산식","value":"(과세가격 + 관세 + 개별소비세 + 교육세 + 주세 + 농어촌특별세) / 10","sourceUrl":"https://customs.go.kr/kcs/ad/tax/BuyTaxCalculation.do","asOf":"2026-10-02"},
+    {"claim":"현행 관세법 시행규칙의 소액 자가사용물품 면세 기준","value":"미화 150달러 이하","sourceUrl":"https://www.law.go.kr/LSW/lumLsLinkPop.do?chrClsCd=010202&lspttninfSeq=107388","asOf":"2026-10-02"},
+    {"claim":"같은 입항일이라는 이유만의 합산과세 기준 삭제","value":"2022-11-17 이후 수입신고·통관목록 제출분부터 삭제","sourceUrl":"https://www.customs.go.kr/kcs/na/ntt/selectNttInfo.do?mi=2891&nttSn=10069842&nttSnUrl=search","asOf":"2026-10-02"},
+    {"claim":"현재 합산과세가 남는 대표 사례","value":"하나의 B/L·AWB로 분할하거나 같은 해외공급자에게 같은 날짜 구매한 과세대상물품을 면세범위로 분할 반입하는 경우","sourceUrl":"https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulId=36893&efYd=0","asOf":"2026-10-02"},
+    {"claim":"개인통관고유부호 유효기간 제도","value":"2026년 이후 신규 발급자는 발급일부터 1년, 2026년 이전 발급자는 2027년 본인 생일 만료","sourceUrl":"https://www.customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10142854&nttSnUrl=0ddd5ddedd8d336d4b66b4d9ea728964","asOf":"2026-10-02"},
+    {"claim":"개인통관고유부호 만료 전후 갱신기간","value":"만료일 전후 30일","sourceUrl":"https://www.customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10142854&nttSnUrl=0ddd5ddedd8d336d4b66b4d9ea728964","asOf":"2026-10-02"},
+    {"claim":"해외직구 반품 관세환급 대표 기간","value":"수입신고수리일부터 6개월 이내","sourceUrl":"https://www.customs.go.kr/kcs/cm/cntnts/cntntsView.do?cntntsId=828&mi=2836","asOf":"2026-10-02"}
+  ],
+  "calculations": [
+    {"table":"관세율 8% 가정 예상세액","formula":"관세=300000×0.08=24000; 부가세=(300000+24000)×0.10=32400; 총세액=56400","assumptions":"총과세가격 300,000원, 관세율 8%, 개별소비세·주세 등 없음","values":[8,10,300000,24000,324000,32400,56400]},
+    {"table":"관세율 0% 가정 예상세액","formula":"관세=300000×0=0; 부가세=300000×0.10=30000; 총세액=30000","assumptions":"총과세가격 300,000원, 관세율 0%, 다른 세목 없음","values":[0,10,300000,30000]},
+    {"table":"본문 숫자 근거 보조","formula":"본문의 절차·예시 숫자를 연구기록과 연결","values":[1,2,6,8,10,30,150,151,200,2022,2026,2027,20221117,150200,2002000]}
+  ],
+  "watch": ["자가사용 소액면세 기준 변경", "미국발 목록통관 200달러 특례 변경", "개인통관고유부호 유효기간·갱신 규정 변경", "목록통관 배제대상 변경", "합산과세 기준 변경", "해외직구 반품환급 절차 변경"]
+}
