@@ -1,71 +1,84 @@
 {
   "slug": "smartphone-battery-80-percent-charging-guide",
-  "checkedAt": "2026-10-02",
+  "checkedAt": "2026-10-09",
   "facts": [
     {
       "claim": "iPhone 15 이후 충전 한도 범위와 간격",
       "value": "80~100%, 5% 단위",
-      "sourceUrl": "https://support.apple.com/ko-kr/108055"
+      "sourceUrl": "https://support.apple.com/ko-kr/108055",
+      "asOf": "2026-10-09"
     },
     {
       "claim": "iPhone 최적화된 배터리 충전 대기 지점",
       "value": "80%",
-      "sourceUrl": "https://support.apple.com/ko-kr/guide/iphone/iph9202bbd07/27/ios/27"
+      "sourceUrl": "https://support.apple.com/ko-kr/guide/iphone/iph9202bbd07/27/ios/27",
+      "asOf": "2026-10-09"
     },
     {
-      "claim": "iPhone 14 이전 배터리 설계 기준",
+      "claim": "iPhone 14 및 이전 배터리 설계 기준",
       "value": "500 전체 충전 사이클 후 원래 용량 80%",
-      "sourceUrl": "https://support.apple.com/ko-kr/101575"
+      "sourceUrl": "https://support.apple.com/ko-kr/101575",
+      "asOf": "2026-10-09"
     },
     {
-      "claim": "iPhone 15 이후 배터리 설계 기준",
+      "claim": "iPhone 15 모델 배터리 설계 기준",
       "value": "1000 전체 충전 사이클 후 원래 용량 80%",
-      "sourceUrl": "https://support.apple.com/ko-kr/101575"
+      "sourceUrl": "https://support.apple.com/ko-kr/101575",
+      "asOf": "2026-10-09"
     },
     {
       "claim": "iPhone 고온 환경 주의 기준",
       "value": "주변 온도 35°C 초과 환경에서 사용 또는 충전하지 않도록 안내",
-      "sourceUrl": "https://support.apple.com/ko-kr/105105"
+      "sourceUrl": "https://support.apple.com/ko-kr/105105",
+      "asOf": "2026-10-09"
     },
     {
       "claim": "Galaxy 기본 배터리 보호 동작",
       "value": "100%에서 충전 중지, 95%가 되면 다시 충전",
-      "sourceUrl": "https://www.samsung.com/sec/support/galaxy-battery/battery-protection-tip/"
+      "sourceUrl": "https://www.samsung.com/sec/support/galaxy-battery/battery-protection-tip/",
+      "asOf": "2026-10-09"
     },
     {
       "claim": "Galaxy 최대 배터리 보호 충전 상한",
       "value": "80%, 85%, 90%, 95%",
-      "sourceUrl": "https://www.samsung.com/sec/support/galaxy-battery/battery-protection-tip/"
+      "sourceUrl": "https://www.samsung.com/sec/support/galaxy-battery/battery-protection-tip/",
+      "asOf": "2026-10-09"
     },
     {
       "claim": "Galaxy 최대 모드 상한 선택 지원 버전",
       "value": "One UI 7.0부터",
-      "sourceUrl": "https://www.samsung.com/sec/support/galaxy-battery/battery-protection-tip/"
+      "sourceUrl": "https://www.samsung.com/sec/support/galaxy-battery/battery-protection-tip/",
+      "asOf": "2026-10-09"
     },
     {
       "claim": "Galaxy 수면 중 배터리 보호 동작",
       "value": "수면 중 80%에서 중지 후 기상 직전 100%까지 충전",
-      "sourceUrl": "https://www.samsung.com/sec/support/galaxy-battery/battery-protection-tip/"
+      "sourceUrl": "https://www.samsung.com/sec/support/galaxy-battery/battery-protection-tip/",
+      "asOf": "2026-10-09"
     },
     {
       "claim": "Pixel 80% 충전 제한 지원 모델",
       "value": "Pixel 6a 이후",
-      "sourceUrl": "https://support.google.com/pixelphone/answer/6090612?hl=en"
+      "sourceUrl": "https://support.google.com/pixelphone/answer/6090612?hl=en",
+      "asOf": "2026-10-09"
     },
     {
       "claim": "Pixel 배터리 잔량 보정용 완전 충전 주기",
       "value": "매 10번째 충전 사이클",
-      "sourceUrl": "https://support.google.com/pixelphone/answer/6090612?hl=en"
+      "sourceUrl": "https://support.google.com/pixelphone/answer/6090612?hl=en",
+      "asOf": "2026-10-09"
     },
     {
       "claim": "Pixel 보정 충전 유지 시간",
       "value": "100% 표시 후 최소 30분",
-      "sourceUrl": "https://support.google.com/pixelphone/answer/6090612?hl=en"
+      "sourceUrl": "https://support.google.com/pixelphone/answer/6090612?hl=en",
+      "asOf": "2026-10-09"
     },
     {
       "claim": "부분 사용량의 충전 사이클 계산",
       "value": "여러 번 사용한 양의 합이 전체 용량 100%에 해당하면 1사이클",
-      "sourceUrl": "https://support.apple.com/ko-kr/guide/iphone/iph63eecc618/27/ios/27"
+      "sourceUrl": "https://support.apple.com/ko-kr/guide/iphone/iph63eecc618/27/ios/27",
+      "asOf": "2026-10-09"
     }
   ],
   "calculations": [],

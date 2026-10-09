@@ -18,6 +18,8 @@ coverage/
 # automation caches (raw fetched pages are never committed)
 automation/.cache/
 automation/tmp/
+automation/state/
+automation/logs/
 
 # OS / editor
 .DS_Store

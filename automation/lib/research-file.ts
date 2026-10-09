@@ -25,7 +25,7 @@ export interface ResearchFile {
   slug: string;
   checkedAt: string;
   facts: ResearchFact[];
-  conflicts?: { topic: string; detail: string; sources: string[] }[];
+  conflicts?: { topic: string; detail: string; sources: string[]; resolution?: { status: 'resolved'; checkedAt: string; reason: string; sourceUrl: string } }[];
   calculations?: ResearchCalc[];
   /** 정보가 바뀌었는지 재확인할 때 살펴볼 항목 */
   watch?: string[];

@@ -7,6 +7,12 @@ on:
     - cron: '30 0 * * *'
     - cron: '0 1 * * 0'
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Audit scope'
+        type: choice
+        options: [daily, weekly]
+        default: daily
 permissions:
   contents: read
 concurrency:
@@ -27,6 +33,15 @@ jobs:
       - run: npm ci
       - run: npm run verify
       - run: npm run pipeline:daily -- --online --collect
-        if: github.event.schedule != '0 1 * * 0'
+        if: github.event.schedule != '0 1 * * 0' && inputs.mode != 'weekly'
       - run: npm run pipeline:weekly -- --online
-        if: github.event.schedule == '0 1 * * 0'
+        if: github.event.schedule == '0 1 * * 0' || inputs.mode == 'weekly'
+      - run: npm run sources:audit
+        if: github.event.schedule == '0 1 * * 0' || inputs.mode == 'weekly'
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: audit-reports-${{ github.run_id }}
+          path: automation/reports/
+          retention-days: 7
+          if-no-files-found: warn

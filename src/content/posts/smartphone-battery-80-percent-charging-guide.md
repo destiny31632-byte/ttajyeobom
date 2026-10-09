@@ -2,6 +2,7 @@
 title: "스마트폰 배터리 80% 충전, 꼭 해야 할까? 아이폰·갤럭시·픽셀 비교"
 description: "스마트폰 배터리를 항상 80%까지만 충전해야 하는지, 100% 충전과 밤샘 충전은 괜찮은지 정리했습니다. 아이폰·갤럭시·픽셀의 충전 제한 설정과 발열을 줄이는 방법까지 비교합니다."
 pubDate: 2026-10-02T13:30:00+09:00
+updatedDate: 2026-10-09T19:12:23+09:00
 category: it
 tags: ["스마트폰 배터리", "배터리 수명", "배터리 충전 제한", "아이폰", "갤럭시", "픽셀"]
 cluster: smartphone-battery
@@ -23,49 +24,49 @@ sources:
     url: "https://support.apple.com/ko-kr/108055"
     publisher: "Apple 지원"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "iPhone 15 이후 충전 한도 80~100%, 5% 단위 설정과 최적화된 충전"
   - title: "iPhone 배터리 충전 최적화하기"
     url: "https://support.apple.com/ko-kr/guide/iphone/iph9202bbd07/27/ios/27"
     publisher: "Apple 지원"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "최적화된 충전이 80%에서 대기한 뒤 사용 시점에 맞춰 완충하는 방식"
   - title: "iPhone 배터리 충전 및 유지 관리하기"
     url: "https://support.apple.com/ko-kr/105105"
     publisher: "Apple 지원"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "권장 온도와 35도 초과 환경에서의 배터리 열화 안내"
   - title: "iPhone 배터리 및 성능"
     url: "https://support.apple.com/ko-kr/101575"
     publisher: "Apple 지원"
     type: official
-    accessed: 2026-10-02
-    note: "iPhone 14 이전 500사이클, iPhone 15 이후 1000사이클에서 80% 용량 설계 기준"
+    accessed: 2026-10-09
+    note: "iPhone 14 및 이전 500사이클, iPhone 15 모델 1000사이클에서 80% 용량 설계 기준"
   - title: "iPhone 배터리 충전하기"
     url: "https://support.apple.com/ko-kr/guide/iphone/iph63eecc618/27/ios/27"
     publisher: "Apple 지원"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "부분 충전과 충전 사이클 계산 방식, 80% 이후 충전 속도 조절"
   - title: "Galaxy Battery - battery protection tip"
     url: "https://www.samsung.com/sec/support/galaxy-battery/battery-protection-tip/"
     publisher: "삼성전자"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "배터리 보호 기본·최대·수면 중 동작과 One UI 7.0 이후 충전 상한 선택"
   - title: "Get the most life from your Pixel phone battery"
     url: "https://support.google.com/pixelphone/answer/6090612?hl=en"
     publisher: "Google Pixel Help"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "Pixel 6a 이후 80% 제한, 적응형 충전, 매 10번째 사이클의 완전 충전"
   - title: "Help keep your Pixel phone from feeling too warm or hot"
     url: "https://support.google.com/pixelphone/answer/3333708?hl=en"
     publisher: "Google Pixel Help"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "충전 중 고부하 사용과 과열 시 충전 속도 제한 안내"
 images: []
 generation:
@@ -99,7 +100,7 @@ iPhone 15 이후 모델은 **설정 → 배터리 → 충전**에서 충전 한�
 
 iPhone 14 이전 모델에는 사용자가 직접 80%나 90% 상한을 정하는 메뉴가 없습니다. 대신 최적화된 배터리 충전을 켜 두는 방식이 기본입니다. 밤새 충전하는 습관이 규칙적이라면 이 기능을 끄지 않는 편이 좋습니다.
 
-애플의 배터리 설계 기준도 세대에 따라 달라졌습니다. iPhone 14 이전 모델은 이상적인 조건에서 500번의 전체 충전 사이클 후 원래 용량의 80%를 유지하도록 설계됐고, iPhone 15 이후 모델은 같은 80% 기준이 1,000사이클입니다. 실제 성능 최대치는 온도와 충전 방식, 사용 습관에 따라 달라질 수 있습니다.
+애플의 배터리 설계 기준도 세대에 따라 달라졌습니다. iPhone 14 및 이전 모델은 이상적인 조건에서 500번의 전체 충전 사이클 후 원래 용량의 80%를 유지하도록 설계됐고, iPhone 15 모델은 같은 80% 기준이 1,000사이클입니다. 이는 [애플이 해당 문서에 명시한 모델 기준](https://support.apple.com/ko-kr/101575)이며, 실제 성능 최대치는 온도와 충전 방식, 사용 습관에 따라 달라질 수 있습니다.
 
 ## 갤럭시는 80·85·90·95% 중에서 고를 수 있다
 
@@ -110,6 +111,8 @@ Galaxy의 배터리 보호는 최근 설정 폭이 넓어졌습니다. 삼성전
 | 기본 | 100%에서 멈추고 95%가 되면 다시 충전 | 하루 사용량이 많고 완충이 필요한 경우 |
 | 최대 | 선택한 80·85·90·95%에서 충전 중지 | 충전기를 자주 쓸 수 있고 수명 관리를 우선하는 경우 |
 | 수면 중 배터리 보호 | 잠자는 동안 80%에서 멈췄다가 기상 직전에 100%까지 충전 | 밤새 충전하지만 아침에는 완충이 필요한 경우 |
+
+수면 중 배터리 보호에는 맞춤형 서비스 동의와 관련 권한이 필요합니다. 수면 패턴이 불규칙하거나 아직 학습되지 않았다면 동작하지 않을 수 있습니다. 기기와 소프트웨어 버전에 따라 메뉴와 동작도 달라집니다.
 
 따라서 갤럭시는 처음부터 80%를 고집할 필요가 없습니다. 80%로 하루가 부족하면 85%나 90%로 올려 보고, 그래도 부족하면 기본 모드를 쓰는 식으로 조절하는 편이 편합니다. 충전 제한을 자주 껐다 켜는 것보다 일상에서 지킬 수 있는 수준을 정해 두는 쪽이 낫습니다.
 
@@ -186,7 +189,7 @@ Pixel 6a 이후 모델도 충전 최적화에서 80% 제한을 선택할 수 있
 
 ## 오늘 바로 설정할 것
 
-1. 아이폰은 **설정 → 배터리 → 충전**, 갤럭시는 **설정 → 배터리 → 배터리 보호**, 픽셀은 **설정 → 배터리 → 배터리 상태 → 충전 최적화**를 확인합니다.
+1. iPhone 15 이후 모델은 **설정 → 배터리 → 충전**, iPhone 14 및 이전 모델은 **설정 → 배터리 → 배터리 성능 상태 및 충전**을 확인합니다. 갤럭시는 **설정 → 배터리 → 배터리 보호**, 픽셀은 **설정 → 배터리 → 배터리 상태 → 충전 최적화**에 있습니다.
 2. 하루가 끝날 때 잔량이 많이 남는다면 80%, 85%, 90% 상한부터 사용해 봅니다.
 3. 하루 사용량이 많다면 95% 또는 100%를 쓰되 최적화·적응형 충전 기능을 켭니다.
 4. 충전 중 게임이나 내비게이션으로 기기가 뜨거워지면 먼저 식힙니다.

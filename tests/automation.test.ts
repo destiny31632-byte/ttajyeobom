@@ -10,6 +10,33 @@ import { eligibleTopic } from '../automation/lib/pipeline.ts';
 import { contentHash, reviewProblems } from '../automation/lib/publication.ts';
 import { reserveCall } from '../automation/lib/ai-budget.ts';
 import { GeminiFreeProvider } from '../automation/lib/ai-provider.ts';
+import { isOfficialSource, missingSourceNumbers } from '../automation/lib/source-audit.ts';
+import { deploymentProblems } from '../automation/lib/deploy-settings.ts';
+
+describe('상업용 무료 배포 준비', () => {
+  it('기본 개발 주소와 무료 플랜 미확인 상태를 배포하지 않는다', () => {
+    expect(deploymentProblems({}).length).toBe(3);
+    expect(deploymentProblems({ SITE_URL: 'https://ttajyeobom.vercel.app', PUBLIC_CONTACT_EMAIL: 'test@example.com', CLOUDFLARE_FREE_CONFIRMED: 'true' }).length).toBe(2);
+  });
+  it('확인된 공개 연락처와 명시적인 정적 호스팅 주소를 허용한다', () => {
+    expect(deploymentProblems({ SITE_URL: 'https://ttajyeobom.worker-subdomain.workers.dev', PUBLIC_CONTACT_EMAIL: 'editor@ttajyeobom.test', CLOUDFLARE_FREE_CONFIRMED: 'true' })).toEqual([]);
+  });
+});
+
+describe('공식 원문 점검', () => {
+  it('정부24·정책브리핑·한국전력 공식 주소를 허용하고 위장 주소를 거부한다', () => {
+    for (const host of ['www.gov.kr', 'www.korea.kr', 'cyber.kepco.co.kr', 'www.safedriving.or.kr']) {
+      expect(isOfficialSource(new URL(`https://${host}/`))).toBe(true);
+    }
+    for (const raw of ['https://gov.kr.example.com/', 'https://fakegov.kr/', 'https://unverified.or.kr/', 'http://www.gov.kr/', 'https://user@www.gov.kr/']) {
+      expect(isOfficialSource(new URL(raw))).toBe(false);
+    }
+  });
+  it('다른 숫자의 일부분을 근거로 처리하지 않으며 쉼표를 정규화한다', () => {
+    expect(missingSourceNumbers('1원 2.7% 21,000원', '2026년 3.7% 21000원')).toEqual(['1', '2.7']);
+    expect(missingSourceNumbers('2026-09-01, 2.70%', '2026년 9월 1일, 2.7%')).toEqual([]);
+  });
+});
 
 describe('무료 호출 예산', () => {
   it('비활성화된 공급자는 네트워크를 호출하지 않는다', async () => {
@@ -52,10 +79,32 @@ describe('발행 보호', () => {
   });
   it('검증 승인 기록이 없는 글을 발행하지 않는다', () => {
     const post = loadPosts()[0];
-    expect(reviewProblems(post)).toContain('검증 승인 기록 없음 또는 형식 오류');
+    const originalRead = fs.readFileSync;
+    const mock = vi.spyOn(fs, 'readFileSync').mockImplementation(((file: any, ...args: any[]) => {
+      if (String(file).includes(`${path.sep}reviews${path.sep}`)) throw new Error('missing review');
+      return (originalRead as any)(file, ...args);
+    }) as any);
+    try { expect(reviewProblems(post)).toContain('검증 승인 기록 없음 또는 형식 오류'); }
+    finally { mock.mockRestore(); }
+  });
+  it('본문 해시가 다른 승인과 기한이 지난 승인을 거부한다', () => {
+    const post = loadPosts()[0];
+    const originalRead = fs.readFileSync;
+    const mock = vi.spyOn(fs, 'readFileSync').mockImplementation(((file: any, ...args: any[]) => {
+      if (String(file).includes(`${path.sep}reviews${path.sep}`)) return JSON.stringify({ approved: true, factsVerified: true,
+        reviewer: 'test', checkedAt: '2026-09-01T00:00:00Z', contentSha256: 'wrong', researchSha256: 'wrong' });
+      return (originalRead as any)(file, ...args);
+    }) as any);
+    try {
+      const problems = reviewProblems(post, new Date('2026-10-09T09:00:00Z'));
+      expect(problems).toContain('7일 이내 검증 승인 필요');
+      expect(problems).toContain('검증 이후 본문 변경');
+      expect(problems).toContain('검증 이후 조사 기록 변경');
+    } finally { mock.mockRestore(); }
   });
   it('본문이나 근거가 달라지면 승인에 사용한 해시가 달라진다', () => {
     expect(contentHash('비용 100원')).not.toBe(contentHash('비용 1000원'));
+    expect(contentHash('비용 100원\r\n조건: 성인\r\n')).toBe(contentHash('비용 100원\n조건: 성인\n'));
   });
 });
 
