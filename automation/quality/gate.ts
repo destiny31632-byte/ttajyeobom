@@ -207,7 +207,7 @@ export async function runGate(post: PostFile, ctx: GateContext): Promise<GateRep
   if (ctx.online) {
     const statuses = await Promise.all(urls.map(async (u) => ({ u, status: await checkUrl(u) })));
     const dead = statuses.filter((s) => s.status === 404 || s.status === 410);
-    const flaky = statuses.filter((s) => s.status === 0 || s.status >= 500 || s.status === 403 || s.status === 429);
+    const flaky = statuses.filter((s) => s.status < 200 || s.status >= 300).filter((s) => s.status !== 404 && s.status !== 410);
     add(
       'sources-online',
       '출처 링크 접속',

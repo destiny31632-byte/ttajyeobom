@@ -1,0 +1,29 @@
+name: Daily and weekly audit
+on:
+  schedule:
+    - cron: '30 0 * * *'
+    - cron: '0 1 * * 0'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: scheduled-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    # 무료 실행 범위를 유지하도록 공개 저장소의 표준 runner만 사용합니다.
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run verify
+      - run: npm run pipeline:daily -- --online --collect
+        if: github.event.schedule != '0 1 * * 0'
+      - run: npm run pipeline:weekly -- --online
+        if: github.event.schedule == '0 1 * * 0'

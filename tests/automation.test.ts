@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { calc, buildCalcTable } from '../automation/lib/calc.ts';
 import { kstDate, kstIso, kstMonth } from '../automation/lib/time.ts';
 import { adMarkup, adLoaderSrc, readAdConfig } from '../src/lib/ads-markup.mjs';
@@ -6,6 +6,58 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { loadPosts, parsePost } from '../automation/lib/content.ts';
+import { eligibleTopic } from '../automation/lib/pipeline.ts';
+import { contentHash, reviewProblems } from '../automation/lib/publication.ts';
+import { reserveCall } from '../automation/lib/ai-budget.ts';
+import { GeminiFreeProvider } from '../automation/lib/ai-provider.ts';
+
+describe('무료 호출 예산', () => {
+  it('비활성화된 공급자는 네트워크를 호출하지 않는다', async () => {
+    const previous = process.env.AI_DISABLED;
+    process.env.AI_DISABLED = 'true';
+    const request = vi.spyOn(globalThis, 'fetch');
+    try {
+      await expect(new GeminiFreeProvider().generate('test')).rejects.toThrow('AI 호출 비활성화');
+      expect(request).not.toHaveBeenCalled();
+    } finally {
+      request.mockRestore();
+      if (previous === undefined) delete process.env.AI_DISABLED;
+      else process.env.AI_DISABLED = previous;
+    }
+  });
+  it('손상된 월별 기록을 0으로 간주하지 않는다', () => {
+    expect(() => reserveCall({ day: '2026-10-09', month: '2026-10' } as any, '2026-10-09', 10000)).toThrow('예산 기록 손상');
+  });
+  it('하루 호출 제한을 넘으면 재시도하지 않는다', () => {
+    let state = reserveCall(null, '2026-10-09', 10000);
+    state = reserveCall(state, '2026-10-09', 10000);
+    expect(() => reserveCall(state, '2026-10-09', 10000)).toThrow();
+    const next = reserveCall(state, '2026-10-10', 10000);
+    expect(next.dailyCalls).toBe(1);
+    expect(next.monthlyCalls).toBe(3);
+  });
+  it('날짜가 바뀌어도 월 한도를 초기화하지 않는다', () => {
+    const state = { day: '2026-10-08', month: '2026-10', dailyCalls: 1, monthlyCalls: 40, reservedTokens: 400000 };
+    expect(() => reserveCall(state, '2026-10-09', 10000)).toThrow();
+    expect(reserveCall(state, '2026-11-01', 10000).monthlyCalls).toBe(1);
+  });
+});
+
+describe('발행 보호', () => {
+  it('관심도가 높아도 차단·민감 주제는 후보에서 제외한다', () => {
+    const policy = { blockTopics: ['카지노'], sensitiveTitle: ['살인'], ymylHigh: ['코인 투자'] };
+    expect(eligibleTopic('카지노 할인', policy)).toBe(false);
+    expect(eligibleTopic('코인 투자 추천', policy)).toBe(false);
+    expect(eligibleTopic('스마트폰 배터리 관리', policy)).toBe(true);
+  });
+  it('검증 승인 기록이 없는 글을 발행하지 않는다', () => {
+    const post = loadPosts()[0];
+    expect(reviewProblems(post)).toContain('검증 승인 기록 없음 또는 형식 오류');
+  });
+  it('본문이나 근거가 달라지면 승인에 사용한 해시가 달라진다', () => {
+    expect(contentHash('비용 100원')).not.toBe(contentHash('비용 1000원'));
+  });
+});
 
 describe('글 검사 누락 방지', () => {
   it.each(['plain text', '---\n- list\n---\n본문', '---\nnull\n---\n본문'])('잘못된 글 형식을 거부한다', (raw) => {
