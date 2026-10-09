@@ -44,7 +44,7 @@ Azure for Students Standard_B1s 확인. RAM892MB 중 여유223MB, 기존 auto_tr
 - 무료 정적 파일 검사 assets:check 구현:20,000개/파일당25MiB, 인증파일·실행_worker.js·심볼릭 링크 차단. verify에 포함. 테스트33개 통과,107개/1.71MiB 검사 통과.
 - 다음: 이메일 인증 완료 확인 → Workers Free 현재 플랜과 workers.dev 하위 주소 확인 → SITE_URL 및 공개 승인받은 문의 주소 설정 → 배포 전 verify/publication/gate → 정적파일 Cloudflare 업로드 → verify-live로 실제 해시 대조. 인증 토큰·결제·광고 설정 임의 변경 금지.
 
-## 2026-10-10 00:10 KST Cloudflare 운영 배포
+## 2026-10-10 00:02 KST Cloudflare 운영 배포
 - 사용자 이메일 인증 완료 확인. 대시보드 Workers Free 현재 플랜 $0 확인. 유료 플랜·결제·광고 설정 변경 없음.
 - 실제 운영 주소 https://ttajyeobom.destiny31632.workers.dev . 정적 자산 107개/1.73MiB 업로드, 실행 코드 없는 assets-only Worker. workers.dev 활성화, 미리보기 비활성화.
 - 배포 전 verify 34 tests/71 pages 실패0·경고0, publication 9/9 및 online gate9/9 통과.
