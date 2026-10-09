@@ -14,6 +14,8 @@ function walk(dir) {
   }
 }
 walk('dist');
-const buildId = crypto.createHash('sha256').update(JSON.stringify(pages)).digest('hex');
-fs.writeFileSync('dist/build.json', JSON.stringify({ buildId, pages }) + '\n');
+// 파일시스템의 Windows/Linux 정렬 차이가 빌드 ID를 바꾸지 않게 합니다.
+const stablePages = Object.fromEntries(Object.entries(pages).sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0));
+const buildId = crypto.createHash('sha256').update(JSON.stringify(stablePages)).digest('hex');
+fs.writeFileSync('dist/build.json', JSON.stringify({ buildId, pages: stablePages }) + '\n');
 console.log(`Build manifest: ${Object.keys(pages).length} pages, ${buildId.slice(0, 12)}`);

@@ -50,4 +50,4 @@ jobs:
       - run: npm run gate -- all --online
       - run: npx --no-install wrangler deploy
       - name: Verify deployed site
-        run: node automation/cli/verify-live.ts
+        run: node automation/cli/verify-live.ts --wait

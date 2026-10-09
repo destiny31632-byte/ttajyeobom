@@ -60,3 +60,11 @@ Azure for Students Standard_B1s 확인. RAM892MB 중 여유223MB, 기존 auto_tr
 2026-10-10 사용자 요청으로 GitHub 연결 직접 진행. 브라우저 AX 클릭으로 New GitHub connection의 올바른 GitHub 앱 설치 페이지에 도달(이전 Playwright 클릭은 다른 항목으로 이동한 것으로 보임). 실제 브라우저 로그인 계정은 lyha0319-ship-it이고 계정 전환 목록에 destiny31632-byte 없음. Add account 로그인 화면을 열고 프로젝트 계정명을 입력했다. 비밀번호·패스키·2FA 인증 수단이 없어 사용자 로그인 대기. 기존 GitHub 앱 권한/다른 저장소 접근 변경 없음. 로그인 완료 후 Cloudflare 연결 화면을 새로 시작해 잘못된 이전 target_id 설치 요청을 사용하지 않고 프로젝트 계정과 ttajyeobom 하나만 선택할 것. 실제 권한 승인 범위 확인 후 필요한 승인 요청. 사용량5시간 잔여69%, 주간64%, 크레딧481.100731 변동 없음.
 
 2026-10-10 00:20 KST: 사용자가 실제 권한 승인 화면에서 승인해라고 답하여 GitHub 앱 Install & Authorize 수행. destiny31632-byte/ttajyeobom 하나만 선택, Cloudflare 복귀 후 계정·저장소·master 자동 선택 확인. 기본 Workers Builds 새 인증키가 KV/R2/D1/Containers 등 광범위한 편집 권한을 포함하여 Connect 제출하지 않음. 대안으로 기존 GitHub Actions 배포를 실제 콘텐츠 push에 연결하도록 경로 설정 준비. Cloudflare 맞춤 사용자 인증키 ttajyeobom-static-deploy, 현재 계정 하나의 Workers Scripts:Edit 권한만 설정하고 생성 전 요약 화면에서 대기. 새 인증키 생성과 ttajyeobom GitHub Actions Secrets 저장은 별도 새 인증 권한·비밀 전송이므로 사용자 승인 요청 예정. GitHub Secrets 아직 비어 있고 CLOUDFLARE_READY 설정하지 않아 무인 배포 미활성화. 사용량5시간 잔여60%, 주간63%, 크레딧481.100731 변동 없음.
+
+## 2026-10-10 00:34 KST GitHub 자동 배포 연결
+- GitHub 앱은 사용자 승인으로 destiny31632-byte/ttajyeobom 하나만 연결. Cloudflare 기본 Builds 토큰의 DB/R2/Containers 등 광범위 권한을 확인하여 네이티브 Builds Connect는 제출하지 않았음.
+- 별도 승인으로 현재 Cloudflare 계정의 Workers Scripts:Edit 한 가지 권한 사용자 토큰 생성 및 GitHub Actions Secrets 저장. 인증키 저장 확인 중 도구 출력 노출이 발생하여 사용자 승인 후 해당 토큰 영구 삭제, 목록에서 제거 확인. 동일 권한의 새 토큰으로 교체했고 새 값은 출력·파일에 남기지 않음. GitHub secret 갱신 완료, CLOUDFLARE_ACCOUNT_ID 설정, CLOUDFLARE_READY=true.
+- 첫 서버 배포37951993192는 업로드 성공 후 즉시 빌드 확인에서 이전 배포 응답으로 실패. 이후 원격이 해당 빌드로 반영된 것 확인. 콘텐츠 push e77c38b 자동 배포37952269820는 성공. 공개 GitHub 문의의 개인정보 안내 수정도 실제 배포됨.
+- 배포 반영 대기 --wait(6회,3초 간격) 추가, 기존 빌드가 계속 보이면 실패. 회귀 테스트3개 추가로37개. 본문/정책/검색/RSS/사이트맵/9글 해시·404·보안 헤더 검증 유지.
+- Windows/Linux 파일시스템 순서 때문에 내용이 같은73개 페이지도 빌드 ID가 달라지는 것 확인(원격/로컬 페이지 해시는 전부 같음). manifest 경로 고정 정렬로 ID 일관성 보완. 최종 verify37 tests/71 pages 실패0·경고0, publication9/9 통과. 아래 후속 배포 결과 확인 필요.
+- 다음: 후속 push 자동 배포 성공, Windows/서버 빌드ID 일치와 실제 사이트/검색 확인. 이후 무료 AI 계정 결제 미연결 확인·사용량 영속화, AdSense/GSC/Naver 연결은 남아 있음. 전체 프로젝트 완료 전 자동화 PAUSED 금지.

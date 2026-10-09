@@ -3,19 +3,25 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { DIST_DIR } from '../lib/paths.ts';
+import { waitForBuild } from '../lib/live-build.ts';
 
 const raw = process.env.SITE_URL;
 if (!raw) throw new Error('SITE_URL을 실제 운영 주소로 설정해야 합니다.');
 const site = new URL(raw);
 if (site.protocol !== 'https:') throw new Error('운영 사이트는 HTTPS를 사용해야 합니다.');
-const manifestResponse = await fetch(new URL('/build.json', site), { cache: 'no-store', signal: AbortSignal.timeout(15000) });
-if (!manifestResponse.ok) throw new Error('라이브 빌드 정보가 없습니다.');
-const actual = await manifestResponse.json() as { buildId: string; pages: Record<string, string> };
 // 예약 점검은 현재 배포 내부의 일치 여부를 확인합니다. 배포 직후에는 로컬 빌드와 대조합니다.
 const monitor = process.argv.includes('--deployed');
-const expected = monitor ? actual : JSON.parse(fs.readFileSync(path.join(DIST_DIR, 'build.json'), 'utf8'));
-if (!/^[a-f0-9]{64}$/.test(actual.buildId) || !actual.pages) throw new Error('라이브 빌드 정보 형식이 잘못됐습니다.');
-if (actual.buildId !== expected.buildId) throw new Error('라이브 사이트의 빌드가 로컬 검증 빌드와 다릅니다.');
+const local = monitor ? undefined : JSON.parse(fs.readFileSync(path.join(DIST_DIR, 'build.json'), 'utf8'));
+const actual = await waitForBuild(async () => {
+  const url = new URL('/build.json', site);
+  if (local) url.searchParams.set('build', local.buildId);
+  const response = await fetch(url, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' }, signal: AbortSignal.timeout(15000) });
+  if (!response.ok) throw new Error('라이브 빌드 정보가 없습니다.');
+  const manifest = await response.json() as { buildId: string; pages: Record<string, string> };
+  if (!/^[a-f0-9]{64}$/.test(manifest.buildId) || !manifest.pages) throw new Error('라이브 빌드 정보 형식이 잘못됐습니다.');
+  return manifest;
+}, local?.buildId, process.argv.includes('--wait'));
+const expected = local ?? actual;
 const posts = loadPosts({ includeDrafts: false });
 for (const route of ['/', '/contact/', '/privacy/', '/search/', '/sitemap.xml', '/rss.xml', ...posts.map((p) => `/posts/${p.slug}/`)]) {
   const url = new URL(route, site);

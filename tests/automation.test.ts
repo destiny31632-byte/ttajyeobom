@@ -1,4 +1,5 @@
 import { staticAssetProblems } from '../automation/lib/static-assets.ts';
+import { waitForBuild } from '../automation/lib/live-build.ts';
 import { describe, expect, it, vi } from 'vitest';
 import { calc, buildCalcTable } from '../automation/lib/calc.ts';
 import { kstDate, kstIso, kstMonth } from '../automation/lib/time.ts';
@@ -13,6 +14,25 @@ import { reserveCall } from '../automation/lib/ai-budget.ts';
 import { GeminiFreeProvider } from '../automation/lib/ai-provider.ts';
 import { isOfficialSource, missingSourceNumbers, decodeSource } from '../automation/lib/source-audit.ts';
 import { deploymentProblems } from '../automation/lib/deploy-settings.ts';
+
+describe('배포 반영 대기', () => {
+  it('이전 빌드가 잠시 보이면 원하는 빌드가 나타날 때만 통과한다', async () => {
+    const read = vi.fn().mockResolvedValueOnce({ buildId: 'old' }).mockResolvedValue({ buildId: 'new' });
+    const delay = vi.fn().mockResolvedValue(undefined);
+    expect(await waitForBuild(read, 'new', true, delay)).toEqual({ buildId: 'new' });
+    expect(delay).toHaveBeenCalledTimes(1);
+  });
+  it('다른 빌드가 계속 보이면 정해진 시도 후 실패한다', async () => {
+    const read = vi.fn().mockResolvedValue({ buildId: 'wrong' });
+    await expect(waitForBuild(read, 'new', true, async () => {})).rejects.toThrow('다릅니다');
+    expect(read).toHaveBeenCalledTimes(6);
+  });
+  it('일반 검증은 대기 옵션 없이 즉시 불일치를 차단한다', async () => {
+    const read = vi.fn().mockResolvedValue({ buildId: 'old' });
+    await expect(waitForBuild(read, 'new', false)).rejects.toThrow('다릅니다');
+    expect(read).toHaveBeenCalledTimes(1);
+  });
+});
 
 describe('상업용 무료 배포 준비', () => {
   it('기본 개발 주소와 무료 플랜 미확인 상태를 배포하지 않는다', () => {
