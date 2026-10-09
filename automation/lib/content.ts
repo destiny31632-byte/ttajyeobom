@@ -73,7 +73,11 @@ function normalizeDates(value: unknown): unknown {
 export function parsePost(raw: string, file: string): PostFile {
   const m = raw.match(FM_RE);
   if (!m) throw new Error(`frontmatter 가 없습니다: ${file}`);
-  const data = normalizeDates(YAML.parse(m[1]) ?? {}) as Frontmatter;
+  const parsed = YAML.parse(m[1]);
+  if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
+    throw new Error(`frontmatter 는 항목별 객체여야 합니다: ${file}`);
+  }
+  const data = normalizeDates(parsed) as Frontmatter;
   const slug = path.basename(file).replace(/\.md$/, '');
   return { slug, file, data, body: m[2].replace(/^\s+/, '') };
 }
@@ -101,7 +105,8 @@ export function loadPosts(opts: { includeDrafts?: boolean; dir?: string } = {}):
       if (!includeDrafts && p.data.draft) continue;
       posts.push(p);
     } catch (e) {
-      console.warn(`글을 읽지 못했습니다 (${file}): ${(e as Error).message}`);
+      // 일부 글이 빠진 채 품질 검사가 성공하는 것을 막습니다.
+      throw new Error(`글을 읽지 못했습니다 (${file}): ${(e as Error).message}`);
     }
   }
   return posts.sort((a, b) => String(b.data.pubDate).localeCompare(String(a.data.pubDate)));

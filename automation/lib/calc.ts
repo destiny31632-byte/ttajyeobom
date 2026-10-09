@@ -91,7 +91,7 @@ function parse(tokens: Token[]): Node {
           }
         }
         if (next()?.t !== 'rp') throw new Error('함수 괄호가 닫히지 않았습니다');
-        if (!FUNCS[tk.v]) throw new Error(`허용되지 않는 함수: ${tk.v}`);
+        if (!Object.hasOwn(FUNCS, tk.v)) throw new Error(`허용되지 않는 함수: ${tk.v}`);
         return { k: 'call', fn: tk.v, args };
       }
       return { k: 'var', name: tk.v };
@@ -141,7 +141,7 @@ function evaluate(n: Node, vars: Record<string, number>): number {
     case 'num':
       return n.v;
     case 'var': {
-      if (!(n.name in vars)) throw new Error(`정의되지 않은 변수: ${n.name}`);
+      if (!Object.hasOwn(vars, n.name)) throw new Error(`정의되지 않은 변수: ${n.name}`);
       return vars[n.name];
     }
     case 'neg':
