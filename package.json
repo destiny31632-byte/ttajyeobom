@@ -20,6 +20,7 @@
     "readiness": "node automation/cli/readiness.ts",
     "links:update": "node automation/cli/links.ts",
     "publish:draft": "node automation/cli/publish.ts",
+    "editorial:status": "node automation/cli/editorial-status.ts",
     "publication:check": "node automation/cli/check-publication.ts",
     "deployment:check": "node automation/cli/check-deploy.ts",
     "pipeline:daily": "node automation/run-daily.ts",

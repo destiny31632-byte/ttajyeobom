@@ -70,3 +70,21 @@ Azure for Students Standard_B1s 확인. RAM892MB 중 여유223MB, 기존 auto_tr
 - 다음: 후속 push 자동 배포 성공, Windows/서버 빌드ID 일치와 실제 사이트/검색 확인. 이후 무료 AI 계정 결제 미연결 확인·사용량 영속화, AdSense/GSC/Naver 연결은 남아 있음. 전체 프로젝트 완료 전 자동화 PAUSED 금지.
 
 2026-10-10 00:37 KST 최종 배포 검증: b8fcd8c push에서 자동 배포37952786621 및 Quality37952786810 모두 성공. 로컬 Windows 검증 빌드와 공개 build.json ID가 일치했고 홈·문의·개인정보·검색·RSS·사이트맵·글9개 SHA256 및 nosniff/없는 페이지404 모두 통과. 문의 페이지 공개 제보 안내가 원격에 반영됨. 테스트37개,71페이지,107정적파일. 자동 배포 성공 화면을 Codex outputs/ttajyeobom-auto-deploy-success.png로 저장. 사용하지 않는 Cloudflare 자체 Builds 연결 창은 Cancel로 닫음, 기본 광범위 인증키 생성 없음. 사이트·점검·검증 후 재배포는 PC 없이 동작. 자동 AI 글 생성/수익 계정/검색 소유 인증은 미완료이며 전체 완료로 표시하지 않음. 현재사용량5시간 잔여38%, 주간59%, 크레딧481.100731 변동 없음.
+
+## 2026-10-10 네이버 서치어드바이저 등록 진행
+- 사용자 요청으로 로그인된 기존 네이버 계정의 웹마스터 도구에서 따져봄 URL 추가. 다른 Fixnote 등록 보존.
+- HTML 태그 인증 선택. src/config/site.ts에 실제 공개 소유 확인 태그 추가, commit20e24f4 push. 로컬 verify37 tests/71 pages 실패0·경고0. GitHub 자동 배포37957204631 성공, 배포 후 해시 확인 통과.
+- 네이버 소유확인 버튼 실행 후 보안문자 팝업. CAPTCHA 자동 해결하지 않고 사용자 직접 입력 대기. Chrome1822780554 탭 유지.
+- 소유 인증 성공은 아직 확인하지 않았음. 다음: 사용자 보안문자 입력 완료 확인 -> 사이트 관리 등록 확인 -> sitemap.xml 및 rss.xml 제출 -> 사이트/robots 진단 확인. 검색 노출·클릭 자료는 등록 직후 즉시 생긴다고 보장하지 않는다.
+- 시작 사용량5시간 잔여32%, 주간58%, 크레딧481.100731. 유료서비스·추가 크레딧 사용 없음.
+
+2026-10-10 01:40 KST 네이버 후속: 사용자 보안문자 입력 중 소유확인 완료 알림과 사이트목록 등록26.10.10 직접 확인. 사이트맵 https://ttajyeobom.destiny31632.workers.dev/sitemap.xml 제출 완료, 목록 등록시각26.10.10 01:39:44 확인. RSS 전체주소 입력 후 확인 시 별도의 CAPTCHA 등장하여 사용자 입력 대기. Chrome1822780554 request/rss 탭 유지, outputs/naver-sitemap-submitted.png 및 naver-rss-captcha.png 증거 저장. 요약 화면 노출/클릭·진단·수집 자료 없음: 아직 검색반영 성공/실제유입을 주장하지 않음. 다음 RSS 보안문자 완료 및 등록목록 확인, 필요시robots/웹수집 검증. CDP dispatch timeout은 fresh state와 AX/PW 대체로 복구됨. 시작한도5시간28%, 주간57%, 크레딧481.100731 변동 없음.
+
+2026-10-10 네이버 등록 완료: 사용자 두 번째 CAPTCHA 입력 후 RSS 제출 목록에 https://ttajyeobom.destiny31632.workers.dev/rss.xml / 등록시각26.10.10 01:40:22 표시 직접 확인. 소유확인·사이트맵·RSS 모두 완료. outputs/naver-rss-submitted.png 저장. 노출/클릭 자료 없음은 마지막 요약 화면 기준이며 실제 색인/검색노출·유입은 아직 미검증. 다음 검색자료 확인과 Google Search Console 연결(네이버 완료와 별개).
+
+## 2026-10-10 하루2개 작성·발행 예약
+- 사용자 요청으로 기존 automation(PAUSED)을 ACTIVE로 변경. 새 이름 따져봄 하루 2개 글 작성·검증·발행, 기존3시간 간격으로 사용량 확인 후 한국 날짜별2개 목표 운영. PC/Codex 앱 실행 필요, 서버 AI 생성 활성화로 주장하지 않는다.
+- EDITORIAL.md에 공식자료 직접대조·초안·해시승인·기존 품질/온라인출처검사·publish:draft·commit/push·실제배포 확인 절차 저장. 부족/실패 시0~1개만 발행. 매일 신규 운영이므로 개발 완료 후 예약 PAUSED 규칙 제거.
+- editorial:status 및 editorial-budget으로 한국 날짜 최대2개 제한, 실제 최초발행시각 보존, 수정/초안 제외. publish:draft --apply 단일발행 잠금, 실제발행일, 실패복구 및 오류 시 잠금해제.
+- 테스트41개 통과, verify71페이지·107파일 실패/경고0. 없는 초안 발행 오류 후 잠금해제 실제확인. 오늘 신규발행0개, 잔여2개이며 새 글 발행은 이번 설정 작업에서 수행하지 않았음. 예약 실행에서 작성 시작.
+- 추가 AI 공급자 호출·광고/인증변경 없음. 서버검증 결과는 후속 기록 참조.
