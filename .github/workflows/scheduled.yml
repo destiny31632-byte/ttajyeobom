@@ -1,5 +1,8 @@
 name: Daily and weekly audit
 on:
+  push:
+    paths:
+      - '.github/workflows/scheduled.yml'
   schedule:
     - cron: '30 0 * * *'
     - cron: '0 1 * * 0'
