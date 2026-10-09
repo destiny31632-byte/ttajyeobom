@@ -54,3 +54,5 @@ Azure for Students Standard_B1s 확인. RAM892MB 중 여유223MB, 기존 auto_tr
 - 배포 API 임시 업로드 자격 증명 파일 제거, 장기 토큰 생성 없음. GitHub Secrets가 없어 무인 재배포는 아직 미연결. CLOUDFLARE_READY 설정하지 않음.
 - 다음: 최신 push의 Quality/정기 감사 성공 확인. Cloudflare와 GitHub 무인 배포 인증은 소유자 연결이 필요하며 임의 장기 토큰 생성 금지. 무료 AI 계정/결제 미연결 확인 및 상태 영속화, AdSense/GSC/Naver 소유 확인은 남아 있음. 사이트 운영과 감사는 PC 없이 가능하지만 로컬 Codex 개발은 PC/앱 필요.
 - 현재 묶음 사용량5시간 잔여75%, 주간65%; 크레딧481.100731 변동 없음. 프로젝트 전체 완료 전 automation PAUSED로 바꾸지 않음.
+
+2026-10-10 00:06 KST 서버 확인: f6a9821 Quality37948670559/일간 감사37948670782 성공, 후속8a98bd0 Quality37948816842/일간 감사37948816811 성공. GitHub 서버에서도 배포 사이트9개 글 점검과 후보 수집·보고서 보관 완료. Cloudflare Git repository 연결 화면에는 lyha0319-ship-it만 연결돼 있고 실제 저장소 소유자는 destiny31632-byte이다. 기존 다른 계정/저장소 연결은 변경하지 않았다. 새 GitHub 연결 선택 시 GitLab 로그인으로 이동하여 로그인·권한 승인 없이 중단했다. 무인 재배포는 올바른 GitHub 계정의 연결 승인 또는 GitHub Secrets 설정이 필요하다.
