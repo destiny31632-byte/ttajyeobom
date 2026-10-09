@@ -1,0 +1,9 @@
+{
+  "approved": true,
+  "factsVerified": true,
+  "reviewer": "Codex: official-source comparison",
+  "checkedAt": "2026-10-09T10:28:26.685Z",
+  "contentSha256": "4ae6bc764ffb2477439056431b060b8ea2d430a1c096c85dd407b099b97f907f",
+  "researchSha256": "b9eea9ec4000eabed6b323187de642e3de4910cca3366038aaffda151c5833e7",
+  "method": "전체 본문과 기존13개 조사 항목 및 OneDrive를 Microsoft 소비자ESU·지원 FAQ·기업 수명주기·365Apps·Office 두 공식 페이지·Windows11 사양·미지원 설치·Microsoft 뉴스 2026-06-25 편집자주·Google 모델목록과 직접 대조. 비공식 날짜 출처를 공식으로 교체, Office 날짜 차이 명시 및 차트 계산 기준 유지, 상업용 제외 조건 보완. 실제 개인PC 등록·결제·업그레이드는 하지 않음."
+}

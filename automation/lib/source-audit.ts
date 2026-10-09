@@ -11,3 +11,11 @@ export function missingSourceNumbers(value: string, text: string): string[] {
   const found = numbers(text);
   return [...numbers(value)].filter((number) => !found.has(number));
 }
+
+export function decodeSource(bytes: Uint8Array, contentType: string): string {
+  const ascii = new TextDecoder('latin1').decode(bytes.slice(0, 4096));
+  const charset = /charset\s*=\s*["']?\s*([\w-]+)/i.exec(contentType)?.[1] ??
+    /<meta[^>]+charset\s*=\s*["']?\s*([\w-]+)/i.exec(ascii)?.[1] ?? 'utf-8';
+  const encoding = /^(?:ks_c_5601-1987|ksc5601|cp949)$/i.test(charset) ? 'euc-kr' : charset;
+  return new TextDecoder(encoding).decode(bytes);
+}

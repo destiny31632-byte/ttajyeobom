@@ -2,6 +2,7 @@
 title: "2026 전기요금 계산법: 주택용 누진구간·여름요금·부가세까지"
 description: "2026년 10월 기준 주택용 저압 전기요금을 누진구간, 기후환경요금, 연료비조정요금, 부가가치세와 전력산업기반기금까지 실제 계산 순서대로 정리했습니다."
 pubDate: 2026-10-02T15:20:00+09:00
+updatedDate: 2026-10-09T19:20:42+09:00
 category: living
 tags: ["전기요금 계산", "주택용 전기요금", "전기 누진제", "전력산업기반기금", "한전"]
 cluster: electricity-bill
@@ -23,43 +24,43 @@ sources:
     url: "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/D/C/CYDCHP00401.jsp"
     publisher: "한국전력공사"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "주택용 저압·고압 기본요금, 누진구간, 하계 구간, 슈퍼유저 요율"
   - title: "기본공급약관 제8장 요금의 계산 및 납부"
     url: "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/D/C/CYDCHP00108.jsp"
     publisher: "한국전력공사"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "전기요금 구성과 고압 아파트 요금 계산 방식"
   - title: "기후환경요금 단가"
     url: "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/D/C/CYDCHP00408.jsp"
     publisher: "한국전력공사"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "공식 단가 이력에 2023년 1월 1일부터 9.0원/kWh 게시"
   - title: "2026년 4분기 연료비조정단가 산정내역"
     url: "https://www.kepco.co.kr/home/media/newsroom/notice/boardView.do?boardMngNo=14&boardNo=2759"
     publisher: "한국전력공사"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "2026년 10~12월분 연료비조정단가 +5.0원/kWh"
   - title: "부가가치세법 제30조 세율"
     url: "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1028444683"
     publisher: "국가법령정보센터"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "부가가치세율 10%"
   - title: "가정에너지 절약 - 전기 사용하기"
     url: "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?ccfNo=2&cciNo=1&cnpClsNo=1&csmSeq=1008"
     publisher: "찾기쉬운 생활법령정보"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "현행 전력산업기반기금 부담금률 2.7%와 주택용 요율 안내"
   - title: "기본공급약관 제1장 제7조 끝수 계산"
     url: "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/D/C/CYDCHP00101.jsp"
     publisher: "한국전력공사"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "부가세 포함 청구금액의 10원 미만 끝수 처리"
 generation:
   method: manual

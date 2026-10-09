@@ -2,6 +2,7 @@
 title: "2026 해외직구 관세 계산법: 150달러 면세·미국 200달러·통관 정리"
 description: "2026년 기준 해외직구 150달러 면세 한도와 미국발 200달러 목록통관, 관세·부가세 계산, 합산과세, 개인통관고유부호 갱신과 반품 환급까지 정리했습니다."
 pubDate: 2026-10-02T15:20:00+09:00
+updatedDate: 2026-10-09T19:26:23+09:00
 category: living
 tags: ["해외직구", "관세 계산", "목록통관", "개인통관고유부호", "관세청"]
 cluster: overseas-shopping
@@ -23,43 +24,43 @@ sources:
     url: "https://customs.go.kr/kcs/ad/tax/BuyTaxCalculation.do"
     publisher: "관세청"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "150달러 면세, 미국발 목록통관 200달러, 과세가격과 세액 계산식"
   - title: "특송물품 통관"
     url: "https://www2.customs.go.kr/kcs/cm/cntnts/cntntsView.do?cntntsId=819&mi=2821"
     publisher: "관세청"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "목록통관 정의, 금액 기준과 배제대상"
   - title: "관세법 시행규칙 제45조"
     url: "https://www.law.go.kr/LSW/lumLsLinkPop.do?chrClsCd=010202&lspttninfSeq=107388"
     publisher: "국가법령정보센터"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "자가사용 소액물품 미화 150달러 이하 면세 규정"
   - title: "한미 FTA 특송 물품의 면세 기준 및 통관절차"
     url: "https://www2.customs.go.kr/ftaportalkor/cm/cntnts/cntntsView.do?cntntsId=997&mi=3318"
     publisher: "관세청 FTA 포털"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "미국발 특송 목록통관 200달러와 배제물품 150달러 기준"
   - title: "해외직구 물품, 입항일 같아도 합산과세 면제"
     url: "https://www.customs.go.kr/kcs/na/ntt/selectNttInfo.do?mi=2891&nttSn=10069842&nttSnUrl=search"
     publisher: "관세청"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "2022년 11월 17일부터 단순 동일 입항일 합산과세 기준 삭제"
   - title: "개인통관고유부호, 2026년부터는 매년 갱신해 주세요"
     url: "https://www.customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10142854&nttSnUrl=0ddd5ddedd8d336d4b66b4d9ea728964"
     publisher: "관세청"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "개인통관고유부호 1년 유효기간과 갱신 규칙"
   - title: "해외직구물품 관세환급"
     url: "https://www.customs.go.kr/kcs/cm/cntnts/cntntsView.do?cntntsId=828&mi=2836"
     publisher: "관세청"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "반품 시 관세환급 요건과 6개월 기준"
 generation:
   method: manual
@@ -67,7 +68,7 @@ generation:
 
 해외직구 결제 직전에는 상품 가격만 보다가 통관 단계에서 예상하지 못한 세금을 만나는 경우가 있습니다. 가장 먼저 볼 숫자는 **150달러**입니다. 다만 미국에서 보내는 특송화물은 목록통관 대상 물품에 한해 **200달러**까지 별도 기준이 있고, 건강기능식품이나 의약품처럼 목록통관에서 빠지는 물품은 이 예외를 그대로 적용받지 않습니다.
 
-이 글은 2026년 10월 2일 현재 관세청과 현행 관세법 시행규칙을 기준으로 합니다. 품목별 관세율과 통관 요건은 물건마다 다르므로 실제 결제 전에는 관세청 예상세액 조회에서 품목을 선택해 다시 확인하는 것이 안전합니다.
+이 글은 2026년 10월 9일 확인한 관세청과 현행 관세법 시행규칙을 기준으로 합니다. 품목별 관세율과 통관 요건은 물건마다 다르므로 실제 결제 전에는 관세청 예상세액 조회에서 품목을 선택해 다시 확인하는 것이 안전합니다.
 
 ## 150달러 이하라고 모두 같은 방식으로 통관되는 것은 아닙니다
 
@@ -148,7 +149,7 @@ generation:
 
 세금을 내고 통관한 물건을 반품했다고 해서 관세가 자동으로 카드에 취소되는 것은 아닙니다. 관세청에는 해외직구 자가사용물품의 반품 환급 절차가 별도로 있습니다.
 
-대표적으로 수입한 상태 그대로 다시 수출하고 **수입신고수리일부터 6개월 이내** 요건을 충족하면 납부한 관세를 환급받을 수 있습니다. 관세청은 수출신고 없이 반품하는 경우에도 일정 증빙으로 환급을 신청할 수 있도록 안내하고 있으므로, 반품 송장과 결제·환불 내역을 버리지 않는 편이 좋습니다.
+대표적으로 수입한 상태 그대로 **수입신고수리일부터 6개월 이내에 보세구역에 반입한 뒤 수출**하면 납부한 관세를 환급받을 수 있습니다. 수출신고가격이 **200만원 이하**인 물품은 수출신고 없이 반품했더라도 세관장이 송품장·판매자의 반품 확인서류·환불 영수자료 등을 확인해 원판매자에게 반품된 사실을 인정하면 환급 대상이 됩니다. 반품 송장과 결제·환불 내역을 보관하고, 반품 전에 세관에 필요한 절차를 확인하세요.
 
 ## 결제 전에 보는 체크리스트
 

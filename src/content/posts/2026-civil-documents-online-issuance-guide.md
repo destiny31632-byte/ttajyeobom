@@ -2,6 +2,7 @@
 title: "2026 민원서류 발급 가이드: 등본·가족관계증명서·인감 수수료"
 description: "2026년 주민등록등본·초본, 가족관계증명서, 인감증명서의 온라인 발급처와 수수료를 비교하고, 제출 목적에 따라 어떤 서류를 골라야 하는지 정리했습니다."
 pubDate: 2026-10-02T15:55:00+09:00
+updatedDate: 2026-10-09T19:17:01+09:00
 category: public
 tags: ["주민등록등본", "가족관계증명서", "인감증명서", "정부24", "민원서류"]
 cluster: civil-documents
@@ -23,43 +24,43 @@ sources:
     url: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015&HighCtgCD=A01003"
     publisher: "정부24"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "등본·초본 차이, 신청 방법, 인터넷·방문·무인발급기 수수료와 신청자격"
   - title: "인감증명서 발급"
     url: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000025&HighCtgCD=A09006"
     publisher: "정부24"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "방문·인터넷 발급, 신청자격, 방문 600원·인터넷 무료 수수료"
   - title: "110년 만에 인감증명서 온라인 발급"
     url: "https://www.korea.kr/news/policyNewsView.do?newsId=148934534"
     publisher: "대한민국 정책브리핑·행정안전부"
     type: government
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "부동산·자동차 매도용 및 법원·금융기관 제출용 제외, 온라인 인감 발급 범위"
   - title: "본인서명사실확인서 발급"
     url: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13110000047&HighCtgCD=A01008"
     publisher: "정부24"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "인감증명서와 동일한 효력, 방문 발급, 2028년 말까지 수수료 면제"
   - title: "전자본인서명확인서 발급(열람)"
     url: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13110000048&HighCtgCD=A01008"
     publisher: "정부24"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "PC웹 발급, 최초 이용승인, 4년 유효기간, 제출처 범위"
   - title: "대국민 사법정보서비스 - 가족관계등록정보시스템"
     url: "https://www.scourt.go.kr/judiciary/information/public/"
     publisher: "대한민국 법원"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "전자가족관계등록시스템 365일 24시간 운영, 온라인 무료 발급 범위"
   - title: "대한민국 법원 전자가족관계등록시스템"
     url: "https://efamily.scourt.go.kr/index.jsp"
     publisher: "대한민국 법원"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "가족관계증명서 등 증명서 종류와 기재 대상 안내"
 generation:
   method: manual
@@ -166,4 +167,4 @@ generation:
 
 민원 수수료와 온라인 발급 범위는 제도 개편으로 바뀔 수 있습니다. 특히 인감증명서는 과거 방문 발급만 가능했던 제도가 온라인으로 확대된 사례라서 오래된 블로그 글을 그대로 참고하기보다 정부24의 현재 안내를 확인하는 편이 안전합니다.
 
-이 글의 수수료와 발급 범위는 **2026년 10월 2일** 공식 안내를 기준으로 정리했습니다. 실제 제출 직전에는 제출기관 안내와 정부24·전자가족관계등록시스템의 최신 화면을 한 번 더 확인하세요.
+이 글의 수수료와 발급 범위는 **2026년 10월 2일** 공식 안내를 기준으로 정리하고, **10월 9일** 원문을 다시 확인했습니다. 실제 제출 직전에는 제출기관 안내와 정부24·전자가족관계등록시스템의 최신 화면을 한 번 더 확인하세요.

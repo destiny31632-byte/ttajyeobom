@@ -2,6 +2,7 @@
 title: "겨울 난방비 절약법: 보일러 20도·외출모드·가습기 설정 정리"
 description: "겨울철 보일러를 몇 도로 맞춰야 하는지, 외출모드는 언제 쓰는지, 가습기·커튼·분배기 조절이 실제로 어떤 도움이 되는지 공식 자료 기준으로 정리했습니다."
 pubDate: 2026-10-02T14:30:00+09:00
+updatedDate: 2026-10-09T19:18:30+09:00
 category: home
 tags: ["난방비 절약", "보일러 설정", "겨울 난방", "가습기", "외풍 차단"]
 cluster: winter-heating
@@ -23,37 +24,37 @@ sources:
     url: "https://min24.energy.or.kr/consult/info/view4.do"
     publisher: "한국에너지공단 냉난방 효율개선 지원안내센터"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "실내 난방온도 20℃, 1℃ 조정 시 7%, 온수 55℃, 가습기·단열·환기·배관 청소 안내"
   - title: "일상 속 작은 실천이 난방비 절약의 핵심"
     url: "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024875"
     publisher: "한국에너지공단"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "실내온도, 열손실 차단, 분배기, 배관 청소, 고효율 보일러의 절감 예시"
   - title: "2024 겨울철 에너지절약 실천요령 모션그래픽 - 난방비 절약"
     url: "https://www.energy.or.kr/front/board/View21.do?boardMngNo=21&boardNo=10000670"
     publisher: "한국에너지공단"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "겨울철 난방비 절약 행동별 도시가스 사용량·비용 절감 예시"
   - title: "실내 온도 1℃ 차에 따른 난방 연료비 차이 계산"
     url: "https://tips.energy.or.kr/diagnosis/qna_view.do?no=2284"
     publisher: "한국에너지공단 EG-TIPS"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "실내외 온도차를 이용한 난방 절감률 계산 예시"
   - title: "겨울철 난방비 절약팁은?"
     url: "https://www.korea.kr/news/policyNewsView.do?newsId=148924892"
     publisher: "대한민국 정책브리핑"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "적정 실내온도 18~20℃, 습도 40~60%, 내복 착용 시 체감온도 안내"
   - title: "겨울철 난방비 절약 방법 5가지"
     url: "https://www.korea.kr/news/cultureColumnView.do?newsId=148856580"
     publisher: "대한민국 정책브리핑"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "가습기·커튼·외출모드 활용과 실내온도 안내"
 generation:
   method: manual
@@ -128,7 +129,7 @@ generation:
 
 ## 공단의 절감액 예시는 이렇게 봐야 합니다
 
-한국에너지공단이 공개한 난방비 절약 예시에는 행동별 도시가스 사용량과 금액이 함께 제시돼 있습니다. 예를 들어 틈새 열손실을 막는 행동은 사용량 **5.5%, 5,227원**, 사용하지 않는 방의 분배기 밸브 조절은 **4.4%, 4,160원**, 노후 보일러 교체는 **10.4%, 9,901원** 절감 예시가 제시됐습니다.
+한국에너지공단의 2024년 실천요령과 2025년 보도자료에는 행동별 도시가스 사용량과 금액의 절감 예시가 제시돼 있습니다. 현재 도시가스 요금을 적용한 계산은 아닙니다. 예를 들어 틈새 열손실을 막는 행동은 사용량 **5.5%, 5,227원**, 사용하지 않는 방의 분배기 밸브 조절은 **4.4%, 4,160원**, 노후 보일러 교체는 **10.4%, 9,901원** 절감 예시가 제시됐습니다.
 
 여섯 가지 행동을 함께 적용한 자료에서는 한 달 사용량 **38%, 36,101원** 절감이라는 예시도 나옵니다. 이 금액은 모든 가정에 그대로 적용되는 보장값이 아닙니다. 집 크기, 사용량, 외부 기온, 도시가스 단가가 다르면 실제 절감액도 달라집니다.
 

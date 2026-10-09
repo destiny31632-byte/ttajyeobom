@@ -2,6 +2,7 @@
 title: "윈도우 10 ESU 2027년까지 연장, 10월 13일에 끝나지 않는 이유와 무료 등록법"
 description: "개인용 윈도우 10 확장 보안 업데이트(ESU)가 2027년 10월 12일까지 1년 연장됐습니다. 무료 등록 방법, 등록 버튼이 안 보일 때 확인할 5가지, 윈도우 11로 넘어갈지 판단하는 기준까지 정리했습니다."
 pubDate: 2026-10-01T10:00:00+09:00
+updatedDate: 2026-10-09T19:28:26+09:00
 category: it
 tags: ["윈도우10", "윈도우11", "ESU", "보안 업데이트", "PC 관리"]
 cluster: windows-pc
@@ -23,52 +24,52 @@ sources:
     url: "https://www.microsoft.com/ko-kr/windows/extended-security-updates"
     publisher: "Microsoft"
     type: official
-    accessed: 2026-10-01
+    accessed: 2026-10-09
     note: "개인용 ESU 종료일 2027년 10월 12일, 등록 조건·비용·10대 사용"
   - title: "Windows 10 지원이 2025년 10월 14일에 종료되었습니다"
     url: "https://support.microsoft.com/ko-kr/windows/windows-10-%EC%A7%80%EC%9B%90%EC%9D%B4-2025%EB%85%84-10%EC%9B%94-14%EC%9D%BC%EC%97%90-%EC%A2%85%EB%A3%8C%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-2ca8b313-1946-43d3-b55c-2b95b107f281"
     publisher: "Microsoft 지원"
     type: official
-    accessed: 2026-10-01
+    accessed: 2026-10-09
     note: "지원 종료 후에도 PC는 작동, 윈도우 11 무료 업그레이드 조건, Office 지원 일정"
   - title: "Product Lifecycle FAQ - Extended Security Updates"
     url: "https://learn.microsoft.com/en-us/lifecycle/faq/extended-security-updates"
     publisher: "Microsoft Learn"
     type: official
-    accessed: 2026-10-01
+    accessed: 2026-10-09
     note: "기업용 ESU 연차별 종료일"
   - title: "Windows 10 end of support and Microsoft 365 Apps"
     url: "https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-10-support"
     publisher: "Microsoft Learn"
     type: official
-    accessed: 2026-10-01
+    accessed: 2026-10-09
     note: "Microsoft 365 앱 보안 업데이트 2028년 10월 10일, 버전 2608 이후 기능 업데이트 중단"
   - title: "Office 2021 수명 주기"
     url: "https://learn.microsoft.com/en-us/lifecycle/products/office-2021"
     publisher: "Microsoft Learn"
     type: official
-    accessed: 2026-10-01
+    accessed: 2026-10-09
   - title: "Windows 11 사양 및 시스템 요구 사항"
     url: "https://www.microsoft.com/ko-kr/windows/windows-11-specifications"
     publisher: "Microsoft"
     type: official
-    accessed: 2026-10-01
+    accessed: 2026-10-09
   - title: "최소 시스템 요구 사항을 충족하지 않는 디바이스에 Windows 11 설치"
     url: "https://support.microsoft.com/ko-kr/windows/windows-11%EC%9D%84-%EC%B5%9C%EC%86%8C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%9A%94%EA%B5%AC-%EC%82%AC%ED%95%AD%EC%9D%84-%EC%B6%A9%EC%A1%B1%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%EC%97%90-%EC%84%A4%EC%B9%98-0b2dc4a2-5933-4ad4-9c09-ef0a331518f1"
     publisher: "Microsoft 지원"
     type: official
-    accessed: 2026-10-01
-  - title: "Microsoft quietly extends free Windows 10 ESU support to October 2027"
-    url: "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/"
-    publisher: "BleepingComputer"
-    type: press
-    accessed: 2026-10-01
+    accessed: 2026-10-09
+  - title: "Windows 10 지원 종료 안내: 2026년 6월 25일 편집자 주"
+    url: "https://news.microsoft.com/source/emea/2025/09/information-on-the-end-of-support-for-windows-10-in-switzerland/"
+    publisher: "Microsoft Source EMEA"
+    type: official
+    accessed: 2026-10-09
     note: "2026년 6월 25일 안내 변경 시점과 마이크로소프트 입장"
   - title: "ChromeOS Flex 인증 모델 목록"
     url: "https://support.google.com/chromeosflex/answer/11513094?hl=ko"
     publisher: "Google"
     type: official
-    accessed: 2026-10-01
+    accessed: 2026-10-09
 images:
   - src: "/images/posts/windows-10-esu-2027-extension-guide/support-timeline.svg"
     alt: "2026년 10월 1일 기준 남은 보안 업데이트 기간: Office 2021 0.4개월, 윈도우 10 개인용 ESU 12.4개월, 윈도우 10용 Microsoft 365 앱 24.3개월, 기업용 ESU 최대 24.3개월"
@@ -95,15 +96,15 @@ generation:
 | 기업용 ESU 1년 차 | 2026년 10월 13일 | 조직은 2년 차를 따로 구매해야 함 |
 | 기업용 ESU 최대(3년 차) | 2028년 10월 10일 | 볼륨 라이선스 고객 대상 |
 | 윈도우 10용 Microsoft 365 앱 보안 업데이트 | 2028년 10월 10일 | 기능 업데이트는 버전 2608에서 멈춤 |
-| Office 2021(구독형 아님) | 2026년 10월 13일 | 미국 태평양 시간 기준. 윈도우 ESU와 별개 |
+| Office 2021(구독형 아님) | 2026년 10월 13일(연간 종료 목록) | 제품 페이지는 10월 14일 06:59:59 PT로 표시. 아래 설명 참고 |
 
 인터넷에 아직 "10월 13일 종료"라는 글이 많은 이유가 여기 있습니다. 회사용 ESU 1년 차와 처음 발표된 개인용 종료일이 모두 2026년 10월 13일이었기 때문입니다. 마이크로소프트는 연장 이유를 "새 PC로 옮기는 데 시간이 걸린다는 점을 고려했다"고 설명했고, 연장 대상은 개인용 기기로 한정했습니다.
 
 ![2026년 10월 1일 기준 남은 보안 업데이트 기간: Office 2021 0.4개월, 윈도우 10 개인용 ESU 12.4개월, 윈도우 10용 Microsoft 365 앱 24.3개월, 기업용 ESU 최대 24.3개월](/images/posts/windows-10-esu-2027-extension-guide/support-timeline.svg "종료일까지 남은 날짜를 개월로 환산한 값(2026년 10월 1일 기준)")
 
-2026년 10월 1일을 기준으로 남은 날을 세어 보면 개인용 ESU는 376일, 약 12.4개월입니다. 반면 Office 2021은 12일밖에 남지 않았습니다. 윈도우는 1년 벌었지만 오피스는 지금 바로 대책이 필요한 셈입니다.
+2026년 10월 1일을 기준으로 남은 날을 세어 보면 개인용 ESU는 376일, 약 12.4개월입니다. 위 차트의 Office 2021은 Microsoft의 [2026년 지원 종료 목록](https://learn.microsoft.com/en-us/lifecycle/end-of-support/end-of-support-2026)에 적힌 10월 13일을 기준으로 계산한 12일입니다. 다만 [Office 2021 제품 페이지](https://learn.microsoft.com/en-us/lifecycle/products/office-2021)는 종료 시점을 **2026년 10월 14일 06:59:59 PT**로 표시합니다. 공식 페이지 사이에 표시 차이가 있어 정확한 종료 시각을 하나로 단정하지 않습니다. 늦은 날짜까지 기다리기보다 10월 13일 전에 준비를 마치는 편이 안전합니다. 윈도우 ESU는 Office 제품의 지원을 연장하지 않으며, Office 2021은 윈도우 10에서 실행되더라도 지원되는 구성은 아닙니다.
 
-## 내 PC가 이미 등록됐는지 30초 만에 확인하기
+## 내 PC가 이미 등록됐는지 확인하기
 
 먼저 등록 여부부터 확인하세요. 이미 등록돼 있다면 이번 연장으로 할 일은 없습니다.
 
@@ -133,7 +134,7 @@ generation:
 | 5대 | 6달러 |
 | 10대 | 3달러 |
 
-설정 백업으로 무료 등록할 수 있는데 굳이 결제할 이유는 많지 않습니다. 다만 업무 자료가 섞인 PC라서 설정을 클라우드에 올리기 꺼려진다면 일회성 구매가 깔끔합니다.
+설정 백업으로 무료 등록할 수 있는데 굳이 결제할 이유는 많지 않습니다. 개인용 PC에서 설정 백업을 원하지 않는다면 일회성 구매를 선택할 수 있습니다. 다만 소비자 ESU는 상업용으로 사용할 수 없으므로 업무용 PC는 결제 여부와 별개로 조직용 ESU 조건을 확인해야 합니다.
 
 ## '지금 등록' 링크가 안 보일 때 확인할 5가지
 
@@ -198,7 +199,7 @@ TPM 2.0이 없거나 CPU가 목록에 없어 업그레이드가 막힌 PC라면 
 ## 자주 하는 실수 4가지
 
 1. **"10월 13일 종료" 기사만 보고 급하게 새 PC를 사는 것** — 개인용 PC라면 무료 ESU로 2027년 10월 12일까지 시간이 있습니다. 서두르기보다 조건을 따져 보고 결정해도 늦지 않습니다.
-2. **Office 2021을 쓰면서 윈도우만 챙기는 것** — Office 2021 지원은 2026년 10월 13일(미국 태평양 시간)에 끝나고, 윈도우 10 ESU로는 연장되지 않습니다.
+2. **Office 2021을 쓰면서 윈도우만 챙기는 것** — Office 2021은 공식 종료 목록에 2026년 10월 13일로, 제품 페이지에는 10월 14일 06:59:59 PT로 표시됩니다. 윈도우 10 ESU로는 Office 지원이 연장되지 않습니다.
 3. **로컬 계정이라 등록을 포기하는 것** — 등록할 때 Microsoft 계정으로 로그인하면 됩니다. ESU 라이선스는 등록에 쓴 Microsoft 계정에 연결됩니다.
 4. **백신만 최신이면 괜찮다고 여기는 것** — 백신은 악성코드를 찾아내는 도구입니다. 운영체제 자체의 보안 결함은 보안 업데이트로만 고쳐집니다.
 

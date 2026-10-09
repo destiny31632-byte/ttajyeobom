@@ -6,7 +6,7 @@ import { writeJson } from '../lib/fsutil.ts';
 import { contentHash } from '../lib/publication.ts';
 import { REPORT_DIR } from '../lib/paths.ts';
 import path from 'node:path';
-import { isOfficialSource, missingSourceNumbers } from '../lib/source-audit.ts';
+import { isOfficialSource, missingSourceNumbers, decodeSource } from '../lib/source-audit.ts';
 
 async function sourceText(raw: string) {
   let url = new URL(raw);
@@ -28,7 +28,7 @@ async function sourceText(raw: string) {
       if (bytes > 2_000_000) { await reader.cancel(); throw new Error('원문 크기 제한 초과'); }
       chunks.push(chunk.value);
     }
-    const { document } = parseHTML(Buffer.concat(chunks).toString('utf8'));
+    const { document } = parseHTML(decodeSource(Buffer.concat(chunks), res.headers.get('content-type') ?? ''));
     document.querySelectorAll('script,style,nav,footer,header').forEach((e) => e.remove());
     const text = document.body.textContent ?? '';
     return { status: text.trim().length > 100 ? 'retrieved' : 'insufficient-text', sha256: contentHash(text), text };

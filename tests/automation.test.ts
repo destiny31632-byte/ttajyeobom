@@ -10,7 +10,7 @@ import { eligibleTopic } from '../automation/lib/pipeline.ts';
 import { contentHash, reviewProblems } from '../automation/lib/publication.ts';
 import { reserveCall } from '../automation/lib/ai-budget.ts';
 import { GeminiFreeProvider } from '../automation/lib/ai-provider.ts';
-import { isOfficialSource, missingSourceNumbers } from '../automation/lib/source-audit.ts';
+import { isOfficialSource, missingSourceNumbers, decodeSource } from '../automation/lib/source-audit.ts';
 import { deploymentProblems } from '../automation/lib/deploy-settings.ts';
 
 describe('상업용 무료 배포 준비', () => {
@@ -24,6 +24,11 @@ describe('상업용 무료 배포 준비', () => {
 });
 
 describe('공식 원문 점검', () => {
+  it('정부 사이트 EUC-KR 본문과 UTF-8 문서를 올바르게 읽는다', () => {
+    expect(decodeSource(new Uint8Array([0xc1, 0xa4, 0xba, 0xce]), 'text/html; charset=EUC-KR')).toBe('정부');
+    expect(decodeSource(new TextEncoder().encode('정부'), 'text/html; charset=UTF-8')).toBe('정부');
+    expect(() => decodeSource(new Uint8Array([1]), 'text/html; charset=not-a-real-encoding')).toThrow();
+  });
   it('정부24·정책브리핑·한국전력 공식 주소를 허용하고 위장 주소를 거부한다', () => {
     for (const host of ['www.gov.kr', 'www.korea.kr', 'cyber.kepco.co.kr', 'www.safedriving.or.kr']) {
       expect(isOfficialSource(new URL(`https://${host}/`))).toBe(true);

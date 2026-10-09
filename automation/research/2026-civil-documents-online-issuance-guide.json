@@ -1,24 +1,114 @@
 {
   "slug": "2026-civil-documents-online-issuance-guide",
-  "checkedAt": "2026-10-02",
+  "checkedAt": "2026-10-09",
   "facts": [
-    {"claim":"주민등록표 등본·초본 신청 채널","value":"인터넷, 방문, 무인민원발급기","sourceUrl":"https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015&HighCtgCD=A01003","asOf":"2026-10-02"},
-    {"claim":"주민등록표 등본·초본 수수료","value":"방문 1통 400원, 일부 이해관계인 500원, 인터넷 본인·세대원 발급 무료, 무인민원발급기는 해당 수수료의 1/2","sourceUrl":"https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015&HighCtgCD=A01003","asOf":"2026-10-02"},
-    {"claim":"주민등록표 등본과 초본의 차이","value":"등본은 한 세대 구성원의 주민등록 사항, 초본은 한 사람의 상세 주민등록 사항을 기재","sourceUrl":"https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015&HighCtgCD=A01003","asOf":"2026-10-02"},
-    {"claim":"주민등록표 온라인 대리 신청","value":"온라인은 대리인 신청 불가","sourceUrl":"https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015&HighCtgCD=A01003","asOf":"2026-10-02"},
-    {"claim":"가족관계등록사항별 증명서 온라인 발급","value":"전자가족관계등록시스템에서 365일 24시간 온라인 발급, 본인인증 가능한 국민은 본인·배우자·1촌 이내 직계혈족의 가족관계등록사항별 증명서를 무료 발급 가능","sourceUrl":"https://www.scourt.go.kr/judiciary/information/public/","asOf":"2026-10-02"},
-    {"claim":"가족관계증명서 기재 범위","value":"본인과 부모, 배우자, 자녀에 관한 사항을 기재","sourceUrl":"https://efamily.scourt.go.kr/index.jsp","asOf":"2026-10-02"},
-    {"claim":"인감증명서 수수료와 신청자격","value":"방문 600원, 인터넷 무료; 방문은 본인 또는 대리인, 온라인은 본인만 신청 가능","sourceUrl":"https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000025&HighCtgCD=A09006","asOf":"2026-10-02"},
-    {"claim":"온라인 인감증명서 사용 범위","value":"부동산 매도용·자동차 매도용이 아닌 일반용 중 법원·금융기관 제출용을 제외한 용도에 정부24 온라인 발급 가능","sourceUrl":"https://www.korea.kr/news/policyNewsView.do?newsId=148934534","asOf":"2026-10-02"},
-    {"claim":"온라인 인감증명서 대표 가능 용도","value":"면허 신청, 경력 증명, 보조사업 신청 등 재산권 관련성이 낮은 용도","sourceUrl":"https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000205&nttId=112801","asOf":"2026-10-02"},
-    {"claim":"본인서명사실확인서 효력·수수료","value":"인감증명서와 동일한 효력, 방문 발급, 통상 1통 600원이나 2028년 12월 31일까지 수수료 면제","sourceUrl":"https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13110000047&HighCtgCD=A01008","asOf":"2026-10-02"},
-    {"claim":"전자본인서명확인서 발급 조건","value":"정부24 PC웹에서 본인이 무료 발급할 수 있으나 최초에는 읍면동·출장소 방문 이용승인 필요, 승인 유효기간 4년, 만료 전 30일 이내 갱신 가능","sourceUrl":"https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13110000048&HighCtgCD=A01008","asOf":"2026-10-02"},
-    {"claim":"전자본인서명확인서 사용 범위","value":"행정기관 등 제출용으로 사용 가능하며 민간기업·개인 간 거래에는 본인서명사실확인서 사용 안내","sourceUrl":"https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13110000048&HighCtgCD=A01008","asOf":"2026-10-02"}
+    {
+      "claim": "주민등록표 등본·초본 신청 채널",
+      "value": "인터넷, 방문, 무인민원발급기",
+      "sourceUrl": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015&HighCtgCD=A01003",
+      "asOf": "2026-10-09"
+    },
+    {
+      "claim": "주민등록표 등본·초본 수수료",
+      "value": "방문 1통 400원, 일부 이해관계인 500원, 인터넷 본인·세대원 발급 무료, 무인민원발급기는 해당 수수료의 1/2",
+      "sourceUrl": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015&HighCtgCD=A01003",
+      "asOf": "2026-10-09"
+    },
+    {
+      "claim": "주민등록표 등본과 초본의 차이",
+      "value": "등본은 한 세대 구성원의 주민등록 사항, 초본은 한 사람의 상세 주민등록 사항을 기재",
+      "sourceUrl": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015&HighCtgCD=A01003",
+      "asOf": "2026-10-09"
+    },
+    {
+      "claim": "주민등록표 온라인 대리 신청",
+      "value": "온라인은 대리인 신청 불가",
+      "sourceUrl": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015&HighCtgCD=A01003",
+      "asOf": "2026-10-09"
+    },
+    {
+      "claim": "가족관계등록사항별 증명서 온라인 발급",
+      "value": "전자가족관계등록시스템에서 365일 24시간 온라인 발급, 본인인증 가능한 국민은 본인·배우자·1촌 이내 직계혈족의 가족관계등록사항별 증명서를 무료 발급 가능",
+      "sourceUrl": "https://www.scourt.go.kr/judiciary/information/public/",
+      "asOf": "2026-10-09"
+    },
+    {
+      "claim": "가족관계증명서 기재 범위",
+      "value": "본인과 부모, 배우자, 자녀에 관한 사항을 기재",
+      "sourceUrl": "https://efamily.scourt.go.kr/index.jsp",
+      "asOf": "2026-10-09"
+    },
+    {
+      "claim": "인감증명서 수수료와 신청자격",
+      "value": "방문 600원, 인터넷 무료; 방문은 본인 또는 대리인, 온라인은 본인만 신청 가능",
+      "sourceUrl": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000025&HighCtgCD=A09006",
+      "asOf": "2026-10-09"
+    },
+    {
+      "claim": "온라인 인감증명서 사용 범위",
+      "value": "부동산 매도용·자동차 매도용이 아닌 일반용 중 법원·금융기관 제출용을 제외한 용도에 정부24 온라인 발급 가능",
+      "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148934534",
+      "asOf": "2026-10-09"
+    },
+    {
+      "claim": "온라인 인감증명서 대표 가능 용도",
+      "value": "면허 신청, 경력 증명, 보조사업 신청 등 재산권 관련성이 낮은 용도",
+      "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148934534",
+      "asOf": "2026-10-09",
+      "previousSourceUrl": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000205&nttId=112801"
+    },
+    {
+      "claim": "본인서명사실확인서 효력·수수료",
+      "value": "인감증명서와 동일한 효력, 방문 발급, 통상 1통 600원이나 2028년 12월 31일까지 수수료 면제",
+      "sourceUrl": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13110000047&HighCtgCD=A01008",
+      "asOf": "2026-10-09"
+    },
+    {
+      "claim": "전자본인서명확인서 발급 조건",
+      "value": "정부24 PC웹에서 본인이 무료 발급할 수 있으나 최초에는 읍면동·출장소 방문 이용승인 필요, 승인 유효기간 4년, 만료 전 30일 이내 갱신 가능",
+      "sourceUrl": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13110000048&HighCtgCD=A01008",
+      "asOf": "2026-10-09"
+    },
+    {
+      "claim": "전자본인서명확인서 사용 범위",
+      "value": "행정기관 등 제출용으로 사용 가능하며 민간기업·개인 간 거래에는 본인서명사실확인서 사용 안내",
+      "sourceUrl": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13110000048&HighCtgCD=A01008",
+      "asOf": "2026-10-09"
+    }
   ],
   "conflicts": [],
   "calculations": [
-    {"table":"주민등록표 등·초본 발급비용 비교","formula":"일반 방문 400원의 1/2 = 무인민원발급기 200원 상당","assumptions":"일반 본인·세대원 발급 기준, 정부24 안내의 무인발급기 1/2 규정 적용","values":[1,2,200,400,500]},
-    {"table":"민원서류 숫자 근거 보조","formula":"본문의 운영기준·기간·수수료 숫자를 연구기록과 연결","values":[1,2,4,24,30,365,400,500,600,2026,2028,12,31]}
+    {
+      "table": "주민등록표 등·초본 발급비용 비교",
+      "formula": "일반 방문 400원의 1/2 = 무인민원발급기 200원 상당",
+      "assumptions": "일반 본인·세대원 발급 기준, 정부24 안내의 무인발급기 1/2 규정 적용",
+      "values": [
+        1,
+        2,
+        200,
+        400,
+        500
+      ]
+    },
+    {
+      "table": "민원서류 숫자 근거 보조",
+      "formula": "본문의 운영기준·기간·수수료 숫자를 연구기록과 연결",
+      "values": [
+        1,
+        2,
+        4,
+        24,
+        30,
+        365,
+        400,
+        500,
+        600,
+        2026,
+        2028,
+        12,
+        31
+      ]
+    }
   ],
   "watch": [
     "주민등록표 등·초본 수수료 및 무인민원발급기 감면 규정 변경",

@@ -2,6 +2,7 @@
 title: "2026 여권 발급·재발급 가이드: 10년 수수료·온라인 신청·준비물"
 description: "2026년 기준 성인 일반여권 최초 발급과 재발급 준비물, 10년 여권 수수료, 정부24·KB스타뱅킹 온라인 재발급, 유효기간과 긴급 발급까지 정리했습니다."
 pubDate: 2026-10-02T15:20:00+09:00
+updatedDate: 2026-10-09T19:14:32+09:00
 category: public
 tags: ["여권 발급", "여권 재발급", "여권 수수료", "정부24", "해외여행 준비"]
 cluster: passport-travel-docs
@@ -23,44 +24,50 @@ sources:
     url: "https://www.passport.go.kr/home/kor/contents.do?menuPos=41"
     publisher: "외교부 여권안내"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "성인 10년 복수여권, 단수여권, 긴급여권, 잔여유효기간 재발급 수수료"
   - title: "최초 발급 18세 이상"
     url: "https://www.passport.go.kr/home/kor/contents.do?menuPos=3"
     publisher: "외교부 여권안내"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "최초 발급 준비물, 방문 신청 원칙, 6개월 이내 사진"
   - title: "유효기간 만료에 따른 재발급"
     url: "https://passport.go.kr/home/kor/contents.do?menuPos=7"
     publisher: "외교부 여권안내"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "18세 이상 재발급 준비물과 수수료"
   - title: "온라인 재발급 기본사항"
     url: "https://www.passport.go.kr/home/kor/contents.do?menuPos=11"
     publisher: "외교부 여권안내"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "정부24·KB스타뱅킹 신청, 온라인 신청 불가 사유, 본인 수령, 수령기관 변경 제한"
   - title: "여권 훼손·분실에 따른 재발급"
     url: "https://www.passport.go.kr/home/kor/contents.do?menuPos=9"
     publisher: "외교부 여권안내"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "분실·훼손 재발급 방식과 반복 분실자의 온라인 신청 제한"
   - title: "48시간내 발급여권(전자여권)"
     url: "https://www.passport.go.kr/home/kor/contents.do?menuPos=16"
     publisher: "외교부 여권안내"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "긴급한 사유의 48시간 내 전자여권 접수처와 14시 접수시한"
   - title: "여권사용안내"
     url: "https://www.passport.go.kr/home/kor/contents.do?menuPos=50"
     publisher: "외교부 여권안내"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "국가별 입국허가요건 차이, 잔여 유효기간 6개월 권장, 훼손 여권 주의"
+  - title: "여권 유효기간 만료 알림·사진 관련 FAQ"
+    url: "https://passport.go.kr/home/kor/board.do?menuPos=69&pageIndex=1&searchKeyword=2026"
+    publisher: "외교부 여권안내"
+    type: official
+    accessed: 2026-10-09
+    note: "만료 후 재발급 불이익·수수료 안내"
 generation:
   method: manual
 ---
@@ -111,7 +118,7 @@ generation:
 
 예전에 사용했던 여권 사진을 스캔해 다시 쓰거나 휴대전화 사진을 임의로 잘라 올리는 방식은 규격·촬영시점 때문에 문제가 생길 수 있습니다. 온라인 신청 전에 외교부의 온라인 여권 사진 검증 기능으로 파일을 확인하는 편이 안전합니다.
 
-이미 접수된 온라인 재발급 신청의 사진이나 수령기관을 신청자가 직접 수정하는 방식도 아닙니다. 변경이 필요하면 선택한 수령기관에 연락해 취소·반려 가능 여부를 확인한 뒤 다시 신청해야 합니다.
+접수 후 사진 등을 바꿔야 한다면 선택한 수령기관에 먼저 연락해 처리 방법을 확인하세요. 신청을 완료한 뒤 수령기관을 바꿀 수 없다는 점도 주의해야 합니다.
 
 ## 유효기간은 '6개월 남으면 무조건 재발급'으로 외우면 안 됩니다
 
@@ -131,7 +138,7 @@ generation:
 
 여권이 찢어졌거나 물에 젖어 정보면이 손상된 경우, 전자칩이 정상적으로 읽힌다고 해서 계속 사용할 수 있다고 단정하기 어렵습니다. 외교부는 메모·낙서·기념 스탬프, 찢김 등 훼손된 여권을 사용하면 출입국이나 항공권 발권에서 제한을 받을 수 있어 재발급을 권고합니다.
 
-분실·훼손에 따른 재발급은 방문 신청이 기본이고, 일부 경우 온라인 신청이 가능합니다. 다만 **5년 이내 2회 이상 분실**했거나, 5년 이내 1회 분실하면서 아직 유효한 다른 여권이 존재하는 경우에는 온라인 신청이 제한됩니다.
+분실·훼손에 따른 재발급은 방문 신청이 기본이고, 일부 경우 온라인 신청이 가능합니다. 다만 **5년 이내 2회 이상 분실**했거나, 5년 이내 1회 분실하면서 유효기간이 지나지 않은 여권이 존재하는 경우에는 온라인 신청이 제한됩니다.
 
 여행 중 여권을 잃어버린 경우에는 일반 재발급 절차와 상황이 다릅니다. 현지 재외공관을 통해 긴급여권이나 여행증명서가 필요한지 확인해야 하며, 비전자여권은 국가별 인정 여부가 달라 출발 전 인정 현황까지 확인해야 합니다.
 

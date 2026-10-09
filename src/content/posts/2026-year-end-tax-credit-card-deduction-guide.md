@@ -2,6 +2,7 @@
 title: "2026 연말정산 신용카드 소득공제: 25% 기준·공제율·한도 계산"
 description: "2026년 귀속 연말정산 신용카드 소득공제를 총급여 25% 기준, 결제수단별 공제율, 자녀 수별 한도, 체육시설 공제와 제외 항목까지 계산 예시로 정리했습니다."
 pubDate: 2026-10-02T15:20:00+09:00
+updatedDate: 2026-10-09T19:26:23+09:00
 category: living
 tags: ["연말정산", "신용카드 소득공제", "현금영수증", "체육시설 소득공제", "연말정산 계산"]
 cluster: year-end-tax
@@ -23,43 +24,43 @@ sources:
     url: "https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1026416055"
     publisher: "국가법령정보센터"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "총급여 25% 최저사용금액, 공제기간, 가족 사용액, 기본·추가 한도"
   - title: "조세특례제한법 제126조의2 제2항"
     url: "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1030490025"
     publisher: "국가법령정보센터"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "전통시장·대중교통·문화체육·직불카드·신용카드 공제율과 계산 순서"
   - title: "조세특례제한법 제126조의2 제10항"
     url: "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1032251007"
     publisher: "국가법령정보센터"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "2026년 적용 기본 한도와 자녀 수에 따른 한도"
   - title: "조세특례제한법 시행령 제121조의2"
     url: "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1031681029"
     publisher: "국가법령정보센터"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "공제 제외 사용액, 가족 소득요건, 체육시설 범위와 자녀 요건"
   - title: "조세특례제한법 시행규칙 제52조의3"
     url: "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lspttninfSeq=195407"
     publisher: "국가법령정보센터"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "체육시설 이용료와 개인강습비 등이 분리되지 않은 경우 50% 인정 규정"
   - title: "소득공제가 되는 신용카드 등 사용금액 확인 등에 대한 고시"
     url: "https://g.nts.go.kr/nts/na/ntt/selectNttInfo.do?mi=2205&nttSn=1355059"
     publisher: "국세청"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "국세청 고시 제2026-29호, 2026년 9월 21일 시행"
   - title: "국세청 근로소득 세액계산 안내"
     url: "https://g.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7874&mi=6595"
     publisher: "국세청"
     type: official
-    accessed: 2026-10-02
+    accessed: 2026-10-09
     note: "근로소득 과세표준·산출세액과 연말정산 공제 구조 확인"
 generation:
   method: manual
@@ -67,7 +68,7 @@ generation:
 
 연말정산에서 카드 사용액을 볼 때 가장 먼저 확인할 숫자는 **공제율이 아니라 총급여의 25%**입니다. 카드와 현금영수증을 많이 썼더라도 공제대상 사용액이 이 기준을 넘지 않았다면 신용카드 등 사용금액 소득공제는 생기지 않습니다.
 
-이 글은 **2026년 10월 2일 현재 시행 중인 법령을 기준으로 2026년 귀속 근로소득**의 카드 소득공제를 설명합니다. 2026년 사용액은 2027년 초 연말정산에 반영됩니다. 세법은 연말까지 바뀔 수 있으므로 실제 제출 전에는 국세청 연말정산 안내와 최종 시행 법령을 한 번 더 확인하는 편이 안전합니다.
+이 글은 **2026년 10월 9일 확인한 시행 법령을 기준으로 2026년 귀속 근로소득**의 카드 소득공제를 설명합니다. 2026년 사용액은 2027년 초 연말정산에 반영됩니다. 세법은 연말까지 바뀔 수 있으므로 실제 제출 전에는 국세청 연말정산 안내와 최종 시행 법령을 한 번 더 확인하는 편이 안전합니다.
 
 ## 연말정산 신용카드 소득공제는 먼저 총급여의 25%를 봅니다
 
