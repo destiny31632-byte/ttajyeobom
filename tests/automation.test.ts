@@ -24,6 +24,15 @@ describe('상업용 무료 배포 준비', () => {
   });
 });
 
+describe('공개 오류 제보 창구', () => {
+  it('프로젝트의 실제 제보 주소만 문의 이메일 대신 허용한다', () => {
+    const env = { SITE_URL: 'https://ttajyeobom.destiny31632.workers.dev', CLOUDFLARE_FREE_CONFIRMED: 'true' };
+    expect(deploymentProblems({...env, PUBLIC_CONTACT_URL: 'https://github.com/destiny31632-byte/ttajyeobom/issues'})).toEqual([]);
+    expect(deploymentProblems({...env, PUBLIC_CONTACT_URL: 'javascript:alert(1)'})).not.toEqual([]);
+    expect(deploymentProblems({...env, PUBLIC_CONTACT_URL: 'https://github.com/other/private/issues'})).not.toEqual([]);
+  });
+});
+
 describe('공식 원문 점검', () => {
   it('정부 사이트 EUC-KR 본문과 UTF-8 문서를 올바르게 읽는다', () => {
     expect(decodeSource(new Uint8Array([0xc1, 0xa4, 0xba, 0xce]), 'text/html; charset=EUC-KR')).toBe('정부');

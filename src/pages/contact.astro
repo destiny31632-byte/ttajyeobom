@@ -8,7 +8,7 @@ const email = SITE.contactEmail;
 <PageLayout
   title="문의"
   description={`${SITE.name}에 정정 요청, 최신 정보 제보, 저작권 관련 요청, 기타 문의를 보내는 방법과 처리 기준입니다.`}
-  updated="2026-10-01"
+  updated="2026-10-09"
   schemaType="ContactPage"
 >
   <h2>연락 방법</h2>
@@ -19,7 +19,7 @@ const email = SITE.contactEmail;
       </p>
     ) : (
       <p>
-        문의용 이메일 창구를 개설하는 중입니다. 개설되면 이 페이지에 주소를 바로 안내하겠습니다.
+        <a href={SITE.contactUrl} target="_blank" rel="noopener noreferrer">공개 오류 제보·문의</a>에서 글의 오류나 이용 중 불편한 점을 알려 주세요. GitHub 로그인이 필요하며 작성한 내용은 누구나 볼 수 있습니다. 이메일·전화번호·신분증·결제정보 등 개인정보는 적지 마세요.
       </p>
     )
   }
@@ -37,7 +37,7 @@ const email = SITE.contactEmail;
   <ol>
     <li>해당 글의 주소(URL)</li>
     <li>고쳐야 할 부분과 근거가 되는 자료 링크(가능하면 공식 출처)</li>
-    <li>답장을 받을 이메일 주소</li>
+    <li>{email ? '답장을 받을 이메일 주소' : '답변은 작성한 제보 글에서 확인해 주세요.'}</li>
   </ol>
 
   <h2>정정 요청은 이렇게 처리합니다</h2>

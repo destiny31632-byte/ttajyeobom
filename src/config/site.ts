@@ -16,6 +16,7 @@ export const SITE = {
   lang: 'ko',
   locale: 'ko_KR',
   contactEmail: String(env.PUBLIC_CONTACT_EMAIL || CONTACT_EMAIL_DEFAULT).trim(),
+  contactUrl: 'https://github.com/destiny31632-byte/ttajyeobom/issues',
   launchDate: '2026-10-01',
   postsPerPage: 12,
   themeColor: '#0f766e',

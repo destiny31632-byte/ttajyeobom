@@ -19,6 +19,8 @@ jobs:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       SITE_URL: ${{ vars.SITE_URL }}
       PUBLIC_CONTACT_EMAIL: ${{ vars.PUBLIC_CONTACT_EMAIL }}
+      PUBLIC_CONTACT_URL: ${{ vars.PUBLIC_CONTACT_URL }}
+      HOSTING_PROVIDER: cloudflare
       CLOUDFLARE_FREE_CONFIRMED: ${{ vars.CLOUDFLARE_FREE_CONFIRMED }}
     steps:
       - uses: actions/checkout@v4

@@ -32,6 +32,11 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run verify
+      - name: Check published site
+        if: vars.SITE_URL != ''
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: node automation/cli/verify-live.ts --deployed | tee automation/reports/live-health.txt
       - run: npm run pipeline:daily -- --online --collect
         if: github.event.schedule != '0 1 * * 0' && inputs.mode != 'weekly'
       - run: npm run pipeline:weekly -- --online
