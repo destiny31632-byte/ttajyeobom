@@ -68,3 +68,5 @@ Azure for Students Standard_B1s 확인. RAM892MB 중 여유223MB, 기존 auto_tr
 - 배포 반영 대기 --wait(6회,3초 간격) 추가, 기존 빌드가 계속 보이면 실패. 회귀 테스트3개 추가로37개. 본문/정책/검색/RSS/사이트맵/9글 해시·404·보안 헤더 검증 유지.
 - Windows/Linux 파일시스템 순서 때문에 내용이 같은73개 페이지도 빌드 ID가 달라지는 것 확인(원격/로컬 페이지 해시는 전부 같음). manifest 경로 고정 정렬로 ID 일관성 보완. 최종 verify37 tests/71 pages 실패0·경고0, publication9/9 통과. 아래 후속 배포 결과 확인 필요.
 - 다음: 후속 push 자동 배포 성공, Windows/서버 빌드ID 일치와 실제 사이트/검색 확인. 이후 무료 AI 계정 결제 미연결 확인·사용량 영속화, AdSense/GSC/Naver 연결은 남아 있음. 전체 프로젝트 완료 전 자동화 PAUSED 금지.
+
+2026-10-10 00:37 KST 최종 배포 검증: b8fcd8c push에서 자동 배포37952786621 및 Quality37952786810 모두 성공. 로컬 Windows 검증 빌드와 공개 build.json ID가 일치했고 홈·문의·개인정보·검색·RSS·사이트맵·글9개 SHA256 및 nosniff/없는 페이지404 모두 통과. 문의 페이지 공개 제보 안내가 원격에 반영됨. 테스트37개,71페이지,107정적파일. 자동 배포 성공 화면을 Codex outputs/ttajyeobom-auto-deploy-success.png로 저장. 사용하지 않는 Cloudflare 자체 Builds 연결 창은 Cancel로 닫음, 기본 광범위 인증키 생성 없음. 사이트·점검·검증 후 재배포는 PC 없이 동작. 자동 AI 글 생성/수익 계정/검색 소유 인증은 미완료이며 전체 완료로 표시하지 않음. 현재사용량5시간 잔여38%, 주간59%, 크레딧481.100731 변동 없음.
