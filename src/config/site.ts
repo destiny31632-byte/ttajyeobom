@@ -26,7 +26,7 @@ export const ADS = readAdConfig(env);
 
 export const VERIFICATION = {
   google: String(env.PUBLIC_GSC_VERIFICATION ?? '').trim(),
-  naver: String(env.PUBLIC_NAVER_VERIFICATION ?? '').trim(),
+  naver: String(env.PUBLIC_NAVER_VERIFICATION ?? '2c48bf86a384184afd7428f4ae49d9c3aac1329c').trim(),
   bing: String(env.PUBLIC_BING_VERIFICATION ?? '').trim(),
 };
 
