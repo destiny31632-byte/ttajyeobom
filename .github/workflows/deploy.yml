@@ -1,8 +1,18 @@
 name: Deploy static site
 on:
   push:
+    branches: [master]
     paths:
       - '.github/workflows/deploy.yml'
+      - 'src/**'
+      - 'public/**'
+      - 'automation/**'
+      - 'tests/**'
+      - 'scripts/**'
+      - 'astro.config.*'
+      - 'wrangler.jsonc'
+      - 'package.json'
+      - 'package-lock.json'
   workflow_dispatch:
 permissions:
   contents: read
