@@ -16,3 +16,5 @@
 외부 무료 AI를 연결하더라도 실패 시 유료 제공자로 전환하지 않습니다. 현재는 콘텐츠 생성 자체가 차단되어 있으며, 자동 점검과 트렌드 후보 수집만 동작합니다. 계정 로그인 또는 환경 변수 존재만으로 무료 과금 차단이 증명되지는 않습니다.
 
 자료: [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions), [Cloudflare Static Assets](https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/), [Cloudflare limits](https://developers.cloudflare.com/workers/platform/limits/), [Vercel 상업 이용 기준](https://vercel.com/docs/limits/fair-use-guidelines).
+
+- 무료 정적 파일은 버전당20,000개, 파일당25MiB까지이며 `npm run verify`에서 한도 초과를 차단합니다. 현재 검증한107개/1.71MiB는 파일 준비 상태이고 계정의 무료 플랜 확인을 대신하지 않습니다. 근거: https://developers.cloudflare.com/workers/platform/limits/#static-assets

@@ -1,3 +1,4 @@
+import { staticAssetProblems } from '../automation/lib/static-assets.ts';
 import { describe, expect, it, vi } from 'vitest';
 import { calc, buildCalcTable } from '../automation/lib/calc.ts';
 import { kstDate, kstIso, kstMonth } from '../automation/lib/time.ts';
@@ -173,5 +174,22 @@ describe('광고 설정', () => {
     const config = readAdConfig({ PUBLIC_ADSENSE_CLIENT: 'ca-pub-1234567890123456' });
     expect(config.enabled).toBe(true);
     expect(adMarkup('in-article', config)).toBe('');
+  });
+});
+
+describe('무료 정적 호스팅 보호', () => {
+  it('무료 한도 경계는 허용하고 파일 수와 개별 크기 초과는 차단한다', () => {
+    const files = Array.from({ length: 20_000 }, (_, i) => ({ name: i + '.html', size: 1 }));
+    expect(staticAssetProblems(files)).toEqual([]);
+    expect(staticAssetProblems([...files, { name: 'extra.html', size: 1 }])).toContain('무료 정적 파일 한도 20,000개 초과');
+    expect(staticAssetProblems([{ name: 'large.bin', size: 25 * 1024 * 1024 }])).toEqual([]);
+    expect(staticAssetProblems([{ name: 'large.bin', size: 25 * 1024 * 1024 + 1 }])).not.toEqual([]);
+  });
+  it('인증 파일과 실행 Worker, 외부 파일을 가리키는 링크는 차단한다', () => {
+    for (const name of ['.env', '.env.production', 'sub/.git/config', '_worker.js', 'credentials.key', 'google-service-account.json'])
+      expect(staticAssetProblems([{ name, size: 1 }])).not.toEqual([]);
+    expect(staticAssetProblems([{ name: 'linked', size: 0, symlink: true }])).not.toEqual([]);
+    expect(staticAssetProblems([{ name: 'index.html', size: NaN }])).not.toEqual([]);
+    expect(staticAssetProblems([{ name: 'index.html', size: 123 }, { name: '_headers', size: 100 }])).toEqual([]);
   });
 });
