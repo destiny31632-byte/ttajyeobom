@@ -93,13 +93,15 @@ describe('무료 호출 예산', () => {
   it('하루 호출 제한을 넘으면 재시도하지 않는다', () => {
     let state = reserveCall(null, '2026-10-09', 10000);
     state = reserveCall(state, '2026-10-09', 10000);
+    state = reserveCall(state, '2026-10-09', 10000);
+    state = reserveCall(state, '2026-10-09', 10000);
     expect(() => reserveCall(state, '2026-10-09', 10000)).toThrow();
     const next = reserveCall(state, '2026-10-10', 10000);
     expect(next.dailyCalls).toBe(1);
-    expect(next.monthlyCalls).toBe(3);
+    expect(next.monthlyCalls).toBe(5);
   });
   it('날짜가 바뀌어도 월 한도를 초기화하지 않는다', () => {
-    const state = { day: '2026-10-08', month: '2026-10', dailyCalls: 1, monthlyCalls: 40, reservedTokens: 400000 };
+    const state = { day: '2026-10-08', month: '2026-10', dailyCalls: 1, monthlyCalls: 124, reservedTokens: 8000000 };
     expect(() => reserveCall(state, '2026-10-09', 10000)).toThrow();
     expect(reserveCall(state, '2026-11-01', 10000).monthlyCalls).toBe(1);
   });
