@@ -8,6 +8,5 @@
   "status": "held",
   "newPost": null,
   "topic": "windows-backup-file-history-restore-guide",
-  "reason": "Unexpected token 'D', \"[DONE]\" is not valid JSON",
-  "workflowStatus": "failure"
+  "reason": "The operation was aborted due to timeout"
 }
