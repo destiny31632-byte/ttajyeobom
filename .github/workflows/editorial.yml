@@ -8,6 +8,10 @@ on:
         description: 'Research check only, without generation or publication'
         type: boolean
         default: true
+      preview:
+        description: 'Private draft only; no publication'
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -26,6 +30,7 @@ jobs:
       FREE_PROVIDER_VERIFIED_AT: ${{ vars.FREE_PROVIDER_VERIFIED_AT }}
       GEMINI_MODEL: gemini-3.8-flash
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      EDITORIAL_PREVIEW_EXCEPTION: ${{ github.event_name == 'workflow_dispatch' && inputs.preview && '2026-10-10' || '' }}
       SITE_URL: ${{ vars.SITE_URL }}
       PUBLIC_CONTACT_URL: ${{ vars.PUBLIC_CONTACT_URL }}
       PUBLIC_CF_BEACON_TOKEN: ${{ vars.PUBLIC_CF_BEACON_TOKEN }}
@@ -47,7 +52,9 @@ jobs:
       - name: Research, write and independently review one guide
         id: write
         run: |
-          if [ '${{ github.event_name }}' = 'workflow_dispatch' ] && [ '${{ inputs.probe }}' = 'true' ]; then
+          if [ '${{ github.event_name }}' = 'workflow_dispatch' ] && [ '${{ inputs.preview }}' = 'true' ]; then
+            npm run editorial:server -- --preview
+          elif [ '${{ github.event_name }}' = 'workflow_dispatch' ] && [ '${{ inputs.probe }}' = 'true' ]; then
             npm run editorial:server -- --probe
           else
             npm run editorial:server
@@ -90,5 +97,6 @@ jobs:
           path: |
             editorial-ledger/last-run.json
             automation/drafts/failed/
+            automation/drafts/preview/
           retention-days: 7
           if-no-files-found: ignore
