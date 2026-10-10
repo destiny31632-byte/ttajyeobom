@@ -38,7 +38,7 @@ export class GeminiFreeProvider implements TextProvider {
         }
       }
       const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
-        method: 'POST', signal: AbortSignal.timeout(120000),
+        method: 'POST', signal: AbortSignal.timeout(300000),
         headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
         body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { maxOutputTokens: 14000, temperature: 0.3, responseMimeType: 'application/json', thinkingConfig: { thinkingLevel: 'low' } } }),
       });

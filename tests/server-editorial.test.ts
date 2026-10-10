@@ -1,6 +1,18 @@
 import { describe,it,expect } from 'vitest';
 import {validateEvidence,validateIndependentReview,safeSourceUrl,diagramSvg} from '../automation/lib/server-editorial.ts';
+import {reserveCall} from '../automation/lib/ai-budget.ts';
 describe('서버 발행 근거 보호',()=>{
+  it('승인된 추가 시험 예외가 다음 날짜와 일반 예약에 번지지 않는다',()=>{
+    const prior=process.env.EDITORIAL_PREVIEW_EXCEPTION;
+    process.env.EDITORIAL_PREVIEW_EXCEPTION='2026-10-10';
+    try {
+      const state={day:'2026-10-10',month:'2026-10',dailyCalls:4,monthlyCalls:4,reservedTokens:400000};
+      expect(reserveCall(state,'2026-10-10',100000).dailyCalls).toBe(5);
+      expect(()=>reserveCall({...state,day:'2026-10-11'},'2026-10-11',100000)).toThrow();
+      delete process.env.EDITORIAL_PREVIEW_EXCEPTION;
+      expect(()=>reserveCall(state,'2026-10-10',100000)).toThrow();
+    } finally {if(prior===undefined)delete process.env.EDITORIAL_PREVIEW_EXCEPTION;else process.env.EDITORIAL_PREVIEW_EXCEPTION=prior;}
+  });
   it('있는 원문이라도 실제 짧은 근거가 없으면 거절한다',()=>{
     const facts=Array.from({length:12},()=>({claim:'점검',sourceUrl:'https://support.google.com/example',evidence:'존재하지 않는 원문 근거입니다'}));
     expect(()=>validateEvidence(facts,[{url:facts[0].sourceUrl,text:'실제 공식 자료는 다른 내용입니다'}])).toThrow();
