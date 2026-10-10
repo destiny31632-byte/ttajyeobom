@@ -16,7 +16,7 @@ export class GeminiFreeProvider implements TextProvider {
     if (env('AI_BILLING_TIER') !== 'free-unlinked-confirmed') throw new Error('결제 계정 미연결 무료 프로젝트 확인 필요');
     const key = env('GEMINI_API_KEY');
     const model = env('GEMINI_MODEL');
-    if (!key || model !== 'gemini-3.8-flash') throw new Error('검증한 무료 모델 및 API 키 설정 필요');
+    if (!key || !['gemini-3.8-flash','gemini-3.6-flash'].includes(model)) throw new Error('검증한 무료 모델 및 API 키 설정 필요');
     const verified = Date.parse(env('FREE_PROVIDER_VERIFIED_AT'));
     if (!Number.isFinite(verified) || Date.now() < verified || Date.now() - verified > 30 * 86400000) throw new Error('30일 이내 무료 프로젝트·결제 미연결 재확인 필요');
     if (prompt.length > 80_000) throw new Error('프롬프트 크기 제한 초과');

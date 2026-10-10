@@ -12,6 +12,11 @@ on:
         description: 'Private draft only; no publication'
         type: boolean
         default: false
+      preview_model:
+        description: 'Verified free preview model'
+        type: choice
+        options: [gemini-3.8-flash, gemini-3.6-flash]
+        default: gemini-3.8-flash
 permissions:
   contents: write
 concurrency:
@@ -28,7 +33,7 @@ jobs:
       AI_DISABLED: 'false'
       AI_BILLING_TIER: ${{ vars.AI_BILLING_TIER }}
       FREE_PROVIDER_VERIFIED_AT: ${{ vars.FREE_PROVIDER_VERIFIED_AT }}
-      GEMINI_MODEL: gemini-3.8-flash
+      GEMINI_MODEL: ${{ github.event_name == 'workflow_dispatch' && inputs.preview && inputs.preview_model || 'gemini-3.8-flash' }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       EDITORIAL_PREVIEW_EXCEPTION: ${{ github.event_name == 'workflow_dispatch' && inputs.preview && '2026-10-10' || '' }}
       SITE_URL: ${{ vars.SITE_URL }}
