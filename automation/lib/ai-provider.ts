@@ -19,6 +19,23 @@ export function interactionText(data:any):string {
   if(!text.trim())throw new Error('작성 본문 없음');
   return text;
 }
+export async function readInteractionStream(response:Response):Promise<string> {
+  if(!response.body)throw new Error('작성 스트림 없음');
+  const reader=response.body.getReader();const decoder=new TextDecoder();
+  let pending='',text='',complete=false;const outputSteps=new Set<number>();
+  const line=(raw:string)=>{
+    if(!raw.startsWith('data:'))return;
+    const event=JSON.parse(raw.slice(5).trim());
+    if(event.event_type==='step.start'&&event.step?.type==='model_output')outputSteps.add(event.index);
+    if(event.event_type==='step.delta'&&outputSteps.has(event.index)&&event.delta?.type==='text')text+=event.delta.text??'';
+    if(event.event_type==='interaction.completed')complete=event.interaction?.status==='completed';
+    if(event.event_type==='error'||event.event_type==='interaction.failed')throw new Error('작성 전송 오류: 발행 보류');
+  };
+  while(true){const r=await reader.read();if(r.done)break;pending+=decoder.decode(r.value,{stream:true});let i:number;while((i=pending.indexOf('\n'))>=0){line(pending.slice(0,i).trimEnd());pending=pending.slice(i+1);}if(text.length+pending.length>1_000_000)throw new Error('작성 응답 크기 초과');}
+  pending+=decoder.decode();if(pending.trim())line(pending.trimEnd());
+  if(!complete||!text.trim())throw new Error('작성 전송 미완료: 발행 보류');
+  return text;
+}
 export class GeminiFreeProvider implements TextProvider {
   async generate(prompt: string): Promise<string> {
     if (envBool('AI_DISABLED', true)) throw new Error('AI 호출 비활성화');
@@ -47,13 +64,13 @@ export class GeminiFreeProvider implements TextProvider {
           if(r.status!==0) throw new Error('사용량 원격 기록 실패: 요청하지 않습니다.');
         }
       }
-      const res = await fetch('https://generativelanguage.googleapis.com/v1beta/interactions', {
+      const res = await fetch('https://generativelanguage.googleapis.com/v1beta/interactions?alt=sse', {
         method: 'POST', signal: AbortSignal.timeout(300000),
         headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
-        body: JSON.stringify({ model,input:prompt,store:false,generation_config:{max_output_tokens:14000,temperature:0.3,thinking_level:'low'},response_format:{type:'text',mime_type:'application/json',schema:{type:'object',properties:Object.fromEntries((prompt.startsWith('작성자의 판단')?reviewFields:writerFields).map(k=>[k,responseSchema.properties[k]])),required:prompt.startsWith('작성자의 판단')?reviewFields:writerFields}} }),
+        body: JSON.stringify({ model,input:prompt,store:false,stream:true,generation_config:{max_output_tokens:14000,temperature:0.3,thinking_level:'low'},response_format:{type:'text',mime_type:'application/json',schema:{type:'object',properties:Object.fromEntries((prompt.startsWith('작성자의 판단')?reviewFields:writerFields).map(k=>[k,responseSchema.properties[k]])),required:prompt.startsWith('작성자의 판단')?reviewFields:writerFields}} }),
       });
       if (!res.ok) throw new Error(`무료 AI 응답 ${res.status}: 재시도·유료 전환 없이 중단`);
-      return interactionText(await res.json());
+      return readInteractionStream(res);
     } finally { fs.closeSync(fd); fs.unlinkSync(lock); }
   }
 }
