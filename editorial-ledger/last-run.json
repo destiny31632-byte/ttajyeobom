@@ -8,5 +8,6 @@
   "status": "held",
   "newPost": null,
   "topic": "windows-backup-file-history-restore-guide",
-  "reason": "무료 AI 응답 503: 재시도·유료 전환 없이 중단"
+  "reason": "무료 AI 응답 503: 재시도·유료 전환 없이 중단",
+  "workflowStatus": "failure"
 }
