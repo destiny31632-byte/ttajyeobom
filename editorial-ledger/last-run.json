@@ -8,5 +8,6 @@
   "status": "held",
   "newPost": null,
   "topic": "windows-backup-file-history-restore-guide",
-  "reason": "The operation was aborted due to timeout"
+  "reason": "The operation was aborted due to timeout",
+  "workflowStatus": "failure"
 }
