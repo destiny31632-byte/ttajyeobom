@@ -9,6 +9,8 @@ import { spawnSync } from 'node:child_process';
 import { ROOT } from './paths.ts';
 
 export interface TextProvider { generate(prompt: string): Promise<string> }
+const evidenceSchema={type:'array',items:{type:'object',properties:{claim:{type:'string'},sourceUrl:{type:'string'},evidence:{type:'string'}},required:['claim','sourceUrl','evidence']}};
+const responseSchema={type:'object',properties:{body:{type:'string'},description:{type:'string'},summary:{type:'array',items:{type:'string'}},facts:evidenceSchema,diagram:{type:'array',items:{type:'string'}},approved:{type:'boolean'},refused:{type:'boolean'},reason:{type:'string'},allFactualClaimsSupported:{type:'boolean'},noFabricatedExperience:{type:'boolean'},noUnresolvedConflicts:{type:'boolean'},noUnsupportedNumbers:{type:'boolean'},expertDepth:{type:'boolean'},naturalKorean:{type:'boolean'},problems:{type:'array',items:{type:'string'}},checkedClaims:evidenceSchema}};
 export function interactionText(data:any):string {
   if(data?.status!=='completed')throw new Error('완료되지 않은 작성 응답: 발행 보류');
   const text=(data.steps??[]).filter((s:any)=>s.type==='model_output').flatMap((s:any)=>s.content??[]).filter((p:any)=>p.type==='text').map((p:any)=>p.text??'').join('');
@@ -46,7 +48,7 @@ export class GeminiFreeProvider implements TextProvider {
       const res = await fetch('https://generativelanguage.googleapis.com/v1beta/interactions', {
         method: 'POST', signal: AbortSignal.timeout(300000),
         headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
-        body: JSON.stringify({ model,input:prompt,store:false,generation_config:{max_output_tokens:14000,temperature:0.3,thinking_level:'low'},response_format:{type:'text',mime_type:'application/json',schema:{type:'object',properties:{body:{type:'string'},approved:{type:'boolean'},refused:{type:'boolean'}}}} }),
+        body: JSON.stringify({ model,input:prompt,store:false,generation_config:{max_output_tokens:14000,temperature:0.3,thinking_level:'low'},response_format:{type:'text',mime_type:'application/json',schema:responseSchema} }),
       });
       if (!res.ok) throw new Error(`무료 AI 응답 ${res.status}: 재시도·유료 전환 없이 중단`);
       return interactionText(await res.json());
