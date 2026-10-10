@@ -26,7 +26,8 @@
     "pipeline:daily": "node automation/run-daily.ts",
     "pipeline:weekly": "node automation/run-weekly.ts",
     "assets:brand": "node automation/cli/brand-assets.ts",
-    "verify": "npm run build && npm test && npm run check:dist && npm run assets:check",
+    "verify": "npm run build && npm test && npm run check:dist && npm run assets:check && npm run check:language",
+    "check:language": "node scripts/check-public-language.mjs",
     "assets:check": "node automation/cli/check-assets.ts"
   },
   "dependencies": {

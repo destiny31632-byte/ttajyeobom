@@ -40,7 +40,7 @@ export const NAV = CATEGORIES.map((c) => ({ href: `/category/${c.slug}/`, label:
 export const FOOTER_LINKS = [
   { href: '/about/', label: '블로그 소개' },
   { href: '/author/editor/', label: '작성자 소개' },
-  { href: '/editorial-policy/', label: '편집 원칙·AI 활용 고지' },
+  { href: '/editorial-policy/', label: '편집 원칙·작성 방식' },
   { href: '/contact/', label: '문의' },
   { href: '/privacy/', label: '개인정보처리방침' },
   { href: '/terms/', label: '이용약관' },

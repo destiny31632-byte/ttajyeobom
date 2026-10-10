@@ -1,0 +1,93 @@
+{
+  "slug": "chrome-memory-saver-tab-reload-guide",
+  "checkedAt": "2026-10-10",
+  "facts": [
+    {
+      "claim": "메모리 절약 동작",
+      "value": "미사용 탭 비활성화 및 다시 접근 시 새로고침",
+      "sourceUrl": "https://support.google.com/chrome/answer/12929150?hl=ko",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "설정 범위",
+      "value": "컴퓨터용, 모바일 iOS 및 Android에는 성능 맞춤설정 미지원",
+      "sourceUrl": "https://support.google.com/chrome/answer/12929150?hl=ko",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "메모리 절약 단계",
+      "value": "보통·균형(권장)·최대",
+      "sourceUrl": "https://support.google.com/chrome/answer/12929150?hl=ko",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "사이트 제외와 활동 조건",
+      "value": "항상 활성 상태 유지 목록, 미디어·화면공유·다운로드·양식 등 조건",
+      "sourceUrl": "https://support.google.com/chrome/answer/12929150?hl=ko",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "에너지 절약 적용 조건",
+      "value": "전원 연결 시 미작동, 배터리를 갖춘 Windows·Mac·Chromebook 지원",
+      "sourceUrl": "https://support.google.com/chrome/answer/12929150?hl=ko",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "작업 관리자",
+      "value": "메모리로 정렬, 작업 종료 시 미저장 내용 상실 가능",
+      "sourceUrl": "https://support.google.com/chrome/answer/1385029?hl=en",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "확장 사용 중지와 권한",
+      "value": "켜기/끄기·제거·사이트 권한 가능, 도구모음 고정해제는 표시 숨김",
+      "sourceUrl": "https://support.google.com/chrome_webstore/answer/2664769",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "조직 관리",
+      "value": "조직이 확장 설치를 차단할 수 있음",
+      "sourceUrl": "https://support.google.com/chrome_webstore/answer/2664769",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "기록 삭제 범위",
+      "value": "다운로드 기록 삭제는 실제 파일 삭제가 아님, 쿠키·캐시·사이트권한 대상 구별",
+      "sourceUrl": "https://support.google.com/chrome/answer/2392709?co=GENIE.Platform%3DDesktop&hl=ko",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "업데이트 동작",
+      "value": "Chrome 정보 화면에서 버전 확인과 다시 시작, 시크릿 창은 재시작 후 열리지 않음",
+      "sourceUrl": "https://support.google.com/chrome/answer/95414",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "작업 관리자 단축키",
+      "value": "Windows·Linux Shift+Esc",
+      "sourceUrl": "https://support.google.com/chrome/answer/157179?hl=en",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "조회 기준일",
+      "value": "2026년 10월 10일",
+      "sourceUrl": "https://support.google.com/chrome/answer/12929150?hl=ko",
+      "asOf": "2026-10-10"
+    }
+  ],
+  "calculations": [],
+  "conflicts": [],
+  "watch": [
+    "메뉴 명칭과 적용 범위 변경",
+    "공식 문서 조건 변경"
+  ],
+  "note": "비교표와 점검 순서는 편집상의 권장 절차. 직접 기기 측정·검색량·성능 개선률을 제시하지 않음.",
+  "sourceHashes": {
+    "https://support.google.com/chrome/answer/12929150?hl=ko": "343b677e5c55cc88014b835898565b4014f20008fa7daf733dccd45eb5c4d11b",
+    "https://support.google.com/chrome/answer/1385029?hl=en": "6ba220108c27ec62224c06e4ae7cda4cbb188e68186ad4d5904ff44a35d4750b",
+    "https://support.google.com/chrome_webstore/answer/2664769": "ba395b77a9e404ead254b31abc3fd748a729bb305e9ab0352d518676608f8276",
+    "https://support.google.com/chrome/answer/2392709?co=GENIE.Platform%3DDesktop&hl=ko": "3ed892147387a22aa81200b80d91e6c2253d949b8475ee26f8a2fe484abd1ee5",
+    "https://support.google.com/chrome/answer/95414": "ffa67925f6d4606a2f823b255050899929f166b82147c55e39d3d649f6532f33",
+    "https://support.google.com/chrome/answer/157179?hl=en": "3e1a7c7640c948a383fa27d060a5fd227426c61a0449e1a784b903966ff6e323"
+  }
+}

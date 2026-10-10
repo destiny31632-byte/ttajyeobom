@@ -10,7 +10,7 @@ const count = (await getPublishedPosts()).filter((p) => !p.data.draft).length;
 <PageLayout
   title="블로그 소개"
   description={`${SITE.name}는 요금·비용·기간처럼 숫자로 판단해야 하는 생활 정보를 공식 자료와 직접 계산한 표로 정리하는 블로그입니다.`}
-  updated="2026-10-01"
+  updated="2026-10-10"
   schemaType="AboutPage"
 >
   <p>
@@ -42,9 +42,8 @@ const count = (await getPublishedPosts()).filter((p) => !p.data.draft).length;
 
   <h2>어떻게 만드나요</h2>
   <p>
-    정부·공공기관과 제조사 공식 문서를 1차 근거로 삼고, 언론 보도는 사실을 교차 확인하는 데 씁니다. 자료 정리와 초안 작성에는 AI
-    도구를 활용합니다. 그 대신 발행 전에 출처 확인, 기존 글과의 중복 검사, 반복 표현·맞춤법 점검, 민감 주제 검사 같은 자동 품질
-    검수를 거치고, 기준에 못 미치면 발행하지 않고 초안으로 남깁니다. 자세한 기준은 <a href="/editorial-policy/">편집 원칙·AI 활용 고지</a>에
+    정부·공공기관과 제조사 공식 문서를 1차 근거로 삼고, 언론 보도는 사실을 교차 확인하는 데 씁니다. 자료 정리와 초안 작성에는 문장 생성 도구를 활용합니다. 그 대신 발행 전에 출처 확인, 기존 글과의 중복 검사, 반복 표현·맞춤법 점검, 민감 주제 검사 같은 자동 품질
+    검수를 거치고, 기준에 못 미치면 발행하지 않고 초안으로 남깁니다. 자세한 기준은 <a href="/editorial-policy/">편집 원칙·작성 방식</a>에
     공개해 두었습니다.
   </p>
 

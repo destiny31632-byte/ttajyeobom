@@ -1,0 +1,10 @@
+{
+  "approved": true,
+  "factsVerified": true,
+  "reviewer": "Codex: official-source comparison",
+  "checkedAt": "2026-10-10T01:38:26.475Z",
+  "contentSha256": "219582e99aaef365bfeb19eb5625db1b5431e8c2798db474799d7c72c4b93c82",
+  "researchSha256": "d5f8233eda7d8d99ca2aaea47c7860cf01d21873ac65c636cc838f999be95646",
+  "method": "Google 또는 Microsoft 공식 원문과 본문·조사 항목 직접 대조. 설정 조건·삭제 범위·미저장 자료 주의 확인. 비교표와 점검 순서는 권장 절차로 구분, 직접 성능 측정이나 검색량·수익을 제시하지 않음. 원문 연속 복제·온라인 출처·숫자·중복·반복·관련 링크 검사 완료.",
+  "publishedFromSha256": "0ad1e24c13efc89f591dfedeb57f99d85d279cf5a482590bc5b8a5fea0de5b35"
+}

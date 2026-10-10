@@ -1,0 +1,80 @@
+{
+  "slug": "windows-storage-cleanup-safe-order-guide",
+  "checkedAt": "2026-10-10",
+  "facts": [
+    {
+      "claim": "저장소 분석",
+      "value": "Windows 11 및 Windows 10에서 시스템·저장소 범주 확인, 다른 드라이브는 별도 확인",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/storage-settings-in-windows",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "정리 권장 사항",
+      "value": "임시파일·큰 파일·클라우드 동기화 파일·미사용앱 검토 후 선택",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/free-up-drive-space-in-windows",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "이전 설치 삭제",
+      "value": "Windows.old 삭제로 이전버전 복귀 파일 제거, 삭제 되돌릴 수 없음",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/free-up-drive-space-in-windows",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "새 파일 저장 위치",
+      "value": "고급 저장소 설정에서 콘텐츠 종류별 기본 드라이브 지정",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/free-up-drive-space-in-windows",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "저장소 센스 범위",
+      "value": "시스템 드라이브, 사용자별 선택, 휴지통 및 다운로드 조건 지정",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "항상 유지 예외",
+      "value": "이 장치에 항상 유지 파일은 온라인전용 자동전환 제외",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "온라인전용 파일",
+      "value": "인터넷 없으면 열 수 없음, 열면 내려받으며 공간 확보로 온라인전용 전환",
+      "sourceUrl": "https://support.microsoft.com/en-us/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "동기화 삭제",
+      "value": "OneDrive 폴더 파일 삭제는 클라우드와 기기 양쪽에 영향, 공유항목 삭제는 공유자에게 영향",
+      "sourceUrl": "https://support.microsoft.com/en-us/onedrive/delete-files-or-folders-in-onedrive",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "시스템 예약공간",
+      "value": "임시파일·캐시·업데이트 등 Windows 작업용 영역",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/storage-settings-in-windows",
+      "asOf": "2026-10-10"
+    },
+    {
+      "claim": "조회 기준일",
+      "value": "2026년 10월 10일",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/free-up-drive-space-in-windows",
+      "asOf": "2026-10-10"
+    }
+  ],
+  "calculations": [],
+  "conflicts": [],
+  "watch": [
+    "메뉴 명칭과 적용 범위 변경",
+    "공식 문서 조건 변경"
+  ],
+  "note": "비교표와 점검 순서는 편집상의 권장 절차. 직접 기기 측정·검색량·성능 개선률을 제시하지 않음.",
+  "sourceHashes": {
+    "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/free-up-drive-space-in-windows": "7119d4670e6ac12f8127ce8deda02d6234a8198ac3a78ecdfa0e0ff5620ced3a",
+    "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense": "aacbedeb62333aac3ae428ea810f33d4f49c1c4ecc00eb477ef3af4577ead62f",
+    "https://support.microsoft.com/en-us/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows": "b9e2f3f4ccd40aa560c327f00937f7c60142951f7f87ff393a1b283035565e98",
+    "https://support.microsoft.com/en-us/onedrive/delete-files-or-folders-in-onedrive": "ed547703782e647c495a449b51f4ea8eaf96001d85288f3bffa94f87869c2086",
+    "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/storage-settings-in-windows": "a8b5c5aef70f2658efe5dbe00548e6139c99748f14846445cb6652285695c085"
+  }
+}
