@@ -5,12 +5,12 @@ import {interactionText,readInteractionStream} from '../automation/lib/ai-provid
 describe('서버 발행 근거 보호',()=>{
   it('스트림의 한글 바이트 경계를 보존하고 사고 단계는 제외한다',async()=>{
     const events=[{event_type:'step.start',index:0,step:{type:'thought'}},{event_type:'step.delta',index:0,delta:{type:'text',text:'검토 메모'}},{event_type:'step.start',index:1,step:{type:'model_output'}},{event_type:'step.delta',index:1,delta:{type:'text',text:'{"body":"한글 본문"}'}},{event_type:'interaction.completed',interaction:{status:'completed'}}];
-    const bytes=new TextEncoder().encode(events.map(e=>'data: '+JSON.stringify(e)+'\n\n').join(''));
+    const bytes=new TextEncoder().encode(events.map(e=>'data: '+JSON.stringify(e)+'\n\n').join('')+'data: [DONE]\n\n');
     const stream=new ReadableStream({start(c){for(let i=0;i<bytes.length;i+=3)c.enqueue(bytes.slice(i,i+3));c.close();}});
     expect(await readInteractionStream(new Response(stream))).toBe('{"body":"한글 본문"}');
   });
   it('텍스트가 일부 있어도 종료 확인이 없는 스트림은 차단한다',async()=>{
-    const data=[{event_type:'step.start',index:1,step:{type:'model_output'}},{event_type:'step.delta',index:1,delta:{type:'text',text:'미완성'}}].map(e=>'data: '+JSON.stringify(e)+'\n\n').join('');
+    const data=[{event_type:'step.start',index:1,step:{type:'model_output'}},{event_type:'step.delta',index:1,delta:{type:'text',text:'미완성'}}].map(e=>'data: '+JSON.stringify(e)+'\n\n').join('')+'data: [DONE]\n\n';
     await expect(readInteractionStream(new Response(data))).rejects.toThrow('미완료');
   });
   it('새 작성 응답에서 중간 상태와 사고 단계는 공개 본문으로 처리하지 않는다',()=>{

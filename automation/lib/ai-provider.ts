@@ -25,7 +25,9 @@ export async function readInteractionStream(response:Response):Promise<string> {
   let pending='',text='',complete=false;const outputSteps=new Set<number>();
   const line=(raw:string)=>{
     if(!raw.startsWith('data:'))return;
-    const event=JSON.parse(raw.slice(5).trim());
+    const payload=raw.slice(5).trim();
+    if(!payload||payload==='[DONE]')return;
+    const event=JSON.parse(payload);
     if(event.event_type==='step.start'&&event.step?.type==='model_output')outputSteps.add(event.index);
     if(event.event_type==='step.delta'&&outputSteps.has(event.index)&&event.delta?.type==='text')text+=event.delta.text??'';
     if(event.event_type==='interaction.completed')complete=event.interaction?.status==='completed';
