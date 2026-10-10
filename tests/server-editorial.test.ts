@@ -1,7 +1,12 @@
 import { describe,it,expect } from 'vitest';
 import {validateEvidence,validateIndependentReview,safeSourceUrl,diagramSvg} from '../automation/lib/server-editorial.ts';
 import {reserveCall} from '../automation/lib/ai-budget.ts';
+import {interactionText} from '../automation/lib/ai-provider.ts';
 describe('서버 발행 근거 보호',()=>{
+  it('새 작성 응답에서 중간 상태와 사고 단계는 공개 본문으로 처리하지 않는다',()=>{
+    expect(()=>interactionText({status:'incomplete',steps:[{type:'model_output',content:[{type:'text',text:'미완료'}]}]})).toThrow();
+    expect(interactionText({status:'completed',steps:[{type:'thought',content:[{type:'text',text:'검토 메모'}]},{type:'model_output',content:[{type:'text',text:'{"body":"본문"}'}]}]})).toBe('{"body":"본문"}');
+  });
   it('승인된 추가 시험 예외가 다음 날짜와 일반 예약에 번지지 않는다',()=>{
     const prior=process.env.EDITORIAL_PREVIEW_EXCEPTION;
     process.env.EDITORIAL_PREVIEW_EXCEPTION='2026-10-10';

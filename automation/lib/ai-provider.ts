@@ -9,6 +9,12 @@ import { spawnSync } from 'node:child_process';
 import { ROOT } from './paths.ts';
 
 export interface TextProvider { generate(prompt: string): Promise<string> }
+export function interactionText(data:any):string {
+  if(data?.status!=='completed')throw new Error('완료되지 않은 작성 응답: 발행 보류');
+  const text=(data.steps??[]).filter((s:any)=>s.type==='model_output').flatMap((s:any)=>s.content??[]).filter((p:any)=>p.type==='text').map((p:any)=>p.text??'').join('');
+  if(!text.trim())throw new Error('작성 본문 없음');
+  return text;
+}
 export class GeminiFreeProvider implements TextProvider {
   async generate(prompt: string): Promise<string> {
     if (envBool('AI_DISABLED', true)) throw new Error('AI 호출 비활성화');
@@ -37,17 +43,13 @@ export class GeminiFreeProvider implements TextProvider {
           if(r.status!==0) throw new Error('사용량 원격 기록 실패: 요청하지 않습니다.');
         }
       }
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+      const res = await fetch('https://generativelanguage.googleapis.com/v1beta/interactions', {
         method: 'POST', signal: AbortSignal.timeout(300000),
         headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
-        body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { maxOutputTokens: 14000, temperature: 0.3, responseMimeType: 'application/json', thinkingConfig: { thinkingLevel: 'low' } } }),
+        body: JSON.stringify({ model,input:prompt,store:false,generation_config:{max_output_tokens:14000,temperature:0.3,thinking_level:'low'},response_format:{type:'text',mime_type:'application/json',schema:{type:'object',properties:{body:{type:'string'},approved:{type:'boolean'},refused:{type:'boolean'}}}} }),
       });
       if (!res.ok) throw new Error(`무료 AI 응답 ${res.status}: 재시도·유료 전환 없이 중단`);
-      const data = await res.json() as { candidates?: { finishReason?: string; content?: { parts?: { text?: string; thought?: boolean }[] } }[] };
-      if (data.candidates?.[0]?.finishReason !== 'STOP') throw new Error('생성 결과 중단·길이 초과: 재시도 없이 보류');
-      const text = data.candidates?.[0]?.content?.parts?.filter(p=>!p.thought).map((p) => p.text ?? '').join('') ?? '';
-      if (!text.trim()) throw new Error('AI 결과 없음');
-      return text;
+      return interactionText(await res.json());
     } finally { fs.closeSync(fd); fs.unlinkSync(lock); }
   }
 }
