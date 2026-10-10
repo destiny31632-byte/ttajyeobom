@@ -5,26 +5,8 @@
     "chrome-memory-saver-tab-reload-guide"
   ],
   "remaining": 0,
-  "status": "source-probe-passed",
+  "status": "held",
   "newPost": null,
   "topic": "windows-backup-file-history-restore-guide",
-  "sourceLengths": [
-    {
-      "url": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/backup-restore-and-recovery-in-windows",
-      "chars": 10898
-    },
-    {
-      "url": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
-      "chars": 12345
-    },
-    {
-      "url": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/windows-backup-settings-catalog",
-      "chars": 19961
-    },
-    {
-      "url": "https://support.microsoft.com/en-au/windows/experience/backup-recovery/backup-and-restore-with-file-history",
-      "chars": 4179
-    }
-  ],
-  "workflowStatus": "success"
+  "reason": "The operation was aborted due to timeout"
 }
