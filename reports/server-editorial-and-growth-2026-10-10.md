@@ -20,3 +20,7 @@ Google 무료 전용 프로젝트와 GitHub 비밀 설정을 연결했다. 노�
 6. 방문자 질문과 오류 제보를 받아 부족한 설명을 고친다. 유입이 붙으면 광고 심사 요건과 관련 제휴 가능성을 별도로 검토하되 수익을 보장하지 않는다.
 
 Google은 독자에게 도움이 되는 내용과 독창적인 가치를 강조한다. 근거 https://developers.google.com/search/docs/fundamentals/creating-helpful-content 및 https://developers.google.com/search/docs/essentials/spam-policies#scaled-content-abuse . 매일2편을 맞추기 위해 내용이 부족한 글을 공개하는 방식은 취하지 않는다.
+
+## 참고 매체의 글 구성 비교
+
+Guiding Tech의 파일 기록 안내(https://www.guidingtech.com/how-to-use-file-history-to-backup-and-restore-files-on-windows-11/)는 설정·사용·복원을 분리하고 각 클릭 단계에 화면 자료를 붙인다. Windows Central의 전체 백업 안내(https://www.windowscentral.com/how-create-full-backup-your-windows-11-pc)는 적용 범위와 주의를 먼저 설명하고 절차·복구를 나눠 제시한다. 글 구성은 확인했지만 개별 글 방문수나 수익은 검증하지 않았다. 참고할 부분은 독자가 클릭하기 직전 필요한 화면과 복원 절차를 함께 제공한다는 점이다. 우리 글에는 원문 복사 없이 직접 확인한 화면 또는 자체 도해, 실패 시 복구 방법, 실제 적용 범위를 담는 편이 적절하다. 두 글의 오래된 기능 설명은 기술 사실의 근거로 채택하지 않았으며 공식자료를 별도로 확인한다.

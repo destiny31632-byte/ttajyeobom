@@ -18,3 +18,6 @@
 자료: [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions), [Cloudflare Static Assets](https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/), [Cloudflare limits](https://developers.cloudflare.com/workers/platform/limits/), [Vercel 상업 이용 기준](https://vercel.com/docs/limits/fair-use-guidelines).
 
 - 무료 정적 파일은 버전당20,000개, 파일당25MiB까지이며 `npm run verify`에서 한도 초과를 차단합니다. 현재 검증한107개/1.71MiB는 파일 준비 상태이고 계정의 무료 플랜 확인을 대신하지 않습니다. 근거: https://developers.cloudflare.com/workers/platform/limits/#static-assets
+
+## 2026-10-10 전용 무료 작성 프로젝트
+결제 미연결 무료 프로젝트 gen-lang-client-0349899722 확인. Gemini3.8Flash 입력·출력 무료(공식 가격 문서 확인), 계정 한도5RPM/250KTPM/20RPD. 공개 공식문서와 공개될 초안만 전달하며 개인정보와 비밀값을 프롬프트에 넣지 않는다. 무료 입력은 공급자 제품 개선에 이용될 수 있다. 호출 보호 하루4회·월124회, 요청당100,000토큰 예산 예약, 실패 차감·무재시도·유료대체 금지. 월정액 가입 없음. 확인30일 만료 시 중지. 오늘 시험4회 모두 기록했고 자동작성 활성화는 보류했다.
