@@ -19,7 +19,8 @@ export function interactionText(data:any):string {
   if(!text.trim())throw new Error('작성 본문 없음');
   return text;
 }
-export async function readInteractionStream(response:Response):Promise<string> {
+type StreamEvent = { kind: 'response' | 'first-output' | 'output-chunk' | 'completed'; chars: number };
+export async function readInteractionStream(response:Response,onEvent?:(event:StreamEvent)=>void):Promise<string> {
   if(!response.body)throw new Error('작성 스트림 없음');
   const reader=response.body.getReader();const decoder=new TextDecoder();
   let pending='',text='',complete=false;const outputSteps=new Set<number>();
@@ -29,11 +30,23 @@ export async function readInteractionStream(response:Response):Promise<string> {
     if(!payload||payload==='[DONE]')return;
     const event=JSON.parse(payload);
     if(event.event_type==='step.start'&&event.step?.type==='model_output')outputSteps.add(event.index);
-    if(event.event_type==='step.delta'&&outputSteps.has(event.index)&&event.delta?.type==='text')text+=event.delta.text??'';
-    if(event.event_type==='interaction.completed')complete=event.interaction?.status==='completed';
+    if(event.event_type==='step.delta'&&outputSteps.has(event.index)&&event.delta?.type==='text'){
+      if(!text.length)onEvent?.({kind:'first-output',chars:0});
+      text+=event.delta.text??'';
+      onEvent?.({kind:'output-chunk',chars:text.length});
+    }
+    if(event.event_type==='interaction.completed'){
+      complete=event.interaction?.status==='completed';
+      if(!complete)throw new Error('정상 완료되지 않은 작성 응답: 발행 보류');
+      onEvent?.({kind:'completed',chars:text.length});
+    }
     if(event.event_type==='error'||event.event_type==='interaction.failed')throw new Error('작성 전송 오류: 발행 보류');
   };
-  while(true){const r=await reader.read();if(r.done)break;pending+=decoder.decode(r.value,{stream:true});let i:number;while((i=pending.indexOf('\n'))>=0){line(pending.slice(0,i).trimEnd());pending=pending.slice(i+1);}if(text.length+pending.length>1_000_000)throw new Error('작성 응답 크기 초과');}
+  onEvent?.({kind:'response',chars:0});
+  while(!complete){const r=await reader.read();if(r.done)break;pending+=decoder.decode(r.value,{stream:true});let i:number;while((i=pending.indexOf('\n'))>=0){line(pending.slice(0,i).trimEnd());pending=pending.slice(i+1);if(complete)break;}if(text.length+pending.length>1_000_000)throw new Error('작성 응답 크기 초과');}
+  // 공식 규격상 interaction.completed가 최종 이벤트입니다. 연결이 닫히거나
+  // 후속 [DONE] 마커가 오기를 기다리다 제한 시간에 걸리지 않도록 합니다.
+  if(complete){void reader.cancel().catch(()=>{});if(!text.trim())throw new Error('작성 본문 없음');return text;}
   pending+=decoder.decode();if(pending.trim())line(pending.trimEnd());
   if(!complete||!text.trim())throw new Error('작성 전송 미완료: 발행 보류');
   return text;
@@ -66,13 +79,30 @@ export class GeminiFreeProvider implements TextProvider {
           if(r.status!==0) throw new Error('사용량 원격 기록 실패: 요청하지 않습니다.');
         }
       }
-      const res = await fetch('https://generativelanguage.googleapis.com/v1beta/interactions?alt=sse', {
-        method: 'POST', signal: AbortSignal.timeout(300000),
-        headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
-        body: JSON.stringify({ model,input:prompt,store:false,stream:true,generation_config:{max_output_tokens:14000,temperature:0.3,thinking_level:'low'},response_format:{type:'text',mime_type:'application/json',schema:{type:'object',properties:Object.fromEntries((prompt.startsWith('작성자의 판단')?reviewFields:writerFields).map(k=>[k,responseSchema.properties[k]])),required:prompt.startsWith('작성자의 판단')?reviewFields:writerFields}} }),
-      });
-      if (!res.ok) throw new Error(`무료 AI 응답 ${res.status}: 재시도·유료 전환 없이 중단`);
-      return readInteractionStream(res);
+      const started=Date.now();
+      const diagnosis:{stage:string;firstOutputMs:number|null;outputChars:number}={stage:'request',firstOutputMs:null,outputChars:0};
+      try {
+        const res = await fetch('https://generativelanguage.googleapis.com/v1beta/interactions?alt=sse', {
+          method: 'POST', signal: AbortSignal.timeout(420000),
+          headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
+          body: JSON.stringify({ model,input:prompt,store:false,stream:true,generation_config:{max_output_tokens:14000,temperature:0.3,thinking_level:'low'},response_format:{type:'text',mime_type:'application/json',schema:{type:'object',properties:Object.fromEntries((prompt.startsWith('작성자의 판단')?reviewFields:writerFields).map(k=>[k,responseSchema.properties[k]])),required:prompt.startsWith('작성자의 판단')?reviewFields:writerFields}} }),
+        });
+        diagnosis.stage='http-response';
+        if (!res.ok) throw new Error(`무료 AI 응답 ${res.status}: 재시도·유료 전환 없이 중단`);
+        return await readInteractionStream(res,event=>{
+          if(event.kind==='response')diagnosis.stage='stream-received';
+          if(event.kind==='first-output'){diagnosis.stage='model-output';diagnosis.firstOutputMs=Date.now()-started;}
+          if(event.kind==='output-chunk')diagnosis.outputChars=event.chars;
+          if(event.kind==='completed'){diagnosis.stage='completed';diagnosis.outputChars=event.chars;}
+        });
+      } catch(error) {
+        const elapsedMs=Date.now()-started;
+        const timeout=error instanceof Error && (error.name==='TimeoutError'||/timeout|timed out|시간 초과/i.test(error.message));
+        // 문서·본문·키를 로그에 기록하지 않습니다. 미완료 본문은 발행 불가입니다.
+        console.warn(JSON.stringify({kind:'editorial-provider-failure',model,stage:diagnosis.stage,elapsedMs,firstOutputMs:diagnosis.firstOutputMs,receivedChars:diagnosis.outputChars,timeout}));
+        if(timeout)throw new Error(`무료 글 작성 시간 초과 (${Math.round(elapsedMs/1000)}초, 단계: ${diagnosis.stage}): 발행 보류`);
+        throw error;
+      }
     } finally { fs.closeSync(fd); fs.unlinkSync(lock); }
   }
 }
