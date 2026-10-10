@@ -1,4 +1,8 @@
 export interface UsageBudget { day: string; month: string; dailyCalls: number; monthlyCalls: number; reservedTokens: number }
+export function assertEditorialPairBudget(previous: UsageBudget | null, date: string): void {
+  // 검사만 수행합니다. 실제 요청 예약은 공급자가 요청 직전에 기록합니다.
+  reserveCall(reserveCall(previous, date, 100_000), date, 100_000);
+}
 export function reserveCall(previous: UsageBudget | null, date: string, tokens: number): UsageBudget {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isSafeInteger(tokens) || tokens <= 0) throw new Error('잘못된 예산 입력');
   if (previous && (typeof previous.day !== 'string' || typeof previous.month !== 'string' ||

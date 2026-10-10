@@ -1,10 +1,17 @@
 import { describe,it,expect } from 'vitest';
 import {validateEvidence,validateIndependentReview,safeSourceUrl,diagramSvg} from '../automation/lib/server-editorial.ts';
-import {reserveCall} from '../automation/lib/ai-budget.ts';
+import {reserveCall,assertEditorialPairBudget} from '../automation/lib/ai-budget.ts';
 import {interactionText,readInteractionStream} from '../automation/lib/ai-provider.ts';
 import {selectSourceExcerpt,sourceKeywords} from '../automation/lib/source-excerpts.ts';
 import {shouldHoldTopic} from '../automation/lib/editorial-failure.ts';
 describe('서버 발행 근거 보호',()=>{
+  it('작성만 가능한 잔여 예산이면 시작 전 차단하고 사용량은 바꾸지 않는다',()=>{
+    const state={day:'2026-10-11',month:'2026-10',dailyCalls:3,monthlyCalls:20,reservedTokens:2000000};
+    expect(()=>assertEditorialPairBudget(state,'2026-10-11')).toThrow('무료 호출 보호 한도');
+    expect(state.dailyCalls).toBe(3);
+    expect(()=>assertEditorialPairBudget({...state,dailyCalls:2},'2026-10-11')).not.toThrow();
+    expect(()=>assertEditorialPairBudget({...state,dailyCalls:0,monthlyCalls:123},'2026-10-11')).toThrow();
+  });
   it('시험·공급자 지연은 주제를 영구 차단하지 않고 근거 오류는 보류한다',()=>{
     expect(shouldHoldTopic('원문과 일치하는 근거가 없는 사실',false)).toBe(true);
     expect(shouldHoldTopic('원문과 일치하는 근거가 없는 사실',true)).toBe(false);

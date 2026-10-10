@@ -5,7 +5,7 @@ import { parseHTML } from 'linkedom';
 import { loadPosts, serializePost, readPost, type SourceMeta } from './lib/content.ts';
 import { GeminiFreeProvider } from './lib/ai-provider.ts';
 import { editorialBudget } from './lib/editorial-budget.ts';
-import { ROOT, POSTS_DIR, RESEARCH_DIR, PUBLIC_DIR } from './lib/paths.ts';
+import { ROOT, POSTS_DIR, RESEARCH_DIR, PUBLIC_DIR, STATE_DIR } from './lib/paths.ts';
 import { kstDate, kstIso } from './lib/time.ts';
 import { decodeSource } from './lib/source-audit.ts';
 import { contentHash } from './lib/publication.ts';
@@ -14,6 +14,7 @@ import { evidenceNumbers } from './lib/research-file.ts';
 import { safeSourceUrl,validateEvidence,validateLongDraft,validateIndependentReview,diagramSvg } from './lib/server-editorial.ts';
 import { selectSourceExcerpt,sourceKeywords } from './lib/source-excerpts.ts';
 import { shouldHoldTopic } from './lib/editorial-failure.ts';
+import { assertEditorialPairBudget } from './lib/ai-budget.ts';
 
 const probe=process.argv.includes('--probe');
 const preview=process.argv.includes('--preview');
@@ -65,6 +66,8 @@ try {
   for(const s of topic.sources)documents.push(await source(s.url));
   if(probe){report.status='source-probe-passed';report.sourceLengths=documents.map(d=>({url:d.url,chars:d.fullText.length}));save();process.exit(0);}
   const style=fs.readFileSync(path.join(ROOT,'automation/config/style-guide.md'),'utf8');
+  const usageFile=process.env.SERVER_EDITORIAL==='true'?path.join(ledger,'usage.json'):path.join(STATE_DIR,'ai-usage.json');
+  assertEditorialPairBudget(fs.existsSync(usageFile)?JSON.parse(fs.readFileSync(usageFile,'utf8')):null,kstDate());
   const internal=posts.filter(p=>!p.data.draft).map(p=>({title:p.data.title,url:`/posts/${p.slug}/`,question:p.data.targetQuery}));
   const keywords=sourceKeywords(topic.slug);
   const material={topic,sources:documents.map(d=>({url:d.url,text:selectSourceExcerpt(d.fullText,keywords)})),internal};
