@@ -6,5 +6,6 @@
   "newPost": null,
   "topic": "windows-backup-file-history-restore-guide",
   "previewPath": "automation/drafts/preview/windows-backup-file-history-restore-guide/article.md",
-  "reason": "인용 근거 길이 오류: 1번 (133자, 허용12~100자)"
+  "reason": "인용 근거 길이 오류: 1번 (133자, 허용12~100자)",
+  "workflowStatus": "failure"
 }
