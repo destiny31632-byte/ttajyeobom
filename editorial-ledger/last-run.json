@@ -3,5 +3,6 @@
   "published": [],
   "remaining": 2,
   "status": "disabled",
-  "newPost": null
+  "newPost": null,
+  "workflowStatus": "success"
 }
