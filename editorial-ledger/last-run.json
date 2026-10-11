@@ -2,7 +2,9 @@
   "date": "2026-10-11",
   "published": [],
   "remaining": 2,
-  "status": "disabled",
+  "status": "preview-failed",
   "newPost": null,
-  "workflowStatus": "success"
+  "topic": "windows-backup-file-history-restore-guide",
+  "previewPath": "automation/drafts/preview/windows-backup-file-history-restore-guide/article.md",
+  "reason": "원문과 일치하는 짧은 근거가 없는 사실: 1번"
 }
