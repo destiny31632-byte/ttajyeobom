@@ -10,6 +10,7 @@ export function validateEvidence(facts: Evidence[], sources: SourceText[]) {
   const normalize = (s: string) => s.replace(/\s+/g,' ').trim();
   for (const [index,f] of facts.entries()) {
     const source = sources.find(s=>s.url === f.sourceUrl);
+    if(typeof f.evidence==='string'&&(f.evidence.length<12||f.evidence.length>100))throw new Error(`인용 근거 길이 오류: ${index+1}번 (${f.evidence.length}자, 허용12~100자)`);
     if (!source || typeof f.claim !== 'string' || !f.claim.trim() || typeof f.evidence !== 'string' || f.evidence.length < 12 || f.evidence.length > 100 || !normalize(source.text).includes(normalize(f.evidence))) throw new Error(`원문과 일치하는 짧은 근거가 없는 사실: ${index+1}번`);
   }
 }
