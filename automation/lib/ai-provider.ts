@@ -9,7 +9,7 @@ import { spawnSync } from 'node:child_process';
 import { ROOT } from './paths.ts';
 
 export interface TextProvider { generate(prompt: string): Promise<string> }
-const evidenceSchema={type:'array',items:{type:'object',properties:{claim:{type:'string'},sourceUrl:{type:'string'},evidence:{type:'string',minLength:12,maxLength:100}},required:['claim','sourceUrl','evidence']}};
+const evidenceSchema={type:'array',items:{type:'object',properties:{claim:{type:'string'},sourceUrl:{type:'string'},evidenceId:{type:'string'}},required:['claim','sourceUrl','evidenceId']}};
 const responseSchema={type:'object',properties:{body:{type:'string'},description:{type:'string'},summary:{type:'array',items:{type:'string'}},facts:evidenceSchema,diagram:{type:'array',items:{type:'string'}},approved:{type:'boolean'},refused:{type:'boolean'},reason:{type:'string'},allFactualClaimsSupported:{type:'boolean'},noFabricatedExperience:{type:'boolean'},noUnresolvedConflicts:{type:'boolean'},noUnsupportedNumbers:{type:'boolean'},expertDepth:{type:'boolean'},naturalKorean:{type:'boolean'},problems:{type:'array',items:{type:'string'}},checkedClaims:evidenceSchema}};
 const writerFields=['body','description','summary','facts','diagram','refused','reason'];
 const reviewFields=['approved','allFactualClaimsSupported','noFabricatedExperience','noUnresolvedConflicts','noUnsupportedNumbers','expertDepth','naturalKorean','problems','checkedClaims'];

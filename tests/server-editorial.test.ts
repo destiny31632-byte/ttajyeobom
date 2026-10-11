@@ -4,7 +4,26 @@ import {reserveCall,assertEditorialPairBudget} from '../automation/lib/ai-budget
 import {interactionText,readInteractionStream} from '../automation/lib/ai-provider.ts';
 import {selectSourceExcerpt,sourceKeywords} from '../automation/lib/source-excerpts.ts';
 import {shouldHoldTopic} from '../automation/lib/editorial-failure.ts';
+import {evidenceCatalog,bindEvidence} from '../automation/lib/evidence-catalog.ts';
 describe('서버 발행 근거 보호',()=>{
+  it('공식원문의 짧은 구간 번호만 연결하고 위조번호와 다른주소는 차단한다',()=>{
+    const url='https://support.microsoft.com/example';
+    const text=('Personal files require a separate backup method. ').repeat(8);
+    const catalog=evidenceCatalog([{url,text}]);
+    expect(catalog.every(c=>c.evidence.length>=12&&c.evidence.length<=100&&text.includes(c.evidence))).toBe(true);
+    expect(bindEvidence([{claim:'별도 백업',sourceUrl:url,evidenceId:catalog[0].id}],catalog)[0].evidence).toBe(catalog[0].evidence);
+    expect(()=>bindEvidence([{claim:'확인',sourceUrl:url,evidenceId:'S99E99'}],catalog)).toThrow('근거 번호');
+    expect(()=>bindEvidence([{claim:'확인',sourceUrl:'https://support.google.com/example',evidenceId:catalog[0].id}],catalog)).toThrow('근거 번호');
+  });
+  it('원문에 존재하는 인용문도100자를 넘으면 길이오류로 차단한다',()=>{
+    const url='https://support.microsoft.com/example';
+    const evidence='This sentence is present in the official source but is deliberately long enough to exceed the one hundred character maximum.';
+    const facts=Array.from({length:12},()=>({claim:'확인할 주장',sourceUrl:url,evidence}));
+    expect(()=>validateEvidence(facts,[{url,text:evidence}])).toThrow('인용 근거 길이 오류');
+    const short='This exact source excerpt contains sufficient text.';
+    expect(()=>validateEvidence(facts.map(f=>({...f,evidence:short})),[{url,text:'서론 '.repeat(6000)+short}])).not.toThrow();
+    expect(()=>validateEvidence(facts.map(f=>({...f,evidence:short})),[{url,text:'이 문서에는 해당 인용이 없습니다.'}])).toThrow('원문과 일치');
+  });
   it('작성만 가능한 잔여 예산이면 시작 전 차단하고 사용량은 바꾸지 않는다',()=>{
     const state={day:'2026-10-11',month:'2026-10',dailyCalls:3,monthlyCalls:20,reservedTokens:2000000};
     expect(()=>assertEditorialPairBudget(state,'2026-10-11')).toThrow('무료 호출 보호 한도');
