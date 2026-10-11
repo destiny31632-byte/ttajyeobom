@@ -133,5 +133,44 @@
         "type": "official"
       }
     ]
+  },
+  {
+    "slug": "chrome-notification-popup-permissions-guide",
+    "title": "크롬 알림과 팝업 차단, 필요한 사이트만 허용하는 설정 순서",
+    "targetQuery": "크롬 알림 팝업 차단 차이",
+    "category": "it",
+    "cluster": "chrome-permissions",
+    "tags": [
+      "크롬",
+      "사이트 알림",
+      "팝업 차단",
+      "권한 설정"
+    ],
+    "sources": [
+      {
+        "title": "팝업과 리디렉션 차단·허용",
+        "url": "https://support.google.com/chrome/answer/95472?hl=en",
+        "publisher": "Google",
+        "type": "official"
+      },
+      {
+        "title": "사이트 알림 설정",
+        "url": "https://support.google.com/chrome/answer/3220216?hl=en-u",
+        "publisher": "Google",
+        "type": "official"
+      },
+      {
+        "title": "사이트별 권한 변경",
+        "url": "https://support.google.com/chrome/answer/114662?hl=en-GB",
+        "publisher": "Google",
+        "type": "official"
+      },
+      {
+        "title": "안전 확인과 보안 설정",
+        "url": "https://support.google.com/chrome/answer/10468685?hl=en-GB1",
+        "publisher": "Google",
+        "type": "official"
+      }
+    ]
   }
 ]

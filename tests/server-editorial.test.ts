@@ -6,6 +6,19 @@ import {selectSourceExcerpt,sourceKeywords} from '../automation/lib/source-excer
 import {shouldHoldTopic} from '../automation/lib/editorial-failure.ts';
 import {evidenceCatalog,bindEvidence} from '../automation/lib/evidence-catalog.ts';
 describe('서버 발행 근거 보호',()=>{
+  it('발췌가 원문에서 떨어진 문장을 이어도 경계 구간을 근거로 제공하지 않는다',()=>{
+    const url='https://support.microsoft.com/example';
+    const first='System Restore preserves personal files.';
+    const last='This recovery option requires a separate backup.';
+    const excerpt=`${first} ${last}`;
+    const original=`${first} Additionally, there are other recovery options. ${last}`;
+    expect(evidenceCatalog([{url,text:excerpt}])).toHaveLength(1);
+    expect(evidenceCatalog([{url,text:excerpt}],[{url,text:original}])).toHaveLength(0);
+    const continuous=evidenceCatalog([{url,text:original}],[{url,text:original}]);
+    expect(continuous.length).toBeGreaterThan(0);
+    expect(continuous.every(e=>original.includes(e.evidence))).toBe(true);
+    expect(evidenceCatalog([{url,text:excerpt}],[])).toHaveLength(0);
+  });
   it('공식원문의 짧은 구간 번호만 연결하고 위조번호와 다른주소는 차단한다',()=>{
     const url='https://support.microsoft.com/example';
     const text=('Personal files require a separate backup method. ').repeat(8);

@@ -1,8 +1,9 @@
 import type { Evidence,SourceText } from './server-editorial.ts';
 export type CatalogEntry={id:string;sourceUrl:string;evidence:string};
 // 모델이 인용문을 새로 만들거나 번역하지 않도록 원문 구간을 미리 고정합니다.
-export function evidenceCatalog(sources:SourceText[]):CatalogEntry[]{
+export function evidenceCatalog(sources:SourceText[],originals:SourceText[]=sources):CatalogEntry[]{
   const out:CatalogEntry[]=[];
+  const originalTexts=new Map(originals.map(s=>[s.url,s.text.replace(/\s+/g,' ').trim()]));
   for(const [sourceIndex,source] of sources.entries()){
     const text=source.text.replace(/\s+/g,' ').trim();
     let start=0,index=0;
@@ -10,7 +11,9 @@ export function evidenceCatalog(sources:SourceText[]):CatalogEntry[]{
       let end=Math.min(start+95,text.length);
       if(end<text.length){const space=text.lastIndexOf(' ',end);if(space>start+30)end=space;}
       const evidence=text.slice(start,end).trim();
-      if(evidence.length>=12)out.push({id:`S${sourceIndex+1}E${++index}`,sourceUrl:source.url,evidence});
+      const id=`S${sourceIndex+1}E${++index}`;
+      // 발췌에서 떨어진 문장이 이어진 경계는 실제 원문 인용으로 쓰지 않습니다.
+      if(evidence.length>=12&&originalTexts.get(source.url)?.includes(evidence))out.push({id,sourceUrl:source.url,evidence});
       start=end;while(text[start]===' ')start++;
     }
   }
