@@ -1,11 +1,7 @@
 {
-  "date": "2026-10-10",
-  "published": [
-    "windows-storage-cleanup-safe-order-guide",
-    "chrome-memory-saver-tab-reload-guide"
-  ],
-  "remaining": 0,
+  "date": "2026-10-11",
+  "published": [],
+  "remaining": 2,
   "status": "disabled",
-  "newPost": null,
-  "workflowStatus": "success"
+  "newPost": null
 }
