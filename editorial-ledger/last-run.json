@@ -7,6 +7,6 @@
   "status": "retryable-failed",
   "newPost": null,
   "topic": "chrome-notification-popup-permissions-guide",
-  "reason": "무료 AI 응답 503: 재시도·유료 전환 없이 중단",
+  "reason": "무료 호출 보호 한도: 다음 기간까지 중단",
   "workflowStatus": "failure"
 }
