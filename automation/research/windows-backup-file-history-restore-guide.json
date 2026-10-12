@@ -1,0 +1,184 @@
+{
+  "slug": "windows-backup-file-history-restore-guide",
+  "checkedAt": "2026-10-12T09:35:56+09:00",
+  "facts": [
+    {
+      "claim": "Windows Backup은 파일, 테마, 설정, 설치된 앱, Wi-Fi 정보를 백업할 수 있다.",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/backup-restore-and-recovery-in-windows",
+      "evidence": "back up a wide range of items, including files, themes, settings, installed apps, and Wi-Fi",
+      "evidenceHash": "704cc1f4a4d6f495d716bd9dfbd3ded3f96926e4fe38465e58b8af52582faea0"
+    },
+    {
+      "claim": "파일 기록(File History)은 외장 드라이브나 네트워크 위치에 파일 복사본을 지속적으로 저장하여 개인 파일을 보호한다.",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/backup-restore-and-recovery-in-windows",
+      "evidence": "photos, and videos. It continuously protects your files by saving copies of them to an external",
+      "evidenceHash": "34df2ef5705e840efa64d8845d53229e0d62c1ce40e9b038dc7ad72470705776"
+    },
+    {
+      "claim": "복구 드라이브 유틸리티는 하드 드라이브를 교체하더라도 PC를 공장 설정으로 복원할 수 있는 USB 복구 미디어를 생성한다.",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/backup-restore-and-recovery-in-windows",
+      "evidence": "you restore your Windows device to its factory settings, even if you need to replace the hard",
+      "evidenceHash": "09baadfb2658cc4a46a59d09dd1a34a72fbc31ccf088bfcca9fa712fc34c643f"
+    },
+    {
+      "claim": "개인 데이터를 백업하려면 복구 드라이브가 아닌 Windows Backup이나 파일 기록과 같은 다른 백업 방법을 사용해야 한다.",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/backup-restore-and-recovery-in-windows",
+      "evidence": "back up your personal data, you should use a different backup method, such as Windows Backup or",
+      "evidenceHash": "14bf44ed44fb14b23056011c8286c5de3b325ff6984906fc34cbbb0dd23ab8aa"
+    },
+    {
+      "claim": "Windows Backup 앱은 개인 마이크로소프트 계정(MSA)으로 로그인하여 사용하는 소비자 장치에 중점을 둔다.",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+      "evidence": "focused on consumer devices - for example, devices that can be used by signing into a personal",
+      "evidenceHash": "a50a37d6f31f039465ff449b67335816fea6137eb0a7f5215d57bddc266cec6b"
+    },
+    {
+      "claim": "Windows Backup은 바탕 화면, 문서, 사진, 비디오, 음악 폴더를 OneDrive로 백업할 수 있다.",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+      "evidence": "your user folders you want to back up to OneDrive. You can back up your Desktop, Documents,",
+      "evidenceHash": "489bbefad9595cdf0791770eae58a90d5d685497c1493e82c2b4164993087b71"
+    },
+    {
+      "claim": "Windows Backup의 백업 파일은 원래 백업에 사용한 동일한 마이크로소프트 계정으로 OneDrive에 로그인하여 언제든 복원할 수 있다.",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+      "evidence": "Catalog Files can be restored anytime by signing in to OneDrive with the same Microsoft account",
+      "evidenceHash": "ecdf4e5587e93034c32abf494dbabb703ba206bf0fa022726956f29b420101c6"
+    },
+    {
+      "claim": "Windows Backup 설정 카탈로그에는 설치된 앱 목록을 기억하는 설정이 포함된다.",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/windows-backup-settings-catalog",
+      "evidence": "switch. Setting page Setting Apps List of installed apps Accessibility Setting page Subpage",
+      "evidenceHash": "79d1bbd875587e6b666eb02eb4a564d044ced6444fc0cf67dede686a046a3da6"
+    },
+    {
+      "claim": "파일 기록은 문서, 사진, 비디오, 음악과 같은 기본 라이브러리와 사용자 지정 라이브러리를 자동으로 백업한다.",
+      "sourceUrl": "https://support.microsoft.com/en-au/windows/experience/backup-recovery/backup-and-restore-with-file-history",
+      "evidence": "History is that it automatically backs up all your libraries. This includes default libraries",
+      "evidenceHash": "9730acc607daa203d650d210dc87a2052fa3c953338751d99e67ec7f8685c885"
+    },
+    {
+      "claim": "파일 기록 복원 시 파일이 컴퓨터의 현재 버전을 대체하며 이 대체 작업은 되돌릴 수 없다.",
+      "sourceUrl": "https://support.microsoft.com/en-au/windows/experience/backup-recovery/backup-and-restore-with-file-history",
+      "evidence": "the current version on your computer, and the replacement can't be undone.",
+      "evidenceHash": "e99520d6df12e5a30469ed6c739c303b59ed42ac1ee77d056a5f40ac616b1c9a"
+    },
+    {
+      "claim": "시스템 보호는 개인 데이터에 영향을 주지 않고 시스템을 이전의 안정적인 상태로 되돌릴 수 있는 복원 지점을 생성한다.",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/system-protection",
+      "evidence": "points enable users to revert the system to a previous stable state without affecting personal",
+      "evidenceHash": "8e17a0c8c761bf316141c5a8759092a4d99dfe40b8bf870cc880fb67f48ff152"
+    },
+    {
+      "claim": "시스템 복원은 최근의 소프트웨어 설치, 드라이버 업데이트, 시스템 설정 수정 등으로 발생한 문제를 해결하는 데 유용하다.",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/system-restore",
+      "evidence": "time. This can be particularly useful when troubleshooting issues caused by recent changes,",
+      "evidenceHash": "a47ef9e82e6deca69a39a03405c3edcfc344ae9b51cbbf967f9aaf8b496f142a"
+    },
+    {
+      "claim": "복구 미디어를 만들 때는 드라이브에 저장된 기존 데이터가 모두 삭제되므로 빈 USB 드라이브를 사용해야 한다.",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/recovery-drive",
+      "evidence": "your personal data separately. Create a recovery drive Warning Use an empty USB drive because",
+      "evidenceHash": "1a9610add15f7d7ec75f08b6ba2f4eae058534a078375af733770d3636d43d44"
+    },
+    {
+      "claim": "복구 미디어는 최신 윈도우 업데이트와 개선 사항을 반영하기 위해 매년 다시 만드는 것이 권장된다.",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/recovery-drive",
+      "evidence": "for, ensuring a smooth and efficient restoration process. It's recommended to recreate the",
+      "evidenceHash": "439b4c57654e9ce740dce4cf9dc6a3e8eb795f9df4bb37f17cc3aa98a31919c4"
+    }
+  ],
+  "conflicts": [],
+  "calculations": [],
+  "sourceHashes": {
+    "https://support.microsoft.com/en-us/windows/experience/backup-recovery/backup-restore-and-recovery-in-windows": "a0e536af6c9dea944533cb941ee84ea747bda53a87a43093ecf3f33ffedc84a4",
+    "https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup": "4ee9fa11dfacef6ce72774d86fbdcb91d830cc8039d69e631287e9d2bbf2c46d",
+    "https://support.microsoft.com/en-us/windows/experience/backup-recovery/windows-backup-settings-catalog": "bc1d926c360c03b1d0c2b946c2a47b875f99b84cda950d55c667e31a3334818e",
+    "https://support.microsoft.com/en-au/windows/experience/backup-recovery/backup-and-restore-with-file-history": "84fcbbcfb87c2ae19a649aa9ffc72800b32d18098093993eb8fd5a6a3d2b59ac",
+    "https://support.microsoft.com/en-us/windows/experience/backup-recovery/system-protection": "7a77d3f2ed8ce4152f1629ab364ebd8701be071dc8611077c2aaf7bec597d533",
+    "https://support.microsoft.com/en-us/windows/experience/backup-recovery/system-restore": "734453f7aa4ce9170303e84e4d98db789f63e31b2b6eecae7a1b9bc43cf56e29",
+    "https://support.microsoft.com/en-us/windows/experience/backup-recovery/recovery-drive": "117013131e7deddcdfcc55cdc1f4f0f1726ac3346d47f77d9215be6a26dd0b09"
+  },
+  "reviewMethod": "independent-preview-and-direct-official-source-comparison",
+  "editorialCorrections": [
+    {
+      "before": "하드웨어 교체 시 공장 출하 상태 재설치를 돕는 복구 드라이브",
+      "after": "디스크 고장 뒤 윈도우 재설치에 쓰는 복구 드라이브"
+    },
+    {
+      "before": "윈도우 10 ESU 2027년까지 연장, 10월 13일에 끝나지 않는 이유와 무료 등록법",
+      "after": "윈도우 10 지원과 확장 보안 업데이트 안내"
+    },
+    {
+      "before": "로컬 외장 저장 장치 필요, 계정 무관",
+      "after": "외장 드라이브 또는 접근 가능한 네트워크 위치 필요"
+    },
+    {
+      "before": "32GB 이상 권장 USB (개인 파일 미포함)",
+      "after": "생성 도구가 요구하는 용량의 빈 USB (개인 파일 미포함)"
+    },
+    {
+      "before": "개인 데이터를 보존하지 않습니다.",
+      "after": "개인 파일 백업을 대신하지 않습니다."
+    },
+    {
+      "before": "내장 C 드라이브 자체에는 파일 기록 백업 경로를 설정할 수 없습니다.",
+      "after": "백업 대상을 고를 때는 현재 파일이 있는 드라이브와 백업 저장 위치를 구분해 확인합니다."
+    },
+    {
+      "before": "디스크 쓰기 권한과 파일 시스템 확인",
+      "after": "저장 위치와 대상 파일 확인"
+    },
+    {
+      "before": "외장 저장 장치가 읽기 전용으로 잠겨 있거나 불량 섹터 등의 오류가 없는지 파일 탐색기에서 정상적인 쓰기 테스트를 거칩니다.",
+      "after": "중요 파일을 지우거나 기존 드라이브를 포맷하며 시험하지 마세요. 연결한 장치 이름과 백업 대상 폴더를 확인한 뒤, 첫 백업 완료 여부를 살펴보는 순서가 안전합니다."
+    },
+    {
+      "before": "가상 데스크톱 창 맞춤(Snap Windows) 동작",
+      "after": "창 맞춤(Snap Windows) 설정"
+    },
+    {
+      "before": "마이크로소프트 계정이 지원하지 않는 타사 프로그램의 내부 데이터베이스나 C 드라이브 루트에 직접 생성한 폴더는 자동으로 포함되지 않습니다.",
+      "after": "설치된 프로그램의 모든 내부 데이터베이스와 파일까지 자동으로 포함된다고 생각해서는 안 됩니다. 공식 안내의 폴더 동기화 범위 밖에 둔 작업 파일은 별도로 보존할 경로를 정해야 합니다."
+    },
+    {
+      "before": "마이크로소프트 계정 로그인만으로 앱 목록, Wi-Fi 암호, 창 배열, 테마 환경을 그대로 가져옴",
+      "after": "초기 설정에서 같은 개인 계정으로 로그인하고 백업을 선택. 앱은 종류에 따라 다시 설치하며 지원되는 설정 범위 확인"
+    },
+    {
+      "before": "해당 저장 장치의 모든 파티션과 데이터가 강제 포맷됨",
+      "after": "선택한 USB 드라이브에 있던 데이터가 삭제됨"
+    },
+    {
+      "before": "반드시 중요 파일이 없는 32GB 이상 전용 빈 USB 메모리만 연결하여 작업",
+      "after": "중요 파일이 없는 빈 USB를 사용하고 도구에 표시되는 필요 용량과 선택한 장치 이름 확인"
+    },
+    {
+      "before": "즉시 정리하거나 대용량 폴더 동기화 해제",
+      "after": "먼저 어떤 파일이 동기화되지 않았는지 확인. 원본 위치와 별도 보존 경로를 확인하기 전에는 파일 삭제나 동기화 해제를 서두르지 않음"
+    },
+    {
+      "before": "### 파일 기록에서 특정 폴더만 백업에서 제외할 수 있나요?\n파일 기록은 기본적으로 라이브러리(문서, 사진, 비디오, 음악) 및 바탕 화면을 포함합니다. 백업을 원하지 않는 폴더가 라이브러리 안에 포함되어 있다면 해당 폴더를 라이브러리에서 제외하거나, 파일 기록 고급 설정에서 특정 폴더를 제외 목록에 등록해야 백업 용량 낭비를 막을 수 있습니다.",
+      "after": "### 기본 라이브러리 밖의 작업 폴더도 파일 기록으로 보존할 수 있나요?\n공식 안내는 다른 위치의 폴더를 기존 라이브러리에 넣거나 새 라이브러리를 만들어 포함하도록 설명합니다. 파일 탐색기에서 해당 폴더를 마우스 오른쪽 단추로 누르고 추가 옵션 표시, 라이브러리에 포함을 선택하세요. 경로를 설정한 것과 백업이 완료된 것은 다릅니다. 중요한 작업 폴더는 첫 백업 뒤 이전 버전 목록에서 내용을 확인하는 편이 안전합니다."
+    },
+    {
+      "before": "백업 작업이 보류되며, 연결이 복구되면 다시 변경 사항을 스캔하여 백업을 이어갑니다.",
+      "after": "해당 외장 장치에 새 판본이 저장됐다고 판단하면 안 됩니다. 드라이브를 다시 연결한 뒤 파일 기록 상태와 필요한 파일의 이전 버전 목록을 확인하세요."
+    },
+    {
+      "before": "너무 오래된 복구 드라이브를 사용하면 복구 후 대량의 업데이트를 다시 거쳐야 하거나 보안 취약점 정책으로 인해 부팅 미디어가 정상 작동하지 않을 수 있습니다.",
+      "after": "제작 시점의 업데이트와 PC 제조사 설정이 복구 미디어에 들어갑니다. 최신 변경을 반영하려면 정기적으로 새로 만드는 편이 좋습니다. 공식 문서는 특정 보안 업데이트와 취소 정책이 적용된 장치에서 복구 드라이브가 영향을 받을 수 있다는 주의도 따로 안내합니다."
+    },
+    {
+      "before": "파일 기록 기능도 물리적으로 작동하지만",
+      "after": "파일 기록 기능을 사용하더라도"
+    },
+    {
+      "before": "시스템 보호가 '설정'되어 있는지",
+      "after": "시스템 보호가 켜져 있는지"
+    },
+    {
+      "before": "데이터 손실 사고는 대부분 잘못된 조작이나 도구의 특성을 오해하여 발생합니다.",
+      "after": "도구의 역할을 혼동하거나 저장 대상을 잘못 선택하면 백업 과정에서도 파일을 잃을 수 있습니다."
+    }
+  ]
+}
