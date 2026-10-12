@@ -1,10 +1,11 @@
 {
   "date": "2026-10-12",
-  "published": [],
-  "remaining": 2,
-  "status": "preview-reviewed-not-published",
+  "published": [
+    "windows-backup-file-history-restore-guide"
+  ],
+  "remaining": 1,
+  "status": "retryable-failed",
   "newPost": null,
-  "topic": "windows-backup-file-history-restore-guide",
-  "previewPath": "automation/drafts/preview/windows-backup-file-history-restore-guide/article.md",
-  "workflowStatus": "success"
+  "topic": "chrome-notification-popup-permissions-guide",
+  "reason": "무료 AI 응답 503: 재시도·유료 전환 없이 중단"
 }
