@@ -5,5 +5,6 @@
   "status": "preview-reviewed-not-published",
   "newPost": null,
   "topic": "windows-backup-file-history-restore-guide",
-  "previewPath": "automation/drafts/preview/windows-backup-file-history-restore-guide/article.md"
+  "previewPath": "automation/drafts/preview/windows-backup-file-history-restore-guide/article.md",
+  "workflowStatus": "success"
 }
