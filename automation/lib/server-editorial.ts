@@ -5,6 +5,13 @@ import { isOfficialSource } from './source-audit.ts';
 export const PUBLIC_PROHIBITED = new RegExp(`\\b${String.fromCharCode(65,73)}\\b|인공지능`, 'iu');
 export type Evidence = { claim: string; sourceUrl: string; evidence: string };
 export type SourceText = { url: string; text: string };
+export function validateStorageQuantities(body:string,sources:SourceText[]) {
+  const originals=sources.map(s=>s.text.replace(/,/g,'').replace(/\s+/g,' ').toLowerCase()).join('\n');
+  for(const m of body.matchAll(/(?<![\d.])(\d+(?:[.,]\d+)?)\s*(KiB|MiB|GiB|TiB|KB|MB|GB|TB)\b/gi)) {
+    const escaped=m[1].replace(/,/g,'').replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    if(!new RegExp(`(^|[^\\d.])${escaped}\\s*${m[2]}($|[^a-z\\d])`,'i').test(originals))throw new Error(`공식 원문에서 확인되지 않은 저장 용량: ${m[0]}`);
+  }
+}
 export function validateEvidence(facts: Evidence[], sources: SourceText[]) {
   if (!Array.isArray(facts) || facts.length < 12) throw new Error('확인한 사실 최소 12개 필요');
   const normalize = (s: string) => s.replace(/\s+/g,' ').trim();

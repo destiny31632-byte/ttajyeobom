@@ -1,11 +1,18 @@
 import { describe,it,expect } from 'vitest';
-import {validateEvidence,validateIndependentReview,safeSourceUrl,diagramSvg} from '../automation/lib/server-editorial.ts';
+import {validateEvidence,validateIndependentReview,validateStorageQuantities,safeSourceUrl,diagramSvg} from '../automation/lib/server-editorial.ts';
 import {reserveCall,assertEditorialPairBudget} from '../automation/lib/ai-budget.ts';
 import {interactionText,readInteractionStream} from '../automation/lib/ai-provider.ts';
 import {selectSourceExcerpt,sourceKeywords} from '../automation/lib/source-excerpts.ts';
 import {shouldHoldTopic} from '../automation/lib/editorial-failure.ts';
 import {evidenceCatalog,bindEvidence} from '../automation/lib/evidence-catalog.ts';
 describe('서버 발행 근거 보호',()=>{
+  it('용량의 숫자와 단위를 원문에서 확인하고 취약점 번호나 다른 용량으로 대신하지 않는다',()=>{
+    const url='https://support.microsoft.com/example';
+    expect(()=>validateStorageQuantities('32GB USB 필요',[{url,text:'CVE-2023-24932 and a 132 GB disk'}])).toThrow('저장 용량');
+    expect(()=>validateStorageQuantities('5GB 기본 공간',[{url,text:'5 GB of cloud storage'}])).not.toThrow();
+    expect(()=>validateStorageQuantities('32 GB USB 필요',[{url,text:'A 32 GB USB drive'}])).not.toThrow();
+    expect(()=>validateStorageQuantities('1.5GB',[{url,text:'11.5 GB'}])).toThrow('저장 용량');
+  });
   it('발췌가 원문에서 떨어진 문장을 이어도 경계 구간을 근거로 제공하지 않는다',()=>{
     const url='https://support.microsoft.com/example';
     const first='System Restore preserves personal files.';

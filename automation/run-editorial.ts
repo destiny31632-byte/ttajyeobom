@@ -11,7 +11,7 @@ import { decodeSource } from './lib/source-audit.ts';
 import { contentHash } from './lib/publication.ts';
 import { runGate } from './quality/gate.ts';
 import { evidenceNumbers } from './lib/research-file.ts';
-import { safeSourceUrl,validateEvidence,validateLongDraft,validateIndependentReview,diagramSvg } from './lib/server-editorial.ts';
+import { safeSourceUrl,validateEvidence,validateLongDraft,validateIndependentReview,validateStorageQuantities,diagramSvg } from './lib/server-editorial.ts';
 import { selectSourceExcerpt,sourceKeywords } from './lib/source-excerpts.ts';
 import { shouldHoldTopic } from './lib/editorial-failure.ts';
 import { assertEditorialPairBudget } from './lib/ai-budget.ts';
@@ -100,6 +100,7 @@ try {
   generated.facts=bindEvidence(generated.facts,catalog);
   validateLongDraft(generated,topic.sources.map((s:SourceMeta)=>s.url),internal.map(p=>p.url));
   const fullSources=documents.map(d=>({url:d.url,text:d.fullText}));
+  validateStorageQuantities(generated.body,fullSources);
   validateEvidence(generated.facts,fullSources);
   const diagram=diagramSvg(generated.diagram);
   // 미리보기에도 본문 반복·복제·숫자·온라인 출처 검사를 적용합니다.
