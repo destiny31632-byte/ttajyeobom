@@ -1,8 +1,9 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "published": [],
   "remaining": 2,
-  "status": "disabled",
+  "status": "preview-reviewed-not-published",
   "newPost": null,
-  "workflowStatus": "success"
+  "topic": "windows-backup-file-history-restore-guide",
+  "previewPath": "automation/drafts/preview/windows-backup-file-history-restore-guide/article.md"
 }
