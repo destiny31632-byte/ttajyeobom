@@ -172,5 +172,83 @@
         "type": "official"
       }
     ]
+  },
+  {
+    "slug": "chrome-download-blocked-safe-check-guide",
+    "title": "크롬 다운로드 차단, 파일을 받기 전에 확인할 경고와 저장 설정",
+    "targetQuery": "크롬 다운로드 차단 안전하게 확인",
+    "category": "it",
+    "cluster": "chrome-downloads",
+    "tags": [
+      "크롬",
+      "다운로드",
+      "보안 경고",
+      "저장 위치"
+    ],
+    "sources": [
+      {
+        "title": "파일 다운로드",
+        "url": "https://support.google.com/chrome/answer/95759?hl=en",
+        "publisher": "Google",
+        "type": "official"
+      },
+      {
+        "title": "다운로드 오류 해결",
+        "url": "https://support.google.com/chrome/answer/2898334?hl=en",
+        "publisher": "Google",
+        "type": "official"
+      },
+      {
+        "title": "다운로드 차단 이유",
+        "url": "https://support.google.com/chrome/answer/6261569?hl=en",
+        "publisher": "Google",
+        "type": "official"
+      },
+      {
+        "title": "안전한 브라우징 보호",
+        "url": "https://support.google.com/chrome/answer/99020?hl=en",
+        "publisher": "Google",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "slug": "chrome-password-passkey-storage-guide",
+    "title": "크롬 비밀번호와 패스키, 저장 위치와 로그인 오류 확인 순서",
+    "targetQuery": "크롬 비밀번호 패스키 저장 위치 차이",
+    "category": "it",
+    "cluster": "chrome-passwords",
+    "tags": [
+      "크롬",
+      "비밀번호",
+      "패스키",
+      "로그인"
+    ],
+    "sources": [
+      {
+        "title": "비밀번호 관리",
+        "url": "https://support.google.com/chrome/answer/95606?hl=en",
+        "publisher": "Google",
+        "type": "official"
+      },
+      {
+        "title": "비밀번호와 패스키 오류",
+        "url": "https://support.google.com/chrome/answer/7665664?hl=en",
+        "publisher": "Google",
+        "type": "official"
+      },
+      {
+        "title": "여러 기기의 비밀번호와 패스키",
+        "url": "https://support.google.com/chrome/answer/6197437?hl=en",
+        "publisher": "Google",
+        "type": "official"
+      },
+      {
+        "title": "크롬 패스키 관리",
+        "url": "https://support.google.com/chrome/answer/13168025?hl=en",
+        "publisher": "Google",
+        "type": "official"
+      }
+    ]
   }
 ]

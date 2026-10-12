@@ -58,6 +58,11 @@ try {
   }
   if(!probe&&!preview&&!enabled){report.status='disabled';save();process.exit(0);}
   if(!probe&&!preview&&budget.remaining===0){report.status='daily-limit-reached';save();process.exit(0);}
+  // 오래된 승인 때문에 배포가 막힐 경우 작성 호출을 소비하기 전에 멈춥니다.
+  if(!probe&&!preview){
+    const preflight=spawnSync(process.execPath,[process.env.npm_execpath!,'run','publication:check'],{cwd:ROOT,stdio:'inherit'});
+    if(preflight.status!==0)throw new Error('기존 공개 글 검토 갱신 필요: 작성 전 중단');
+  }
   if(posts.some(p=>p.data.draft===true))throw new Error('미완료 초안 우선 검토 필요');
   const held=path.join(ledger,'held');fs.mkdirSync(held,{recursive:true});
   const topic=topics.find((t:any)=>!posts.some(p=>p.slug===t.slug||p.data.targetQuery===t.targetQuery)&&(probe||preview||!fs.existsSync(path.join(held,`${t.slug}.json`))));
