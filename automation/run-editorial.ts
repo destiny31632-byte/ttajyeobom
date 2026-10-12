@@ -147,8 +147,13 @@ try {
   // 이번 실행이 생성한 파일만 보류 보관합니다. 기존 글·초안은 건드리지 않습니다.
   if(created.length){const failed=path.join(ROOT,'automation/drafts/failed',report.topic);fs.mkdirSync(failed,{recursive:true});for(const f of created){fs.copyFileSync(f,path.join(failed,path.basename(f)));fs.unlinkSync(f);}}
   report.reason=error instanceof Error?error.message:'검증 실패';
+  if(report.reason.startsWith('무료 호출 보호 한도:')){
+    // 보호 한도 대기는 운영 실패나 발행 성공으로 표시하지 않습니다.
+    report.status='budget-wait';save();process.exitCode=0;
+  } else {
   const holdTopic=shouldHoldTopic(report.reason,preview);
   report.status=preview?'preview-failed':holdTopic?'held':'retryable-failed';
   if(report.topic&&holdTopic)fs.writeFileSync(path.join(ledger,'held',`${report.topic}.json`),JSON.stringify({date:kstIso(),reason:report.reason},null,2)+'\n');
   save();process.exitCode=1;
+  }
 }
