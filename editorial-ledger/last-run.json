@@ -5,5 +5,6 @@
   "status": "held",
   "newPost": null,
   "topic": "chrome-notification-popup-permissions-guide",
-  "reason": "본문 공백 제외 5,000~14,000자 필요"
+  "reason": "본문 공백 제외 5,000~14,000자 필요",
+  "workflowStatus": "failure"
 }
