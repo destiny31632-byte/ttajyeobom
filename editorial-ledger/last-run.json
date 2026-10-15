@@ -1,10 +1,9 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "published": [],
   "remaining": 2,
-  "status": "retryable-failed",
+  "status": "held",
   "newPost": null,
   "topic": "chrome-download-blocked-safe-check-guide",
-  "reason": "무료 AI 응답 503: 재시도·유료 전환 없이 중단",
-  "workflowStatus": "failure"
+  "reason": "실행 가능한 문구·HTML 금지"
 }
