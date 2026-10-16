@@ -2,9 +2,7 @@
   "date": "2026-10-16",
   "published": [],
   "remaining": 2,
-  "status": "retryable-failed",
+  "status": "held",
   "newPost": null,
-  "topic": "chrome-password-passkey-storage-guide",
-  "reason": "무료 AI 응답 503: 재시도·유료 전환 없이 중단",
-  "workflowStatus": "failure"
+  "reason": "기존 공개 글 검토 갱신 필요: 작성 전 중단"
 }
