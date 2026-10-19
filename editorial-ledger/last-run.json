@@ -1,9 +1,8 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "published": [],
   "remaining": 2,
   "status": "held",
   "newPost": null,
-  "reason": "기존 공개 글 검토 갱신 필요: 작성 전 중단",
-  "workflowStatus": "failure"
+  "reason": "기존 공개 글 검토 갱신 필요: 작성 전 중단"
 }
