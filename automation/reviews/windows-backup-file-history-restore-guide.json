@@ -2,7 +2,7 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "Codex: official-source comparison",
-  "checkedAt": "2026-10-12T09:35:57+09:00",
+  "checkedAt": "2026-10-26T23:07:25Z",
   "contentSha256": "882040363c2af249ff66a926b7390606d5729121351e0a27cdac4523357731a6",
   "researchSha256": "2a8f66d602b6b12bf974c3ead37de9af52ed3af3fb02e8de9e3e77077bcdbfa9",
   "method": "Reviewed full draft against seven current official documents; corrected unsupported USB capacity, storage and restore scope, deletion warnings, and wording. Retained successful independent preview review as prior evidence, not as approval of later edits.",
