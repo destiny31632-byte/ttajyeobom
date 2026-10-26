@@ -1,10 +1,12 @@
 {
   "date": "2026-10-27",
-  "published": [],
-  "remaining": 2,
-  "status": "retryable-failed",
-  "newPost": null,
+  "published": [
+    "chrome-password-passkey-storage-guide"
+  ],
+  "remaining": 1,
+  "status": "published-manually-verified",
+  "newPost": "chrome-password-passkey-storage-guide",
   "topic": "chrome-password-passkey-storage-guide",
-  "reason": "무료 AI 응답 503: 재시도·유료 전환 없이 중단",
-  "workflowStatus": "cancelled"
+  "reason": "피클 직접 조사 및 작성 완료: 공식 자료 대조 및 검증 통과",
+  "workflowStatus": "success"
 }
