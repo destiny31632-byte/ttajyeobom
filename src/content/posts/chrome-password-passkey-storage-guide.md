@@ -46,7 +46,7 @@ images:
     license: 자체 제작 (CC BY 4.0)
     author: 따져봄 에디터
 generation:
-  method: editorial
+  method: manual
   model: human-researched
   runId: manual-20261027
 firstPublishedAt: 2026-10-27T08:25:00+09:00
