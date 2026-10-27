@@ -15,19 +15,19 @@
     ],
     "sources": [
       {
-        "title": "가정 내 전기설비 및 멀티탭 안전사용 요령",
-        "url": "https://www.kesco.or.kr/bbs/selectBbsList.do?bbsId=BBSMSTR_000000000001",
-        "publisher": "한국전기안전공사",
-        "type": "official"
+        "title": "겨울철 건강관리와 적정 실내 환경",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148924892",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
       },
       {
-        "title": "전기용품안전기준 KS C 8305 플러그 및 콘센트 규격",
-        "url": "https://www.kats.go.kr/content.do?cmsid=239",
-        "publisher": "국가기술표준원",
-        "type": "official"
+        "title": "생활 속 전기화재 예방과 안전수칙",
+        "url": "https://www.korea.kr/news/cultureColumnView.do?newsId=148856580",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
       },
       {
-        "title": "가전기기 소비전력 및 대기전력 절감 가이드",
+        "title": "겨울철 에너지 절약 및 난방·가전 이용 가이드",
         "url": "https://min24.energy.or.kr/consult/info/view4.do",
         "publisher": "한국에너지공단",
         "type": "official"

@@ -4,7 +4,7 @@
   "factsVerified": true,
   "reviewer": "Codex: official-source comparison",
   "checkedAt": "2026-10-27T04:45:00Z",
-  "contentSha256": "2212d7108d7b429650af078744d78beba953e5f2fa2835409b83bd8b07293844",
-  "researchSha256": "92ae7a8a2b2505ff7db583f9fdc80cbcff274413fb066721374bca94860a33bf",
+  "contentSha256": "c09e31634915f4815cab803aa40d82628af343dfa7d983489fad625736fe5056",
+  "researchSha256": "6e0c47c584c544913e58aebd81028271c2c57ed0f163f954acaedd6577a3e95a",
   "method": "Reviewed full draft against official Korea Electrical Safety Corporation (KESCO), Korean Agency for Technology and Standards (KATS KS C 8305), and Korea Energy Agency guidelines. Verified ratings (10A/2500W vs 16A/4000W), 80% safety margin rule (2000W/3200W), 2.5sq wire thickness, circuit breaker types (MCCB vs ELCB, 15-30mA/0.03s), appliance power ratings, and maintenance schedules. All facts match official documentation."
 }

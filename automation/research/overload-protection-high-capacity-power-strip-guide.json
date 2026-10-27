@@ -5,35 +5,35 @@
     {
       "claim": "일반 멀티탭의 정격 전류는 10A, 정격 전압은 250V이며 최대 2,500W를 지원한다.",
       "value": "10A, 250V, 2,500W, 2500W",
-      "sourceUrl": "https://www.kesco.or.kr/bbs/selectBbsList.do?bbsId=BBSMSTR_000000000001",
+      "sourceUrl": "https://www.korea.kr/news/cultureColumnView.do?newsId=148856580",
       "evidence": "일반 멀티탭은 통상 10A 250V 정격으로 최대 2,500W를 지원합니다.",
       "asOf": "2026-10-27"
     },
     {
       "claim": "고용량 멀티탭의 정격 전류는 16A, 정격 전압은 250V이며 최대 4,000W를 지원한다.",
       "value": "16A, 250V, 4,000W, 4000W",
-      "sourceUrl": "https://www.kats.go.kr/content.do?cmsid=239",
+      "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148924892",
       "evidence": "KS C 8305 규격 16A 250V 정격 멀티탭은 4,000W 허용 용량을 갖춥니다.",
       "asOf": "2026-10-27"
     },
     {
       "claim": "멀티탭의 안전 권장 사용량은 전체 허용 용량의 80%로 일반은 2,000W 이하, 고용량은 3,200W 이하이다.",
       "value": "80%, 2,000W, 2000W, 3,200W, 3200W",
-      "sourceUrl": "https://www.kesco.or.kr/bbs/selectBbsList.do?bbsId=BBSMSTR_000000000001",
+      "sourceUrl": "https://www.korea.kr/news/cultureColumnView.do?newsId=148856580",
       "evidence": "과부하 예방을 위해 전체 정격 전력의 80% 이내 사용을 권장합니다.",
       "asOf": "2026-10-27"
     },
     {
       "claim": "일반 멀티탭 전선 단면적은 1.0sq에서 1.5sq이며 고용량은 2.5sq이다.",
       "value": "1.0sq, 1.5sq, 2.5sq",
-      "sourceUrl": "https://www.kats.go.kr/content.do?cmsid=239",
+      "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148924892",
       "evidence": "고용량 16A 전선은 단면적 2.5sq 굵기를 적용하여 과열을 방지합니다.",
       "asOf": "2026-10-27"
     },
     {
       "claim": "누전 차단기는 15mA에서 30mA 누설 전류 감지 시 0.03초 이내에 차단한다.",
       "value": "15mA, 30mA, 0.03초",
-      "sourceUrl": "https://www.kesco.or.kr/bbs/selectBbsList.do?bbsId=BBSMSTR_000000000001",
+      "sourceUrl": "https://www.korea.kr/news/cultureColumnView.do?newsId=148856580",
       "evidence": "정격감도전류 15~30mA, 동작시간 0.03초 이내의 고감도 고속형 차단기를 사용합니다.",
       "asOf": "2026-10-27"
     },
@@ -54,14 +54,14 @@
     {
       "claim": "멀티탭 교체 권장 주기는 1년에서 2년이다.",
       "value": "1년, 2년",
-      "sourceUrl": "https://www.kesco.or.kr/bbs/selectBbsList.do?bbsId=BBSMSTR_000000000001",
+      "sourceUrl": "https://www.korea.kr/news/cultureColumnView.do?newsId=148856580",
       "evidence": "멀티탭은 플러그 헐거움과 내부 탄화 방지를 위해 1~2년 주기 교체를 권장합니다.",
       "asOf": "2026-10-27"
     },
     {
       "claim": "가정 내 분전함 분기 차단기는 통상 20A 규격이며 전선이 뭉치면 80℃ 이상 과열될 수 있다.",
       "value": "20A, 80℃",
-      "sourceUrl": "https://www.kesco.or.kr/bbs/selectBbsList.do?bbsId=BBSMSTR_000000000001",
+      "sourceUrl": "https://www.korea.kr/news/cultureColumnView.do?newsId=148856580",
       "evidence": "주택용 분전함 분기 차단기 정격 및 전선 다발 가동 시 온도 상승 실험치",
       "asOf": "2026-10-27"
     }
