@@ -24,20 +24,27 @@ sources:
   - title: "겨울철 건강관리와 적정 실내 환경"
     url: "https://www.korea.kr/news/policyNewsView.do?newsId=148924892"
     publisher: "대한민국 정책브리핑"
-    type: "government"
+    type: government
+    accessed: 2026-10-27
+    note: "겨울철 전열기기 안전 관리 및 EMF 전자기장 환경 기준"
   - title: "생활 속 전기화재 예방과 안전수칙"
     url: "https://www.korea.kr/news/cultureColumnView.do?newsId=148856580"
     publisher: "대한민국 정책브리핑"
-    type: "government"
+    type: government
+    accessed: 2026-10-27
+    note: "전기장판 라텍스 화재 주의보 및 둥글게 말아서 보관하는 요령"
   - title: "겨울철 에너지 절약 및 난방·가전 이용 가이드"
     url: "https://min24.energy.or.kr/consult/info/view4.do"
     publisher: "한국에너지공단"
-    type: "official"
+    type: official
+    accessed: 2026-10-27
+    note: "전열 매트류 방식별 소비전력 및 월간 예상 전기요금 비교"
 author: editor
 featured: true
 ymyl: low
 volatility: medium
 reviewBy: 2027-01-27
+draft: false
 ---
 
 겨울철 난방비를 아끼기 위해 보일러 온도를 낮추고 침대나 바닥에 전열 매트를 까는 가정이 많습니다. 실제로 [겨울철 난방비 절약 가이드](/posts/winter-heating-cost-saving-guide/)에서 살펴보았듯, 실내 전체 난방 온도를 1℃ 낮추고 취침 공간에 국소 난방 기기를 활용하면 도시가스 요금을 최대 20~30%까지 절감할 수 있습니다.
