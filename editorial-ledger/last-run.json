@@ -1,13 +1,9 @@
 {
-  "date": "2026-10-27",
-  "published": [
-    "overload-protection-high-capacity-power-strip-guide",
-    "humidifier-types-electricity-cleaning-guide",
-    "chrome-password-passkey-storage-guide"
-  ],
-  "remaining": 0,
-  "status": "recover-deployment",
-  "newPost": "chrome-password-passkey-storage-guide",
-  "workflowStatus": "success",
-  "deployment": "verified-live"
+  "date": "2026-10-28",
+  "published": [],
+  "remaining": 2,
+  "status": "retryable-failed",
+  "newPost": null,
+  "topic": "chrome-bookmarks-export-import-backup-guide",
+  "reason": "무료 AI 응답 503: 재시도·유료 전환 없이 중단"
 }
