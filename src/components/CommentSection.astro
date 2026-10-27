@@ -1,0 +1,343 @@
+---
+interface Props {
+  slug: string;
+  title: string;
+}
+
+const { slug, title } = Astro.props;
+---
+
+<section class="comment-section" aria-label="댓글 및 의견" data-pagefind-ignore data-slug={slug}>
+  <div class="comment-section__header">
+    <div class="comment-section__title-group">
+      <h2 class="comment-section__title">💬 댓글과 의견</h2>
+      <span class="comment-section__count" id="comment-count">1</span>
+    </div>
+    <p class="comment-section__desc">
+      별도의 회원가입이나 로그인 없이 닉네임만 넣고 자유롭게 질문이나 꿀팁을 남겨주세요.
+    </p>
+  </div>
+
+  <form class="comment-form" id="comment-form">
+    <div class="comment-form__inputs">
+      <div class="comment-form__field">
+        <label for="comment-author" class="sr-only">작성자 닉네임</label>
+        <input
+          type="text"
+          id="comment-author"
+          name="author"
+          placeholder="닉네임 (미입력 시 '익명의 독자')"
+          maxlength="20"
+          class="comment-form__input"
+        />
+      </div>
+      <div class="comment-form__field comment-form__field--password">
+        <label for="comment-pw" class="sr-only">삭제용 비밀번호</label>
+        <input
+          type="password"
+          id="comment-pw"
+          name="password"
+          placeholder="비밀번호 (4자리)"
+          maxlength="8"
+          class="comment-form__input"
+        />
+      </div>
+    </div>
+    <div class="comment-form__textarea-wrap">
+      <label for="comment-body" class="sr-only">댓글 내용</label>
+      <textarea
+        id="comment-body"
+        name="body"
+        rows="3"
+        required
+        placeholder="이 가이드에 대한 질문이나 실사용 경험, 나만의 절약 꿀팁을 남겨주세요!"
+        class="comment-form__textarea"
+      ></textarea>
+    </div>
+    <div class="comment-form__footer">
+      <span class="comment-form__notice">💡 클린한 소통을 위해 비방 및 스팸성 글은 제한될 수 있습니다.</span>
+      <button type="submit" class="comment-form__btn">댓글 등록하기</button>
+    </div>
+  </form>
+
+  <div class="comment-list" id="comment-list">
+    <!-- 기본 에디터 고정 웰컴 댓글 -->
+    <div class="comment-item comment-item--pinned">
+      <div class="comment-item__header">
+        <div class="comment-item__author-badge">
+          <span class="comment-item__avatar">📌</span>
+          <span class="comment-item__author">따져봄 에디터</span>
+          <span class="comment-item__tag">운영자</span>
+        </div>
+        <time class="comment-item__time">상시 안내</time>
+      </div>
+      <p class="comment-item__body">
+        본문 내용 중 추가로 계산이 필요하거나 궁금한 점이 있으시면 댓글로 남겨주세요! 확인 후 답변해 드리고 다음 업데이트에 적극 반영하겠습니다.
+      </p>
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+  (function () {
+    const section = document.querySelector('.comment-section');
+    if (!section) return;
+    const slug = section.getAttribute('data-slug') || 'default';
+    const form = document.getElementById('comment-form');
+    const list = document.getElementById('comment-list');
+    const countEl = document.getElementById('comment-count');
+    const storageKey = 'ttajyeobom_comments_' + slug;
+
+    function getLocalComments() {
+      try {
+        const raw = localStorage.getItem(storageKey);
+        return raw ? JSON.parse(raw) : [];
+      } catch (e) {
+        return [];
+      }
+    }
+
+    function saveLocalComments(comments) {
+      try {
+        localStorage.setItem(storageKey, JSON.stringify(comments));
+      } catch (e) {}
+    }
+
+    function renderComments() {
+      const customComments = getLocalComments();
+      const totalCount = 1 + customComments.length;
+      if (countEl) countEl.textContent = totalCount;
+
+      // Pinned comment 제외하고 기존 렌더링 삭제
+      const pinned = list.querySelector('.comment-item--pinned');
+      list.innerHTML = '';
+      if (pinned) list.appendChild(pinned);
+
+      customComments.forEach(function (c, idx) {
+        const item = document.createElement('div');
+        item.className = 'comment-item';
+        item.innerHTML = `
+          <div class="comment-item__header">
+            <div class="comment-item__author-badge">
+              <span class="comment-item__avatar">💬</span>
+              <span class="comment-item__author"></span>
+            </div>
+            <time class="comment-item__time"></time>
+          </div>
+          <p class="comment-item__body"></p>
+        `;
+        item.querySelector('.comment-item__author').textContent = c.author || '익명의 독자';
+        item.querySelector('.comment-item__time').textContent = c.time || '방금 전';
+        item.querySelector('.comment-item__body').textContent = c.body;
+        list.appendChild(item);
+      });
+    }
+
+    renderComments();
+
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const authorInput = document.getElementById('comment-author');
+        const bodyInput = document.getElementById('comment-body');
+        const body = (bodyInput.value || '').trim();
+        if (!body) return;
+
+        const author = (authorInput.value || '').trim() || '익명의 독자';
+        const now = new Date();
+        const timeStr = now.getFullYear() + '.' + (now.getMonth() + 1) + '.' + now.getDate() + ' ' +
+          String(now.getHours()).padStart(2, '0') + ':' + String(now.getMinutes()).padStart(2, '0');
+
+        const newComment = {
+          author: author,
+          body: body,
+          time: timeStr
+        };
+
+        const current = getLocalComments();
+        current.push(newComment);
+        saveLocalComments(current);
+
+        bodyInput.value = '';
+        renderComments();
+      });
+    }
+  })();
+</script>
+
+<style>
+  .comment-section {
+    margin: 48px 0 32px;
+    padding: 30px 28px;
+    border-radius: 18px;
+    background: var(--surface, #f8fafc);
+    border: 1px solid var(--border, #e2e8f0);
+    box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.03);
+  }
+  .comment-section__header {
+    margin-bottom: 22px;
+  }
+  .comment-section__title-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .comment-section__title {
+    font-size: 1.28rem;
+    font-weight: 800;
+    margin: 0;
+    color: var(--text, #0f172a);
+    letter-spacing: -0.02em;
+  }
+  .comment-section__count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    height: 24px;
+    padding: 0 7px;
+    border-radius: 9999px;
+    background: var(--primary, #0d9488);
+    color: #fff;
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+  .comment-section__desc {
+    font-size: 0.92rem;
+    color: var(--muted, #64748b);
+    margin: 0;
+    line-height: 1.55;
+  }
+  .comment-form {
+    margin-bottom: 28px;
+    padding: 18px 20px;
+    border-radius: 14px;
+    background: var(--bg, #ffffff);
+    border: 1px solid var(--border, #e2e8f0);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+  }
+  .comment-form__inputs {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .comment-form__field {
+    flex: 1;
+  }
+  .comment-form__field--password {
+    max-width: 160px;
+  }
+  .comment-form__input {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    border: 1px solid var(--border, #cbd5e1);
+    background: var(--surface, #f8fafc);
+    color: var(--text, #0f172a);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .comment-form__input:focus,
+  .comment-form__textarea:focus {
+    outline: none;
+    border-color: var(--primary, #0d9488);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary, #0d9488) 20%, transparent);
+  }
+  .comment-form__textarea {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 0.93rem;
+    line-height: 1.6;
+    border-radius: 10px;
+    border: 1px solid var(--border, #cbd5e1);
+    background: var(--surface, #f8fafc);
+    color: var(--text, #0f172a);
+    resize: vertical;
+    font-family: inherit;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .comment-form__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .comment-form__notice {
+    font-size: 0.78rem;
+    color: var(--muted, #94a3b8);
+  }
+  .comment-form__btn {
+    padding: 10px 20px;
+    background: var(--primary, #0d9488);
+    color: #ffffff;
+    font-size: 0.92rem;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s ease, transform 0.1s ease;
+  }
+  .comment-form__btn:hover {
+    background: var(--primary-strong, #0f766e);
+    transform: translateY(-1px);
+  }
+  .comment-form__btn:active {
+    transform: translateY(0);
+  }
+  .comment-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .comment-item {
+    padding: 16px 18px;
+    border-radius: 12px;
+    background: var(--bg, #ffffff);
+    border: 1px solid var(--border, #e2e8f0);
+  }
+  .comment-item--pinned {
+    background: color-mix(in srgb, var(--primary-soft, #f0fdfa) 70%, var(--bg, #ffffff) 30%);
+    border-color: color-mix(in srgb, var(--primary, #0d9488) 35%, transparent);
+  }
+  .comment-item__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  .comment-item__author-badge {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  .comment-item__avatar {
+    font-size: 1rem;
+  }
+  .comment-item__author {
+    font-size: 0.92rem;
+    font-weight: 750;
+    color: var(--text, #0f172a);
+  }
+  .comment-item__tag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 9999px;
+    background: var(--primary, #0d9488);
+    color: #ffffff;
+  }
+  .comment-item__time {
+    font-size: 0.78rem;
+    color: var(--muted, #94a3b8);
+  }
+  .comment-item__body {
+    font-size: 0.93rem;
+    line-height: 1.62;
+    color: var(--text, #334155);
+    margin: 0;
+    word-break: keep-all;
+  }
+</style>

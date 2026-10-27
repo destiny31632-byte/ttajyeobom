@@ -9,6 +9,7 @@ import AuthorBox from '../../components/AuthorBox.astro';
 import PrevNext from '../../components/PrevNext.astro';
 import RelatedPosts from '../../components/RelatedPosts.astro';
 import AffiliateBox from '../../components/AffiliateBox.astro';
+import CommentSection from '../../components/CommentSection.astro';
 import ArticleTopAd from '../../components/ads/ArticleTopAd.astro';
 import ArticleBottomAd from '../../components/ads/ArticleBottomAd.astro';
 import SidebarAd from '../../components/ads/SidebarAd.astro';
@@ -133,6 +134,7 @@ const jsonLd = graph(
         </ul>
         <AuthorBox authorId={author.id} />
         <PrevNext prev={prev} next={next} />
+        <CommentSection slug={post.id} title={d.title} />
       </article>
 
       <aside class="sidebar" aria-label="보조 메뉴">
