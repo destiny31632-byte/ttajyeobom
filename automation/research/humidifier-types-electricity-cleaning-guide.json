@@ -24,6 +24,27 @@
       "asOf": "2026-10-27"
     },
     {
+      "claim": "가열식 가습기는 물을 100℃까지 가열하여 증기를 발생시킨다.",
+      "value": "100℃",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do",
+      "evidence": "물을 100℃로 끓여 순수한 수증기를 발생시키는 방식이다.",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "복합식 가습기는 물을 60℃에서 80℃로 예열한다.",
+      "value": "60℃에서 80℃",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do",
+      "evidence": "물을 60℃ 내지 80℃로 예열한 후 초음파로 분무한다.",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "가열식 가습기 사용 시 실내 온도가 1℃에서 2℃ 상승한다.",
+      "value": "1℃에서 2℃",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do",
+      "evidence": "가열식의 온증기는 실내 온도를 약 1℃ 내지 2℃ 올리는 효과가 있다.",
+      "asOf": "2026-10-27"
+    },
+    {
       "claim": "초음파식 가습기의 평균 소비전력은 30W 내외이다.",
       "value": "30W",
       "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do",
@@ -31,10 +52,10 @@
       "asOf": "2026-10-27"
     },
     {
-      "claim": "가열식 가습기의 평균 소비전력은 300W 내외이다.",
-      "value": "300W",
+      "claim": "가열식 가습기의 평균 소비전력은 300W 내외로 초음파식의 10배이다.",
+      "value": "300W, 10배",
       "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do",
-      "evidence": "물을 가열하는 방식은 약 300W 내외의 높은 전력을 소모합니다.",
+      "evidence": "가열 방식은 약 300W 내외로 초음파식의 약 10배 전력을 소모합니다.",
       "asOf": "2026-10-27"
     },
     {
@@ -52,24 +73,45 @@
       "asOf": "2026-10-27"
     },
     {
-      "claim": "주택용 저압 1단계 전기요금 기본 단가는 120원/kWh이다.",
-      "value": "120원",
+      "claim": "주택용 저압 1단계 전기요금 기본 단가는 120.0원/kWh이며 300kWh 이하에 적용된다.",
+      "value": "120.0원, 120원, 300kWh",
       "sourceUrl": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/E/E/CYEEHP00101.jsp",
       "evidence": "주택용 전력 저압 1단계 300kWh 이하 120.0원",
       "asOf": "2026-10-27"
     },
     {
-      "claim": "주택용 저압 2단계 누진 단가는 214.6원/kWh이다.",
-      "value": "214.6원",
+      "claim": "주택용 저압 2단계 누진 단가는 214.6원/kWh이며 301kWh에서 450kWh에 적용된다.",
+      "value": "214.6원, 450kWh",
       "sourceUrl": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/E/E/CYEEHP00101.jsp",
       "evidence": "주택용 전력 저압 2단계 301~450kWh 214.6원",
       "asOf": "2026-10-27"
     },
     {
-      "claim": "가습기는 최소 1일에서 2일에 한 번 물을 비우고 세척하는 것이 권장된다.",
-      "value": "1일에서 2일",
+      "claim": "가습기는 최소 1일에서 2일에 한 번 물을 비우고 세척하며, 가열식과 자연기화식은 3일에서 7일마다 세척한다.",
+      "value": "1일, 2일, 3일, 7일",
       "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148924892",
-      "evidence": "매일 남은 물을 버리고 최소 1~2일 주기로 세척한다.",
+      "evidence": "매일 남은 물을 버리고 최소 1~2일 또는 3~7일 주기로 세척한다.",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "구연산 세척 시 30분간 가열 모드를 가동한다.",
+      "value": "30분",
+      "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148924892",
+      "evidence": "구연산을 희석하여 약 30분 정도 가열하여 침전물을 제거한다.",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "하루 8시간 또는 12시간 가동 기준 한 달 30일(240시간) 동안 가습기를 작동한다.",
+      "value": "8시간, 12시간, 30일, 240시간",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do",
+      "evidence": "하루 8시간 또는 12시간씩 30일 가동 시 총 240시간 기준으로 전력을 산출한다.",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "자연기화식과 초음파식은 한 달 1,000원 안팎이며, 가열식 다대 가동 시 3만원 이상 증가할 수 있다.",
+      "value": "1,000원, 3만원",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do",
+      "evidence": "저전력 가습기는 약 1,000원 내외이나 고전력 가열식은 3만원 이상 발생할 수 있다.",
       "asOf": "2026-10-27"
     }
   ],
@@ -94,7 +136,9 @@
         "300W",
         "72.0kWh",
         "8640원",
-        "15451원"
+        "15451원",
+        "8,640원",
+        "15,451원"
       ]
     }
   ],
