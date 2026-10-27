@@ -1,0 +1,106 @@
+{
+  "slug": "humidifier-types-electricity-cleaning-guide",
+  "checkedAt": "2026-10-27T11:20:00+09:00",
+  "facts": [
+    {
+      "claim": "겨울철 실내 적정 습도는 40%에서 60% 사이이다.",
+      "value": "40%에서 60%",
+      "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148924892",
+      "evidence": "겨울철 건강을 위한 적정 실내 습도는 40%에서 60%를 유지하는 것이 바람직하다.",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "겨울철 적정 실내 난방온도는 18℃에서 20℃이다.",
+      "value": "18℃에서 20℃",
+      "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148924892",
+      "evidence": "적정 실내 온도는 18℃에서 20℃ 내외로 조절한다.",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "한국에너지공단이 권장하는 겨울철 설정온도는 20℃이다.",
+      "value": "20℃",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do",
+      "evidence": "겨울철 권장 실내온도는 20℃ 내외입니다.",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "초음파식 가습기의 평균 소비전력은 30W 내외이다.",
+      "value": "30W",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do",
+      "evidence": "초음파 가습기는 약 30W 내외의 낮은 소비전력을 가집니다.",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "가열식 가습기의 평균 소비전력은 300W 내외이다.",
+      "value": "300W",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do",
+      "evidence": "물을 가열하는 방식은 약 300W 내외의 높은 전력을 소모합니다.",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "자연기화식 가습기의 평균 소비전력은 15W 내외이다.",
+      "value": "15W",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do",
+      "evidence": "팬만 회전하는 자연기화식은 약 15W 내외로 전력 소모가 적습니다.",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "복합식 가습기의 평균 소비전력은 150W 내외이다.",
+      "value": "150W",
+      "sourceUrl": "https://min24.energy.or.kr/consult/info/view4.do",
+      "evidence": "온가습 모드 가동 시 약 150W 내외의 전력을 소모합니다.",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "주택용 저압 1단계 전기요금 기본 단가는 120원/kWh이다.",
+      "value": "120원",
+      "sourceUrl": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/E/E/CYEEHP00101.jsp",
+      "evidence": "주택용 전력 저압 1단계 300kWh 이하 120.0원",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "주택용 저압 2단계 누진 단가는 214.6원/kWh이다.",
+      "value": "214.6원",
+      "sourceUrl": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/E/E/CYEEHP00101.jsp",
+      "evidence": "주택용 전력 저압 2단계 301~450kWh 214.6원",
+      "asOf": "2026-10-27"
+    },
+    {
+      "claim": "가습기는 최소 1일에서 2일에 한 번 물을 비우고 세척하는 것이 권장된다.",
+      "value": "1일에서 2일",
+      "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148924892",
+      "evidence": "매일 남은 물을 버리고 최소 1~2일 주기로 세척한다.",
+      "asOf": "2026-10-27"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "가습기 방식별 월간 소비전력량 및 예상 전기요금",
+      "formula": "소비전력(W) * 8시간 * 30일 / 1000",
+      "assumptions": "1일 8시간 사용, 한 달 30일(총 240시간) 기준, 주택용 저압 누진 1단계(120원/kWh) 및 2단계(214.6원/kWh)",
+      "values": [
+        "15W",
+        "3.6kWh",
+        "432원",
+        "773원",
+        "30W",
+        "7.2kWh",
+        "864원",
+        "1545원",
+        "150W",
+        "36.0kWh",
+        "4320원",
+        "7726원",
+        "300W",
+        "72.0kWh",
+        "8640원",
+        "15451원"
+      ]
+    }
+  ],
+  "watch": [
+    "한전 주택용 전기요금 누진제 단가 개정 여부",
+    "질병관리청 가습기 안전 세척 가이드라인 변경 여부",
+    "가열식 가습기 안전 기준(차일드락, 전도 안전장치) 법제화 동향"
+  ]
+}

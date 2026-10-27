@@ -1,5 +1,41 @@
 [
   {
+    "slug": "humidifier-types-electricity-cleaning-guide",
+    "title": "가습기 방식별 비교: 초음파·가열식·자연기화식 전기세·세척·소음 차이와 선택 기준",
+    "targetQuery": "가습기 방식별 비교 전기세 세척",
+    "category": "home",
+    "cluster": "humidifier-choice",
+    "tags": [
+      "가습기",
+      "가습기 방식",
+      "전기세",
+      "초음파식",
+      "가열식",
+      "자연기화식",
+      "세척"
+    ],
+    "sources": [
+      {
+        "title": "겨울철 건강관리와 적정 실내 환경",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148924892",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
+      },
+      {
+        "title": "겨울철 에너지 절약 및 난방·가전 이용 가이드",
+        "url": "https://min24.energy.or.kr/consult/info/view4.do",
+        "publisher": "한국에너지공단",
+        "type": "official"
+      },
+      {
+        "title": "주택용 전력 요금표 및 누진제 안내",
+        "url": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/E/E/CYEEHP00101.jsp",
+        "publisher": "한국전력공사",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "slug": "windows-backup-file-history-restore-guide",
     "title": "윈도우 백업과 파일 기록, 복원 전에 확인할 차이와 설정 순서",
     "targetQuery": "윈도우 백업 파일 기록 차이",

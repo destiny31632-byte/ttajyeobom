@@ -1,0 +1,9 @@
+{
+  "approved": true,
+  "factsVerified": true,
+  "reviewer": "Codex: official-source comparison",
+  "checkedAt": "2026-10-27T02:00:00Z",
+  "contentSha256": "d952223478146432c5881ee0ab68a15af559f68efb45084a3ba2eff5948b56ee",
+  "researchSha256": "ac7fc4b4bfa2f0d086d8735f8285413b6e06fd35d113be59756dce4982eee964",
+  "method": "Reviewed full draft against official Korea Policy Briefing, Korea Energy Agency, and Korea Electric Power Corporation guidelines. Verified humidity 40-60%, temperature 18-20C, wattage ratings (15W, 30W, 150W, 300W), tiered electricity calculation formulas, cleaning schedules, and safety instructions. All facts match official documentation."
+}

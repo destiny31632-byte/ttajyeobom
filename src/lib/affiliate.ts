@@ -7,6 +7,13 @@ export interface AffiliateItem {
 }
 
 export const AFFILIATE_MAP: Record<string, AffiliateItem> = {
+  'humidifier-types-electricity-cleaning-guide': {
+    title: '세균 걱정 없는 가열식·복합식 대용량 가습기',
+    description: '100℃ 고온 살균과 저소음 분무, 자동 습도 조절을 지원하는 인기 가습기 모음입니다.',
+    productName: '대용량 가열식·복합식 가습기 인기 모음',
+    link: 'https://link.coupang.com/a/ia5hLVFB92',
+    badge: '가습기 추천',
+  },
   'chrome-password-passkey-storage-guide': {
     title: '패스키 보안 강화 필수 장비',
     description: '구글 계정과 비밀번호를 하드웨어 단계에서 안전하게 보호하는 FIDO2 인증 보안키입니다.',
