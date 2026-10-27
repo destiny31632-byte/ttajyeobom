@@ -1,0 +1,96 @@
+---
+import { getAffiliateForPost } from '../lib/affiliate';
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+const item = getAffiliateForPost(slug);
+---
+
+{
+  item && (
+    <aside class="affiliate-box" aria-label="관련 추천 장비 및 도구" data-pagefind-ignore>
+      <div class="affiliate-box__header">
+        <span class="affiliate-box__badge">{item.badge || '추천'}</span>
+        <h3 class="affiliate-box__title">{item.title}</h3>
+      </div>
+      <p class="affiliate-box__desc">{item.description}</p>
+      <a
+        href={item.link}
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        class="affiliate-box__btn"
+      >
+        <span>{item.productName}</span>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <polyline points="12 5 19 12 12 19" />
+        </svg>
+      </a>
+      <p class="affiliate-box__disclosure">
+        이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+      </p>
+    </aside>
+  )
+}
+
+<style>
+  .affiliate-box {
+    margin: 32px 0 24px;
+    padding: 20px 22px;
+    border-radius: var(--radius, 10px);
+    background: var(--surface, #f9fafb);
+    border: 1px solid var(--border, #e5e7eb);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+  }
+  .affiliate-box__header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .affiliate-box__badge {
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: var(--primary, #0f766e);
+    background: var(--primary-soft, #e6fffa);
+    padding: 3px 8px;
+    border-radius: 4px;
+  }
+  .affiliate-box__title {
+    font-size: 1.02rem;
+    font-weight: 700;
+    margin: 0;
+    color: var(--text, #111827);
+  }
+  .affiliate-box__desc {
+    font-size: 0.9rem;
+    color: var(--muted, #6b7280);
+    margin: 0 0 14px;
+    line-height: 1.5;
+  }
+  .affiliate-box__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 9px 16px;
+    background: var(--primary, #0f766e);
+    color: #ffffff !important;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none !important;
+    transition: opacity 0.15s ease-in-out;
+  }
+  .affiliate-box__btn:hover {
+    opacity: 0.88;
+  }
+  .affiliate-box__disclosure {
+    font-size: 0.77rem;
+    color: var(--muted, #9ca3af);
+    margin: 12px 0 0;
+    line-height: 1.4;
+  }
+</style>

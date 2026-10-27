@@ -8,6 +8,7 @@ import Disclosure from '../../components/Disclosure.astro';
 import AuthorBox from '../../components/AuthorBox.astro';
 import PrevNext from '../../components/PrevNext.astro';
 import RelatedPosts from '../../components/RelatedPosts.astro';
+import AffiliateBox from '../../components/AffiliateBox.astro';
 import ArticleTopAd from '../../components/ads/ArticleTopAd.astro';
 import ArticleBottomAd from '../../components/ads/ArticleBottomAd.astro';
 import SidebarAd from '../../components/ads/SidebarAd.astro';
@@ -114,6 +115,8 @@ const jsonLd = graph(
         <div class="prose">
           <Content />
         </div>
+
+        <AffiliateBox slug={post.id} />
 
         <div data-pagefind-ignore><ArticleBottomAd /></div>
         <SourceList sources={d.sources} images={d.images} />
