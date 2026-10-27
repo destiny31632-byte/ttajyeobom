@@ -7,5 +7,7 @@
   ],
   "remaining": 0,
   "status": "recover-deployment",
-  "newPost": "chrome-password-passkey-storage-guide"
+  "newPost": "chrome-password-passkey-storage-guide",
+  "workflowStatus": "success",
+  "deployment": "verified-live"
 }
