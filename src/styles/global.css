@@ -1,43 +1,47 @@
-/* 따져봄 — 전역 스타일 (외부 폰트 없음: 빠른 LCP/CLS) */
+/* 따져봄 — 전역 스타일 */
 :root {
   --bg: #ffffff;
-  --surface: #f5f7f8;
-  --surface-2: #eef2f3;
-  --text: #1b1f23;
-  --muted: #59636e;
-  --border: #dfe4e8;
-  --primary: #0f766e;
-  --primary-strong: #0b5b55;
-  --primary-soft: #e6f4f2;
-  --accent: #b45309;
-  --accent-soft: #fdf3e4;
-  --danger-soft: #fdecec;
-  --link: #0b6b63;
-  --shadow: 0 1px 2px rgb(16 24 40 / 6%), 0 1px 3px rgb(16 24 40 / 8%);
-  --radius: 12px;
+  --surface: #f8fafc;
+  --surface-2: #f1f5f9;
+  --text: #0f172a;
+  --muted: #475569;
+  --border: #e2e8f0;
+  --primary: #0d9488;
+  --primary-strong: #0f766e;
+  --primary-soft: #f0fdfa;
+  --accent: #d97706;
+  --accent-soft: #fef3c7;
+  --danger-soft: #fee2e2;
+  --link: #0d9488;
+  --shadow: 0 1px 3px rgb(0 0 0 / 8%), 0 1px 2px rgb(0 0 0 / 5%);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.08), 0 2px 4px -2px rgb(0 0 0 / 0.04);
+  --shadow-lg: 0 12px 24px -4px rgb(0 0 0 / 0.08), 0 4px 8px -2px rgb(0 0 0 / 0.04);
+  --radius: 14px;
   --content: 720px;
   --wide: 1160px;
-  --font: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard', 'Malgun Gothic', '맑은 고딕',
+  --font: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
     'Noto Sans KR', 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   color-scheme: light;
 }
 
 [data-theme='dark'] {
-  --bg: #0f1418;
-  --surface: #161d22;
-  --surface-2: #1c252b;
-  --text: #e5e9ec;
-  --muted: #a1abb4;
-  --border: #2a343c;
-  --primary: #2bb7a8;
-  --primary-strong: #5fd3c6;
-  --primary-soft: #12302d;
-  --accent: #f0a14a;
+  --bg: #0b0f17;
+  --surface: #111827;
+  --surface-2: #1f2937;
+  --text: #f3f4f6;
+  --muted: #9ca3af;
+  --border: #374151;
+  --primary: #14b8a6;
+  --primary-strong: #2dd4bf;
+  --primary-soft: #132e2b;
+  --accent: #f59e0b;
   --accent-soft: #2c2213;
   --danger-soft: #3a1d1d;
-  --link: #6ad8cb;
-  --shadow: 0 1px 2px rgb(0 0 0 / 40%);
+  --link: #2dd4bf;
+  --shadow: 0 1px 3px rgb(0 0 0 / 40%);
+  --shadow-md: 0 4px 8px rgb(0 0 0 / 50%);
+  --shadow-lg: 0 12px 24px rgb(0 0 0 / 60%);
   color-scheme: dark;
 }
 
@@ -58,8 +62,9 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font);
-  font-size: 17px;
-  line-height: 1.75;
+  font-size: 17.5px;
+  line-height: 1.8;
+  letter-spacing: -0.015em;
   word-break: keep-all;
   overflow-wrap: anywhere;
   -webkit-font-smoothing: antialiased;
@@ -355,23 +360,27 @@ main {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 18px;
+  padding: 22px 24px;
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: 16px;
   background: var(--bg);
-  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+  position: relative;
 }
 
 .post-card:hover {
-  border-color: var(--primary);
-  box-shadow: var(--shadow);
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--primary) 45%, var(--border) 55%);
+  box-shadow: var(--shadow-lg);
 }
 
 .post-card h3 {
-  font-size: 1.08rem;
-  line-height: 1.5;
-  margin: 8px 0 8px;
-  letter-spacing: -0.01em;
+  font-size: 1.15rem;
+  font-weight: 750;
+  line-height: 1.45;
+  margin: 10px 0 10px;
+  letter-spacing: -0.02em;
 }
 
 .post-card h3 a {
@@ -385,15 +394,11 @@ main {
   inset: 0;
 }
 
-.post-card {
-  position: relative;
-}
-
 .post-card p {
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.94rem;
   line-height: 1.65;
-  margin: 0 0 12px;
+  margin: 0 0 14px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   line-clamp: 3;
@@ -403,19 +408,23 @@ main {
 
 .post-card .meta {
   margin-top: auto;
+  font-size: 0.86rem;
+  color: var(--muted);
 }
 
 .badge {
   display: inline-block;
-  padding: 2px 10px;
-  border-radius: 999px;
+  padding: 3px 11px;
+  border-radius: 9999px;
   background: var(--primary-soft);
   color: var(--primary-strong);
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 700;
   text-decoration: none;
   position: relative;
   z-index: 1;
+  border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent);
+  letter-spacing: -0.01em;
 }
 
 .badge--draft {
@@ -580,17 +589,20 @@ main {
 }
 
 .summary-box {
-  margin: 22px 0;
-  padding: 18px 20px;
-  border-radius: var(--radius);
-  background: var(--primary-soft);
-  border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent);
+  margin: 26px 0;
+  padding: 22px 24px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, var(--primary-soft), color-mix(in srgb, var(--primary-soft) 70%, var(--bg) 30%));
+  border: 1px solid color-mix(in srgb, var(--primary) 30%, transparent);
+  box-shadow: 0 2px 10px rgba(13, 148, 136, 0.05);
 }
 
 .summary-box h2 {
-  font-size: 1rem;
-  margin: 0 0 8px;
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin: 0 0 10px;
   color: var(--primary-strong);
+  letter-spacing: -0.01em;
 }
 
 .summary-box ul {
@@ -603,18 +615,22 @@ main {
 }
 
 .toc {
-  margin: 20px 0;
+  margin: 24px 0;
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: 14px;
   background: var(--surface);
   font-size: 0.95rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
 }
 
 .toc summary {
   cursor: pointer;
-  padding: 12px 16px;
-  font-weight: 700;
+  padding: 14px 18px;
+  font-weight: 750;
+  font-size: 0.98rem;
   list-style: none;
+  letter-spacing: -0.01em;
+  color: var(--text);
 }
 
 .toc summary::-webkit-details-marker {
@@ -694,52 +710,65 @@ main {
 
 /* ── Prose (본문) ── */
 .prose {
-  font-size: 1.04rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
 }
 
 .prose h2 {
-  font-size: 1.42rem;
+  font-size: 1.48rem;
+  font-weight: 800;
   line-height: 1.45;
-  letter-spacing: -0.02em;
-  margin: 2.4em 0 0.7em;
-  padding-top: 0.2em;
+  letter-spacing: -0.025em;
+  margin: 2.6em 0 0.8em;
+  padding-left: 14px;
+  border-left: 4px solid var(--primary);
+  color: var(--text);
 }
 
 .prose h3 {
-  font-size: 1.16rem;
+  font-size: 1.22rem;
+  font-weight: 750;
   line-height: 1.5;
-  margin: 1.8em 0 0.5em;
+  letter-spacing: -0.02em;
+  margin: 2em 0 0.6em;
+  color: var(--text);
 }
 
 .prose h4 {
-  font-size: 1.02rem;
-  margin: 1.4em 0 0.4em;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 1.5em 0 0.4em;
+  color: var(--text);
 }
 
 .prose p {
-  margin: 0 0 1.1em;
+  margin: 0 0 1.25em;
 }
 
 .prose ul,
 .prose ol {
-  padding-left: 1.4em;
-  margin: 0 0 1.2em;
+  padding-left: 1.5em;
+  margin: 0 0 1.3em;
 }
 
 .prose li {
-  margin: 0.35em 0;
+  margin: 0.4em 0;
+  line-height: 1.75;
 }
 
 .prose strong {
   font-weight: 750;
+  color: var(--text);
 }
 
 .prose blockquote {
-  margin: 1.4em 0;
-  padding: 14px 18px;
+  margin: 1.8em 0;
+  padding: 16px 22px;
   border-left: 4px solid var(--accent);
   background: var(--accent-soft);
-  border-radius: 0 var(--radius) var(--radius) 0;
+  border-radius: 0 14px 14px 0;
+  font-size: 0.98rem;
+  line-height: 1.7;
 }
 
 .prose blockquote p:last-child {
@@ -749,59 +778,74 @@ main {
 .prose hr {
   border: 0;
   border-top: 1px solid var(--border);
-  margin: 2em 0;
+  margin: 2.4em 0;
 }
 
 .prose code {
   font-family: var(--mono);
-  font-size: 0.9em;
+  font-size: 0.88em;
   background: var(--surface-2);
-  padding: 0.1em 0.35em;
-  border-radius: 5px;
+  padding: 0.15em 0.4em;
+  border-radius: 6px;
+  color: var(--primary-strong);
 }
 
 .prose pre {
   background: var(--surface-2);
-  padding: 14px 16px;
+  padding: 16px 18px;
   border-radius: var(--radius);
   overflow-x: auto;
   font-size: 0.9rem;
   line-height: 1.6;
+  border: 1px solid var(--border);
 }
 
 .prose pre code {
   background: none;
   padding: 0;
+  color: inherit;
 }
 
 .table-wrap {
-  margin: 1.4em 0;
+  margin: 2em 0;
   overflow-x: auto;
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  background: var(--bg);
   -webkit-overflow-scrolling: touch;
 }
 
 .prose table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.93rem;
-  line-height: 1.55;
-  min-width: 480px;
+  font-size: 0.94rem;
+  line-height: 1.6;
+  min-width: 520px;
 }
 
 .prose th,
 .prose td {
-  padding: 10px 12px;
+  padding: 13px 16px;
   border-bottom: 1px solid var(--border);
   text-align: left;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .prose thead th {
-  background: var(--surface);
+  background: var(--surface-2);
   font-weight: 750;
+  color: var(--text);
   white-space: nowrap;
+  letter-spacing: -0.01em;
+}
+
+.prose tbody tr {
+  transition: background-color 0.12s ease;
+}
+
+.prose tbody tr:hover td {
+  background: color-mix(in srgb, var(--primary-soft) 40%, var(--bg) 60%);
 }
 
 .prose tbody tr:last-child td {
@@ -809,7 +853,7 @@ main {
 }
 
 .prose tbody tr:nth-child(even) td {
-  background: color-mix(in srgb, var(--surface) 55%, transparent);
+  background: color-mix(in srgb, var(--surface) 50%, transparent);
 }
 
 .figure {

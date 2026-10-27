@@ -8,18 +8,18 @@ export interface AffiliateItem {
 
 export const AFFILIATE_MAP: Record<string, AffiliateItem> = {
   'overload-protection-high-capacity-power-strip-guide': {
-    title: '안전 인증 16A 4000W 과부하·누전 차단 고용량 멀티탭',
-    description: '난방기구, 인덕션, PC 고전력 기기를 안전하게 보호하는 2.5sq 굵은 배선 누전차단 멀티탭입니다.',
-    productName: '16A 4000W 과부하 차단 고용량 멀티탭',
-    link: 'https://link.coupang.com/a/ia5dEQlQ4a',
-    badge: '안전 멀티탭',
+    title: '현대일렉트릭 16A 알루미늄 누전차단 고용량 멀티탭 3구',
+    description: '난방기구·인덕션 과부하 방지 16A 4000W 누전차단기 탑재, 2.5sq 굵은 배선과 알루미늄 외장으로 화재를 원천 차단하는 국산 안전 1위 멀티탭입니다.',
+    productName: '현대일렉트릭 16A 4000W 알루미늄 누전차단 멀티탭 보러가기',
+    link: 'https://link.coupang.com/a/ibzUPb8Sjs',
+    badge: '안전 1위 PICK ⭐',
   },
   'humidifier-types-electricity-cleaning-guide': {
-    title: '세균 걱정 없는 가열식·복합식 대용량 가습기',
-    description: '100℃ 고온 살균과 저소음 분무, 자동 습도 조절을 지원하는 인기 가습기 모음입니다.',
-    productName: '대용량 가열식·복합식 가습기 인기 모음',
-    link: 'https://link.coupang.com/a/ia5hLVFB92',
-    badge: '가습기 추천',
+    title: '르젠 대용량 스팀 가열식 가습기 3L (세균 0% 100℃ 고온 살균)',
+    description: '100℃ 끓여서 분무하는 살균 스팀, 밥솥형 분리 세척 스테인리스 수조로 세균 번식 걱정을 끝내는 겨울철 베스트셀러 가열식 가습기입니다.',
+    productName: '르젠 스팀 가열식 가습기 3L (로켓배송 최저가)',
+    link: 'https://link.coupang.com/a/ibzXBqBJGS',
+    badge: '살균 1위 PICK ⭐',
   },
   'chrome-password-passkey-storage-guide': {
     title: '패스키 보안 강화 필수 장비',
@@ -57,11 +57,11 @@ export const AFFILIATE_MAP: Record<string, AffiliateItem> = {
     badge: '작업 효율',
   },
   'winter-heating-cost-saving-guide': {
-    title: '겨울철 체감온도 상승과 난방비 절감 가습기',
-    description: '적정 실내 습도(40~60%)를 유지해 난방 효율을 높이고 호흡기를 보호하는 가열·복합식 가습기입니다.',
-    productName: '대용량 가열식·복합식 가습기',
-    link: 'https://link.coupang.com/a/ia5hLVFB92',
-    badge: '난방비 절감',
+    title: '탐사 국내생산 3중 창문 단열 뽁뽁이 에어캡',
+    description: '물만 뿌려 3초 부착, 창문 외풍·냉기 완벽 차단으로 실내 체감온도 2~3℃ 상승 및 난방비 20%를 아껴주는 방한 필수템입니다.',
+    productName: '탐사 국내생산 3중 창문 단열 뽁뽁이 에어캡 (로켓배송)',
+    link: 'https://link.coupang.com/a/ibz0dBOboi',
+    badge: '난방비 방어 PICK ⭐',
   },
   '2026-household-electricity-bill-calculation-guide': {
     title: '누진 구간 방지를 위한 대기전력 차단 플러그',

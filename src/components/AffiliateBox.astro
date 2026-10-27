@@ -12,23 +12,26 @@ const item = getAffiliateForPost(slug);
 {
   item && (
     <aside class="affiliate-box" aria-label="관련 추천 장비 및 도구" data-pagefind-ignore>
-      <div class="affiliate-box__header">
-        <span class="affiliate-box__badge">{item.badge || '추천'}</span>
-        <h3 class="affiliate-box__title">{item.title}</h3>
+      <div class="affiliate-box__top">
+        <span class="affiliate-box__badge">{item.badge || '에디터 PICK ⭐'}</span>
+        <span class="affiliate-box__tag">로켓배송 🚀</span>
       </div>
+      <h3 class="affiliate-box__title">{item.title}</h3>
       <p class="affiliate-box__desc">{item.description}</p>
-      <a
-        href={item.link}
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-        class="affiliate-box__btn"
-      >
-        <span>{item.productName}</span>
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="5" y1="12" x2="19" y2="12" />
-          <polyline points="12 5 19 12 12 19" />
-        </svg>
-      </a>
+      <div class="affiliate-box__action">
+        <a
+          href={item.link}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          class="affiliate-box__btn"
+        >
+          <span>{item.productName}</span>
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+      </div>
       <p class="affiliate-box__disclosure">
         이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
       </p>
@@ -38,59 +41,92 @@ const item = getAffiliateForPost(slug);
 
 <style>
   .affiliate-box {
-    margin: 32px 0 24px;
-    padding: 20px 22px;
-    border-radius: var(--radius, 10px);
-    background: var(--surface, #f9fafb);
-    border: 1px solid var(--border, #e5e7eb);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+    margin: 36px 0 28px;
+    padding: 24px 26px;
+    border-radius: 16px;
+    background: color-mix(in srgb, var(--surface, #f8fafc) 90%, var(--primary-soft, #f0fdfa) 10%);
+    border: 1px solid color-mix(in srgb, var(--border, #e2e8f0) 80%, var(--primary, #0d9488) 20%);
+    box-shadow: 0 4px 16px -2px rgba(15, 118, 110, 0.06), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
-  .affiliate-box__header {
+  .affiliate-box:hover {
+    box-shadow: 0 8px 24px -4px rgba(15, 118, 110, 0.1), 0 4px 12px -2px rgba(0, 0, 0, 0.06);
+  }
+  .affiliate-box__top {
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-bottom: 8px;
+    justify-content: space-between;
+    margin-bottom: 12px;
   }
   .affiliate-box__badge {
-    font-size: 0.74rem;
+    font-size: 0.78rem;
     font-weight: 700;
-    color: var(--primary, #0f766e);
-    background: var(--primary-soft, #e6fffa);
+    color: var(--primary-strong, #0f766e);
+    background: var(--primary-soft, #f0fdfa);
+    padding: 4px 10px;
+    border-radius: 9999px;
+    border: 1px solid color-mix(in srgb, var(--primary, #0d9488) 30%, transparent);
+    letter-spacing: -0.01em;
+  }
+  .affiliate-box__tag {
+    font-size: 0.76rem;
+    font-weight: 600;
+    color: #e11d48;
+    background: #ffe4e6;
     padding: 3px 8px;
-    border-radius: 4px;
+    border-radius: 6px;
+  }
+  [data-theme='dark'] .affiliate-box__tag {
+    color: #fda4af;
+    background: #4c0519;
   }
   .affiliate-box__title {
-    font-size: 1.02rem;
-    font-weight: 700;
-    margin: 0;
-    color: var(--text, #111827);
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin: 0 0 10px;
+    color: var(--text, #0f172a);
+    line-height: 1.45;
+    letter-spacing: -0.02em;
   }
   .affiliate-box__desc {
-    font-size: 0.9rem;
-    color: var(--muted, #6b7280);
-    margin: 0 0 14px;
-    line-height: 1.5;
+    font-size: 0.94rem;
+    color: var(--muted, #475569);
+    margin: 0 0 18px;
+    line-height: 1.62;
+    word-break: keep-all;
+  }
+  .affiliate-box__action {
+    display: flex;
   }
   .affiliate-box__btn {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 9px 16px;
-    background: var(--primary, #0f766e);
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 13px 20px;
+    background: linear-gradient(135deg, var(--primary, #0d9488), var(--primary-strong, #0f766e));
     color: #ffffff !important;
-    font-size: 0.9rem;
-    font-weight: 600;
-    border-radius: 6px;
+    font-size: 0.96rem;
+    font-weight: 700;
+    border-radius: 12px;
     text-decoration: none !important;
-    transition: opacity 0.15s ease-in-out;
+    box-shadow: 0 4px 12px rgba(15, 118, 110, 0.25);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
   }
   .affiliate-box__btn:hover {
-    opacity: 0.88;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(15, 118, 110, 0.35);
+    filter: brightness(1.05);
+  }
+  .affiliate-box__btn:active {
+    transform: translateY(0);
   }
   .affiliate-box__disclosure {
-    font-size: 0.77rem;
-    color: var(--muted, #9ca3af);
-    margin: 12px 0 0;
-    line-height: 1.4;
+    font-size: 0.76rem;
+    color: var(--muted, #94a3b8);
+    margin: 14px 0 0;
+    line-height: 1.45;
+    text-align: center;
   }
 </style>
