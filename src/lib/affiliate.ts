@@ -7,6 +7,13 @@ export interface AffiliateItem {
 }
 
 export const AFFILIATE_MAP: Record<string, AffiliateItem> = {
+  'overload-protection-high-capacity-power-strip-guide': {
+    title: '안전 인증 16A 4000W 과부하·누전 차단 고용량 멀티탭',
+    description: '난방기구, 인덕션, PC 고전력 기기를 안전하게 보호하는 2.5sq 굵은 배선 누전차단 멀티탭입니다.',
+    productName: '16A 4000W 과부하 차단 고용량 멀티탭',
+    link: 'https://link.coupang.com/a/ia5dEQlQ4a',
+    badge: '안전 멀티탭',
+  },
   'humidifier-types-electricity-cleaning-guide': {
     title: '세균 걱정 없는 가열식·복합식 대용량 가습기',
     description: '100℃ 고온 살균과 저소음 분무, 자동 습도 조절을 지원하는 인기 가습기 모음입니다.',

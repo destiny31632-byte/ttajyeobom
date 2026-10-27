@@ -1,5 +1,40 @@
 [
   {
+    "slug": "overload-protection-high-capacity-power-strip-guide",
+    "title": "고용량 멀티탭과 일반 멀티탭 차이: 16A 4000W 누전·과부하 차단 규격과 안전 선택 기준",
+    "targetQuery": "고용량 멀티탭 일반 멀티탭 차이 16A",
+    "category": "home",
+    "cluster": "power-strip-safety",
+    "tags": [
+      "고용량 멀티탭",
+      "과부하 차단",
+      "누전차단기",
+      "소비전력",
+      "멀티탭 규격",
+      "전기안전"
+    ],
+    "sources": [
+      {
+        "title": "가정 내 전기설비 및 멀티탭 안전사용 요령",
+        "url": "https://www.kesco.or.kr/bbs/selectBbsList.do?bbsId=BBSMSTR_000000000001",
+        "publisher": "한국전기안전공사",
+        "type": "official"
+      },
+      {
+        "title": "전기용품안전기준 KS C 8305 플러그 및 콘센트 규격",
+        "url": "https://www.kats.go.kr/content.do?cmsid=239",
+        "publisher": "국가기술표준원",
+        "type": "official"
+      },
+      {
+        "title": "가전기기 소비전력 및 대기전력 절감 가이드",
+        "url": "https://min24.energy.or.kr/consult/info/view4.do",
+        "publisher": "한국에너지공단",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "slug": "humidifier-types-electricity-cleaning-guide",
     "title": "가습기 방식별 비교: 초음파·가열식·자연기화식 전기세·세척·소음 차이와 선택 기준",
     "targetQuery": "가습기 방식별 비교 전기세 세척",
