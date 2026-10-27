@@ -1,5 +1,42 @@
 [
   {
+    "slug": "mini-heater-convector-radiator-comparison-guide",
+    "title": "미니 온풍기·컨벡터·라디에이터 난방기구 비교: 소비전력·전기세 계산·원룸 소음과 화재 안전 기준",
+    "targetQuery": "미니 온풍기 컨벡터 라디에이터 비교 전기세",
+    "category": "home",
+    "cluster": "space-heating-appliances",
+    "tags": [
+      "미니온풍기",
+      "온풍기",
+      "컨벡터",
+      "라디에이터",
+      "전기세계산",
+      "소비전력",
+      "자취방난방",
+      "화재예방"
+    ],
+    "sources": [
+      {
+        "title": "겨울철 난방비 절약팁은?",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148924892",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
+      },
+      {
+        "title": "겨울철 난방비 절약 방법 5가지",
+        "url": "https://www.korea.kr/news/cultureColumnView.do?newsId=148856580",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
+      },
+      {
+        "title": "냉난방 효율개선 지원안내센터 겨울철 난방 관리 수칙",
+        "url": "https://min24.energy.or.kr/consult/info/view4.do",
+        "publisher": "한국에너지공단",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "slug": "electric-heating-blanket-carbon-mat-comparison-guide",
     "title": "전기장판·온수매트·카본매트 차이 비교: 소비전력·한달 전기세·전자파·화재 안전과 세탁 보관 기준",
     "targetQuery": "전기장판 온수매트 카본매트 차이 비교 전기세",

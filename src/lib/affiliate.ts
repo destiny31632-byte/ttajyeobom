@@ -7,6 +7,13 @@ export interface AffiliateItem {
 }
 
 export const AFFILIATE_MAP: Record<string, AffiliateItem> = {
+  'mini-heater-convector-radiator-comparison-guide': {
+    title: '신일 PTC 대류형 전기 온풍기 히터 (초고속 급속 난방)',
+    description: '예열 없이 3초 만에 따뜻한 바람을 내보내는 고효율 PTC 세라믹 발열체 탑재, 전도 안전 스위치와 과열 방지 센서로 원룸과 사무실에서 안전하게 쓰는 절전형 온풍기입니다.',
+    productName: '신일 PTC 전기 온풍기 히터 (로켓배송 최저가)',
+    link: 'https://link.coupang.com/a/icD39Vywyi',
+    badge: '급속 난방 1위 PICK ⭐',
+  },
   'electric-heating-blanket-carbon-mat-comparison-guide': {
     title: '[27년형] 한일의료기 고급형 헤리티지 EMF 탄소 카본매트 (더블/싱글)',
     description: '금속 열선 화재 위험과 전자파 걱정을 없앤 카본 그래핀 원적외선 워셔블 탄소매트입니다. 하루 8시간 가동 기준 한 달 전기요금 약 4,500원대로 가스비와 난방비를 획기적으로 줄여줍니다.',

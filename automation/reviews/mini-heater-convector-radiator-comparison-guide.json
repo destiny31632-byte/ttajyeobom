@@ -1,0 +1,10 @@
+{
+  "approved": true,
+  "slug": "mini-heater-convector-radiator-comparison-guide",
+  "factsVerified": true,
+  "reviewer": "Codex: official-source comparison",
+  "checkedAt": "2026-10-27T23:10:17Z",
+  "contentSha256": "2a1f07a732373bee37d7c48dab14ec30cf381ac59a34dbd73bc818c2cf349dfb",
+  "researchSha256": "d8280c7e38104b5d53cf4611c9eb1373b8a64902580bd2cc6977b18b60221d62",
+  "method": "Reviewed full draft against Korea Energy Agency (KEA) winter heating guidance, Ministry of the Interior and Safety policy briefing pages, and the joint consumer safety alert by the National Institute of Technology Quality, National Fire Research Institute and Korea Consumer Agency. Verified heater power ranges (fan heater 600-2000W, convector 1000-1500W, oil radiator 1200-2000W), monthly progressive tariff calculations (120/214/307 KRW per kWh), preheat times, noise levels, and high-capacity power strip limits (16A 250V 4000W, 2.5sq, 80% rule). All numbers in the draft are covered by the research record."
+}
