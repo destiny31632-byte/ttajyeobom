@@ -4,8 +4,9 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { DIST_DIR } from '../lib/paths.ts';
 import { waitForBuild } from '../lib/live-build.ts';
+import { resolveSiteUrl } from '../../src/config/site-url.mjs';
 
-const raw = process.env.SITE_URL;
+const raw = resolveSiteUrl(process.env);
 if (!raw) throw new Error('SITE_URL을 실제 운영 주소로 설정해야 합니다.');
 const site = new URL(raw);
 if (site.protocol !== 'https:') throw new Error('운영 사이트는 HTTPS를 사용해야 합니다.');

@@ -1,5 +1,7 @@
 import { deploymentProblems } from '../lib/deploy-settings.ts';
-const problems = deploymentProblems(process.env);
+import { resolveSiteUrl } from '../../src/config/site-url.mjs';
+
+const problems = deploymentProblems({ ...process.env, SITE_URL: resolveSiteUrl(process.env) });
 if (problems.length) {
   problems.forEach((problem) => console.error(problem));
   process.exitCode = 1;
