@@ -29,7 +29,7 @@ export const ADS = readAdConfig({
 
 export const VERIFICATION = {
   google: String(env.PUBLIC_GSC_VERIFICATION ?? 'gV9jiQ73CLhEJGGz5WZqiADL5Wi7HwIFGi0_H_-ctvc').trim(),
-  naver: String(env.PUBLIC_NAVER_VERIFICATION ?? '2c48bf86a384184afd7428f4ae49d9c3aac1329c').trim(),
+  naver: String(env.PUBLIC_NAVER_VERIFICATION ?? 'ba06fa40f0f9ea4eff1ee26361a34ebeb6b4d3c5').trim(),
   bing: String(env.PUBLIC_BING_VERIFICATION ?? '').trim(),
 };
 
