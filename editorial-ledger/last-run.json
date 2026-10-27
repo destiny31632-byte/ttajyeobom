@@ -1,12 +1,11 @@
 {
   "date": "2026-10-27",
   "published": [
+    "overload-protection-high-capacity-power-strip-guide",
+    "humidifier-types-electricity-cleaning-guide",
     "chrome-password-passkey-storage-guide"
   ],
-  "remaining": 1,
-  "status": "published-manually-verified",
-  "newPost": "chrome-password-passkey-storage-guide",
-  "topic": "chrome-password-passkey-storage-guide",
-  "reason": "피클 직접 조사 및 작성 완료: 공식 자료 대조 및 검증 통과",
-  "workflowStatus": "success"
+  "remaining": 0,
+  "status": "recover-deployment",
+  "newPost": "chrome-password-passkey-storage-guide"
 }
