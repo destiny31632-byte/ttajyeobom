@@ -7,6 +7,13 @@ export interface AffiliateItem {
 }
 
 export const AFFILIATE_MAP: Record<string, AffiliateItem> = {
+  'electric-heating-blanket-carbon-mat-comparison-guide': {
+    title: '[27년형] 한일의료기 고급형 헤리티지 EMF 탄소 카본매트 (더블/싱글)',
+    description: '금속 열선 화재 위험과 전자파 걱정을 없앤 카본 그래핀 원적외선 워셔블 탄소매트입니다. 하루 8시간 가동 기준 한 달 전기요금 약 4,500원대로 가스비와 난방비를 획기적으로 줄여줍니다.',
+    productName: '한일의료기 헤리티지 EMF 탄소 카본매트 (로켓배송 최저가)',
+    link: 'https://link.coupang.com/a/ibMg2cLBW8',
+    badge: '탄소매트 1위 PICK ⭐',
+  },
   'overload-protection-high-capacity-power-strip-guide': {
     title: '현대일렉트릭 16A 알루미늄 누전차단 고용량 멀티탭 3구',
     description: '난방기구·인덕션 과부하 방지 16A 4000W 누전차단기 탑재, 2.5sq 굵은 배선과 알루미늄 외장으로 화재를 원천 차단하는 국산 안전 1위 멀티탭입니다.',

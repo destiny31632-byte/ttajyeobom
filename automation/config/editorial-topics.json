@@ -1,5 +1,42 @@
 [
   {
+    "slug": "electric-heating-blanket-carbon-mat-comparison-guide",
+    "title": "전기장판·온수매트·카본매트 차이 비교: 소비전력·한달 전기세·전자파·화재 안전과 세탁 보관 기준",
+    "targetQuery": "전기장판 온수매트 카본매트 차이 비교 전기세",
+    "category": "home",
+    "cluster": "heating-mat-choice",
+    "tags": [
+      "전기장판",
+      "온수매트",
+      "카본매트",
+      "소비전력",
+      "한달 전기세",
+      "전자파",
+      "난방기기",
+      "화재예방"
+    ],
+    "sources": [
+      {
+        "title": "겨울철 건강관리와 적정 실내 환경",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148924892",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
+      },
+      {
+        "title": "생활 속 전기화재 예방과 안전수칙",
+        "url": "https://www.korea.kr/news/cultureColumnView.do?newsId=148856580",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
+      },
+      {
+        "title": "겨울철 에너지 절약 및 난방·가전 이용 가이드",
+        "url": "https://min24.energy.or.kr/consult/info/view4.do",
+        "publisher": "한국에너지공단",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "slug": "overload-protection-high-capacity-power-strip-guide",
     "title": "고용량 멀티탭과 일반 멀티탭 차이: 16A 4000W 누전·과부하 차단 규격과 안전 선택 기준",
     "targetQuery": "고용량 멀티탭 일반 멀티탭 차이 16A",
