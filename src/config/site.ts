@@ -22,7 +22,10 @@ export const SITE = {
   themeColor: '#0f766e',
 };
 
-export const ADS = readAdConfig(env);
+export const ADS = readAdConfig({
+  ...env,
+  PUBLIC_ADSENSE_CLIENT: env.PUBLIC_ADSENSE_CLIENT || 'ca-pub-1810786965128102',
+});
 
 export const VERIFICATION = {
   google: String(env.PUBLIC_GSC_VERIFICATION ?? 'gV9jiQ73CLhEJGGz5WZqiADL5Wi7HwIFGi0_H_-ctvc').trim(),
