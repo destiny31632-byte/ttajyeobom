@@ -25,12 +25,23 @@ const actual = await waitForBuild(async () => {
 const expected = local ?? actual;
 const posts = loadPosts({ includeDrafts: false });
 for (const route of ['/', '/contact/', '/privacy/', '/search/', '/sitemap.xml', '/rss.xml', ...posts.map((p) => `/posts/${p.slug}/`)]) {
-  const url = new URL(route, site);
-  const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
-  if (!res.ok) throw new Error(`라이브 확인 실패 ${res.status}: ${route}`);
-  if (res.headers.get('x-content-type-options') !== 'nosniff') throw new Error(`보안 헤더 누락: ${route}`);
-  const body = await res.text();
-  const digest = crypto.createHash('sha256').update(body).digest('hex');
+  let digest = '';
+  let body = '';
+  for (let attempt = 0; attempt < 6; attempt++) {
+    const fetchUrl = new URL(route, site);
+    if (attempt > 0) fetchUrl.searchParams.set('_t', String(Date.now()));
+    const res = await fetch(fetchUrl, {
+      cache: 'no-store',
+      headers: { 'Cache-Control': 'no-cache', 'Pragma': 'no-cache' },
+      signal: AbortSignal.timeout(15000),
+    });
+    if (!res.ok) throw new Error(`라이브 확인 실패 ${res.status}: ${route}`);
+    if (res.headers.get('x-content-type-options') !== 'nosniff') throw new Error(`보안 헤더 누락: ${route}`);
+    body = await res.text();
+    digest = crypto.createHash('sha256').update(body).digest('hex');
+    if (digest === expected.pages[route]) break;
+    if (attempt < 5) await new Promise((r) => setTimeout(r, 2000));
+  }
   if (digest !== expected.pages[route]) throw new Error(`배포 내용 불일치: ${route}`);
   if (route === '/' && !body.includes('따져봄')) throw new Error('사이트 이름 불일치');
   if (route.startsWith('/posts/') && (!body.includes('data-pagefind-body') || !body.includes('canonical'))) throw new Error(`글 페이지 형식 불일치: ${route}`);
