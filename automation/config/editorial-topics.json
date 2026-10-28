@@ -1,5 +1,60 @@
 [
   {
+    "slug": "window-insulation-bubble-wrap-vs-thermal-film-draft-stopper-guide",
+    "title": "창문 단열 뽁뽁이 vs 투명 단열필름 vs 창틀 문풍지 비교: 실내온도 2~3℃ 상승과 결로·난방비 절약 기준",
+    "targetQuery": "창문 단열 뽁뽁이 단열필름 문풍지 비교",
+    "category": "home",
+    "cluster": "window-insulation-materials",
+    "tags": [
+      "단열뽁뽁이",
+      "창문단열필름",
+      "외풍차단",
+      "문풍지",
+      "창문결로",
+      "난방비절약",
+      "겨울단열",
+      "자취방단열"
+    ],
+    "sources": [
+      {
+        "title": "냉난방 효율개선 지원안내센터 겨울철 난방 관리 수칙",
+        "url": "https://min24.energy.or.kr/consult/info/view4.do",
+        "publisher": "한국에너지공단",
+        "type": "official"
+      },
+      {
+        "title": "문풍지 하나만으로 따뜻한 겨울 날 수 있다",
+        "url": "https://www.korea.kr/news/policyFocusView.do?newsId=148753356&pkgId=49500552",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
+      },
+      {
+        "title": "실내생활 늘어나는 겨울철, 공기질 관리 어떻게?",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148909591",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
+      },
+      {
+        "title": "건축물 에너지 효율등급 인증시스템 에너지절약 설계기법",
+        "url": "https://beec.energy.or.kr/BC/BC04/BC04_02_002.do",
+        "publisher": "한국에너지공단",
+        "type": "official"
+      },
+      {
+        "title": "[별표4] 창 및 문의 단열성능",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167084841",
+        "publisher": "국가법령정보센터(국토교통부 고시)",
+        "type": "government"
+      },
+      {
+        "title": "방풍용품으로 뜨는 '뽁뽁이'…실제 효과는?",
+        "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1001566938",
+        "publisher": "SBS 뉴스",
+        "type": "news"
+      }
+    ]
+  },
+  {
     "slug": "indoor-heating-tent-vs-thermal-curtain-comparison-guide",
     "title": "난방텐트 vs 방한 단열커튼 외풍 차단 비교: 실내온도 3도 상승·답답함·결로 예방과 원룸 난방비 절감 기준",
     "targetQuery": "난방텐트 방한커튼 비교 효과 실내온도",

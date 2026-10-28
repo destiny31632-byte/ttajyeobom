@@ -14,6 +14,13 @@ export const AFFILIATE_MAP: Record<string, AffiliateItem> = {
     link: 'https://link.coupang.com/a/icXzgyqKVo',
     badge: '방한 보온 1위 PICK ⭐',
   },
+  'window-insulation-bubble-wrap-vs-thermal-film-draft-stopper-guide': {
+    title: '탐사 국내생산 3중 창문 단열 뽁뽁이 에어캡 (부착형 단열시트)',
+    description: '올록볼록 3중 공기층이 유리의 냉기를 차단해 실내 체감온도 2~3℃ 상승 효과를 내는 겨울철 창문 단열 1위 에어캡입니다. 물 분무 후 붙이는 셀프 시공으로 북향 방·베란다 외풍을 막습니다.',
+    productName: '탐사 국내생산 3중 창문 단열 뽁뽁이 에어캡 (로켓배송 최저가)',
+    link: 'https://link.coupang.com/a/ibz0dBOboi',
+    badge: '창문 단열 1위 PICK ⭐',
+  },
   'mini-heater-convector-radiator-comparison-guide': {
     title: '신일 PTC 대류형 전기 온풍기 히터 (초고속 급속 난방)',
     description: '예열 없이 3초 만에 따뜻한 바람을 내보내는 고효율 PTC 세라믹 발열체 탑재, 전도 안전 스위치와 과열 방지 센서로 원룸과 사무실에서 안전하게 쓰는 절전형 온풍기입니다.',
