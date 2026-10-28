@@ -7,6 +7,13 @@ export interface AffiliateItem {
 }
 
 export const AFFILIATE_MAP: Record<string, AffiliateItem> = {
+  'indoor-heating-tent-vs-thermal-curtain-comparison-guide': {
+    title: '따수미 시그니처 프리미엄 실내 방한 난방텐트 (1~2인용/퀸)',
+    description: '외풍을 완벽 차단해 텐트 내부 온도를 3~5℃ 올려주는 고보온 웜텍스 원단, 세탁 가능한 분리형 프레임으로 침대 위 아늑함과 가스비를 지켜주는 1위 난방텐트입니다.',
+    productName: '따수미 시그니처 방한 난방텐트 (로켓배송 최저가)',
+    link: 'https://link.coupang.com/a/icXzgyqKVo',
+    badge: '방한 보온 1위 PICK ⭐',
+  },
   'mini-heater-convector-radiator-comparison-guide': {
     title: '신일 PTC 대류형 전기 온풍기 히터 (초고속 급속 난방)',
     description: '예열 없이 3초 만에 따뜻한 바람을 내보내는 고효율 PTC 세라믹 발열체 탑재, 전도 안전 스위치와 과열 방지 센서로 원룸과 사무실에서 안전하게 쓰는 절전형 온풍기입니다.',

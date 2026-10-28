@@ -1,5 +1,42 @@
 [
   {
+    "slug": "indoor-heating-tent-vs-thermal-curtain-comparison-guide",
+    "title": "난방텐트 vs 방한 단열커튼 외풍 차단 비교: 실내온도 3도 상승·답답함·결로 예방과 원룸 난방비 절감 기준",
+    "targetQuery": "난방텐트 방한커튼 비교 효과 실내온도",
+    "category": "home",
+    "cluster": "draft-blocking-appliances",
+    "tags": [
+      "난방텐트",
+      "방한커튼",
+      "단열커튼",
+      "외풍차단",
+      "난방비절약",
+      "원룸방한",
+      "실내온도",
+      "결로예방"
+    ],
+    "sources": [
+      {
+        "title": "겨울철 에너지 절약 및 난방·가전 이용 가이드",
+        "url": "https://min24.energy.or.kr/consult/info/view4.do",
+        "publisher": "한국에너지공단",
+        "type": "official"
+      },
+      {
+        "title": "겨울철 건강관리와 적정 실내 환경",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148924892",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
+      },
+      {
+        "title": "겨울철 난방비 절약 방법 5가지",
+        "url": "https://www.korea.kr/news/cultureColumnView.do?newsId=148856580",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
+      }
+    ]
+  },
+  {
     "slug": "mini-heater-convector-radiator-comparison-guide",
     "title": "미니 온풍기·컨벡터·라디에이터 난방기구 비교: 소비전력·전기세 계산·원룸 소음과 화재 안전 기준",
     "targetQuery": "미니 온풍기 컨벡터 라디에이터 비교 전기세",
