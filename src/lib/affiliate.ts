@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'boiler-away-mode-vs-ondol-room-temperature-gas-saving-guide': {
+    sectionTitle: '겨울철 난방비 방어 & 안전 필수템 BEST 3',
+    sectionSubtitle: '최근 30일 누적 판매량 및 한국가스안전공사 안전 규격 기준',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '보일러실 안전 1위 🥇',
+        productName: '수산홈텍 일산화탄소(CO) 경보기 COB-380V',
+        specSummary: '한국소방산업기술원(KFI) 인증 국산 CO 감지기, 자석·고리 부착 설치, 디지털 농도 표시',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iejzl436ia',
+      },
+      {
+        rank: 2,
+        rankBadge: '절전난방 1위 🥈',
+        productName: '한일의료기 프리미엄 워셔블 카본 탄소매트',
+        specSummary: '카본 원적외선 저전압 DC 방식으로 바닥 난방 보조, EMF 전자파 인증 및 워셔블',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ibMg2cLBW8',
+      },
+      {
+        rank: 3,
+        rankBadge: '외풍봉쇄 1위 🥉',
+        productName: '따수미 시그니처 프리미엄 실내 방한 난방텐트',
+        specSummary: '고보온 원단으로 텐트 안 실내온도 +3~5℃ 상승, 외풍 완벽 차단 분리형 프레임',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/icXzgyqKVo',
+      },
+    ],
+  },
   'window-insulation-bubble-wrap-vs-thermal-film-draft-stopper-guide': {
     sectionTitle: '창문 단열재 & 외풍 차단 틈새막이 BEST 3',
     sectionSubtitle: '최근 30일 누적 판매량 및 에너지공단 단열 기준 종합',

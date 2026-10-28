@@ -1,0 +1,10 @@
+{
+  "approved": true,
+  "slug": "boiler-away-mode-vs-ondol-room-temperature-gas-saving-guide",
+  "factsVerified": true,
+  "reviewer": "Pickle: official-source boiler operation comparison",
+  "checkedAt": "2026-10-28T23:14:56Z",
+  "contentSha256": "ceca0d8d28d0bc2ce63fc5623c17afa5d7c324745fc7da0d805b6250621a05ca",
+  "researchSha256": "b14ed6d5aab050b420624def5964cc5d6989ce28f80f2775f5453e00426e251e",
+  "method": "Reviewed full draft against the Yonhap factcheck on winter heating (short outings: lower setpoint 1-2C; away mode for a week or longer; restart consumes the most energy; indoor vs ondol mode selection by insulation and drafts per Kyungdong Navien and Rinnai manuals; district heating 3-day away mode with power always on; 20C setpoint, 7% saving per 1C = 5,150 KRW/month; district heating share 81.8/15.2/3%; gas boiler CO accidents 2017-2021: 21 cases, 46 victims, flue disconnection 9 cases; pipe cleaning +5% efficiency, high-efficiency boiler -10%), the KEA min24 heating operation manual (away mode for well-insulated buildings, 55C or higher when controlling heating by hot-water temperature, frost-protection function needs power, exposed pipe insulation, 2-3 day valve rule) and the KEA efficiency-management knowhow page (full off then restart wastes energy, hot water 55->40C saves 9.4 Nm3 / 8,610 KRW per month, main valve part-close with room valves), the Gas News expert column (ondol 40-50C, 60-65C preheat for 1-2h, indoor 20-22C, hot water 36-42C, cold-wave advisory 15-17C, humidity 40-60%, poorly insulated homes lose heat even at 25-26C setpoint), and the MOLIT policy briefing on CO alarms (2020-08-05 products must ship with an alarm; new gas boiler installations require one). Manufacturer away-mode behaviors (Cuckoo 8C, Rinnai 10 min every 4 h) come from the Seoul Economic Daily. All numbers in the draft are covered by the research record; the Coupang partner link for the CO alarm was issued for the exact product page (6911591845)."
+}
