@@ -1,11 +1,9 @@
 {
-  "date": "2026-10-28",
-  "published": [
-    "indoor-heating-tent-vs-thermal-curtain-comparison-guide",
-    "mini-heater-convector-radiator-comparison-guide"
-  ],
-  "remaining": 0,
-  "status": "daily-limit-reached",
+  "date": "2026-10-29",
+  "published": [],
+  "remaining": 2,
+  "status": "retryable-failed",
   "newPost": null,
-  "workflowStatus": "success"
+  "topic": "chrome-bookmarks-export-import-backup-guide",
+  "reason": "무료 AI 응답 503: 재시도·유료 전환 없이 중단"
 }
