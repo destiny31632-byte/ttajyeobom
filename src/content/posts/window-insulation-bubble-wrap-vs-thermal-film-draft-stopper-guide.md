@@ -54,7 +54,7 @@ sources:
   - title: "방풍용품으로 뜨는 '뽁뽁이'…실제 효과는?"
     url: "https://news.sbs.co.kr/news/endPage.do?news_id=N1001566938"
     publisher: "SBS 뉴스(한국건설생활환경시험연구원 의뢰 실측)"
-    type: news
+    type: press
     accessed: 2026-10-28
     note: "에어캡 설치 방 1시간 뒤 9.2℃ vs 대조군 7.0℃(2.2℃ 차이), 문풍지 7.2℃, 방풍필름 7.7℃"
 author: editor
