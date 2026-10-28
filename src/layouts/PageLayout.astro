@@ -8,9 +8,10 @@ interface Props {
   description: string;
   updated: string;
   schemaType?: 'WebPage' | 'AboutPage' | 'ContactPage' | 'ProfilePage';
+  mainEntity?: object;
   extraLd?: object[];
 }
-const { title, description, updated, schemaType = 'WebPage', extraLd = [] } = Astro.props;
+const { title, description, updated, schemaType = 'WebPage', mainEntity, extraLd = [] } = Astro.props;
 const site = Astro.site!;
 const crumbs = [
   { name: '홈', href: '/' },
@@ -31,6 +32,7 @@ const [y, m, d] = updated.split('-').map(Number);
       inLanguage: 'ko-KR',
       dateModified: `${updated}T09:00:00+09:00`,
       isPartOf: { '@id': new URL('/#website', site).href },
+      ...(mainEntity ? { mainEntity } : {}),
     },
     breadcrumbLd(site, crumbs),
     websiteLd(site),

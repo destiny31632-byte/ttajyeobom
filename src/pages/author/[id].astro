@@ -22,7 +22,7 @@ const posts = (await getPublishedPosts()).filter((p) => p.data.author === author
   description={`${SITE.name} ${author.name}의 역할, 작성 기준, 다루는 분야와 작성한 글 목록입니다.`}
   updated="2026-10-01"
   schemaType="ProfilePage"
-  extraLd={[personLd(Astro.site!, author.id)]}
+  mainEntity={personLd(Astro.site!, author.id)}
 >
   <p><strong>{author.name}</strong> · {author.role}</p>
   {author.bio.map((p) => <p>{p}</p>)}
