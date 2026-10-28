@@ -1,38 +1,68 @@
 ---
-import { getAffiliateForPost } from '../lib/affiliate';
+import { getAffiliateRankingForPost } from '../lib/affiliate';
 
 interface Props {
   slug: string;
 }
 
 const { slug } = Astro.props;
-const item = getAffiliateForPost(slug);
+const rankingGroup = getAffiliateRankingForPost(slug);
 ---
 
 {
-  item && (
-    <aside class="affiliate-box" aria-label="관련 추천 장비 및 도구" data-pagefind-ignore>
-      <div class="affiliate-box__top">
-        <span class="affiliate-box__badge">{item.badge || '에디터 PICK ⭐'}</span>
-        <span class="affiliate-box__tag">로켓배송 🚀</span>
+  rankingGroup && rankingGroup.products.length > 0 && (
+    <aside class="ranking-box" aria-label="쿠팡 구매 BEST 랭킹 비교 추천" data-pagefind-ignore>
+      <div class="ranking-box__header">
+        <div class="ranking-box__trophy-wrap">
+          <span class="ranking-box__leaf">🌿</span>
+          <span class="ranking-box__badge-title">구매 BEST</span>
+          <span class="ranking-box__leaf">🌿</span>
+        </div>
+        <p class="ranking-box__criteria">{rankingGroup.sectionSubtitle || '최근 30일 누적 판매량 및 실구매 리뷰 기준 ⓘ'}</p>
+        <h3 class="ranking-box__topic">{rankingGroup.sectionTitle}</h3>
       </div>
-      <h3 class="affiliate-box__title">{item.title}</h3>
-      <p class="affiliate-box__desc">{item.description}</p>
-      <div class="affiliate-box__action">
-        <a
-          href={item.link}
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-          class="affiliate-box__btn"
-        >
-          <span>{item.productName}</span>
-          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="5" y1="12" x2="19" y2="12" />
-            <polyline points="12 5 19 12 12 19" />
-          </svg>
-        </a>
+
+      <div class="ranking-box__grid">
+        {rankingGroup.products.map((item) => (
+          <div class={`ranking-card ranking-card--rank-${item.rank}`}>
+            <div class="ranking-card__ribbon">
+              <span>{item.rank}</span>
+            </div>
+
+            <div class="ranking-card__top">
+              <span class={`ranking-card__status ranking-card__status--${item.rank}`}>
+                {item.rankBadge}
+              </span>
+              {item.tag && <span class="ranking-card__rocket">{item.tag}</span>}
+            </div>
+
+            <h4 class="ranking-card__title">
+              <a href={item.link} target="_blank" rel="noopener noreferrer nofollow">
+                {item.productName}
+              </a>
+            </h4>
+
+            <p class="ranking-card__spec">{item.specSummary}</p>
+
+            <div class="ranking-card__action">
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class={`ranking-card__btn ranking-card__btn--rank-${item.rank}`}
+              >
+                <span>{item.rank === 1 ? '1위 최저가 확인하기' : `${item.rank}위 최저가 보기`}</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        ))}
       </div>
-      <p class="affiliate-box__disclosure">
+
+      <p class="ranking-box__disclosure">
         이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
       </p>
     </aside>
@@ -40,90 +70,278 @@ const item = getAffiliateForPost(slug);
 }
 
 <style>
-  .affiliate-box {
-    margin: 36px 0 28px;
-    padding: 24px 26px;
-    border-radius: 16px;
-    background: color-mix(in srgb, var(--surface, #f8fafc) 90%, var(--primary-soft, #f0fdfa) 10%);
-    border: 1px solid color-mix(in srgb, var(--border, #e2e8f0) 80%, var(--primary, #0d9488) 20%);
-    box-shadow: 0 4px 16px -2px rgba(15, 118, 110, 0.06), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  .ranking-box {
+    margin: 40px 0 32px;
+    padding: 28px 24px 22px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, color-mix(in srgb, var(--surface, #ffffff) 92%, #fff7ed 8%) 0%, var(--surface, #ffffff) 100%);
+    border: 1px solid color-mix(in srgb, var(--border, #e2e8f0) 75%, #f97316 25%);
+    box-shadow: 0 10px 30px -4px rgba(249, 115, 22, 0.08), 0 4px 12px -2px rgba(0, 0, 0, 0.04);
   }
-  .affiliate-box:hover {
-    box-shadow: 0 8px 24px -4px rgba(15, 118, 110, 0.1), 0 4px 12px -2px rgba(0, 0, 0, 0.06);
+
+  [data-theme='dark'] .ranking-box {
+    background: linear-gradient(180deg, color-mix(in srgb, var(--surface, #1e293b) 95%, #431407 5%) 0%, var(--surface, #1e293b) 100%);
+    border-color: color-mix(in srgb, var(--border, #334155) 70%, #ea580c 30%);
+    box-shadow: 0 10px 30px -4px rgba(0, 0, 0, 0.4);
   }
-  .affiliate-box__top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 12px;
+
+  .ranking-box__header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 18px;
+    border-bottom: 1px dashed color-mix(in srgb, var(--border, #cbd5e1) 80%, #f97316 20%);
   }
-  .affiliate-box__badge {
-    font-size: 0.78rem;
-    font-weight: 700;
-    color: var(--primary-strong, #0f766e);
-    background: var(--primary-soft, #f0fdfa);
-    padding: 4px 10px;
-    border-radius: 9999px;
-    border: 1px solid color-mix(in srgb, var(--primary, #0d9488) 30%, transparent);
-    letter-spacing: -0.01em;
-  }
-  .affiliate-box__tag {
-    font-size: 0.76rem;
-    font-weight: 600;
-    color: #e11d48;
-    background: #ffe4e6;
-    padding: 3px 8px;
-    border-radius: 6px;
-  }
-  [data-theme='dark'] .affiliate-box__tag {
-    color: #fda4af;
-    background: #4c0519;
-  }
-  .affiliate-box__title {
-    font-size: 1.15rem;
-    font-weight: 800;
-    margin: 0 0 10px;
-    color: var(--text, #0f172a);
-    line-height: 1.45;
-    letter-spacing: -0.02em;
-  }
-  .affiliate-box__desc {
-    font-size: 0.94rem;
-    color: var(--muted, #475569);
-    margin: 0 0 18px;
-    line-height: 1.62;
-    word-break: keep-all;
-  }
-  .affiliate-box__action {
-    display: flex;
-  }
-  .affiliate-box__btn {
+
+  .ranking-box__trophy-wrap {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
-    width: 100%;
-    padding: 13px 20px;
-    background: linear-gradient(135deg, var(--primary, #0d9488), var(--primary-strong, #0f766e));
-    color: #ffffff !important;
-    font-size: 0.96rem;
-    font-weight: 700;
-    border-radius: 12px;
-    text-decoration: none !important;
-    box-shadow: 0 4px 12px rgba(15, 118, 110, 0.25);
-    transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+    margin-bottom: 4px;
   }
-  .affiliate-box__btn:hover {
+
+  .ranking-box__leaf {
+    font-size: 1.3rem;
+  }
+
+  .ranking-box__badge-title {
+    font-size: 1.45rem;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    color: var(--text, #0f172a);
+  }
+
+  .ranking-box__criteria {
+    font-size: 0.82rem;
+    color: var(--muted, #64748b);
+    margin: 2px 0 8px;
+    font-weight: 500;
+  }
+
+  .ranking-box__topic {
+    font-size: 1.12rem;
+    font-weight: 800;
+    color: #ea580c;
+    margin: 0;
+    letter-spacing: -0.02em;
+  }
+
+  [data-theme='dark'] .ranking-box__topic {
+    color: #fb923c;
+  }
+
+  .ranking-box__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 18px;
+  }
+
+  @media (max-width: 820px) {
+    .ranking-box__grid {
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+  }
+
+  .ranking-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 18px 16px;
+    border-radius: 16px;
+    background: var(--surface, #ffffff);
+    border: 1px solid var(--border, #e2e8f0);
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .ranking-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px -2px rgba(0, 0, 0, 0.08);
+  }
+
+  .ranking-card--rank-1 {
+    border-color: #f43f5e;
+    background: color-mix(in srgb, var(--surface, #ffffff) 97%, #fff1f2 3%);
+    box-shadow: 0 4px 16px -2px rgba(244, 63, 94, 0.12);
+  }
+
+  [data-theme='dark'] .ranking-card--rank-1 {
+    border-color: #e11d48;
+    background: color-mix(in srgb, var(--surface, #1e293b) 95%, #881337 5%);
+  }
+
+  .ranking-card--rank-2 {
+    border-color: color-mix(in srgb, var(--border, #cbd5e1) 70%, #0284c7 30%);
+  }
+
+  .ranking-card--rank-3 {
+    border-color: color-mix(in srgb, var(--border, #cbd5e1) 70%, #d97706 30%);
+  }
+
+  .ranking-card__ribbon {
+    position: absolute;
+    top: 0;
+    left: 14px;
+    width: 26px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 0.92rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 82%, 0 100%);
+  }
+
+  .ranking-card--rank-1 .ranking-card__ribbon {
+    background: linear-gradient(180deg, #f43f5e, #e11d48);
+  }
+
+  .ranking-card--rank-2 .ranking-card__ribbon {
+    background: linear-gradient(180deg, #64748b, #475569);
+  }
+
+  .ranking-card--rank-3 .ranking-card__ribbon {
+    background: linear-gradient(180deg, #d97706, #b45309);
+  }
+
+  .ranking-card__top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+    margin-bottom: 12px;
+    padding-left: 28px;
+  }
+
+  .ranking-card__status {
+    font-size: 0.76rem;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 6px;
+    letter-spacing: -0.01em;
+  }
+
+  .ranking-card__status--1 {
+    color: #e11d48;
+    background: #ffe4e6;
+  }
+  [data-theme='dark'] .ranking-card__status--1 {
+    color: #fda4af;
+    background: #4c0519;
+  }
+
+  .ranking-card__status--2 {
+    color: #0369a1;
+    background: #e0f2fe;
+  }
+  [data-theme='dark'] .ranking-card__status--2 {
+    color: #7dd3fc;
+    background: #082f49;
+  }
+
+  .ranking-card__status--3 {
+    color: #b45309;
+    background: #fef3c7;
+  }
+  [data-theme='dark'] .ranking-card__status--3 {
+    color: #fcd34d;
+    background: #451a03;
+  }
+
+  .ranking-card__rocket {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #0284c7;
+    background: #f0f9ff;
+    padding: 3px 6px;
+    border-radius: 4px;
+    border: 1px solid #bae6fd;
+  }
+  [data-theme='dark'] .ranking-card__rocket {
+    color: #38bdf8;
+    background: #0c4a6e;
+    border-color: #0369a1;
+  }
+
+  .ranking-card__title {
+    font-size: 0.98rem;
+    font-weight: 800;
+    line-height: 1.45;
+    margin: 0 0 10px;
+    letter-spacing: -0.02em;
+  }
+
+  .ranking-card__title a {
+    color: var(--text, #0f172a);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .ranking-card__title a:hover {
+    color: #ea580c;
+  }
+
+  .ranking-card__spec {
+    font-size: 0.86rem;
+    line-height: 1.55;
+    color: var(--muted, #475569);
+    margin: 0 0 16px;
+    word-break: keep-all;
+    flex-grow: 1;
+  }
+
+  .ranking-card__action {
+    margin-top: auto;
+  }
+
+  .ranking-card__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+    padding: 11px 14px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none !important;
+    transition: transform 0.15s ease, filter 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .ranking-card__btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(15, 118, 110, 0.35);
     filter: brightness(1.05);
   }
-  .affiliate-box__btn:active {
-    transform: translateY(0);
+
+  .ranking-card__btn--rank-1 {
+    background: linear-gradient(135deg, #f43f5e, #e11d48);
+    color: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(225, 29, 72, 0.28);
   }
-  .affiliate-box__disclosure {
-    font-size: 0.76rem;
+  .ranking-card__btn--rank-1:hover {
+    box-shadow: 0 6px 16px rgba(225, 29, 72, 0.38);
+  }
+
+  .ranking-card__btn--rank-2 {
+    background: linear-gradient(135deg, #0284c7, #0369a1);
+    color: #ffffff !important;
+    box-shadow: 0 4px 10px rgba(2, 132, 199, 0.22);
+  }
+
+  .ranking-card__btn--rank-3 {
+    background: linear-gradient(135deg, #d97706, #b45309);
+    color: #ffffff !important;
+    box-shadow: 0 4px 10px rgba(217, 119, 6, 0.22);
+  }
+
+  .ranking-box__disclosure {
+    font-size: 0.74rem;
     color: var(--muted, #94a3b8);
     margin: 14px 0 0;
     line-height: 1.45;
