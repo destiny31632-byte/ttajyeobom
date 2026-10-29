@@ -14,6 +14,34 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'desk-foot-warmer-partition-heater-types-electricity-guide': {
+    sectionTitle: '사무실·원룸 발난로 BEST 3',
+    sectionSubtitle: '최근 30일 누적 판매량 및 전도 안전 기능 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '무풍난방 1위 🥇',
+        productName: '야쿠다 파티션히터 5면 접이식 발난로 (3단 온도조절·전원 자동 차단)',
+        specSummary: '팬 없는 카본 발열로 무소음·무풍, 3단 온도조절과 타이머, 기울면 전원 자동 차단, 접이식 수납',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ie6GkWI83o',
+      },
+      {
+        rank: 2,
+        rankBadge: '초절전 1위 🥈',
+        productName: 'HULULU 3단 온열조절 데스크 전기 매트 80x32cm (생활방수 풋워머)',
+        specSummary: '3단 온도조절과 타이머 자동 차단, 생활방수 가죽 재질, 책상 아래 발바닥 난방용',
+        link: 'https://link.coupang.com/a/ie6Aa1igwe',
+      },
+      {
+        rank: 3,
+        rankBadge: '즉각발열 1위 🥉',
+        productName: '신일 원통형 좌우회전 카본 전기 히터 SEH-CB400AT (400W)',
+        specSummary: '카본 발열체 순간 발열로 즉각 체감온도 상승, 과열방지 안전망과 전도안전, 좌우 자동 회전',
+        link: 'https://link.coupang.com/a/ie6xSyQzng',
+      },
+    ],
+  },
   'boiler-away-mode-vs-ondol-room-temperature-gas-saving-guide': {
     sectionTitle: '겨울철 난방비 방어 & 안전 필수템 BEST 3',
     sectionSubtitle: '최근 30일 누적 판매량 및 한국가스안전공사 안전 규격 기준',

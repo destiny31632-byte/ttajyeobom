@@ -1,5 +1,60 @@
 [
   {
+    "slug": "desk-foot-warmer-partition-heater-types-electricity-guide",
+    "title": "사무실·원룸 발난로 비교: 파티션 히터 vs 데스크 온열패드 vs 카본히터 전기세·화재 안전 기준",
+    "targetQuery": "사무실 발난로 파티션 히터 데스크 온열패드 카본히터 비교",
+    "category": "home",
+    "cluster": "foot-heating-appliances",
+    "tags": [
+      "사무실발난로",
+      "파티션히터",
+      "발히터",
+      "데스크온열패드",
+      "카본히터",
+      "전기세계산",
+      "화재예방",
+      "수족냉증"
+    ],
+    "sources": [
+      {
+        "title": "전기장판·난로 화재 안전에 유의하세요!",
+        "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=122012",
+        "publisher": "행정안전부",
+        "type": "government"
+      },
+      {
+        "title": "전기난로·장판 화재, '부주의'가 최다…외출 시 반드시 전원 꺼야",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148936776",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
+      },
+      {
+        "title": "카본 전기매트 10개 제품 비교정보 제공",
+        "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156734593",
+        "publisher": "한국소비자원",
+        "type": "government"
+      },
+      {
+        "title": "가정에너지 절약 · 전기 사용(주택용전력 요금)",
+        "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?ccfNo=2&cciNo=1&cnpClsNo=1&csmSeq=1008&popMenu=ov",
+        "publisher": "찾기쉬운 생활법령정보(법제처)",
+        "type": "government"
+      },
+      {
+        "title": "전기요금계산기",
+        "url": "https://home.kepco.co.kr/kepco/front/html/CY/J/A/CYJAPP002.html",
+        "publisher": "한국전력공사",
+        "type": "official"
+      },
+      {
+        "title": "국가기술표준원 고시 제2025-088호 전기용품안전기준 개정(KC 60335-2-81)",
+        "url": "https://customer.ktl.re.kr/web/contents/K501000000.do?id=69556&schM=view",
+        "publisher": "한국산업기술시험원(KTL)",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "slug": "bathroom-heater-types-waterproof-electricity-guide",
     "title": "욕실 온풍기 vs 골드램프 온열기 vs 방수 컨벡터 비교: 방수 등급(IPX)·전기세·화재 안전 기준",
     "targetQuery": "욕실 온풍기 골드램프 온열기 방수 컨벡터 비교",

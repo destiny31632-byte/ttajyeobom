@@ -1,0 +1,10 @@
+{
+  "approved": true,
+  "slug": "desk-foot-warmer-partition-heater-types-electricity-guide",
+  "factsVerified": true,
+  "reviewer": "Pickle: official-source desk foot warmer comparison",
+  "checkedAt": "2026-10-29T19:40:00+09:00",
+  "contentSha256": "55cced10695bf8742fa520dfead09aed21c86a0fc86f03ed15b316892464b641",
+  "researchSha256": "160f14e38788095824de2abb1661db3b33f5798a999cd92143c9798362539b1a",
+  "method": "Reviewed the full draft against the Ministry of the Interior and Safety press release on electric blanket and heater fire safety (MOIS nttId=122012) and the Korea.kr policy briefing citing the National Fire Information Center (1,403 electric heater/blanket fires over three years, 21 deaths, 142 injuries, flammable-material proximity 49% or 201 cases, carelessness 57% for electric heaters and 44% for electric blankets), the Korea Consumer Agency carbon electric mat comparison briefing (surface temperature 39-64C across 10 products, keep surface temperature at or below 37C during sleep to prevent low-temperature burns), the Ministry of Government Legislation easy-law page for the KEPCO residential low-voltage progressive tariff (910/120.0, 1,600/214.6, 7,300/307.3 KRW, fund 2.7%, VAT 10%) and the KEPCO bill calculator page. Product consumption ratings come from the Compuzone listing of the Indus IN-DH155 partition heater (155W, 3-step temperature control, tip-over safety and safety mesh, KC SU072347-19001), the Danawa spec of the Shinil SEH-CB400AT carbon heater (400W, carbon heating element, overheat-protection mesh, tip-over safety) and the Ohou.se listing of an 80x32cm desk heating mat (220V, 77W, IVHP-M100). The KTL notice on the 2025 revision of electrical product safety standards covers KC 60335-2-81 for foot warmers and foot warming mats. The monthly incremental bill table (8h x 30 days, tariff bands 151.0/257.6 KRW per kWh including climate 9.0, fuel adjustment 5.0, VAT 10% and fund 2.7%) is reproduced in the research record calculations. Range and figure notations in the draft are additionally covered as concatenated tokens in the research values for the gate's range parser."
+}
