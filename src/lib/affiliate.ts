@@ -14,6 +14,34 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-bedding-microfiber-vs-goose-down-vs-allergy-care-guide': {
+    sectionTitle: '겨울 이불 소재별 BEST 3 (극세사 · 알러지케어 · 구스다운)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 소재별 1위 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '가성비·보온 1위 🥇',
+        productName: '놀차 겨울용 우유 극세사+양털 극세사 두꺼운 이불',
+        specSummary: '우유 극세사와 양털 극세사를 양면으로 쌓은 고중량 구성으로 충전량 보온을 살리고, 세탁기 관리가 쉬운 차렵 구조',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ifXTPvG5L2',
+      },
+      {
+        rank: 2,
+        rankBadge: '알러지케어·먼지제로 1위 🥈',
+        productName: '디오프 사계절 항균 알러지케어 먼지없는 차렵이불',
+        specSummary: '항균 알러지케어 고밀도 겉감으로 먼지 날림을 줄인 사계절 차렵이불, 커버 분리 세탁으로 위생 관리',
+        link: 'https://link.coupang.com/a/ifXWPERDpc',
+      },
+      {
+        rank: 3,
+        rankBadge: '프리미엄 경량 보온 1위 🥉',
+        productName: '클래식패브릭 헝가리 구스이불 80% 라이트, 화이트',
+        specSummary: '솜털(다운) 80% 충전 헝가리 구스 라이트 사양으로 같은 보온을 가볍게 담는 프리미엄 경량 보온',
+        link: 'https://link.coupang.com/a/ifXZSi093A',
+      },
+    ],
+  },
   'desk-foot-warmer-partition-heater-types-electricity-guide': {
     sectionTitle: '사무실·원룸 발난로 BEST 3',
     sectionSubtitle: '최근 30일 누적 판매량 및 전도 안전 기능 기준 종합',

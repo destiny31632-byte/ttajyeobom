@@ -1,5 +1,54 @@
 [
   {
+    "slug": "winter-bedding-microfiber-vs-goose-down-vs-allergy-care-guide",
+    "title": "겨울 이불 소재 비교: 극세사 vs 구스다운 vs 알러지케어 차렵이불 보온력·정전기·세탁법",
+    "targetQuery": "겨울 이불 극세사 구스다운 알러지케어 차렵이불 비교",
+    "category": "home",
+    "cluster": "winter-bedding",
+    "tags": [
+      "겨울이불",
+      "극세사이불",
+      "구스다운이불",
+      "구스이불",
+      "알러지케어차렵이불",
+      "차렵이불비교",
+      "이불세탁법",
+      "정전기"
+    ],
+    "sources": [
+      {
+        "title": "[양모솜 이불 품질비교 결과] 봄·가을용 양모솜 이불, 사용 계절에 적합한 수준의 보온성 갖춰",
+        "url": "https://www.kca.go.kr/kca/sub.do?menukey=5084&mode=view&no=1003829397&page=13",
+        "publisher": "한국소비자원",
+        "type": "government"
+      },
+      {
+        "title": "다운 이불, 보온성과 털의 품질이 제품별로 차이 있어",
+        "url": "https://www.kca.go.kr/kca/sub.do?menukey=5293&mode=view&no=1001991652",
+        "publisher": "한국소비자원",
+        "type": "government"
+      },
+      {
+        "title": "정전기의 순간 전압은 무려 35,000볼트?! 겨울철 정전기가 자주 발생하는 이유",
+        "url": "https://www.safetv.go.kr/base/video/view?idx=2466&menuLevel=2&menuNo=8&playlistManagementIdx=&searchCategory=5",
+        "publisher": "행정안전부 안전한TV",
+        "type": "government"
+      },
+      {
+        "title": "침구류 세탁·비염 관리 국가건강정보포털 Q&A(만성비염)",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/ntcnInfo/healthSourc/healthColmn/healthColmnView.do?health_colmn_sn=1276",
+        "publisher": "질병관리청 국가건강정보포털",
+        "type": "government"
+      },
+      {
+        "title": "일반품질 시험(세탁견뢰도·세탁치수변화율·라벨추천시험)",
+        "url": "https://www.fiti.re.kr/web/contents/FT0201010101.do",
+        "publisher": "FITI시험연구원",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "slug": "desk-foot-warmer-partition-heater-types-electricity-guide",
     "title": "사무실·원룸 발난로 비교: 파티션 히터 vs 데스크 온열패드 vs 카본히터 전기세·화재 안전 기준",
     "targetQuery": "사무실 발난로 파티션 히터 데스크 온열패드 카본히터 비교",
