@@ -134,6 +134,36 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
       },
     ],
   },
+  'bathroom-heater-types-waterproof-electricity-guide': {
+    sectionTitle: '겨울철 욕실 난방기 & 방수 히터 BEST 3',
+    sectionSubtitle: '최근 30일 누적 판매량 및 욕실 방수 안전 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '순간발열 1위 🥇',
+        productName: '대동해모로 욕실 난방기 3구 골드램프 히터 (1초 순간발열·실리콘 방수패킹)',
+        specSummary: '근적외선 복사열로 전원 켜자마자 1초 발열, 실리콘 방수패킹 욕실 사용, 무소음·무취',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ieDh3WK9hA',
+      },
+      {
+        rank: 2,
+        rankBadge: '급속순환 1위 🥈',
+        productName: '신일 방수 PTC 벽걸이 욕실 온풍기 SEH-B1500WG (무타공 설치)',
+        specSummary: '고출력 PTC 히터 3단 조절(1,100~1,500W), 생활방수·과열방지, 무타공 벽걸이 겸용',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ieDdImjDDo',
+      },
+      {
+        rank: 3,
+        rankBadge: '무소음 1위 🥉',
+        productName: '밀(Mill) 방수 대류식 전기 컨벡터 히터 (욕실 사용 승인 IPX4)',
+        specSummary: '팬 없는 자연 대류로 무소음·무풍, IPX4 생활방수 욕실 사용 승인, 스탠드·벽걸이 겸용',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ieC9GN4jCK',
+      },
+    ],
+  },
   'electric-heating-blanket-carbon-mat-comparison-guide': {
     sectionTitle: '온열매트 & 탄소 카본매트 BEST 3',
     sectionSubtitle: '최근 30일 누적 판매량 및 EMF 전자파 제로 인증 기준',

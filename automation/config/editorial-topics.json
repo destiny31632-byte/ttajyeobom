@@ -1,5 +1,60 @@
 [
   {
+    "slug": "bathroom-heater-types-waterproof-electricity-guide",
+    "title": "욕실 온풍기 vs 골드램프 온열기 vs 방수 컨벡터 비교: 방수 등급(IPX)·전기세·화재 안전 기준",
+    "targetQuery": "욕실 온풍기 골드램프 온열기 방수 컨벡터 비교",
+    "category": "home",
+    "cluster": "bathroom-heating-safety",
+    "tags": [
+      "욕실온풍기",
+      "골드램프온열기",
+      "욕실난방기",
+      "방수히터",
+      "전기세계산",
+      "화재예방",
+      "자취방난방",
+      "IPX4"
+    ],
+    "sources": [
+      {
+        "title": "전기난로·전기장판 등 전열기 화재 주의!",
+        "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=105283",
+        "publisher": "행정안전부",
+        "type": "government"
+      },
+      {
+        "title": "최근 5년간 전열기 화재 2390건·사망 48명…장시간 사용 주의",
+        "url": "https://www.korea.kr/news/customizedNewsView.do?newsId=148923306",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
+      },
+      {
+        "title": "KS C IEC 60529 외함의 밀폐 보호등급 구분(IP 코드)",
+        "url": "https://standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?ksNo=KSCIEC60529",
+        "publisher": "국가기술표준원",
+        "type": "government"
+      },
+      {
+        "title": "전기안전요령 · 생활전기안전",
+        "url": "https://www.kes.go.kr/web/lay1/program/S1T170C176/ES/elctySafeVirtlExprn/elctySafeKhow.do",
+        "publisher": "한국전기안전공사",
+        "type": "official"
+      },
+      {
+        "title": "가정에너지 절약 · 전기 사용(주택용전력 요금)",
+        "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?ccfNo=2&cciNo=1&cnpClsNo=1&csmSeq=1008&popMenu=ov",
+        "publisher": "찾기쉬운 생활법령정보(법제처)",
+        "type": "government"
+      },
+      {
+        "title": "전기요금계산기",
+        "url": "https://home.kepco.co.kr/kepco/front/html/CY/J/A/CYJAPP002.html",
+        "publisher": "한국전력공사",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "slug": "boiler-away-mode-vs-ondol-room-temperature-gas-saving-guide",
     "title": "보일러 외출모드 vs 온돌 vs 실내온도: 가스비 절약 3대 설정 공식과 단열별 최적 모드(지역난방·개별난방)",
     "targetQuery": "보일러 외출모드 온돌 실내온도 가스비 절약",
