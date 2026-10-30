@@ -14,6 +14,34 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-laundry-drying-mini-dryer-vs-dehumidifier-guide': {
+    sectionTitle: '겨울 원룸 빨래 건조 BEST 3 (미니건조기 · 제습기 · 컴팩트 건조)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 건조 방식별 1위 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '미닉스 미니건조기 PRO플러스 3.5kg 고객직접설치, MNMD-120GR, 네이처그린',
+        specSummary: '고온 히터 건조로 쉰내 원인균 번식 시간을 끊는 원룸 대표 미니건조기. 상품평 1,346개로 검증된 판매량 1위',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ihCX2rq5Lw',
+      },
+      {
+        rank: 2,
+        rankBadge: '가성비·결로방지 1위 🥈',
+        productName: '신일 제습기 5L-10L 컴팩트 스마트형 / 최신형',
+        specSummary: '빨래가 내놓는 물 약 2L를 물통으로 빼내며 방 습도까지 잡는 원룸 제습기. 하루 전기세 약 136원의 가성비 루틴',
+        link: 'https://link.coupang.com/a/ihC08KeKCi',
+      },
+      {
+        rank: 3,
+        rankBadge: '컴팩트 건조 1위 🥉',
+        productName: '한일 미니건조기 AI 의류건조기 3kg 소형 원룸 아기옷 수건 UV살균 HLD-G2000, HLD-2600B',
+        specSummary: '3kg 컴팩트 용량에 UV살균과 신발건조대를 갖춘 소형 의류건조기. 좁은 원룸 바닥 설치형 컴팩트 건조',
+        link: 'https://link.coupang.com/a/ihC3eVaQHQ',
+      },
+    ],
+  },
   'winter-wall-condensation-mold-prevention-guide': {
     sectionTitle: '결로·곰팡이 대응 BEST 3 (곰팡이제거젤 · 단열벽지 · 결로방지 페인트)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 역할별 필수템 종합',

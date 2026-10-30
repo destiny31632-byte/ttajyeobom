@@ -1,5 +1,66 @@
 [
   {
+    "slug": "winter-laundry-drying-mini-dryer-vs-dehumidifier-guide",
+    "title": "겨울철 원룸 빨래 건조 해결법: 미니건조기 vs 제습기 vs 온풍건조기 비교",
+    "targetQuery": "겨울철 원룸 빨래 건조 미니건조기 제습기 온풍건조기 쉰내 전기세 비교",
+    "category": "home",
+    "cluster": "winter-condensation",
+    "tags": [
+      "빨래건조",
+      "미니건조기",
+      "원룸제습기",
+      "빨래쉰내",
+      "모락셀라균",
+      "실내건조",
+      "결로곰팡이",
+      "전기세"
+    ],
+    "sources": [
+      {
+        "title": "'소형 의류건조기' 8개 제품 비교정보 제공",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=156600793",
+        "publisher": "대한민국 정책브리핑(한국소비자원 보도자료 전재)",
+        "type": "government"
+      },
+      {
+        "title": "소형 의류건조기 8종, 건조도·소음 등 주요 성능 차이 있어",
+        "url": "https://www.kca.go.kr/webzine/board/view?div=kca_2407&linkId=706&menuId=MENU00307",
+        "publisher": "한국소비자원 소비자시대 웹진",
+        "type": "government"
+      },
+      {
+        "title": "'제습기' 9개 제품 비교정보 제공",
+        "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156641453",
+        "publisher": "대한민국 정책브리핑(한국소비자원)",
+        "type": "government"
+      },
+      {
+        "title": "Moraxella species are primarily responsible for generating malodor in laundry (Kubota et al., 2012)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22367080/",
+        "publisher": "Applied and Environmental Microbiology (PubMed)",
+        "type": "primary"
+      },
+      {
+        "title": "겨울철 한파대비 건강수칙",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=2048",
+        "publisher": "질병관리청 국가건강정보포털",
+        "type": "government"
+      },
+      {
+        "title": "겨울철 실내생활 늘어나는 겨울, 공기질 관리 어떻게?",
+        "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148909591",
+        "publisher": "대한민국 정책브리핑(국립환경과학원 자료)",
+        "type": "government"
+      },
+      {
+        "title": "전기 사용(주택용 전기요금 계산)",
+        "url": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?ccfNo=2&cciNo=1&cnpClsNo=1&csmSeq=1008&popMenu=ov",
+        "publisher": "법제처 찾기쉬운 생활법령정보",
+        "type": "government"
+      }
+    ]
+  },
+  {
     "slug": "winter-wall-condensation-mold-prevention-guide",
     "title": "겨울 벽 결로 곰팡이 원인과 해결법: 단열벽지 vs 제거젤 vs 페인트 비교",
     "targetQuery": "겨울철 벽 결로 곰팡이 원인 해결 단열벽지 곰팡이제거젤 페인트 비교",
