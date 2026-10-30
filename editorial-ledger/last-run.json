@@ -1,11 +1,9 @@
 {
-  "date": "2026-10-30",
-  "published": [
-    "winter-wall-condensation-mold-prevention-guide",
-    "winter-bedding-microfiber-vs-goose-down-vs-allergy-care-guide"
-  ],
-  "remaining": 0,
-  "status": "daily-limit-reached",
+  "date": "2026-10-31",
+  "published": [],
+  "remaining": 2,
+  "status": "retryable-failed",
   "newPost": null,
-  "workflowStatus": "success"
+  "topic": "chrome-bookmarks-export-import-backup-guide",
+  "reason": "작성 전송 미완료: 발행 보류"
 }
