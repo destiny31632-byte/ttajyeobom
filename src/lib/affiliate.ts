@@ -36,7 +36,7 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
       {
         rank: 3,
         rankBadge: '컴팩트 건조 1위 🥉',
-        productName: '한일 미니건조기 AI 의류건조기 3kg 소형 원룸 아기옷 수건 UV살균 HLD-G2000, HLD-2600B',
+        productName: '한일 미니건조기 의류건조기 3kg 소형 원룸 아기옷 수건 UV살균 HLD-G2000, HLD-2600B',
         specSummary: '3kg 컴팩트 용량에 UV살균과 신발건조대를 갖춘 소형 의류건조기. 좁은 원룸 바닥 설치형 컴팩트 건조',
         link: 'https://link.coupang.com/a/ihC3eVaQHQ',
       },
