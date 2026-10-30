@@ -14,6 +14,34 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-wall-condensation-mold-prevention-guide': {
+    sectionTitle: '결로·곰팡이 대응 BEST 3 (곰팡이제거젤 · 단열벽지 · 결로방지 페인트)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 역할별 필수템 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '뿌리 곰팡이 박멸 🥇',
+        productName: '유한락스 직접 바르는 곰팡이젤, 120ml, 1개',
+        specSummary: '소비자원 시험에서 항곰팡이 성능(15분 접촉 완전 사멸)이 확인된 유한락스 젤 타입으로, 수직 벽면에서 흐르지 않아 접촉 시간을 확보',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/igg4X0FQUm',
+      },
+      {
+        rank: 2,
+        rankBadge: '외벽 단열·결로 차단 🥈',
+        productName: '원앙산업 20M 붙이는 접착식 단열벽지 곰팡이 습기방지, 2.그레이',
+        specSummary: '폭 100cm·길이 20m 접착식 스티커 타입으로 창틀 주변·외벽 모서리를 틈 없이 덮어 벽 표면 온도를 이슬점 위로 유지',
+        link: 'https://link.coupang.com/a/igg6Y4UjNA',
+      },
+      {
+        rank: 3,
+        rankBadge: '결로 예방 항균 코팅 🥉',
+        productName: '(인슐래드)단열 곰팡이 결로 방지 페인트 4L, 1개',
+        specSummary: '단열 도막과 항곰팡이 기능으로 넓은 벽면·지하·천장을 한 번에 코팅하는 롤러 도장형 결로 방지 페인트',
+        link: 'https://link.coupang.com/a/ighaxmUTEy',
+      },
+    ],
+  },
   'winter-bedding-microfiber-vs-goose-down-vs-allergy-care-guide': {
     sectionTitle: '겨울 이불 소재별 BEST 3 (극세사 · 알러지케어 · 구스다운)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 소재별 1위 기준 종합',

@@ -1,5 +1,65 @@
 [
   {
+    "slug": "winter-wall-condensation-mold-prevention-guide",
+    "title": "겨울 벽 결로 곰팡이 원인과 해결법: 단열벽지 vs 제거젤 vs 페인트 비교",
+    "targetQuery": "겨울철 벽 결로 곰팡이 원인 해결 단열벽지 곰팡이제거젤 페인트 비교",
+    "category": "home",
+    "cluster": "winter-condensation",
+    "tags": [
+      "결로곰팡이",
+      "벽지곰팡이제거",
+      "단열벽지",
+      "결로방지페인트",
+      "겨울철환기",
+      "이슬점",
+      "곰팡이제거젤"
+    ],
+    "sources": [
+      {
+        "title": "공동주택 결로 방지를 위한 설계기준(국토교통부고시 제2026-332호)",
+        "url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000281108",
+        "publisher": "국토교통부(국가법령정보센터)",
+        "type": "government"
+      },
+      {
+        "title": "겨울철 실내생활 늘어나는 겨울, 공기질 관리 어떻게?",
+        "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148909591",
+        "publisher": "대한민국 정책브리핑(국립환경과학원 자료)",
+        "type": "government"
+      },
+      {
+        "title": "겨울철 한파대비 건강수칙",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=2048",
+        "publisher": "질병관리청 국가건강정보포털",
+        "type": "government"
+      },
+      {
+        "title": "곰팡이 제거 욕실세정제, 어떤 걸 살까? 선택 가이드",
+        "url": "https://mediahub.seoul.go.kr/archives/2006638",
+        "publisher": "한국소비자원 시험결과(서울시 미디어허브 전재)",
+        "type": "government"
+      },
+      {
+        "title": "실내공기_곰팡이(환경보건포털)",
+        "url": "https://www.ehtis.or.kr/cmn/sym/mnu/mpm/111021211/htmlCnView.do",
+        "publisher": "환경부 환경보건포털",
+        "type": "government"
+      },
+      {
+        "title": "실내공기질 관리기준(실내공기질 관리법 시행규칙 별표3 권고기준)",
+        "url": "https://news.seoul.go.kr/env/indoor-air",
+        "publisher": "서울특별시",
+        "type": "government"
+      },
+      {
+        "title": "건물 하자 분쟁(하자담보책임기간)",
+        "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?ccfNo=1&cciNo=3&cnpClsNo=1&csmSeq=1409&popMenu=ov",
+        "publisher": "법제처 찾기쉬운 생활법령정보",
+        "type": "government"
+      }
+    ]
+  },
+  {
     "slug": "winter-bedding-microfiber-vs-goose-down-vs-allergy-care-guide",
     "title": "겨울 이불 소재 비교: 극세사 vs 구스다운 vs 알러지케어 차렵이불 보온력·정전기·세탁법",
     "targetQuery": "겨울 이불 극세사 구스다운 알러지케어 차렵이불 비교",
