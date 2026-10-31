@@ -1,5 +1,96 @@
 [
   {
+    "slug": "winter-pipe-freezing-prevention-heat-cable-vs-insulation-guide",
+    "title": "수도 계량기·배관 동파 방지: 보온재 vs 정온 전열선 vs 물 틀기 비교와 해빙·수리비 책임 기준",
+    "targetQuery": "수도 계량기 동파 방지 보온재 정온 전열선 비교 수리비 책임",
+    "category": "home",
+    "cluster": "winter-freezing",
+    "tags": [
+      "수도동파",
+      "계량기동파",
+      "동파방지열선",
+      "정온전열선",
+      "보일러배관동파",
+      "동파수리비",
+      "계량기보온",
+      "배관보온재"
+    ],
+    "sources": [
+      {
+        "title": "수도계량기 동파예방 안내(동파 예보제 단계별 시민 행동 요령)",
+        "url": "https://arisu.seoul.go.kr/home/sub?dsn=1704067100-015-603&menukey=7201&mode=view",
+        "publisher": "서울아리수본부(서울상수도사업본부)",
+        "type": "government"
+      },
+      {
+        "title": "한파에 '수도계량기' 지키는 3가지 방법, 동파 신고는 여기로",
+        "url": "https://mediahub.seoul.go.kr/archives/2016694",
+        "publisher": "서울시 내 손안에 서울",
+        "type": "government"
+      },
+      {
+        "title": "영하로 뚝! 수도계량기 동파 걱정된다면, 이것만 기억하세요!",
+        "url": "https://mediahub.seoul.go.kr/archives/2012846",
+        "publisher": "서울시 내 손안에 서울",
+        "type": "government"
+      },
+      {
+        "title": "수도계량기 동파 80% '보온미비' 때문, 3가지 예방법 기억해요!",
+        "url": "https://mediahub.seoul.go.kr/archives/2003221",
+        "publisher": "서울시 내 손안에 서울",
+        "type": "government"
+      },
+      {
+        "title": "동파방지 열선(정온전선) 안전관리 실태조사 실시",
+        "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/166685/view?mno=&pageIndex=500",
+        "publisher": "산업통상자원부 보도자료",
+        "type": "government"
+      },
+      {
+        "title": "Investigation on the Ignition of Self-Regulating Heating Cables due to Overheating",
+        "url": "https://doi.org/10.7731/kifse.f710fe7e",
+        "publisher": "Fire science and engineering (강원대학교)",
+        "type": "primary"
+      },
+      {
+        "title": "전기안전공사 '동파방지 열선 겨울철 화재 주의'",
+        "url": "https://www.newspim.com/news/view/20221031000247",
+        "publisher": "뉴스핌(한국전기안전공사 자료 인용)",
+        "type": "media"
+      },
+      {
+        "title": "한파 발생 시 상세 행동요령",
+        "url": "https://www.korea.kr/news/healthView.do?newsId=148937121",
+        "publisher": "대한민국 정책브리핑(행정안전부)",
+        "type": "government"
+      },
+      {
+        "title": "세탁기 배관 동파에 관한 임대인의 수선의무(조정사례)",
+        "url": "https://adrhome.reb.or.kr/adrhome/reb/LO010100/bbs/View.do?Key=10404000000002022101718&boardIdx=37&boardNo=11",
+        "publisher": "한국부동산원·LH 주택임대차분쟁조정위원회",
+        "type": "government"
+      },
+      {
+        "title": "임대차 목적물의 하자, 누가 수선해야 할까?",
+        "url": "https://www.scourt.go.kr/portal/gongbo/PeoplePopupView.work?gubun=23&seqNum=1737",
+        "publisher": "대법원 법원행정처",
+        "type": "government"
+      },
+      {
+        "title": "수도 배관·계량기 동파로 누수 피해, 누구 책임?",
+        "url": "https://www.hapt.co.kr/news/articleView.html?idxno=157500",
+        "publisher": "한국아파트신문(서울시 자료·판례 인용)",
+        "type": "media"
+      },
+      {
+        "title": "전기 사용(주택용 전기요금 계산)",
+        "url": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?ccfNo=2&cciNo=1&cnpClsNo=1&csmSeq=1008&popMenu=ov",
+        "publisher": "법제처 찾기쉬운 생활법령정보",
+        "type": "government"
+      }
+    ]
+  },
+  {
     "slug": "winter-laundry-drying-mini-dryer-vs-dehumidifier-guide",
     "title": "겨울철 원룸 빨래 건조 해결법: 미니건조기 vs 제습기 vs 온풍건조기 비교",
     "targetQuery": "겨울철 원룸 빨래 건조 미니건조기 제습기 온풍건조기 쉰내 전기세 비교",

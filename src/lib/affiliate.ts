@@ -14,6 +14,34 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-pipe-freezing-prevention-heat-cable-vs-insulation-guide': {
+    sectionTitle: '수도 계량기·배관 동파 방지 BEST 3 (정온 열선 · 보온커버 · 배관보온재)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 화재안전·동파방지·가성비 1위 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '화재안전 1위 🥇',
+        productName: '국산 동파방지열선 실리콘 자동전원 센서형 KC인증, 30m, 1개',
+        specSummary: '온도를 보고 발열을 스스로 줄이는 자동 감온 센서형 정온 전열선. KC인증으로 겹침 과열 걱정을 줄이는 안전 동파방지 열선',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ihWeHQ35jM',
+      },
+      {
+        rank: 2,
+        rankBadge: '동파방지 1위 🥈',
+        productName: '수도월드 터지기 전에 덮어라 계량기 동파방지 보온커버, 1개',
+        specSummary: '동파 원인의 대부분인 계량기함 보온 미비를 한 벌로 막는 보온커버. 최근 한 달 100명 이상이 선택한 계량기 필수템',
+        link: 'https://link.coupang.com/a/ihV6kphiwu',
+      },
+      {
+        rank: 3,
+        rankBadge: '가성비 배관보온 1위 🥉',
+        productName: '난연 보온재 토이론 아티론 아트론 수도 결로 동파방지 예방 배관 파이프 단열재, 1개',
+        specSummary: '노출 수도관·보일러 배관을 감싸는 난연 은박 배관 보온재. 15A 9,020원부터 규격별 절단 구성이 가능한 가성비 단열재',
+        link: 'https://link.coupang.com/a/ihWbT0j63U',
+      },
+    ],
+  },
   'winter-laundry-drying-mini-dryer-vs-dehumidifier-guide': {
     sectionTitle: '겨울 원룸 빨래 건조 BEST 3 (미니건조기 · 제습기 · 컴팩트 건조)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 건조 방식별 1위 기준 종합',
