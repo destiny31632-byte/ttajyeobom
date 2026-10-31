@@ -1,10 +1,10 @@
 {
   "date": "2026-10-31",
-  "published": [],
-  "remaining": 2,
-  "status": "retryable-failed",
-  "newPost": null,
-  "topic": "chrome-bookmarks-export-import-backup-guide",
-  "reason": "작성 전송 미완료: 발행 보류",
-  "workflowStatus": "failure"
+  "published": [
+    "winter-pipe-freezing-prevention-heat-cable-vs-insulation-guide",
+    "winter-laundry-drying-mini-dryer-vs-dehumidifier-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
