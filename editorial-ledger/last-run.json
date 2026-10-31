@@ -1,11 +1,9 @@
 {
-  "date": "2026-10-31",
-  "published": [
-    "winter-pipe-freezing-prevention-heat-cable-vs-insulation-guide",
-    "winter-laundry-drying-mini-dryer-vs-dehumidifier-guide"
-  ],
-  "remaining": 0,
-  "status": "daily-limit-reached",
+  "date": "2026-11-01",
+  "published": [],
+  "remaining": 2,
+  "status": "held",
   "newPost": null,
-  "workflowStatus": "success"
+  "topic": "chrome-bookmarks-export-import-backup-guide",
+  "reason": "엄격 품질 검사 미통과"
 }
