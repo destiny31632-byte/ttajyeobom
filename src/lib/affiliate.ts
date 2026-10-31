@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-portable-hand-warmer-heat-pack-comparison-guide': {
+    sectionTitle: '겨울 휴대용 보온용품 BEST 3 (포켓 핫팩 · 충전식 손난로 · 파스형 핫팩)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 지속시간·온도·기내 반입 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '[국내생산]해피데이 포켓형 대용량 핫팩 150g, 30개',
+        specSummary: '150g 대용량 포켓형으로 주머니·장갑 속 보온을 담당하는 대량 구성. 상품평 6만 개 이상으로 판매량 1위, KC인증 표기 제품',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iip9gxuTca',
+      },
+      {
+        rank: 2,
+        rankBadge: '스마트 보온 1위 🥈',
+        productName: '스마티 대용량 5000mAh 손난로 보조배터리 양면 발열 충전식 C타입 (전용 파우치 케이블 포함), 실버 1개, PR-HWP5000',
+        specSummary: '양면 발열에 손난로 겸용 보조배터리 5000mAh까지 되는 충전식. 비행기 이용 시에는 기내 반입 전용이라는 점만 기억할 것',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iiqa6XjPhI',
+      },
+      {
+        rank: 3,
+        rankBadge: '밀착 보온 1위 🥉',
+        productName: '하루온 붙이는 핫팩 50g 10개입, 1개',
+        specSummary: '최고온도 63℃·지속시간 15시간 표기의 파스형 부착 핫팩. 속옷 위에 붙여 등·배를 오래 데우는 밀착 보온용, 상품평 5만 개 이상',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iiqcLRynTw',
+      },
+    ],
+  },
   'winter-pipe-freezing-prevention-heat-cable-vs-insulation-guide': {
     sectionTitle: '수도 계량기·배관 동파 방지 BEST 3 (정온 열선 · 보온커버 · 배관보온재)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 화재안전·동파방지·가성비 1위 기준 종합',
