@@ -61,7 +61,7 @@ sources:
   - title: "전기안전공사 '동파방지 열선 겨울철 화재 주의'"
     url: "https://www.newspim.com/news/view/20221031000247"
     publisher: "뉴스핌(한국전기안전공사 자료 인용)"
-    type: media
+    type: press
     accessed: 2026-10-31
     note: "최근 5년 열선 화재 1,600여 건, 인증 제품 5개뿐, 노후 열선(10년 이상) 절반 초과, 수명 7~10년"
   - title: "한파 발생 시 상세 행동요령"
@@ -85,7 +85,7 @@ sources:
   - title: "수도 배관·계량기 동파로 누수 피해, 누구 책임?"
     url: "https://www.hapt.co.kr/news/articleView.html?idxno=157500"
     publisher: "한국아파트신문(서울시 자료·판례 인용)"
-    type: media
+    type: press
     accessed: 2026-10-31
     note: "동파 3,621건 원인 보온 미비 67.7%, 물 틀기 무시 시 배상 판결(수리비 730만 원 등)"
   - title: "전기 사용(주택용 전기요금 계산)"
