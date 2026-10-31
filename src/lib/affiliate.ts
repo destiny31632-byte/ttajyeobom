@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-car-battery-jump-starter-vs-charger-guide': {
+    sectionTitle: '겨울 배터리 방전 대비 BEST 3 (점프스타터 · 스마트 충전기 · 전압 테스터기)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 즉시 시동 · 예방 복구 · 상시 점검 1위 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '풀라로스 긴급시동 보조배터리 점프스타터+스마트 점프 케이블+파우치백 14800mAh, 1세트',
+        specSummary: '12V 가솔린·디젤 시동용 14800mAh 용량에 스마트 집게 케이블과 수납 파우치까지 묶은 구성. 지하주차장처럼 다른 차가 없는 환경에서 즉시 시동을 거는 즉답형 대비',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ijhyaYnsZM',
+      },
+      {
+        rank: 2,
+        rankBadge: '스마트 복구 1위 🥈',
+        productName: '자동차 배터리 충전기 12V 6A 펄스 수리 LCD 디스플레이 스마트충전 자동차 오토바이, 1개',
+        specSummary: '12V 6A 펄스 수리(복구) 모드와 LCD 전압 표시를 갖춘 가정용 스마트 충전기. 밤새 보충하며 방전 이전에 예방하는 관리형 장비',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ijhA4BCOw8',
+      },
+      {
+        rank: 3,
+        rankBadge: '실시간 모니터링 1위 🥉',
+        productName: '컴스 차량용 전압측정 시거잭 테스터기, BD917, 1개',
+        specSummary: '시가잭에 꽂아 배터리 전압을 실시간 숫자로 보여주는 볼트미터. 12V 기준선에서 벗어나면 충전·교체 타이밍을 잡는 상시 점검용',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ijhDeNcvHo',
+      },
+    ],
+  },
   'winter-portable-hand-warmer-heat-pack-comparison-guide': {
     sectionTitle: '겨울 휴대용 보온용품 BEST 3 (포켓 핫팩 · 충전식 손난로 · 파스형 핫팩)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 지속시간·온도·기내 반입 기준 종합',
