@@ -1,7 +1,7 @@
 {
-  "day": "2026-11-01",
+  "day": "2026-11-02",
   "month": "2026-11",
-  "dailyCalls": 2,
-  "monthlyCalls": 2,
-  "reservedTokens": 200000
+  "dailyCalls": 1,
+  "monthlyCalls": 3,
+  "reservedTokens": 300000
 }
