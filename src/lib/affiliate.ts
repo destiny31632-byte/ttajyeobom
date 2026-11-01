@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-camping-heater-kerosene-vs-fan-heater-guide': {
+    sectionTitle: '겨울 캠핑·차박 난방 BEST 3 (대류형 등유난로 · 등유 팬히터 · 일산화탄소 경보기)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 난방 성능 · 제어 안전 · 생명 직결 필수템 1위 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '대류형 등유난로 1위 🥇',
+        productName: '파세코 캠프10 선셋 석유히터, CAMP-10 SUNSET(아이보리)',
+        specSummary: '무전원으로도 도는 대류형 심지식 석유난로. 4.7L 연료탱크에 본품+가방 구성, KC 안전확인(B713H001-6001G)을 갖춘 오지 캠핑 난방 1위',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ij40Kw0F2W',
+      },
+      {
+        rank: 2,
+        rankBadge: '정밀제어 팬히터 1위 🥈',
+        productName: '신일 팬히터, SFH-BH900',
+        specSummary: '온도조절 가능한 정온 제어 등유 팬히터. 9L 연료탱크와 급유펌프 구성으로 캠핑장 전기 예산을 거의 쓰지 않고 밤새 버티는 제어형 1위',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ij43bA4AmW',
+      },
+      {
+        rank: 3,
+        rankBadge: '생명 직결 필수템 1위 🥉',
+        productName: '수산홈텍 일산화탄소 경보기 COB-380V',
+        specSummary: '디지털 표시창과 시험 버튼, 자석·고리 브라켓을 갖춘 국내 제조 CO 경보기. 국가검사(BEQJ 89395(가24-47)) 확인 제품, 텐트·차박 2개 배치 권고',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iejzl436ia',
+      },
+    ],
+  },
   'winter-car-windshield-frost-prevention-cover-vs-spray-guide': {
     sectionTitle: '겨울 앞유리 성에 대비 BEST 3 (성에방지 커버 · 성에제거 스프레이 · 스노우 브러쉬 스크래퍼)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 예방 · 급속 해빙 · 물리 제거 1위 기준 종합',
