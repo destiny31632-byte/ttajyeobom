@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-heated-vest-types-battery-safety-guide': {
+    sectionTitle: '겨울 발열조끼·보온 보조 BEST 3 (발열조끼 · 발열조끼용 보조배터리 · 발열목도리)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 발열 성능 · 배터리 규격 · KC 인증 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '발열조끼 판매 1위 🥇',
+        productName: '스위스밀리터리 발열조끼 HIVE-500S 보조배터리 포함 USB 온열조끼',
+        specSummary: '보조배터리 포함 USB 3단 온열조끼. 상품평 113개·평점 4.5에 원가 199,000원 대비 53% 할인가 92,000원, 등 쪽 발열선 배치로 간헐 가열 운용에 맞는 구성',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ikWSTDHGIC',
+      },
+      {
+        rank: 2,
+        rankBadge: '발열조끼 전용 배터리 1위 🥈',
+        productName: '보조배터리 선풍기조끼 발열조끼 5V2A, 드리온 20000mAh, 화이트, D-20000A',
+        specSummary: '발열조끼·선풍기조끼 구동 전용 5V 2A 출력 고정, 20,000mAh 2포트 구성. 고속충전 없이 안정 출력만 내는 발열의류 맞춤 배터리 1위',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ikWWdEvJJJ',
+      },
+      {
+        rank: 3,
+        rankBadge: '보온 보조 아이템 1위 🥉',
+        productName: '글랜필드 발열목도리+전용배터리 포함 넥워머 온열목도리 발열머플러 SHS-01',
+        specSummary: '나노그래핀 필름 발열체에 KC인증(XU070671-22001A)을 갖춘 발열목도리. 3단 42/48/52도에 전용 5,000mAh 기준 3~8시간, 목·가슴 보온 보조 1위',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ikWX30RXPg',
+      },
+    ],
+  },
   'winter-camping-heater-kerosene-vs-fan-heater-guide': {
     sectionTitle: '겨울 캠핑·차박 난방 BEST 3 (대류형 등유난로 · 등유 팬히터 · 일산화탄소 경보기)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 난방 성능 · 제어 안전 · 생명 직결 필수템 1위 기준 종합',
