@@ -43,7 +43,7 @@ sources:
   - title: "저온화상 [Low-temperature burn]"
     url: "https://www.snuh.org/health/nMedInfo/nView.do?medid=AA001335"
     publisher: "서울대학교병원 의학정보"
-    type: hospital
+    type: expert
     accessed: 2026-11-02
     note: "40도 이상 장시간 노출, 회피 반응 부재, 음주·수면제·소아·노년층 위험, 열원 제거·찬물 냉각·물집 보존"
   - title: "스마트폰, 블루투스 헤드셋 등에 쓰이는 '리튬이온배터리', 화재예방 이렇게 하세요!"
@@ -85,19 +85,19 @@ sources:
   - title: "Evaluation of body heating protocols with graphene heated clothing in a cold environment (IJCST 29(6))"
     url: "https://api.crossref.org/works/10.1108/ijcst-03-2017-0026"
     publisher: "International Journal of Clothing Science and Technology(Crossref 메타데이터로 확인)"
-    type: journal
+    type: primary
     accessed: 2026-11-02
     note: "0.6도 실험에서 간헐 가열 2.49W vs 연속 가열 8.58W로 71% 절전, 등 가열이 가슴 가열보다 피부온도에 유리"
   - title: "애슈드 발열 인슈즈 간단 사용 설명서"
     url: "https://ashde.co.kr/article/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/1/12118/"
     publisher: "애슈드(제조사 사용설명서)"
-    type: vendor
+    type: reference
     accessed: 2026-11-02
     note: "단계별 온도 40/45/53/60도, 장시간 고온 착용 저온화상 경고, 세탁 시 배터리 분리·케이블 뚜껑 닫기·중성세제"
   - title: "스위스밀리터리 발열조끼 HIVE-500S·드리온 D-20000A·글랜필드 SHS-01 상품 페이지"
     url: "https://www.coupang.com/vp/products/8465886734?itemId=29152937395"
     publisher: "쿠팡(스위스밀리터리 HIVE-500S 상세)"
-    type: vendor
+    type: reference
     accessed: 2026-11-02
     note: "2026-11-02 브라우저 실물 검증: HIVE-500S 92,000원·상품평 113, 드리온 D-20000A 21,000원·5V2A 전용, 글랜필드 SHS-01 26,500원·나노그래핀·KC XU070671-22001A·42/48/52도"
 ---
