@@ -1,10 +1,10 @@
 {
   "date": "2026-11-01",
-  "published": [],
-  "remaining": 2,
-  "status": "held",
-  "newPost": null,
-  "topic": "chrome-bookmarks-export-import-backup-guide",
-  "reason": "엄격 품질 검사 미통과",
-  "workflowStatus": "failure"
+  "published": [
+    "winter-car-windshield-frost-prevention-cover-vs-spray-guide",
+    "winter-car-battery-jump-starter-vs-charger-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
