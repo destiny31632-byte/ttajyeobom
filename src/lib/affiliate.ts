@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-car-windshield-frost-prevention-cover-vs-spray-guide': {
+    sectionTitle: '겨울 앞유리 성에 대비 BEST 3 (성에방지 커버 · 성에제거 스프레이 · 스노우 브러쉬 스크래퍼)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 예방 · 급속 해빙 · 물리 제거 1위 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '예방·가성비 1위 🥇',
+        productName: '탐사 차량용 성에방지 커버 블랙박스 앞유리용 눈덮개 + 보관용 가방, 1개',
+        specSummary: '블랙박스 녹화 공간을 남기는 앞유리용 눈덮개에 보관용 가방까지 포함한 구성. 밤사이 성에와 눈 유입을 막아 아침에 벗기만 하면 되는 예방형 1위',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ijAPRn6xtQ',
+      },
+      {
+        rank: 2,
+        rankBadge: '급속 해빙 1위 🥈',
+        productName: '불스원 레인OK 성에제거 스프레이, 400ml, 1개',
+        specSummary: '얼어붙은 유리에 뿌리면 알코올 성분으로 얼음을 빨리 녹이는 급속 해빙용. 상품평 905개로 검증된 동계 주행 준비 시간 단축 아이템',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ijASeAXqzA',
+      },
+      {
+        rank: 3,
+        rankBadge: '물리 제거 1위 🥉',
+        productName: '고샤인 차량용 길이조절 프리미엄 성에제거기 눈 브러시, 1개',
+        specSummary: '42~63cm 길이조절 봉에 눈 브러시와 성에 제거 날을 합친 롱핸들형. 룸미러·지붕 눈까지 무리 없이 닿는 내구형 물리 제거 1위',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ijATXjhxro',
+      },
+    ],
+  },
   'winter-car-battery-jump-starter-vs-charger-guide': {
     sectionTitle: '겨울 배터리 방전 대비 BEST 3 (점프스타터 · 스마트 충전기 · 전압 테스터기)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 즉시 시동 · 예방 복구 · 상시 점검 1위 기준 종합',
