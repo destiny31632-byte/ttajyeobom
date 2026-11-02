@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-down-jacket-padding-laundry-water-wash-vs-dry-cleaning-guide': {
+    sectionTitle: '겨울 패딩 세탁·관리 BEST 3 (다운 전용 중성세제 · 울볼 · 발수 코팅 복원제)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 유지분 보호 · 필파워 복원 · 발수 갱신 1위 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '다운 전용 중성세제 1위 🥇',
+        productName: '울샴푸 다운워시 본품, 800ml, 1개',
+        specSummary: '오리털·거위털 유지분을 보호하며 손세탁·일반세탁기·드럼 모두 사용 가능한 다운 전용 중성세제. 상품평 16,876개·평점 5에 일반판매가 14,500원 대비 40% 할인가 8,690원, 생활화학제품 자가검사번호(CB20-03-0304) 표기',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ilf5IhLAKy',
+      },
+      {
+        rank: 2,
+        rankBadge: '털뭉침 복원 울볼 1위 🥈',
+        productName: '코멧 홈 건조기 양모 울드라이어볼 6p + 파우치 세트, 화이트, 1세트',
+        specSummary: '건조기 안에서 패딩을 두드려 뭉친 다운을 풀어주는 100% 양모 울볼 6개+파우치 구성. 상품평 4,565개·평점 4.5에 26% 할인가 6,990원으로 필파워 복원용 1위',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ilf7sJlDtA',
+      },
+      {
+        rank: 3,
+        rankBadge: '발수 코팅 복원 1위 🥉',
+        productName: 'NIKWAX 닉왁스 다이렉스 스프레이온 고어텍스용 발수제, 300ml, 1개',
+        specSummary: '아웃도어 의류용 DWR 발수 코팅 복원 스프레이온. 상품평 448개·평점 4.5에 한 달간 400명 이상이 구매한 21% 할인가 14,100원, 스프레이형이라 세탁 후 분사 갱신용',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ilf89k8HOS',
+      },
+    ],
+  },
   'winter-heated-vest-types-battery-safety-guide': {
     sectionTitle: '겨울 발열조끼·보온 보조 BEST 3 (발열조끼 · 발열조끼용 보조배터리 · 발열목도리)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 발열 성능 · 배터리 규격 · KC 인증 기준 종합',
