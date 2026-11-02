@@ -76,9 +76,9 @@ sources:
     type: press
     accessed: 2026-11-01
     note: "한국소비자원 조사: 캠핑용 가스누설경보기 15종 중 13종 성능 미흡, 고시 기준 55/110/330ppm·70dB, 휴대용은 기준 미적용, 캠핑장 가스중독 39건→64건"
-  - title: "겨울 캠핑 불청객, 일산화탄소 중독…실제 실험했더니"
-    url: "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8160772"
-    publisher: "KBS 뉴스"
+  - title: "겨울 캠핑 불청객, 일산화탄소 중독…실제 실험했더니 (KBS 뉴스 공식 채널 영상)"
+    url: "https://www.youtube.com/watch?v=UffbTzl27Sk"
+    publisher: "KBS 뉴스(송국회 기자)"
     type: press
     accessed: 2026-11-01
     note: "가스안전공사 실증실험 보도: 최근 3년 캠핑 가스중독 150여 건·사망 27명, 텐트 가스 난방기 15분 만에 1,600ppm"
