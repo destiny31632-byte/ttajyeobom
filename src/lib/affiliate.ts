@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-thermal-insulated-tumbler-thermos-comparison-cleaning-guide': {
+    sectionTitle: '겨울 보온 텀블러·보온병 BEST 3 (데일리 원터치 · 대용량 빨대 · 슬림 원터치 보온병)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 보온력 · 용량 · 실구매 리뷰 규모 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '데일리 원터치 1위 🥇',
+        productName: '써모스 뉴 데일리 원터치 텀블러 JNL-505K, 블랙, 500ml',
+        specSummary: '가장 가벼운 축의 원터치 데일리 텀블러. 상품평 3,395개에 정가 46,000원 대비 37% 할인가 28,620원, YWCA 실측 보온·보냉 총합 1등 브랜드의 원터치 라인',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/imBy2eOpiu',
+      },
+      {
+        rank: 2,
+        rankBadge: '대용량 빨대 텀블러 1위 🥈',
+        productName: '스탠리 퀜처 H2.0 플로우스테이트 텀블러, 로즈쿼츠 2.0',
+        specSummary: '591ml·887ml 등 옵션이 가장 많은 대용량 빨대뚜껑 텀블러. 상품평 48,637개에 887ml 기준 정가 49,000원 대비 13% 할인가 42,480원, 컵홀더 호환으로 차량·캠핑까지 쓰는 실구매 1위',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/imBEuHa83U',
+      },
+      {
+        rank: 3,
+        rankBadge: '슬림 원터치 보온병 1위 🥉',
+        productName: '조지루시 보온 보냉 원터치 텀블러 SM-TA60, 화이트, 600ml',
+        specSummary: '슬림 실루엣의 원터치 보온병형. 상품평 909개에 정가 49,500원 대비 25% 할인가 36,900원, 커피를 원터치로 마시는 통근·도서실용 보온병',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/imBIUEnxuu',
+      },
+    ],
+  },
   'winter-thermal-underwear-heattech-types-fabric-care-guide': {
     sectionTitle: '겨울 발열내의·방한내의 BEST 3 (데일리 발열내의 · 초극세사 기모 방한내의 · 메리노울 베이스레이어)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 상품평 규모 · 흡습발열 vs 단순 보온 vs 천연 섬유 1위 기준 종합',
