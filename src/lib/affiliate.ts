@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-thermal-underwear-heattech-types-fabric-care-guide': {
+    sectionTitle: '겨울 발열내의·방한내의 BEST 3 (데일리 발열내의 · 초극세사 기모 방한내의 · 메리노울 베이스레이어)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 상품평 규모 · 흡습발열 vs 단순 보온 vs 천연 섬유 1위 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '데일리 발열내의 판매 1위 🥇',
+        productName: '마른파이브 남성용 히트터치 기모 발열내의 세트',
+        specSummary: '폴리에스터 91%+스판 9% 흡습발열 기모 상하의 세트. 상품평 18,440개·최고 81%에 일반가 25,800원 대비 42% 할인가 14,960원, 움직이는 날의 데일리 발열내의 1위',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ilJVuKZ4Sq',
+      },
+      {
+        rank: 2,
+        rankBadge: '혹한기·야외 기모 방한내의 1위 🥈',
+        productName: '슬레진저 기능성 초극세사 기모 내의',
+        specSummary: '초극세사 기모로 정지 상태 보온에 강한 방한내의. 상품평 14,480개·최고 78%에 일반가 19,800원 대비 32% 할인가 13,410원, 한 달간 200명 이상이 구매한 야외 정지·혹한용 1위',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ilJWQ9sYF2',
+      },
+      {
+        rank: 3,
+        rankBadge: '천연 메리노울 베이스레이어 1위 🥉',
+        productName: '울파워 크루넥 200 이너웨어 메리노울 소재 남여공용',
+        specSummary: '스웨덴 울파워(울파워/(주)파커스 인터내셔널 수입) 메리노울 소재 크루넥 베이스레이어. 상품평 4개·평점 5에 정가 118,000원 대비 3% 할인가 114,400원, 등산·스포츠용 천연 섬유 베이스레이어 1위',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ilJ2eHDv52',
+      },
+    ],
+  },
   'winter-down-jacket-padding-laundry-water-wash-vs-dry-cleaning-guide': {
     sectionTitle: '겨울 패딩 세탁·관리 BEST 3 (다운 전용 중성세제 · 울볼 · 발수 코팅 복원제)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 유지분 보호 · 필파워 복원 · 발수 갱신 1위 기준 종합',
