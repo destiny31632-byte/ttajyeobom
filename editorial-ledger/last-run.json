@@ -1,10 +1,10 @@
 {
   "date": "2026-11-02",
-  "published": [],
-  "remaining": 2,
-  "status": "held",
-  "newPost": null,
-  "topic": "chrome-profile-account-guest-separation-guide",
-  "reason": "본문 공백 제외 5,000~14,000자 필요",
-  "workflowStatus": "failure"
+  "published": [
+    "winter-down-jacket-padding-laundry-water-wash-vs-dry-cleaning-guide",
+    "winter-heated-vest-types-battery-safety-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
