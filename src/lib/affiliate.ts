@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-car-snow-chains-fabric-socks-spray-winter-tires-comparison-guide': {
+    sectionTitle: '겨울철 스노우체인 BEST 3 (직물체인 · 우레탄 자동체인 · 스프레이 체인)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 방식별 실구매 리뷰 규모·규격 인증 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '직물체인 1위 🥇',
+        productName: '오토삭 타이어체인 패브릭 스노우 직물체인 최신제품, 697모델, 1개',
+        specSummary: 'EN 16662-1:2020 유럽 규격 세계 최초 인증 직물체인. 3분 장착에 알루미늄 휠 부담이 없고, 확인일 기준 115,000원·상품평 17개·무료배송·오늘출발',
+        tag: '무료배송 · 오늘출발',
+        link: 'https://link.coupang.com/a/imU25jm776',
+      },
+      {
+        rank: 2,
+        rankBadge: '우레탄 자동체인 1위 🥈',
+        productName: '태영 자동 우레탄 스노우체인, 4호, 1세트',
+        specSummary: '카렉스 오토체인 제조사 태영산업의 원터치 자동 우레탄 체인. 확인일 기준 39% 할인가 60,160원·상품평 487개·제한속도 50km/h·오늘출발',
+        tag: '무료배송 · 오늘출발',
+        link: 'https://link.coupang.com/a/imUXJd71qv',
+      },
+      {
+        rank: 3,
+        rankBadge: '스프레이 체인 1위 🥉',
+        productName: '불스원 레인OK NEW 스프레이 체인, 2개, 500ml',
+        specSummary: '상품평 4,533개의 스프레이 체인 최다 리뷰 제품. 노즐·스트로 이원 분사로 비상 탈출용, 확인일 기준 24% 할인가 16,460원·오늘출발',
+        tag: '무료배송 · 오늘출발',
+        link: 'https://link.coupang.com/a/imU7syOAGy',
+      },
+    ],
+  },
   'winter-thermal-insulated-tumbler-thermos-comparison-cleaning-guide': {
     sectionTitle: '겨울 보온 텀블러·보온병 BEST 3 (데일리 원터치 · 대용량 빨대 · 슬림 원터치 보온병)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 보온력 · 용량 · 실구매 리뷰 규모 기준 종합',
