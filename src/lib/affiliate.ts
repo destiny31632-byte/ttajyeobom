@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-hot-water-heating-mat-leak-water-care-guide': {
+    sectionTitle: '겨울 온수매트 BEST 3 (판매 1위 워셔블 · 더블 가성비 · 프리미엄 슬림)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 누수 대응 관리성 · 실구매 리뷰 규모 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '일월 숲속애 온수매트, 싱글(100 x 200 cm)',
+        specSummary: '상품평 10,474개에 한 달간 4,000명 이상이 구매한 온수매트 판매 1위급 실물. 확인일 기준 44% 할인가 110,200원(원가 197,800원)',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iogLPSY2SW',
+      },
+      {
+        rank: 2,
+        rankBadge: '더블 가성비 1위 🥈',
+        productName: '일월 숲속애 온수매트, 더블(150 x 200 cm)',
+        specSummary: '2인용 더블 기준 확인일 52% 할인가 114,000원(원가 237,700원). 커플·아이방까지 커버하는 사이즈대 최저가 구간',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iogOqGHM7M',
+      },
+      {
+        rank: 3,
+        rankBadge: '프리미엄 슬림 1위 🥉',
+        productName: '나비엔 New Simple 온수매트 슬림형 EQM352-SS, 싱글(100 x 195 cm)',
+        specSummary: '경동나비엔 정식 브랜드 슬림형. 확인일 기준 43% 할인가 230,640원(원가 405,000원), 상품평 1,315개',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iogQJm077m',
+      },
+    ],
+  },
   'winter-electric-heating-pad-mat-fire-safety-emf-care-guide': {
     sectionTitle: '겨울 전기요·탄소매트 BEST 3 (인체감지 무자계 · 프리미엄 워셔블 · 고급 카본열선)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 화재·전자파 안전 기능 · 실구매 리뷰 기준 종합',
