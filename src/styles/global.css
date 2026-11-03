@@ -16,6 +16,8 @@
   --shadow: 0 1px 3px rgb(0 0 0 / 8%), 0 1px 2px rgb(0 0 0 / 5%);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.08), 0 2px 4px -2px rgb(0 0 0 / 0.04);
   --shadow-lg: 0 12px 24px -4px rgb(0 0 0 / 0.08), 0 4px 8px -2px rgb(0 0 0 / 0.04);
+  --hairline: color-mix(in srgb, var(--text) 8%, transparent);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --radius: 14px;
   --content: 720px;
   --wide: 1160px;
@@ -139,19 +141,20 @@ a:hover {
 .header-row {
   display: flex;
   align-items: center;
-  gap: 16px;
-  height: 60px;
+  gap: 24px;
+  height: 64px;
 }
 
 .brand {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-weight: 800;
-  font-size: 1.2rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1;
   color: var(--text);
   text-decoration: none;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   flex-shrink: 0;
 }
 
@@ -181,24 +184,30 @@ a:hover {
 
 .main-nav a {
   display: block;
-  padding: 6px 10px;
+  padding: 8px 12px;
   border-radius: 8px;
   color: var(--muted);
-  font-size: 0.95rem;
-  font-weight: 600;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 20px;
   text-decoration: none;
   white-space: nowrap;
+  transition: color 0.15s var(--ease), background-color 0.15s var(--ease);
 }
 
-.main-nav a:hover,
+.main-nav a:hover {
+  color: var(--text);
+  background: var(--surface);
+}
+
 .main-nav a[aria-current='page'] {
-  color: var(--primary);
+  color: var(--primary-strong);
   background: var(--primary-soft);
 }
 
 .header-actions {
   display: flex;
-  gap: 6px;
+  gap: 8px;
   margin-left: auto;
 }
 
@@ -206,24 +215,25 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
   border: 1px solid var(--border);
   background: var(--bg);
-  color: var(--text);
+  color: var(--muted);
   cursor: pointer;
   text-decoration: none;
+  transition: color 0.15s var(--ease), background-color 0.15s var(--ease);
 }
 
 .icon-btn:hover {
   background: var(--surface);
-  color: var(--primary);
+  color: var(--text);
 }
 
 .icon-btn svg {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
 }
 
 .theme-toggle .icon-moon {
@@ -242,7 +252,7 @@ a:hover {
   .header-row {
     flex-wrap: wrap;
     height: auto;
-    padding: 10px 0 0;
+    padding-top: 12px;
     gap: 8px 12px;
   }
 
@@ -260,14 +270,15 @@ main {
 }
 
 .page-section {
-  padding: 32px 0;
+  padding: 40px 0;
 }
 
 .section-title {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
+  font-weight: 600;
   line-height: 1.4;
   margin: 0 0 16px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 .section-head {
@@ -283,28 +294,47 @@ main {
 }
 
 .more-link {
-  font-size: 0.95rem;
-  font-weight: 600;
+  font-size: 0.9375rem;
+  font-weight: 500;
   text-decoration: none;
 }
 
 .hero {
-  padding: 40px 0 24px;
+  padding: 48px 0;
   border-bottom: 1px solid var(--border);
-  background: linear-gradient(180deg, var(--primary-soft), transparent);
+}
+
+.hero-grid {
+  display: grid;
+  gap: 40px;
+  align-items: center;
+}
+
+@media (min-width: 960px) {
+  .hero {
+    padding: 64px 0;
+  }
+
+  .hero--split .hero-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 64px;
+  }
 }
 
 .hero h1 {
-  font-size: clamp(1.6rem, 4.5vw, 2.3rem);
-  line-height: 1.3;
-  letter-spacing: -0.03em;
-  margin: 0 0 10px;
+  font-size: clamp(2rem, 4.6vw, 2.75rem);
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  margin: 0 0 16px;
 }
 
 .hero p {
   color: var(--muted);
-  margin: 0 0 20px;
-  max-width: 640px;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  margin: 0 0 32px;
+  max-width: 36rem;
 }
 
 .search-form {
@@ -318,11 +348,16 @@ main {
   min-width: 0;
   height: 48px;
   padding: 0 16px;
-  border-radius: 12px;
+  border-radius: 10px;
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--text);
   font: inherit;
+  transition: border-color 0.15s var(--ease);
+}
+
+.search-form input:hover {
+  border-color: color-mix(in srgb, var(--text) 24%, transparent);
 }
 
 .btn {
@@ -330,20 +365,159 @@ main {
   align-items: center;
   justify-content: center;
   height: 48px;
-  padding: 0 18px;
-  border-radius: 12px;
+  padding: 0 20px;
+  border-radius: 10px;
   border: 0;
   background: var(--primary);
   color: #fff;
   font: inherit;
-  font-weight: 700;
+  font-weight: 600;
   cursor: pointer;
   text-decoration: none;
+  transition: background-color 0.15s var(--ease), transform 0.15s var(--ease);
 }
 
 .btn:hover {
   background: var(--primary-strong);
   color: #fff;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+/* ── 첫 화면 계산표 (전기요금 글의 표를 읽어 옴) ── */
+.calc-card {
+  margin: 0;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--bg);
+  box-shadow: var(--shadow-md);
+  font-variant-numeric: tabular-nums;
+}
+
+.calc-card figcaption {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.calc-card__label {
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+.calc-card__title {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.calc-card table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.calc-card th,
+.calc-card td {
+  padding: 12px 0;
+  border-top: 1px solid var(--hairline);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.calc-card thead th {
+  padding: 0 0 8px;
+  border-top: 0;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+.calc-card thead th:first-child,
+.calc-card tbody th {
+  text-align: left;
+}
+
+.calc-card tbody th {
+  width: 88px;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.calc-card tbody td:nth-child(3) {
+  width: 96px;
+  font-weight: 500;
+}
+
+.calc-card .calc-bar-col {
+  padding-left: 12px;
+  padding-right: 20px;
+}
+
+.calc-card .calc-delta-col {
+  width: 88px;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.calc-card thead .calc-delta-col {
+  font-size: 0.8125rem;
+}
+
+.calc-bar {
+  display: block;
+  width: var(--w);
+  height: 8px;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--text) 16%, transparent);
+}
+
+.calc-card tr.is-jump .calc-bar {
+  background: var(--primary);
+}
+
+.calc-card tr.is-jump td:nth-child(3),
+.calc-card tr.is-jump .calc-delta-col {
+  color: var(--primary-strong);
+}
+
+.calc-card__foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 16px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--hairline);
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+.calc-card__foot a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media (max-width: 520px) {
+  .calc-card {
+    padding: 20px;
+  }
+
+  .calc-card .calc-delta-col {
+    display: none;
+  }
+
+  .calc-card .calc-bar-col {
+    padding-right: 12px;
+  }
 }
 
 /* ── Cards ── */
@@ -360,27 +534,25 @@ main {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 22px 24px;
+  padding: 20px 24px;
   border: 1px solid var(--border);
   border-radius: 16px;
   background: var(--bg);
-  box-shadow: var(--shadow);
-  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
   position: relative;
+  transition: border-color 0.15s var(--ease), box-shadow 0.15s var(--ease);
 }
 
+/* 카드가 떠오르는 움직임 없이 테두리와 그림자만 바뀜 */
 .post-card:hover {
-  transform: translateY(-4px);
-  border-color: color-mix(in srgb, var(--primary) 45%, var(--border) 55%);
-  box-shadow: var(--shadow-lg);
+  border-color: color-mix(in srgb, var(--primary) 45%, var(--border));
+  box-shadow: var(--shadow-md);
 }
 
 .post-card h3 {
-  font-size: 1.15rem;
-  font-weight: 750;
-  line-height: 1.45;
-  margin: 10px 0 10px;
-  letter-spacing: -0.02em;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 8px 0;
 }
 
 .post-card h3 a {
@@ -408,26 +580,28 @@ main {
 
 .post-card .meta {
   margin-top: auto;
-  font-size: 0.86rem;
-  color: var(--muted);
 }
 
+/* 카테고리 표시는 조용한 글자로: 색은 본문 링크 한 곳에만 */
 .badge {
   display: inline-block;
-  padding: 3px 11px;
-  border-radius: 9999px;
-  background: var(--primary-soft);
-  color: var(--primary-strong);
-  font-size: 0.78rem;
-  font-weight: 700;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.5;
   text-decoration: none;
   position: relative;
   z-index: 1;
-  border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent);
-  letter-spacing: -0.01em;
+}
+
+.badge:hover {
+  color: var(--primary-strong);
 }
 
 .badge--draft {
+  margin-left: 8px;
+  padding: 0 6px;
+  border-radius: 4px;
   background: var(--accent-soft);
   color: var(--accent);
 }
@@ -437,7 +611,8 @@ main {
   flex-wrap: wrap;
   gap: 4px 12px;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: 0.8125rem;
+  font-variant-numeric: tabular-nums;
 }
 
 .compact-list {
@@ -448,8 +623,9 @@ main {
 }
 
 .compact-list li {
-  padding: 10px 0;
+  padding: 12px 0;
   border-bottom: 1px solid var(--border);
+  line-height: 1.5;
 }
 
 .compact-list li:last-child {
@@ -459,33 +635,32 @@ main {
 .compact-list a {
   color: var(--text);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.5;
+  transition: color 0.15s var(--ease);
 }
 
 .compact-list a:hover {
-  color: var(--primary);
+  color: var(--primary-strong);
+}
+
+.compact-list.ranked {
+  max-width: 800px;
 }
 
 .compact-list.ranked li {
   display: flex;
-  gap: 10px;
+  gap: 16px;
 }
 
 .compact-list.ranked li::before {
   counter-increment: rank;
   content: counter(rank);
   flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  border-radius: 6px;
-  background: var(--primary-soft);
-  color: var(--primary-strong);
-  font-size: 0.8rem;
-  font-weight: 800;
-  display: grid;
-  place-items: center;
-  margin-top: 2px;
+  width: 16px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
 }
 
 .category-grid {
@@ -495,15 +670,20 @@ main {
 }
 
 .category-card {
-  padding: 18px;
+  padding: 20px;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--surface);
 }
 
 .category-card h3 {
-  margin: 0 0 6px;
-  font-size: 1.05rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0 0 8px;
+  font-size: 1.0625rem;
+  font-weight: 600;
 }
 
 .category-card h3 a {
@@ -511,11 +691,58 @@ main {
   text-decoration: none;
 }
 
-.category-card p {
-  margin: 0 0 10px;
+.category-card h3 a:hover {
+  color: var(--primary-strong);
+}
+
+.category-card .count {
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+}
+
+.category-card p {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 0.9375rem;
   line-height: 1.6;
+}
+
+.category-card .compact-list a {
+  font-size: 0.9375rem;
+}
+
+.category-card .empty {
+  margin: 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 0.875rem;
+}
+
+/* 만드는 방식: 카드 대신 가는 선 위 세 단 */
+.principles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px 40px;
+}
+
+.principles section {
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.principles h3 {
+  margin: 0 0 8px;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+
+.principles p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9375rem;
+  line-height: 1.7;
 }
 
 /* ── Article layout ── */
