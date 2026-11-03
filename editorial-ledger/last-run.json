@@ -1,11 +1,8 @@
 {
-  "date": "2026-11-03",
-  "published": [
-    "winter-car-snow-chains-fabric-socks-spray-winter-tires-comparison-guide",
-    "winter-thermal-insulated-tumbler-thermos-comparison-cleaning-guide"
-  ],
-  "remaining": 0,
-  "status": "daily-limit-reached",
+  "date": "2026-11-04",
+  "published": [],
+  "remaining": 2,
+  "status": "held",
   "newPost": null,
-  "workflowStatus": "success"
+  "reason": "검증할 새 질문 소진: 주제 목록 보충 필요"
 }
