@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-electric-heating-pad-mat-fire-safety-emf-care-guide': {
+    sectionTitle: '겨울 전기요·탄소매트 BEST 3 (인체감지 무자계 · 프리미엄 워셔블 · 고급 카본열선)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 화재·전자파 안전 기능 · 실구매 리뷰 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '안전 기능 1위 🥇',
+        productName: '위니브 인체감지 무자계 탄소매트 전기요, 싱글, 프레피',
+        specSummary: '사람이 감지되면 온도를 올리고 떠나면 낮추는 인체감지 방식으로 불필요한 가열 자체를 줄이는 무자계 전기요. 확인일 기준 40% 할인가 88,200원(원가 148,000원)',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/inoPL6A9V6',
+      },
+      {
+        rank: 2,
+        rankBadge: '프리미엄 워셔블 1위 🥈',
+        productName: '[27년 프리미엄] 일신한일의료기 전기매트 에어퀼팅 카본 전기요 워셔블 탄소매트 전자파없는 온열매트, 퀸사이즈 토퍼(150x200cm), 노베이지',
+        specSummary: '분리 세탁이 쉬운 에어퀼팅 토퍼형 카본매트. 확인일 기준 36% 할인가 139,000원(원가 219,000원), 침구 축열 위험을 줄이는 토퍼 구조',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/inoyC0u9LY',
+      },
+      {
+        rank: 3,
+        rankBadge: '가성비 카본열선 1위 🥉',
+        productName: 'HanilMedical 탄소열선 고급 전기요 HL-D205(25), 북극곰, M (100 x 180 cm)',
+        specSummary: 'M 사이즈 기준 확인일 62% 할인가 29,800원(원가 79,500원)의 카본열선 전기요. 첫 겨울 전기요 입문용 가성비 선택지',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/inoEn996Yg',
+      },
+    ],
+  },
   'winter-car-snow-chains-fabric-socks-spray-winter-tires-comparison-guide': {
     sectionTitle: '겨울철 스노우체인 BEST 3 (직물체인 · 우레탄 자동체인 · 스프레이 체인)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 방식별 실구매 리뷰 규모·규격 인증 기준 종합',
