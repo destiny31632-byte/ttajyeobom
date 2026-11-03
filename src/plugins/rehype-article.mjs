@@ -93,8 +93,11 @@ export function rehypeArticle(options = {}) {
     const links = [];
     const imageParagraphs = [];
     const images = [];
+    const strayBold = [];
 
     const visit = (node, parent, index) => {
+      if (node.type === 'text' && parent && node.value.includes('**')) strayBold.push({ node, parent });
+      if (node.type === 'element' && (node.tagName === 'code' || node.tagName === 'pre')) return;
       if (node.type === 'element') {
         if (node.tagName === 'table' && parent) tables.push({ node, parent });
         if (node.tagName === 'a') links.push(node);
@@ -109,6 +112,17 @@ export function rehypeArticle(options = {}) {
       for (let i = 0; i < (node.children?.length ?? 0); i++) visit(node.children[i], node, i);
     };
     visit(tree, null, null);
+
+    // 0) 굵게 표시 복구: CommonMark 규칙상 `**'다음으로 복원'**을`, `**2.7%**를`처럼
+    //    문장부호 바로 뒤에 조사가 붙으면 강조가 닫히지 않아 별표가 그대로 보임
+    for (const { node, parent } of strayBold) {
+      const parts = node.value.split(/\*\*([^*]+?)\*\*/);
+      if (parts.length < 3) continue;
+      const replaced = parts
+        .map((part, i) => (i % 2 ? el('strong', {}, [txt(part)]) : part ? txt(part) : null))
+        .filter(Boolean);
+      parent.children.splice(parent.children.indexOf(node), 1, ...replaced);
+    }
 
     // 1) 표 래핑
     tables.forEach(({ node, parent }, i) => {
