@@ -59,7 +59,7 @@ sources:
     accessed: 2026-11-03
     note: "라텍스 침구 혼용 3시간 만에 내부 온도 100도 이상, 메모리폼·솜 매트는 상대적 안전, 도내 전기매트 화재 28건 중 50% 축열 발화 의심"
   - title: "'전기장판 위 라텍스 매트리스'…얼마나 위험한지 실험해 보니"
-    url: "https://news.kbs.co.kr/news/view.do?ncd=8481632"
+    url: "https://news.kbs.co.kr/news/view.do?ncd=8481465"
     publisher: "KBS 뉴스(제주소방본부 실험)"
     type: press
     accessed: 2026-11-03
