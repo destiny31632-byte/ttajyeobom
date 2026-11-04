@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-dry-skin-itch-body-lotion-ceramide-urea-care-guide': {
+    sectionTitle: '겨울 바디로션 BEST 3 (세라마이드 정규 · 우레아 대용량 · 판테놀 고보습)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 건조증 성분 대응 · 실구매 리뷰 규모 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '일리윤 세라마이드 아토 로션 무향, 508ml',
+        specSummary: '상품평 145,000개 이상을 쌓은 국민 세라마이드 바디로션. 무향·약산성이라 온몸 도포 부담이 적고, 장벽 손상에 맞는 세라마이드 배합. 확인일 기준 24% 할인가 14,720원(원가 19,500원)',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iozOwYhRg4',
+      },
+      {
+        rank: 2,
+        rankBadge: '대용량 가성비 1위 🥈',
+        productName: '세타필 모이스춰라이징 로션, 591ml',
+        specSummary: '상품평 238,000개 이상, 겨울 보습제 1주 250g 권장량을 채우기 가장 쉬운 대용량 제형. 확인일 기준 44% 할인가 13,610원(원가 24,500원)',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iozPUJnuq',
+      },
+      {
+        rank: 3,
+        rankBadge: '고보습 프리미엄 1위 🥉',
+        productName: '템포러리 인텐스 PDRN 세라마이드 고보습 바디로션 로즈마리 아로마향, 2개 1L',
+        specSummary: '세라마이드에 PDRN을 더한 고보습 배합, 1L 2개 구성으로 가족·나눠 쓰기 좋은 사이즈. 확인일 기준 43% 할인가 16,190원(원가 28,600원)',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iozS5hu6Xk',
+      },
+    ],
+  },
   'winter-hot-water-heating-mat-leak-water-care-guide': {
     sectionTitle: '겨울 온수매트 BEST 3 (판매 1위 워셔블 · 더블 가성비 · 프리미엄 슬림)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 누수 대응 관리성 · 실구매 리뷰 규모 기준 종합',
