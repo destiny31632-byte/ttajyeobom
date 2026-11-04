@@ -14,6 +14,37 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-car-tire-pressure-tpms-warning-light-portable-inflator-guide': {
+    sectionTitle: '겨울 차량용 무선 전동 에어펌프 BEST 3 (랭킹 최상위 · 검증 브랜드 · 올인원 세트)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 겨울철 자연감압 대응 오토스톱·배터리 용량 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '카플 스마트 유무선 타이어 공기압 주입기, 7500mAh, 80cm 노즐, 혼합색상',
+        specSummary: '쿠팡랭킹순 최상위 실물. 대용량 7500mAh 배터리와 80cm 긴 노즐로 네 바퀴 연속 보충이 쉽고, 확인일 기준 41% 할인가 58,400원(원가 99,000원)',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ipV3KwaPzU',
+      },
+      {
+        rank: 2,
+        rankBadge: '가성비 메인 1위 🥈',
+        productName: '샤오미 다용도 에어펌프 2, 블랙',
+        specSummary: '트렁크 휴대성 정답 모델. 최대 150psi 설정 압력 자동 정지와 C타입 충전을 갖췄고, 확인일 기준 33% 할인가 32,010원(원가 48,200원)',
+        tag: '해외배송 ✈️',
+        link: 'https://link.coupang.com/a/ipV505BGsS',
+      },
+      {
+        rank: 3,
+        rankBadge: '올인원 구성 1위 🥉',
+        productName: '메이튼 휴대용 무선 타이어 공기압 주입기 올인원 에어펌프 세트, 6000mAh, 블랙',
+        specSummary: '노즐·파우치 올인원 구성으로 자전거와 공까지 한 번에 대응. 확인일 기준 49% 할인가 30,430원(원가 59,800원)',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ipV7S02NiK',
+      },
+    ],
+  },
+  'winter-knit-sweater-fabric-shaver-lint-remover-comparison-guide': {
   'winter-knit-sweater-fabric-shaver-lint-remover-comparison-guide': {
     sectionTitle: '겨울 니트 보풀제거기 BEST 3 (대용량 충전식 · 세탁소용 고출력 · 경량 프리미엄)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 니트 케이크 대응 안전장치(망 높이·안전핀) 기준 종합',
