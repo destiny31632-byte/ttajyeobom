@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-knit-sweater-fabric-shaver-lint-remover-comparison-guide': {
+    sectionTitle: '겨울 니트 보풀제거기 BEST 3 (대용량 충전식 · 세탁소용 고출력 · 경량 프리미엄)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 니트 케이크 대응 안전장치(망 높이·안전핀) 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '티나인 보풀제거기, TN-5000, 화이트',
+        specSummary: '쿠팡랭킹순 상위 실물. 대용량 충전식 6중날 구성으로 넓은 면적을 빠르게 커버하고, 확인일 기준 32% 할인가 36,800원(원가 54,900원)',
+        tag: '로캣배송 🚀',
+        link: 'https://link.coupang.com/a/io30RuWu5d',
+      },
+      {
+        rank: 2,
+        rankBadge: '세탁소용 고출력 1위 🥈',
+        productName: '티나인 보풀제거기, TN-3000, 혼합색상',
+        specSummary: '세탁소 현장에서 많이 쓰는 고출력 모델. 억센 보풀 처리에 유리하고, 확인일 기준 41% 할인가 39,800원(원가 67,800원)',
+        tag: '로캣배송 🚀',
+        link: 'https://link.coupang.com/a/io314ZpnY4',
+      },
+      {
+        rank: 3,
+        rankBadge: '가벼운 프리미엄 1위 🥉',
+        productName: '필립스 보풀제거기, GC-026, 블루',
+        specSummary: '공식 사용 안내가 명확한 글로벌 브랜드의 경량 모델. 손목 부담이 적어 니트 밀착 조작이 쉽고, 확인일 기준 32% 할인가 17,460원(원가 25,900원)',
+        tag: '로캣배송 🚀',
+        link: 'https://link.coupang.com/a/io33eT1WEu',
+      },
+    ],
+  },
   'winter-dry-skin-itch-body-lotion-ceramide-urea-care-guide': {
     sectionTitle: '겨울 바디로션 BEST 3 (세라마이드 정규 · 우레아 대용량 · 판테놀 고보습)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 건조증 성분 대응 · 실구매 리뷰 규모 기준 종합',
