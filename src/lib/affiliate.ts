@@ -45,7 +45,6 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
     ],
   },
   'winter-knit-sweater-fabric-shaver-lint-remover-comparison-guide': {
-  'winter-knit-sweater-fabric-shaver-lint-remover-comparison-guide': {
     sectionTitle: '겨울 니트 보풀제거기 BEST 3 (대용량 충전식 · 세탁소용 고출력 · 경량 프리미엄)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 니트 케이크 대응 안전장치(망 높이·안전핀) 기준 종합',
     products: [
