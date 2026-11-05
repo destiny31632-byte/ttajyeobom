@@ -5,7 +5,7 @@ import { CATEGORIES } from './taxonomy';
 const env = (import.meta as any).env ?? {};
 
 /** 문의 이메일: 운영자가 공개해도 되는 주소를 확인한 뒤 여기에 적거나 PUBLIC_CONTACT_EMAIL 로 설정 */
-const CONTACT_EMAIL_DEFAULT = '';
+const CONTACT_EMAIL_DEFAULT = 'destiny31632@gmail.com';
 
 export const SITE = {
   name: '따져봄',

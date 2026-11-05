@@ -3,7 +3,7 @@ title: "2026 여권 발급·재발급 가이드: 10년 수수료·온라인 신�
 description: "2026년 기준 성인 일반여권 최초 발급과 재발급 준비물, 10년 여권 수수료, 정부24·KB스타뱅킹 온라인 재발급, 유효기간과 긴급 발급까지 정리했습니다."
 pubDate: 2026-10-02T15:20:00+09:00
 updatedDate: 2026-10-09T19:14:32+09:00
-category: public
+category: travel
 tags: ["여권 발급", "여권 재발급", "여권 수수료", "정부24", "해외여행 준비"]
 cluster: passport-travel-docs
 targetQuery: "여권 재발급"
