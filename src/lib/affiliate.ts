@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-dry-eyes-warm-eye-mask-massager-meibomian-gland-care-guide': {
+    sectionTitle: '겨울 온열안대·눈마사지기 BEST 3 (판매량 최상위 · 40도 발열 · 실구매 리뷰)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 마이봄샘 온찜질 40~45도 치료 구간·위생 구조 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '멕리듬 스팀 아이마스크 일회용 온열안대 무향, 14회분, 1세트',
+        specSummary: '쿠팡랭킹순 최상위 실물. 개봉 즉시 약 40도 스팀 발열이라 온도 조절 실수가 없고 매일 10분 루틴에 가장 쉬운 구성',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iqfTKZHLWl',
+      },
+      {
+        rank: 2,
+        rankBadge: '온도조절 1위 🥈',
+        productName: '닥터포텐 아이케어 충전식 온열 안대 눈 찜질기 분리세척, 1개',
+        specSummary: '다회용으로 장기비용이 유리한 충전식. 온도 단계 조절과 분리세척 커버로 위생 관리가 쉽고 타이머로 과열 사용을 막는다',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iqfWl3dNxS',
+      },
+      {
+        rank: 3,
+        rankBadge: '힐링케어 1위 🥉',
+        productName: '제스파 공기압 안대형 안마기 ZAP-1400CRM(크림), 1개',
+        specSummary: '온열에 관자놀이 지압을 결합한 휴식형. 압박 기능은 안압을 올릴 수 있으니 녹내장·안압 질환자는 1·2위 온열 전용을 권장',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iqfYKzjxPT',
+      },
+    ],
+  },
   'winter-boiler-hot-water-freeze-error-code-diy-thawing-guide': {
     sectionTitle: '겨울 보일러 동파 예방 BEST 3 (랭킹 최상위 · KC인증 · 실빙 작업 대응)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 노출 배관 보온·정온 센서·국부 해빙 기준 종합',
