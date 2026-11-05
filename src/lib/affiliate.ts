@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-boiler-hot-water-freeze-error-code-diy-thawing-guide': {
+    sectionTitle: '겨울 보일러 동파 예방 BEST 3 (랭킹 최상위 · KC인증 · 실빙 작업 대응)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 노출 배관 보온·정온 센서·국부 해빙 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '고무발포보온재 동관 9T 10M롤 동파방지 단열재',
+        specSummary: '노출 직수관·온수관 보온의 기본값. 9T 두께 10M 롤로 보일러 하단 배관을 통째로 감쌀 수 있고, 확인일 기준 6,540원',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iqeEmxYq5s',
+      },
+      {
+        rank: 2,
+        rankBadge: '정온 안전 1위 🥈',
+        productName: '국산 동파방지열선 실리콘 자동전원 센서형 KC인증, 10m, 1개',
+        specSummary: '과열 시 전원이 자동 차단되는 센서형 정온 방식. KC인증 10m 규격이고, 확인일 기준 20% 할인가 39,500원(원가 49,700원)',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iqeGAvAUXQ',
+      },
+      {
+        rank: 3,
+        rankBadge: '해빙 작업 1위 🥉',
+        productName: '블랙앤데커 열풍기 KX1800, 1개',
+        specSummary: '배관과 거리를 두고 넓게 훑듯이 가열하는 해빙용 열풍기. 검증 브랜드 정품이고, 확인일 기준 23,650원',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/iqeIqTVbzw',
+      },
+    ],
+  },
   'winter-car-tire-pressure-tpms-warning-light-portable-inflator-guide': {
     sectionTitle: '겨울 차량용 무선 전동 에어펌프 BEST 3 (랭킹 최상위 · 검증 브랜드 · 올인원 세트)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 겨울철 자연감압 대응 오토스톱·배터리 용량 기준 종합',
