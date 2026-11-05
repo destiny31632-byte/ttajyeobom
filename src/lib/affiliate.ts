@@ -74,6 +74,36 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
       },
     ],
   },
+  'winter-electric-heater-fan-ptc-electricity-bill-safety-guide': {
+    sectionTitle: '겨울 전기히터·온풍기 BEST 3 (랭킹 최상위 · PTC 과열제어 · KC인증)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 소비전력 명판·전도 전원차단·누진 대응 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '다와 타올라 미니 전기 온풍기, FH-2002F, 화이트',
+        specSummary: '원룸 책상 옆에서 가장 많이 팔리는 2,000W급 미니 온풍기. 확인일 기준 32% 할인가 16,970원(원가 25,000원)',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/irAfgV3FpQ',
+      },
+      {
+        rank: 2,
+        rankBadge: 'PTC 안전 1위 🥈',
+        productName: '이엑스파워 PTC 공업용 미니 온풍기 2KW EFH-2000, 1개',
+        specSummary: '자기온도제어 PTC 발열체 방식. 과열 제어에 유리한 구조로 창고·작업장·원룸 보조 난방용이고, 확인일 기준 39,000원',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/irAhzMSfMy',
+      },
+      {
+        rank: 3,
+        rankBadge: '판매량 3위 🥉',
+        productName: '신일 PTC 온풍 팬히터, SEH-P1600WS, 혼합색상',
+        specSummary: '국내 브랜드 검증 기기. PTC 방식 팬히터로 방 크기에 맞춘 단계 제어가 가능하고, 확인일 기준 34% 할인가 63,900원(원가 98,000원)',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/irAjb99eDT',
+      },
+    ],
+  },
   'winter-car-tire-pressure-tpms-warning-light-portable-inflator-guide': {
     sectionTitle: '겨울 차량용 무선 전동 에어펌프 BEST 3 (랭킹 최상위 · 검증 브랜드 · 올인원 세트)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 겨울철 자연감압 대응 오토스톱·배터리 용량 기준 종합',
