@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-humidifier-ultrasonic-heating-natural-evaporative-comparison-guide': {
+    sectionTitle: '겨울 가습기 방식별 BEST 3 (가열식 통세척 · 초음파 무풍 · 기화식 에어워셔)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 한국소비자원 13개 제품 시험 대응 모델 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '가열식 살균 1위 🥇',
+        productName: '르젠 대용량 가열식 가습기, LZHD-H85, White',
+        specSummary: '소비자원 시험에서 가열식 가습량 1위(499ml/h)를 기록한 동일 모델. 99도 고온 증기 살균 방식이라 세균 에어로졸 걱정이 구조적으로 낮고, 확인일 기준 27% 할인가 210,490원(원가 289,000원)',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/irTn6oMhBQ',
+      },
+      {
+        rank: 2,
+        rankBadge: '초음파 무풍 1위 🥈',
+        productName: '미로 초음파 가습기, MH7000, 화이트',
+        specSummary: '소비자원 시험에서 초음파식 가습량 1위(267ml/h)를 기록한 동일 모델. 무풍 저소음(25dB) 방식이고 확인일 기준 43% 할인가 242,000원(원가 430,000원). 수돗물 대신 정제수 + 매일 물 교체가 사용 조건',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/irTrRwwIM0',
+      },
+      {
+        rank: 3,
+        rankBadge: '기화식 무입자 1위 🥉',
+        productName: '오아 플렌티 에어워셔 기화식 가습기 4L, OHM-077IV',
+        specSummary: '소비자원 시험 대상에 오른 기화식 에어워셔. 물 입자 분무가 없어 백분현상과 센서 오인이 사실상 없고, 확인일 기준 66% 할인가 72,000원(원가 213,000원). 필터 3~6개월 교체 주기 관리 필요',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/irTt9EcDLN',
+      },
+    ],
+  },
   'winter-dry-eyes-warm-eye-mask-massager-meibomian-gland-care-guide': {
     sectionTitle: '겨울 온열안대·눈마사지기 BEST 3 (판매량 최상위 · 40도 발열 · 실구매 리뷰)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 마이봄샘 온찜질 40~45도 치료 구간·위생 구조 기준 종합',

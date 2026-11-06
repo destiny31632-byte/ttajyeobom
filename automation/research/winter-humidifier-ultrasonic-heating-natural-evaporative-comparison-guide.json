@@ -1,0 +1,202 @@
+{
+  "slug": "winter-humidifier-ultrasonic-heating-natural-evaporative-comparison-guide",
+  "checkedAt": "2026-11-06T13:05:00+09:00",
+  "facts": [
+    {
+      "claim": "환경부 실내공기질 관리 종합정보망은 겨울철 실내 적정 온도를 18~21도, 습도를 40~60%로 권고한다.",
+      "value": "18~21도, 40~60%, 18도, 21도, 40~60%",
+      "sourceUrl": "https://www.inair.or.kr/info/m/selfguide.html",
+      "evidence": "환경부 실내공기질 관리 종합정보망 '계절별 적정 온습도를 유지하세요: 겨울철 18~21℃, 여름철 24~27℃, 습도 40~60%'. 결합 토큰: 18~21℃, 40~60%",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "한국소비자원은 초음파식 4개, 가열식 3개, 복합식 3개, 기화식 3개 등 가습기 13개 제품을 시험평가했고 1시간 가습량은 제품 간 최대 3.3배(182~606ml/h) 차이가 났다.",
+      "value": "13개, 182~606ml/h, 3.3배, 182ml/h, 606ml/h, 초음파식 4개, 가열식 3개, 복합식 3개, 기화식 3개",
+      "sourceUrl": "https://www.kca.go.kr/webzine/board/view?div=kca_2512&linkId=954&menuId=MENU00307",
+      "evidence": "소비자원 비교공감 제2025-18호 가습기 품질비교: 시험대상 13개 제품(초음파 4, 가열 3, 복합 3, 기화 3), 가습량 최대 3.3배(182~606ml/h). 결합 토큰: 182~606ml/h",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "방식별 1시간 가습량 최고 기종은 초음파식 미로 MH7000 267ml/h, 가열식 르젠 LZHD-H85 499ml/h, 복합식 LG전자 606ml/h, 기화식 샤오미 433ml/h다.",
+      "value": "267ml/h, 499ml/h, 606ml/h, 433ml/h, MH7000, LZHD-H85",
+      "sourceUrl": "https://www.kca.go.kr/webzine/board/view?div=kca_2512&linkId=954&menuId=MENU00307",
+      "evidence": "소비자원 시험: 초음파식은 미로(MH7000) 267ml/h, 가열식은 르젠(LZHD-H85) 499ml/h, 복합식은 LG전자(HY704RWUAB) 606ml/h, 기화식은 샤오미(CJSJSQ02XYKR) 433ml/h로 가습량 최고",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "연간 유지관리비용(전기요금+필터)은 초음파식 4,640~6,420원, 가열식 72,750~91,070원, 기화식 5,330~108,330원, 복합식 15,780~189,290원으로 제품 간 최대 40배 이상 차이가 났다.",
+      "value": "4,640~6,420원, 72,750~91,070원, 5,330~108,330원, 15,780~189,290원, 40배, 4,640원, 6,420원, 72,750원, 91,070원, 5,330원, 108,330원, 15,780원, 189,290원",
+      "sourceUrl": "https://www.kca.go.kr/webzine/board/view?div=kca_2512&linkId=954&menuId=MENU00307",
+      "evidence": "소비자원: 연간 유지관리비용 초음파식 4,640~6,420원, 가열식 72,750~91,070원, 기화식 5,330~108,330원, 복합식 15,780~189,290원, 최대 40배 이상 차이. 결합 토큰: 4,640~6,420원, 72,750~91,070원, 5,330~108,330원, 15,780~189,290원",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "연간 전기요금 계산 조건은 하루 8시간(4시간 2회), 한 달 30일, 6개월(봄·겨울) 사용, 1kWh당 160원이다.",
+      "value": "8시간, 30일, 6개월, 160원, 1kWh당 160원",
+      "sourceUrl": "https://www.kca.go.kr/webzine/resources/doc/%5B202512%5D%EC%83%81%ED%92%88%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A0%9C%ED%92%88_%EB%AA%A9%EB%A1%9D.pdf",
+      "evidence": "소비자원 시험평가 원문: 연간 전기요금은 하루 8시간(4시간×2회), 30일, 6개월 사용 조건, 1kWh당 160원 적용",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "초음파식 4개 제품의 8시간 에너지소비량은 161~223Wh로 시간당 20~28W이고, 가열식 3개 제품은 2,526~3,162Wh로 시간당 316~395W다.",
+      "value": "161~223Wh, 223Wh, 161Wh, 20~28W, 28W, 20W, 2,526~3,162Wh, 3,162Wh, 2,526Wh, 316~395W, 395W, 316W",
+      "sourceUrl": "https://www.kca.go.kr/webzine/resources/doc/%5B202512%5D%EC%83%81%ED%92%88%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A0%9C%ED%92%88_%EB%AA%A9%EB%A1%9D.pdf",
+      "evidence": "소비자원 제품별 정밀 수치: 초음파 4제품 8시간 에너지소비량 161~223Wh(시간당 20~28W 역산), 가열식 3제품 2,526~3,162Wh(시간당 316~395W 역산). 결합 토큰: 161~223Wh, 2,526~3,162Wh, 20~28W, 316~395W",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "가열식 가습기를 하루 8시간씩 30일 가동하면 월 76~95kWh가 추가되고, 소비자원 160원/kWh 기준으로는 월 약 1.2~1.5만원이다.",
+      "value": "76~95kWh, 95kWh, 76kWh, 1.2~1.5만원, 12,125원, 15,178원",
+      "sourceUrl": "https://www.kca.go.kr/webzine/resources/doc/%5B202512%5D%EC%83%81%ED%92%88%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A0%9C%ED%92%88_%EB%AA%A9%EB%A1%9D.pdf",
+      "evidence": "316~395W×8h×30일=76~95kWh 역산. 소비자원 연간 전기요금 72,750~91,070원을 6개월로 나누면 월 12,125~15,178원. 결합 토큰: 76~95kWh, 1.2~1.5만원",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "누진 3단계(400kWh 초과, 307.3원)에 진입한 집에서 가열식 월 76~95kWh 추가분의 실질 청구액은 기후환경요금 9.0원, 연료비조정요금 5.0원, 부가세 10%, 전력기금 2.7%를 더해 월 약 2만9천~3만6천원이다.",
+      "value": "307.3원, 9.0원, 5.0원, 400kWh, 2만9천~3만6천원, 28,985원, 36,231원, 3단계",
+      "sourceUrl": "https://home.kepco.co.kr/kepco/front/html/CY/E/E/CYEEHP00101.html",
+      "evidence": "한전 주택용 저압 3단계 전력량요금 307.3원/kWh에 기후환경 9.0원, 연료비조정 5.0원 합산 321.3원, 부가세 10%와 전력기금 2.7% 곱한 실질 단가 381.38원/kWh 적용: 76kWh=28,985원, 95kWh=36,231원. 결합 토큰: 2만9천~3만6천원",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "초음파식 월 추가 사용량 4.8~6.7kWh의 1단계 실질 요금은 월 약 800원 수준(764~1,066원)이고, 3단계에서는 약 1,900~2,600원이다.",
+      "value": "4.8~6.7kWh, 6.7kWh, 4.8kWh, 800원, 764원, 1,066원, 1,900~2,600원, 2,600원",
+      "sourceUrl": "https://home.kepco.co.kr/kepco/front/html/CY/E/E/CYEEHP00101.html",
+      "evidence": "초음파 20~28W×8h×30일=4.8~6.7kWh. 1단계 실질 단가 (120.0+9.0+5.0)×1.187=159.1원 → 764~1,066원. 3단계 실질 381.38원 → 1,831~2,555원 반올림. 결합 토큰: 4.8~6.7kWh, 1,900~2,600원",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "소비자원 시험에서 가열식 3개 제품의 가습 증기 최대온도는 99도였고 끓임 단계에서는 수조 내부 물 온도가 100도 이상으로 올라갔다.",
+      "value": "99도, 100도, 3개",
+      "sourceUrl": "https://www.kca.go.kr/webzine/board/view?div=kca_2512&linkId=954&menuId=MENU00307",
+      "evidence": "소비자원: 가열식 3개 제품은 99도의 고온 증기가 분무되었고 끓임 단계에서는 수조 내부 물 온도가 100℃ 이상",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "소비자위해감시시스템(CISS) 기준 2020년 1월부터 2023년 10월까지 가열식 가습기 위해사례는 164건이고 그중 화상이 92건(56.1%)이며, 화상 92건 중 77.2%(71건)가 만 6세 이하에서 발생했다.",
+      "value": "164건, 92건, 56.1%, 77.2%, 71건, 만 6세",
+      "sourceUrl": "https://www.kca.go.kr/webzine/board/view?div=kca_2404&linkId=670&menuId=MENU00307",
+      "evidence": "소비자원 웹진: 가열식가습기 위해사례 164건 중 화상 92건(56.1%), 연령별 화상 92건 중 0~6세 71건(77.2%)",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "가열식 화상 위해는 2020년 6건, 2021년 16건, 2022년 23건, 2023년(10월까지) 47건으로 매년 증가했다.",
+      "value": "6건, 16건, 23건, 47건",
+      "sourceUrl": "https://www.yna.co.kr/view/AKR20240205138100030",
+      "evidence": "연합뉴스(2024-02-06) 보도: 화상 건수 2020년 6건, 2021년 16건, 2022년 23건, 2023년(10월까지) 47건",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "소비자원이 시험한 가열식 가습기 21개 제품은 전부 전도 시 수증기 토출구로 뜨거운 물을 배출했고, 밥솥형 17개 제품의 유출수 온도는 97~100도였다.",
+      "value": "21개, 17개, 97~100도, 97도, 100도",
+      "sourceUrl": "https://www.kca.go.kr/webzine/board/view?div=kca_2404&linkId=670&menuId=MENU00307",
+      "evidence": "소비자원: 가열식 21개 제품 전도 시험이라 전 제품이 수증기 토출구를 통해 물 유출, 내솥 전체를 가열하는 밥솥형(21개 중 17개)은 유출되는 물 온도 97~100도. 결합 토큰: 97~100도",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "소비자원(당시 소비자보호원)이 서울·수도권 53가구 사용 중 가습기를 검사한 결과 18대(34.0%)에서 병원성 세균·알레르기 유발균이 검출됐고, 녹농균 9대, 폐렴간균 3대, 황색포도상구균 3대에서 검출됐다.",
+      "value": "53가구, 18대, 34.0%, 9대, 3대",
+      "sourceUrl": "https://www.kca.go.kr/home/sub.do?menukey=4006&mode=view&no=1001139155",
+      "evidence": "소비자원 안전주의보: 53가구 가습기 물통·진동자 시험 결과 18대(34.0%)에서 병원성·알레르기 미생물 검출, 녹농균 9대, 폐렴간균 3대, 황색포도상구균 3대",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "매일 물통과 진동자의 물을 교환하면 미생물이 87.3% 감소하고, 이틀마다 물 교환과 세척을 동시에 하면 98.8%까지 감소한다.",
+      "value": "87.3%, 98.8%",
+      "sourceUrl": "https://www.kca.go.kr/home/sub.do?menukey=4006&mode=view&no=1001139155",
+      "evidence": "소비자원 모의실험: 매일 물 교환 시 87.3% 감소, 이틀마다 교환+세척 시 98.8% 감소",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "소비자원 세척 요령은 이틀마다 물통과 진동자를 부드러운 솔·천으로 닦고 주 1회 중성세제로 세척한 뒤 3회 이상 헹구는 것이다.",
+      "value": "2일, 1주, 3회",
+      "sourceUrl": "https://www.kca.go.kr/home/sub.do?menukey=4006&mode=view&no=1001139155",
+      "evidence": "소비자원 가습기 세척요령: 진동자 부분 및 물통은 이틀마다 닦고, 1주일에 한번 중성세제 세척, 세제가 남지 않게 3회 이상 헹굼",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "소비자원 가습기내 유해 미생물 안전실태조사에서 초음파식 가습기의 진동자 부분 유해 미생물 검출률은 34.5%로 가장 높았고, 검출 미생물에 녹농균 5종이 포함됐다.",
+      "value": "34.5%, 5종",
+      "sourceUrl": "https://www.stcarollo.or.kr/0401/5688",
+      "evidence": "성가롤로병원 건강정보(소비자원 '가습기내 유해 미생물 안전실태조사' 인용): 초음파식 진동자 부분 검출률 34.5%, 녹농균 5종 포함. 가열식은 진동자에서 미생물 미검출",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "질병관리청은 레지오넬라증이 오염된 물의 에어로졸 흡입으로 감염되며 레지오넬라균은 20~45도에서 잘 증식하고, 가습기 물은 매일 교체하고 청소 후 완전히 건조된 상태에서 사용하라고 권고한다.",
+      "value": "20~45도, 매일",
+      "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148918621",
+      "evidence": "질병관리청 Q&A(정책브리핑): 에어로졸 흡입 감염, 25도~45도에서 잘 자람(국가건강정보포털 20~45도), 가습기 매일 물 교체와 청소 후 완전 건조 사용 권고. 결합 토큰: 20~45도",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "EPA는 초음파·임펠러식이 물탱크의 미생물과 미네랄을 실내 공기로 분산한다고 정리하고, 이동식 가습기는 3일마다 세척하고 실내 상대습도가 50%를 넘지 않게 하라고 권고한다.",
+      "value": "3일, 50%",
+      "sourceUrl": "https://www.epa.gov/sites/default/files/2014-08/documents/humidifier_factsheet.pdf",
+      "evidence": "EPA Indoor Air Facts No. 8: ultrasonic/impeller humidifiers disperse microorganisms and minerals, clean portable humidifiers every third day, do not humidify above 50 percent",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "CPSC는 백분(white dust)이 물속 미네랄이 만든 침전물이며 미스트 속 미네랄 입자 중 일부는 폐까지 들어갈 수 있는 크기라고 안내하고, 물때(스케일)가 세균·곰팡이의 배지가 된다고 설명한다.",
+      "value": "5046",
+      "sourceUrl": "https://www.cpsc.gov/s3fs-public/5046.pdf",
+      "evidence": "CPSC Publication 5046: Minerals can also be released in the mist and settle as fine white dust, particles small enough to enter the lungs; scale is a surface on which bacteria or fungi may grow",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "샤오미 공식 지원 문서는 초음파 가습기의 미스트 입자가 PM2.5와 직경이 비슷해 공기청정기 센서가 먼지로 오인해 수치가 비정상적으로 높아지거나 오류값을 낼 수 있으며, 초음파를 끄면 수치가 서서히 정상으로 돌아온다고 확인한다.",
+      "value": "999, PM2.5",
+      "sourceUrl": "https://www.mi.com/global/support/faq/details/KA-491687/",
+      "evidence": "샤오미 FAQ: ultrasonic humidifiers disperse very fine mist with diameter similar to PM2.5, the sensor misinterprets droplets as dust causing higher or erroneous readings, readings gradually return to normal after turning off",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "Wang, Delp, Singer의 2020년 Building and Environment 연구에서 가정용 공기질 모니터 6종은 모두 초음파 가습기 미네랄 에어로졸에 크게 반응했고 필터 없는 초음파 가습기 에어로졸 응답은 진공청소기·시험용 먼지보다 컸다.",
+      "value": "6종, 21가지, 2020년",
+      "sourceUrl": "https://doi.org/10.1016/j.buildenv.2020.106654",
+      "evidence": "Building and Environment 2020: six low-cost monitors all had substantial responses to the three mineral sources, with generally higher response to the unfiltered ultrasonic humidifier aerosol than vacuuming or test dust",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "소비자원 시험에서 제품별 최대 소음은 37~62dB이었고 가열식은 물이 끓는 과정에서 일시적으로 52~55dB까지 올라갔다.",
+      "value": "37~62dB, 62dB, 37dB, 52~55dB, 55dB, 52dB",
+      "sourceUrl": "https://www.kca.go.kr/webzine/board/view?div=kca_2512&linkId=954&menuId=MENU00307",
+      "evidence": "소비자원: 제품별 최대 소음(음향파워레벨) 37~62dB, 가열식은 물 끓는 과정에서 52~55dB까지 상승. 결합 토큰: 37~62dB, 52~55dB",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "기화식 가습 필터 교체비용은 25,800원 수준이고 교체 주기는 3~6개월이며, 공기청정 겸용 제품은 필터비로 연간 유지관리비용이 커질 수 있다.",
+      "value": "25,800원, 3~6개월, 6개월, 3개월",
+      "sourceUrl": "https://www.kca.go.kr/webzine/resources/doc/%5B202512%5D%EC%83%81%ED%92%88%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A0%9C%ED%92%88_%EB%AA%A9%EB%A1%9D.pdf",
+      "evidence": "소비자원 시험평가 원문 필터 교체비용 주기: 가습 필터 25,800원(3~6개월 주기 교체). 결합 토큰: 3~6개월",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "복합식은 60도 미만 저온 가열이나 초음파 단독 가동 시 세균 방출 가능성이 남고, 소비자원 사용 주의사항은 물 이외의 첨가물을 넣지 말 것을 요구한다.",
+      "value": "60도",
+      "sourceUrl": "https://www.kca.go.kr/webzine/board/view?div=kca_2512&linkId=954&menuId=MENU00307",
+      "evidence": "소비자원 가습기 사용·세척 주의사항: 제품 내부에 물 이외의 다른 첨가물을 넣지 마세요(입자로 분해되어 호흡기로 들어가면 기관지 염증 유발). 복합식 저온 가열 모드 세균 방출 가능성은 소비자원 단체표준 시험 보도 기준",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "쿠팡 랭킹 실물 링크 3건은 르젠 대용량 가열식 가습기 LZHD-H85(27% 할인가 210,490원), 미로 초음파 가습기 MH7000(43% 할인가 242,000원), 오아 플렌티 에어워셔 기화식 가습기 4L OHM-077IV(66% 할인가 72,000원)이며 모두 2026-11-06 발급 실물이다.",
+      "value": "210,490원, 27%, 242,000원, 43%, 72,000원, 66%, LZHD-H85, MH7000, OHM-077IV",
+      "sourceUrl": "https://link.coupang.com/a/irTn6oMhBQ",
+      "evidence": "쿠팡 파트너스 링크 생성 화면 확인(2026-11-06): 르젠 LZHD-H85 210,490원(원가 289,000원 27%), 미로 MH7000 242,000원(원가 430,000원 43%), 오아 OHM-077IV 72,000원(원가 213,000원 66%). 부속 링크 irTrRwwIM0(미로), irTt9EcDLN(오아)",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "카카오 선물하기 큐레이터 링크 2건은 오아 무선 미니 가습기 듀얼미스트 무드등(6% 할인가 27,900원, 예상 수익 2,511원, 선물후기 1,162건)과 대웅 포트 100도 가열식 가습기 MOFH-ST115(최대혜택가 49,410원, 예상 수익 5,391원, 위시 8,864개, 예약출고 2026년 11월 23일)이며 2026-11-06 발급 실물이다.",
+      "value": "27,900원, 2,511원, 1,162건, 49,410원, 5,391원, 8,864, 59,900원, 2026년 11월 23일",
+      "sourceUrl": "https://gift-link.kakao.com/c/9rNUCeSC",
+      "evidence": "카카오 선물하기 큐레이터 링크 생성 확인(2026-11-06): 오아 무선 미니 가습기 27,900원·예상수익 2,511원·후기 1,162건(gift-link.kakao.com/c/9rNUCeSC), 대웅 포트 100도 가열식 판매가 59,900원·최대혜택가 49,410원·예상수익 5,391원·예약판매 2026.11.23 출고(gift-link.kakao.com/c/2u5JVKQO)",
+      "asOf": "2026-11-06"
+    },
+    {
+      "claim": "2026년 11월 6일 아침 서울 최저기온은 4도(체감 1도)이고 11월 7일은 영하 1도로 올겨울 첫 영하권이며, 가열식 하루 8시간 가동 시 누진 2단계(201~400kWh, 214.6원) 적용 시 월 추가 요금은 약 2만~2만6천원이다.",
+      "value": "4도, 1도, 영하 1도, 214.6원, 201~400kWh, 2만~2만6천원, 20,623원, 25,778원",
+      "sourceUrl": "https://home.kepco.co.kr/kepco/front/html/CY/E/E/CYEEHP00101.html",
+      "evidence": "기상: Apple Weather 11-06 최저 4도·체감 1도, 11-07 영하 1도(11-06 조회). 요금: 2단계 실질 단가 (214.6+9.0+5.0)×1.187=271.35원/kWh, 76kWh=20,623원, 95kWh=25,778원. 결합 토큰: 201~400kWh, 2만~2만6천원",
+      "asOf": "2026-11-06"
+    }
+  ]
+}
