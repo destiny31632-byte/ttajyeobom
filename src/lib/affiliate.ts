@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-window-insulation-bubble-wrap-draft-proofing-mold-guide': {
+    sectionTitle: '겨울 창문 단열 BEST 3 (틈새바람 틈막이 · 간이 이중창 방풍비닐 · 단열 에어캡)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 한국생활환경학회지 기밀 실측(침기 82~89% 저감) 대응 기준 종합',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '기밀 차단 1위 🥇',
+        productName: '에코와이드 끼우는 문풍지 창문 틈새막이 외풍 창틀 바람막이 M, 4개',
+        specSummary: '뽁뽁이가 못 막는 창틀 중첩부·개폐부 틈새바람을 잡는 1순위 품목. 실측 연구에서 기밀 부자재 설치로 침기풍속이 0.77에서 0.09 m/s로 89% 저감됐고, 확인일 기준 63% 할인가 14,600원(원가 40,500원)',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/isnInOed6O',
+      },
+      {
+        rank: 2,
+        rankBadge: '간이 이중창 1위 🥈',
+        productName: 'ZOZI 벨크로 투명 방풍비닐 외풍차단 단열 보온 방풍커튼 비닐커튼, 1개',
+        specSummary: '창 전체를 덮어 공기층을 만드는 간이 이중창 방식. 실내온도 2~3℃ 상승 조합(에너지공단)에 맞물리는 시야 확보형 단열이고, 확인일 기준 75% 할인가 9,900원(원가 39,600원)',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/isnKAAJCKq',
+      },
+      {
+        rank: 3,
+        rankBadge: '판매량 1위 🥉',
+        productName: '뽁순이 3중 뽁뽁이 단열에어캡, 1개',
+        specSummary: '유리 표면 열이동을 줄이는 기포 공기층 방식의 대표 에어캡. SBS 실험에서 설치 방 중 1위(대조군 대비 2.2도 높음) 효과를 보였고 12,161개 상품평 누적, 확인일 기준 57% 할인가 9,880원(원가 22,990원). 망입유리에는 부착 금지',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/isnMKq01Iq',
+      },
+    ],
+  },
   'winter-humidifier-ultrasonic-heating-natural-evaporative-comparison-guide': {
     sectionTitle: '겨울 가습기 방식별 BEST 3 (가열식 통세척 · 초음파 무풍 · 기화식 에어워셔)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 한국소비자원 13개 제품 시험 대응 모델 기준 종합',
