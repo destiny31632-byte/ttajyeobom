@@ -14,6 +14,34 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-cold-feet-foot-warmer-merino-wool-socks-heated-insoles-guide': {
+    sectionTitle: '겨울 발 보온 BEST 3 (USB·충전식 발열 깔창 · 메리노울 울 양말 · 온열 풋워머)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 한국소비자원 표면온도·KC 안전인증 기준 종합(확인일 2026-11-07)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '발열 깔창 리뷰 1위 🥇',
+        productName: '카토 발열깔창 발난로 발열패드 신발깔창 가열 전기 겨울 야외 부츠 기능성 깔창, 여성용 남성용',
+        specSummary: '신발 깔창형 전기 발열로 발바닥을 직접 데우는 방식. 발열깔창 검색 결과군에서 상품평 332건으로 실구매가 가장 쌓인 실물이고, 확인일 기준 33% 할인가 19,900원(원가 29,900원). 사용 전 KC 인증번호와 표면온도 단계(소비자원 권고 37℃ 이하) 확인이 기본',
+        link: 'https://link.coupang.com/a/itffuTOUZE',
+      },
+      {
+        rank: 2,
+        rankBadge: '흡습발열 소재 1위 🥈',
+        productName: '산로 남여공용 사계절 메리노 울 등산양말, 블랙, 1개',
+        specSummary: '울 섬유의 흡습발열 구조(무게의 약 30%까지 수분 흡수, 폴리에스터 대비 96% 우수한 수분 버퍼링)로 두꺼운 폴리에스터 수면양말의 기화열 참사를 피하는 소재 해법. 5점 만점에 상품평 757건, 확인일 기준 5% 쿠폰 할인가 12,040원(원가 12,800원), 와우 무료배송',
+        tag: '와우 무료배송',
+        link: 'https://link.coupang.com/a/itfdeNwIuG',
+      },
+      {
+        rank: 3,
+        rankBadge: '사무실 발난로 1위 🥉',
+        productName: '히팅패드 파티션 4면 (+무릎담요) 전기 히터 난로 사무실 발난로 온열기 루니스, 4면 발열 - 라이트 그레이, LS-HEATINGPAD7',
+        specSummary: '책상 앞 하체를 네 면으로 감싸는 파티션형 온열기에 무릎담요가 세트로 붙는 구성. 등재 파티션형 온열기가 소비전력 155W급인 것과 같은 저전력 방식이라 하루 5시간 사용 시 월 23.25kWh 계산(확인일 1단계 120.0원/kWh 기준 약 2,790원). 상품평 729건, 확인일 기준 31% 할인가 47,900원',
+        link: 'https://link.coupang.com/a/itfeegxaQS',
+      },
+    ],
+  },
   'winter-window-insulation-bubble-wrap-draft-proofing-mold-guide': {
     sectionTitle: '겨울 창문 단열 BEST 3 (틈새바람 틈막이 · 간이 이중창 방풍비닐 · 단열 에어캡)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 한국생활환경학회지 기밀 실측(침기 82~89% 저감) 대응 기준 종합',
