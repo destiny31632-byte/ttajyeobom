@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-heated-mattress-pad-carbon-vs-hot-water-electric-blanket-fire-guide': {
+    sectionTitle: '라텍스 위 온열매트 BEST 3 (카본 DC 매트 · 온수매트 · 가성비 카본)',
+    sectionSubtitle: '한국소비자원 탄소매트 10종 시험과 쿠팡 상품평 기준 종합(확인일 2026-11-07)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '온도편차 최소 1위 🥇',
+        productName: '귀뚜라미 카본매트 KDM-92 블루투스 고급형 DC 탄소매트, 퀸(150x200cm)',
+        specSummary: '직류(DC) 전원과 무자계 카본 열선을 쓴 고급형. 소비자원 시험에서 같은 계열 KDM-921이 위치별 온도편차 0.4℃로 10개 제품 중 가장 고르게 데워졌고, 머리부에는 열선을 넣지 않아 축열 위험을 줄였다. 확인일 기준 41% 할인가 239,000원(정가 411,000원), 상품평 23건',
+        tag: 'DC · 무자계',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9697936818&itemId=29008978314&vendorItemId=95937159506',
+      },
+      {
+        rank: 2,
+        rankBadge: '열선 없는 온수 1위 🥈',
+        productName: '경동나비엔 숙면 온수매트 슬림형 EQM555-QS, 퀸',
+        specSummary: '매트 안에 열선이 없는 모터순환식 온수매트. 듀얼 온도센싱과 0.5℃ 단위 제어, 자동 물빼기, 이온 살균, 누수 알림, 15시간 자동 전원 차단을 갖춰 라텍스 침대 위에서도 축열 화재 경로가 없다. 확인일 기준 33% 할인가 279,650원(정가 418,000원), 상품평 57건',
+        tag: 'EMF 인증 · 3년 AS',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7928064959&itemId=21799964734&vendorItemId=96027096343',
+      },
+      {
+        rank: 3,
+        rankBadge: '가성비·리뷰 1위 🥉',
+        productName: '일월 워셔블 카본 온열 전기매트, 체크 그레이, 싱글(90x180cm)',
+        specSummary: '4만원대 진입 가격의 탄소 열선 매트. 물세탁이 가능하고 상품평이 4,927건으로 실사용 모수가 가장 크다. 다만 두께가 얇은 저가형이라 소비자원 권고대로 별도 패드를 깔아야 하고, 라텍스·메모리폼 위에는 절대 올리지 않는다. 확인일 기준 50% 할인가 39,900원(정가 81,000원)',
+        tag: '워셔블 · 가성비',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9080861108&itemId=26676808369&vendorItemId=73761603647',
+      },
+    ],
+  },
   'winter-dry-chapped-lips-lip-balm-cheilitis-care-guide': {
     sectionTitle: '겨울 입술 건조 BEST 3 (판테놀 립크림 · 시어버터 립밤 · 바셀린 스틱)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 누적 상품평 기준 종합(확인일 2026-11-07)',
