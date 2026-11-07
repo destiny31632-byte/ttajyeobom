@@ -491,6 +491,36 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
       },
     ],
   },
+  'winter-goose-down-padding-wash-dry-cleaning-laundry-care-guide': {
+    sectionTitle: '패딩 케어 도구 BEST 3 (다운 전용 중성세제 · 양모 건조기볼 · 발수 코팅 스프레이)',
+    sectionSubtitle: '2026-11-02 쿠팡 실물 판매 페이지 확인가와 판매량·상품평 기준 종합(가격은 시점에 따라 달라짐)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '다운 전용 세제 1위 🥇',
+        productName: '울샴푸 다운워시 본품, 800ml, 1개',
+        specSummary: '거위털·오리털의 유지분을 남기면서 때만 떼는 다운 전용 중성세제. 손세탁과 일반·드럼 세탁기 모두 사용 가능하고, 물세탁 라벨이 붙은 패딩의 기본값이다. 상품평 16,876건·평점 5, 확인일 40% 할인가 8,690원(정가 14,500원). 1회 30ml 기준 약 26회분이라 회당 334원 꼴',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ilf5IhLAKy',
+      },
+      {
+        rank: 2,
+        rankBadge: '털뭉침 복원 1위 🥈',
+        productName: '코멧 홈 건조기 양모 울드라이어볼 6p + 파우치 세트, 화이트, 1세트',
+        specSummary: '건조기 안에서 패딩을 두드려 뭉친 다운을 풀어주는 100% 양모 볼 6개와 보관 파우치 구성. 테니스공보다 표면이 부드러워 겉감 손상 걱정이 적다. 건조기가 없으면 효과가 없으니 자연건조만 하는 집은 사지 않아도 된다. 상품평 4,565건·평점 4.5, 확인일 26% 할인가 6,990원',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ilf7sJlDtA',
+      },
+      {
+        rank: 3,
+        rankBadge: '발수 복원 1위 🥉',
+        productName: 'NIKWAX 닉왁스 다이렉스 스프레이온 고어텍스용 발수제, 300ml, 1개',
+        specSummary: '아웃도어 겉감의 DWR 발수 코팅을 되살리는 스프레이온 타입. 세탁과 중온 건조로 물방울이 다시 맺히지 않을 때만 쓰는 마지막 카드다. 반드시 환기되는 실외에서 마스크를 쓰고 소량씩 뿌린다. 상품평 448건·평점 4.5, 확인일 21% 할인가 14,100원',
+        tag: '로켓배송 🚀',
+        link: 'https://link.coupang.com/a/ilf89k8HOS',
+      },
+    ],
+  },
   'winter-down-jacket-padding-laundry-water-wash-vs-dry-cleaning-guide': {
     sectionTitle: '겨울 패딩 세탁·관리 BEST 3 (다운 전용 중성세제 · 울볼 · 발수 코팅 복원제)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 유지분 보호 · 필파워 복원 · 발수 갱신 1위 기준 종합',
