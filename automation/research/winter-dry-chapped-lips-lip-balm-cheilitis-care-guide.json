@@ -1,0 +1,244 @@
+{
+  "slug": "winter-dry-chapped-lips-lip-balm-cheilitis-care-guide",
+  "checkedAt": "2026-11-07T12:20:00+09:00",
+  "facts": [
+    {
+      "claim": "11월 7일 서울 아침 최저기온이 영하 1도, 체감온도는 영하 4도 수준이며 한파주의보가 11월 6일 오후 9시에 발효됐다. 올가을 첫 영하권 진입이다.",
+      "value": "영하 1도, 영하 4도, 11월 7일, 11월 6일, 오후 9시",
+      "sourceUrl": "https://www.yna.co.kr/view/AKR20261106160100530",
+      "evidence": "7일 서울 아침 최저 영하 1도, 체감 영하 4도, 한파주의보 6일 오후 9시 발효",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "기상청 예보를 인용한 보도에서 7일 서울 아침 영하 1도에 체감온도 영하 5도 수준까지 내려가고 북쪽 상공 영하 30도 찬 공기가 유입된다고 전했다.",
+      "value": "영하 1도, 영하 5도, 영하 30도",
+      "sourceUrl": "https://www.imaeil.com/page/view/2026110608592295711",
+      "evidence": "7일 서울 아침 영하 1도에 체감 영하 5도 수준 예보, 북상공 영하 30도 찬 공기",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "입술에는 모공이 없어 땀이나 피지를 분비하지 못하므로 자연 보습막이 형성되지 않고, 입술 주위 피부는 다른 피부의 약 1/2 두께로 얇다.",
+      "value": "1/2 두께",
+      "sourceUrl": "https://health.chosun.com/site/data/html_dir/2023/05/15/2023051502102.html",
+      "evidence": "입술에는 모공이 없어 피지를 분비하지 못해 자연 보습막이 형성되지 않는다. 입술 주위 피부는 다른 피부의 약 1/2 두께",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "입술이 마를 때 침을 바르면 침이 증발하면서 입술의 수분까지 빼앗고, 침에 있는 아밀라아제 등 소화효소가 입술 피부를 자극해 박탈성 구순염으로 악화될 수 있다.",
+      "value": "아밀라아제",
+      "sourceUrl": "https://health.chosun.com/site/data/html_dir/2023/05/15/2023051502102.html",
+      "evidence": "침은 유분기가 없어 금방 증발하며 수분까지 빼앗고, 침의 아밀라아제 등 소화효소가 입술 피부를 자극",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "입술은 다른 피부와 달리 피지선이 없어 수분 보호막이 없고, 피부 속 수분량은 다른 피부의 절반 정도이며 수분 증발 속도는 3~4배 빠르다. 립밤 1회 사용량은 평균 0.1g 정도다.",
+      "value": "절반, 3~4배, 0.1g",
+      "sourceUrl": "https://www.joongang.co.kr/article/13242221",
+      "evidence": "입술은 피지선이 없고 피부 속 수분량이 다른 피부의 절반, 수분 증발 속도 3~4배. 1회 사용량 평균 0.1g",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "입술은 각질 턴오버 주기가 빠르고 최외곽 각질층이 얇아 각질 발생량이 많으며, 부속기관이 존재하지 않아 수분 유지에 매우 취약하다.",
+      "value": "부속기관 없음",
+      "sourceUrl": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003037813",
+      "evidence": "입술은 각질 턴오버 주기가 빠르고 최외곽 각질층이 얇으며 부속기관이 없어 수분 유지에 취약",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "박탈성 구순염은 만성 염증이 아랫입술 중앙에서 시작해 퍼지고 염증과 껍질이 수개월 동안 벗겨지며, 광선 구순염의 6~10%는 편평상피암으로 진행한다.",
+      "value": "수개월, 6~10%",
+      "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32151",
+      "evidence": "박탈성 구순염 염증과 껍질이 수개월 동안 벗겨짐, 광선 구순염 6~10%가 편평상피암 진행",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "구순염은 원인이 확실하면 원인 질환 치료가 우선이고, 가벼운 증상에는 글리세린·바셀린을 바르며 액체나 로션보다 크림·기름 성분이 많은 연고 제제가 예방에 도움이 된다.",
+      "value": "글리세린, 바셀린",
+      "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32151",
+      "evidence": "가벼운 증상에는 글리세린·바셀린, 로션보다 크림·기름 성분 많은 연고 제제가 예방에 도움",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "접촉입술염은 입술의 홍순에 자극 물질 접촉이나 화학물질 민감작용으로 생기며, 과반수 이상이 립스틱이나 입술보호제 때문에 발생하고 환자의 90% 이상이 여성이다.",
+      "value": "90% 이상, 과반수",
+      "sourceUrl": "https://derma.or.kr/new/general/disease.php?mod=document&uid=5179",
+      "evidence": "접촉입술염 원인 과반수 이상이 립스틱·입술보호제, 환자 90% 이상이 여성",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "대한피부과학회는 입술이 갈라진 경우 바셀린이나 산화아연연고가 도움이 된다고 안내한다.",
+      "value": "바셀린, 산화아연연고",
+      "sourceUrl": "https://derma.or.kr/new/general/disease.php?mod=document&uid=5179",
+      "evidence": "입술이 갈라진 경우 바셀린 또는 산화아연연고가 도움이 된다",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "서울대학교병원은 접촉구순염 원인으로 만성적으로 입술을 핥는 행동, 추위, 낮은 습도, 바람, 립스틱·립밤 등 입술에 바르는 제품을 들고, 향이나 보존제·프로폴리스·라놀린이 들어 있는 립밤은 피하는 것이 좋다고 안내한다.",
+      "value": "라놀린, 프로폴리스",
+      "sourceUrl": "https://www.snuh.org/health/nMedInfo/nView.do?medid=AA001274",
+      "evidence": "입술 핥기·추위·낮은 습도·립밤이 접촉구순염 원인, 향·보존제·프로폴리스·라놀린 립밤은 회피 권고",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "미국피부과학회(AAD)는 입술이 갈라졌을 때 캄파, 유칼립투스, 향료, 민트·페퍼민트 향, 라놀린, 멘톨, 살리실산, 페놀 성분 제품을 중단하고 자극이 없으면 그 제품을 쓰지 말라고 안내한다.",
+      "value": "캄파, 멘톨, 라놀린, 살리실산",
+      "sourceUrl": "https://www.aad.org/public/everyday-care/skin-care-basics/dry/heal-dry-chapped-lips",
+      "evidence": "Avoid camphor, eucalyptus, flavoring, fragrance, lanolin, menthol, salicylic acid, phenol",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "미국피부과학회는 갈라진 입술에 페트롤라툼·세라마이드·시어버터·다이메티콘·피마자씨오일·미네랄오일·산화아연이 든 제품이 회복에 도움이 된다고 권한다.",
+      "value": "페트롤라툼, 세라마이드, 시어버터",
+      "sourceUrl": "https://www.aad.org/public/everyday-care/skin-care-basics/dry/heal-dry-chapped-lips",
+      "evidence": "Ingredients that can help: ceramides, petrolatum, shea butter, dimethicone, mineral oil",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "미국피부과학회는 립밤을 하루 여러 번과 자기 전에 바르고, 외출 시 자외선차단지수 30 이상 립밤을 2시간마다 덧바르며, 보통 2~3주 안에 눈에 띄는 개선이 나타난다고 안내한다.",
+      "value": "30 이상, 2시간, 2~3주",
+      "sourceUrl": "https://www.aad.org/public/everyday-care/skin-care-basics/dry/heal-dry-chapped-lips",
+      "evidence": "Apply several times a day and before bed, SPF 30+ every 2 hours outdoors, improvement in 2 to 3 weeks",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "클리블랜드 클리닉은 립밤보다 연고(바셀린 등)가 왁스나 오일보다 수분을 더 오래 잠그고, 먹고 마신 뒤에는 다시 발라야 하며, 야외에서는 자외선차단지수 30 이상을 2시간마다 덧바르라고 안내한다.",
+      "value": "30 이상, 2시간",
+      "sourceUrl": "https://my.clevelandclinic.org/health/diseases/22005-chapped-lips",
+      "evidence": "Ointment keeps lips hydrated longer than waxes or oils, reapply after eating and drinking, SPF 30+ every 2 hours",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "MSD 매뉴얼은 구순염을 입술 홍순의 표재성 염증으로 정의하고 원인으로 감염·일광 손상·약물·자극원·알레르기·기저질환을 들며, 치료에는 바셀린을 입술에 바르는 방법이 포함된다고 설명한다.",
+      "value": "바셀린",
+      "sourceUrl": "https://www.msdmanuals.com/ko/home/%EA%B5%AC%EA%B0%95-%EB%B0%8F-%EC%B9%98%EC%95%84-%EC%9E%A5%EC%95%A0/%EC%9E%85%EC%88%A0-%EB%B0%8F-%ED%98%80-%EC%9E%A5%EC%95%A0/%EC%9E%85%EC%88%A0-%EA%B6%A4%EC%96%91-%EC%9E%85%EC%88%A0-%EC%97%BC%EC%A6%9D-%EB%B0%8F-%EA%B8%B0%ED%83%80-%EB%B3%80%ED%99%94",
+      "evidence": "구순염은 입술 점막 경계의 표재성 염증, 치료에 바셀린 도포",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "정부 브리핑 자료는 입술이 모공 없이 보습막을 형성하지 못하고, 침을 바르면 마르면서 입술 수분까지 증발해 건조함이 악화되며, 각질을 뜯으면 상처와 세균 감염으로 구순염이 생길 수 있다고 안내한다.",
+      "value": "일주일에 1회",
+      "sourceUrl": "https://m.korea.kr/briefing/policyBriefingView.do?newsId=148788317",
+      "evidence": "입술 보습팩은 일주일에 1회 정도 권장, 침을 바르면 수분까지 증발해 더 건조해짐",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "단지형 립밤은 손가락으로 덜어 쓰다 균이 증식할 수 있어 스틱형·튜브형이 권장되고, 개봉 후 6개월 안에 쓰고 다른 사람과 공유하지 말아야 하며, 물은 하루 2리터 정도 마시는 것이 좋다.",
+      "value": "6개월, 2리터",
+      "sourceUrl": "https://health.chosun.com/site/data/html_dir/2023/12/27/2023122701940.html",
+      "evidence": "개봉 후 6개월 안에 사용, 타인과 공유 금지, 하루 2L 물 섭취 권장",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "강한 향료가 든 멘톨 립밤은 일시적 청량감을 주지만 입술을 자극해 건조함을 악화시킬 수 있고, 자외선차단지수 15 이상 립밤과 수면 중 침 흘림이 구각염을 유발할 수 있다는 피부과 전문의 설명이 소개됐다.",
+      "value": "15 이상",
+      "sourceUrl": "https://news.hidoc.co.kr/news/articleView.html?idxno=55411",
+      "evidence": "멘톨 립밤은 입술 자극으로 건조 악화, SPF 15 이상 권장, 침 흘림이 구각염 유발",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "질병관리청은 겨울철 한파 대비 건강수칙에서 적정 실내온도 18~20도와 적정 실내습도 40~50% 유지를 권하고, 실내가 건조하면 피부와 눈이 건조해진다고 설명한다.",
+      "value": "18~20도, 40~50%",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=2048",
+      "evidence": "적정 실내온도 18-20℃, 적정 실내습도 40-50%, 건조하면 피부와 눈이 건조해짐",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "대전충남소비자연맹이 영유아 립밤 7개 제품을 시험한 결과 1g당 가격이 1,020원에서 4,545원(평균 2,077원)으로 최대 4.5배 차이가 났고, 인체 피부 일차자극 시험에서 피부 자극지수 0.00(시험대상자 32명)으로 전 제품이 무자극성이었으며 pH는 6.3~7.0이었다.",
+      "value": "7개, 1,020원, 4,545원, 2,077원, 4.5배, 0.00, 32명, 6.3~7.0",
+      "sourceUrl": "https://newsfield.net/%ec%98%81%ec%9c%a0%ec%95%84-%eb%a6%bd%eb%b0%a4-7%ec%a2%85-%eb%aa%a8%eb%91%90-%ec%95%88%ec%a0%84%ec%a0%9c%ed%92%88-%ea%b0%84-%ea%b0%80%ea%b2%a9-%ec%b5%9c%eb%8c%80-4-5%eb%b0%b0-%ec%b0%a8/",
+      "evidence": "립밤 7개 제품 1g당 가격 1,020~4,545원 평균 2,077원 최대 4.5배, 피부 자극지수 0.00, pH 6.3~7.0",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "대한화장품협회 성분사전에서 페트롤라툼(성분코드 3602)의 배합목적은 헤어컨디셔닝제·수분증발차단제·피부보호제로 등록돼 있다.",
+      "value": "3602",
+      "sourceUrl": "https://kcia.or.kr/cid/search/ingd_view.php?no=3602",
+      "evidence": "페트롤라툼 성분코드 3602, 배합목적 헤어컨디셔닝제·수분증발차단제·피부보호제",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "대한화장품협회 성분사전에서 판테놀(성분코드 3528)의 배합목적은 헤어컨디셔닝제·용제·피부컨디셔닝제(보습제)로 등록돼 있다.",
+      "value": "3528",
+      "sourceUrl": "https://kcia.or.kr/cid/search/ingd_view.php?no=3528",
+      "evidence": "판테놀 성분코드 3528, 배합목적 헤어컨디셔닝제·용제·피부컨디셔닝제(보습제)",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "대한화장품협회 성분사전에서 세라마이드엔피(성분코드 7186, 구명칭 세라마이드3)의 배합목적은 헤어컨디셔닝제·피부컨디셔닝제(기타)로 등록돼 있다.",
+      "value": "7186",
+      "sourceUrl": "https://kcia.or.kr/cid/search/ingd_view.php?no=7186",
+      "evidence": "세라마이드엔피 성분코드 7186, 구명칭 세라마이드3, 배합목적 피부컨디셔닝제",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "식품의약품안전처는 화장품 사용할 때의 주의사항 및 알레르기 유발성분 표시에 관한 규정(고시 제2026-56호, 2026.8.5.)을 운영해 립밤 등 화장품의 알레르기 유발성분 표시 기준을 정하고 있다.",
+      "value": "2026-56호",
+      "sourceUrl": "https://kcia.or.kr/home/edu/edu_01.php?no=17786&type=view",
+      "evidence": "식약처 화장품 사용할 때의 주의사항 및 알레르기 유발성분 표시에 관한 규정 일부개정 고시 제2026-56호",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "무작위 이중맹검 위약 대조 연구에서 7일간 국소 덱스판테놀을 도포했을 때 각질층 수분이 증가하고 경피수분손실이 감소해 위약과 통계적으로 유의한 차이를 보였다.",
+      "value": "7일",
+      "sourceUrl": "https://doi.org/10.1055/s-0031-1300268",
+      "evidence": "Seven days' treatment with dexpanthenol improved stratum corneum hydration and reduced transepidermal water loss",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "아토피 피부염 병력이 있는 26명을 대상으로 한 이중맹검 무작위 임상시험에서 5% 덱스판테놀과 100% 페트롤라툼을 4주간 비교한 결과 경피수분손실 평균 감소폭이 덱스판테놀 -7.58, 페트롤라툼 -5.19 g/m²/h로 덱스판테놀이 더 컸고, 페트롤라툼군은 전원이 끈적임을 호소했다.",
+      "value": "26명, 5%, 100%, 4주, 7.58, 5.19",
+      "sourceUrl": "https://doi.org/10.14710/dimj.v7i1.28366",
+      "evidence": "26 participants, 5% dexpanthenol vs 100% petrolatum 4 weeks, TEWL change -7.58 vs -5.19 g/m2/h (p<0.001)",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "쿠팡에서 비판톨 립크림 7.5ml 1개는 확인일 기준 23% 할인가 6,150원(정가 8,000원)이고 상품평은 7,273건이다.",
+      "value": "7.5ml, 23%, 6,150원, 8,000원, 7,273건",
+      "sourceUrl": "https://www.coupang.com/vp/products/7849532964",
+      "evidence": "비판톨 립크림 7.5ml 1개 6,150원(23% 할인, 정가 8,000원), 상품평 7,273건",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "쿠팡에서 유리아쥬 제모스 스틱레브르 립밤 4g 1개는 확인일 기준 25% 할인가 9,000원(정가 12,000원)이고 상품평은 4,124건이다.",
+      "value": "4g, 25%, 9,000원, 12,000원, 4,124건",
+      "sourceUrl": "https://www.coupang.com/vp/products/34108",
+      "evidence": "유리아쥬 제모스 스틱레브르 립밤 4g 1개 9,000원(25% 할인, 정가 12,000원), 상품평 4,124건",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "쿠팡에서 바세린 립테라피 스틱 오리지널 4.8g 2개는 확인일 기준 4,480원이고 상품평은 40,620건이다.",
+      "value": "4.8g, 2개, 4,480원, 40,620건",
+      "sourceUrl": "https://www.coupang.com/vp/products/1946659295",
+      "evidence": "바세린 립테라피 스틱 오리지널 4.8g 2개 4,480원, 상품평 40,620건",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "카카오 선물하기 큐레이터에서 멜릭서 비건 립 버터 듀오(9종 택2)는 정가 34,000원에서 32% 할인한 22,900원이고 선물후기는 935건, 링크 구매 시 예상 수익은 2,061원이다.",
+      "value": "34,000원, 32%, 22,900원, 935건, 2,061원",
+      "sourceUrl": "https://gift-link.kakao.com/c/uCv9qswk",
+      "evidence": "멜릭서 비건 립 버터 듀오 22,900원(정가 34,000원, 32% 할인), 선물후기 935건, 예상 수익 2,061원",
+      "asOf": "2026-11-07"
+    },
+    {
+      "claim": "카카오 선물하기 큐레이터에서 오브제 무드 체인지 립밤 6종 택1은 정가 14,900원에서 29% 할인한 10,500원이고 선물후기는 1,179건, 링크 구매 시 예상 수익은 945원이다.",
+      "value": "14,900원, 29%, 10,500원, 1,179건, 945원",
+      "sourceUrl": "https://gift-link.kakao.com/c/l3VsgNAI",
+      "evidence": "오브제 무드 체인지 립밤 6종 택1 10,500원(정가 14,900원, 29% 할인), 선물후기 1,179건, 예상 수익 945원",
+      "asOf": "2026-11-07"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "시판 립케어 3종 용량 대비 가격(2026-11-07 쿠팡 판매가 기준, 1g 또는 1ml당)",
+      "formula": "판매가 ÷ 용량 = 용량당 가격. 비판톨 6,150원 ÷ 7.5ml = 820원/ml, 유리아쥬 9,000원 ÷ 4g = 2,250원/g, 바세린 4,480원 ÷ (4.8g×2=9.6g) = 466.7원/g",
+      "assumptions": "쿠팡 표시 판매가와 표시 용량 기준, 배송비·쿠폰 변동 제외. 비판톨은 ml, 바세린은 2개 세트 총량 9.6g 기준",
+      "values": [6150, 7.5, 820, 9000, 4, 2250, 4480, 4.8, 2, 9.6, 466.7, 467, 1020, 4545, 2077, 4.5]
+    }
+  ],
+  "watch": [
+    "쿠팡 판매가·상품평 수와 카카오 선물하기 할인율·재고의 변동(가격표 갱신 필요)",
+    "한파 특보 발효 시각과 11월 7일 기온 예보의 확정치",
+    "식약처 알레르기 유발성분 표시 고시의 개정 여부"
+  ],
+  "conflicts": []
+}

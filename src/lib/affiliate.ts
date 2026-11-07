@@ -14,6 +14,35 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-dry-chapped-lips-lip-balm-cheilitis-care-guide': {
+    sectionTitle: '겨울 입술 건조 BEST 3 (판테놀 립크림 · 시어버터 립밤 · 바셀린 스틱)',
+    sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 누적 상품평 기준 종합(확인일 2026-11-07)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판테놀 립크림 1위 🥇',
+        productName: '비판톨 립크림, 7.5ml, 1개',
+        specSummary: '덱스판테놀(판테놀) 계열로 각질층 수분·장벽 회복을 노리는 연고형 립크림. 립케어 검색 결과군에서 상품평 7,273건으로 리뷰가 가장 두껍게 쌓인 제품이고, 확인일 기준 23% 할인가 6,150원(원가 8,000원), 1ml당 820원 계산. 무향이라 향료 자극을 피하려는 경우 1순위',
+        tag: '와우 무료배송',
+        link: 'https://link.coupang.com/a/itynqHOXDM',
+      },
+      {
+        rank: 2,
+        rankBadge: '시어버터 스틱 1위 🥈',
+        productName: '유리아쥬 제모스 스틱레브르 립밤, 무향, 4g, 1개',
+        specSummary: '시어버터 기반 스틱형 립밤. 향 없이 미끄러지는 발림성으로 외출용·낮 시간대 덧바르기에 맞고, 확인일 기준 25% 할인가 9,000원(원가 12,000원), 1g당 2,250원으로 이번 비교 3종 중 가장 비싼 축. 상품평 4,124건',
+        link: 'https://link.coupang.com/a/ityoNLEnGm',
+      },
+      {
+        rank: 3,
+        rankBadge: '가성비·리뷰 1위 🥉',
+        productName: '바세린 립테라피 스틱, 오리지널, 4.8g, 2개',
+        specSummary: '페트롤라툼(바셀린) 밀폐제 계열 스틱. 수분을 공급하는 성분이 아니라 증발을 막는 쪽이라 갈라진 입술의 기본값에 해당하고, 확인일 기준 4,480원(2개 세트, 총 9.6g), 1g당 467원 계산으로 3종 중 최저. 상품평 40,620건으로 리뷰 모수가 가장 크다',
+        tag: '와우 무료배송',
+        link: 'https://link.coupang.com/a/itypHaPVO8',
+      },
+    ],
+  },
   'winter-cold-feet-foot-warmer-merino-wool-socks-heated-insoles-guide': {
     sectionTitle: '겨울 발 보온 BEST 3 (USB·충전식 발열 깔창 · 메리노울 울 양말 · 온열 풋워머)',
     sectionSubtitle: '최근 30일 쿠팡 판매 랭킹 및 한국소비자원 표면온도·KC 안전인증 기준 종합(확인일 2026-11-07)',
