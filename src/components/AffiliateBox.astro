@@ -3,22 +3,24 @@ import { getAffiliateRankingForPost } from '../lib/affiliate';
 
 interface Props {
   slug: string;
+  position?: 'top' | 'bottom';
 }
 
-const { slug } = Astro.props;
+const { slug, position = 'bottom' } = Astro.props;
 const rankingGroup = getAffiliateRankingForPost(slug);
+const isTop = position === 'top';
 ---
 
 {
   rankingGroup && rankingGroup.products.length > 0 && (
-    <aside class="ranking-box" aria-label="쿠팡 구매 BEST 랭킹 비교 추천" data-pagefind-ignore>
+    <aside class={`ranking-box ${isTop ? 'ranking-box--top' : ''}`} aria-label="쿠팡 구매 BEST 랭킹 비교 추천" data-pagefind-ignore>
       <div class="ranking-box__header">
         <div class="ranking-box__trophy-wrap">
-          <span class="ranking-box__leaf">🌿</span>
-          <span class="ranking-box__badge-title">구매 BEST</span>
-          <span class="ranking-box__leaf">🌿</span>
+          <span class="ranking-box__leaf">{isTop ? '⚡' : '🌿'}</span>
+          <span class="ranking-box__badge-title">{isTop ? '바쁜 분들을 위한 3초 결론 BEST' : '구매 BEST'}</span>
+          <span class="ranking-box__leaf">{isTop ? '⚡' : '🌿'}</span>
         </div>
-        <p class="ranking-box__criteria">{rankingGroup.sectionSubtitle || '최근 30일 누적 판매량 및 실구매 리뷰 기준 ⓘ'}</p>
+        <p class="ranking-box__criteria">{isTop ? '스펙 비교 전, 가장 많이 팔린 실구매 1~3위 제품 먼저 확인하세요 ⓘ' : (rankingGroup.sectionSubtitle || '최근 30일 누적 판매량 및 실구매 리뷰 기준 ⓘ')}</p>
         <h3 class="ranking-box__topic">{rankingGroup.sectionTitle}</h3>
       </div>
 
@@ -70,6 +72,19 @@ const rankingGroup = getAffiliateRankingForPost(slug);
 }
 
 <style>
+  .ranking-box--top {
+    margin: 20px 0 28px;
+    border: 2px solid #f97316;
+    background: linear-gradient(180deg, color-mix(in srgb, var(--surface, #ffffff) 88%, #ffedd5 12%) 0%, var(--surface, #ffffff) 100%);
+    box-shadow: 0 12px 36px -4px rgba(249, 115, 22, 0.16), 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+  }
+
+  [data-theme='dark'] .ranking-box--top {
+    border-color: #ea580c;
+    background: linear-gradient(180deg, color-mix(in srgb, var(--surface, #1e293b) 90%, #7c2d12 10%) 0%, var(--surface, #1e293b) 100%);
+    box-shadow: 0 12px 36px -4px rgba(0, 0, 0, 0.6);
+  }
+
   .ranking-box {
     margin: 40px 0 32px;
     padding: 28px 24px 22px;
