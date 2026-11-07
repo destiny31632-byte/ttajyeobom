@@ -1,11 +1,8 @@
 {
-  "date": "2026-11-07",
-  "published": [
-    "winter-dry-chapped-lips-lip-balm-cheilitis-care-guide",
-    "winter-cold-feet-foot-warmer-merino-wool-socks-heated-insoles-guide"
-  ],
-  "remaining": 0,
-  "status": "daily-limit-reached",
+  "date": "2026-11-08",
+  "published": [],
+  "remaining": 2,
+  "status": "held",
   "newPost": null,
-  "workflowStatus": "success"
+  "reason": "검증할 새 질문 소진: 주제 목록 보충 필요"
 }
