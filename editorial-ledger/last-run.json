@@ -4,5 +4,6 @@
   "remaining": 2,
   "status": "held",
   "newPost": null,
-  "reason": "검증할 새 질문 소진: 주제 목록 보충 필요"
+  "reason": "검증할 새 질문 소진: 주제 목록 보충 필요",
+  "workflowStatus": "failure"
 }
