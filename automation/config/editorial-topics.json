@@ -991,5 +991,122 @@
         "type": "official"
       }
     ]
+  },
+  {
+    "slug": "winter-neck-pain-cervical-pillow-memory-foam-latex-c-curve-guide",
+    "title": "겨울철 목디스크 경추베개 높이 계산법: 6~8cm vs 10~15cm, 메모리폼·라텍스 세탁 팩트",
+    "targetQuery": "겨울철 목디스크 경추베개 높이 계산법 메모리폼 라텍스 세탁",
+    "category": "living",
+    "cluster": "winter-neck-pillow",
+    "tags": [
+      "경추베개",
+      "목디스크베개",
+      "거북목베개",
+      "일자목교정",
+      "메모리폼베개",
+      "라텍스베개",
+      "베개높이",
+      "베개세탁"
+    ],
+    "sources": [
+      {
+        "title": "추간판탈출증(디스크) — 국가건강정보포털",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3348",
+        "publisher": "질병관리청",
+        "type": "government"
+      },
+      {
+        "title": "뻐근한 목, 거북목 시작인가요? — 이달의 건강정보",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/ntcnInfo/healthSourc/thtimtCntnts/thtimtCntntsView.do?thtimt_cntnts_sn=33",
+        "publisher": "질병관리청 국가건강정보포털",
+        "type": "government"
+      },
+      {
+        "title": "IT 기술은 청신호, 목 건강은 적신호 — 목디스크 관련 질환 진료 현황",
+        "url": "https://www.hira.or.kr/bbsDummy.do?brdBltNo=9235&brdScnBltNo=4&pgmid=HIRAA020041000100",
+        "publisher": "건강보험심사평가원",
+        "type": "government"
+      },
+      {
+        "title": "목디스크 베개 높이를 확인하라",
+        "url": "https://www.yna.co.kr/view/AKR20150417107900017",
+        "publisher": "연합뉴스",
+        "type": "press"
+      },
+      {
+        "title": "A Comparative Study on the Effects of Three Types of Pillows",
+        "url": "https://www.ptkorea.org/journal/view.html?doi=10.12674%2Fptk.2024.31.1.8",
+        "publisher": "한국척추·관절물리치료학회지",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "winter-indoor-ventilation-co2-humidity-heating-guide",
+    "title": "겨울철 실내 환기와 적정온도·습도: 창문 3번 vs 공기청정기, 이산화탄소 축적 막는 순서",
+    "targetQuery": "겨울철 실내 환기 적정온도 습도 공기청정기",
+    "category": "living",
+    "cluster": "winter-indoor-air",
+    "tags": [
+      "겨울환기",
+      "실내습도",
+      "적정실내온도",
+      "이산화탄소",
+      "공기청정기",
+      "결로예방",
+      "환기시간",
+      "겨울건조"
+    ],
+    "sources": [
+      {
+        "title": "겨울철 한파대비 건강수칙 — 국가건강정보포털",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=2048",
+        "publisher": "질병관리청",
+        "type": "government"
+      },
+      {
+        "title": "실내공기_미세먼지 — 환경보건포털",
+        "url": "https://www.ehtis.or.kr/cmn/sym/mnu/mpm/111021202/htmlCnView.do",
+        "publisher": "환경부 환경보건포털",
+        "type": "government"
+      },
+      {
+        "title": "실내생활 늘어나는 겨울철, 공기질 관리 어떻게?",
+        "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148909591",
+        "publisher": "대한민국 정책브리핑(국립환경과학원)",
+        "type": "government"
+      },
+      {
+        "title": "Q&A로 알아보는 미세먼지 궁금증 ② 실내 공기질 관리",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148885298",
+        "publisher": "대한민국 정책브리핑",
+        "type": "government"
+      }
+    ]
+  },
+  {
+    "slug": "winter-smartphone-battery-cold-weather-power-bank-guide",
+    "title": "겨울철 스마트폰 배터리 급방전: 영하에서 꺼지는 이유와 보조배터리 용량 계산",
+    "targetQuery": "겨울철 스마트폰 배터리 방전 보조배터리",
+    "category": "it",
+    "cluster": "winter-gadget",
+    "tags": [
+      "스마트폰배터리",
+      "겨울배터리",
+      "보조배터리",
+      "배터리수명",
+      "충전습관",
+      "아이폰배터리",
+      "방전",
+      "기내반입"
+    ],
+    "sources": [
+      {
+        "title": "iPhone 배터리 및 성능",
+        "url": "https://support.apple.com/ko-kr/101575",
+        "publisher": "Apple 지원",
+        "type": "official"
+      }
+    ]
   }
 ]

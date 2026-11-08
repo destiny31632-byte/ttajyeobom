@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-neck-pain-cervical-pillow-memory-foam-latex-c-curve-guide': {
+    sectionTitle: '겨울철 경추베개 BEST 3 (닥터바르미 · 수면공감 · 템퍼)',
+    sectionSubtitle: '2026-11-09 쿠팡 실구매가·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '후기 1위 · 로켓배송 🥇',
+        productName: '닥터바르미 메모리폼 경추베개, 쿨론 네이비 커버, 1개',
+        specSummary: '정가 109,000원에서 57,950원으로 내려간 국내 제조 메모리폼 경추베개. 상품평 4,087건으로 비교 3종 중 실사용 모수가 가장 두껍고, 쿨론·텐셀·아이스 커버를 골라 계절에 맞게 쓸 수 있다. 로켓배송이라 교환·반품 동선이 짧다. 확인일 기준 57,950원',
+        tag: '후기 4,087건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8492409064&itemId=2054463140&vendorItemId=70053751232',
+      },
+      {
+        rank: 2,
+        rankBadge: '높이 10cm · 넓은 폭 🥈',
+        productName: '수면공감 우유 경추 베개 플러스, 화이트, 1개',
+        specSummary: '정가 129,000원에서 56,350원. 67x37x10cm로 폭이 넓고 높이가 10cm라 옆으로 자는 사람에게 맞는 구간이다. 상품평 2,703건. 다만 커버가 기본 포함이 아니어서 커버 비용을 따로 잡아야 하고, 라텍스 라인은 같은 브랜드에서 5만원대에 별도 판매된다. 확인일 기준 56,350원',
+        tag: '높이 10cm',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8490481598&itemId=2226298903&vendorItemId=70223947980',
+      },
+      {
+        rank: 3,
+        rankBadge: '프리미엄 점탄성 🥉',
+        productName: '템퍼 오리지날 경추베개 메모리폼, M 사이즈, 1개',
+        specSummary: '정가 80,000원에서 60,880원. 점탄성 메모리폼의 기준을 만든 브랜드로 복원력과 지지력 평가가 좋고 상품평 352건. 다만 해외직구라 도착이 11월 23일로 잡히고, 반품 시 왕복 배송비 20,000원이 들어 급하게 필요하면 불리하다. 확인일 기준 60,880원',
+        tag: '해외직구 · 11/23 도착',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7168565942&itemId=25991937308&vendorItemId=92974298970',
+      },
+    ],
+  },
   'winter-rhinitis-nasal-irrigation-saline-cleaner-otitis-media-prevention-guide': {
     sectionTitle: '겨울 비염 코세척 BEST 3 (노즈스위퍼 키트 · 메쉬 네블라이저 · 대용량 분말 세트)',
     sectionSubtitle: '쿠팡 판매 랭킹·상품후기와 식약처 인증 기준 종합(확인일 2026-11-08)',
