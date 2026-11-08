@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-rhinitis-nasal-irrigation-saline-cleaner-otitis-media-prevention-guide': {
+    sectionTitle: '겨울 비염 코세척 BEST 3 (노즈스위퍼 키트 · 메쉬 네블라이저 · 대용량 분말 세트)',
+    sectionSubtitle: '쿠팡 판매 랭킹·상품후기와 식약처 인증 기준 종합(확인일 2026-11-08)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매 1위 · 후기 1위 🥇',
+        productName: '노즈스위퍼 수동식 코세정용 키트 + 분말 80p, 1세트',
+        specSummary: '전용 용기와 식염 분말 80포가 함께 오는 기본 세트. 쿠팡 검색 결과 브랜드 카테고리 1위이고 상품후기 13,122건으로 실사용 모수가 가장 두껍다. 1회(1포) 비용 226원 계산. 확인일 기준 18,080원, 무료배송',
+        tag: '후기 13,122건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7549169480&itemId=19862737719&vendorItemId=3537058015',
+      },
+      {
+        rank: 2,
+        rankBadge: '저소음 분무 1위 🥈',
+        productName: '오므론 메쉬 네블라이저 NE-U200, 1개',
+        specSummary: '메쉬 진동으로 식염수를 안개 입자로 만드는 휴대용 흡입기. 모터식보다 소음이 적어 밤이나 사무실에서 쓰기 좋다. 다만 코세척(관류)이 아니라 분무이므로 분비물 세척 목적에는 대체품이 아니다. 확인일 기준 114,000원, 상품후기 1,968건',
+        tag: '무소음 · 휴대용',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=5844746207&itemId=10153790580&vendorItemId=77436472483',
+      },
+      {
+        rank: 3,
+        rankBadge: '1회 최저가 🥉',
+        productName: '노즈스위퍼 코세척기 + 코세척분말 120포, 1세트',
+        specSummary: '용기와 분말 120포 구성. 21,780원을 120포로 나누면 1회 181원으로 1위 키트(226원)보다 20%가량 싸서 오래 쓸수록 유리하다. 상품후기 4,708건. 확인일 기준 21,780원, 무료배송',
+        tag: '1회 181원',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=2118520919&itemId=3596970288&vendorItemId=71582696898',
+      },
+    ],
+  },
   'winter-heated-mattress-pad-carbon-vs-hot-water-electric-blanket-fire-guide': {
     sectionTitle: '라텍스 위 온열매트 BEST 3 (카본 DC 매트 · 온수매트 · 가성비 카본)',
     sectionSubtitle: '한국소비자원 탄소매트 10종 시험과 쿠팡 상품평 기준 종합(확인일 2026-11-07)',

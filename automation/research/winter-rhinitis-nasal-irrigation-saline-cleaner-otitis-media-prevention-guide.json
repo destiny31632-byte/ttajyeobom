@@ -1,0 +1,125 @@
+{
+  "slug": "winter-rhinitis-nasal-irrigation-saline-cleaner-otitis-media-prevention-guide",
+  "checkedAt": "2026-11-08T12:40:00+09:00",
+  "facts": [
+    {
+      "claim": "국가지표체계가 국민건강보험공단 건강보험통계로 공표한 자료에서 혈관운동성 및 알레르기성 비염(J30) 진료인원은 2024년 7,314,032명, 유병률 14.1%였다. 2023년은 7,482,530명·14.5%, 2022년은 6,215,219명·12.0%다.",
+      "value": "2024년, 2024, 7,314,032명, 7314032, 731만, 731, 14.1%, 14.1, 2023년, 2023, 7,482,530명, 7482530, 14.5%, 14.5, 2022년, 2022, 6,215,219명, 6215219, 12.0%, 12.0",
+      "sourceUrl": "https://www.index.go.kr/unity/potal/eNara/sub/showStblGams3.do?freq=Y&idx_cd=F0211&period=N&stts_cd=F021101",
+      "evidence": "혈관운동성 및 알레르기성 비염(J30) 환자수 2024 7,314,032 / 유병률 14.1 (2023 7,482,530·14.5, 2022 6,215,219·12.0). 출처: 국민건강보험공단 「건강보험통계」",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "미국 질병통제예방센터(CDC)는 수돗물이나 수도꼭지 물에 든 파울러자유아메바(Naegleria fowleri)와 아칸타메바(Acanthamoeba)가 코로 들어가 뇌로 가면 치명률이 매우 높은 뇌 감염을 일으킨다고 밝히고, 코 세척에는 증류수·멸균수 또는 끓였다가 식힌 물을 쓰라고 안내한다.",
+      "value": "",
+      "sourceUrl": "https://www.cdc.gov/naegleria/prevention/sinus-rinsing.html",
+      "evidence": "Although rare, people have died from rinsing their sinuses with tap or faucet water containing the germs Naegleria fowleri and Acanthamoeba. When rinsing your sinuses or nasal passages, use store-bought distilled or sterilized water, or tap or faucet water that's been boiled and cooled.",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "CDC는 수돗물을 쓸 경우 팔팔 끓는 상태에서 1분(해발 6,500피트 이상은 3분) 끓인 뒤 식히고, 남은 물은 깨끗이 소독한 뚜껑 있는 용기에 보관하라고 안내한다. 여과를 택할 때는 NSF 53 또는 NSF 58 표시가 있거나 절대 공극 1마이크론 이하 필터를 쓴다.",
+      "value": "1분, 1, 6,500피트, 6500, 3분, 3, NSF 53, 53, NSF 58, 58, 1마이크론, 1",
+      "sourceUrl": "https://www.cdc.gov/naegleria/media/pdfs/naegleria-ritual-ablution-factsheet.pdf",
+      "evidence": "Boil: Use water that has been previously boiled for 1 minute and left to cool. At elevations above 6,500 feet, boil for 3 minutes. Filter: Use a filter designed to remove some water-loving germs. The label may read \"NSF 53\" or \"NSF 58\". Filter labels that read \"absolute pore size of 1 micron or smaller\" are also effective.",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "CDC에 따르면 미국에서 1962년부터 2021년까지 파울러자유아메바 감염이 확인된 154명 가운데 생존자는 4명뿐이었고, 이 가운데 코 세척 기구(네티팟 등)로 오염된 수돗물을 쓴 사례가 2건 추가로 확인됐다. 미국에서 파울러자유아메바 감염은 연간 10명 미만 발생하며 거의 모두 사망한다.",
+      "value": "1962년, 1962, 2021년, 2021, 154명, 154, 4명, 4, 2건, 2, 10명, 10",
+      "sourceUrl": "https://www.cdc.gov/naegleria/media/pdfs/naegleria-ritual-ablution-factsheet.pdf",
+      "evidence": "Infections are deadly: Of 154 people known to be infected in the United States from 1962–2021, only four people have survived. Two additional infections have been linked to using neti pots or similar devices to rinse sinuses with salt solutions made from contaminated tap water.",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "CDC는 코 세척이나 비강 세척 뒤 두통, 발열, 혼돈, 구토가 생기면 즉시 진료를 받으라고 안내한다.",
+      "value": "",
+      "sourceUrl": "https://www.cdc.gov/naegleria/prevention/sinus-rinsing.html",
+      "evidence": "Seek medical attention right away if you or a loved one develops a headache, fever, confusion, or vomiting after rinsing your sinuses or nasal passages.",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "식품의약품안전처 안내를 인용한 보도에 따르면 가정용 코세정기는 수동식과 전동식으로 나뉘고, 코세정기와 코세정용 분말 모두 식약처 인증(신고) 제품을 써야 한다. 세척 중에는 숨을 참지 않고 입으로 숨을 쉬며 고개를 숙인 상태에서 '아' 소리를 내야 하고, 중이염을 앓고 있거나 통증이 생기면 사용을 중단하고 의사와 상담해야 한다.",
+      "value": "",
+      "sourceUrl": "https://www.newsis.com/view/NISX20240321_0002670457",
+      "evidence": "코세정기와 코세정용분말은 식약처에서 인증(신고)받은 제품을 사용하는 것이 안전하며 … 숨을 참지말고 입으로 숨을 쉬어주며, 고개를 숙인 상태에서 한 쪽 콧구멍에 세정기를 밀착시키고 세정액이 나오면 '아' 소리를 내면서 반대쪽 콧구멍으로 흘러나오게 한다. 만약 중이염을 앓고 있거나 사용 중 통증이 발생하면 사용을 중단하고 의사와 상담한다.",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "식약처는 코세정기를 혼자만 사용하고 사용 후 남은 코세척액은 바로 폐기하며, 사용 뒤 구성품을 분리해 흐르는 물로 씻어 건조한 뒤 통풍이 잘 되는 곳에 보관하라고 안내한다. 소아나 노약자는 보호자 지도 아래 쓴다.",
+      "value": "",
+      "sourceUrl": "https://www.newsis.com/view/NISX20240321_0002670457",
+      "evidence": "코세정기는 세균감염 등의 우려가 있어 혼자만 사용한다. 또 사용 후 남은 코세척액은 바로 폐기한다. … 사용 후 코세정기의 구성품을 분리해 흐르는 물로 세척 후 건조한 뒤 통풍이 잘 되는 곳에 보관한다.",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "이비인후과 전문의 권오진 원장은 코 세척에 0.9% 생리식염수를 쓰고, 집에서 만들 때는 끓인 물이나 생수 1L에 소금 9g을 넣는 농도가 등장성이라고 설명했다. 또 콘택트렌즈 세척용 식염수는 보존제가 들어 있을 수 있어 코 세척용과 혼동하면 안 되고, 한쪽 코에 100~150cc를 관류시킨 뒤 반대쪽도 같은 방식으로 씻는다.",
+      "value": "0.9%, 0.9, 1L, 1, 9g, 9, 100~150cc, 100, 150",
+      "sourceUrl": "https://news.hidoc.co.kr/news/articleView.html?idxno=29209",
+      "evidence": "코(비강) 세척은 0.9% 생리식염수를 이용하여 코 안을 씻어주는 것을 말합니다. … 끓인 수돗물이나 생수 1L에 소금 9g을 넣어야 합니다. … 콘택트 렌즈 세척용 식염수에는 보존제가 포함되어 있는 경우가 있기 때문입니다. … 약 100~150cc 정도의 식염수를 관류시킨 후 반대쪽 코에도 같은 방식으로 세척을 해줍니다.",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "같은 인터뷰에서 '아' 소리를 내는 이유는 목젖을 올려 세척액이 목으로 넘어가는 것을 막고, 코와 귀를 잇는 이관 입구를 닫아 식염수가 귀로 넘어가거나 자극을 주는 것을 막기 위해서라고 설명했다. 세척액을 너무 강한 압력으로 주입하지 말고, 코를 풀 때도 한쪽씩 강하지 않게 풀어야 한다.",
+      "value": "",
+      "sourceUrl": "https://news.hidoc.co.kr/news/articleView.html?idxno=29209",
+      "evidence": "소리를 낼 때 목젖이 위로 올라가 식염수가 목으로 넘어오는 것을 어느 정도 막을 수 있습니다. 또 코 뒤쪽에 위치하는, 귀와 코를 연결해주는 이관의 입구를 닫아주어 식염수가 귀로 넘어가거나 자극을 주는 것을 막아줄 수 있습니다. … 세척 시 식염수를 너무 강한 압력으로 주입하지 말아야 하며",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "임상이비인후과 2019년 증례보고에 따르면 38세 남성이 코막힘으로 비중격 교정술을 받고 수술 3일째부터 하루 2회 각 비공당 250cc의 식염수로 비강세척을 했으며, 수술 1주일 뒤 좌측 이루와 급성 중이염이 생겼다. 이후 진행성 난청과 어지럼이 나타나 3주쯤 뒤 좌측 청력이 측정 불가 수준이 됐고 자기공명영상에서 미로염과 유양돌기염이 확인됐다. 저자들은 이관을 통한 세균 역행과 식염수·용기 오염 가능성을 원인으로 제시했다.",
+      "value": "2019년, 2019, 38세, 38, 3일째, 3, 하루 2회, 2, 250cc, 250, 1주일, 1, 3주, 3",
+      "sourceUrl": "https://doi.org/10.35420/jcohns.2019.30.1.105",
+      "evidence": "38세 남자가 3주전에 발생한 좌측 청력저하를 주소로 내원… 수술 후 2일째 비강 내 충전물질을 제거 후 3일째부터 하루 2회 각 비공 당 250 cc의 식염수 비강세척을 시행하였다. 환자는 수술 1주일 뒤부터 좌측 이루 및 급성 중이염을 보여 비강세척을 중단하고… 좌측 기도 및 골도 전 영역 측정불능… 미로염 및 중이염이 동반된 유양돌기염… 비강세척으로 인한 급성 중이염은 이관을 통한 세균의 역행으로 인해 발생한 것으로 추정된다… 식염수의 오염가능성 및 비강세척용기의 오염가능성 또한 배제할 수 없다",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "대한천식알레르기학회(KAAACI) 알레르기비염 진료지침 2022 개정판의 비약물치료 파트는 식염수 비강세척을 알레르기비염 환자에게 선택적으로 권고(CONDITIONAL, Low)하면서, 비강세척 효과가 국소스테로이드보다는 적어 보조적 치료로 권고한다고 정리했다. 농도·용량·첨가물을 고려해 환자 선호에 따라 선택하라고 덧붙였다.",
+      "value": "",
+      "sourceUrl": "https://doi.org/10.4168/aard.2023.11.3.126",
+      "evidence": "알레르기비염 환자에서 식염수 비강세척은 증상 완화에 효과적이고, 약물치료를 하고 있는 경우에도 식염수 비강세척을 하면 추가적인 효과를 얻을 수 있다. 그러나 생리식염수를 이용한 비강세척의 효과는 국소스테로이드의 효과보다는 적기 때문에 보조적인 치료방법으로 권고하며, 식염수의 농도, 용량, 첨가물 유무 등을 고려하여 환자의 선호도에 따라 선택한다. (CONDITIONAL, Low)",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "2017년 내과의사를 위한 알레르기비염 진료지침은 보조 요법으로 생리식염수 비강내 세척을 근거수준 A, 강하게 권고하며 200~400mL의 많은 용량을 사용해도 된다고 적었다. 대한비과학회가 참여한 2022년 성인 만성비부비동염 비강세척 진료지침도 비강 식염수 세척을 강하게 권고한다.",
+      "value": "2017년, 2017, 200~400mL, 200, 400, 2022년, 2022",
+      "sourceUrl": "https://doi.org/10.21053/ceo.2021.00654",
+      "evidence": "Nasal saline irrigation: clinicians should recommend nasal saline irrigation to patients with CRS or those who have undergone ESS. Strong recommendation based on multiple systematic reviews and RCTs, as well as a preponderance of benefits over harm.",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "2025년 Medicina 리뷰는 비강 세척에 가장 많이 쓰는 용액이 등장성 식염수 0.9%와 고장성 식염수 1.5~3%이며, 3%를 넘는 농도는 통증·충혈·콧물 같은 부작용이 농도에 비례해 늘어 권장하지 않는다고 정리했다. 또 미지근한 식염수(40℃)가 최적이라는 보고와, 낮은 압력으로 많은 양을 관류하는 방식이 표준이라는 점을 함께 제시했다.",
+      "value": "2025년, 2025, 0.9%, 0.9, 1.5~3%, 1.5, 3%, 3, 40℃, 40",
+      "sourceUrl": "https://doi.org/10.3390/medicina61081402",
+      "evidence": "The most used solutions are isotonic saline (0.9%) and hypertonic saline (1.5-3%), both with an acidic pH. Concentrations above 3% are not recommended due to the dose-dependent complications such as pain, congestion, and rhinorrhoea. … Optimal results occur with lukewarm saline (40 °C) … the optimal method for conducting nasal irrigation (NI) employs a low-pressure, high-nasal shower",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "약사공론은 0.9% 생리식염수 스프레이가 코 안 습윤과 분비물 배출을 돕고, 3% 하이퍼토닉 식염수는 삼투압으로 점막 부기를 빼 코막힘에 일부 효과가 있다고 정리했다. 또 집에서 소금물을 임의로 만들어 쓰면 농도가 등장성이 아닐 수 있고 멸균이 보장되지 않아 코세척 전용 제품을 쓰는 편이 안전하다고 덧붙였다.",
+      "value": "0.9%, 0.9, 3%, 3",
+      "sourceUrl": "https://www.kpanews.co.kr/news/articleView.html?idxno=301711",
+      "evidence": "페스내추럴비강분무액은 0.9% 농도의 체액보다 높은 3% 하이퍼토닉(hypertonic) 식염수로 구성이 되어있다. 코에 뿌려주면 삼투압으로 인해 점막 내 수분이 빠져나오게 되어 부어있는 점막의 부기가 빠지면서 코막힘을 해소해주는 효과를 가지게 된다. … 농도가 진한 소금물을 코에 넣게 되면 비점막 자극으로 인한 콧물량 증가로 비염이 악화될 수 있고, 멸균상태를 보장할 수 없기 때문이다.",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "2026-11-08 쿠팡 검색·상품 페이지에서 노즈스위퍼 수동식 코세정용 키트+분말 80p는 18,080원(후기 13,122건, 쿠팡 랭킹 1위)이었고, 노즈스위퍼 코세척기+코세척분말 120포는 21,780원(후기 4,708건), 오므론 메쉬 네블라이저 NE-U200은 114,000원(후기 1,968건)이었다.",
+      "value": "2026-11-08, 2026, 18,080원, 18080, 80p, 80, 13,122건, 13122, 21,780원, 21780, 120포, 120, 4,708건, 4708, 114,000원, 114000, 1,968건, 1968",
+      "sourceUrl": "https://www.coupang.com/vp/products/7549169480",
+      "evidence": "노즈스위퍼 수동식 코세정용 키트 + 분말 80p, 1세트 18,080원 … 5 (13,122) / 노즈스위퍼 코세척기 + 코세척분말 120포 21,780원 … (4,708) / 오므론 메쉬 네블라이저 NE-U200, 1개 114,000원 … (1,968)",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "따져봄 계산으로 분말 1포를 1회로 볼 때 1위 키트는 1회 226원(18,080원÷80포), 3위 세트는 1회 181원(21,780원÷120포)이다. 같은 검색 결과의 노즈스위퍼 코세정용 분말 360개는 22,630원으로 1개당 63원이었다.",
+      "value": "226원, 226, 18,080원, 18080, 80포, 80, 181원, 181, 21,780원, 21780, 120포, 120, 360개, 360, 22,630원, 22630, 63원, 63, 3,700원, 3700",
+      "sourceUrl": "https://www.coupang.com/np/search?q=%EB%85%B8%EC%A6%88%EC%8A%A4%EC%9C%84%ED%8D%BC",
+      "evidence": "노즈스위퍼 코세정용 분말, 360개 22,630원 (1개당 63원). 키트 18,080원÷80포=226원, 세트 21,780원÷120포=181.5원(따져봄 계산)",
+      "asOf": "2026-11-08"
+    },
+    {
+      "claim": "카카오 선물하기 큐레이터에서 2026-11-08 확인한 오리진에이 프리미엄 프로폴리스 프레쉬 브레스 스프레이 25ml+쇼핑백은 26,000원(선물후기 47건, 예상 수익 2,340원), 메디트리 로얄 프로폴리스 2박스+젤리 증정은 14,800원(선물후기 213건, 예상 수익 1,332원)이었다.",
+      "value": "2026-11-08, 2026, 25ml, 25, 26,000원, 26000, 47건, 47, 2,340원, 2340, 14,800원, 14800, 213건, 213, 1,332원, 1332",
+      "sourceUrl": "https://gift.kakao.com/product/9331241",
+      "evidence": "오리진에이 프리미엄 프로폴리스 프레쉬 브레스 스프레이 25ml+쇼핑백증정 26,000원, 47건의 선물후기, 예상 수익 2,340원 / 메디트리 로얄 프로폴리스 2박스 14,800원, 213건의 선물후기, 예상 수익 1,332원",
+      "asOf": "2026-11-08"
+    }
+  ]
+}
