@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-gas-bill-calculation-boiler-away-mode-reheat-savings-guide': {
+    sectionTitle: '가스비·재가동 폭탄 막는 3종 (스마트 온도조절기 · 틈새막이 · 온습도계)',
+    sectionSubtitle: '2026-11-10 쿠팡 판매 랭킹·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '예약난방 1위 🥇',
+        productName: '나비엔 스마트폰 원격제어 무선온도 조절기, NR-40D',
+        specSummary: '귀가 후 과설정과 재가동을 기계가 대신 막아 주는 스마트 조절기. 20℃에서 1℃ 오를 때마다 난방비가 15% 이상 붙는 구조라, 예약 난방과 외출 자동화만으로도 설정 실수분이 사라진다. 확인일 기준 79,000원·상품평 177건·무료배송. 보일러 제조사 호환 모델인지 먼저 확인해야 한다',
+        tag: '79,000원 · 후기 177건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=161737948&itemId=464523442&vendorItemId=93917040178',
+      },
+      {
+        rank: 2,
+        rankBadge: '틈새차단 1위 🥈',
+        productName: '에코와이드 끼우는 문풍지 창문 틈새막이 외풍 창틀 바람막이 M, 4개',
+        specSummary: '에너지공단 기준 틈새 열손실을 줄이면 월 사용량이 5.5% 줄어 5,230원이 절약된다. 이 계산을 실제로 만드는 부품이 창틀 중첩부에 끼우는 문풍지다. 확인일 기준 정가 40,500원에서 63% 내린 14,600원(개당 3,650원), 상품평 1,492건, 로켓배송',
+        tag: '14,600원 · 후기 1,492건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8416474413&itemId=24339509268&vendorItemId=93508859658',
+      },
+      {
+        rank: 3,
+        rankBadge: '온도측정 1위 🥉',
+        productName: '카스 디지털 온습도계 T023, 화이트, 1개',
+        specSummary: '온도조절기가 벽에 붙어 있으면 그 위치의 온도가 집 전체 온도가 아니다. 1만 원이 안 되는 값으로 실제 실내온도를 눈으로 확인해 실내온도 모드와 온돌 모드 중 무엇이 맞는지 가른다. 확인일 기준 9,740원, 상품평 26,928건',
+        tag: '9,740원 · 후기 26,928건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=72986941&itemId=243287302&vendorItemId=71474316987',
+      },
+    ],
+  },
   'winter-indoor-ventilation-co2-humidity-heating-guide': {
     sectionTitle: '겨울 환기·습도 3종 세트 (온습도계 · 가열식 가습기 · 창문 방풍비닐)',
     sectionSubtitle: '2026-11-09 쿠팡 판매량순·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
