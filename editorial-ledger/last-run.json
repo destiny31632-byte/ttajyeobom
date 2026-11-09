@@ -1,9 +1,10 @@
 {
   "date": "2026-11-09",
-  "published": [],
-  "remaining": 2,
-  "status": "held",
-  "newPost": null,
-  "reason": "검증할 새 질문 소진: 주제 목록 보충 필요",
-  "workflowStatus": "failure"
+  "published": [
+    "winter-indoor-ventilation-co2-humidity-heating-guide",
+    "winter-neck-pain-cervical-pillow-memory-foam-latex-c-curve-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
