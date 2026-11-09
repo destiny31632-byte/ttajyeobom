@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-indoor-ventilation-co2-humidity-heating-guide': {
+    sectionTitle: '겨울 환기·습도 3종 세트 (온습도계 · 가열식 가습기 · 창문 방풍비닐)',
+    sectionSubtitle: '2026-11-09 쿠팡 판매량순·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '후기 2.6만 · 최저가 🥇',
+        productName: '카스 디지털 온습도계 T023, 화이트, 1개',
+        specSummary: '쿠팡 온습도계 판매량 1위권 제품. 확인일 기준 9,740원, 상품평 26,914건으로 실사용 모수가 가장 두껍고 로켓배송으로 다음 날 도착한다. 온도와 습도 두 숫자만 보여주므로 이산화탄소는 표시되지 않는다. 환기 주기를 잡는 첫 단계용',
+        tag: '9,740원 · 후기 26,914건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=72986941&itemId=243287302&vendorItemId=71474316987',
+      },
+      {
+        rank: 2,
+        rankBadge: '가열식 · 위생 🥈',
+        productName: '대웅 모닝컴 포트형 올스텐 가열식 가습기 DWH-R27IV, 아이보리, 1개',
+        specSummary: '물을 끓여 내보내는 가열식이라 세균 방출 가능성이 현저히 낮다(소비자원 시험). SUS316 올스텐 수조에 통세척·자동세척·차일드락·타이머를 갖췄고, 확인일 기준 53,820원, 상품평 570건 4.5점. 대신 가열식은 연간 전기요금이 7만~9만원대이고 증기가 99℃라 화상에 주의해야 한다',
+        tag: '53,820원 · 가열식',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9749503627&itemId=29192129896&vendorItemId=96115771470',
+      },
+      {
+        rank: 3,
+        rankBadge: '외풍차단 · 후기 4,464 🥉',
+        productName: '밀스턴 초강력 외풍차단 창문 방풍비닐, 1개',
+        specSummary: '정가 23,900원에서 4% 내린 확인일 기준 22,800원, 상품평 4,464건. 환기해도 열이 새지 않게 창문 틈을 잡아주는 용도다. 다만 모든 창을 덮으면 환기할 창이 사라지므로 한쪽 창은 반드시 남겨두고 나머지만 시공해야 한다',
+        tag: '22,800원 · 후기 4,464건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6795362843&itemId=16769422001&vendorItemId=96138395210',
+      },
+    ],
+  },
   'winter-neck-pain-cervical-pillow-memory-foam-latex-c-curve-guide': {
     sectionTitle: '겨울철 경추베개 BEST 3 (닥터바르미 · 수면공감 · 템퍼)',
     sectionSubtitle: '2026-11-09 쿠팡 실구매가·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
