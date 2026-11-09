@@ -1441,6 +1441,36 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
       },
     ],
   },
+  'winter-smartphone-battery-cold-weather-power-bank-guide': {
+    sectionTitle: '겨울철 보조배터리 BEST 3 (앤커 맥세이프 · 삼성 45W 20,000mAh · 샤오미 22.5W)',
+    sectionSubtitle: '2026-11-09 쿠팡 실구매가·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '무선 15W · 휴대성 1위 🥇',
+        productName: '앤커 맥고 Qi2 파워뱅크 10000mAh 15W 보조배터리, 블랙, A1654',
+        specSummary: '폰 뒤에 자석으로 붙여 들고 다니는 Qi2 무선 보조배터리. 무선 출력 최대 15W, USB-C 입출력, 로켓배송. 확인일 기준 59,900원(정가 109,000원), 상품평 207건. 케이블 없이 한 손으로 쓰기 좋지만 무선 충전은 발열이 크고 10,000mAh 기준 가격이 높다',
+        tag: '59,900원 · 무선 15W',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8642503470&itemId=25081961325&vendorItemId=92082588002',
+      },
+      {
+        rank: 2,
+        rankBadge: '45W · 후기 5,158 🥈',
+        productName: '삼성전자 0.3m 케이블 포함 C타입 PD PPS 유선 3포트 초고속 충전 보조배터리 45W 20000mAh, EB-P4520XUEGKR',
+        specSummary: '20,000mAh에 PD PPS 45W라 노트북까지 충전되고 3포트로 동시 충전이 된다. 0.3m 케이블 기본 포함, 상품평 5,158건으로 가장 두껍다. 확인일 기준 43,610원(정가 149,000원). 대신 무겁고 두꺼워 주머니에는 들어가지 않는다',
+        tag: '43,610원 · 45W',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8011542256&itemId=22352360578&vendorItemId=89397453735',
+      },
+      {
+        rank: 3,
+        rankBadge: '가성비 끝판왕 🥉',
+        productName: '샤오미 22.5W 보조배터리 10000mAh 케이블 일체형 멀티단자, 베이지, P15ZM',
+        specSummary: '10,000mAh에 22.5W, 케이블 일체형 멀티단자. 확인일 기준 23,680원(정가 60,800원)으로 1위보다 3만 6천 원가량 싸고 상품평 349건. 자석 부착과 무선 충전은 지원하지 않아 케이블을 꺼내 꽂아야 한다',
+        tag: '23,680원 · 22.5W',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8810139212&itemId=25663413274&vendorItemId=91716806450',
+      },
+    ],
+  },
 };
 
 const DEFAULT_RANKING_GROUP: AffiliateRankingGroup = {
