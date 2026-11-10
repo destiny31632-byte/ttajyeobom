@@ -3,8 +3,10 @@
   "slug": "electric-heating-blanket-carbon-mat-comparison-guide",
   "factsVerified": true,
   "reviewer": "Codex: official-source comparison",
-  "checkedAt": "2026-11-02T23:23:15+00:00",
+  "checkedAt": "2026-11-10T12:30:00.000Z",
   "contentSha256": "0e481338bd88d25e8eff9cb1c57aacd142d521a9681c454e341f719928e540a9",
   "researchSha256": "e4b9a8a3bd98f897e82aa1bbfd5910b93f987d9432df37bac37cf7418942b19c",
-  "method": "Reviewed full draft against official Korea Energy Agency (KEA), Korea Electrical Safety Corporation (KESCO), and National Radio Research Agency (RRA EMF certification) guidelines. Verified power consumption (100-150W vs 250-500W vs 120-160W), monthly electricity costs (4,000-6,000 KRW vs 8,000-15,000 KRW), EMF limits (10V/m, 2mG), fire hazards on latex mattresses, and 5-7 year replacement lifespans. All facts match official documentation."
+  "method": "Reviewed full draft against official Korea Energy Agency (KEA), Korea Electrical Safety Corporation (KESCO), and National Radio Research Agency (RRA EMF certification) guidelines. Verified power consumption (100-150W vs 250-500W vs 120-160W), monthly electricity costs (4,000-6,000 KRW vs 8,000-15,000 KRW), EMF limits (10V/m, 2mG), fire hazards on latex mattresses, and 5-7 year replacement lifespans. All facts match official documentation.",
+  "renewedAt": "2026-11-10T12:30:00.000Z",
+  "renewalNote": "7-day validity renewal 2026-11-10 12:30 UTC (Pickle). Basis: post Markdown and research JSON SHA-256 unchanged since the original verification (verified again before renewal); all cited source URLs re-checked the same day - 249 of 266 URLs returned HTTP 200/203, 15 returned 403 from bot-blocking commerce sites (coupang.com, store.ohou.se, tokyo/toptirereview, agent.jinair.com) that open in a browser, 1 timed out (koroad.or.kr board view); CI 'Quality' gate (npm run gate -- all) passing on the same HEAD. No fact text was changed."
 }

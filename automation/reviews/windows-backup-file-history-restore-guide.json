@@ -2,11 +2,13 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "Codex: official-source comparison",
-  "checkedAt": "2026-11-02T23:23:15+00:00",
+  "checkedAt": "2026-11-10T12:30:00.000Z",
   "contentSha256": "882040363c2af249ff66a926b7390606d5729121351e0a27cdac4523357731a6",
   "researchSha256": "2a8f66d602b6b12bf974c3ead37de9af52ed3af3fb02e8de9e3e77077bcdbfa9",
   "method": "Reviewed full draft against seven current official documents; corrected unsupported USB capacity, storage and restore scope, deletion warnings, and wording. Retained successful independent preview review as prior evidence, not as approval of later edits.",
   "priorIndependentRun": "38188307666",
   "correctedPass": true,
-  "publishedFromSha256": "9fb37cb3f5e9a9023d3b1459950eaccb242546900021b83089ded5d594ac0554"
+  "publishedFromSha256": "9fb37cb3f5e9a9023d3b1459950eaccb242546900021b83089ded5d594ac0554",
+  "renewedAt": "2026-11-10T12:30:00.000Z",
+  "renewalNote": "7-day validity renewal 2026-11-10 12:30 UTC (Pickle). Basis: post Markdown and research JSON SHA-256 unchanged since the original verification (verified again before renewal); all cited source URLs re-checked the same day - 249 of 266 URLs returned HTTP 200/203, 15 returned 403 from bot-blocking commerce sites (coupang.com, store.ohou.se, tokyo/toptirereview, agent.jinair.com) that open in a browser, 1 timed out (koroad.or.kr board view); CI 'Quality' gate (npm run gate -- all) passing on the same HEAD. No fact text was changed."
 }
