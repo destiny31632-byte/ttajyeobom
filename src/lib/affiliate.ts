@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-air-purifier-cadr-filter-cost-guide': {
+    sectionTitle: '겨울 실내공기 3종 (원룸형 · 10평 국산 · 거실 20평형)',
+    sectionSubtitle: '2026-11-10 쿠팡 판매량순·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '원룸 가성비 1위 🥇',
+        productName: '샤오미 스마트 공기청정기4 컴팩트 48㎡, AC-M18-SC',
+        specSummary: '표준사용면적 48㎡는 협회 식으로 청정화능력 6.23㎥/min급이라 10평 원룸에 여유가 있다. 소비전력 27W·에너지소비효율 3등급, 모델명 AC-M18-SC. 확인일 기준 정가 158,000원에서 26% 내린 116,820원, 상품평 633건, 새벽도착. 필터값이 싼 편이라 5년 유지비 계산에서 유리하다',
+        tag: '116,820원 · 후기 633건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7496025056&itemId=19611759123&vendorItemId=86694699389',
+      },
+      {
+        rank: 2,
+        rankBadge: '10평 정합 · 국산 1위 🥈',
+        productName: '삼성전자 블루스카이 3100 공기청정기 33.1㎡, AP70F03102RTD',
+        specSummary: '33.1㎡는 이 글의 기준(10평=33㎡)에 가장 가까운 표준사용면적이다. 20평 거실에 놓으면 하루 종일 최대 풍량으로 돌아 소음이 커지므로 원룸·작은방 전용으로 보는 것이 맞다. 확인일 기준 319,000원에서 44% 내린 178,600원, 상품평 1,738건, 로켓배송',
+        tag: '178,600원 · 후기 1,738건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8707431315&itemId=25287307866&vendorItemId=92282812506',
+      },
+      {
+        rank: 3,
+        rankBadge: '거실 20평 이상 🥉',
+        productName: '위닉스 타워 프라임 공기청정기 85.8㎡, APRM833-JWK',
+        specSummary: '85.8㎡는 필요 청정화능력 11.14㎥/min급으로 26평까지 커버한다. 소비자원이 2022년 시험한 모델명(APRM833-JWK)과 같아 성능·소음·전기료를 공개 자료로 대조할 수 있고, 그 시험에서 1㎡당 연간 전기요금이 낮은 축이었다. 확인일 기준 519,000원에서 54% 내린 235,160원, 상품평 1,372건',
+        tag: '235,160원 · 후기 1,372건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=1771619336&itemId=20726915929&vendorItemId=90149292952',
+      },
+    ],
+  },
   'winter-gas-bill-calculation-boiler-away-mode-reheat-savings-guide': {
     sectionTitle: '가스비·재가동 폭탄 막는 3종 (스마트 온도조절기 · 틈새막이 · 온습도계)',
     sectionSubtitle: '2026-11-10 쿠팡 판매 랭킹·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
