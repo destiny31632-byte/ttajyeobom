@@ -1561,6 +1561,36 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
       },
     ],
   },
+  'winter-shower-filter-tap-water-rust-chlorine-atopy-care-guide': {
+    sectionTitle: '겨울 샤워 물 3종 (2중필터 · 가성비 · 세디먼트 프리미엄)',
+    sectionSubtitle: '2026-11-11 쿠팡 가격·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '2중필터 1위 🥇',
+        productName: '닥터피엘 샤워기 기본세트',
+        specSummary: '1차·2차 필터를 겹친 2중필터 구조로, 2024년 청주녹색소비자연대가 9개 제품을 100L 통수로 시험했을 때 잔류염소가 불검출된 3개 중 하나다. 확인일 기준 정가 50,000원에서 24% 내린 37,900원, 상품평 2,489건. 배송은 11/14 도착 예정으로 늦은 편이라 급하면 2위로 가는 게 낫다',
+        tag: '37,900원 · 후기 2,489건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6360359973&itemId=22466224083&vendorItemId=94745535865',
+      },
+      {
+        rank: 2,
+        rankBadge: '가성비·유지비 1위 🥈',
+        productName: '퓨어썸 필터 샤워기, 혼합색상, 1개',
+        specSummary: '확인일 기준 40,000원에서 50% 내린 19,900원, 상품평 25,541건으로 이 구성에서 후기가 가장 두껍다. 로켓배송이고 제조자는 성일화학, 원산지는 국내다. 리필 필터 3p가 11,900원이라 개당 3,967원, 1–2개월 교체면 연 23,800~47,600원. 다만 잔류염소 제거 시험성적서는 상세페이지에서 확인되지 않는다',
+        tag: '19,900원 · 후기 25,541건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8252045206&itemId=23758992694&vendorItemId=3198134535',
+      },
+      {
+        rank: 3,
+        rankBadge: '세디먼트·디자인 1위 🥉',
+        productName: 'SHIFT 아로마 캡슐 샤워기 + 필터 4p 세트, 버터옐로우',
+        specSummary: '두꺼운 세디먼트 필터 4개가 기본 구성이라 녹물·입자 쪽에 강하고, 무광 컬러로 욕실 인테리어를 바꾸는 쪽에 강하다. 확인일 기준 65,500원에서 27% 내린 47,800원, 상품평 58건. 이름과 달리 아로마 캡슐은 세트에 없고 따로 사야 하며, 캡슐값이 붙으면 유지비가 가장 높아진다',
+        tag: '47,800원 · 후기 58건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8959101148&itemId=26214824851&vendorItemId=93193854577',
+      },
+    ],
+  },
 };
 
 const DEFAULT_RANKING_GROUP: AffiliateRankingGroup = {
