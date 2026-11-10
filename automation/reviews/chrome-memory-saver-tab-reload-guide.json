@@ -2,11 +2,11 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "Codex: official-source comparison",
-  "checkedAt": "2026-11-10T12:30:00.000Z",
+  "checkedAt": "2026-11-10T12:30:00+09:00",
   "contentSha256": "bff549ab6e79d584692f7936f59055a341d7ce3e001ead6335233d43943b0b88",
   "researchSha256": "38481404da934c0e9edeba52a5f88ddf6f0002643bae2d49b5b796d4b17d5ff8",
   "method": "Google 또는 Microsoft 공식 원문과 본문·조사 항목 직접 대조. 설정 조건·삭제 범위·미저장 자료 주의 확인. 비교표와 점검 순서는 권장 절차로 구분, 직접 성능 측정이나 검색량·수익을 제시하지 않음. 원문 연속 복제·온라인 출처·숫자·중복·반복·관련 링크 검사 완료.",
   "publishedFromSha256": "de949154925522c41e6a658bc55bf68506ab3232840d56db7a57ff1edac59761",
-  "renewedAt": "2026-11-10T12:30:00.000Z",
+  "renewedAt": "2026-11-10T12:30:00+09:00",
   "renewalNote": "7-day validity renewal 2026-11-10 12:30 UTC (Pickle). Basis: post Markdown and research JSON SHA-256 unchanged since the original verification (verified again before renewal); all cited source URLs re-checked the same day - 249 of 266 URLs returned HTTP 200/203, 15 returned 403 from bot-blocking commerce sites (coupang.com, store.ohou.se, tokyo/toptirereview, agent.jinair.com) that open in a browser, 1 timed out (koroad.or.kr board view); CI 'Quality' gate (npm run gate -- all) passing on the same HEAD. No fact text was changed."
 }

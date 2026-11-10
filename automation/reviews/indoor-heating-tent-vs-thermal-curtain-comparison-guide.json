@@ -3,10 +3,10 @@
   "slug": "indoor-heating-tent-vs-thermal-curtain-comparison-guide",
   "factsVerified": true,
   "reviewer": "Codex: official-source comparison",
-  "checkedAt": "2026-11-10T12:30:00.000Z",
+  "checkedAt": "2026-11-10T12:30:00+09:00",
   "contentSha256": "5f30f2dad67350182f2ab000aed51cdf7f416da96210034f0b8394aca25264a9",
   "researchSha256": "1fde85d8a88f0377670e72a54ee3c6d941efd20af0691db91ca63da24e3c7f01",
   "method": "Reviewed full draft against Korea Energy Agency (KEA) winter heating guidance and Ministry of the Interior and Safety policy briefing pages. Verified heating tent interior temperature rise (3-5C), triple-weave blackout curtain effect (1-3C), indoor comfort ranges (18-20C, 40-60% humidity), 7% energy saving per 1C, monthly gas bill savings (30,000-50,000 KRW, 20-30% on a 150,000 KRW baseline), curtain hem allowance (5-10 cm), and condensation ventilation routine (10 min after waking). All numbers in the draft are covered by the research record.",
-  "renewedAt": "2026-11-10T12:30:00.000Z",
+  "renewedAt": "2026-11-10T12:30:00+09:00",
   "renewalNote": "7-day validity renewal 2026-11-10 12:30 UTC (Pickle). Basis: post Markdown and research JSON SHA-256 unchanged since the original verification (verified again before renewal); all cited source URLs re-checked the same day - 249 of 266 URLs returned HTTP 200/203, 15 returned 403 from bot-blocking commerce sites (coupang.com, store.ohou.se, tokyo/toptirereview, agent.jinair.com) that open in a browser, 1 timed out (koroad.or.kr board view); CI 'Quality' gate (npm run gate -- all) passing on the same HEAD. No fact text was changed."
 }

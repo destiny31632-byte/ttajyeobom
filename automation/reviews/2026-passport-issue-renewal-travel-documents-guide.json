@@ -2,10 +2,10 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "Codex: official-source comparison",
-  "checkedAt": "2026-11-10T12:30:00.000Z",
+  "checkedAt": "2026-11-10T12:30:00+09:00",
   "contentSha256": "b6db46cb541a4e29217b4c78d21c845ce02799aa363f2e9f2e52206f8da6bf14",
   "researchSha256": "1810b0d1575406b48eef9d4e65ed1763c041f8f61018f3917444b74e4a4a93c0",
   "method": "18세 이상 일반여권 범위의 전체 본문·16개 조사 항목을 외교부 수수료·최초발급·만료재발급·온라인·분실·48시간·사용안내·FAQ 원문과 대조. 실제 수수료와 3000원 면수 차이 계산 확인. 미성년자 확대와 구 FAQ 차이는 기존 범위 제한 및 충돌 해결 기록 유지. 접수 후 사진 수정 방법에 대한 미확인 단정 제거. 실제 본인 신청·발급 시험은 수행하지 않음.",
-  "renewedAt": "2026-11-10T12:30:00.000Z",
+  "renewedAt": "2026-11-10T12:30:00+09:00",
   "renewalNote": "7-day validity renewal 2026-11-10 12:30 UTC (Pickle). Basis: post Markdown and research JSON SHA-256 unchanged since the original verification (verified again before renewal); all cited source URLs re-checked the same day - 249 of 266 URLs returned HTTP 200/203, 15 returned 403 from bot-blocking commerce sites (coupang.com, store.ohou.se, tokyo/toptirereview, agent.jinair.com) that open in a browser, 1 timed out (koroad.or.kr board view); CI 'Quality' gate (npm run gate -- all) passing on the same HEAD. No fact text was changed."
 }
