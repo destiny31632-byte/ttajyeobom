@@ -1531,6 +1531,36 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
       },
     ],
   },
+  'winter-cracked-heels-foot-callus-remover-urea-cream-care-guide': {
+    sectionTitle: '발뒤꿈치 3단계 (갈기 · 불리기 · 막기)',
+    sectionSubtitle: '2026-11-10 쿠팡 판매량순·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '방수·2단 1위 🥇',
+        productName: '쇼시 방수 발 각질제거기 B1KRW, 화이트',
+        specSummary: '제품명에 방수를 내건 욕실용 전동 각질제거기. 상품평에서 물세척과 2단 속도, 거친·고운 두 롤러 사용기가 반복된다. USB 충전식, KC 전기용품 안전확인 XU102710-21001A. 확인일 기준 24,840원, 상품평 341건, 새벽도착',
+        tag: '24,840원 · 후기 341건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=5882423639&itemId=20328401172&vendorItemId=91935459144',
+      },
+      {
+        rank: 2,
+        rankBadge: '데일리 보습 1위 🥈',
+        productName: '더마겐 우레아 보습크림 180g',
+        specSummary: '우레아 100,000ppm(10%) 배합의 180g 대용량. 20% 연고가 아니라 매일 바르는 보습 크림이므로, 약국 20% 연고로 불린 뒤 마감용으로 쓰거나 갈라짐이 심하지 않은 사람의 데일리용이다. 확인일 기준 14,700원(정가 26,000원), 상품평 1,172건',
+        tag: '14,700원 · 후기 1,172건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6171016886&itemId=20404287141&vendorItemId=93887957361',
+      },
+      {
+        rank: 3,
+        rankBadge: '수면 밀폐 1위 🥉',
+        productName: '달팽이룸 뒤꿈치 굳은살 실리콘 보습 패드, 2개입 4개',
+        specSummary: '연고를 바른 뒤 위에 덮어 두는 실리콘 패드. 양말이 답답한 사람의 수면용 대안이다. 확인일 기준 8,980원, 상품평 3,534건으로 이 구성에서 후기가 가장 두껍다',
+        tag: '8,980원 · 후기 3,534건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7266119002&itemId=18667659772&vendorItemId=85802089124',
+      },
+    ],
+  },
 };
 
 const DEFAULT_RANKING_GROUP: AffiliateRankingGroup = {
