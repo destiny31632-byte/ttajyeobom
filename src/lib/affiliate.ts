@@ -1621,6 +1621,36 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
       },
     ],
   },
+  'winter-office-desk-heater-partition-folding-pad-ptc-fan-guide': {
+    sectionTitle: '책상 밑 3종 (4면 접이식 165W · PTC 온풍기 · 온열 데스크패드)',
+    sectionSubtitle: '2026-11-11 쿠팡 판매 랭킹·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '전기료 1위 🥇',
+        productName: '듀플렉스 접이식 워머박스 파티션히터, DP-PH70X',
+        specSummary: '표기 소비전력 165W로 이 글에서 비교한 1,500W 온풍기의 9.1배 차이를 뒤집는 쪽에 선다. 4면을 세우고 상단 덮개로 열을 가두는 워머박스형이라 무풍으로 발·정강이·무릎을 감싼다. 확인일 기준 38,250원(정가 146,000원), 상품평 1,277건, 한 달간 1,000명 이상 구매, KC 인증 HU072530-20006A-1. 방 전체를 데우지는 못한다',
+        tag: '38,250원 · 후기 1,277건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6203450632&itemId=12323547369&vendorItemId=83313715861',
+      },
+      {
+        rank: 2,
+        rankBadge: '즉시 온풍 1위 🥈',
+        productName: '신일 PTC 온풍 팬히터, SEH-P1600WS, 혼합색상',
+        specSummary: '표기 소비전력 1,500W, 확인일 기준 63,900원·상품평 1,223건. 220V/60Hz, KC 인증 HU071204-18010. 제품 에너지소비효율 표시의 예상 월 전기요금은 143,000원, CO2 배출량 시간당 660g이다. 하루 8시간·월 20일이면 월 250kWh 집 기준 77,658원이 더 나오므로, 짧게 강한 열이 필요한 자리에만 쓴다',
+        tag: '63,900원 · 후기 1,223건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=2354418566&itemId=4084768911&vendorItemId=91673218593',
+      },
+      {
+        rank: 3,
+        rankBadge: '손 시림 1위 🥉',
+        productName: 'HULULU 3단 온열조절 데스크 전기 매트 80×32cm, 그레이',
+        specSummary: '80×32cm 폭에 탄소 발열체, 3단 온도조절과 타이머가 들어간다. 확인일 기준 29,500원, 상품평 638건(최고 평가 95%), KC 전기용품 안전확인 SU072723-21002B. 다만 상품 페이지에 소비전력 표기가 없어 전기요금을 계산할 수 없다는 점은 감수해야 한다',
+        tag: '29,500원 · 후기 638건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8457429804&itemId=24463264895&vendorItemId=91476914569',
+      },
+    ],
+  },
 };
 
 const DEFAULT_RANKING_GROUP: AffiliateRankingGroup = {
