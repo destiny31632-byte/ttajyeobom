@@ -1651,6 +1651,36 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
       },
     ],
   },
+  'winter-scalp-dandruff-itch-dry-flaking-shampoo-care-guide': {
+    sectionTitle: '겨울 두피 3종 (항비듬 샴푸 · 두피 스케일러 · 약산성 샴푸)',
+    sectionSubtitle: '2026-11-12 쿠팡 판매 랭킹·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '항비듬 1위 🥇',
+        productName: '헤드앤숄더 프로페셔널 안티 댄드러프 어드밴스드 가려운 두피 케어 샴푸, 300ml',
+        specSummary: '정가 17,900원에 35% 할인과 와우쿠폰 1,620원이 적용돼 확인일 기준 11,460원(100ml당 3,820원), 상품평 16,904건, 한 달간 9,000명 이상 구매 표시. 항비듬 라인의 상위 제품이라 세정력이 강한 편이므로 매일 쓰기보다 주 2~3회 두피에 두고 3~5분 뒤 헹구는 쪽이 낫다. 다만 상품 페이지에 전성분 표기가 없어, 라벨에서 케토코나졸·셀레늄 설파이드·징크피리치온·살리실산 중 무엇이 들었는지 확인해야 한다',
+        tag: '11,460원 · 후기 16,904건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7755262964&itemId=18122935710&vendorItemId=85273995116',
+      },
+      {
+        rank: 2,
+        rankBadge: '각질 스크럽 1위 🥈',
+        productName: '닥터포헤어 딥 클렌징 두피 스케일러, 250g',
+        specSummary: '씨솔트 입자로 각질과 노폐물을 밀어내는 스크럽형이다. 확인일 기준 16,800원(10g당 672원), 상품평 883건, 무료배송·무료반품·내일 도착. 주 1~2회, 젖은 두피에 손가락 면으로 문지르고 항진균 샴푸로 마무리하는 용도다. 각질이 노랗고 붉은기가 있는 날이나 두피에 상처가 있을 때는 건너뛴다. 같은 브랜드 씨솔트 기획(+60g)은 27,150원에 상품평 1건, 재고 5개 표시였다',
+        tag: '16,800원 · 후기 883건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9439958818&itemId=28076220347&vendorItemId=95032755288',
+      },
+      {
+        rank: 3,
+        rankBadge: '장벽 진정 1위 🥉',
+        productName: '라보에이치 프로바이오틱스 탈모 완화 민감더마 샴푸, 400ml',
+        specSummary: '정가 28,900원에서 47% 내린 확인일 기준 15,200원(100ml당 3,800원), 상품평 4,570건, 오늘 도착. 항진균 성분이 아니라 두피 장벽과 민감성 진정에 초점을 둔 약산성 쪽이라, 하얀 가루형 건성 각질이 주된 고민이거나 약용 샴푸를 쓴 다음 날 쓰는 용도에 맞는다',
+        tag: '15,200원 · 후기 4,570건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=2281399018&itemId=20690647857&vendorItemId=71902675298',
+      },
+    ],
+  },
 };
 
 const DEFAULT_RANKING_GROUP: AffiliateRankingGroup = {
