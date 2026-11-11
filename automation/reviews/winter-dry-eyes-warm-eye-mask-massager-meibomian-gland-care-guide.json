@@ -2,7 +2,8 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "피클 자동화(정기 발행 루틴)",
-  "checkedAt": "2026-11-05T19:47:49+09:00",
+  "checkedAt": "2026-11-11T19:40:00+09:00",
   "contentSha256": "a6882eb992f6ebf49f3a4bcb9c97e0a97c986a3831da4c07b4c2c2a70811b80b",
-  "researchSha256": "ef46795f86943866070f554a090878bff4c959a5f7ed0be5c6851b4f7076463e"
+  "researchSha256": "ef46795f86943866070f554a090878bff4c959a5f7ed0be5c6851b4f7076463e",
+  "note": "2026-11-11 19:40 KST 7일 검증 만료 갱신: 본문·조사 해시가 승인본과 동일함을 확인하고 출처 21개 URL 재접속 대조 20개 200, iovs.arvojournals.org 1건은 자동 접속 403. 수치·문장 변경 없음."
 }

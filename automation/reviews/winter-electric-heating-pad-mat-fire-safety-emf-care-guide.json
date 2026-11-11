@@ -2,7 +2,8 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "피클 자동화(정기 발행 루틴)",
-  "checkedAt": "2026-11-05T19:55:01+09:00",
+  "checkedAt": "2026-11-11T19:40:00+09:00",
   "contentSha256": "a4e7f1f9b95699fc11acb291685196f0196dabb3b7e03ed2e31e618948852e2b",
-  "researchSha256": "f86cf1a30e0ce6bf250dbce971917a74c5fdba83f81bdf44a8a5bad695f37ca4"
+  "researchSha256": "f86cf1a30e0ce6bf250dbce971917a74c5fdba83f81bdf44a8a5bad695f37ca4",
+  "note": "2026-11-11 19:40 KST 7일 검증 만료 갱신: 본문·조사 해시가 승인본과 동일함을 확인하고 출처 17개 URL 재접속 대조 전부 200. 수치·문장 변경 없음."
 }
