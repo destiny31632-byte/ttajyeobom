@@ -1,0 +1,250 @@
+{
+  "slug": "winter-static-electricity-clothes-knit-anti-static-spray-dryer-wool-balls-guide",
+  "checkedAt": "2026-11-11T12:20:00+09:00",
+  "facts": [
+    {
+      "claim": "아크릴 스웨터를 벗을 때 인체에 쌓이는 정전기는 4,500~5,000V이고, 폴리에스터 작업복은 4,000~4,500V, 소파에서 일어설 때는 3,500~4,500V다. 이 값은 25℃·40%RH 기준이며 습도가 낮을수록 더 높아진다.",
+      "value": "4,500, 5,000, 5,000, 4,500, 3,500, 25, 40",
+      "sourceUrl": "https://dl.cdn-anritsu.com/en-us/test-measurement/files/Manuals/Instruction-Sheet/Eliminating_ESD_failures_basic_E_00.pdf",
+      "evidence": "Anritsu 2024 ESD 기초 자료: Taking off an acrylic sweater 4,500~5,000V, polyester working clothes 4,000~4,500V, standing up from a sofa 3,500~4,500V, 25℃/40%Rh 기준.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "아크릴 담요를 개는 정도의 작은 동작에서도 5,000~6,000V가 발생한다.",
+      "value": "5,000, 6,000",
+      "sourceUrl": "https://dl.cdn-anritsu.com/en-us/test-measurement/files/Manuals/Instruction-Sheet/Eliminating_ESD_failures_basic_E_00.pdf",
+      "evidence": "Anritsu 자료 표: Folding an acrylic blanket 5,000~6,000V.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "정전기 방전은 1,000V에서는 전혀 느껴지지 않고, 2,000V에서 손끝에 이물감, 2,500V에서 통증 없는 바늘 자극, 3,000V에서 약한 통증, 4,000V에서 깊은 바늘 통증으로 느껴진다.",
+      "value": "1,000, 2,000, 2,500, 3,000, 4,000",
+      "sourceUrl": "https://dl.cdn-anritsu.com/en-us/test-measurement/files/Manuals/Instruction-Sheet/Eliminating_ESD_failures_basic_E_00.pdf",
+      "evidence": "Anritsu 자료 감각표: 1000V 못 느낌, 2000V 손끝 이물감, 2500V 통증 없는 바늘, 3000V 약한 통증, 4000V 깊은 통증.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "상대습도 10~20%에서 카펫 위를 걸으면 35,000V가 발생하지만, 65~90%에서는 1,500V로 떨어진다.",
+      "value": "10, 20, 35,000, 65, 90, 1,500",
+      "sourceUrl": "https://sma.nasa.gov/docs/default-source/sma-disciplines-and-programs/quality/qlf/nasa-eee-parts_esd_compendium_june-2018-sept-18.pdf",
+      "evidence": "NASA EEE Parts ESD Compendium Table 2(MIL-HDBK-263B 인용): walking across carpet 35,000V @10–20% RH, 1,500V @65–90% RH.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "카펫 위를 걸을 때 발생 전압은 10%RH에서 35,000V, 40%RH에서 15,000V, 50%RH에서 7,500V다. 상대습도 50% 이상에서는 방전이 문제되지 않으며 40~60% 유지가 권장된다.",
+      "value": "10, 35,000, 40, 15,000, 50, 7,500",
+      "sourceUrl": "https://extapps.ksc.nasa.gov/reliability/Documents/Preferred_Practices/3008ksc.pdf",
+      "evidence": "KSC GSE-3008: walking across a carpet 35,000V @10% RH, 15,000V @40% RH, 7,500V @50% RH; ESD not normally a concern above 50% RH; 40~60% RH recommended.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "습도 50% 공기에서 5,000V는 약 1cm를 뛸 수 있다.",
+      "value": "50, 5,000, 1",
+      "sourceUrl": "https://www.semiconductors-electronic.com/files/d9/max543aeja.pdf",
+      "evidence": "Maxim Application Note 4491: a general rule is that 5,000V can jump about one centimeter (0.4 inches) in 50% RH air.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "행정안전부는 겨울철 습도가 10~20%로 낮을 때 카펫 위를 걸으면 35,000V가 발생하며, 이는 가정용 전기 220V보다 훨씬 높은 수준이라고 안내한다.",
+      "value": "10, 20, 35,000, 220",
+      "sourceUrl": "https://www.safetv.go.kr/base/video/view?idx=2466",
+      "evidence": "행정안전부 안전한TV: 겨울철 습도 10-20%에서 카펫 위를 걸을 때 정전기 35,000볼트, 일반 가정용 전기 220볼트.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "겨울철 청주 아파트 20가구의 실내 상대습도는 23.0~54.1%, 평균 35.4%였고, 권고기준에 못 미친 6가구의 평균은 26.7%였다.",
+      "value": "20, 23.0, 54.1, 35.4, 6, 26.7, 30",
+      "sourceUrl": "https://doi.org/10.12813/kieae.2013.13.3.111",
+      "evidence": "청주시 아파트 일반가정 겨울철 실내열·공기환경 현장측정(KIEAE 2013): 상대습도 23.0~54.1%(평균 35.4%), 기준 미달 6가구 평균 26.7%. 논문은 상대습도 30% 이하를 현저히 건조한 실내로 규정.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "질병관리청은 겨울철 적정 실내습도를 40~50%로 안내한다.",
+      "value": "40, 50",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=2048",
+      "evidence": "질병관리청 겨울철 한파대비 건강수칙: 겨울철에는 난방으로 실내가 건조해지기 쉬우므로 적정 실내습도(40-50%) 유지.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "환경부 실내공기질 관리 안내는 사람이 쾌적한 조건으로 온도 18~22℃, 습도 40~60%를 제시한다.",
+      "value": "18, 22, 40, 60",
+      "sourceUrl": "https://www.ehtis.or.kr/cmn/sym/mnu/mpm/60001024/htmlMenuView.do",
+      "evidence": "환경보건포털 실내공기질 관리방법: 온도 18~22℃, 습도 40~60% 유지.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "한국소비자원이 대형마트 액체형 섬유유연제 11개를 시험한 결과, 면과 모 소재는 전 제품 정전기 방지 성능이 양호했지만 폴리에스터 100% 소재는 전 제품이 미흡했다. 정량보다 많이 넣으면 흡수 성능이 떨어지고 끈적이는 느낌이 날 수 있다.",
+      "value": "11, 100, 100",
+      "sourceUrl": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156232389",
+      "evidence": "한국소비자원 2017 섬유유연제 비교: 11개 제품, 면·모 양호, 폴리에스터 100% 전 제품 미흡; 정량 초과 시 흡수 성능 저하.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "옷에 뿌리는 정전기 방지 스프레이는 문손잡이에 뿌려도 효과가 없고, 착용 중인 옷에 뿌려야 한다. 효과는 다음 세탁이나 드라이클리닝까지 이어지지만 입을수록 줄어들어 착용할 때마다 뿌리는 편이 좋다.",
+      "value": "1",
+      "sourceUrl": "https://guard.lion.co.jp/eleguard/qa/",
+      "evidence": "Lion 에레가드 FAQ: 문에 직접 스프레이해도 효과 없음, 착용 의류에 사용, 효과는 다음 세탁·클리닝까지이나 착용으로 서서히 저하.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "일반적으로 아크릴과 폴리에스터는 음전하, 나일론과 울은 양전하로 대전되기 쉬워 두 계열을 겹쳐 입으면 정전기가 발생하기 쉽다. 면·마는 대전되기 어렵고 같은 소재끼리 겹치면 덜 발생한다.",
+      "value": "1",
+      "sourceUrl": "https://guard.lion.co.jp/eleguard/qa/",
+      "evidence": "Lion 에레가드 FAQ: 마이너스로 대전되기 쉬운 아크릴·폴리에스터와 플러스로 대전되기 쉬운 나일론·울을 겹치면 정전기 발생 쉬움, 면·마는 덜함.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "정전기가 발생하면 꽃가루와 PM2.5 같은 미세입자가 옷에 끌어당겨져 붙기 쉽다.",
+      "value": "2.5",
+      "sourceUrl": "https://guard.lion.co.jp/eleguard/qa/",
+      "evidence": "Lion 에레가드 FAQ: 옷의 마찰로 정전기가 발생하면 꽃가루 등 미세입자가 끌어당겨지기 쉬움. PM2.5·꽃가루·먼지 부착 방지에 효과적이라고 안내.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "도포형 정전기 방지제는 양이온계 계면활성제를 주제로 쓰며, 공기 중 수분을 흡착해 표면 전기저항을 낮춰 전하를 흘려보낸다. 그래서 성능이 주변 습도에 의존한다.",
+      "value": "1",
+      "sourceUrl": "https://www.jstage.jst.go.jp/article/sfj/56/8/56_8_447/_pdf",
+      "evidence": "표면기술협회 해설: 도포형 대전방지제는 양이온계 계면활성제가 가장 많이 사용되며, 계면활성제 도전성은 공기 중 수분 흡착으로 발현되어 성능이 습도에 의존.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "옷을 벗을 때 니트 제품이 직물보다 더 큰 전하밀도를 보였고, 정전기 방지에는 습도 조절이 가장 효과적이었다.",
+      "value": "1",
+      "sourceUrl": "https://www.jstage.jst.go.jp/article/senshoshi1960/21/2/21_2_67/_article/-char/en",
+      "evidence": "松岡芳朗 섬유 정전기 측정(1980): 탈의 시 니트가 직물보다 큰 전하밀도, 습도 조절이 정전기 방지에 가장 효과적.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "양모는 자기 무게의 35%까지 수분을 흡수할 수 있는 흡습성 섬유다.",
+      "value": "35",
+      "sourceUrl": "https://www.woolmark.com/industry/research/factsheets/wool-is-naturally-breathable/",
+      "evidence": "Woolmark: Wool can absorb up to 35% of its weight before feeling wet; wool is hygroscopic.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "호주 소비자단체 CHOICE가 2024년 건조기 볼을 시험한 결과 에너지 사용과 건조 시간에서 뚜렷한 차이가 없었고, 오히려 비용이 조금 늘어난 경우도 있었다.",
+      "value": "2024, 0.15, 0.07",
+      "sourceUrl": "https://www.choice.com.au/home-and-living/laundry-and-cleaning/dryers/articles/dryer-ball-review",
+      "evidence": "CHOICE 2024-03-07: dryer balls had no meaningful impact on drying performance or running cost in vented and condenser dryers; Wooly Mates 6 balls +0.15kWh(condenser), -0.07kWh(vented).",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "미국 소비자 실험에서 건조기 볼을 넣은 5회의 평균 건조 시간은 41분 20초로, 넣지 않은 5회의 47분 37초보다 14% 짧았다. 정전기 발생 횟수는 4회에서 3회로 줄었지만 표본이 작아 결론을 유보했다.",
+      "value": "5, 41, 20, 47, 37, 14, 4, 3",
+      "sourceUrl": "https://prudentreviews.com/dryer-balls/",
+      "evidence": "Prudent Reviews 2018: 10 loads(5 control, 5 with 2 balls), 47m37s → 41m20s (14% reduction); static cling 4 → 3 instances, inconclusive.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "영국 매체의 건조기 볼 시험에서 울 볼은 타월 건조 시간을 5분 줄이고 부드러움을 높였지만 주름에는 영향이 적었다.",
+      "value": "5",
+      "sourceUrl": "https://www.expertreviews.co.uk/home-garden/large-appliances/do-tumble-dryer-balls-really-work",
+      "evidence": "Expert Reviews 2025-02-06: wool balls sped up towel load by five minutes and softened fabrics, little effect on creasing.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "의류는 실외 미세먼지를 흡착했다가 실내에서 방출하며, 폴리에스터가 같은 시간 동안 가장 높은 PM2.5 농도를 방출했다.",
+      "value": "2.5, 1, 2, 3",
+      "sourceUrl": "https://doi.org/10.1155/2023/3582557",
+      "evidence": "Li et al. 2023 (Zhengzhou): polyester, polyester-cotton, cotton exposed 1h/2h/3h then moved indoors; polyester released highest PM2.5.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "한국전기연구원은 정전기 최대 전압이 35,000V에 이르지만 전류가 흐르는 시간이 0.00002초로 짧아 인체에 큰 영향은 없다고 설명하며, 동전이나 금속 물체를 먼저 만져 전하를 흘려보내는 방법을 권한다.",
+      "value": "35,000, 0.00002",
+      "sourceUrl": "https://www.electimes.com/news/articleView.html?idxno=349772",
+      "evidence": "전기신문 2025-02-07(KERI 자료): 정전기 최대 3만5000V, 전류 시간 0.00002초, 동전·금속을 먼저 만져 방전 권장.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "정전기 충격의 가장 큰 변수는 습도이며, 겨울의 건조한 공기에서는 전하가 피부에 머물다가 금속을 만나는 순간 방전된다.",
+      "value": "1",
+      "sourceUrl": "https://www.mcgill.ca/oss/article/environment-general-science/how-can-i-stop-getting-static-shocks",
+      "evidence": "McGill OSS 2020: The number one factor influencing how many zaps you get is humidity; dry winter air lets charge sit on skin until it meets a conductor.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "옷에 꽂아 두는 옷핀은 이미 대전된 옷의 정전기를 없애지 못했고, 정전기 방지 스프레이는 정전기를 눈에 띄게 줄였다.",
+      "value": "1",
+      "sourceUrl": "https://www.galaxus.ch/en/page/ive-tested-five-static-clothing-hacks-almost-all-of-them-are-rubbish-25506",
+      "evidence": "Galaxus 2022-11-10 실험: safety pin은 이미 대전된 옷에 효과 없음(예방 목적이라도 효과 미미), anti-static spray는 정전기를 눈에 띄게 감소.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "옷 주머니에 옷핀을 넣어 두면 정전기가 줄어든다는 것은 신화이며, 건조기를 과도하게 돌리는 것이 정전기를 늘리는 원인이다.",
+      "value": "1",
+      "sourceUrl": "https://www.snuggle.ca/en/laundry-tips/static-prevention/how-to-get-rid-of-static-cling-5-tips.html",
+      "evidence": "Snuggle: Myth — placing a safety pin in your clothing pocket reduces static build-up; over-drying increases static buildup.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "리빙굿 정전기방지 스프레이 60ml 10개 세트는 10,000원(100ml당 1,667원)이고 상품평은 6,366건이다.",
+      "value": "60, 10, 10,000, 100, 1,667, 6,366",
+      "sourceUrl": "https://www.coupang.com/vp/products/92182487?itemId=18869630258&vendorItemId=4457447732",
+      "evidence": "쿠팡 상품페이지 2026-11-11: 리빙굿 정전기방지 스프레이 본품 60ml 10개 10,000원, 100ml당 1,667원, 상품평 6,366개, 품목 특수목적코팅제·정전기방지용.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "아이앤어스 뉴질랜드산 울 드라이어볼 6p와 파우치 세트는 9,900원이고 상품평은 735건이다.",
+      "value": "6, 9,900, 735",
+      "sourceUrl": "https://www.coupang.com/vp/products/8510795254?itemId=24635233914&vendorItemId=94789626440",
+      "evidence": "쿠팡 검색·상품 2026-11-11: 아이앤어스 건조기볼 뉴질랜드산 울 드라이어볼 6p+파우치 세트 9,900원(정가 11,900원), 상품평 735개.",
+      "asOf": "2026-11-11"
+    },
+    {
+      "claim": "니녹 정전기 방지 홀더 LA-946 3개는 7,750원이고 상품평은 1,889건이다.",
+      "value": "3, 7,750, 1,889",
+      "sourceUrl": "https://www.coupang.com/vp/products/104191741?itemId=316135910&vendorItemId=3776486704",
+      "evidence": "쿠팡 검색 2026-11-11: 니녹 정전기 방지 홀더 LA-946 Blue 3개 7,750원(개당 2,583원), 상품평 1,889개.",
+      "asOf": "2026-11-11"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "제품 단가 환산",
+      "formula": "10,000원 ÷ 600ml × 100 = 1,667원/100ml; 9,900원 ÷ 6개 = 1,650원/개; 7,750원 ÷ 3개 = 2,583원/개",
+      "assumptions": "2026-11-11 쿠팡 판매가 기준, 배송비 무료",
+      "values": [
+        "10000",
+        "600",
+        "100",
+        "1667",
+        "9900",
+        "6",
+        "1650",
+        "7750",
+        "3",
+        "2583"
+      ]
+    },
+    {
+      "table": "건조기 볼 실험 건조 시간 차이",
+      "formula": "(47분 37초 - 41분 20초) ÷ 47분 37초 = 14%",
+      "assumptions": "Prudent Reviews 2018, 동일 코스 5회씩",
+      "values": [
+        "47",
+        "37",
+        "41",
+        "20",
+        "14"
+      ]
+    },
+    {
+      "table": "습도별 카펫 도보 전압 차이",
+      "formula": "35,000V ÷ 1,500V = 23.3배",
+      "assumptions": "NASA ESD Compendium Table 2, 10–20%RH vs 65–90%RH",
+      "values": [
+        "35000",
+        "1500",
+        "23.3",
+        "23"
+      ]
+    }
+  ],
+  "watch": [
+    "쿠팡 3종 가격·상품평 수",
+    "리빙굿·아이앤어스·니녹 판매 페이지 존속 여부",
+    "질병관리청·환경부 권장 습도 수치",
+    "NASA·KSC 습도별 발생 전압 표"
+  ]
+}

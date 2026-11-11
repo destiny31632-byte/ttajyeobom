@@ -1591,6 +1591,36 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
       },
     ],
   },
+  'winter-static-electricity-clothes-knit-anti-static-spray-dryer-wool-balls-guide': {
+    sectionTitle: '겨울 정전기 3종 (옷 스프레이 · 양모 건조볼 · 방전 키홀더)',
+    sectionSubtitle: '2026-11-11 쿠팡 가격·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '옷 전체 1위 🥇',
+        productName: '리빙굿 정전기방지 스프레이 본품, 60ml, 10개',
+        specSummary: '확인일 기준 60ml 10개에 10,000원(100ml당 1,667원)으로, 정전기방지 스프레이 중 후기가 가장 두껍다(6,366건). 품목 표기도 특수목적코팅제·정전기방지용으로 신고된 제품이다. 10개라 현관·가방·사무실에 나눠 둘 수 있지만, 60ml 소용량이라 옷장 전체에 쓰면 금방 준다',
+        tag: '10,000원 · 후기 6,366건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=92182487&itemId=18869630258&vendorItemId=4457447732',
+      },
+      {
+        rank: 2,
+        rankBadge: '건조기 1위 🥈',
+        productName: '아이앤어스 건조기볼 뉴질랜드산 울 드라이어볼 6p + 파우치 세트',
+        specSummary: '확인일 기준 정가 11,900원에서 16% 내린 9,900원, 상품평 735건. 뉴질랜드산 울 6개와 파우치 구성으로 개당 1,650원이다. 양모는 무게의 35%까지 수분을 머금는 흡습성 섬유라 건조실 습도를 완충하고 옷 사이를 벌린다. 다만 건조볼만으로 정전기가 사라지지는 않으니 과건조를 피하는 용도로 봐야 한다',
+        tag: '9,900원 · 후기 735건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8510795254&itemId=24635233914&vendorItemId=94789626440',
+      },
+      {
+        rank: 3,
+        rankBadge: '현관·차문 1위 🥉',
+        productName: '니녹 정전기 방지 홀더 LA-946, Blue, 3개',
+        specSummary: '확인일 기준 3개에 7,750원(개당 2,583원), 상품평 1,889건. 문손잡이·차문·엘리베이터 버튼을 맨손으로 잡기 전에 금속 접점을 먼저 대 전하를 흘려보내는 방식이다. 손끝 대신 넓은 면적으로 접촉해 통증을 줄이는 원리라 옷끼리 달라붙는 현상에는 효과가 없다',
+        tag: '7,750원 · 후기 1,889건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=104191741&itemId=316135910&vendorItemId=3776486704',
+      },
+    ],
+  },
 };
 
 const DEFAULT_RANKING_GROUP: AffiliateRankingGroup = {
