@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-dry-cough-throat-irritation-propolis-spray-lozenges-guide': {
+    sectionTitle: '겨울 목 관리 3종 (프로폴리스 스프레이 · 인후 스프레이 · 도라지 스틱)',
+    sectionSubtitle: '2026-11-12 쿠팡 판매 랭킹·상품평 수 기준(가격과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '상비용 1위 🥇',
+        productName: '콤비타 프로폴리스 스프레이 20ml, 1개',
+        specSummary: '프로폴리스 추출물에 UMF10+ 마누카꿀 20%를 더한 구강 스프레이. 식약처 인정 기능성은 항산화·구강에서의 항균작용까지이고, 라벨 표시 1일 2ml로 보면 20ml가 10일분(하루 1,270원꼴)이다. 확인일 기준 정가 14,000원에서 9% 내린 12,700원, 상품평 3,166건, 무료배송 11/14 도착',
+        tag: '12,700원 · 후기 3,166건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=5347075392&itemId=7854283626&vendorItemId=3072400235',
+      },
+      {
+        rank: 2,
+        rankBadge: '살균 직격 🥈',
+        productName: '[BETADINE] 베타딘 인후 스프레이 50ml, 2개',
+        specSummary: '포비돈요오드 0.45g/100mL(유효요오드 0.045g) 일반의약품으로 인두염·후두염에 1일 수회 분사한다. 갑상선기능 이상, 6세 미만, 임신·수유 중에는 쓰지 않거나 먼저 상의해야 한다. 확인일 기준 100ml 37,500원, 상품평 12건, 11/26 도착 예정이라 급할 때는 약국이 빠르고 싸다',
+        tag: '37,500원 · 11/26 도착',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9642057711&itemId=28811368258&vendorItemId=95746386237',
+      },
+      {
+        rank: 3,
+        rankBadge: '선물·상비 3위 🥉',
+        productName: '평생비책 강원도 약도라지청 13g, 30포 (390g)',
+        specSummary: '국산 약도라지 농축 스틱으로 1포 13g, 30포 구성이다. 도라지 사포닌의 거담 근거는 동물·세포 실험이 중심이라 기대치는 점막 코팅과 수분 섭취 쪽이다. 확인일 기준 정가 50,000원에서 40% 내린 29,900원(1포당 997원), 상품평 4,736건, 11/13 새벽 도착. 원재료명은 상세페이지 참조로 표기돼 당 함량은 라벨 확인이 필요하다',
+        tag: '29,900원 · 후기 4,736건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9302011295&itemId=24392449503&vendorItemId=91383261278',
+      },
+    ],
+  },
   'winter-air-purifier-cadr-filter-cost-guide': {
     sectionTitle: '겨울 실내공기 3종 (원룸형 · 10평 국산 · 거실 20평형)',
     sectionSubtitle: '2026-11-10 쿠팡 판매량순·상품평 수 기준(가격은 판매자 사정에 따라 변동)',
