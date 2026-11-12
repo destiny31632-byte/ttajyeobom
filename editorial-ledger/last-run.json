@@ -1,9 +1,10 @@
 {
   "date": "2026-11-12",
-  "published": [],
-  "remaining": 2,
-  "status": "held",
-  "newPost": null,
-  "reason": "검증할 새 질문 소진: 주제 목록 보충 필요",
-  "workflowStatus": "failure"
+  "published": [
+    "winter-dry-cough-throat-irritation-propolis-spray-lozenges-guide",
+    "winter-scalp-dandruff-itch-dry-flaking-shampoo-care-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
