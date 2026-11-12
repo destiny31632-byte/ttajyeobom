@@ -1,0 +1,200 @@
+{
+  "slug": "winter-cracked-hands-dry-fingertips-hand-cream-urea-panthenol-guide",
+  "checkedAt": "2026-11-12T19:30:00+09:00",
+  "facts": [
+    {
+      "claim": "국내 1,000명 온라인 설문에서 손 습진의 평생 유병률은 31.2%였고, 손 습진 환자 913명 중 겨울에 증상이 가장 심해진다고 답한 비율은 33.6%였다. 병변 부위는 손가락이 39.1%, 손바닥이 31.2%로 가장 많았고, 직업별로는 의료종사자 22.9%, 주부 19.5% 순이었다.",
+      "value": "1,000, 31.2, 913, 33.6, 39.1, 31.2, 22.9, 19.5, 30.4",
+      "sourceUrl": "https://doi.org/10.5021/ad.2016.28.3.335",
+      "evidence": "Park JB et al., 'Clinical Features and Awareness of Hand Eczema in Korea', Annals of Dermatology 2016;28(3):335. 일반인 1,000명 온라인 설문 평생 유병률 31.2%, 환자 913명 설문에서 겨울 악화 33.6%·계절 무관 30.4%, 손가락 39.1%·손바닥 31.2%, 의료종사자 22.9%·주부 19.5%, 의심 원인 물질로 소독제 22.3%.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "손 습진 환자 189명을 후향 분석한 국내 연구에서 평균 유병 기간은 37.3개월이었고, 가장 흔한 악화 요인은 물에 젖는 작업(wet work)으로 24.3%였다. 주부가 32.8%, 학생이 23.8%였고 패치검사를 한 24명 중 20명이 한 개 이상 양성이었다.",
+      "value": "189, 37.3, 24.3, 32.8, 23.8, 24, 20, 83.1, 16.9",
+      "sourceUrl": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001414530",
+      "evidence": "윤숙정 외, '손 습진 환자의 임상적 고찰', 대한피부과학회지. 189명 후향 분석, 평균 유병기간 37.3개월, 양측 침범 83.1%, 악화 요인 1위 wet work 24.3%, 주부 32.8%·학생 23.8%, 패치검사 24명 중 20명 다발성 양성, 니켈 최다.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "중등도 이상 만성 손 습진 환자를 다국적 후향 차트로 본 연구에서 마지막 방문 시 손끝 침범은 41.6%, 균열(fissure)은 46.7%에서 관찰됐다. 손바닥이 56.6%로 가장 많았고 손등 40.8%, 손가락 사이 37.3%가 뒤를 이었다.",
+      "value": "41.6, 46.7, 56.6, 40.8, 37.3, 28.2, 59.6, 59.3, 48.6",
+      "sourceUrl": "https://doi.org/10.1080/09546634.2025.2603121",
+      "evidence": "Fargnoli MC et al., 'Moderate to severe Chronic Hand Eczema in clinical practice (RWEAL)', J Dermatolog Treat 2025. 캐나다·프랑스·독일·이탈리아·스페인·영국. 손바닥 56.6%, 손끝 41.6%, 손등 40.8%, 손가락 사이 37.3%, 손목 28.2%. 증상은 홍반 59.6%, 소양 59.3%, 인설 48.6%, 균열 46.7%.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "손 습진 환자 658명을 향료 성분으로 패치검사한 연구에서 67명(10.2%)이 한 개 이상의 향료에 양성이었다. 저자들은 향료 알레르기가 손 습진 환자에서 흔한 문제일 수 있다고 정리했다.",
+      "value": "658, 67, 10.2, 212",
+      "sourceUrl": "https://doi.org/10.1034/j.1600-0536.2003.00133.x",
+      "evidence": "Heydorn S et al., 'Fragrance allergy in patients with hand eczema - a clinical study', Contact Dermatitis 2003;48:275. 손 습진 658명 중 67명(10.2%)이 추가 선별 향료 중 하나 이상에 양성. 비자극 농도는 212명 연속 환자로 설정.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "국내 15개 대학병원에서 2019~2024년 패치검사 기록 2,271건을 분석한 연구에서 57.1%가 최소 한 개 항원에 양성이었고, 빈도는 니켈 29.0%, 코발트 18.2%, 크로뮴 8.2% 순이었다. 향료 mix I 양성은 나이가 들수록 늘었고, 손 침범은 2-메르캅토벤조티아졸·콜로포늄 등과 연관됐다.",
+      "value": "15, 2019, 2024, 2,271, 57.1, 48.7, 29.0, 18.2, 8.2",
+      "sourceUrl": "https://doi.org/10.1111/cod.70143",
+      "evidence": "Kim MS et al., 'Trends in Contact Sensitization Among Korean Patients: A Multicenter 6-Year Retrospective Patch Test Study', Contact Dermatitis 2026. 15개 대학병원 2,271명, 양성 57.1%, 다발성 48.7%, 니켈 29.0%·코발트 18.2%·크로뮴 8.2%, 손 침범은 MBT·콜로포늄·4-tert-butylphenol formaldehyde resin·치메로살과 연관.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "글리세롤 농도별 사람 피부 개선 점수는 5% 0.86, 10% 1.44, 20% 1.74, 40% 1.80이었고, 20~40%에서 최대 효과에 가까워졌다. 저자들은 80~100% 글리세롤은 같은 양의 페트롤라툼과 비슷한 효과였고, 바르는 총량이 중요하다고 정리했다.",
+      "value": "5, 0.86, 10, 1.44, 20, 1.74, 40, 1.80, 80, 100, 2.02, 2.71",
+      "sourceUrl": "https://library.scconline.org/cdn-1708707834234/Glycerin-Functional-Products-Cosmetic-Raw-Material.pdf",
+      "evidence": "Thau P., 'Glycerin (glycerol): Current insights into the functional properties of a classic cosmetic raw material', J Cosmet Sci 53:229-236 (2002)에 인용된 Bissett DL et al. 1984 연구. 겨울 신시내티에서 하루 2회 2주 도포, 0~5 시각 등급, 시작 등급 평균 2.02~2.71. 20%에서 거의 최대, 40%는 1.80으로 차이 0.06.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "글리세린은 20~45%에서 미국 OTC 피부보호제로 인정되며, 3% 이상이면 보습 효과가 있고, 무희석 글리세린은 삼투 작용으로 오히려 피부를 건조하게 만들 수 있다.",
+      "value": "20, 45, 3, 25, 34, 68",
+      "sourceUrl": "https://library.scconline.org/cdn-1708707834234/Glycerin-Functional-Products-Cosmetic-Raw-Material.pdf",
+      "evidence": "Thau P., J Cosmet Sci 53:229-236 (2002). '20% to 45%' OTC skin protectant, 'levels above 3%'에서 보습, undiluted glycerin은 osmotic action으로 dehydrate. 25% 글리세린이 프로필렌글리콜·소르비톨보다 우수(거칠기 등급 34 대 68).",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "페트롤라툼은 경피수분손실(TEWL)을 98% 줄여 오일계 보습제 중 가장 효과가 크고, 다른 오일류는 20~30% 감소에 그친다.",
+      "value": "98, 20, 30",
+      "sourceUrl": "https://www.mdedge.com/content/petrolatum-effective-moisturizer-there-are-more-uses-it",
+      "evidence": "Santos Malave G, James WD. 'Petrolatum Is Effective as a Moisturizer, But There Are More Uses for It', MDedge Dermatology 2022-10-05. 'petrolatum is the most effective in reducing TEWL by 98%, while others only provide reductions of 20% to 30%'.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "영국 의료진 손 씻기 모사 연구에서 2주간 하루 15회 비누로 씻고 보습제를 바르지 않은 군은 손 습진 중증도 지수(HECSI)가 유의하게 악화됐고(p=0.003), 보습제를 바른 군은 변화가 없었다. 총 132명이 참여했다.",
+      "value": "15, 2, 132, 0.003, 5, 3, 0.041, 0.001, 0.009, 0.044, 14",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20199550/",
+      "evidence": "Williams C et al., 'A double-blind, randomized study to assess the effectiveness of different moisturizers in preventing dermatitis induced by hand washing', Br J Dermatol 2010;162:1088-92. 132명, 2주, 하루 15회 세척. 비누만 쓴 군 HECSI 악화 P=0.003, 보습제군 변화 없음, 5개 중 3개 제품이 7일째 TEWL 감소, 1개는 14일까지 유지(P=0.044).",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "우레아는 10% 이하 농도에서 건조증(xerosis)에 보습 효과가 있고, 15~30%는 중간 농도로 쓰이며, 30%를 넘어야 각질용해 효과가 뚜렷하다.",
+      "value": "10, 15, 30, 20, 21, 10.0, 6.9",
+      "sourceUrl": "https://doi.org/10.1111/ijcp.13815",
+      "evidence": "Dall'Oglio F et al., 'Clinical evidences of urea at medium concentration', Int J Clin Pract 2020;74:e13815. 15~30% 우레아 문헌 고찰, 'keratolytic effect is better obtained by urea at higher concentrations (>30%)'. 20% 우레아 크림 하루 1회 4주에 TEWL 10.0→6.9 감소(21명 위약대조).",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "우레아 30% 크림을 손 습진 여성 20명에게 하루 2회 이상 28일 바르게 한 연구에서 TEWL과 홍반이 유의하게 줄고 각질층 수분이 늘었다. 이상반응은 보고되지 않았다.",
+      "value": "30, 20, 2, 28, 14, 29",
+      "sourceUrl": "https://www.dovepress.com/the-use-of-urea-cream-for-hand-eczema-and-urea-foam-for-seborrheic-der-peer-reviewed-fulltext-article-CCID",
+      "evidence": "Clinical, Cosmetic and Investigational Dermatology 2022, 'The use of urea cream for hand eczema...'. 30% 우레아 크림, 손 습진 여성 20명, 1일 2회 이상 28±2일, 15일·29일 평가에서 TEWL 감소·수분 증가·홍반 감소(p<0.05), 이상반응 없음. 저자들은 우레아 단독 효과로 단정하기 어렵다고 명시.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "우레아 5%에 소듐락테이트·글리세린을 더한 핸드크림을 31명 건강한 건성 피부와 20명 손 피부질환 환자에게 2주 적용한 연구에서 보습과 거칠기 개선, SDS 자극에 대한 TEWL 보호가 유의했다.",
+      "value": "5, 31, 20, 2",
+      "sourceUrl": "https://www.jaad.org/article/S0190-9622(04)03101-9/fulltext",
+      "evidence": "JAAD 2005 초록, 'Tolerance and efficacy of a hand cream containing urea and sodium lactate in patients with dry skin and associated dermatoses'. 5% 우레아+소듐락테이트+글리세린, 건강인 31명·환자 20명, 2주, 피부 거칠기 감소와 TEWL 보호 유의, 부작용 없음.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "질병관리청은 겨울철 적정 실내습도를 40~50%로 제시하며, 실내가 건조해지면 피부와 눈이 건조해진다고 밝힌다.",
+      "value": "40, 50, 18, 20",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=2048",
+      "evidence": "질병관리청 국가건강정보포털 '겨울철 한파대비 건강수칙'. 적정 실내온도 18~20℃, 적정 실내습도 40~50%, '실내가 건조하게 되면 코와 기관지 점막이 마르고 피부와 눈이 건조해져 호흡기질환이나 알레르기질환 등이 유발될 수 있다'.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "서울아산병원 피부과는 피부건조증 치료의 핵심이 보습제이며, 종류보다 양과 횟수가 중요하고 겨울에는 로션보다 크림 제형이 유리하다고 안내한다. 중등도 이상 건조증 환자 연구에서는 2주간 매일 2회 보습제를 쓴 군에서 홍반·인설·균열과 가려움 관련 삶의 질이 개선됐다.",
+      "value": "2, 2, 1, 1, 1, 3, 3, 40",
+      "sourceUrl": "https://news.amc.seoul.kr/news/con/detail.do?cntId=6207",
+      "evidence": "서울아산병원 뉴스룸 '[알쏭달쏭 건강상식] 겨울철 따끔거리는 피부, 피부건조증을 의심하자'(2023-02-14, 장성은 피부과 교수). 보습제는 종류보다 양·횟수, 크림 제형 권장, 2022년 연구에서 2주 매일 2회 사용 시 홍반·인설·균열 개선, 지질 비율 콜레스테롤:지방산:세라마이드 1:1:1 또는 1:1:3, 습도 40% 이상.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "가천대 길병원 피부과는 겨울철 건조증이 심하지 않아도 글리세롤 15%와 바셀린 같은 밀폐제를 조합한 보습제를 꾸준히 쓰라고 권하고, 씻은 뒤 3분 이내에 바르며 하루 두세 번 이상 덧바르라고 안내한다. 목욕은 미지근한 물로 10분 이내, 실내 습도는 40~60%가 이상적이라고 밝힌다.",
+      "value": "15, 3, 2, 3, 10, 40, 60",
+      "sourceUrl": "https://www.mt.co.kr/thebio/2025/11/25/2025112501012328196",
+      "evidence": "머니투데이 2025-11-25, 가천대 길병원 피부과 김현정 교수 인터뷰. '글리세롤 15%, 바셀린 등 밀폐제 조합', 세안·샤워 후 3분 이내, 하루 두세 번 이상, 미지근한 물 10분 이내, 습도 40~60%, 보습제 충분히 써도 갈라짐·가려움 지속되면 진료.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "미국 MSK의 건조 피부 관리 안내는 손 씻는 시간을 20초로 제한하고, 손에 물기가 약간 남았을 때 향이 없는 저자극 보습제를 바르라고 권한다. 알코올·향료가 든 제품은 건조한 피부에서 중지하고, 취침 시 바세린 같은 연고를 바른 뒤 면장갑을 끼우라고 안내한다.",
+      "value": "20, 30",
+      "sourceUrl": "https://www.mskcc.org/ko/pdf/cancer-care/patient-education/caring-your-dry-skin?mode=large",
+      "evidence": "Memorial Sloan Kettering Cancer Center '건조한 피부의 관리'(2023-10-04 갱신). 손 씻기 20초, 젖은 상태에서 무향 보습제, 손 소독제 마른 뒤 즉시 보습, 취침 시 석유젤리+면장갑, 알코올·향료·레티노이드·AHA 제품 중지, 갈라진 피부의 분비물·발열·통증은 의료진 상담.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "알란토인은 화장품에서 최대 2% 농도로 쓰이고, 미국에서는 0.5~2% 농도의 OTC 피부보호제 유효성분으로 허용된다. 상처 치유 촉진·진정 작용의 근거는 주로 동물·시험관 연구다.",
+      "value": "2, 0.5, 2, 1,376, 4, 6",
+      "sourceUrl": "https://www.cosmeticsinfo.org/ingredient/allantoin/",
+      "evidence": "Cosmetics Info(화장품성분안전성전문가위원회 자료 정리). FDA OTC skin protectant 0.5~2%, 1,376개 제품에서 최대 2% 사용, 2~4% 제형의 치료 사용 연구에서 이상반응 없음. JAAD 2017 초록은 상처 치유 기전 연구가 대부분 동물 모델이라고 밝힘.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "오킵스 워킹핸즈의 '미국 1위 핸드크림' 표기는 닐슨 판매 데이터 52주(2022-09-10 종료 기준)에 근거한 것이고, 브랜드는 무향·비끈적임·당뇨 피부 사용 가능을 내세운다. 병(jar) 타입 성분표에는 글리세린·스테아릭애씨드·파라핀과 함께 알란토인이 들어 있다.",
+      "value": "52, 2022, 9, 10, 96, 3.4, 193, 6.8",
+      "sourceUrl": "https://www.okeeffes.ca/products/working-hands/",
+      "evidence": "O'Keeffe's 캐나다 공식 페이지 Working Hands Jar Formula 성분: Water, Glycerin, Stearic Acid, Sodium Hydroxide, Paraffin, Hydroxypropyl Methylcellulose, Allantoin, Octyldodecyl Stearate, Acrylates/Acrylamide Copolymer, Mineral Oil, Polysorbate 85. 미국 아마존 표기 'No. 1 Selling Hand Cream claim based on AC Nielsen sales data for 52-week period ending 9/10/2022'. 병 96g(3.4oz)·193g(6.8oz), 튜브 198g.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "오킵스 워킹핸즈 핸드크림 96g 1개는 2026-11-12 쿠팡에서 정가 13,000원에서 30% 내린 9,020원(10g당 940원)에 팔리고, 상품평 3,163건·평점 4.5, 무료배송으로 11월 13일 새벽 도착 예정이다.",
+      "value": "96, 13,000, 30, 9,020, 940, 3,163, 4.5, 11, 13, 2,027, 12, 13",
+      "sourceUrl": "https://www.coupang.com/vp/products/7759804799?itemId=20922880913&vendorItemId=3359991241",
+      "evidence": "쿠팡 상품 페이지(오킵스 워킹핸즈 핸드크림, 96g, 1개) 2026-11-12 19:40 확인. 정가 13,000원, 30% 할인 9,020원, 10g당 940원, 평점 4.5/상품평 3,163건, 모든피부, 무향, 내일(금) 새벽 7시 전 도착, 사용기한 2027-12-13 이후, 한 달간 1,000명 이상 구매.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "카밀 핸드 앤 네일 크림 클래식 100ml 3개 세트는 2026-11-12 쿠팡에서 정가 21,600원에서 68% 내린 6,810원(개당 2,270원, 10ml당 227원)이고 상품평은 51,956건, 무료배송으로 11월 13일 새벽 도착 예정이다.",
+      "value": "100, 3, 21,600, 68, 6,810, 2,270, 227, 51,956, 13",
+      "sourceUrl": "https://www.coupang.com/vp/products/9727610179?itemId=26571328841&vendorItemId=85072867800",
+      "evidence": "쿠팡 검색 결과·상품 페이지(카밀 핸드 앤 네일 크림 클래식, 3개, 100ml) 2026-11-12 확인. 21,600원에서 68% 할인 6,810원, 10ml당 227원, 평점 5.0/상품평 51,956건, 내일(금) 새벽 도착.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "뉴트로지나 인텐스 리페어 시카 핸드크림 56g 1개는 2026-11-12 쿠팡에서 정가 7,900원에서 16% 내린 6,620원(10g당 1,182원)이고 상품평 12,851건·평점 4.5, 모레(토) 도착 예정이다. 국내 판매분 전성분에는 정제수·글리세린·세테아릴알코올·판테놀·알란토인·향료·병풀추출물이 들어 있고 글리세린 함량 %는 표기되지 않는다.",
+      "value": "56, 7,900, 16, 6,620, 1,182, 12,851, 4.5, 40, 45, 99.5",
+      "sourceUrl": "https://www.coupang.com/vp/products/9636903770?itemId=3227752743&vendorItemId=84690900427",
+      "evidence": "쿠팡 상품 페이지(뉴트로지나 인텐스 리페어 시카 핸드크림, 56g, 1개) 2026-11-12 확인. 7,900원→16% 6,620원, 10g당 1,182원, 평점 4.5/상품평 12,851건, 모레(토) 도착. 전성분은 마켓컬리 고시정보: 정제수, 글리세린, 세테아릴알코올, 소듐세테아릴설페이트, 카프릴릴글라이콜, 에틸헥실글리세린, 판테놀, 알란토인, 팔미틱애씨드, 향료, 부틸렌글라이콜, 스테아릭애씨드, 병풀추출물. 뉴트로지나 영국 페이지의 45% 글리세린, 프랑스 페이지의 40% 글리세린은 각국 '노르웨이안 포뮬러' 표기이며 국내 56g 시카 제품과 같은 제형이라는 근거는 없다.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "익스트림버프 우레아 100000ppm(10%) 핸드크림 50ml는 2026-11-12 쿠팡에서 12,280원, 상품평 1,444건·평점 5.0, 11월 13일 새벽 도착 예정이다.",
+      "value": "100000, 10, 50, 12,280, 1,444, 5.0, 13",
+      "sourceUrl": "https://www.coupang.com/vp/products/9614853761?itemId=27145026079&vendorItemId=94112893892",
+      "evidence": "쿠팡 검색 결과(익스트림버프 168시간 초고보습 우레아 100000ppm 핸드크림, 1개, 50ml) 2026-11-12 확인. 12,280원, 평점 5.0/상품평 1,444건, 내일(금) 새벽 도착. 100,000ppm은 10%에 해당.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "바세린 올 퍼포즈 크림 40g 1개는 2026-11-12 쿠팡에서 4,500원에서 51% 내린 2,200원, 상품평 1,274건·평점 4.5다.",
+      "value": "40, 4,500, 51, 2,200, 1,274, 4.5",
+      "sourceUrl": "https://www.coupang.com/vp/products/8584308126?itemId=24884910464&vendorItemId=91899132358",
+      "evidence": "쿠팡 검색 결과(바세린 올 퍼포즈 크림, 40g, 1개) 2026-11-12 확인. 4,500원에서 51% 할인 2,200원, 평점 4.5/상품평 1,274건.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "카카오 선물하기 큐레이터 상품 '[선물포장] 나드 핸드크림 & 퍼퓸 립밤 세트 4종'(부케가르니)은 2026-11-12 판매가 15,000원, 선물후기 749건·별점 4.0, 예상 수익 1,350원이며 무료배송에 선물포장이 포함된다.",
+      "value": "4, 15,000, 749, 4.0, 1,350, 4,000",
+      "sourceUrl": "https://gift.kakao.com/product/3945233",
+      "evidence": "카카오 선물하기 상품 페이지 2026-11-12 확인. '[선물포장] 나드 핸드크림 & 퍼퓸 립밤 세트 4종', 15,000원, 선물후기 749건 별점 4.0/4, 무료배송(제주·도서산간 4,000원 추가), 큐레이터 예상 수익 1,350원, 선물포장 제공. 옵션은 라벤더머스크향 핸드크림 2개입+립밤 2개입.",
+      "asOf": "2026-11-12"
+    },
+    {
+      "claim": "질병관리청은 손 씻기를 개인위생의 기본으로 안내하고, 겨울철 피부 건조를 난방과 낮은 습도의 결과로 설명한다.",
+      "value": "40, 50",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=2048",
+      "evidence": "질병관리청 '겨울철 한파대비 건강수칙' 중 실내생활 수칙: 외출 후 손 씻기 등 개인위생, 적정 실내습도 40~50% 유지, 난방으로 실내가 건조해지기 쉬움.",
+      "asOf": "2026-11-12"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "제품 단가 비교",
+      "formula": "10g당 가격 = 판매가 ÷ (용량g ÷ 10)",
+      "assumptions": "2026-11-12 쿠팡 표시 가격 기준, 배송비 없음",
+      "values": [940, 227, 1182, 2270]
+    },
+    {
+      "table": "글리세롤 농도별 개선 점수 차이",
+      "formula": "40% − 20% = 0.06",
+      "assumptions": "Bissett 1984 사람 피부 2주 도포, 0~5 등급 개선폭",
+      "values": [0.86, 1.44, 1.74, 1.8, 0.06]
+    }
+  ],
+  "watch": [
+    "쿠팡 3종 가격·배송일·상품평 수(와우할인 3일 남음 표기, 11/16 이후 변동 가능)",
+    "뉴트로지나 국내 56g 시카 제품의 글리세린 함량 표기 여부",
+    "카카오 큐레이터 링크 유효성과 예상 수익률(12월까지 9%)"
+  ]
+}

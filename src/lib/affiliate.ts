@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-cracked-hands-dry-fingertips-hand-cream-urea-panthenol-guide': {
+    sectionTitle: '겨울 손끝 갈라짐 3종 (현장형 고보습 · 가성비 · 고농축 소량)',
+    sectionSubtitle: '2026-11-12 쿠팡 가격·상품평·배송일 기준(할인과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '손끝 갈라짐 1위 🥇',
+        productName: '오킵스 워킹핸즈 핸드크림 96g, 1개',
+        specSummary: '무향 고농축 배합으로 글리세린에 스테아릭애씨드·파라핀·디메치콘을 더해 피막을 만든다. 병 타입 성분표에는 피부 진정용 알란토인도 들어 있다. 확인일 기준 정가 13,000원에서 30% 내린 9,020원(10g당 940원), 상품평 3,163건 평점 4.5, 무료배송 11/13 새벽 도착. 미국 1위 표기는 닐슨 판매 52주(2022-09-10 기준) 근거다',
+        tag: '9,020원 · 후기 3,163건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7759804799&itemId=20922880913&vendorItemId=3359991241',
+      },
+      {
+        rank: 2,
+        rankBadge: '가성비 1위 🥈',
+        productName: '카밀 핸드 앤 네일 크림 클래식 100ml, 3개',
+        specSummary: '개당 2,270원, 10ml당 227원으로 이 글의 세 제품 중 단가가 가장 낮다. 상품평 51,956건에 평점 5.0이라 손이 가장 많이 가는 현관·사무실·가방에 나눠 두기 좋다. 향이 있어 갈라진 부위가 따가우면 무향인 1위 제품으로 바꾸는 편이 낫다. 확인일 기준 정가 21,600원에서 68% 내린 6,810원, 11/13 새벽 도착',
+        tag: '6,810원 · 개당 2,270원',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9727610179&itemId=26571328841&vendorItemId=85072867800',
+      },
+      {
+        rank: 3,
+        rankBadge: '고농축 3위 🥉',
+        productName: '뉴트로지나 인텐스 리페어 시카 핸드크림 56g, 1개',
+        specSummary: '정제수 다음에 글리세린이 오는 고농축 소량형에 판테놀·알란토인·병풀추출물을 더했다. 흔히 인용되는 글리세린 40%는 해외 노르웨이안 포뮬러 표기이고 국내 56g 시카 제품은 함량 %를 표시하지 않으며 향료가 들어 있다. 확인일 기준 정가 7,900원에서 16% 내린 6,620원(10g당 1,182원), 상품평 12,851건 평점 4.5, 모레 도착',
+        tag: '6,620원 · 후기 12,851건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9636903770&itemId=3227752743&vendorItemId=84690900427',
+      },
+    ],
+  },
   'winter-dry-cough-throat-irritation-propolis-spray-lozenges-guide': {
     sectionTitle: '겨울 목 관리 3종 (프로폴리스 스프레이 · 인후 스프레이 · 도라지 스틱)',
     sectionSubtitle: '2026-11-12 쿠팡 판매 랭킹·상품평 수 기준(가격과 배송일은 판매자 사정에 따라 변동)',
