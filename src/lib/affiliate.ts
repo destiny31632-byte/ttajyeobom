@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-facial-dryness-barrier-repair-ceramide-cream-panthenol-guide': {
+    sectionTitle: '겨울 얼굴 속건조 3종 (장벽 재건 · 대용량 가성비 · 진정 밤)',
+    sectionSubtitle: '2026-11-13 쿠팡 가격·상품평·도착일 기준(할인과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '장벽 크림 1위 🥇',
+        productName: '에스트라 아토베리어365 크림 플러스 90ml, 1개',
+        specSummary: '세라마이드NP에 콜레스테롤·스쿠알란·알란토인을 더한 고보습 장벽 크림. 확인일 기준 정가 38,500원에서 23% 내린 와우할인가 29,450원(10ml당 3,272원), 상품평 27,676건, 무료배송 오늘(금) 도착. 판매자 답변상 이 90ml 구성은 롱체인 세라마이드 적용 제품이 아니며, 80ml 28,500원보다 용량당 단가가 낮다',
+        tag: '29,450원 · 후기 27,676건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8330725092&itemId=23021736099&vendorItemId=79923886105',
+      },
+      {
+        rank: 2,
+        rankBadge: '용량당 가성비 1위 🥈',
+        productName: '일리윤 세라마이드 아토 집중크림 230ml, 1개',
+        specSummary: '향료 없이 세라마이드NP와 전구체 7622ppm, 콜레스테롤, 스쿠알란, 마데카소사이드로 구성한 장벽 크림. 확인일 기준 정가 22,900원에서 35% 내린 14,800원으로 100ml당 6,435원이라 얼굴과 목, 손등까지 덧발라도 부담이 적다. 상품평 28,850건, 무료배송 오늘(금) 도착',
+        tag: '14,800원 · 100ml당 6,435원',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9262395587&itemId=25144944485&vendorItemId=94251615157',
+      },
+      {
+        rank: 3,
+        rankBadge: '진정 밤 3위 🥉',
+        productName: '라로슈포제 뉴 시카플라스트 밤 B5+ 크림 40ml, 1개',
+        specSummary: '판테놀 5%에 마데카소사이드, 시어버터, 징크·망간을 더해 세안 후 붉고 따가운 부위에 얹는 밤 제형. 확인일 기준 정가 27,000원에서 27% 쿠폰할인된 19,580원(10ml당 4,895원), 상품평 9,835건, 로켓배송으로 오늘(금) 도착. 100ml 20,470원은 일반배송 판매자 구성이고 가품 신고 글이 있어 로켓배송 40ml를 권장',
+        tag: '19,580원 · 후기 9,835건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9053141046&itemId=22048953474&vendorItemId=83358381384',
+      },
+    ],
+  },
   'winter-cracked-hands-dry-fingertips-hand-cream-urea-panthenol-guide': {
     sectionTitle: '겨울 손끝 갈라짐 3종 (현장형 고보습 · 가성비 · 고농축 소량)',
     sectionSubtitle: '2026-11-12 쿠팡 가격·상품평·배송일 기준(할인과 배송일은 판매자 사정에 따라 변동)',

@@ -1,0 +1,181 @@
+{
+  "slug": "winter-facial-dryness-barrier-repair-ceramide-cream-panthenol-guide",
+  "checkedAt": "2026-11-13T08:00:00+09:00",
+  "facts": [
+    {
+      "claim": "일본 여성 39명(24~78세)을 같은 항온실에서 늦여름과 겨울에 반복 측정한 결과, 각질층 장벽 기능은 볼과 전완 모두 겨울에 유의하게 나빠졌고 그 악화 폭은 볼에서 훨씬 컸다. 볼의 각질층 수분량과 피지량은 계절에 따른 변화가 없었지만, 겨울 볼은 피부 온도와 붉은기가 유의하게 높았고 각질세포 크기는 작아져 각질층 교체가 빨라졌다.",
+      "value": "39, 24, 78",
+      "sourceUrl": "https://doi.org/10.1159/000047989",
+      "evidence": "Kikuchi K, Kobayashi H, Le Fur I, Tschachler E, Tagami H. 'The Winter Season Affects More Severely the Facial Skin than the Forearm Skin', Exogenous Dermatology 2002;1:32-38. 겨울에 볼·전완 모두 TEWL 유의 증가, 볼의 변화 폭이 전완보다 훨씬 큼. 볼 수분량·피지량은 계절 변화 없음, 볼 피부온도·홍조는 겨울에 유의하게 상승, 볼 각질세포 크기 감소(교체율 증가) → 아임상 염증 해석.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "비구순(팔자주름 부위) 피부를 여성 16명에서 가을과 겨울에 측정하면 겨울 TEWL이 유의하게 높고 붉은기와 각질 정도도 심해지며, 표면 지질의 트리글리세리드와 콜레스테롤에스터 조성이 달라져 수화지질막 기능이 떨어진다.",
+      "value": "16",
+      "sourceUrl": "https://doi.org/10.1159/000159772",
+      "evidence": "De Paépe K et al. 'Seasonal Effects on the Nasolabial Skin Condition', Skin Pharmacol Physiol 2008. 건강한 여성 16명, 가을 대비 겨울 TEWL 유의 증가, 색소·각질 측정치 증가, HPTLC상 트리글리세리드·콜레스테롤에스터 유의 차이.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "얼굴(볼) 각질층 겉보기 두께는 평균 16.8㎛로 전완 22.6㎛, 손등 29.3㎛, 손바닥 173.0㎛보다 얇다. 볼은 전완보다 약 26% 얇다. 각질층 세포층 수는 얼굴이 10±2층, 전완이 16±4층으로 보고된다.",
+      "value": "16.8, 22.6, 29.3, 173.0, 15, 10, 16, 26",
+      "sourceUrl": "https://doi.org/10.2340/00015555-0183",
+      "evidence": "Egawa M, Hirao T, Takahashi M. 'In vivo Estimation of Stratum Corneum Thickness from Water Concentration Profiles Obtained with Raman Spectroscopy', Acta Derm Venereol 2007;87:135-140. 건강한 일본인 15명(남 6·여 9) 라만 분광: 볼 16.8±2.84, 상완 21.8±3.63, 전완 22.6±4.33, 손등 29.3±6.84, 손바닥 173.0±36.96㎛. 세포층 수 10±2 대 16±4는 Kobayashi & Tagami 2004로 Gorcea 2019 리뷰에 인용.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "볼의 기저 경피수분손실은 19.63 g/m²/h로 전완 10.45 g/m²/h의 약 두 배였고, 테이프 스트리핑으로 장벽이 손상되는 데 볼은 5~6회, 전완은 18~20회가 필요했다.",
+      "value": "19.63, 10.45, 5, 6, 18, 20",
+      "sourceUrl": "https://doi.org/10.1111/ics.12568",
+      "evidence": "Gorcea M, Lane ME, Moore DJ. 'A proof-of-principle study comparing barrier function and cell morphology in face and body skin', Int J Cosmet Sci 2019. 건강한 성인 5명(여 3·남 2, 30~54세). 기저 TEWL 볼 19.63, 전완 10.45 g/m²/h(p<0.05). 기저 TEWL 2배 도달까지 볼 6회, 전완 18~20회(약 3배).",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "겨울철 청주 아파트 20가구 실내 상대습도는 평균 35.4%였고, 6가구(30%)는 평균 26.7%로 평가기준(50±20%)보다 낮았다. 초음파 가습기를 쓰지 않은 32평형·51평형 아파트는 모든 측정점에서 상대습도가 40%를 밑돌았다.",
+      "value": "20, 35.4, 6, 26.7, 40, 32, 51",
+      "sourceUrl": "https://doi.org/10.12813/kieae.2013.13.3.111",
+      "evidence": "조준행, 최윤정. '청주시 아파트 일반가정의 겨울철 실내열 공기환경 현장측정조사', 한국생태환경건축학회논문집 2013;13(3):111. 2010-12-28~2011-03-11, 20가구. 상대습도 평균 35.4%, 14가구(70%) 기준 만족, 6가구 평균 26.7%. '상대습도 30% 이하의 현저히 건조한 실내는 피부와 기도점막의 건조를 일으키고 기도의 세균 감염 예방작용을 약하게 한다'고 인용. 가습기 미사용 아파트 40% 미달은 박정균(2007) 환경관리학회지 13(1):25-34.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "습도를 급격히 낮추면 각질층 수분 보유능력과 유리 아미노산(천연보습인자)이 줄고, 건조 환경 48시간만으로도 표피 DNA 합성과 과증식, 진피 비만세포 탈과립과 염증 소견이 나타난다. 밀폐막·바셀린·비밀폐성 습윤제를 바르면 이 변화가 모두 막혔다. 동물을 습도 10% 미만에 2주 두면 기저 TEWL이 31% 줄고 각질층 층수가 늘어나는 적응이 나타난다.",
+      "value": "48, 31, 10",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9804352/",
+      "evidence": "Denda M, Sato J, Tsuchiya T, Elias PM, Feingold KR. 'Low humidity stimulates epidermal DNA synthesis and amplifies the hyperproliferative response to barrier disruption', J Invest Dermatol 1998;111:873-878. 습도 저하 48시간에 표피 DNA 합성 증가, 장벽 파괴 후 반응 증폭으로 현저한 표피 과증식, 비만세포 비대·탈과립·조직학적 염증. 폐쇄성 필름·페트롤라툼·비폐쇄성 습윤제 모두 예방. 수분 보유능·유리 아미노산 감소는 Sato J et al., Arch Dermatol Res 2001;293:477-480.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "각질층 지질의 세라마이드가 겨울에 줄고 TEWL이 오른다. 여드름 피부는 정상 피부보다 세라마이드가 낮고(2월 CER[NH] 57% 감소) 그 차이가 겨울에 커지는데, 정상 피부는 겨울에 CER[NH]·CER[AH]를 오히려 늘려 환경에 적응한다.",
+      "value": "7, 10, 57, 38, 36, 47, 68",
+      "sourceUrl": "https://doi.org/10.1111/exd.13499",
+      "evidence": "Pappas A, Kendall AC, Brownbridge LC, Batchvarova N, Nicolaou A. 'Seasonal changes in epidermal ceramides are linked to impaired barrier function in acne patients', Exp Dermatol 2018. 여드름 남성 7명·정상 10명, 12개월 볼 각질 테이프. CER[NH] 2월 57%·4월 38% 감소, CER[AH] 36%·47%, CER[EOS] 2월 68%, CER[EOH] 59% 감소. 정상 피부는 겨울에 CER[NH]·CER[AH] 생산 증가.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "세라마이드 우세 장벽 보습제로 기존 보습제를 교체한 아토피 소아 24명에서 3주 만에 22명의 중증도 점수(SCORAD)가 유의하게 개선됐고, TEWL은 중증도 점수와 나란히 감소해 점수가 평탄해진 뒤에도 계속 떨어졌다.",
+      "value": "24, 3, 22, 20, 21",
+      "sourceUrl": "https://www.jaad.org/article/S0190-9622(02)00048-8/abstract",
+      "evidence": "Chamlin SL et al. 'Ceramide-dominant barrier repair lipids alleviate childhood atopic dermatitis', J Am Acad Dermatol 2002;47:198-208. 소아 24명, 기존 치료 유지 + 보습제만 교체, 3주마다 20~21주 추적. 3주에 22명 SCORAD 유의 개선, TEWL 병행 감소, 각질층 응집·수분 개선, 전자현미경상 세포외 층판막 재출현.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "각질층 지질은 세라마이드·콜레스테롤·지방산이 약 50 대 25 대 25 비율로 구성되며, 이 세 가지를 함께 담은 제형이 세라마이드 단독보다 보습 전달에 유리하다는 것이 브랜드 임상 자료의 주장이다.",
+      "value": "50, 25, 30",
+      "sourceUrl": "https://www.aestura.com/web/brand/dermaon.do",
+      "evidence": "에스트라 더마온 브랜드 자료: 피부 지질 구성 세라마이드 50%, 콜레스테롤 25%, 지방산 25%. 자사 의뢰 시험(엘리드 임상연구센터, 2020-07-29~30, 건조·민감 여성 30명, 평균 48.37세)에서 세콜지 제형이 세라마이드 단독보다 보습 전달이 좋았다는 브랜드 주장. 제3자 검증 논문이 아니므로 광고 주장으로만 취급.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "덱스판테놀 크림은 계면활성제로 자극한 피부에서 장벽 회복을 유의하게 앞당기고 각질층 수분을 더 높였으며, 거칠기와 붉은기를 줄였다.",
+      "value": "5",
+      "sourceUrl": "https://doi.org/10.1080/09546630212345674",
+      "evidence": "Proksch E, Nissen HP. 'Dexpanthenol enhances skin barrier repair and reduces inflammation after sodium lauryl sulphate-induced irritation', J Dermatolog Treat 2002. SLS 패치로 자극 유발 후 덱스판테놀 크림과 비히클을 하루 2회 도포. 장벽 회복 유의하게 빨라짐, 각질층 수분 증가(비히클보다 유의), 거칠기 감소(우수), 붉은기 유의 감소(비히클은 효과 없음). 판테놀은 체내에서 판토텐산으로 전환돼 CoA를 거쳐 지방산·스핑고지질 합성에 관여.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "판테놀 함유 핸드크림을 4주간 하루 4회 이상 바르면 각질층 수분이 기준선 대비 72.8% 늘고 TEWL은 7.9% 줄었다. 반대쪽 미도포 부위는 TEWL이 오히려 늘었다.",
+      "value": "40, 4, 72.8, 7.9, 1.8, 1.0",
+      "sourceUrl": "https://www.mdpi.com/2079-9284/9/3/44",
+      "evidence": "Stettler H et al. 'Performance and Acceptability of a New Dexpanthenol-Containing Hand Cream in Subjects with Sensitive and Very Dry Skin', Cosmetics 2022;9:44. 민감·건조 피부 성인 40명, 좌우 비교. 29일째 수분 +12.41 대 +4.46 a.u.(p<0.001), TEWL 변화 -1.8 대 +1.0 g/m²/h(p=0.003).",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "히알루론산은 분자량에 따라 장벽에 반대로 작용한다. 사람 피부 조직편에 9일간 발랐을 때 저분자량 히알루론산은 TEWL을 55.5% 높였고, 고분자량은 15.6%, 가교형은 27.8% 낮췄다.",
+      "value": "9, 55.5, 15.6, 27.8, 7.6",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/27050698",
+      "evidence": "Sundaram H et al. 'Pilot Comparative Study of the Topical Action of a Novel, Crosslinked Resilient Hyaluronic Acid on Skin Hydration and Barrier Function in a Dynamic, Three-Dimensional Human Explant Model', J Drugs Dermatol 2016;15(4):434-441. 생체 사람 피부 조직편 9일, 라만 분광·TEWL. LMW HA TEWL +55.5%, HMW -15.6%, 가교 RHA -27.8%, 표피 수분 +7.6%.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "상대습도 30%로 맞춘 방에서 히알루론산 1%+글리세린 5%+병풀 유래 성분 액을 한 번 바르면 수분이 1시간 후 59%, 8시간 후 48%, 24시간 후 29% 증가했고 24시간 TEWL은 미도포 부위보다 낮았다.",
+      "value": "30, 1, 5, 59, 48, 29, 24, 20",
+      "sourceUrl": "https://www.dovepress.com/the-24-hour-skin-hydration-and-barrier-function-effects-of-a-hyaluroni-peer-reviewed-fulltext-article-CCID",
+      "evidence": "Milani M, Sparavigna A. 'The 24-hour skin hydration and barrier function effects of a hyaluronic acid fluid', Clin Cosmet Investig Dermatol 2017;10:311-315. 건강한 여성 20명, 23℃·상대습도 30%, 좌우 비교. +59%/1시간, +48%/8시간, +29%/24시간, 24시간 TEWL 13±4 대 16±6 a.u.(p=0.049).",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "글리세린은 히알루론산보다 물을 더 많이 붙잡는다. 실험 자료에서 글리세롤은 물 1.23g/g을 결합했고, 히알루론산이 뛰어난 습윤제라는 통념은 근거가 약하다.",
+      "value": "1.23",
+      "sourceUrl": "https://library.scconline.org/v075n01/52",
+      "evidence": "Journal of Cosmetic Science 75(1):45-46. 희석 수용액에서 글리세롤의 수소결합 6.3±1.4로 물 1.23g/g 결합, 히알루론산의 실측 결합량보다 큼. 'HA가 뛰어난 수분 결합력을 가진 우수한 습윤제라는 관념을 반박'하며 '글리세린이 가장 성능이 좋은 습윤제'라고 정리.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "뜨거운 물 노출은 TEWL과 피부 pH, 붉은기를 높인다. 건강한 지원자 50명 연구에서 뜨거운 물은 TEWL·pH·홍반을 유의하게 올렸고 저자들은 뜨겁지 않은 물을 권고했다. 계면활성제 용액은 40℃가 20℃보다 TEWL을 유의하게 더 높였다.",
+      "value": "50, 40, 20",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35053992/",
+      "evidence": "Herrero-Fernandez M et al. 'Impact of Water Exposure and Temperature Changes on Skin Barrier Function', J Clin Med 2022 (PMID 35053992). 건강한 지원자 50명. 뜨거운 물 노출이 TEWL·pH·홍반 증가, 44℃ 접촉에서 TEWL·홍반 증가. 계면활성제 온도: Ohlenschlaeger J et al., Acta Derm Venereol 1996;76:295-297, 20명, 40℃ SLS 침지가 20℃보다 TEWL 유의 증가, 물만으로는 변화 없음.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "국내 15세 이상 1,000명 전화 설문에서 56.8%(남 54.4%, 여 59.2%)가 자기 얼굴 피부를 '민감' 또는 '매우 민감'하다고 답해 비교 국가 중 가장 높았다. 민감성 피부군은 아토피·여드름·지루성 피부염·안면홍조 유병률이 2~4배, 기후·환경 요인 반응이 2~3배였다.",
+      "value": "1,000, 56.8, 54.4, 59.2, 2, 4, 3",
+      "sourceUrl": "https://doi.org/10.1111/srt.12418",
+      "evidence": "Kim YR, Cheon HI, Misery L, Taieb C, Lee YW. 'Sensitive skin in Korean population: an epidemiological approach', Skin Res Technol 2018;24:229-234. 1,000명(15세 이상) 대표 표본. 민감성 56.8%, 13.6~15%가 '매우 민감'. 미국·러시아·독일 등보다 높고 일본·이탈리아·프랑스와 비슷.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "질병관리청은 아토피피부염 관리에서 실내 온도 20~22℃, 습도 45~55%를 유지하라고 안내한다. 국내 유병률은 어린이 10~20%, 성인 1~3%로 추정되며, 아토피 피부는 피지 분비는 정상이지만 지질(세라마이드) 이상으로 겨울에 건조증이 심해진다.",
+      "value": "20, 22, 45, 55, 10, 20, 1, 3",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6582",
+      "evidence": "질병관리청 국가건강정보포털 '아토피피부염'(2024-07-30 등록, 2026-05-06 갱신). 요약문의 실내 온도 20~22℃·습도 45~55%, 역학 및 통계의 국내 어린이 10~20%·성인 1~3%, 증상 항목의 '겨울에는 건조증이 더 악화된다. 피지 분비는 정상이지만 지질(세라마이드) 성분에 이상이 있기 때문이다'.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "미스트를 뿌리면 일시적으로 수분이 공급되지만 증발하면서 각질층 수분까지 끌고 가고, 난방을 켜면 증발이 더 빨라진다. 진짜 보습에는 수분 증발을 막는 연화제·밀폐제가 필요하며, 실내는 18~22℃·습도 40~60%가 권장된다.",
+      "value": "18, 22, 40, 60, 15, 30",
+      "sourceUrl": "https://www.joongang.co.kr/article/25113122",
+      "evidence": "중앙일보 2022-10-28 '피부 촉촉해지라고 미스트 칙칙? 물 먹은 피부의 황당 배신'. 한양대병원 피부과 김정은 교수: 미스트는 주성분이 물이라 쉽게 증발하며 이때 피부 장벽 속 수분까지 끌고 간다, 난방 기구를 켜면 증발이 더 빨라진다, 수분 증발을 막는 연화제·밀폐제가 필요하다. 같은 기사에 피부가 머금은 수분 평균 15~30%, 그보다 적으면 피지를 과잉 분비한다는 박은주 교수(한림대성심병원) 설명과 실내 18~22℃·습도 40~60% 권장.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "겨울철에는 미스트를 반복해서 뿌리는 것만으로 지속적인 보습을 기대하기 어렵고, 세안 후 피부가 완전히 마르기 전에 보습제를 바르고 크림 제형으로 바꾸는 것이 좋다. 난방 공간은 습도 40~50%를 유지하는 것이 권장된다.",
+      "value": "40, 50",
+      "sourceUrl": "https://health.chosun.com/site/data/html_dir/2026/11/12/2026111203170.html",
+      "evidence": "헬스조선 2026-11-12 '건조함 해소하려 미스트 인기… 자주 뿌린다고 해결 안 돼'. 서울그레이스피부과 임지수 원장: 미스트 단독으로는 지속 보습이 어렵고, 제품에 보습 성분이 있는지·사용 후 보습제를 바르는지·주변 습도가 어떤지에 따라 결과가 달라진다. 세안 후 촉촉할 때 보습제, 겨울엔 크림, 세라마이드 고려, 난방 공간 습도 40~50%.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "속건조는 수분을 채워도 피부가 그 수분을 지키지 못해 생긴다. 아침에는 물로만 세안하고, 약산성 클렌저로 부드럽게 씻고, 각질은 2주에 한 번 정도만 제거하는 것이 권장된다.",
+      "value": "2",
+      "sourceUrl": "https://jhealthmedia.joins.com/news/articleView.html?idxno=26097",
+      "evidence": "헬스중앙 2022-12-07 인터뷰, 청담리더스피부과 노낙경 원장. '미스트를 뿌리고 스킨·앰플·에센스를 발라 느껴지는 촉촉감은 일시적 효과다. 피부는 보충한 수분을 지키는 능력이 거의 없다. 수분을 보충한 다음엔 적당한 기름막을 형성하는 보습제가 필요하다.' 아침 물세안 권장, 약산성 세안제, 각질 2주에 1회, 밀폐제만 쓰면 모공을 막을 수 있다.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "에스트라 아토베리어365 크림 플러스 90ml 전성분에는 세라마이드NP, 콜레스테롤, 스쿠알란, 알란토인, 나이아신아마이드, 피토스핑고신, 스핑고리피드가 들어 있고 향료는 1% 미만이다. 쿠팡 판매자 답변은 이 90ml 구성이 '롱체인' 제품이 아니라고 안내한다. 같은 상품 80ml는 28,500원이다.",
+      "value": "90, 27,676, 29,450, 80, 28,500",
+      "sourceUrl": "https://www.aestura.com/web/product/view.do?prdSeq=1021",
+      "evidence": "에스트라 공식몰 전성분(정제수, 부틸렌글라이콜, 글리세린, 스쿠알란, 베헤닐알코올, 다이메티콘, 하이드록시프로필비스팔미타마이드엠이에이, 콜레스테롤, 알란토인, 나이아신아마이드, 세라마이드엔피, 피토스핑고신, 스핑고리피드 등). 쿠팡 상품문의 2026-11-05 답변 '문의하신 상품은 롱체인 제품이 아닌 점 이용에 참고 부탁드립니다'. 가격·상품평은 2026-11-13 쿠팡 90ml 1개 29,450원(정가 38,500원 23% 와우할인, 10ml당 3,272원), 상품평 27,676, 오늘(금) 도착.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "일리윤 세라마이드 아토 집중크림은 향료 없이 세라마이드NP, 세라마이드 전구체(세틸-PG하이드록시에틸팔미타마이드 7622ppm), 콜레스테롤, 스쿠알란, 마데카소사이드, 피토스핑고신으로 구성된다. 230ml 1개는 14,800원, 상품평 28,850건이다.",
+      "value": "230, 14,800, 28,850, 7622",
+      "sourceUrl": "https://www.coupang.com/vp/products/9262395587",
+      "evidence": "아모레몰·일리윤 공식 전성분(정제수, 부틸렌글라이콜, 글리세린, 세틸-피지하이드록시에틸팔미타마이드(세라마이드 CPP-40 7622ppm), 콜레스테롤, 스쿠알란, 마데카소사이드, 세라마이드엔피 4ppm, 향료 없음). 쿠팡 2026-11-13: 230ml 1개 14,800원(정가 22,900원 35%, 100ml당 6,435원), 상품평 28,850, 오늘(금) 도착. 단, 쿠팡 상품문의 AI 답변에는 판테놀 미포함이라는 답변이 있어 본문에서 판테놀을 주장하지 않음.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "라로슈포제 뉴 시카플라스트 밤 B5+는 판테놀 5%와 마데카소사이드, 시어버터, 징크·망간 글루코네이트, 프리바이오틱 Tribioma를 담은 밤 제형이다. 로켓배송 40ml 1개는 19,580원, 상품평 9,835건이다.",
+      "value": "5, 40, 19,580, 9,835, 27",
+      "sourceUrl": "https://www.laroche-posay.com/cicaplast-baume-b5-plus",
+      "evidence": "라로슈포제 공식: 판테놀 5%, 마데카소사이드, Tribioma, 징크·망간, 시어버터. 전성분에 향료 없음. 쿠팡 2026-11-13 로켓배송(판매자 쿠팡(주)) 40ml 1개 19,580원(정가 27,000원 27% 쿠폰할인, 10ml당 4,895원), 상품평 9,835, 오늘(금) 도착. 같은 상품 100ml 20,470원(10ml당 2,047원)은 일반배송·해외 판매자 구성이며 상품문의에 가품 신고 글이 있어 로켓배송만 권장.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "히말라야 보습 케어 세트는 수분크림 50ml 2개, 비건 립밤 10g 2개, 핸드크림 100ml 구성으로 23,900원이고, 선물후기 18건 평점 4.0, 무료배송·선물포장, 큐레이터 예상 수익 2,151원이다.",
+      "value": "50, 2, 10, 100, 23,900, 18, 4.0, 2,151",
+      "sourceUrl": "https://gift.kakao.com/product/11148533",
+      "evidence": "카카오 선물하기 2026-11-13 확인: '[단독] 히말라야 보습 케어 세트 [수분크림 50ml 2개+비건 립밤 2개+핸드크림 100ml]', 23,900원, 선물후기 18건 별점 4.0, 무료배송(제주 3,000원·도서산간 5,000원 추가), 선물포장. 큐레이터 화면의 예상 수익 2,151원. 생성 링크 gift-link.kakao.com/c/QkcYyqZz.",
+      "asOf": "2026-11-13"
+    },
+    {
+      "claim": "페트롤라툼(바세린)은 경피수분손실을 98% 줄여 오일류 보습제 중 밀폐력이 가장 강하다.",
+      "value": "98, 20, 30",
+      "sourceUrl": "https://www.mdedge.com/content/petrolatum-effective-moisturizer-there-are-more-uses-it",
+      "evidence": "Santos Malave G, James WD. 'Petrolatum Is Effective as a Moisturizer, But There Are More Uses for It', MDedge Dermatology 2022-10-05. 'petrolatum is the most effective in reducing TEWL by 98%, while others only provide reductions of 20% to 30%'.",
+      "asOf": "2026-11-13"
+    }
+  ]
+}

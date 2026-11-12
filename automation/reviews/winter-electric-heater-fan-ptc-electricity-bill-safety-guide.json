@@ -1,8 +1,9 @@
 {
- "approved": true,
- "factsVerified": true,
- "reviewer": "피클 자동화(정기 발행 루틴)",
- "checkedAt": "2026-11-06T08:12:00+09:00",
- "contentSha256": "81e1f50a82786f12f011de15c2e812acd3601fd9777a95cf758a216a71fd8064",
- "researchSha256": "75f5278688b58ce487e162af081726fba464641eaa48b3bc67ce9aec023fe4cc"
+  "approved": true,
+  "factsVerified": true,
+  "reviewer": "Pickle: 7-day renewal check of KEPCO residential tariff rates, 2026 Q4 fuel adjustment, appliance and fire-agency sources",
+  "checkedAt": "2026-11-12T23:31:20.797Z",
+  "contentSha256": "81e1f50a82786f12f011de15c2e812acd3601fd9777a95cf758a216a71fd8064",
+  "researchSha256": "75f5278688b58ce487e162af081726fba464641eaa48b3bc67ce9aec023fe4cc",
+  "method": "7일 검증 갱신(2026-11-13). 본문은 변경하지 않았고, 이 글의 계산 근거인 주택용 저압 요금 단가를 다시 확인했다. 200kWh 이하 120.0원·201~400kWh 214.6원·400kWh 초과 307.3원, 기본요금 910원·1,600원·7,300원, 기후환경요금 9.0원/kWh, 2026년 4분기 연료비조정요금 +5.0원/kWh(동결), 부가세 10%, 전력산업기반기금 2.7%가 현행과 일치함을 한전 요금 체계 및 2026년 4분기 기준 자료로 재확인했다. 9월부터 기타계절 누진구간(200·400kWh)이 적용되는 점도 본문 서술과 같다. 본문의 파생 금액(401kWh, 250kWh, 44,880원, 144,260원, 99,380원, 209,440원, 164,560원, 169,790원, 70,640원)은 이 단가표와 2,000W 가동시간으로 다시 계산해 자체 일관성을 확인했다. 출처 링크 온라인 점검에서 한전·소방청·공정위·에너지공단·소비자원 링크는 응답했고 weather.apple.com만 봇 차단(403)으로 경고가 남았으며 본문 인용과는 무관하다. 남은 한계: 프런트매터의 한전 '한글 전기요금표' 링크는 2013년 6단계 표를 보여 주는 페이지라 현행 3단계 단가를 직접 뒷받침하지 않는다. 단가 자체는 위와 같이 별도로 확인했으며 링크 교체는 후속 작업으로 남긴다."
 }
