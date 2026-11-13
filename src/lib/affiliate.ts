@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-shoes-boots-dryer-deodorizer-waterproof-spray-care-guide': {
+    sectionTitle: '겨울 신발 관리 3종 (저온 살균 건조 · 방수 코팅 · 재사용 제습)',
+    sectionSubtitle: '2026-11-13 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '저온 건조 1위 🥇',
+        productName: '크린포유 휴대용 UV 살균 C타입 타이머 신발 건조기, FU-C2400BE, 코튼 베이지',
+        specSummary: 'USB-C 전원에 타이머가 달린 휴대용 건조기로, 상품평에서 건조 온도 50℃와 190g 무게가 확인된다. 확인일 기준 정가 45,000원에서 42% 내린 25,900원, 상품평 567건 평점 4.5, 무료배송·무료반품이다. UV-C는 표면 보조 기능이라 발가락 안쪽까지 살균된다고 보면 안 되고, 가죽·스웨이드에는 열을 쓰지 않는 편이 안전하다',
+        tag: '25,900원 · 후기 567건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8283858944&itemId=23884255425&vendorItemId=95250904457',
+      },
+      {
+        rank: 2,
+        rankBadge: '눈길 방어 2위 🥈',
+        productName: '안젖소 신발 방수 스프레이 200ml, 1개',
+        specSummary: '눈·비 오는 날 신기 전에 뿌려 염화칼슘과 진흙이 가죽에 직접 닿는 시간을 줄이는 발수 코팅. 확인일 기준 정가 15,900원에서 24% 내린 12,000원, 상품평 8,538건 평점 4.5로 한 달에 4,000명 이상이 구매했다. 효과는 영구적이지 않아 시즌 중 두세 번 다시 뿌려야 하고, 스웨이드는 전용 제품인지 먼저 확인한다',
+        tag: '12,000원 · 후기 8,538건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7295797798&itemId=26851205798&vendorItemId=93821021994',
+      },
+      {
+        rank: 3,
+        rankBadge: '보관 제습 3위 🥉',
+        productName: '일리마 신발탈취제·제습제 겸용 75g, 4개',
+        specSummary: '무향 대나무숯 충전 린넨백이라 향에 민감한 사람도 쓰기 쉽고, 한 달에 한 번 햇볕에 말리면 반영구적으로 쓴다. 확인일 기준 정가 12,800원에서 33% 할인에 쿠폰이 적용된 8,530원, 상품평 595건 평점 5.0. 실리카겔처럼 무게비 30% 이상을 빨아들이지는 않으므로 흠뻑 젖은 신발을 말리는 용도가 아니라 물기를 턴 뒤 밤새 넣어 두는 보관용이다',
+        tag: '8,530원 · 후기 595건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8634254220&itemId=25051307045&vendorItemId=92499627818',
+      },
+    ],
+  },
   'winter-facial-dryness-barrier-repair-ceramide-cream-panthenol-guide': {
     sectionTitle: '겨울 얼굴 속건조 3종 (장벽 재건 · 대용량 가성비 · 진정 밤)',
     sectionSubtitle: '2026-11-13 쿠팡 가격·상품평·도착일 기준(할인과 배송일은 판매자 사정에 따라 변동)',
