@@ -6,5 +6,6 @@
   ],
   "remaining": 0,
   "status": "daily-limit-reached",
-  "newPost": null
+  "newPost": null,
+  "workflowStatus": "success"
 }
