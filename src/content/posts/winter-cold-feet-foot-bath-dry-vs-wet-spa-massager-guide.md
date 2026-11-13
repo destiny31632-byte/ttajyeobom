@@ -126,7 +126,7 @@ sources:
     accessed: 2026-11-13
     note: "편백나무 정유 90초 흡입, HF 증가, 긴장·우울 감소"
   - title: "스트레스 해소와 아토피, 편백나무에 답이 있다"
-    url: "https://south.forest.go.kr/kfsweb/cop/bbs/selectBoardArticle.do?bbsId=BBSMSTR_1036&nttId=404343"
+    url: "https://south.forest.go.kr/kfsweb/cop/bbs/selectBoardArticle.do?bbsId=BBSMSTR_1036&ctgryLrcls=&ctgryMdcls=&ctgrySmcls=&mn=USUT_03_02&ntcEndDt=&ntcStartDt=&nttId=404343&orgId=&pageIndex=1653"
     publisher: "남부지방산림청"
     type: government
     accessed: 2026-11-13
