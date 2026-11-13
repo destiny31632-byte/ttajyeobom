@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-knee-pain-cold-joint-heated-knee-massager-wrap-guard-guide': {
+    sectionTitle: '겨울 무릎 시림 3종 (무선 온열 공기압 · 전기 온열 찜질 · 1등급 압박 보호대)',
+    sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '공기압 온열 1위 🥇',
+        productName: '오아 무선 듀얼 온열 공기압 무릎 종아리 다리 발 마사지기 V2, OMS-008BE',
+        specSummary: '공기압과 온열을 함께 넣은 무선 충전식 마사지기. 무릎에 맞춰 쓰거나 종아리·발 쪽으로 돌려 쓸 수 있다. 확인일 기준 정가 139,000원에서 15% 내린 118,000원, 상품평 259건 평점 4.5, 한 달간 200명 이상 만족, 다른 판매자 최저 92,320원이다. KC 안전확인 YU10444-19012로 전기용품 인증은 받았지만 의료기기는 아니어서 치료 효능을 표방할 수 없다. 무릎에 고정하면 걷기 어렵고, 앉아서 10~20분 쓰는 용도다',
+        tag: '118,000원 · 후기 259건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=2264058432&itemId=3880486465&vendorItemId=71865138432',
+      },
+      {
+        rank: 2,
+        rankBadge: '온열 찜질 2위 🥈',
+        productName: '스마일마더 온열 무릎 찜질기, K0701-D8',
+        specSummary: '온열과 타이머를 갖춘 무릎 일체형 전기 찜질기. 확인일 기준 정가 75,000원에서 42% 내린 42,890원(다른 판매자 최저 37,980원), 상품평 1,143건 평점 4.5, 한 달간 100명 이상 구매다. 무선이 아니라 전원이 있어야 하고, 이 카테고리는 지속시간·최고온도 표시가 허술해 2016년 소비자원 조사에서 18개 중 표시 제품이 0개였다. 얇은 옷 위에 대고 20분 안쪽으로 쓰는 편이 안전하다',
+        tag: '42,890원 · 후기 1,143건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=1625272458&itemId=2772882908&vendorItemId=91250512109',
+      },
+      {
+        rank: 3,
+        rankBadge: '1등급 의료기기 3위 🥉',
+        productName: '레노브라 1등급 의료기기 무릎 보호대, RENOVRA-KNEE-01, 2개',
+        specSummary: '품명 압박용 밴드(식약처 1등급, B07090.02)로 신고된 무릎 보호대. 수입신고번호 수신26-598호, 광고심의필 62026-I10-22-2698. 확인일 기준 정가 39,800원에서 50% 내린 19,800원(개당 9,900원, 1개 옵션 12,800원), 상품평 3,034건 평점 4.5, 한 달간 1,000명 이상 구매다. 온열 기능은 없고 탄성 압박만 제공하므로, 1등급 표시를 온열·치료 효과로 읽으면 안 된다. 좌우겸용 원사이즈이며 착용한 채 걸을 수 있다',
+        tag: '19,800원 · 후기 3,034건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9517807653&itemId=28695150468&vendorItemId=95709352071',
+      },
+    ],
+  },
   'winter-cold-feet-foot-bath-dry-vs-wet-spa-massager-guide': {
     sectionTitle: '수족냉증 족욕 3종 (접이식 온수 지압 · 물 없는 편백 건식 · 무선 온열 종아리)',
     sectionSubtitle: '2026-11-13 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
