@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-cold-feet-foot-bath-dry-vs-wet-spa-massager-guide': {
+    sectionTitle: '수족냉증 족욕 3종 (접이식 온수 지압 · 물 없는 편백 건식 · 무선 온열 종아리)',
+    sectionSubtitle: '2026-11-13 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '온수 지압 1위 🥇',
+        productName: '오아 버블풋 접이식 족욕기, OMS-024WH, 화이트',
+        specSummary: '지압 기능과 리모컨, 온열, 타이머가 달린 접이식 습식 족욕기. 확인일 기준 정가 80,550원에서 47% 내린 42,540원, 상품평 217건 평점 4.5, 한 달 300명 이상 구매, 다른 판매자 최저 40,830원이다. 물을 받아 쓰는 방식이라 배수와 건조는 사용자 몫이고, 물 온도는 기기 표시가 아니라 온도계로 45℃ 이하인지 확인해야 한다',
+        tag: '42,540원 · 후기 217건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8405162018&itemId=24298803412&vendorItemId=91336461046',
+      },
+      {
+        rank: 2,
+        rankBadge: '물 없이 2위 🥈',
+        productName: '굿프렌드 참조은 편백 건식족욕기, GOOD-F40, 나무색',
+        specSummary: '물을 쓰지 않고 30℃에서 65℃까지, 1분에서 99분 타이머로 작동하는 건식 족욕기. 소비전력 160W, 중량 3.5kg, 내부 바이오 세라믹 약돌 8개, 벨크로 기모 커버는 분리 세탁된다. 확인일 기준 정가 149,000원에서 쿠폰 적용 134,500원(다른 판매자 최저 114,430원), 상품평 117건 평점 5.0. 판매자 답변상 일부 모델은 원적외선이 아닌 카본히터 방식이므로 발열 방식 표기를 확인해야 한다',
+        tag: '134,500원 · 후기 117건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7388135207&itemId=19096088775&vendorItemId=86216873958',
+      },
+      {
+        rank: 3,
+        rankBadge: '무선 다리 3위 🥉',
+        productName: '제스파 무선 종아리 온열 마사지기, ZP5443, 넬리',
+        specSummary: '공기압·온열·진동이 각 3단계인 무선 종아리 마사지기. C타입 충전, 벨크로 고정, 1회 15분 자동 종료, 완충 시 최대 4시간 사용이 상품평에서 확인된다. 확인일 기준 정가 110,000원에서 56% 내린 48,150원(다른 판매자 최저 32,740원), 상품평 285건 평점 4.5. 족욕이 아니어서 발은 따뜻해지지 않고, 안감 분리 세탁이 안 되며 진동 모드에서는 소리가 난다',
+        tag: '48,150원 · 후기 285건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6838116861&itemId=17981312404&vendorItemId=85138128516',
+      },
+    ],
+  },
   'winter-shoes-boots-dryer-deodorizer-waterproof-spray-care-guide': {
     sectionTitle: '겨울 신발 관리 3종 (저온 살균 건조 · 방수 코팅 · 재사용 제습)',
     sectionSubtitle: '2026-11-13 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',

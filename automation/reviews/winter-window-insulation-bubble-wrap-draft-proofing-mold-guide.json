@@ -2,7 +2,8 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "피클 자동화(정기 발행 루틴)",
-  "checkedAt": "2026-11-06T19:35:00+09:00",
+  "checkedAt": "2026-11-13T10:38:00.000Z",
   "contentSha256": "75118f078ed2a5aa5338e8073d4705a542f39adba7266b7bbddd4d4a33a079fa",
-  "researchSha256": "53a8dd7cd215a887c3c123bcac125c271744f3ba52fecb6295ab5d0621263b23"
+  "researchSha256": "53a8dd7cd215a887c3c123bcac125c271744f3ba52fecb6295ab5d0621263b23",
+  "method": "Renewed on 2026-11-13: the post and research file are byte-identical to the previously approved versions (content and research hashes match), the government policy briefing page and the Yonhap article were re-fetched and return HTTP 200, and the condensation, bubble-wrap insulation and mould figures were re-read from the source notes, so the approval is renewed without changing any claim."
 }
