@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-car-windshield-fogging-oil-film-water-repellent-washer-fluid-guide': {
+    sectionTitle: '겨울 앞유리 관리 3종 (유막+발수 세트 · 김서림 방지제 · 동계 워셔액)',
+    sectionSubtitle: '2026-11-15 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '불스원 Rain OK 뉴 이지그립 유막제거제 + 발수코팅제 세트, 120ml, 1개',
+        specSummary: '확인일 기준 정가 35,800원에서 46% 내린 19,040원이고 100ml당 15,867원이다. 상품평 35,324건, 한 달간 6,000명 이상 구매, 무료배송·무료반품이며 판매자는 쿠팡이다. 생활화학제품 신고번호는 CB21-07-1062. 유막제거와 발수코팅이 한 세트라 앞유리 바깥을 한 번에 정리할 수 있고, 남는 코팅제는 와이퍼가 닿지 않는 사이드미러와 측면 유리에 쓰면 된다',
+        tag: '19,040원 · 후기 35,324건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=2251901316&itemId=24513866631&vendorItemId=91526742823',
+      },
+      {
+        rank: 2,
+        rankBadge: '김서림 1위 🥈',
+        productName: '더클래스 안티포그 김서림 방지제, 120ml, 1개',
+        specSummary: '확인일 기준 15,390원에서 29% 내린 10,900원, 100ml당 9,083원이다. 상품평 9,260건, 한 달간 2,000명 이상 구매, 오늘 도착·무료배송·무료반품이며 판매자는 쿠팡이다. 생활화학제품 신고번호는 EB25-07-0002. 차 안쪽 유리에 바르는 제품이라 포장의 자가검사표시를 확인하고 바른 뒤 환기하는 것이 좋다',
+        tag: '10,900원 · 후기 9,260건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6976280145&itemId=17268931390&vendorItemId=4279138910',
+      },
+      {
+        rank: 3,
+        rankBadge: '가성비 1위 🥉',
+        productName: '소낙스 더 뷰 에탄올 워셔액, 2L, 2개',
+        specSummary: '확인일 기준 15,000원에서 22% 내린 11,630원으로 100ml당 291원이다. 워셔액 어는점은 -25도이고 상품평 19,691건, 한 달간 3,000명 이상 구매, 오늘 도착·무료배송·무료반품이며 생활화학제품 신고번호는 DA20-16-0023이다. 2L 두 통이면 한 겨울을 버티고, 어는점 표시가 있어 1월 한파에도 탱크가 얼지 않는다',
+        tag: '11,630원 · 후기 19,691건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=538043&itemId=20934646414&vendorItemId=5218737748',
+      },
+    ],
+  },
   'winter-food-waste-dryer-odor-running-cost-comparison-guide': {
     sectionTitle: '음식물처리기 유지비 기준 3종 (판매량 1위 · 소비자원 시험 모델 · 미생물 발효)',
     sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
