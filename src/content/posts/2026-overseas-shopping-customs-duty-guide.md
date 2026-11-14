@@ -33,11 +33,11 @@ sources:
     accessed: 2026-10-09
     note: "목록통관 정의, 금액 기준과 배제대상"
   - title: "관세법 시행규칙 제45조"
-    url: "https://www.law.go.kr/LSW/lumLsLinkPop.do?chrClsCd=010202&lspttninfSeq=107388"
+    url: "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B4%80%EC%84%B8%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
     publisher: "국가법령정보센터"
     type: official
-    accessed: 2026-10-09
-    note: "자가사용 소액물품 미화 150달러 이하 면세 규정"
+    accessed: 2026-11-14
+    note: "자가사용 소액물품 미화 150달러 이하 면세 규정(제45조)"
   - title: "한미 FTA 특송 물품의 면세 기준 및 통관절차"
     url: "https://www2.customs.go.kr/ftaportalkor/cm/cntnts/cntntsView.do?cntntsId=997&mi=3318"
     publisher: "관세청 FTA 포털"
