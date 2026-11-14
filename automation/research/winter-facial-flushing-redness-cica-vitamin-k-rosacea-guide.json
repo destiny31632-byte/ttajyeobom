@@ -1,0 +1,132 @@
+{
+  "slug": "winter-facial-flushing-redness-cica-vitamin-k-rosacea-guide",
+  "checkedAt": "2026-11-14T12:40:00+09:00",
+  "facts": [
+    {
+      "claim": "안면홍조는 얼굴·목·상체가 달아오르면서 피부가 붉어지는 현상이고, 짧은 시간 동안 반복적으로 나타나는 점이 지속되는 홍반과 다르다. 뺨을 중심으로 나타나는 것은 이 부위 혈관이 비교적 굵고 피부 표면에 가깝기 때문이며, 홍조가 오랜 기간 지속되면 홍반이 생기고 결국 주사(딸기코)로 발전할 수 있다.",
+      "value": "2주",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5857",
+      "evidence": "질병관리청 국가건강정보포털 '안면홍조': '안면홍조는 얼굴, 목, 상체가 달아오르는 느낌이 들면서 피부가 붉어지는 현상', '피부가 장시간 동안 붉은 상태로 유지되는 홍반과는 달리, 안면홍조는 짧은 시간 동안에만 반복적으로 나타납니다', '홍조가 주로 뺨을 중심으로 얼굴에 나타나는 것은 이 부분의 혈관이 비교적 굵고 피부의 표면 가까이에 있기 때문', '안면홍조가 오랜 기간 지속되면 붉은 빛깔의 얼룩점(홍반)이 생길 수 있고, 결국 주사로 발전할 수 있습니다', 고온 사우나·맵고 뜨거운 음식·음주 회피, 여러 벌의 얇은 옷 착용 권고, 원인 파악을 위해 2주 정도 일기 작성 권고.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "대한피부과학회는 주사를 얼굴 중앙부의 지속적인 홍반과 구진·고름물집, 반복적인 홍조, 모세혈관확장을 특징으로 하는 만성 질환으로 설명한다. 자연치유되지 않고 호전과 악화를 반복하며, 악화인자로 열·한랭·과도한 일광 노출, 음주, 뜨겁거나 매운 음식을 꼽고 이를 피하라고 안내한다.",
+      "value": "4, 30, 50, 0.5, 1",
+      "sourceUrl": "https://www.derma.or.kr/new/general/disease.php?mod=document&uid=5186",
+      "evidence": "대한피부과학회 피부질환 '주사': '얼굴의 중앙 부위(특히 코 주변부와 같이 돌출한 부위의 뺨, 턱, 이마)에 주로 발생하는 지속적인 홍반과 구진, 고름 물집, 반복적인 홍조 및 모세혈관확장', '주사에는 4개의 임상형이 존재', '30~50대에서 가장 흔하다', '자연치유되지 않으며 호전과 악화를 반복한다', '악화인자 예방: 홍조와 혈관확장을 일으키는 인자인 열, 한랭, 과도한 일광 등에 노출하는 것을 최소화하고, 음주와 뜨겁거나 매운 음식을 피해야 한다'.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "국제장미증협회 환자 설문에서 악화인자는 자외선 81%, 감정적 스트레스 79%, 더운 날씨 75%, 강한 바람 57%, 격렬한 운동 56%, 음주 52%, 뜨거운 목욕 51%, 차가운 바람 46%, 매운 음식 45% 순이었다. 국내 환자 설문에서는 감정 변화 52%, 스트레스 48%, 더운 날씨 45%, 뜨거운 목욕 40%, 매운 음식 36%였고 1인당 평균 4.63개의 악화인자를 보고했다.",
+      "value": "81, 79, 75, 57, 56, 52, 51, 46, 45, 48, 40, 36, 4.63",
+      "sourceUrl": "https://jkma.org/journal/view.php?number=3533&viewtype=pubreader",
+      "evidence": "J Korean Med Assoc 2024;67(5):(신민경, '장미증의 임상 양상 및 치료'): '국제장미증협회에서 환자를 대상으로 설문 조사를 실시한 결과, 응답자의 81%가 자외선 노출과 관련되어 악화됨을 보고하였다. 그 다음으로는 79% 환자들이 감정적 스트레스, 75% 환자들은 더운 날씨, 57% 환자들은 강한 바람, 56% 환자들은 격렬한 운동, 52% 환자들은 음주, 51% 환자들은 뜨거운 목욕, 46%는 차가운 바람, 45%는 매운 음식', '국내 장미증 환자들의 설문 조사에서는 52%가 감정변화…스트레스 48%, 더운 날씨 45%, 뜨거운 목욕 40%, 매운 음식이 36%', '1인당 평균 4.63개의 악화인자'.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "장미증 환자의 82%가 민감피부를 호소하며, 피부 장벽 손상으로 물리적·화학적 자극에 취약하다. 과도한 세안, 이중세안, 딥클렌징, 스크럽제, 비누 기반 알칼리 세정제, 알코올 토너는 악화시킬 수 있어 거품이 적은 약산성 클렌저를 하루 1~2회 미지근한 물로 가볍게 쓰도록 권고한다. 기초화장품은 보습 크림·로션과 자외선차단제로 국한하라고 안내한다.",
+      "value": "82, 1, 2",
+      "sourceUrl": "https://jkma.org/journal/view.php?number=3533&viewtype=pubreader",
+      "evidence": "J Korean Med Assoc 2024 장미증 리뷰: '장미증 환자의 82%가 민감피부라는 보고가 있으며', '과도한 세안, 특히 화장을 깨끗하게 씻어내야 한다는 생각에 클렌징제품을 두 가지 이상 사용하는 이중세안, 딥클렌징이나 오일클렌저, 스크럽제, 각질제거제, 비누 기반의 알칼리 세정제의 사용, 과도한 마찰…은 장미증을 악화시킬 수 있다', '세안제는 거품이 적은 액상의 약산성 클렌저를 하루 1-2회로 제한하여 미지근한 물로 가볍게 세안하는 것을 추천', '기초화장품은 보습에 도움이 되는 크림이나 로션, 자외선차단제로 국한'.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "장미증은 초기에 비특이적 양상으로 나타나 아토피피부염·접촉피부염·피부루푸스로 오인해 스테로이드로 치료하는 경우가 있는데, 이때 일시적으로 호전되었다가 결국 더 심해지면서 악화될 수 있다.",
+      "value": "1",
+      "sourceUrl": "https://jkma.org/journal/view.php?number=3533&viewtype=pubreader",
+      "evidence": "J Korean Med Assoc 2024 장미증 리뷰: '초기에는 비특이적인 양상으로 나타나 아토피피부염이나 알레르기접촉피부염, 피부루푸스로 오인하여 스테로이드로 치료하는 경우에는 일시적으로 호전되었다가 결국 더 심해지면서 악화될 수 있다'.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "국소 스테로이드는 얼굴처럼 피부가 얇은 부위에서 부작용이 더 쉽게 발생하며, 피부위축이 가장 흔한 부작용으로 모세혈관확장·자색반·궤양을 일으킨다. 얼굴에는 스테로이드유발주사, 입주위 피부염, 스테로이드 여드름이 흔하고, 중단 시 심한 부작용이 나타날 수 있다.",
+      "value": "4, 36, 3, 4",
+      "sourceUrl": "https://www.derma.or.kr/new/general/treatment.php?mod=document&uid=3315",
+      "evidence": "대한피부과학회 '국소 스테로이드 연고': '눈꺼풀과 음낭에서의 국소스테로이드의 투과율은 이마의 4배이며 손바닥이나 발바닥의 36배에 이른다', '얼굴이나 피부스침부(간찰부)에는 약한 제제를 사용해야 하고', '피부위축이 가장 흔하고 뚜렷한 부작용…결과적으로 모세혈관확장, 자색반, 멍, 궤양 등이 발생', '여드름, 스테로이드유발주사, 입주위 피부염 등이 얼굴부위에 흔히 발생하는 스테로이드 부작용', '염증반응의 초기에는 스테로이드치료가 효과를 보인다. 그러나 중단 시 심한 부작용이 일어날 수 있다'.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "강한 국소 스테로이드를 3~4주 이상 사용하면 피부위축이 생기고 그 결과 모세혈관확장·자반이 나타난다. 스테로이드 유발 주사는 초기에는 병변을 일시적으로 억제하지만 중단하면 급성악화가 와서 환자가 스테로이드에 중독되기 쉽다. 따라서 주사나 입주위피부염 치료에서는 국소 스테로이드 사용 여부를 먼저 확인하고 금해야 한다.",
+      "value": "3, 4",
+      "sourceUrl": "https://www.jkma.org/journal/view.php?number=129&viewtype=pubreader",
+      "evidence": "J Korean Med Assoc 2018;61(10):632-636 (이지현·박영민, '국소 코르티코스테로이드의 올바른 사용법'): '피부위축은 국소 스테로이드 치료의 가장 흔한 부작용으로 일반적으로 강한 역가의 국소 스테로이드를 3-4주 이상 사용할 때 발생한다', '이런 위축의 결과로 혈관의 늘어남, 모세혈관확장, 자반(멍), 별모양의 가성흉터, 궤양 등이 발생할 수 있다', '스테로이드 유발 주사, 여드름, 입주위피부염 등의 발생이나 악화도 국소스테로이드의 잘 알려진 부작용이다. 초기에는 국소 스테로이드가 이런 염증 병변을 일시적으로 억제할 수 있지만, 치료를 중단하면 급성악화가 발생하기 때문에 환자들은 국소 스테로이드에 중독이 되기 쉽다'.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "비타민K 크림을 레이저 시술 전 2주간 바른 쪽은 멍 예방 효과가 위약과 차이가 없었고, 시술 후 2주간 바른 쪽은 멍 정도가 유의하게 낮았다. 다만 이는 22명 규모의 분할얼굴 연구로, 대상은 얼굴 모세혈관확장증 레이저 시술 후 생긴 멍이다.",
+      "value": "22, 2",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12140470/",
+      "evidence": "Shah NS et al., J Am Acad Dermatol 2002;47:241-4, 'The effects of topical vitamin K on bruising after laser treatment': 이중맹검 무작위 위약대조 22명, 분할얼굴. 'The side of the face treated with topical vitamin K before laser therapy showed no significant difference in bruising as compared to placebo. However, the side of the face treated with vitamin K cream after laser treatment had significantly lower scores of bruising severity when compared with the side treated with placebo.'",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "0.5% 비타민K1 크림을 1주일 바른 10명 연구에서는 모세혈관 저항(27 kPa에서 28 kPa)과 유발 점상출혈의 소멸 속도에 위약과 유의한 차이가 없었다. 연구진은 비타민K 크림의 항목별 효과를 확인하지 못했다고 밝혔다.",
+      "value": "0.5, 10, 27, 28",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15153914/",
+      "evidence": "Kovács R et al., J Am Acad Dermatol 2004, 'Lack of the effect of topical vitamin K on bruising after mechanical injury': 이중맹검 위약대조 10명(여 8·남 2, 평균 35세), 0.5% vitamin K1 크림 1주. 'Neither vitamin K cream, nor placebo influenced CR, ie, the suction induced petechia formation (CR before: 27 kPa, CR after: 28 kPa, n = 10)', 'There were no significant differences in the clearing of petechiae between vitamin K or placebo treated sites'.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "미국안과학회(AAO)가 눈가·레이저 수술 후 멍에 대한 문헌 11편을 검토한 결과, 비타민K 크림은 두 연구에서 위약과 동등했고 현재 근거는 아르니카·비타민K·멜리로투스 추출물의 멍 감소 효과를 뒷받침하지 않는다고 결론지었다.",
+      "value": "11, 9, 2",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/34176651/",
+      "evidence": "Tao JP et al., Ophthalmology 2021, 'Homeopathic Agents or Vitamins in Reducing Ecchymosis after Oculofacial Surgery: A Report by the American Academy of Ophthalmology': 124편 검색, 11편 포함(level I 9편). 'In 2 studies, vitamin K cream was equivalent to placebo.', 'The current literature does not support the use of AM, vitamin K oxide, R. tomentosum, or Melilotus extract for reducing ecchymosis after oculofacial surgery or pulsed dye laser surgery.'",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "식약처가 정한 기능성화장품 범위는 미백, 주름개선, 자외선 차단, 여드름성 피부 완화, 아토피성 피부 건조함 완화, 튼살 붉은 선 완화, 피부장벽 기능회복 등이며, '홍조·붉은기 개선'은 이 범위에 없다. 따라서 붉은기를 개선한다는 문구는 기능성 심사·보고를 거친 효능이 아니다.",
+      "value": "2020",
+      "sourceUrl": "https://www.mfds.go.kr/wpge/m_639/de050601l001.do",
+      "evidence": "식품의약품안전처 화장품 정책정보 '기능성화장품이란?': 미백, 주름 개선, 곱게 태워주는 기능·자외선으로부터 보호, 여드름 완화(인체세정용), 피부장벽의 기능회복, 튼살로 인한 붉은 선을 엷게 하는데 도움, 염모·탈색·탈모 증상 완화·제모가 열거되어 있고 홍조 개선 항목은 없다.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "병풀(센텔라아시아티카) 함유 크림을 4주간 쓴 25명 연구에서 경피수분손실량(TEWL)이 감소하고 각질층 수분이 증가했다. 다만 2025년 리뷰는 인체 임상 근거가 소규모·단기·이질적이어서 장기 효과는 더 확인해야 한다고 정리했다.",
+      "value": "2.5, 5, 4, 25",
+      "sourceUrl": "https://doi.org/10.3897/pharmacia.72.e167217",
+      "evidence": "Handayani R et al., Pharmacia 2025;72:e167217, 'Centella asiatica (L.) Urb. in skin health and cosmeceuticals': Table 3 인용 '4-week human study (n=25) Hydration/barrier Cream/hydrogel (2.5% and 5%) ↓ TEWL, ↑ stratum corneum hydration, anti-inflammatory (A. Ratz-Łyko 2016)'. 'Most trials are small, short-term, and lack direct comparators.' 'The most frequently reported event is allergic contact dermatitis…generally <1% in published clinical trials'.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "5% 덱스판테놀을 26일간 바른 뒤 계면활성제(SLS) 자극을 준 이중맹검 위약대조 연구(25명 모집, 21명 완료)에서 판테놀 쪽이 수분 함량에서 유의하게 우수했고, 자극성 접촉피부염이 생긴 6명 중 5명은 위약 쪽 증상이 더 심했다.",
+      "value": "5, 26, 25, 21, 6, 5",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/14641355/",
+      "evidence": "Biro K et al., Contact Dermatitis 2003, 'Efficacy of dexpanthenol in skin protection against irritation: a double-blind, placebo-controlled study': 25명(18~45세), 5% dexpanthenol 또는 위약 1일 2회 26일, 15~22일째 SLS 2% 도포. 'Only corneometry yielded a statistically significant difference, with decreased values following SLS challenge at the placebo sites (P < 0.05)', '6 volunteers experienced an irritant contact dermatitis, with more severe symptoms at the placebo site in 5 cases'.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "1%와 5% 판테놀 함유 제형을 30일 사용한 연구에서 경피수분손실량(TEWL)이 유의하게 감소했고, 계면활성제로 세정한 뒤 2시간 안에도 위약·비히클 대비 TEWL 감소가 유의했다.",
+      "value": "1, 5, 30, 2",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21982351/",
+      "evidence": "Camargo FB Jr, Gaspar LR, Maia Campos PM, J Cosmet Sci 2011;62(4):361-70, 'Skin moisturizing effects of panthenol-based formulations': 'Panthenol-containing formulations (1.0% and 5.0%) produced significant decreases in TEWL after 30-day applications. In skin washed with SLES, significant reduction of TEWL was evident two hours after application of formulations loaded with panthenol when compared with control and vehicle.'",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "겨울철 적정 실내온도는 18~20℃, 적정 습도는 40~50%(보건복지부·질병관리청 안내는 40~60%)이며, 난방으로 실내가 건조해지면 코·기관지 점막과 피부·눈이 건조해져 호흡기·알레르기 질환이 유발될 수 있다. 환기는 하루 3번, 10~30분 권고한다.",
+      "value": "18, 20, 40, 50, 60, 3, 10, 30",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=2048",
+      "evidence": "질병관리청 국가건강정보포털 '겨울철 한파대비 건강수칙': '적정 실내온도(18-20℃)를 유지하고, 하루에 2~3시간 간격으로 3번, 최소한 10분에서 30분정도 창문을 열어 적절히 환기를 시켜줍니다', '겨울철에는 공기 중 수증기 부족과 난방으로 실내가 매우 건조해지기 쉬우므로 적정한 실내습도(40-50%) 유지 및 실내 환기가 매우 중요합니다. 실내가 건조하게 되면 코와 기관지 점막이 마르고 피부와 눈이 건조해져'. 보건복지부 공식 블로그(2020-11-19): '겨울철 적정 실내온도 18~20℃, 실내습도 40~60%'.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "한국소비자원이 수분크림 10개 브랜드를 시험한 결과 30분 후 보습력은 전 제품이 '우수' 이상이었지만 4시간 후에는 5개가 '매우 우수', 3개가 '우수', 2개가 '양호'로 갈렸다. 10mL당 가격은 1,467원에서 10,800원으로 7.4배 차이가 났다.",
+      "value": "10, 30, 4, 5, 3, 2, 1, 467, 10, 800, 7.4",
+      "sourceUrl": "https://www.kca.go.kr/home/sub.do?menukey=4006&mode=view&no=1002740937",
+      "evidence": "한국소비자원 2020-01-16 수분크림 10개 브랜드 품질 비교시험 보도자료(언론 보도 교차 확인: 경향신문·매일경제·코스인코리아 2020-01-16/22): '30분 후 보습력은 모든 제품이 우수 이상', '4시간 후 보습력은 5개 제품이 상대적으로 매우 우수, 3개 제품 우수, 2개 제품 양호', '10mL당 가격은 1,467원∼10,800원으로 최대 7.4배 차이', 미샤 제품이 30분·4시간 모두 '매우 우수'로 가성비 우수, 중금속·보존제·pH 등 안전성은 전 제품 적합.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "2026년 11월 14일 쿠팡에서 확인한 비타민K 크림은 헬로셀 비타민 K 닥터쁘띠 크림 15ml 13,000원(상품평 1,623건, 평점 4.5, 무료배송, 11월 18일 도착 예정)이고, 시카 세럼은 닥터지 레드 블레미쉬 클리어 히알 시카 수딩 세럼 50ml가 정가 33,000원에서 쿠폰 적용 15,900원(51% 할인, 상품평 1,968건, 한 달간 1,000명 이상 구매, 피부 자극 '자극이 없어요' 97%, 무료배송 로켓배송)이다.",
+      "value": "15, 13, 000, 1, 623, 4.5, 18, 50, 33, 000, 15, 900, 51, 1, 968, 1, 000, 97",
+      "sourceUrl": "https://www.coupang.com/vp/products/8710529875?itemId=25347216417&vendorItemId=92920824152",
+      "evidence": "쿠팡 상품페이지 2026-11-14 12:5x 확인. 닥터지: '닥터지 레드 블레미쉬 클리어 히알 시카 수딩 세럼, 50ml, 1개', '1,968 개 상품평', '한 달간 1,000명 이상 구매했어요', 51% / 33,000원 → 15,900원(쿠폰할인 1,100원 적용, 10ml당 3,180원), '내일(일) 11/15 새벽 7시 전 도착', 리뷰 요약 '피부 자극 – 자극이 없어요 97%', '보습력 – 속건조/당김이 완화돼요 75%', '흡수력 – 겉돌지 않고 빨리 흡수돼요 77%', 최저 15,420원. 헬로셀: '헬로셀 비타민 K 닥터쁘띠 크림, 1개, 15ml 13,000원 (10ml당 8,667원) 무료배송 11/18(수) 도착 예정 (1,623)'.",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "같은 날 확인한 판테놀 밤은 라로슈포제 뉴 시카플라스트 밤 B5+ 40ml가 정가 27,000원에서 27% 내린 19,580원(쿠폰 1,480원 적용, 상품평 10,833건 평점 4.5, 한 달간 9,000명 이상 구매)이다. 카카오 선물하기 히말라야 보습 케어 세트는 수분크림 50ml 2개·비건 립밤 2개·핸드크림 100ml 구성 23,900원, 선물후기 19건 평점 4.0/4, 큐레이터 예상 수익 2,151원이다.",
+      "value": "40, 27, 000, 27, 19, 580, 1, 480, 10, 833, 4.5, 9, 000, 50, 100, 23, 900, 19, 4.0, 2, 151",
+      "sourceUrl": "https://www.coupang.com/vp/products/9053141046?itemId=22048953474&vendorItemId=83358381384",
+      "evidence": "쿠팡 상품페이지 2026-11-14 확인: '라로슈포제 뉴 시카플라스트 밤 B5+ 크림, 1개', 27% / 27,000원 → 19,580원(쿠폰할인 1,480원), '(10,833)' 상품평, '한 달간 9,000명 이상 구매했어요', '피부 자극 – 자극이 없어요 93%'. 카카오 선물하기 상품 11148533: '[단독] 히말라야 보습 케어 세트 [수분크림 50ml 2개+비건 립밤 2개+핸드크림 100ml]', 판매가 23,900원, '별점 4점 만점 중 4점, 19건의 선물후기', '큐레이터 링크에서 구매 발생 시 예상 수익 2,151원'.",
+      "asOf": "2026-11-14"
+    }
+  ]
+}

@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-facial-flushing-redness-cica-vitamin-k-rosacea-guide': {
+    sectionTitle: '겨울 얼굴 붉은기 3종 (비타민K 크림 · 시카 진정 세럼 · 판테놀 재생 밤)',
+    sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '비타민K 크림 1위 🥇',
+        productName: '헬로셀 비타민 K 닥터쁘띠 크림, 15ml',
+        specSummary: '비타민K(피토나디온)를 내건 진정·흔적 케어 크림. 확인일 기준 13,000원(10ml당 8,667원), 상품평 1,623건 평점 4.5, 무료배송에 11월 18일 도착 예정이다. 다만 비타민K의 임상 근거는 레이저 후 멍을 조금 줄인 소규모 연구까지이고, 모세혈관 저항이나 홍조를 개선한 시험은 없다. 홍조 치료가 아니라 시술 자국·멍이 신경 쓰일 때 가장 낮은 가격으로 고르는 선택지이고, 15ml라 얼굴 전체에 쓰기에는 양이 적다',
+        tag: '13,000원 · 후기 1,623건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=2336199040&itemId=10650731646&vendorItemId=95318212269',
+      },
+      {
+        rank: 2,
+        rankBadge: '시카 수딩 2위 🥈',
+        productName: '닥터지 레드 블레미쉬 클리어 히알 시카 수딩 세럼, 50ml',
+        specSummary: '병풀(센텔라) 유래 성분과 히알루론산을 넣은 수분 위주 진정 세럼. 확인일 기준 정가 33,000원에서 51% 내린 15,900원(쿠폰 1,100원 적용, 10ml당 3,180원)이고 상품평 1,968건, 한 달간 1,000명 이상 구매, 리뷰의 97%가 피부 자극 없음을 골랐다. 로켓배송으로 다음 날 새벽 도착한다. 병풀은 4주 소규모 연구에서 경피수분손실을 줄였지만 임상 근거가 작고 짧아, 붉은기를 없애는 치료제가 아니라 열감이 오른 날 가볍게 얹는 수분 단계로 보는 편이 맞다',
+        tag: '15,900원 · 후기 1,968건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8710529875&itemId=25347216417&vendorItemId=92920824152',
+      },
+      {
+        rank: 3,
+        rankBadge: '판테놀 밤 3위 🥉',
+        productName: '라로슈포제 뉴 시카플라스트 밤 B5+, 40ml',
+        specSummary: '5% 덱스판테놀(판테놀)을 내건 장벽 회복 밤. 확인일 기준 정가 27,000원에서 27% 내린 19,580원(쿠폰 1,480원 적용, 10ml당 4,895원), 상품평 10,833건 평점 4.5, 한 달간 9,000명 이상 구매다. 5% 덱스판테놀은 이중맹검 위약대조 연구에서 계면활성제 자극 방어와 표피 재생 촉진을 확인했고, 1%·5% 제형은 30일 사용에서 경피수분손실을 낮췄다. 난방기로 각질이 일고 당기는 사람에게 맞고, 열감이 심한 날 두껍게 바르면 답답할 수 있다',
+        tag: '19,580원 · 후기 10,833건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9053141046&itemId=22048953474&vendorItemId=83358381384',
+      },
+    ],
+  },
   'winter-knee-pain-cold-joint-heated-knee-massager-wrap-guard-guide': {
     sectionTitle: '겨울 무릎 시림 3종 (무선 온열 공기압 · 전기 온열 찜질 · 1등급 압박 보호대)',
     sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
