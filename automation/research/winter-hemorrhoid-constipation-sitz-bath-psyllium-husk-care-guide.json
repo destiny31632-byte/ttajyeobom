@@ -1,0 +1,199 @@
+{
+  "slug": "winter-hemorrhoid-constipation-sitz-bath-psyllium-husk-care-guide",
+  "checkedAt": "2026-11-14T19:45:00+09:00",
+  "facts": [
+    {
+      "claim": "국민건강보험공단이 2012~2016년 건강보험 진료자료를 분석한 결과, 치핵 진료인원은 5년 월평균 1월이 87,712명으로 가장 많았고 12월이 80,588명으로 뒤를 이었다. 2016년 기준 11월 69,293명에서 12월 77,024명으로 한 달 사이 11.2% 늘어 가장 큰 증가율을 보였다.",
+      "value": "87,712 80,588 69,293 77,024 11.2",
+      "sourceUrl": "https://www.mohw.go.kr/board.es?act=view&bid=0027&list_no=342365&mid=a10503010100",
+      "evidence": "보건복지부 게시 국민건강보험공단 보도자료(2017-10-15) 「치핵 질환 남자는 60~70대, 여자는 20~30대가 많이 걸려」: '최근 5년 월별 평균 치질 진료인원 1월에 가장 많아 8만 7,712명', '11월 6만 9293명에서 12월 7만 7,024명으로 전월대비 11.2%(7,731명) 증가'",
+      "asOf": "2017-10-15"
+    },
+    {
+      "claim": "2016년 치핵으로 요양기관을 찾은 진료인원은 611,353명이고, 2012년 680,591명보다 10.2% 줄었다.",
+      "value": "611,353 680,591 10.2",
+      "sourceUrl": "https://www.mohw.go.kr/board.es?act=view&bid=0027&list_no=342365&mid=a10503010100",
+      "evidence": "'2012년 68만 591명에서 2016년에는 61만 1,353명으로 10.2%(6만 9,238명) 감소'",
+      "asOf": "2017-10-15"
+    },
+    {
+      "claim": "질병관리청은 50대 인구의 절반 정도가 치핵을 가지고 있다고 안내한다.",
+      "value": "50",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5818",
+      "evidence": "질병관리청 국가건강정보포털 「치핵」: '50대 인구에서 절반 정도가 치핵을 가지고 있습니다.'",
+      "asOf": "2026-07-22"
+    },
+    {
+      "claim": "질병관리청이 안내하는 좌욕 방법은 배변 후 실시하고, 물은 일반 수돗물을 따뜻한 정도로 쓰며, 한 번에 10분 정도씩 하루에 수차례 시행하는 것이다.",
+      "value": "10",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5818",
+      "evidence": "같은 문서 '자가 관리': '좌욕에 사용하는 물은 일반 수돗물을 따뜻한 정도로 하여 사용', '좌욕은 한 번에 10분 정도씩 하루에 수차례 시행'",
+      "asOf": "2026-07-22"
+    },
+    {
+      "claim": "질병관리청은 치핵 예방에 차전자피(Psyllium Husk)나 메틸셀룰로오스 같은 팽창변비제·섬유질 보충제가 도움이 될 수 있다고 예시로 든다.",
+      "value": "psyllium",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5818",
+      "evidence": "'팽창변비제나 섬유질을 공급해 주는 변비약을 복용하는 것은 도움이 될 수 있습니다. 예) 차전자피(Psyllium Husk), 메틸셀룰로오스(Methylcellulose)'",
+      "asOf": "2026-07-22"
+    },
+    {
+      "claim": "질병관리청은 항문 출혈이 있거나 변에 피가 섞였을 때 직장암 등 다른 소화기 질환과 감별이 필요하므로 정확한 진찰과 검사를 받아야 한다고 안내한다.",
+      "value": "혈변",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5818",
+      "evidence": "'이러한 증상은 직장암 등의 다른 소화기 계통의 질환에서도 나타날 수 있기 때문입니다.'",
+      "asOf": "2026-07-22"
+    },
+    {
+      "claim": "대한대장항문학회는 좌욕을 세숫물 정도로 미지근한 물에 한 번에 3~5분, 하루 두세 번 하도록 안내하고, 너무 뜨거운 물이나 증기는 화상 위험이 있으며 5분 이상 오래 하는 것은 좋지 않다고 밝힌다. 소독약이나 소금을 넣을 필요도 없다고 적는다.",
+      "value": "3 5 2 3",
+      "sourceUrl": "https://www.colon.or.kr/colonlife_new/bbs/index.kin?bbs_mode=view&f_master_idx=46&f_template_type=list&f_wbcode=board_story_1",
+      "evidence": "대한대장항문학회 학회지면 「치핵」 좌욕 항목: '세숫물 정도로 미지근한 물', '한번에 3~5분간 하루 두세 번', '너무 뜨거운 물에 좌욕을 하거나 증기를 쐬는 것은 화상의 위험이 있습니다', '너무 오래 좌욕을 하는 것(5분 이상)은 좋지 않습니다', '소독약이나 소금 등을 넣을 필요가 없습니다'",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "대한화상학회가 제시한 온도·접촉시간 기준에 따르면 40~45℃에서는 1~2시간 접촉하면 화상이 생기고, 55℃는 10초, 60℃는 5초에 2도 화상이 된다. 한국소비자원은 40℃ 이상 70℃ 이하의 비교적 낮은 온도에서 생기는 화상을 저온화상으로 설명한다.",
+      "value": "40 45 1 2 55 10 60 5 70",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/740/selectInfoCDMGCSLCDetail.do?cntntsId=00000347&infoId=01034764",
+      "evidence": "한국소비자원 소비자 피해주의보 「핫팩 사용 시 저온화상 주의해야」의 화상 발생 온도 표(출처: 대한화상학회): '40~45℃ 1~2시간 화상 발생', '55℃ 10초 2도 화상', '60℃ 5초 2도 화상'",
+      "asOf": "2015-01-06"
+    },
+    {
+      "claim": "좌욕이 수술 후 통증을 줄인다는 근거는 생각보다 약하다. 치핵절제술 환자 50명을 좌욕군과 대조군으로 나눈 무작위 대조시험에서 통증 점수와 진통제 사용량에 유의한 차이가 없었고, 좌욕군의 만족도만 높았으나 통계적으로 유의하지 않았다.",
+      "value": "50",
+      "sourceUrl": "https://journals.cambridgemedia.com.au/application/files/4217/9003/6306/wham.pdf",
+      "evidence": "WHAM evidence summary: plain water sitz bath(WCET Journal 2026)가 인용한 Gupta 연구 정리: 좌욕군과 비좌욕군의 통증 감소에 뚜렷한 차이가 없었고, 수술 후 통증·창상 치유에서도 차이가 없었다. 권고는 '따뜻한 물 좌욕은 안위와 만족을 위해 고려할 수 있다(Grade B)'",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "같은 근거 정리에서 좌욕은 시간이 지나며 통증이 줄어드는 것과 관련이 있었지만 좌욕을 하지 않은 경우와 큰 차이가 없었고, 배변 후 통증 조절과 환자 만족도에서는 긍정적인 결과가 있었다.",
+      "value": "배변후통증",
+      "sourceUrl": "https://journals.cambridgemedia.com.au/application/files/4217/9003/6306/wham.pdf",
+      "evidence": "'individuals receiving a warm sitz bath experienced a reduction in post-operative pain over time, but this was not substantially different to the pain reduction experienced by individuals who had no sitz bath', 'Level 1 evidence 2 did show a positive effect in managing post-defaecation pain'",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "급성 항문 통증 환자 24명을 찬물(15℃ 이하) 좌욕군과 따뜻한 물(30℃ 이상) 좌욕군으로 나눈 무작위 시험에서 7일째 통증 점수 차이는 통계적으로 유의하지 않았다(P=0.244).",
+      "value": "24 15 30 7 0.244",
+      "sourceUrl": "https://www.elsevier.es/es-revista-cirugia-espanola-36-articulo-tratamiento-del-dolor-anal-por-S0009739X10002204",
+      "evidence": "Cirugía Española 무작위 임상시험: '24 were randomised (Group 1: n=12 y Group 2: n=12)', 'Sitz baths with water at a temperature of less than 15°C' vs 'above 30°C', 'no se evidenciaron diferencias estadísticamente significativas', 'p=0.244'",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "질병관리청은 우리나라 인구 기반 연구에서 변비 유병률이 16.5%로 보고됐다고 적는다.",
+      "value": "16.5",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5827",
+      "evidence": "질병관리청 국가건강정보포털 「변비」 역학 및 통계: '우리나라의 인구 기반 연구에서도 16.5%의 유병율이 보고되었습니다.'",
+      "asOf": "2026-05-19"
+    },
+    {
+      "claim": "질병관리청은 변비 예방·치료를 위해 통상 하루 15~25g 정도의 섬유질과 1.5~2L 정도의 수분 섭취를 권장한다고 안내한다. 카페인이 포함된 음료와 알코올은 장의 탈수를 일으켜 변비를 유발할 수 있어 피하도록 적는다.",
+      "value": "15 25 1.5 2",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=2447",
+      "evidence": "질병관리청 국가건강정보포털 「노인 변비」: '통상적으로 하루 15~25g 정도의 섬유질과 1.5~2L 정도의 수분을 섭취하도록 권장하고 있습니다.'",
+      "asOf": "2026-10-23"
+    },
+    {
+      "claim": "질병관리청은 카페인이 포함된 음료와 알코올이 장의 탈수를 일으켜 변비를 유발할 수 있다며 피하도록 안내한다.",
+      "value": "카페인",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5827",
+      "evidence": "「변비」 식사 항목: '카페인이 포함된 음료와 알코올은 장의 탈수를 일으켜 변비를 유발할 수 있으므로 피하는 것이 좋습니다.'",
+      "asOf": "2026-05-19"
+    },
+    {
+      "claim": "질병관리청은 섬유소 섭취 부족이 만성변비의 일반적인 원인은 아니라는 점을 함께 적는다. 변비환자와 정상인의 섬유소 섭취량에 차이가 없고, 섬유소를 늘리면 대변량은 크게 늘지 않는다는 연구를 소개한다.",
+      "value": "섬유소",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5827",
+      "evidence": "'실제 변비환자와 정상인의 섬유소 섭취량에 있어서 차이가 없다고 합니다', '결론적으로 섬유소 섭취 부족은 만성변비의 일반적 원인이 아닌 일부 환자에게만 원인이 될 수 있습니다.'",
+      "asOf": "2026-05-19"
+    },
+    {
+      "claim": "대한소화기학회 변비 진료지침은 증상 완화를 위해 하루 20~25g 정도의 식이섬유 섭취를 권장하지만 근거 수준은 낮은 편(2C)이라고 밝힌다. 차전자피(Plantago ovata)를 하루 15g씩 6주 먹인 연구에서는 서행성 변비의 약 80%, 배출장애형 변비의 63%에서 효과가 없었다.",
+      "value": "20 25 2 15 6 80 63",
+      "sourceUrl": "https://synapse.koreamed.org/upload/SynapseXML/0028kjg/pdf/kjg-57-100.pdf",
+      "evidence": "Park MI, Shin JE. 변비 치료에 관한 임상진료지침. Korean J Gastroenterol 2011;57:100-114: '변비증상을 완화시키기 위해서 하루에 약 20-25 g 정도의 식이 섬유를 섭취하도록 권장하고 있다', '(Grade 2C, 권고수준: 낮음, 증거수준: 낮음)', 'Plantago ovate seed를 하루에 15 g를 6주간 복용시켜 ... 서행성 변비의 약 80%, 배출 장애형 변비의 63%가 효과가 없었다'",
+      "asOf": "2011-02-01"
+    },
+    {
+      "claim": "식약처 건강기능식품 공전에 등재된 차전자피 식이섬유의 인정 기능성은 '혈중 콜레스테롤 개선·배변활동 원활에 도움을 줄 수 있음'이며, 배변활동 원활을 위해서는 차전자피 식이섬유로서 하루 5.0g 이상, 콜레스테롤 개선을 위해서는 6.0g 이상이 기준이다. 섭취 시 반드시 충분한 물과 함께 먹도록 주의사항이 붙는다.",
+      "value": "5.0 6.0",
+      "sourceUrl": "https://www.mfds.go.kr/brd/m_74/view.do?seq=44644",
+      "evidence": "식품의약품안전처 공지 '건강기능식품 기능성 원료 기술문서(모노그래프) 공개(차전자피 식이섬유)'. 기능성 문구와 일일섭취량(배변활동 원활 5.0g 이상, 혈중 콜레스테롤 6.0g 이상)은 「건강기능식품의 기준 및 규격」 고시형 원료(공전 2-44) 기준이며, 섭취 시 주의사항은 '반드시 충분한 물과 함께 섭취할 것'",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "만성 변비 성인을 대상으로 한 무작위 대조시험 16편(1,251명)을 모은 2022년 메타분석에서 섬유소 보충군의 66%가 증상 개선에 반응했고 대조군은 41%였다(상대위험도 1.48). 배변 횟수는 표준화 평균차 0.72로 늘었고, 하루 10g을 넘는 용량과 4주 이상 복용에서 효과가 뚜렷했다. 대신 가스참(복부팽만)은 표준화 평균차 0.80으로 늘었다.",
+      "value": "16 1,251 66 41 1.48 0.72 10 4 0.80",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9535527/",
+      "evidence": "van der Schoot A, et al. Am J Clin Nutr 2022 (PMID 35816465): 'Sixteen RCTs with 1251 participants', '311 of 473 (66%) participants responded to fiber treatment and 134 of 329 (41%) responded to control treatment [RR: 1.48]', 'Fiber increased stool frequency [SMD: 0.72]', 'higher fiber doses (>10 g/d)', 'treatment durations of at least 4 weeks', 'Flatulence was higher (SMD: 0.80)'",
+      "asOf": "2022-10-06"
+    },
+    {
+      "claim": "일본 압력손상학회가 정리한 압력손상 예방 지침은 '도넛형 기구를 사용해야 하는가'라는 임상질문에 대해 도넛형 기구는 권고하지 않는다(권고등급 D)고 답한다. 링 모양이 가운데를 비우는 대신 테두리로 체중을 받아 주변 조직에 높은 압력이 걸릴 수 있다는 이유다.",
+      "value": "D",
+      "sourceUrl": "https://www.jspu.org/english/publication/docs/Guidelines.pdf",
+      "evidence": "JSPU Guidelines for the Prevention and Management of Pressure Ulcers (3rd Ed.) Table 5, CQ5.7 'Should donut-type devices be used?' — 'Donut-type devices are not recommended.' (Rating D)",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "질병관리청은 변비 치료에서 변기에 장시간(10분 이상) 앉아 있는 것을 피하고, 변의가 생기면 참지 말며, 쪼그려 앉는 자세를 돕는 15cm 높이의 발받침대가 배변에 도움이 될 수 있다고 안내한다.",
+      "value": "10 15",
+      "sourceUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5827",
+      "evidence": "'변기에 장시간(10분 이상) 앉아 있는 것도 피하여야 합니다', '변기에 앉은 발 밑에 15 cm 가량의 받침대를 받쳐서 고관절을 더욱 굴곡시킴으로써 보다 변을 보기 쉽게 할 수 있습니다.'",
+      "asOf": "2026-05-19"
+    },
+    {
+      "claim": "대한대장항문학회는 치핵의 원인으로 오래 앉아 있는 자세, 특히 화장실에서 오래 앉아 있는 것과 바닥에 앉는 것을 꼽고, 변비로 배변 시 힘을 주면 복압이 올라가 항문 혈관이 늘어난다고 설명한다.",
+      "value": "복압",
+      "sourceUrl": "https://www.colon.or.kr/colonlife_new/bbs/index.kin?bbs_mode=view&f_master_idx=46&f_template_type=list&f_wbcode=board_story_1",
+      "evidence": "'오래 앉아 있게 되면 항문 혈관 안에 피가 고여 혈관이 늘어납니다. 특히 화장실에서 오래 앉아 있는 것, 쪼그리고 앉아 있는 것, 방바닥에 앉아 있는 것들이 좋지 않습니다.', '변비 때문에 변 볼 때 힘을 많이 주게 되면 복압이 올라가서 ... 항문혈관이 쉽게 늘어나게 됩니다.'",
+      "asOf": "2026-11-14"
+    },
+    {
+      "claim": "2026년 11월 14일 쿠팡에서 확인한 비타그램 코드제로 무선 좌욕기 세트는 정가 32,900원에서 39% 내린 19,900원이고, 다른 판매자 최저가는 18,100원이다. 상품평은 8,187건이며 한 달간 500명 이상이 구매했다. 구성은 좌욕기와 약쑥팩 30포, 온도스티커이고 버블 기능이 포함된다.",
+      "value": "32,900 39 19,900 18,100 8,187 500 30",
+      "sourceUrl": "https://www.coupang.com/vp/products/8520308630",
+      "evidence": "쿠팡 상품페이지(확인 2026-11-14): '8,187 개 상품평', '39% 32,900원 19,900원', '새 상품 (1) / 반품 (1) 최저 18,100원', '한 달간 500명 이상 구매했어요', '구성품: 좌욕기 + 약쑥팩 30p + 온도스티커', '버블기능 여부: 버블기능 포함'"
+    },
+    {
+      "claim": "2026년 11월 14일 쿠팡에서 확인한 종근당 차전자피 식이섬유는 30개입 204g(6.8g×30포) 제품으로 정가 32,000원에서 47% 내린 16,900원이다. 상품평은 47,890건이고 한 달간 6,000명 이상이 구매했다.",
+      "value": "30 204 6.8 32,000 47 16,900 47,890 6,000",
+      "sourceUrl": "https://www.coupang.com/vp/products/8213923538",
+      "evidence": "쿠팡 상품페이지(확인 2026-11-14): '종근당 차전자피 식이섬유 30개입, 204g, 1개', '47% 32,000원 16,900원', 상품평 47,890건, 한 달간 6,000명 이상 구매"
+    },
+    {
+      "claim": "2026년 11월 14일 쿠팡에서 확인한 도큐어 메모리폼 기능성 원형 도넛방석은 정가 29,500원에서 66% 내린 9,990원이고 다른 판매자 최저가는 7,990원이다. 상품평은 2,305건이며 한 달간 2,000명 이상이 구매했다.",
+      "value": "29,500 66 9,990 7,990 2,305 2,000",
+      "sourceUrl": "https://www.coupang.com/vp/products/8973154333",
+      "evidence": "쿠팡 상품페이지(확인 2026-11-14): '도큐어 메모리폼 기능성 원형 도넛방석, 그레이, 1개', '66% 29,500원 9,990원', 상품평 2,305건, 한 달간 2,000명 이상 구매, 다른 판매자 최저 7,990원"
+    },
+    {
+      "claim": "2026년 11월 14일 카카오 선물하기 큐레이터에서 새로 만든 링크는 뉴트리포유 듀얼+ 이뮨 종합 멀티비타민&미네랄 7입+2입 선물로 판매가 19,900원, 예상 수익 1,791원이다.",
+      "value": "19,900 1,791",
+      "sourceUrl": "https://gift.kakao.com/product/1375498",
+      "evidence": "카카오 선물하기 큐레이터 '상품 링크 생성' 창(2026-11-14 19:36): 판매가 19,900원, 최대혜택가 18,910원, 예상 수익 1,791원, 생성된 링크 gift-link.kakao.com/c/jjVIKFGx"
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "좌욕 시간 기준",
+      "detail": "질병관리청은 '한 번에 10분 정도씩 하루 수차례', 대한대장항문학회는 '한 번에 3~5분 하루 두세 번, 5분 이상은 좋지 않음'으로 안내가 갈린다.",
+      "sources": [
+        "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5818",
+        "https://www.colon.or.kr/colonlife_new/bbs/index.kin?bbs_mode=view&f_master_idx=46&f_template_type=list&f_wbcode=board_story_1"
+      ],
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-14T19:45:00+09:00",
+        "reason": "두 기관 모두 '따뜻한 수돗물'과 '짧게'라는 원칙은 같고 시간만 다르다. 뜨거운 물·증기의 화상 위험을 명시한 대한대장항문학회 기준(3~5분)을 본문의 실행 기준으로 쓰고, 질병관리청의 10분 기준도 함께 제시해 독자가 자기 상태에 맞게 고르도록 했다.",
+        "sourceUrl": "https://www.colon.or.kr/colonlife_new/bbs/index.kin?bbs_mode=view&f_master_idx=46&f_template_type=list&f_wbcode=board_story_1"
+      }
+    }
+  ],
+  "watch": [
+    "국민건강보험공단 치핵 월별 진료인원 통계의 최신 연도 갱신",
+    "질병관리청 치핵·변비 국가건강정보포털 개정 여부",
+    "쿠팡 1~3위 상품 가격·상품평 수 변동",
+    "카카오 선물하기 큐레이터 링크(https://gift-link.kakao.com/c/jjVIKFGx) 판매 지속 여부"
+  ]
+}

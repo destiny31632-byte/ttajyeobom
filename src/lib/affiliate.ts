@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-hemorrhoid-constipation-sitz-bath-psyllium-husk-care-guide': {
+    sectionTitle: '겨울 항문 통증 3종 (무선 버블 좌욕기 · 차전자피 식이섬유 · 도넛 메모리폼 방석)',
+    sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '좌욕기 판매 1위 🥇',
+        productName: '비타그램 코드제로 무선 좌욕기 + AA건전지 2개 + 온도 스티커 + 쑥팩 30포, WGT-0623',
+        specSummary: '건전지로 버블을 돌리는 변기 거치형 좌욕기 세트. 확인일 기준 정가 32,900원에서 39% 내린 19,900원(다른 판매자 최저 18,100원), 상품평 8,187건, 한 달간 500명 이상 구매다. 구성은 좌욕기와 약쑥팩 30포, 온도스티커이고 버블 기능이 포함된다. 물을 데워 주는 제품은 아니므로 뜨거운 물을 붓지 말고 40℃ 근처에서 3~5분만 앉는 용도로 써야 한다. 대한대장항문학회는 뜨거운 물·증기 좌욕을 화상 위험으로, 5분 이상 장시간을 좋지 않은 방식으로 안내한다',
+        tag: '19,900원 · 후기 8,187건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8520308630&itemId=7882715358&vendorItemId=75172226086',
+      },
+      {
+        rank: 2,
+        rankBadge: '차전자피 1위 🥈',
+        productName: '종근당 차전자피 식이섬유 30개입, 204g, 1개',
+        specSummary: '식약처 고시형 원료인 차전자피 식이섬유 제품. 확인일 기준 정가 32,000원에서 47% 내린 16,900원(10g당 828원), 상품평 47,890건, 한 달간 6,000명 이상 구매다. 6.8g짜리 30포 구성이라 하루 1포로 식약처 배변활동 기준 5.0g을 채우는 계산이 된다. 다만 메타분석에서 배변 횟수가 유의하게 늘어난 구간은 하루 10g 초과·4주 이상이었고, 가스참은 늘었다. 물을 충분히 마시지 않으면 오히려 막히므로 반드시 물과 함께 먹어야 한다',
+        tag: '16,900원 · 후기 47,890건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8213923538&itemId=23409587125&vendorItemId=3000853073',
+      },
+      {
+        rank: 3,
+        rankBadge: '도넛 방석 1위 🥉',
+        productName: '도큐어 메모리폼 기능성 원형 도넛방석, 그레이, 1개',
+        specSummary: '가운데를 비운 원형 메모리폼 방석. 확인일 기준 정가 29,500원에서 66% 내린 9,990원(다른 판매자 최저 7,990원), 상품평 2,305건, 한 달간 2,000명 이상 구매다. 가운데가 비어 편하게 느껴지지만 체중은 테두리로 몰리므로, 압력손상 예방 지침은 도넛형 기구를 권고하지 않는다(등급 D). 운전·회의처럼 어쩔 수 없이 오래 앉는 시간을 버티는 용도로 쓰고, 30분에 한 번 일어나는 습관과 함께 써야 한다',
+        tag: '9,990원 · 후기 2,305건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8973154333&itemId=26264563866&vendorItemId=93237482508',
+      },
+    ],
+  },
   'winter-facial-flushing-redness-cica-vitamin-k-rosacea-guide': {
     sectionTitle: '겨울 얼굴 붉은기 3종 (비타민K 크림 · 시카 진정 세럼 · 판테놀 재생 밤)',
     sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
