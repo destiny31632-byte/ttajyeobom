@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-boiler-away-mode-vs-off-break-even-heating-cost-guide': {
+    sectionTitle: '겨울 난방비 방어 3종 (창틀 문풍지 · 카본 전기매트 · 스마트 온도조절기)',
+    sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '틈새차단 1위 🥇',
+        productName: '에코와이드 끼우는 문풍지 창문 틈새막이 외풍 창틀 바람막이 M, 4개',
+        specSummary: '보일러 설정을 낮추려면 먼저 틈새를 막아야 한다. 한국에너지공단은 에어캡·문풍지·커튼으로 틈새 열 손실을 줄이면 월 에너지 사용량이 5.5% 줄고 5,230원이 절약되며 실내 온도가 2~3℃ 올라간다고 계산한다. 확인일 기준 정가 40,500원에서 63% 내린 14,600원(개당 3,650원), 상품평 1,544건, 한 달간 2,000명 이상 구매, 무료배송이다',
+        tag: '14,600원 · 후기 1,544건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8416474413&itemId=24339509268&vendorItemId=93508859658',
+      },
+      {
+        rank: 2,
+        rankBadge: '국소난방 1위 🥈',
+        productName: '일월 워셔블 카본 온열 전기매트, 체크 그레이, 싱글(90x180cm)',
+        specSummary: '보일러를 20℃에서 18℃로 낮추고 앉아 있는 시간만 데우는 방식. 확인일 기준 정가 81,000원에서 50% 내린 39,900원, 상품평 4,994건, 한 달간 2,000명 이상 구매, 소비전력 59W다. 하루 8시간 써도 0.5kWh가 안 되는 소비전력이지만, 얇은 저가형 탄소매트는 라텍스·메모리폼 위에 바로 깔지 말고 별도 패드를 둬야 한다',
+        tag: '39,900원 · 후기 4,994건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9080861108&itemId=26676808369&vendorItemId=73761603647',
+      },
+      {
+        rank: 3,
+        rankBadge: '예약난방 1위 🥉',
+        productName: '나비엔 스마트폰 원격제어 무선온도 조절기, NR-40D',
+        specSummary: '귀가 전에 미리 켜 두면 20℃ 위로 과설정하는 습관을 기계가 막아 준다(20℃ 기준 1℃당 난방비 15% 이상 상승). 확인일 기준 79,000원, 상품평 178건, 무료배송, 재고 3개·11월 17일 도착 예정이다. 보일러 제조사·모델 호환을 먼저 확인해야 하고 일부 모델은 중계기가 따로 필요하므로, 1·2위를 먼저 사고 마지막에 검토할 물건이다',
+        tag: '79,000원 · 후기 178건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=161737948&itemId=464523442&vendorItemId=93917040178',
+      },
+    ],
+  },
   'winter-hemorrhoid-constipation-sitz-bath-psyllium-husk-care-guide': {
     sectionTitle: '겨울 항문 통증 3종 (무선 버블 좌욕기 · 차전자피 식이섬유 · 도넛 메모리폼 방석)',
     sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
