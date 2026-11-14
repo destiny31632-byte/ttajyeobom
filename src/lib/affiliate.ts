@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  '2026-year-end-tax-monthly-rent-credit-17-percent-guide': {
+    sectionTitle: '연말정산 월세 서류 3종 보관 BEST 3 (파일케이스 · 13칸 아코디언 · 4단 서류함)',
+    sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '파일케이스 1위 🥇',
+        productName: '시스맥스 파일케이스, 스모그, 2개',
+        specSummary: '확인일 기준 8,480원(개당 4,240원), 상품평 2,188건, 한 달간 1,000명 이상 구매, 무료배송·내일 도착이다. A4 서류를 세워 두는 두툼한 케이스라 임대차계약서 원본과 주민등록표등본을 구겨지지 않게 보관하는 용도에 맞는다. 세액공제 서류 3종 중 원본을 들고 다녀야 하는 두 가지를 담는 크기다',
+        tag: '8,480원 · 후기 2,188건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7536902861&itemId=21071919594&vendorItemId=92077751899',
+      },
+      {
+        rank: 2,
+        rankBadge: '13칸 분류 1위 🥈',
+        productName: '코멧 A4 아코디언 파일 폴더 13칸, 화이트, 1개',
+        specSummary: '확인일 기준 정가 12,800원에서 60% 내린 5,000원, 상품평 76건, 한 달간 300명 이상 구매, 무료배송이다. 칸이 열세 개라 1월부터 12월까지 계좌이체 내역을 달별로 나눠 넣고 남는 칸에 등본과 계약서 사본을 두는 구성이 된다. 경정청구로 과거 연도를 되찾을 때는 연도별로 한 칸씩 배정하면 섞이지 않는다',
+        tag: '5,000원 · 후기 76건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9432151903&itemId=28044908466&vendorItemId=95001818736',
+      },
+      {
+        rank: 3,
+        rankBadge: '서류함 1위 🥉',
+        productName: '시스맥스 디럭스 오픈형 서류함 13105, 민트, 4단',
+        specSummary: '확인일 기준 정가 43,000원에서 39% 내린 25,920원에 쿠폰 3,750원이 적용된 조건이고, 상품평 1,721건, 한 달간 400명 이상 구매, 무료배송·내일 도착이다. 서랍을 앞으로 빼서 꺼내는 4단 구조라 5년치 계약서와 이체 내역을 연도별로 세워 두려는 사람에게 맞는다. 1·2위로 올해 서류를 끝내고, 과거 경정청구까지 하려면 마지막에 검토할 물건이다',
+        tag: '25,920원 · 후기 1,721건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=138539767&itemId=404904507&vendorItemId=4488330580',
+      },
+    ],
+  },
   'winter-boiler-away-mode-vs-off-break-even-heating-cost-guide': {
     sectionTitle: '겨울 난방비 방어 3종 (창틀 문풍지 · 카본 전기매트 · 스마트 온도조절기)',
     sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
