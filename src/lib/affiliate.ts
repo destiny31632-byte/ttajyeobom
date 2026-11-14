@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-car-heater-cold-air-coolant-thermostat-heater-core-guide': {
+    sectionTitle: '겨울 히터 찬바람 대비 3종 (부동액 · 열선시트 · 점프스타터)',
+    sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '부동액 1위 🥇',
+        productName: '불스원 물없이 바로쓰는 부동액, 1개, 1L',
+        specSummary: '확인일 기준 정가 10,900원에서 9% 내린 9,900원(100ml당 990원), 상품평 13,447건, 한 달간 1,000명 이상 구매, 무료배송·무료반품이다. 50 대 50 사전희석(에틸렌글리콜형) 제품이라 물을 섞지 않고 보조 탱크에 그대로 넣는 방식으로, 취급설명서가 정한 혼합 비율 50%를 맞추기 쉽다. 찬바람의 가장 흔한 원인인 냉각수 부족을 셀프로 끝내는 1만 원 이하 품목이다',
+        tag: '9,900원 · 후기 13,447건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7276600397&itemId=20014531934&vendorItemId=94608420401',
+      },
+      {
+        rank: 2,
+        rankBadge: '시트 보온 1위 🥈',
+        productName: '엑스핏 국산 고급 가죽 자동차 열선시트 앞좌석 12V, 블랙, 1개',
+        specSummary: '확인일 기준 정가 62,900원에서 38% 내린 38,900원에 쿠폰 3,000원이 적용된 조건이고, 상품평 380건, 한 달간 200명 이상 구매, 무료배송·무료반품이다. KC 인증번호 R-R-XAT-BLACKEDITIONF, 제조국 대한민국이다. 히터코어나 서모스탯 정비를 맡기는 동안, 또는 히터가 약한 차에서 시트만 직접 데우는 임시 보온 용도에 맞는다',
+        tag: '38,900원 · 후기 380건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6162148168&itemId=11966151013',
+      },
+      {
+        rank: 3,
+        rankBadge: '방전 대비 1위 🥉',
+        productName: '벤딕트 자동차 점프스타터 보조배터리 애니부스트 12V, 14,800mAh, 1개',
+        specSummary: '확인일 기준 정가 89,500원에서 20% 내린 71,590원에 와우쿠폰 13,430원이 적용된 조건이고, 상품평 1,742건, 한 달간 1,000명 이상 구매, 과충전 방지·고속충전 지원, 무료배송·무료반품이다. 냉각수와 히터를 점검하느라 시동을 껐다 켜기를 반복하는 겨울에 배터리 방전이 겹치는 것을 막는 용도다. 1·2위를 먼저 해결하고 마지막에 검토할 물건이다',
+        tag: '71,590원 · 후기 1,742건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9611061343&itemId=28694337340&vendorItemId=90125475596',
+      },
+    ],
+  },
   '2026-year-end-tax-monthly-rent-credit-17-percent-guide': {
     sectionTitle: '연말정산 월세 서류 3종 보관 BEST 3 (파일케이스 · 13칸 아코디언 · 4단 서류함)',
     sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
