@@ -32,7 +32,7 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
         productName: '종근당 차전자피 식이섬유 30개입, 204g, 1개',
         specSummary: '식약처 고시형 원료인 차전자피 식이섬유 제품. 확인일 기준 정가 32,000원에서 47% 내린 16,900원(10g당 828원), 상품평 47,890건, 한 달간 6,000명 이상 구매다. 6.8g짜리 30포 구성이라 하루 1포로 식약처 배변활동 기준 5.0g을 채우는 계산이 된다. 다만 메타분석에서 배변 횟수가 유의하게 늘어난 구간은 하루 10g 초과·4주 이상이었고, 가스참은 늘었다. 물을 충분히 마시지 않으면 오히려 막히므로 반드시 물과 함께 먹어야 한다',
         tag: '16,900원 · 후기 47,890건',
-        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8213923538&itemId=23409587125&vendorItemId=3000853073',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8213923538&itemId=23409587125&vendorItemId=3000853077',
       },
       {
         rank: 3,
