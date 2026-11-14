@@ -1108,5 +1108,387 @@
         "type": "official"
       }
     ]
+  },
+  {
+    "slug": "winter-car-coolant-antifreeze-washer-fluid-ratio-guide",
+    "title": "겨울철 자동차 냉각수·부동액 비율과 동계 워셔액: 얼었을 때 생기는 수리비와 교환 주기",
+    "targetQuery": "겨울철 자동차 부동액 비율 워셔액 교환 주기",
+    "category": "travel",
+    "cluster": "winter-car-care",
+    "tags": [
+      "부동액",
+      "냉각수",
+      "동계워셔액",
+      "자동차겨울관리",
+      "엔진과열",
+      "결빙",
+      "정비비용",
+      "셀프점검"
+    ],
+    "sources": [
+      {
+        "title": "겨울철 자동차 안전 관리법 '냉각수와 부동액'",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148923546",
+        "publisher": "대한민국 정책브리핑(산업통상자원부)",
+        "type": "government"
+      },
+      {
+        "title": "안전운전을 위한 겨울철 차량관리 안내서",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148867202",
+        "publisher": "대한민국 정책브리핑(국토교통부)",
+        "type": "government"
+      },
+      {
+        "title": "겨울철 자동차 관리 요령, 타이어 점검은 필수",
+        "url": "https://gonggam.korea.kr/newsContentView.es?content=NC002&mid=a12601000000&news_id=EBC6D401093B4203E0540021F662AC5F&section_id=NCCD_CULTURE",
+        "publisher": "K-공감(국토교통부·교통안전공단)",
+        "type": "government"
+      },
+      {
+        "title": "동절기 자동차 잇템",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148895505",
+        "publisher": "대한민국 정책브리핑(국토교통부)",
+        "type": "government"
+      }
+    ]
+  },
+  {
+    "slug": "winter-car-heater-blowing-cold-air-check-guide",
+    "title": "겨울철 자동차 히터에서 찬바람: 냉각수 부족·히터코어 막힘·서모스탯 증상과 정비 순서",
+    "targetQuery": "자동차 히터 찬바람 냉각수 히터코어 서모스탯",
+    "category": "travel",
+    "cluster": "winter-car-care",
+    "tags": [
+      "자동차히터",
+      "찬바람",
+      "히터코어",
+      "서모스탯",
+      "냉각수부족",
+      "김서림",
+      "정비순서",
+      "겨울운전"
+    ],
+    "sources": [
+      {
+        "title": "안전운전을 위한 겨울철 차량관리 안내서",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148867202",
+        "publisher": "대한민국 정책브리핑(국토교통부)",
+        "type": "government"
+      },
+      {
+        "title": "겨울철 자동차 안전 관리법 '냉각수와 부동액'",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148923546",
+        "publisher": "대한민국 정책브리핑(산업통상자원부)",
+        "type": "government"
+      },
+      {
+        "title": "동절기 자동차 잇템",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148895505",
+        "publisher": "대한민국 정책브리핑(국토교통부)",
+        "type": "government"
+      }
+    ]
+  },
+  {
+    "slug": "winter-tire-wear-winter-tire-replacement-timing-guide",
+    "title": "겨울 타이어 마모 한계와 교체 시기: 동전 확인법·겨울용 타이어 네 짜 교체·공기압 기준",
+    "targetQuery": "겨울 타이어 마모 한계 교체 시기 겨울용 타이어",
+    "category": "travel",
+    "cluster": "winter-car-care",
+    "tags": [
+      "타이어마모",
+      "겨울타이어",
+      "윈터타이어",
+      "타이어교체",
+      "공기압",
+      "블랙아이스",
+      "동전확인법",
+      "스노체인"
+    ],
+    "sources": [
+      {
+        "title": "안전운전을 위한 겨울철 차량관리 안내서",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148867202",
+        "publisher": "대한민국 정책브리핑(국토교통부)",
+        "type": "government"
+      },
+      {
+        "title": "겨울철 자동차 관리 요령, 타이어 점검은 필수",
+        "url": "https://gonggam.korea.kr/newsContentView.es?content=NC002&mid=a12601000000&news_id=EBC6D401093B4203E0540021F662AC5F&section_id=NCCD_CULTURE",
+        "publisher": "K-공감(국토교통부·교통안전공단)",
+        "type": "government"
+      },
+      {
+        "title": "동절기 자동차 잇템",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148895505",
+        "publisher": "대한민국 정책브리핑(국토교통부)",
+        "type": "government"
+      }
+    ]
+  },
+  {
+    "slug": "year-end-tax-monthly-rent-credit-2026-guide",
+    "title": "2026 월세 세액공제: 총급여 8천만원·공제율 15~17%·한도 1,200만원과 전입신고 조건",
+    "targetQuery": "월세 세액공제 조건 공제율 한도 전입신고",
+    "category": "living",
+    "cluster": "year-end-tax",
+    "tags": [
+      "월세세액공제",
+      "연말정산",
+      "무주택세대주",
+      "전입신고",
+      "총급여8천만원",
+      "청년공제",
+      "주거비",
+      "자취생절세"
+    ],
+    "sources": [
+      {
+        "title": "자주묻는Q&A 35. 월세세액공제",
+        "url": "https://call.nts.go.kr/call/qna/selectQnaInfo.do?ctgId=CTG11906&mi=1318",
+        "publisher": "국세청 상담센터",
+        "type": "government"
+      },
+      {
+        "title": "청년, 중산·서민층 주거비 부담 완화 '월세 세액공제'(2026년 세제개편안)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148969841",
+        "publisher": "대한민국 정책브리핑(국세청)",
+        "type": "government"
+      },
+      {
+        "title": "조세특례제한법 시행령 제95조(월세 세액공제)",
+        "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lspttninfSeq=164089",
+        "publisher": "국가법령정보센터",
+        "type": "government"
+      }
+    ]
+  },
+  {
+    "slug": "winter-food-waste-dryer-odor-running-cost-comparison-guide",
+    "title": "음식물처리기 겨울 냄새와 유지비: 건조·분쇄 9종 작동시간·탈취필터·연간 전기료 비교",
+    "targetQuery": "음식물처리기 냄새 유지비 전기료 비교",
+    "category": "living",
+    "cluster": "kitchen-appliances",
+    "tags": [
+      "음식물처리기",
+      "주방냄새",
+      "탈취필터",
+      "유지비",
+      "건조분쇄",
+      "환경표지",
+      "소비자원비교",
+      "겨울환기"
+    ],
+    "sources": [
+      {
+        "title": "'가정용 음식물처리기' 9개 제품의 비교정보 제공",
+        "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156671771",
+        "publisher": "대한민국 정책브리핑(한국소비자원)",
+        "type": "government"
+      },
+      {
+        "title": "[비교공감 2025-2호] 가정용 음식물 처리기",
+        "url": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1080755",
+        "publisher": "소비자24(한국소비자원)",
+        "type": "government"
+      },
+      {
+        "title": "소형 의류건조기 8종 비교정보(시험 방법 참고)",
+        "url": "https://www.kca.go.kr/webzine/board/view?div=kca_2407&linkId=706&menuId=MENU00307",
+        "publisher": "한국소비자원 소비자시대",
+        "type": "government"
+      }
+    ]
+  },
+  {
+    "slug": "winter-dehumidifier-vs-moisture-absorber-mold-cost-guide",
+    "title": "겨울 결로·곰팡이 제습기 vs 제습제 vs 환기: 전기세와 하루 제습량으로 고르는 기준",
+    "targetQuery": "겨울 제습기 제습제 결로 곰팡이 전기세",
+    "category": "home",
+    "cluster": "winter-condensation",
+    "tags": [
+      "제습기",
+      "제습제",
+      "결로",
+      "곰팡이",
+      "실내습도",
+      "전기세",
+      "겨울환기",
+      "원룸습기"
+    ],
+    "sources": [
+      {
+        "title": "'제습기' 9개 제품 비교정보 제공",
+        "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156641453",
+        "publisher": "대한민국 정책브리핑(한국소비자원)",
+        "type": "government"
+      },
+      {
+        "title": "겨울철 난방 관리 수칙·에너지 절약 안내",
+        "url": "https://min24.energy.or.kr/consult/info/view4.do",
+        "publisher": "한국에너지공단",
+        "type": "official"
+      },
+      {
+        "title": "겨울철 실내생활 늘어나는 겨울, 공기질 관리 어떻게?",
+        "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148909591",
+        "publisher": "대한민국 정책브리핑(국립환경과학원)",
+        "type": "government"
+      }
+    ]
+  },
+  {
+    "slug": "winter-briquette-charcoal-brazier-carbon-monoxide-guide",
+    "title": "번개탄·숯불 난로 실내 사용 위험: 일산화탄소 중독 증상과 경보기 설치 기준",
+    "targetQuery": "번개탄 숯불 실내 일산화탄소 중독 경보기",
+    "category": "home",
+    "cluster": "heating-safety",
+    "tags": [
+      "일산화탄소",
+      "번개탄",
+      "숯불난로",
+      "연탄난로",
+      "가스경보기",
+      "중독증상",
+      "환기",
+      "겨울안전"
+    ],
+    "sources": [
+      {
+        "title": "우리집에 일산화탄소 경보기 설치했습니다~",
+        "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148877115",
+        "publisher": "대한민국 정책브리핑(산업통상자원부)",
+        "type": "government"
+      },
+      {
+        "title": "안전운전을 위한 겨울철 차량관리 안내서(차량 내 CO 주의)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148867202",
+        "publisher": "대한민국 정책브리핑(국토교통부)",
+        "type": "government"
+      },
+      {
+        "title": "난방설비 운전관리 매뉴얼(겨울철)",
+        "url": "https://min24.energy.or.kr/consult/file/%EA%B2%A8%EC%9A%B8%EC%B2%A0_%EB%82%9C%EB%B0%A9%EC%84%A4%EB%B9%84_%EC%9A%B4%EC%A0%84%EA%B4%80%EB%A6%AC_%EB%A7%A4%EB%89%B4%EC%96%BC.pdf",
+        "publisher": "한국에너지공단",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "slug": "winter-boiler-pipe-flush-efficiency-check-guide",
+    "title": "보일러 배관 청소 주기와 효율: 5% 개선·연 2회 내부 점검·고효율 교체 10% 기준",
+    "targetQuery": "보일러 배관 청소 주기 효율 고효율 교체",
+    "category": "home",
+    "cluster": "boiler-heating-settings",
+    "tags": [
+      "보일러청소",
+      "배관청소",
+      "난방효율",
+      "고효율보일러",
+      "배기통점검",
+      "연간점검",
+      "가스비절약",
+      "보일러수명"
+    ],
+    "sources": [
+      {
+        "title": "[팩트체크] 장기외출 때 보일러 꺼야 할까…겨울철 효율적인 난방법은",
+        "url": "https://www.yna.co.kr/view/AKR20251129024100518",
+        "publisher": "연합뉴스(한국에너지공단 취합)",
+        "type": "press"
+      },
+      {
+        "title": "보일러를 똑똑하게 이용하세요(효율관리제도)",
+        "url": "https://eep.energy.or.kr/more/knowhow6.aspx",
+        "publisher": "한국에너지공단",
+        "type": "official"
+      },
+      {
+        "title": "난방설비 운전관리 매뉴얼(겨울철)",
+        "url": "https://min24.energy.or.kr/consult/file/%EA%B2%A8%EC%9A%B8%EC%B2%A0_%EB%82%9C%EB%B0%A9%EC%84%A4%EB%B9%84_%EC%9A%B4%EC%A0%84%EA%B4%80%EB%A6%AC_%EB%A7%A4%EB%89%B4%EC%96%BC.pdf",
+        "publisher": "한국에너지공단",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "slug": "winter-car-battery-indicator-replacement-timing-guide",
+    "title": "겨울 자동차 배터리 교체 시기: 인디케이터 색·3~4년 주기·방전 전조 증상 점검",
+    "targetQuery": "자동차 배터리 교체 시기 인디케이터 방전",
+    "category": "travel",
+    "cluster": "winter-car-care",
+    "tags": [
+      "자동차배터리",
+      "배터리교체",
+      "인디케이터",
+      "방전",
+      "겨울시동",
+      "블랙박스",
+      "점프스타터",
+      "정비비용"
+    ],
+    "sources": [
+      {
+        "title": "안전운전을 위한 겨울철 차량관리 안내서",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148867202",
+        "publisher": "대한민국 정책브리핑(국토교통부)",
+        "type": "government"
+      },
+      {
+        "title": "겨울철 자동차 관리 요령, 타이어 점검은 필수",
+        "url": "https://gonggam.korea.kr/newsContentView.es?content=NC002&mid=a12601000000&news_id=EBC6D401093B4203E0540021F662AC5F&section_id=NCCD_CULTURE",
+        "publisher": "K-공감(국토교통부·교통안전공단)",
+        "type": "government"
+      },
+      {
+        "title": "동절기 자동차 잇템",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148895505",
+        "publisher": "대한민국 정책브리핑(국토교통부)",
+        "type": "government"
+      }
+    ]
+  },
+  {
+    "slug": "winter-air-conditioner-heating-vs-boiler-cost-guide",
+    "title": "겨울 에어컨 난방 vs 보일러: 시간당 전기세와 가스비를 같은 열량으로 비교",
+    "targetQuery": "겨울 에어컨 난방 보일러 전기세 가스비 비교",
+    "category": "home",
+    "cluster": "space-heating-appliances",
+    "tags": [
+      "에어컨난방",
+      "보일러비교",
+      "난방비계산",
+      "주택용전력",
+      "도시가스요금",
+      "소비전력",
+      "원룸난방",
+      "전기세절약"
+    ],
+    "sources": [
+      {
+        "title": "주택용 전력 요금표 및 누진제 안내",
+        "url": "https://cyber.kepco.co.kr/ckepco/front/jsp/CY/E/E/CYEEHP00101.jsp",
+        "publisher": "한국전력공사",
+        "type": "official"
+      },
+      {
+        "title": "전기요금계산기",
+        "url": "https://home.kepco.co.kr/kepco/front/html/CY/J/A/CYJAPP002.html",
+        "publisher": "한국전력공사",
+        "type": "official"
+      },
+      {
+        "title": "도시가스 | 공공요금 | 서울시 물가정보",
+        "url": "https://sftc.seoul.go.kr/seoul/mulga/main/contents.do?menuNo=200012",
+        "publisher": "서울특별시",
+        "type": "government"
+      },
+      {
+        "title": "겨울철 난방 관리 수칙",
+        "url": "https://min24.energy.or.kr/consult/info/view4.do",
+        "publisher": "한국에너지공단",
+        "type": "official"
+      }
+    ]
   }
 ]
