@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-food-waste-dryer-odor-running-cost-comparison-guide': {
+    sectionTitle: '음식물처리기 유지비 기준 3종 (판매량 1위 · 소비자원 시험 모델 · 미생물 발효)',
+    sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '미닉스 더플렌더 Max 건조분쇄 음식물처리기 가정용, MNFD-200G, 그레이지',
+        specSummary: '확인일 기준 정가 759,000원에서 45% 내린 410,750원에 와우쿠폰 8,290원이 적용된 조건이고, 상품평 4,019건, 한 달간 2,000명 이상 구매, 무료배송·무료반품이다. 3L 건조분쇄식이고 KC 인증번호는 YH07333-25002, 전파적합성은 R-R-Po3-MNFD-200G다. 상품평이 가장 많이 쌓인 모델이라 초기 불량 정보를 확인하기 쉽고, 3~4인 가구 하루치를 모아 돌리는 용량이다. 설치 방식은 고객직접설치다',
+        tag: '410,750원 · 후기 4,019건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9156454963&itemId=26967015147&vendorItemId=93935944525',
+      },
+      {
+        rank: 2,
+        rankBadge: '소비자원 시험 모델 🥈',
+        productName: '쿠쿠 음식물처리기 건조분쇄타입 가정용, CFD-D301DCNW, 노블화이트',
+        specSummary: '확인일 기준 549,000원에서 25% 내린 411,750원, 상품평 294건 가운데 최고 평가가 89%, 2.6L 용량이다. 한국소비자원이 2025년 비교공감에서 시험한 것과 같은 모델명이고, 그 시험에서 탈취필터 성능이 3개월 사용 뒤에도 우수한 5개 제품에 들었다. 환경표지 인증 제품이라 지자체 소형감량기 보조금 대상 여부를 공고에서 확인할 수 있다. KC 인증번호 YM07010-24001, 무료배송·무료반품이다',
+        tag: '411,750원 · 후기 294건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8020324770&itemId=22410610411&vendorItemId=90023537006',
+      },
+      {
+        rank: 3,
+        rankBadge: '미생물 발효 1위 🥉',
+        productName: '린클 미생물 음식물 처리기 가정용, RC-Easy100, 크림 화이트',
+        specSummary: '확인일 기준 749,000원에서 35% 내린 480,000원에 20,000원 쿠폰이 적용된 조건이고, 상품평 127건 중 최고 평가가 91%, 한 달간 200명 이상 구매, 무료배송·무료반품이다. 표시 소비전력은 AC 220V 110W이고 KC 인증번호는 XM070024-25007이다. 음식물을 모아 두지 않고 그때그때 넣는 방식이라 냄새가 머무는 시간이 짧지만, 미생물과 활성탄을 관리해야 하고 옥수수대·호두 껍질처럼 단단한 것은 넣을 수 없다. 2인 가구에 맞는 크기다',
+        tag: '480,000원 · 후기 127건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9174232499&itemId=27600679953&vendorItemId=94649355176',
+      },
+    ],
+  },
   'winter-car-heater-cold-air-coolant-thermostat-heater-core-guide': {
     sectionTitle: '겨울 히터 찬바람 대비 3종 (부동액 · 열선시트 · 점프스타터)',
     sectionSubtitle: '2026-11-14 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
