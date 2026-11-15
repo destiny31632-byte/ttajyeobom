@@ -28,7 +28,7 @@ summary:
   - "탄소매트든 온수매트든 열선 매트는 라텍스 위에서 쓰지 말고, 취침 설정은 37℃ 이하로 낮춰야 한다."
 ymyl: medium
 volatility: high
-reviewBy: 2026-11-14
+reviewBy: 2027-02-16
 sources:
   - title: "난방용품 안전사고 5년간 4천여건…소비자 안전주의보"
     url: "https://www.yna.co.kr/view/AKR20251205042300030"

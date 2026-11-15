@@ -30,7 +30,7 @@ summary:
   - "2026-11-09 실구매가는 닥터바르미 57,950원, 수면공감 56,350원, 템퍼 M 60,880원이다. 후기 수와 배송 조건이 가격보다 큰 차이를 만든다."
 volatility: high
 ymyl: medium
-reviewBy: 2026-11-16
+reviewBy: 2027-02-16
 sources:
   - title: "추간판탈출증(디스크) — 국가건강정보포털"
     url: "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3348"

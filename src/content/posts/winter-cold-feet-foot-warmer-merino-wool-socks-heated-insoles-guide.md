@@ -30,7 +30,7 @@ summary:
   - "파티션·온열 풋워머는 소비전력 77에서400W급이다. 하루 5시간 기준 월 23.25에서60kWh로, 누진 단계 진입 여부가 전기요금을 갈른다."
 ymyl: medium
 volatility: medium
-reviewBy: 2026-11-14
+reviewBy: 2027-02-16
 sources:
   - title: "입동에 초겨울 추위, 서울 올가을 첫 영하 체감 -4도"
     url: "https://www.yna.co.kr/view/AKR20261106160100530"

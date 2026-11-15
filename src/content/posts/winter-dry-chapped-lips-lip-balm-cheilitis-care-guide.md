@@ -29,7 +29,7 @@ summary:
   - "립밤 7종 시험에서 1g당 가격은 1,020원에서 4,545원까지 4.5배 차이였지만 자극지수는 모두 0.00이었다."
 ymyl: medium
 volatility: medium
-reviewBy: 2026-11-14
+reviewBy: 2027-02-16
 sources:
   - title: "입동에 초겨울 추위, 서울 올가을 첫 영하 체감 -4도"
     url: "https://www.yna.co.kr/view/AKR20261106160100530"
