@@ -1,12 +1,11 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "published": [
-    "winter-shower-hot-water-cost-saving-showerhead-flow-guide",
-    "winter-car-windshield-fogging-oil-film-water-repellent-washer-fluid-guide",
-    "winter-food-waste-dryer-odor-running-cost-comparison-guide"
+    "capsule-coffee-machine-extraction-time-capsule-cost-guide",
+    "electric-kettle-boil-time-surface-temperature-glass-stainless-guide",
+    "mini-rice-cooker-heat-plate-vs-ih-pressure-cook-time-warm-guide"
   ],
   "remaining": 0,
   "status": "daily-limit-reached",
-  "newPost": null,
-  "workflowStatus": "success"
+  "newPost": null
 }
