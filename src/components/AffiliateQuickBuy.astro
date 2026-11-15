@@ -1,0 +1,190 @@
+---
+import { getAffiliateRankingForPost } from '../lib/affiliate';
+
+interface Props {
+  slug: string;
+  variant?: 'inline' | 'sticky';
+}
+
+const { slug, variant = 'inline' } = Astro.props;
+const rankingGroup = getAffiliateRankingForPost(slug);
+const first = rankingGroup?.products?.[0];
+const price = first?.tag ? first.tag.split('·')[0].trim() : '';
+const matchKey = first ? first.productName.replace(/[\[\]()]/g, ' ').trim().slice(0, 8) : '';
+const isInline = variant === 'inline';
+---
+
+{
+  first && (
+    <aside
+      class:list={['quick-buy', isInline ? 'quick-buy--inline' : 'quick-buy--sticky']}
+      aria-label={isInline ? '이 글 1위 제품 바로 확인' : '1위 제품 최저가 바로 확인'}
+      data-match={matchKey}
+      data-pagefind-ignore
+      hidden={!isInline}
+    >
+      <span class="quick-buy__badge">1위</span>
+      <span class="quick-buy__text">
+        <span class="quick-buy__name">{first.productName}</span>
+        {price && <span class="quick-buy__price">{price}</span>}
+      </span>
+      <a
+        class="quick-buy__btn"
+        href={first.link}
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+      >
+        최저가 확인
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <polyline points="12 5 19 12 12 19" />
+        </svg>
+      </a>
+      {!isInline && (
+        <button class="quick-buy__close" type="button" data-quick-buy-close aria-label="구매 안내 닫기">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+            <line x1="5" y1="5" x2="19" y2="19" />
+            <line x1="19" y1="5" x2="5" y2="19" />
+          </svg>
+        </button>
+      )}
+    </aside>
+  )
+}
+
+<style>
+  .quick-buy {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid color-mix(in srgb, var(--border, #e2e8f0) 60%, #f97316 40%);
+    background: color-mix(in srgb, var(--surface, #ffffff) 94%, #fff7ed 6%);
+    border-radius: 14px;
+    padding: 10px 12px;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+  [data-theme='dark'] .quick-buy {
+    border-color: color-mix(in srgb, var(--border, #334155) 55%, #ea580c 45%);
+    background: color-mix(in srgb, var(--surface, #1e293b) 92%, #431407 8%);
+  }
+
+  .quick-buy--inline {
+    margin: 20px 0 26px;
+    box-shadow: 0 4px 14px -6px rgba(249, 115, 22, 0.25);
+  }
+
+  .quick-buy--sticky {
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    z-index: 60;
+    gap: 8px;
+    padding: 9px 10px;
+    border-radius: 16px;
+    box-shadow: 0 10px 28px -6px rgba(15, 23, 42, 0.35);
+    background: var(--surface, #ffffff);
+  }
+
+  [data-theme='dark'] .quick-buy--sticky {
+    background: var(--surface, #1e293b);
+  }
+
+  .quick-buy--sticky[hidden] {
+    display: none;
+  }
+
+  .quick-buy__badge {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #f43f5e, #e11d48);
+    color: #ffffff;
+    font-size: 0.76rem;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+  }
+
+  .quick-buy__text {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .quick-buy__name {
+    font-size: 0.84rem;
+    font-weight: 700;
+    color: var(--text, #0f172a);
+    line-height: 1.35;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .quick-buy__price {
+    font-size: 0.78rem;
+    font-weight: 800;
+    color: #ea580c;
+  }
+
+  [data-theme='dark'] .quick-buy__price {
+    color: #fb923c;
+  }
+
+  .quick-buy__btn {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 9px 12px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #f97316, #ea580c);
+    color: #ffffff !important;
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-decoration: none !important;
+    white-space: nowrap;
+    box-shadow: 0 3px 10px rgba(234, 88, 12, 0.3);
+  }
+
+  .quick-buy__btn:hover {
+    filter: brightness(1.06);
+  }
+
+  .quick-buy__close {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--border, #cbd5e1) 55%, transparent);
+    color: var(--muted, #64748b);
+    cursor: pointer;
+  }
+
+  @media (min-width: 821px) {
+    .quick-buy--sticky {
+      display: none;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .quick-buy__btn {
+      padding: 9px 10px;
+      font-size: 0.76rem;
+    }
+  }
+</style>

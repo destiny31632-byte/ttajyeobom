@@ -9,6 +9,7 @@ import AuthorBox from '../../components/AuthorBox.astro';
 import PrevNext from '../../components/PrevNext.astro';
 import RelatedPosts from '../../components/RelatedPosts.astro';
 import AffiliateBox from '../../components/AffiliateBox.astro';
+import AffiliateQuickBuy from '../../components/AffiliateQuickBuy.astro';
 import CommentSection from '../../components/CommentSection.astro';
 import ArticleTopAd from '../../components/ads/ArticleTopAd.astro';
 import ArticleBottomAd from '../../components/ads/ArticleBottomAd.astro';
@@ -119,7 +120,12 @@ const jsonLd = graph(
           <Content />
         </div>
 
+        <template id="aff-inline-slot">
+          <AffiliateQuickBuy slug={post.id} variant="inline" />
+        </template>
+
         <AffiliateBox slug={post.id} />
+        <AffiliateQuickBuy slug={post.id} variant="sticky" />
 
         <div data-pagefind-ignore><ArticleBottomAd /></div>
         <SourceList sources={d.sources} images={d.images} />
@@ -163,3 +169,50 @@ const jsonLd = graph(
     <RelatedPosts posts={related} />
   </div>
 </BaseLayout>
+
+<script>
+  const slot = document.getElementById('aff-inline-slot');
+  const prose = document.querySelector('.prose');
+
+  if (slot && prose) {
+    const node = slot.content?.firstElementChild;
+    if (node) {
+      const key = (node.getAttribute('data-match') ?? '').trim();
+      const tables = Array.from(prose.querySelectorAll('table'));
+      let anchor: Element | null = key
+        ? tables.find((table) => (table.textContent ?? '').includes(key)) ?? null
+        : null;
+      if (!anchor) anchor = tables.length > 1 ? tables[1] : null;
+      if (!anchor) {
+        const sections = prose.querySelectorAll('h2');
+        anchor = sections.length > 1 ? sections[1] : null;
+      }
+      if (anchor?.parentNode) anchor.parentNode.insertBefore(node, anchor.nextSibling);
+    }
+  }
+
+  const bar = document.querySelector<HTMLElement>('.quick-buy--sticky');
+  const topBox = document.querySelector('.ranking-box--top');
+  const boxes = document.querySelectorAll('.ranking-box');
+  const bottomBox = boxes.length > 1 ? boxes[boxes.length - 1] : null;
+
+  if (bar && topBox) {
+    let dismissed = false;
+    bar.querySelector('[data-quick-buy-close]')?.addEventListener('click', () => {
+      dismissed = true;
+      bar.hidden = true;
+    });
+
+    const update = () => {
+      if (dismissed) return;
+      const top = topBox.getBoundingClientRect();
+      const bottom = bottomBox ? bottomBox.getBoundingClientRect() : null;
+      const show = top.bottom < 60 && (!bottom || bottom.top > window.innerHeight * 0.95);
+      bar.hidden = !show;
+    };
+
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  }
+</script>

@@ -9,6 +9,7 @@ interface Props {
 const { slug, position = 'bottom' } = Astro.props;
 const rankingGroup = getAffiliateRankingForPost(slug);
 const isTop = position === 'top';
+const priceOf = (tag?: string) => (tag ? tag.split('·')[0].trim() : '');
 ---
 
 {
@@ -53,7 +54,7 @@ const isTop = position === 'top';
                 rel="noopener noreferrer nofollow"
                 class={`ranking-card__btn ranking-card__btn--rank-${item.rank}`}
               >
-                <span>{item.rank === 1 ? '1위 최저가 확인하기' : `${item.rank}위 최저가 보기`}</span>
+                <span>{item.rank === 1 ? (priceOf(item.tag) ? `${priceOf(item.tag)} 최저가 확인` : '1위 최저가 확인하기') : `${item.rank}위 최저가 보기`}</span>
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
                   <line x1="5" y1="12" x2="19" y2="12" />
                   <polyline points="12 5 19 12 12 19" />
@@ -156,6 +157,49 @@ const isTop = position === 'top';
     .ranking-box__grid {
       grid-template-columns: 1fr;
       gap: 14px;
+    }
+
+    .ranking-box--top {
+      margin: 16px 0 22px;
+    }
+
+    .ranking-box {
+      margin: 28px 0 24px;
+      padding: 20px 14px 16px;
+    }
+
+    .ranking-box__header {
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+    }
+
+    .ranking-box__badge-title {
+      font-size: 1.24rem;
+    }
+
+    .ranking-box__criteria {
+      font-size: 0.78rem;
+    }
+
+    .ranking-card {
+      padding: 16px 14px 14px;
+    }
+
+    .ranking-card__spec {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+
+    .ranking-card--rank-1 .ranking-card__spec {
+      -webkit-line-clamp: 4;
+    }
+
+    .ranking-card__btn {
+      padding: 13px 14px;
+      font-size: 0.92rem;
     }
   }
 
