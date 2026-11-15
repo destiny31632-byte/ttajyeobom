@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'air-fryer-5l-vs-15l-capacity-power-coating-safety-guide': {
+    sectionTitle: '에어프라이어 3종 (5L 가성비 · 5.5L 대기업 · 15L 오븐형)',
+    sectionSubtitle: '2026-11-16 쿠팡 가격·상품평·배송 조건 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '가성비 5L 🥇',
+        productName: '쿠첸 에어프라이어 5L, COV-D050G, 그레이',
+        specSummary: '확인일 기준 125,820원에서 54퍼센트 내린 56,900원이고 상품평 2,754건, 평점 5, 한 달간 1,000명 이상 구매 표시가 붙었다. 용량 5리터, 2024년 3월 출시, KC 인증 HU07242-23066B와 R-R-Mid-MF-TN55M2, 무료배송·무료반품에 내일 새벽 도착 보장이다. 소비자원 시험에서 5리터대 9개 제품의 무부하 30분 전력량이 186Wh에서 416Wh까지 벌어졌으니, 같은 5리터라도 전력량은 제품별로 확인해야 한다. 이 제품 페이지의 소비전력 표기는 콘텐츠 참조로 되어 있어 W 수치를 적지 않았다',
+        tag: '56,900원 · 후기 2,754건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8017574780&itemId=22394258301&vendorItemId=89439188658',
+      },
+      {
+        rank: 2,
+        rankBadge: '대기업 5.5L 🥈',
+        productName: '쿠쿠 에어프라이어 5.5L, CAF-G0610TB, 블랙',
+        specSummary: '확인일 기준 84,860원에서 5퍼센트 쿠폰 5,010원을 적용한 79,850원, 상품평 2,625건, 한 달간 500명 이상 구매다. 바스켓형에 터치식, 스테인리스 재질, 용량 5.5리터, 2021년 2월 출시, KC 인증 JM07016-20010A와 R-R-cke-CAF-G0510T다. 다른 판매자 최저가는 68,510원이고 무료배송·무료반품에 내일 도착 보장이다. 다만 소비자원 시험이 표시용량보다 실제 용량이 10퍼센트 이상 적은 제품을 2개 찾아냈으니, 5.5리터 표기가 실제 내부 용량과 같은지는 상품문의로 확인하는 편이 낫다',
+        tag: '79,850원 · 후기 2,625건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=5562885266&itemId=8830028095&vendorItemId=76116838178',
+      },
+      {
+        rank: 3,
+        rankBadge: '오븐형 15L 🥉',
+        productName: '신일 듀얼히팅 에어프라이어 오븐형 15L 대용량, SOV-1155IR, 아이보리',
+        specSummary: '확인일 기준 129,000원에서 46퍼센트 내린 68,900원이고 상품평 1,012건, 한 달간 1,000명 이상 구매다. 정격 220V 60Hz 1,200W, KC 인증 HU071944-24007, 2026년 2월 출시, 구성은 본체와 그릴망, 바스켓, 기름받침대, 핸들이다. 투명창과 더블히팅이 붙어 조리 과정을 보면서 위아래에서 열을 잡는다. 5리터 제품과 값 차이가 12,000원인데 용량은 3배라 여러 접시를 동시에 돌리는 집에 맞는다. 다른 판매자 최저가는 55,120원이고, 출시 1년이 안 된 모델이라 상품평은 상대적으로 얇다',
+        tag: '68,900원 · 후기 1,012건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9374227560&itemId=27824900112&vendorItemId=94784665289',
+      },
+    ],
+  },
   'capsule-coffee-machine-extraction-time-capsule-cost-guide': {
     sectionTitle: '캡슐커피머신 3종 (1잔 단가 · 오리지널 · 호환)',
     sectionSubtitle: '2026-11-16 쿠팡 가격·상품평·배송 조건 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
