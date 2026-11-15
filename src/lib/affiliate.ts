@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'handheld-vacuum-vs-car-vacuum-suction-pa-watt-runtime-guide': {
+    sectionTitle: '핸디·차량용 무선청소기 3종 (판매량 1위 · 차량 특화 · 18V 프리미엄)',
+    sectionSubtitle: '2026-11-15 쿠팡 가격·상품평·배송 조건 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '클래파 DC모터 다용도 미니 핸디형 무선청소기, 그레이, BVC-H10',
+        specSummary: '확인일 기준 정가 59,900원에서 45% 내린 32,800원이다. 상품평 28,420건, 한 달간 3,000명 이상 구매, 평점 4.5, 무료배송·무료반품이며 판매자는 쿠팡이다. 표기는 사용시간 20분·소비전력 45W·헤파필터 장착·먼지통 분리 가능이고, 45W로 20분을 쓰면 15Wh라 3.7V 기준 4,000mAh 상당의 배터리가 필요하다. KC 인증은 본품 R-R-bir-BR-M3L, 전지 ZU101367-22003이다',
+        tag: '32,800원 · 후기 28,420건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=4548468621&itemId=13569079594&vendorItemId=80822526378',
+      },
+      {
+        rank: 2,
+        rankBadge: '차량 특화 🥈',
+        productName: '디안트 차량용 무선 청소기 BLDC 흡입력 좋은 진공청소기 에어건, 실버, Z30',
+        specSummary: '확인일 기준 44,900원에서 29% 내린 31,600원에 3,300원 쿠폰이 적용된 가격이다. 상품평 2,698건, 한 달간 3,000명 이상 구매, 평점 5.0, 새벽 도착·무료배송·무료반품이다. 필수 표기는 소비전력 100W·배터리 6,000mAh(2,000mAh 3개)·흡입력 18,000Pa이고 사용시간은 최대 35분이다. 6,000mAh를 3.7V로 환산하면 22.2Wh라 100W 최대 출력에서는 13.3분이 한계이고, 35분은 평균 38.1W 조건이다. 전파인증 R-R-Inow-Z30, 배터리 KC XU103978-25003이며 헤파필터 3+1(12개월)은 11,700원에 따로 판다',
+        tag: '31,600원 · 후기 2,698건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9438298945&itemId=28069788995&vendorItemId=95952414457',
+      },
+      {
+        rank: 3,
+        rankBadge: '프리미엄 🥉',
+        productName: '일렉트로룩스 18V 라피도 리튬 핸디 무선 청소기, 스페이스 틸 메탈릭, ZB6218STM',
+        specSummary: '확인일 기준 정가 149,000원에서 34% 내린 97,920원이다. 상품평 347건에 평점 5.0, 무료배송·무료반품·내일 새벽 도착 조건이며 판매자는 쿠팡이다. 18V 리튬 배터리를 쓰는 교체형 모델이라 배터리가 약해져도 본체를 버리지 않고 배터리만 갈아 쓸 수 있다. 소비자원 시험에서 배터리 교체비는 제품별로 29,000원에서 160,000원까지 5.5배 차이가 났으니, 오래 쓸 주력으로 고를 때는 이 구조가 값어치를 한다',
+        tag: '97,920원 · 후기 347건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6199147176&itemId=12289012431&vendorItemId=79559312233',
+      },
+    ],
+  },
   'winter-shower-hot-water-cost-saving-showerhead-flow-guide': {
     sectionTitle: '절수 샤워헤드 3종 (판매량 1위 · 온오프+필터 · 2개 세트)',
     sectionSubtitle: '2026-11-15 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
