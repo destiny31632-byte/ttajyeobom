@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'electric-kettle-boil-time-surface-temperature-glass-stainless-guide': {
+    sectionTitle: '온도조절 전기포트 3종 (보온 정확 · 쾌속 저온 · 앱 제어)',
+    sectionSubtitle: '2026-11-16 쿠팡 가격·상품평·배송 조건 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '상품평 1위 🥇',
+        productName: '키친아트 유리 티포트, KK-1705T',
+        specSummary: '확인일 기준 49,900원에서 34퍼센트 내린 32,900원이고 상품평 5,451건, 평점 4.5, 한 달간 1,000명 이상 구매 표시가 붙었다. 1.8리터 유리 재질에 무료배송·무료반품, 11월 17일 도착 보장, 자동 전원 차단과 분리형 차 거름망이 들어간다. 소비자원 시험에서 보온 정확성이 14개 제품 중 가장 좋았고(평균 0.6도, 최대 1.8도), 표시 소비전력 800W로 물 1리터가 끓는 데 9분 8초 걸린다. KC 인증은 HU072256-20019A, R-R-THJ-KK-1705T다',
+        tag: '32,900원 · 후기 5,451건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=4839684957&itemId=6253489573&vendorItemId=73549204416',
+      },
+      {
+        rank: 2,
+        rankBadge: '쾌속·저온 🥈',
+        productName: '키친아트 REX 분유포트 대용량 1.7L, KP-36WT',
+        specSummary: '확인일 기준 46,800원에서 23퍼센트 내린 36,000원, 상품평 56건, 평점 4.5, 1.7리터, 무료배송에 11월 17일 도착 예정이다. 소비자원 시험에서 물 1리터가 3분 33초에 끓어 스테인리스 제품과 비슷한 속도였고, 본체를 플라스틱으로 감싼 이중 구조라 표면 최고온도가 63도로 낮은 축이다. 다만 입구가 8.8cm로 좁고 보온 설정이 2시간까지이며 상품평이 56건이라 실사용 검증은 아직 얇다',
+        tag: '36,000원 · 후기 56건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7675862418&itemId=20489375319&vendorItemId=71215054684',
+      },
+      {
+        rank: 3,
+        rankBadge: '앱 온도 제어 🥉',
+        productName: '샤오미 Mi 스마트 전기포트 Pro, MJHWSH02YM',
+        specSummary: '확인일 기준 99,800원, 상품평 2,228건, 평점 5, 무료배송에 11월 19일 도착 예정이다. 표시 용량 1.5리터 스테인리스 제품으로, 전용 앱에서 40도에서 90도까지 5도 단위로 온도를 바꾸고 보온 시간을 5분 단위로 설정한다. 소비자원 시험에서 가열 4분 5초, 표면 최고온도 48도, 보온 평균편차 0.9도, 보온 에너지 8Wh, 연간 에너지비용 13,300원이었다. 다만 표시 소비전력 1,800W가 국내 220V 조건 실측에서 1,545W로 14퍼센트 낮게 측정됐다',
+        tag: '99,800원 · 후기 2,228건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=4590495411&itemId=5643390864&vendorItemId=94993053576',
+      },
+    ],
+  },
   'mini-rice-cooker-heat-plate-vs-ih-pressure-cook-time-warm-guide': {
     sectionTitle: '소형 전기밥솥 3종 (3만원대 · 압력식 · 소비자원 시험 모델)',
     sectionSubtitle: '2026-11-15 쿠팡 가격·상품평·배송 조건 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
