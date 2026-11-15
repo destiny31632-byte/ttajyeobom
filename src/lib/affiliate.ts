@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'mini-rice-cooker-heat-plate-vs-ih-pressure-cook-time-warm-guide': {
+    sectionTitle: '소형 전기밥솥 3종 (3만원대 · 압력식 · 소비자원 시험 모델)',
+    sectionSubtitle: '2026-11-15 쿠팡 가격·상품평·배송 조건 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '가성비 1위 🥇',
+        productName: '키친아트 꿀벌 미니 전기보온밥솥 3, 4인용, KARC-1034PB',
+        specSummary: '확인일 기준 63,000원에서 46퍼센트 내린 33,920원이다. 상품평 2,797건, 평점 4, 무료배송·무료반품·내일 도착 보장 조건이다. 3만원대에서 3, 4인용을 고르는 자리지만, 상품 페이지에 전원차단 기능과 에너지소비효율 등급이 명확히 적혀 있지 않아 이 두 항목은 문의란에서 확인하는 편이 낫다',
+        tag: '33,920원 · 후기 2,797건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=4930859107&itemId=23892456194&vendorItemId=73773442886',
+      },
+      {
+        rank: 2,
+        rankBadge: '소비자원 시험 모델 🥈',
+        productName: '키친아트 3, 4인용 스마트 미니 전기압력밥솥, KRC-DB342',
+        specSummary: '확인일 기준 110,000원에서 41퍼센트 내린 64,900원이고 상품평 693건, 평점 4, 무료배송·무료반품·내일 도착 보장이다. 압력 방식이라 밥이 단단하고 찰진 편에 가깝고 취사가 빠른 부류다. 다만 소비자원 시험은 IH 압력 제품 2종에 대해서만 공개돼 있어 취반 시간과 전기요금은 이 제품 자체 표기로 확인해야 한다',
+        tag: '64,900원 · 후기 693건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8026381787&itemId=22432981273&vendorItemId=90447392181',
+      },
+      {
+        rank: 3,
+        rankBadge: '수치 공개 모델 🥉',
+        productName: '쿠쿠 전기보온밥솥 3인용, CR-0365FR',
+        specSummary: '확인일 기준 69,200원, 상품평 4,737건, 평점 4.5, 무료배송에 11월 18일 도착 예정이다. 한 달간 300명 이상 구매 표시가 붙었고 판매자는 ㈜엔에스쇼핑이다. 소비자원 시험 대상 모델 그 자체로 취반 40분, 연 전기요금 18,000원, 3등급, 전원차단 기능 있음, 12시간 보온 보통이라는 수치가 공개돼 있다. 보온을 12시간씩 켜 두는 집에는 보온 등급이 아쉽다',
+        tag: '69,200원 · 후기 4,737건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=189639634&itemId=1081030192&vendorItemId=94159808448',
+      },
+    ],
+  },
   'handheld-steamer-vs-stand-steamer-steam-rate-tank-guide': {
     sectionTitle: '스팀다리미 3종 (판매량 1위 · 소비자원 시험 통과 · 스탠드형)',
     sectionSubtitle: '2026-11-15 쿠팡 가격·상품평·배송 조건 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
