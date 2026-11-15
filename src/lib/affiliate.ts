@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'winter-shower-hot-water-cost-saving-showerhead-flow-guide': {
+    sectionTitle: '절수 샤워헤드 3종 (판매량 1위 · 온오프+필터 · 2개 세트)',
+    sectionSubtitle: '2026-11-15 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '코멧 홈 3단 수압조절 절수 샤워기 헤드 실버, 1개',
+        specSummary: '확인일 기준 12,800원에서 52% 내린 6,120원이다. 상품평 22,403건, 한 달간 8,000명 이상 구매, 무료배송·무료반품이며 판매자는 쿠팡이다. 3단 분사와 절수 기능이 들어간 혼합분사형이고 세로 26cm·지름 8.5cm다. 12리터 헤드에서 이 제품으로 바꿔 7.5리터가 되면 겨울 기준 26번 샤워에 제품값을 회수한다',
+        tag: '6,120원 · 후기 22,403건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6726839965&itemId=15661230400&vendorItemId=82877098629',
+      },
+      {
+        rank: 2,
+        rankBadge: '온오프+필터 🥈',
+        productName: '대림바스 원터치 온오프 필터 샤워기 ver2, 1개, 혼합색상',
+        specSummary: '확인일 기준 23,900원에서 쿠폰 1,000원이 적용돼 22,900원이다. 상품평 3,672건, 한 달간 1,000명 이상 구매, 최고 평가 87%, 무료배송·내일(월) 새벽 도착이며 판매자는 쿠팡이다. 절수 분사와 원터치 온오프 버튼이 달려 비누 칠할 때 손잡이로 물을 잠글 수 있고, 필터가 함께 들어간다. 제조국은 대한민국, 제조자는 이수인(주)다',
+        tag: '22,900원 · 후기 3,672건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=1582732874&itemId=2705620110&vendorItemId=70695922878',
+      },
+      {
+        rank: 3,
+        rankBadge: '2개 세트 🥉',
+        productName: '네이쳐리빙 물쏀 3모드 온오프 수압상승 샤워기 헤드',
+        specSummary: '확인일 기준 1개 8,690원, 2개 17,380원(개당 8,690원)이다. 상품평 7,651건이고 와우쿠폰이 적용되며 새벽 도착·무료배송이다. 3모드 분사와 온오프 버튼이 달려 욕실 두 곳에 한 번에 바꾸거나 예비로 두기 좋다. 다만 이 제품도 상세페이지에 분당 유량 표기는 없어, 절수 효과는 2리터 페트병 측정으로 확인해야 한다',
+        tag: '17,380원(2개) · 후기 7,651건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8529338891&itemId=22585561384&vendorItemId=89627301433',
+      },
+    ],
+  },
   'winter-car-windshield-fogging-oil-film-water-repellent-washer-fluid-guide': {
     sectionTitle: '겨울 앞유리 관리 3종 (유막+발수 세트 · 김서림 방지제 · 동계 워셔액)',
     sectionSubtitle: '2026-11-15 쿠팡 가격·상품평·배송 조건 기준(할인과 배송일은 판매자 사정에 따라 변동)',
