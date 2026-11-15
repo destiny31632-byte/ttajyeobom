@@ -29,7 +29,7 @@ summary:
   - "수동식은 손 힘으로 압력이 달라지고, 전동식은 압력이 일정하지만 이관이 열려 있으면 과압이 중이로 전달될 수 있다. 네블라이저는 관류가 아니라 분무라서 코세척 대체가 아니다."
   - "2026-11-08 기준 실구매가는 노즈스위퍼 키트 80p 18,080원, 120포 세트 21,780원, 오므론 메쉬 네블라이저 114,000원이다. 1회 비용은 226원과 181원으로 갈린다."
 volatility: high
-reviewBy: 2026-11-15
+reviewBy: 2027-02-16
 sources:
   - title: "How to Safely Rinse Sinuses — Naegleria fowleri Infection"
     url: "https://www.cdc.gov/naegleria/prevention/sinus-rinsing.html"

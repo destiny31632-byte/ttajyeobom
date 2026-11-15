@@ -29,7 +29,7 @@ summary:
   - "케어 도구는 세제·양모볼·발수 스프레이 순으로 필요가 갈린다. 건조기가 없으면 양모볼은 의미가 없다."
   - "세탁 사고 배상은 구입가격 곱하기 배상비율이고, 인수증이 없으면 세탁요금의 20배가 기준이 된다."
 volatility: high
-reviewBy: 2026-11-15
+reviewBy: 2027-02-16
 sources:
   - title: "세탁 분쟁, 절반 이상이 세탁 과실 또는 제품 불량"
     url: "https://www.kca.go.kr/home/sub.do?menukey=4005&mode=view&no=1003802576"
