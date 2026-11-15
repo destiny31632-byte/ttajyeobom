@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'capsule-coffee-machine-extraction-time-capsule-cost-guide': {
+    sectionTitle: '캡슐커피머신 3종 (1잔 단가 · 오리지널 · 호환)',
+    sectionSubtitle: '2026-11-16 쿠팡 가격·상품평·배송 조건 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '상품평 1위 🥇',
+        productName: '돌체구스토 지니오S 베이직 캡슐 커피머신, 9784, 화이트',
+        specSummary: '확인일 기준 129,000원에서 50퍼센트 내린 63,800원이고 상품평 7,279건, 평점 5, 한 달간 1,000명 이상 구매 표시가 붙었다. 물통 0.8L, 표시 소비전력 1,600W, 2020년 9월 출시, KC 인증 SU072045-23001과 R-R-W14-9784, 무료배송·무료반품에 오늘 도착 보장이다. 정품 아메리카노 캡슐 30개입이 16,030원으로 1잔 534원이라 확인한 캡슐 중 가장 싸다. 다만 소비자원이 시험한 모델은 1023으로 이 제품과 다르므로, 시험 수치(1잔 41g, 소음 64dB, 온도편차 5도)는 브랜드 경향으로만 참고한다',
+        tag: '63,800원 · 후기 7,279건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=1947444077&itemId=3306694424&vendorItemId=71293600701',
+      },
+      {
+        rank: 2,
+        rankBadge: '오리지널 🥈',
+        productName: '네스프레소 에센자 미니 캡슐커피머신, C30, 화이트',
+        specSummary: '확인일 기준 219,000원에서 38퍼센트 내린 134,980원, 상품평 3,468건, 평점 5, 한 달간 900명 이상 구매다. 무게 2.3kg, 표시 소비전력 1,200W, KC 인증 SW07642-17001C로 좁은 주방에 놓기 좋은 크기다. 무료배송·무료반품에 오늘 도착 보장이고 다른 판매자 최저가는 106,400원이다. 시험에 쓰인 오리지널 D30은 1잔 42g, 소음 58dB, 온도편차 2도였지만, C30은 다른 모델이라 수치가 그대로 적용되지는 않는다. 네스프레소 캡슐은 1잔 1,180원짜리도 있어 단가를 먼저 확인해야 한다',
+        tag: '134,980원 · 후기 3,468건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8262881871&itemId=23805464352&vendorItemId=3213380305',
+      },
+      {
+        rank: 3,
+        rankBadge: '호환 캡슐 🥉',
+        productName: 'SCISHARE 심상 네스프레소 호환 캡슐 커피머신 2세대, 3A-C289A',
+        specSummary: '확인일 기준 86,500원에서 쿠폰 1,100원을 적용한 85,400원, 상품평 319건, 평점 4.5, 한 달간 100명 이상 구매다. 물통 550ml, 무게 2.2kg, 표시 소비전력 1,200W, 2025년 5월 출시, KC 인증 SU071232-24001A다. 네스프레소 오리지널 캡슐을 쓰는 호환 기기라 캡슐 선택지가 넓고, 시험에 나온 S1201은 1잔 44g, 소음 62dB, 두 잔 추출량 균일성 우수였다. 다만 상품평이 319건으로 얇고, 호환 캡슐은 기기 보증과 무관하며 맛이 정품과 다를 수 있다',
+        tag: '85,400원 · 후기 319건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8747007590&itemId=25425251931&vendorItemId=93031910278',
+      },
+    ],
+  },
   'electric-kettle-boil-time-surface-temperature-glass-stainless-guide': {
     sectionTitle: '온도조절 전기포트 3종 (보온 정확 · 쾌속 저온 · 앱 제어)',
     sectionSubtitle: '2026-11-16 쿠팡 가격·상품평·배송 조건 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',

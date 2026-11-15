@@ -1,0 +1,236 @@
+{
+  "slug": "capsule-coffee-machine-extraction-time-capsule-cost-guide",
+  "pass": true,
+  "score": 97,
+  "checkedAt": "2026-11-15T15:50:46.719Z",
+  "stats": {
+    "chars": 5177,
+    "h2": 11,
+    "tables": 3,
+    "sources": 10,
+    "internalLinks": 4,
+    "images": 0
+  },
+  "failures": [],
+  "warnings": [
+    "출처 링크 접속 — 403 https://www.coupang.com/vp/products/1947444077?itemId=3306694424&vendorItemId=71293600701; 403 https://www.coupang.com/vp/products/8262881871?itemId=23805464352&vendorItemId=3213380305; 403 https://www.coupang.com/vp/products/8747007590?itemId=25425251931&vendorItemId=93031910278"
+  ],
+  "checks": [
+    {
+      "id": "schema",
+      "label": "frontmatter 형식",
+      "status": "pass"
+    },
+    {
+      "id": "slug",
+      "label": "주소(슬러그) 형식",
+      "status": "pass"
+    },
+    {
+      "id": "title-length",
+      "label": "제목 길이 36자",
+      "status": "pass",
+      "detail": "권장 18~60자"
+    },
+    {
+      "id": "description-length",
+      "label": "설명 길이 130자",
+      "status": "pass",
+      "detail": "권장 70~160자"
+    },
+    {
+      "id": "category",
+      "label": "카테고리",
+      "status": "pass"
+    },
+    {
+      "id": "length",
+      "label": "본문 분량 5,177자",
+      "status": "pass",
+      "detail": "최소 2500자, 권장 3500자 이상 (공백 제외)"
+    },
+    {
+      "id": "h1",
+      "label": "본문에 H1 없음",
+      "status": "pass"
+    },
+    {
+      "id": "h2",
+      "label": "소제목 11개",
+      "status": "pass",
+      "detail": "최소 4개"
+    },
+    {
+      "id": "heading-order",
+      "label": "제목 단계 건너뜀 없음",
+      "status": "pass"
+    },
+    {
+      "id": "heading-unique",
+      "label": "소제목 중복 없음",
+      "status": "pass"
+    },
+    {
+      "id": "summary",
+      "label": "핵심 요약 5개",
+      "status": "pass"
+    },
+    {
+      "id": "faq",
+      "label": "FAQ 질문 5개",
+      "status": "pass"
+    },
+    {
+      "id": "tables",
+      "label": "표 3개",
+      "status": "pass"
+    },
+    {
+      "id": "mobile-table",
+      "label": "표 열 6개 이하",
+      "status": "pass"
+    },
+    {
+      "id": "sources-count",
+      "label": "출처 10개",
+      "status": "pass",
+      "detail": "최소 3개"
+    },
+    {
+      "id": "sources-tier",
+      "label": "공식·원자료 출처 10개",
+      "status": "pass"
+    },
+    {
+      "id": "sources-format",
+      "label": "출처 URL 형식",
+      "status": "pass"
+    },
+    {
+      "id": "sources-fresh",
+      "label": "출처 조회일 365일 이내",
+      "status": "pass"
+    },
+    {
+      "id": "sources-online",
+      "label": "출처 링크 접속",
+      "status": "warn",
+      "detail": "403 https://www.coupang.com/vp/products/1947444077?itemId=3306694424&vendorItemId=71293600701; 403 https://www.coupang.com/vp/products/8262881871?itemId=23805464352&vendorItemId=3213380305; 403 https://www.coupang.com/vp/products/8747007590?itemId=25425251931&vendorItemId=93031910278"
+    },
+    {
+      "id": "title-body",
+      "label": "제목의 숫자·주장이 본문에 있음",
+      "status": "pass"
+    },
+    {
+      "id": "search-intent",
+      "label": "검색어가 제목·도입부에 반영",
+      "status": "pass",
+      "detail": "검색어 \"캡슐커피머신 추천 비교\" — 제목 2/3, 도입부 1/3, 소제목 있음"
+    },
+    {
+      "id": "ad-inducement",
+      "label": "광고 클릭 유도 문구 없음",
+      "status": "pass"
+    },
+    {
+      "id": "banned-phrases",
+      "label": "상투적 AI 표현 없음",
+      "status": "pass"
+    },
+    {
+      "id": "cliche",
+      "label": "반복적인 상투 표현",
+      "status": "pass"
+    },
+    {
+      "id": "clickbait",
+      "label": "과장·낚시성 표현 없음",
+      "status": "pass"
+    },
+    {
+      "id": "repetition",
+      "label": "의미 없는 반복 없음",
+      "status": "pass"
+    },
+    {
+      "id": "spelling",
+      "label": "흔한 맞춤법 오류",
+      "status": "pass"
+    },
+    {
+      "id": "duplicate-body",
+      "label": "기존 글과 본문 중복",
+      "status": "pass",
+      "detail": "가장 비슷한 글: electric-kettle-boil-time-surface-temperature-glass-stainless-guide (15%)"
+    },
+    {
+      "id": "duplicate-title",
+      "label": "제목 중복",
+      "status": "pass",
+      "detail": "가장 비슷한 제목: winter-humidifier-ultrasonic-heating-natural-evaporative-comparison-guide (8%)"
+    },
+    {
+      "id": "duplicate-description",
+      "label": "설명 문구 중복",
+      "status": "pass"
+    },
+    {
+      "id": "duplicate-topic",
+      "label": "같은 검색 의도의 글 (카니발리제이션)",
+      "status": "pass",
+      "detail": "가장 비슷한 주제: electric-kettle-boil-time-surface-temperature-glass-stainless-guide (33%)"
+    },
+    {
+      "id": "plagiarism",
+      "label": "원문 복제 위험",
+      "status": "skip",
+      "detail": "조사 원문이 없는 글(직접 작성)은 건너뜀"
+    },
+    {
+      "id": "fact-support",
+      "label": "숫자 근거 확인 (211/211)",
+      "status": "pass"
+    },
+    {
+      "id": "images",
+      "label": "이미지 0개 라이선스·대체텍스트",
+      "status": "pass"
+    },
+    {
+      "id": "internal-links-valid",
+      "label": "내부 링크 정상",
+      "status": "pass"
+    },
+    {
+      "id": "internal-links-count",
+      "label": "관련 글 링크 4개",
+      "status": "pass"
+    },
+    {
+      "id": "external-links",
+      "label": "외부 링크 1개",
+      "status": "pass"
+    },
+    {
+      "id": "markup-safety",
+      "label": "위험한 HTML 없음",
+      "status": "pass"
+    },
+    {
+      "id": "policy-topic",
+      "label": "금지·민감 주제 아님",
+      "status": "pass"
+    },
+    {
+      "id": "ymyl",
+      "label": "YMYL 수준: low",
+      "status": "pass"
+    },
+    {
+      "id": "dates",
+      "label": "작성일·수정일·재확인일",
+      "status": "pass"
+    }
+  ]
+}
