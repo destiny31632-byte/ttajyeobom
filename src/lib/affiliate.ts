@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'handheld-steamer-vs-stand-steamer-steam-rate-tank-guide': {
+    sectionTitle: '스팀다리미 3종 (판매량 1위 · 소비자원 시험 통과 · 스탠드형)',
+    sectionSubtitle: '2026-11-15 쿠팡 가격·상품평·배송 조건 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '판매량 1위 🥇',
+        productName: '홈플래닛 핸디형 스탠드 스팀다리미, MW-801',
+        specSummary: '확인일 기준 정가 59,900원에서 54% 내린 26,990원이다. 상품평 52,873건, 한 달간 1만 명 이상 구매, 평점 4.5, 무료배송·무료반품이며 판매자는 쿠팡이다. 필수 표기는 유선·순간 스팀 방식·물통 0.28L·크기 160x113x276mm이고, 소비전력은 컨텐츠 참조로만 적혀 있어 증기량을 계산할 수 없다. KC 인증은 본품 SU072237-20001, 전파적합성 R-R-NMe-MW-801이다',
+        tag: '26,990원 · 후기 52,873건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=310080038&itemId=977484067&vendorItemId=5392665218',
+      },
+      {
+        rank: 2,
+        rankBadge: '소비자원 시험 통과 🥈',
+        productName: '필립스 핸디형 스팀다리미 3000 시리즈, STH3020/10',
+        specSummary: '확인일 기준 93,800원에서 63% 내린 34,310원이고 최저가 표기는 29,840원이다. 상품평 3,747건·평점 4.5·무료배송·무료반품·내일 도착 조건이다. 한국소비자원 비교공감 시험 대상 10개 중 하나로 예열 24초, 증기 발생량 분당 15.7g, 물통 120ml, 무게 605g, 밑면 긁힘 방지 양호가 공개돼 있다. 다만 물통이 120ml라 최대 분사로는 7.6분마다 물을 채워야 한다',
+        tag: '34,310원 · 후기 3,747건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8259269054&itemId=6123504566&vendorItemId=73419799874',
+      },
+      {
+        rank: 3,
+        rankBadge: '스탠드형 🥉',
+        productName: '한경희생활과학 스탠드형 스팀다리미, HSI-D1601A1',
+        specSummary: '확인일 기준 정가 109,000원에서 9% 내린 99,000원이고 최저가 표기는 84,150원이다. 상품평 1,575건·평점 4.5·한 달간 200명 이상 구매, 판매자는 주식회사 한티앤에스이며 무료배송·무료반품에 내일 도착 조건이다. 표기 소비전력 2,400W 스탠드형으로 물통은 2L급이라 한 번 채우면 셔츠 여러 벌을 다릴 수 있다. 다만 2L를 모두 증기로 바꾸는 데는 1,428Wh가 필요해 정격 2,400W 기준으로도 35.7분이 걸리므로, 대기 시간을 줄이려면 짧은 예열 모드를 확인해야 한다',
+        tag: '99,000원 · 후기 1,575건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8437153678&itemId=24325398314&vendorItemId=94173335559',
+      },
+    ],
+  },
   'handheld-vacuum-vs-car-vacuum-suction-pa-watt-runtime-guide': {
     sectionTitle: '핸디·차량용 무선청소기 3종 (판매량 1위 · 차량 특화 · 18V 프리미엄)',
     sectionSubtitle: '2026-11-15 쿠팡 가격·상품평·배송 조건 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
