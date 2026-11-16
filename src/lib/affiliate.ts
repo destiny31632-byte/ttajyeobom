@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'wet-mop-cleaner-rotary-vs-reciprocating-runtime-noise-guide': {
+    sectionTitle: '무선 물걸레청소기 3종 (가성비 · 만족도 · 스펙 공개)',
+    sectionSubtitle: '2026-11-16 쿠팡 가격·상품평·KC 표기 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '가성비 1위 🥇',
+        productName: '한일 무선 물걸레청소기 듀얼스핀 회전 LED 걸레청소기, HCW-30W, 화이트',
+        specSummary: '확인일 기준 120,000원에서 45퍼센트 내린 64,900원이고 상품평 313건, 평점 4.5, 한 달간 100명 이상 구매 표시가 붙었다. 정격 7.4V 리튬이온배터리 30W, 배터리 내장형, 각도조절과 충전·잔량 표시를 지원한다. 무료배송·무료반품에 내일 새벽 도착 보장이다. 다만 KC 인증정보가 상세페이지 참조로 되어 있어 인증번호를 페이지에서 바로 볼 수 없고, 소비자원 시험에서 회전식 6종의 사용시간이 28분에서 44분이었으니 최대 모드 사용시간은 상품문의로 확인하는 편이 낫다',
+        tag: '64,900원 · 후기 313건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9206998605&itemId=27191903152&vendorItemId=94253212967',
+      },
+      {
+        rank: 2,
+        rankBadge: '만족도 2위 🥈',
+        productName: '휴스톰 무선 듀얼스핀 물걸레 청소기, HS-DS7000',
+        specSummary: '확인일 기준 73,100원이고 상품평 141건, 평점 5다. 상품평 항목 평가에서 청소성능이 아주 뛰어나다는 응답이 84퍼센트, 사용 시간이 아주 길다는 응답이 77퍼센트, 소음이 조용하다는 응답이 80퍼센트로 이 가격대에서 만족도가 높다. 무료배송·무료반품에 내일 새벽 도착 보장이고 다른 판매자도 여러 곳이다. 제품 표기 스펙과 KC 인증번호는 상세페이지 참조로 비어 있으니, 배터리와 어댑터 인증번호는 판매자 문의로 확인해야 한다',
+        tag: '73,100원 · 후기 141건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9616824206&itemId=28715200252&vendorItemId=95690530738',
+      },
+      {
+        rank: 3,
+        rankBadge: '스펙 공개 3위 🥉',
+        productName: '신일 듀얼스핀 무선 자동 물분사 LED라이트 물걸레 청소기, SDC-SC2000WT, 화이트',
+        specSummary: '확인일 기준 87,120원이고 상품평 130건, 평점 4.5, 한 달간 200명 이상 구매 표시가 붙었다. 무게 1.9kg에 충전시간 5시간, 회전식, 2026년 3월 출시 모델이다. 본품 R-R-3sh-SDC-SC2000W, 배터리 XU102916-23004A, 어댑터 HU10933-22005A로 인증번호가 모두 공개돼 있고, 상품평에서 소음이 조용하다는 응답이 88퍼센트였다. 자동 물분사와 LED 라이트, 물걸레 4장이 기본 구성이다. 세 제품 중 값이 가장 높고 무게는 가장 가볍다',
+        tag: '87,120원 · 후기 130건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9740371118&itemId=28957021928&vendorItemId=96274095320',
+      },
+    ],
+  },
   'air-fryer-5l-vs-15l-capacity-power-coating-safety-guide': {
     sectionTitle: '에어프라이어 3종 (5L 가성비 · 5.5L 대기업 · 15L 오븐형)',
     sectionSubtitle: '2026-11-16 쿠팡 가격·상품평·배송 조건 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',

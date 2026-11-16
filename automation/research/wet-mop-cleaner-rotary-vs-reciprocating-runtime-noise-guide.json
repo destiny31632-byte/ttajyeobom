@@ -1,0 +1,238 @@
+{
+  "slug": "wet-mop-cleaner-rotary-vs-reciprocating-runtime-noise-guide",
+  "checkedAt": "2026-11-16",
+  "facts": [
+    {
+      "claim": "한국소비자원은 2019년 7월 8일 무선물걸레청소기 8개 업체의 제품 1개씩을 시험·평가한 비교정보를 공개했다. 대상은 물걸레 전용 스틱형 제품이고, 시험 항목은 안전성, 청소성능, 소음, 배터리내구성, 사용시간, 충전시간, 표시사항이다.",
+      "value": "2019년 7월 8일, 8개 업체 8종, 항목 6개",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1077933",
+      "evidence": "소비자 선호도가 높은 무선물걸레청소기 8개 업체의 1개 제품씩을 대상으로 안전성, 청소성능, 소음, 배터리내구성, 사용시간, 충전시간 등을 시험·평가했다.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "시험 제품 8종 가운데 회전식은 6종(경성오토비스, 신일산업, 오토싱, 카스, 휴스톰, SK매직)이고 왕복식은 2종(청운 사와디캅, 한경희생활과학)이다.",
+      "value": "회전식 6종, 왕복식 2종",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1077933",
+      "evidence": "물걸레 작동 방식 표: 회전식 6개 제품, 왕복식 2개 제품.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "시험 대상 8종의 2019년 1월 온라인 구입가는 111,510원에서 190,530원이었다.",
+      "value": "111,510원, 190,530원, 2019년 1월",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1077933",
+      "evidence": "2019. 1. 온라인 구입가 기준. 최저 111,510원, 최고 190,530원.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "완전 충전 후 연속 사용시간은 제품별로 28분에서 1시간 38분까지 벌어져 최대 3.5배 차이가 났다. 한경희생활과학 SM-2000NV가 1시간 38분으로 가장 길고, 경성오토비스 A5-5000이 28분, 카스 DSR-100이 29분으로 짧았다.",
+      "value": "28분, 1시간 38분, 3.5배, A5-5000 28분, DSR-100 29분, SM-2000NV 1시간 38분",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1077933",
+      "evidence": "사용시간 최대 3.5배(28분~1시간 38분) 차이. 한경희 SM-2000NV 1:38, 경성오토비스 A5-5000 0:28.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "왕복식 2종은 모두 1시간 이상 사용했고, 회전식 6종은 28분에서 44분 사이였다.",
+      "value": "왕복식 1시간 2분과 1시간 38분, 회전식 28분에서 44분",
+      "sourceUrl": "https://www.kca.go.kr/webzine/board/view?div=kca_1908&linkId=76&menuId=MENU00307",
+      "evidence": "왕복식인 한경희 제품이 1시간 38분으로 가장 길었으며 사와디캅 제품이 1시간 2분, 회전식 제품 사용 시간은 28분~44분.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "시험 8종의 2019년 1월 구입가는 경성오토비스 A5-5000 143,040원, 신일산업 SDC-B4000LG 139,190원, 오토싱 OTOCINC-700BA 115,990원, 사와디캅 D260 111,510원, 카스 DSR-100 115,630원, 한경희 SM-2000NV 115,760원, 휴스톰 HS-9500 190,530원, SK매직 VCL-WA10 148,800원이다.",
+      "value": "143,040원, 139,190원, 115,990원, 111,510원, 115,630원, 115,760원, 190,530원, 148,800원",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1077933",
+      "evidence": "시험대상 제품 표의 구입가격 열(2019년 1월 온라인 구입가 기준).",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "제품별 충전시간은 경성오토비스 1시간 31분, 신일산업 2시간 17분, 오토싱 2시간 43분, 사와디캅 2시간 3분, 카스 2시간 17분, 한경희 2시간 48분, 휴스툰 3시간 26분, SK매직 2시간 17분이다.",
+      "value": "1:31, 2:17, 2:43, 2:03, 2:48, 3:26",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1077933",
+      "evidence": "종합결과표 충전시간[시간:분] 열.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "제품별 연속 사용시간은 회전식 A5-5000이 28분, DSR-100이 29분, VCL-WA10이 32분, HS-9500이 33분, SDC-B4000LG가 36분, OTOCINC-700BA가 44분이고, 왕복식 D260이 1시간 2분, SM-2000NV가 1시간 38분이다.",
+      "value": "0:28, 0:29, 0:32, 0:33, 0:36, 0:44, 1:02, 1:38",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1077933",
+      "evidence": "종합결과표 사용시간[시간:분] 열.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "작동 중 평균 소음은 전체 평균 64dB 수준이었고, 신일산업 SDC-B4000LG와 오토싱 OTOCINC-700BA, 카스 DSR-100 등 3개 제품은 60dB 이하로 상대적 우수, 경성오토비스와 휴스톰, SK매직 3개 제품은 64dB에서 66dB로 양호였다.",
+      "value": "평균 64dB, 60dB 이하 3개, 64dB에서 66dB 3개",
+      "sourceUrl": "https://www.kca.go.kr/webzine/board/view?div=kca_1908&linkId=76&menuId=MENU00307",
+      "evidence": "평균 소음은 64dB. 신일산업, 오토싱, 카스 등 3개 제품 소음은 60dB 이하로 우수, 경성오토비스, 휴스톰, SK매직은 64dB~66dB 수준으로 양호.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "왕복식 2개 제품(사와디캅 D260, 한경희 SM-2000NV)은 소음이 69dB 이상으로 다른 제품보다 커 보통 수준으로 평가됐다.",
+      "value": "69dB 이상, 2개 제품",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1077933",
+      "evidence": "물걸레가 왕복식으로 동작하는 사와디캅, 한경희생활과학 등 2개 제품은 상대적으로 소음이 커 보통 수준.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "일반 오염원 청소성능은 전 제품이 우수했다. 수성펜은 물걸레가 11차례 왕복하면 지워졌고, 커피는 두 차례 왕복으로 닦였다.",
+      "value": "수성펜 11차례, 커피 2차례",
+      "sourceUrl": "https://www.kca.go.kr/webzine/board/view?div=kca_1908&linkId=76&menuId=MENU00307",
+      "evidence": "수성펜은 물걸레가 바닥을 11차례 왕복하면 지워졌고, 커피는 단 두 차례 왕복하는 것만으로 청소가 됐다.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "12시간 이상 방치한 계란노른자 같은 찌든 오염은 신일산업, 오토싱, 카스, 휴스톰, SK매직 5개 제품이 평균 18차례 왕복에 닦였고, 경성오토비스, 사와디캅, 한경희생활과학 3개 제품은 22차례 왕복해야 했다.",
+      "value": "12시간, 5개 제품 평균 18차례, 3개 제품 22차례",
+      "sourceUrl": "https://www.kca.go.kr/webzine/board/view?div=kca_1908&linkId=76&menuId=MENU00307",
+      "evidence": "신일산업, 오토싱, 카스, 휴스톰, SK매직 제품은 평균 18차례 왕복하면 바닥이 닦였지만, 경성오토비스, 사와디캅, 한경희생활과학 제품은 22차례 왕복해야 했다.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "충전시간은 1시간 31분에서 3시간 26분까지 최대 2.3배 차이가 났다. 경성오토비스가 1시간 31분으로 가장 짧고 휴스톰이 3시간 26분으로 가장 길다.",
+      "value": "1시간 31분, 3시간 26분, 2.3배",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1077933",
+      "evidence": "충전시간 최대 2.3배(1시간 31분~3시간 26분). 경성오토비스 1시간 31분, 휴스톰 3시간 26분.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "200회 충전과 방전을 반복한 뒤 초기 용량 대비 배터리 유지율은 전 제품이 92퍼센트 이상으로 양호했다.",
+      "value": "200회, 92퍼센트",
+      "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=156340072",
+      "evidence": "200회 충전과 방전을 반복한 후 초기용량 대비 배터리내구성 유지비율을 확인한 결과 전 제품 배터리 용량이 92% 이상.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "1회 충전에 드는 에너지 비용은 최소 5원에서 최대 8원으로 제품 간 차이가 3원에 불과했다.",
+      "value": "5원, 8원, 3원",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1077933",
+      "evidence": "1회 충전 에너지비용은 최소 5원~최대 8원으로 제품 간 최대 3원 차이로 미미한 수준.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "감전보호 등 안전성은 8개 제품 모두 이상이 없었지만, 사와디캅 청운 D260은 내장 배터리 표시사항을 누락해 전기용품안전기준 KC62133에 부적합했다. 해당 업체는 제품을 판매하지 않고 수입원이 시정조치를 마쳤다.",
+      "value": "8개 제품 안전성 이상 없음, KC62133 부적합 1개",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1077933",
+      "evidence": "안전성에는 전 제품 이상이 없었으나 표시사항에서 사와디캅 청운 1개 제품이 내장 배터리 표시사항을 누락해 KC62133에 부적합.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "소모품 교체비는 물걸레가 최소 6,000원에서 최대 12,000원, 배터리가 최소 15,000원에서 최대 50,000원으로 제품별 차이가 있었다.",
+      "value": "물걸레 6,000원~12,000원, 배터리 15,000원~50,000원",
+      "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=156340072",
+      "evidence": "소모품 교체비용은 물걸레는 최소 6,000원에서 최대 1만 2,000원, 배터리는 최소 1만 5,000원에서 최대 5만 원.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "시험 제품의 무게는 2.6kg에서 3.7kg까지 차이가 났다. 왕복식 2종이 2.6kg과 2.7kg으로 가장 가볍고, 회전식은 3.1kg에서 3.7kg이었다.",
+      "value": "2.6kg, 3.7kg, 2.7kg, 3.1kg",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1077933",
+      "evidence": "종합결과표 무게[kg] 열: 2.6, 2.7, 3.1, 3.2, 3.3, 3.7.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "소비자원은 패드를 붙이지 않고 쓰면 물걸레 동작판의 벨크로 때문에 바닥에 흠집이 생길 수 있고, 본체에 물이 들어가지 않게 하고, 가구 틈새에 끼이지 않게 하며, 물걸레는 사용 후 바로 세탁하라고 안내했다.",
+      "value": "주의사항 4가지",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?cntntsId=00000566&infoId=A1077933",
+      "evidence": "패드를 부착하지 않고 사용 시 물걸레 동작판의 부착부(벨크로)로 인해 바닥에 흠집이 생길 수 있으므로 반드시 패드를 부착 후 사용합니다.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "2026년 11월 16일 쿠팡에서 한일 무선 물걸레청소기 듀얼스핀 HCW-30W는 120,000원에서 45퍼센트 내린 64,900원이고 상품평 313건, 평점 4.5, 한 달간 100명 이상 구매 표시가 붙었다. 정격은 7.4V 리튬이온배터리 30W, 배터리는 내장형, 각도조절과 충전·잔량 표시가 지원된다.",
+      "value": "64,900원, 120,000원, 45퍼센트, 313건, 4.5, 100명, 7.4V, 30W",
+      "sourceUrl": "https://www.coupang.com/vp/products/9206998605",
+      "evidence": "한일 무선 물걸레청소기 듀얼스핀 회전 LED 걸레청소기, 화이트, HCW-30W. 64,900원, 상품평 313, 4.5. 정격전압 7.4V 리튬이온배터리 / 30W.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "2026년 11월 16일 쿠팡에서 신일 듀얼스핀 무선 자동 물분사 물걸레청소기 SDC-SC2000WT는 87,120원이고 상품평 130건, 평점 4.5, 한 달간 200명 이상 구매 표시가 붙었다. 무게 1.9kg, 충전시간 5시간, 회전식이며 2026년 3월 출시 모델이다.",
+      "value": "87,120원, 130건, 4.5, 200명, 1.9kg, 5시간, 2026년 3월",
+      "sourceUrl": "https://www.coupang.com/vp/products/9740371118",
+      "evidence": "신일 듀얼스핀 무선 자동 물분사 LED라이트 물걸레 청소기 + 물걸레 4p 세트. 87,120원, 중량 1.9kg, 충전시간 5시간, 청소방법 회전식, 출시년월 2026.03.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "신일 SDC-SC2000WT의 KC 인증은 본품 R-R-3sh-SDC-SC2000W, 배터리 XU102916-23004A, 어댑터 HU10933-22005A이고 제조자는 중국 선전 아이디바오테크놀로지, 수입자는 신성전자다.",
+      "value": "R-R-3sh-SDC-SC2000W, XU102916-23004A, HU10933-22005A",
+      "sourceUrl": "https://www.coupang.com/vp/products/9740371118",
+      "evidence": "본품:R-R-3sh-SDC-SC2000W / 배터리:XU102916-23004A / 어댑터:HU10933-22005A. 제조자 SHENZHEN AIDIBAO TECHNOLOGY CO., LTD/(주)신성전자.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "신일 SDC-SC2000WT 상품평 130건의 항목 평가에서 소음이 생각보다 조용하다는 응답이 88퍼센트, 청소성능이 아주 뛰어나다는 응답이 63퍼센트, 무게가 가볍다는 응답이 63퍼센트였다.",
+      "value": "130건, 88퍼센트, 63퍼센트",
+      "sourceUrl": "https://www.coupang.com/vp/products/9740371118",
+      "evidence": "상품 리뷰 항목별 평가: 청소 성능 아주뛰어나요 63%, 무게 가벼워요 63%, 소음 생각보다조용해요 88%.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "2026년 11월 16일 쿠팡에서 휴스톰 무선 듀얼스핀 물걸레청소기 HS-DS7000은 73,100원이고 상품평 141건, 평점 5다. 상품평 항목 평가에서 청소성능이 아주 뛰어나다는 응답이 84퍼센트, 사용 시간이 아주 길다는 응답이 77퍼센트였다.",
+      "value": "73,100원, 141건, 5, 84퍼센트, 77퍼센트",
+      "sourceUrl": "https://www.coupang.com/vp/products/9616824206",
+      "evidence": "휴스톰 무선 듀얼스핀 물걸레 청소기 HS-DS7000, 73,100원, 상품평 141. 항목별 평가 청소 성능 아주뛰어나요 84%, 사용 시간 아주길어요 77%.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "2026년 11월 16일 쿠팡에서 '왕복식 물걸레 청소기'로 검색한 결과 1페이지 36개 상품에는 왕복식 작동을 표기한 물걸레 전용 제품이 없었고, 회전식 스핀 제품과 진공 겸용, 스팀, 로봇 청소기가 섞여 나왔다. 브랜드 필터에는 사와디캅이 남아 있었다.",
+      "value": "1페이지 36개 상품, 왕복식 0개",
+      "sourceUrl": "https://www.coupang.com/np/search?q=%EC%99%95%EB%B3%B5%EC%8B%9D%20%EB%AC%BC%EA%B1%B8%EB%A0%88%20%EC%B2%AD%EC%86%8C%EA%B8%B0",
+      "evidence": "왕복식 물걸레 청소기 검색 결과 1페이지 상품 목록과 브랜드 필터(한경희생활과학, 신일, 사와디캅 등). 상품명에 왕복식 표기 없음.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "2026년 11월 16일 쿠팡 '무선 물걸레청소기' 랭킹 상위권에서 무선 물걸레 전용 회전식 제품의 가격은 39,870원에서 139,900원 사이에 분포했다.",
+      "value": "39,870원, 139,900원",
+      "sourceUrl": "https://www.coupang.com/np/search?q=%EB%AC%B4%EC%84%A0%20%EB%AC%BC%EA%B1%B8%EB%A0%88%EC%B2%AD%EC%86%8C%EA%B8%B0",
+      "evidence": "쿠팡 랭킹순 상위 상품 가격: 보닉 크린 39,870원, 대웅 42,400원, 한일 64,900원, 이노웰 69,000원, 신일 87,120원, 신일 139,900원 등.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "2026년 11월 16일 쿠팡에서 물걸레 패드 소모품은 브랜드 전용 4개들이 15,300원, 전기종 호환 극세사 걸레 22cm 4개 9,640원에 판매되고 있었다.",
+      "value": "15,300원, 9,640원",
+      "sourceUrl": "https://www.coupang.com/np/search?q=%EB%AC%BC%EA%B1%B8%EB%A0%88%ED%8C%A8%EB%93%9C",
+      "evidence": "휴스톰 전용 쓸고 닦고 청소기 패드 4개 15,300원, 물걸레청소기 전기종 호환 극세사 걸레 22cm 4개 9,640원.",
+      "asOf": "2026-11-16"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "사용시간 배율 (1시간 38분 나누기 28분)",
+      "formula": "98분 나누기 28분은 3.5배",
+      "assumptions": "소비자원 시험의 최장 SM-2000NV 1시간 38분, 최단 A5-5000 28분 기준",
+      "values": [98, 28, 3.5]
+    },
+    {
+      "table": "소음 차이 (69dB 이상과 60dB 이하)",
+      "formula": "69dB 빼기 60dB는 9dB",
+      "assumptions": "왕복식 2종은 69dB 이상, 회전식 3종은 60dB 이하로 평가된 등급 경계값",
+      "values": [69, 60, 9]
+    },
+    {
+      "table": "충전시간 배율 (3시간 26분 나누기 1시간 31분)",
+      "formula": "206분 나누기 91분은 2.26배로 반올림해 2.3배",
+      "assumptions": "휴스톰 3시간 26분, 경성오토비스 1시간 31분 기준",
+      "values": [206, 91, 2.26, 2.3]
+    },
+    {
+      "table": "매일 충전할 때 1년 에너지 비용",
+      "formula": "5원 곱하기 365회는 1,825원, 8원 곱하기 365회는 2,920원",
+      "assumptions": "소비자원 시험의 1회 충전 비용 최소 5원, 최대 8원, 하루 1회 충전",
+      "values": [365, 1825, 2920]
+    },
+    {
+      "table": "찌든 오염 제거 왕복 횟수 차이",
+      "formula": "22차례 빼기 18차례는 4차례",
+      "assumptions": "계란노른자를 12시간 이상 방치한 뒤 닦은 시험",
+      "values": [22, 18, 4]
+    },
+    {
+      "table": "무게 차이",
+      "formula": "3.7kg 빼기 2.6kg은 1.1kg",
+      "assumptions": "시험 제품 8종 무게 범위",
+      "values": [3.7, 2.6, 1.1]
+    }
+  ],
+  "watch": [
+    "쿠팡 판매가와 쿠폰, 상품평 수는 매일 바뀐다",
+    "소비자원 시험은 2019년 모델이라 현재 판매 제품과 모델명이 다르다",
+    "왕복식 신품 재고 여부는 판매 시점마다 달라진다"
+  ]
+}
