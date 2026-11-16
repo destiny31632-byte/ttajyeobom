@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'goose-down-padding-24-products-geese-down-ratio-guide': {
+    sectionTitle: '구스다운 패딩 3종 (경량 이너 · 한겨울 숏 · 중헤비)',
+    sectionSubtitle: '2026-11-17 쿠팡 가격·상품평 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '후기·판매 1위 🥇',
+        productName: '내셔널지오그래픽 경량 패딩 남녀공용 헤론 구스 다운 25FW 신상 + 양말증정',
+        specSummary: '확인일 기준 300,000원에서 57퍼센트 내린 129,000원이고 상품평 129건, 최고 평가 비율 89퍼센트다. 판매자는 트리슈마켓(평가 94퍼센트, 47건)이고 무료배송에 11월 21일 도착 예정이다. 사이즈는 정사이즈라는 응답이 88퍼센트다. 다만 경량 이너로 나온 제품이라 한겨울 야외 단독 착용에는 부족하다는 후기가 섞여 있고, 상품정보 고시의 소재는 상세정보 별도표기로 되어 있어 거위털 비율은 판매자 문의로 확인해야 한다',
+        tag: '129,000원 · 후기 129건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9749172394&itemId=29190919551&vendorItemId=93629376055',
+      },
+      {
+        rank: 2,
+        rankBadge: '한겨울 아우터 2위 🥈',
+        productName: '뉴발란스 남녀공용 UNI 뉴보이 구스다운 숏 퍼퍼 패딩점퍼',
+        specSummary: '확인일 기준 379,000원에서 59퍼센트 내린 153,590원이고 상품평 116건, 만족 응답 87명이다. 쿠팡 로켓배송으로 11월 18일 도착이 보장되고 무료배송·무료반품이 붙는다. 상품정보 고시 충전재 칸에 구스다운(거위솜털함량 75퍼센트 이상)이 적혀 있어 세 제품 중 충전재 표기가 가장 분명하다. 90~95를 입는 사람이 S, 95가 M에 맞는다는 후기가 있고, 봉제선 부위에서 털이 빠진다는 후기도 일부 있다',
+        tag: '153,590원 · 후기 116건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7939812973&itemId=21865339374&vendorItemId=88913527215',
+      },
+      {
+        rank: 3,
+        rankBadge: '중헤비 3위 🥉',
+        productName: '밀레 남성 거위털 중헤비 구스다운 패딩 자켓 삼프로',
+        specSummary: '확인일 기준 159,620원이고 상품평 32건에 최고 평가 88퍼센트다. 판매자는 브랜딧(평가 85퍼센트, 61건)이고 무료배송에 11월 19일 도착 예정이다. 세 제품 중 가장 두꺼운 편이라 한겨울 출퇴근용에 맞고, 163~180cm 후기에서 정사이즈 또는 여유 있다는 반응이 갈린다. 다만 상품정보 고시의 제품 소재가 상세페이지 참조로 비어 있어 거위털 비율과 솜털 비율은 판매자 문의로 확인해야 하고, 도서산간은 배송이 되지 않는다',
+        tag: '159,620원 · 후기 32건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7458987011&itemId=19437353237&vendorItemId=95955593070',
+      },
+    ],
+  },
   'wireless-earbuds-price-anc-battery-call-quality-guide': {
     sectionTitle: '무선이어폰 3종 (소비자원 시험 통과 · 4만원대부터)',
     sectionSubtitle: '2026-11-16 쿠팡 가격·상품평·KC 표기 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
