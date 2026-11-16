@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'wireless-earbuds-price-anc-battery-call-quality-guide': {
+    sectionTitle: '무선이어폰 3종 (소비자원 시험 통과 · 4만원대부터)',
+    sectionSubtitle: '2026-11-16 쿠팡 가격·상품평·KC 표기 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '후기·판매 1위 🥇',
+        productName: 'QCY 멜로버즈 프로 플러스 블루투스 이어폰 QCY HT08 Hi-Res 블랙 8.5시간 액티브노이즈캔슬링(ANC)',
+        specSummary: '확인일 기준 143,780원에서 69퍼센트 내린 43,900원이고 상품평 5,693건, 평점 4.5, 한 달간 1,000명 이상 구매 표시가 붙었다. 소비자원 시험에 같은 모델(HT08 MeloBuds Pro)이 들어가 음향품질 우수, 외부소음 제거 양호, 연속 재생 7시간 10분, 무게 4.4g을 받았다. KC 인증은 본품 R-R-yl1-HT08ANCAPP, 크래들 XU101546-24053-1, 이어버드 XU101546-24051-1과 XU101546-24052-1로 공개돼 있다. 다만 시험에서 노이즈캔슬링을 켜면 재생이 5시간으로 줄었고 방수 등급 표기는 상세페이지에서 확인해야 한다',
+        tag: '43,900원 · 후기 5,693건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8670889752&itemId=25171009362&vendorItemId=91389574628',
+      },
+      {
+        rank: 2,
+        rankBadge: '최저가 시험 통과 🥈',
+        productName: '브리츠 노이즈캔슬링 무선 블루투스 v5.3 이어폰 AcousticANC7 블랙',
+        specSummary: '확인일 기준 69,900원에서 와우할인 52퍼센트를 적용해 32,930원이고 상품평 147건, 평점 4.5다. 소비자원 시험에서 음향품질 우수와 조용한 환경 통화품질 우수를 함께 받았고, 연속 재생 6시간 10분, 무게 4.3g이었다. 2024년 10월 출시 모델로 최대 23시간 표기와 방수를 내세우며, KC 인증은 본품 R-R-BZI-AcousticANC7, 전지 YU101097-24003, 케이스 XU100702-24099다. 세 제품 중 가장 싸지만 상품평이 147건으로 얇고, 시험에서 노이즈캔슬링을 켜면 재생이 4시간 40분으로 줄었다',
+        tag: '32,930원 · 후기 147건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8563858640&itemId=24803423835&vendorItemId=91811102751',
+      },
+      {
+        rank: 3,
+        rankBadge: '통화·배터리 3위 🥉',
+        productName: 'LG전자 블루투스 이어폰 xboom Buds 블랙',
+        specSummary: '확인일 기준 149,000원에서 19퍼센트 내린 120,000원이고 상품평 77건, 평점 4.5다. 소비자원 시험에서 음향품질 우수, 시끄러운 환경(버스와 기차) 통화품질 우수, 연속 재생 11시간 10분, 노이즈캔슬링을 켠 상태 7시간 50분, 무게 5.3g을 받아 세 제품 중 배터리가 가장 길다. KC 인증은 본품 R-C-LGE-BUDS, 이어버드 배터리 YU10298-23001이다. 다만 상품평 77건으로 검증이 가장 얇고, 아이폰에서 연결이 끊겼다는 후기가 일부 있어 OS별 호환은 상품문의로 확인하는 편이 낫다',
+        tag: '120,000원 · 후기 77건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9595431829&itemId=28644412891&vendorItemId=95587048205',
+      },
+    ],
+  },
   'wet-mop-cleaner-rotary-vs-reciprocating-runtime-noise-guide': {
     sectionTitle: '무선 물걸레청소기 3종 (가성비 · 만족도 · 스펙 공개)',
     sectionSubtitle: '2026-11-16 쿠팡 가격·상품평·KC 표기 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',

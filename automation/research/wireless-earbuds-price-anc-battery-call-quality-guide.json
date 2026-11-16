@@ -1,0 +1,260 @@
+{
+  "slug": "wireless-earbuds-price-anc-battery-call-quality-guide",
+  "checkedAt": "2026-11-16",
+  "facts": [
+    {
+      "claim": "한국소비자원은 비교공감 제2025-12호로 무선이어폰 10개 제품의 음향품질, 외부소음 제거(ANC) 성능, 통화품질, 연속 재생시간, 지연시간 등 품질과 최대음량, 정전기내성 등 안전성을 시험평가했다.",
+      "value": "비교공감 제2025-12호, 10개 제품",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "한국소비자원(원장 윤수현)이 시중에 유통 중인 무선이어폰 10개 제품의 품질(음향품질, 외부소음 제거 성능, 통화품질, 연속 재생시간, 지연시간 등)과 안전성(최대음량, 정전기내성) 등을 시험평가했다.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "시험 대상은 소비자 보유율이 높고 커널형이면서 ANC 기능이 있는 10개 브랜드 10개 제품으로, 최근 2년 이내 무선이어폰을 구입한 소비자 1,000명 설문(2025년 1월)을 바탕으로 골랐다. 고가형 5종과 중저가형 5종이다.",
+      "value": "10개 브랜드, 소비자 1,000명, 2025년 1월, 고가형 5종과 중저가형 5종",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "최근 2년 이내에 무선이어폰을 구입 및 사용한 경험이 있는 소비자 1,000명 대상(한국소비자원, 2025.01.) 설문 결과를 바탕으로 10개 브랜드, 10개 제품 선정.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "시험 제품의 구입가격은 24,800원에서 359,000원으로 제품 간 최대 14.5배 차이가 났다. 가장 저렴한 것은 샤오미 Redmi Buds 6 Lite 24,800원, 가장 비싼 것은 JBL TOUR PRO 3 359,000원이다. 가격은 2025년 2월 온·오프라인 구입가 기준이다.",
+      "value": "24,800원, 359,000원, 14.5배, 2025년 2월",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "가격은 24,800원~359,000원 범위로 제품 간 최대 14.5배 차이나. 샤오미(Redmi Buds 6 Lite) 제품이 24,800원으로 가장 저렴했고, JBL(TOUR PRO 3) 제품이 359,000원으로 가장 비쌌다.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "시험 제품 10종의 구입가는 샤오미 Redmi Buds 6 Lite 24,800원, QCY HT08 MeloBuds Pro 41,500원, 아이리버 IB-TWA9 42,210원, 브리츠 AcousticANC7 69,900원, LG전자 xboom Buds 149,000원, 삼성전자 Galaxy Buds3 Pro 249,000원, 보스 QC Ultra Earbuds 299,000원, 소니 WF-1000XM5 309,000원, 애플 AirPods Pro 2세대 349,000원, JBL TOUR PRO 3 359,000원이다.",
+      "value": "24,800원, 41,500원, 42,210원, 69,900원, 149,000원, 249,000원, 299,000원, 309,000원, 349,000원, 359,000원, 35만원대, 24만원대",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "무선이어폰 시험대상 제품 표의 구입가격 열(2025년 2월 온·오프라인 구입가 기준)과 종합결과표 구입가격 열.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "음향품질(원음재생 성능)은 10개 중 8개 제품이 상대적으로 우수했다. 고가형 5개와 중저가형 3개(브리츠, LG전자, QCY)가 우수했고, 샤오미 Redmi Buds 6 Lite는 양호, 아이리버 IB-TWA9는 보통이었다.",
+      "value": "10개 중 8개 우수, 중저가형 3개 우수, 샤오미 양호, 아이리버 보통",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "원음을 왜곡하지 않고 재생하는지를 나타내는 음향품질을 평가한 결과, 8개 제품이 상대적으로 우수했다. 고가형 5개 제품과 중저가형 3개 제품은 음의 왜곡이 적어 상대적으로 우수했다.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "외부소음 제거(ANC) 성능은 최소 14dB에서 최대 22dB 범위로 소음을 줄여 제품 간 차이가 있었고, 고가형 5개 제품은 모두 18dB 이상 감소로 우수, 중저가형 4개 제품은 양호, 아이리버 IB-TWA9는 보통이었다.",
+      "value": "14dB, 22dB, 18dB 이상, 고가형 5개 우수, 중저가형 4개 양호",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "ANC 기능을 최대치로 설정한 상태에서 외부소음 제거 성능을 평가한 결과, 최소 14㏈에서 최대 22㏈ 범위 수준으로 소음을 감소시켰고 5개 제품이 상대적으로 우수했다. 고가형 5개 제품 모두 18㏈ 이상의 소음을 감소시켜 상대적으로 우수했다.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "통화품질은 조용한 환경에서 5개 제품(삼성전자, 소니, 애플, 브리츠, 샤오미)이 상대적으로 우수했고, 시끄러운 환경(버스, 기차)에서는 3개 제품(삼성전자, 애플, LG전자)이 우수했다. 두 환경 모두에서 우수한 제품은 삼성전자와 애플 2종이다.",
+      "value": "조용한 환경 5개, 시끄러운 환경 3개, 삼성전자와 애플 2종",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "조용한 환경에서 5개 제품, 시끄러운 환경에서 3개 제품이 상대적으로 우수했다. 조용한 환경에서는 고가형 3개 제품, 중저가형 2개 제품(브리츠, 샤오미)의 통화품질이 상대적으로 우수했다. 시끄러운 환경조건에서는 고가형 2개 제품(삼성전자, 애플), 중저가형은 LG전자 제품의 통화품질이 상대적으로 우수했다.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "연속 재생시간은 4시간 50분에서 15시간 10분까지 제품 간 최대 3.1배 차이가 났다. ANC를 끈 상태에서는 소니 WF-1000XM5가 15시간 10분으로 가장 길고 아이리버 IB-TWA9가 4시간 50분으로 가장 짧았다. ANC를 켠 상태에서는 JBL TOUR PRO 3가 9시간 10분으로 가장 길었다.",
+      "value": "4시간 50분, 15시간 10분, 3.1배, 소니 15시간 10분, 아이리버 4시간 50분, JBL 9시간 10분",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "배터리를 완전히 충전시킨 후 일정한 크기(75dB)의 소리로 연속 재생되는 시간은 4시간 50분~15시간 10분 범위 수준으로 제품 간에 최대 3.1배 차이가 있었다. 외부소음차단 기능을 동작시키지 않은 상태에서는 소니(WF-1000XM5) 제품이 15시간 10분으로 가장 길었고, 아이리버(IB-TWA9) 제품이 4시간 50분으로 가장 짧았다. 외부소음차단 기능을 동작시킨 상태에서는 JBL(TOUR PRO 3) 제품이 9시간 10분으로 가장 길었다.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "제품별 연속 재생시간은 ANC를 끈 상태와 켠 상태 순서로 보스 6시간 30분과 6시간 30분, 삼성전자 7시간 20분과 6시간 30분, 소니 15시간 10분과 7시간 50분, 애플 9시간과 5시간 50분, JBL 11시간 40분과 9시간 10분, 브리츠 6시간 10분과 4시간 40분, 샤오미 7시간과 4시간 40분, 아이리버 4시간 50분과 3시간 20분, LG전자 11시간 10분과 7시간 50분, QCY 7시간 10분과 5시간이다.",
+      "value": "보스 6시간 30분, 삼성 7시간 20분과 6시간 30분, 소니 15시간 10분과 7시간 50분, 애플 9시간과 5시간 50분, JBL 11시간 40분과 9시간 10분, 브리츠 6시간 10분과 4시간 40분, 샤오미 7시간과 4시간 40분, 아이리버 4시간 50분과 3시간 20분, LG 11시간 10분과 7시간 50분, QCY 7시간 10분과 5시간",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "종합결과표 연속재생시간(기본, ANC ON) 열: 보스 6:30/6:30, 삼성전자 7:20/6:30, 소니 15:10/7:50, 애플 9:00/5:50, JBL 11:40/9:10, 브리츠 6:10/4:40, 샤오미 7:00/4:40, 아이리버 4:50/3:20, LG전자 11:10/7:50, QCY 7:10/5:00.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "스마트폰 영상과 음향 간 지연시간은 최소 0.19초에서 최대 0.38초 범위였다. 6개 제품은 게임모드나 비디오모드 같은 지연시간 특화 모드에서 지연시간이 최대 74퍼센트 줄어 0.38초에서 0.10초가 됐다.",
+      "value": "0.19초, 0.38초, 최대 74퍼센트, 0.10초, 6개 제품",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "스마트폰 영상과 이어폰 음향 간의 지연시간은 최소 0.19초에서 최대 0.38초 범위 내로 제품 간에 차이가 있었다. 6개 제품은 지연시간 특화 모드 설정 시 지연시간이 최대 74%(0.38초→0.10초) 감소하였다.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "최대음량 시험에서 아이리버 IB-TWA9 제품은 유럽연합 안전기준인 100dBA 이하를 초과해 주의가 필요했다. 국내에는 관련 기준이 없다. 정전기내성과 인증번호 등 법정표시사항은 전 제품이 기준에 적합했다.",
+      "value": "100dBA, 아이리버 IB-TWA9 초과, 국내 기준 없음, 전 제품 표시사항 적합",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "아이리버(IB-TWA9) 제품은 유럽연합 안전기준(100dBA 이하)을 초과해 주의가 필요했다. 국내에는 관련 기준 없음. 정전기내성 등의 안전성 항목과 인증번호 등 법정표시사항은 전 제품이 관련 기준에 적합했다.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "이어폰 무게는 4.1g에서 7.1g 범위였고 가장 가벼운 것은 아이리버 IB-TWA9 4.1g, 가장 무거운 것은 보스 QC Ultra Earbuds 7.1g이었다. 삼성전자와 애플은 5.4g, LG전자 5.3g, JBL 5.6g, 소니 5.8g, QCY 4.4g, 브리츠 4.3g이다.",
+      "value": "4.1g, 7.1g, 아이리버 4.1g, 보스 7.1g, 삼성 5.4g, 애플 5.4g, LG 5.3g, JBL 5.6g, 소니 5.8g, QCY 4.4g, 브리츠 4.3g",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "이어폰 무게는 제품별로 4.1g~7.1g 범위 내에서 차이가 있었으며, 아이리버(IB-TWA9) 제품이 4.1g으로 가장 가벼웠고, 보스(QC Ultra Earbuds) 제품이 7.1g으로 가장 무거웠다.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "시험은 음향품질을 KS C IEC 60268-1과 60268-7, 연속 재생시간을 KS C 5500, 최대음량을 KS C IEC 62368-1, 전자파를 국립전파연구원 고시 제2023-13호에 준해 측정했다. 연속 재생시간은 75dBA 소리로 측정했다.",
+      "value": "KS C IEC 60268-1, KS C IEC 60268-7, KS C 5500, KS C IEC 62368-1, 고시 제2023-13호, 75dBA",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "시험방법: KS C IEC 60268-1, KS C IEC 60268-7, KS C 5500, KS C IEC 62368-1, 국립전파연구원 고시 제2023-13호. 연속 재생시간은 일정한 크기(75dB)의 소리로 측정.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "소비자원은 ANC 성능이 과도하면 도로보행이나 자전거 주행 때 경적 같은 주변 소리를 못 들어 안전사고가 날 수 있다고 주의를 당부했다.",
+      "value": "도로보행, 자전거 주행, 경적음, 안전사고 주의",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "도로보행, 자전거 주행 등 주변의 다른 소리(경적음 등)도 들어야 하는 환경조건에서 외부소음이 과도하게 차단되면, 안전사고가 발생할 수 있어 주의가 필요함.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "무선이어폰 10개 제품 비교정보는 2025년 7월 7일 정책브리핑 부처 브리핑으로도 공개됐다.",
+      "value": "2025년 7월 7일, 정책브리핑",
+      "sourceUrl": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156721628",
+      "evidence": "무선이어폰 10개 제품 비교정보 제공 - 부처 브리핑, 2025-07-07, 백승일 한국소비자원 디지털정보통신 팀장.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "2026년 11월 16일 쿠팡에서 QCY 멜로버즈 프로 플러스 HT08은 143,780원에서 69퍼센트 내린 43,900원이고, 상품평 5,693건에 평점 4.5, 한 달간 1,000명 이상 구매 표시가 붙었다.",
+      "value": "43,900원, 143,780원, 69퍼센트, 상품평 5,693건, 평점 4.5, 한 달간 1,000명 이상",
+      "sourceUrl": "https://www.coupang.com/vp/products/8670889752",
+      "evidence": "상품 페이지: 69% 143,780원 43,900원, 한 달간 1,000명 이상 구매했어요, 상품평 5,693건 평점 4.5.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "QCY HT08의 KC 인증정보는 본품 R-R-yl1-HT08ANCAPP, 크래들 XU101546-24053-1, 이어버드 XU101546-24051-1과 XU101546-24052-1로 표기돼 있다.",
+      "value": "R-R-yl1-HT08ANCAPP, XU101546-24053-1, XU101546-24051-1, XU101546-24052-1",
+      "sourceUrl": "https://www.coupang.com/vp/products/8670889752",
+      "evidence": "KC 인증정보: 본품 R-R-yl1-HT08ANCAPP, 크래들 XU101546-24053-1, 이어버드 XU101546-24051-1, XU101546-24052-1.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "2026년 11월 16일 쿠팡에서 브리츠 AcousticANC7 블랙은 정가 69,900원에서 와우할인 52퍼센트를 적용해 32,930원이고, 상품평 147건에 평점 4.5다.",
+      "value": "32,930원, 69,900원, 52퍼센트, 상품평 147건, 평점 4.5",
+      "sourceUrl": "https://www.coupang.com/vp/products/8563858640",
+      "evidence": "상품 페이지: 69,900원 52% 32,930원, 상품평 147건 평점 4.5, 무료배송 무료반품 내일 도착 보장.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "브리츠 AcousticANC7의 KC 인증정보는 본품 R-R-BZI-AcousticANC7, 전지 YU101097-24003, 케이스 XU100702-24099이고, 출시년월은 2024년 10월, 제조국은 중국, 최대 23시간 재생과 방수를 표기한다.",
+      "value": "R-R-BZI-AcousticANC7, YU101097-24003, XU100702-24099, 2024년 10월, 중국, 23시간",
+      "sourceUrl": "https://www.coupang.com/vp/products/8563858640",
+      "evidence": "KC 인증정보: 본품 R-R-BZI-AcousticANC7, 전지 YU101097-24003, 케이스 XU100702-24099. 출시년월 2024년 10월, 제조국 중국. 상품명에 최대 23시간, 방수 표기.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "2026년 11월 16일 쿠팡에서 LG전자 xboom Buds 블랙은 정가 149,000원에서 19퍼센트 내린 120,000원이고, 상품평 77건에 평점 4.5다.",
+      "value": "120,000원, 149,000원, 19퍼센트, 상품평 77건, 평점 4.5",
+      "sourceUrl": "https://www.coupang.com/vp/products/9595431829",
+      "evidence": "상품 페이지: 149,000원 19% 120,000원, 상품평 77건 평점 4.5, 무료배송 무료반품 내일 도착 보장.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "LG전자 xboom Buds의 KC 인증정보는 본품 R-C-LGE-BUDS, 이어버드 배터리 YU10298-23001로 표기돼 있고 제조국은 중국이다.",
+      "value": "R-C-LGE-BUDS, YU10298-23001, 중국",
+      "sourceUrl": "https://www.coupang.com/vp/products/9595431829",
+      "evidence": "KC 인증정보: 본품 R-C-LGE-BUDS, 이어버드 배터리 YU10298-23001. 제조국 중국.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "소비자원 시험에서 ANC를 켠 상태의 재생시간은 3시간 20분에서 9시간 10분까지 5시간 50분 차이가 났다. 아이리버가 3시간 20분으로 가장 짧고 JBL이 9시간 10분으로 가장 길다.",
+      "value": "3시간 20분, 9시간 10분, 5시간 50분",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "종합결과표 ANC ON 열 최소 아이리버 3:20, 최대 JBL 9:10.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "소비자원 시험을 만든 방식은 소비자 설문으로 브랜드를 고른 뒤 제품을 사서 시험하는 것이고, 평가는 산업표준과 확인시험, 전문위원회 심의를 거쳐 이뤄졌다.",
+      "value": "소비자 설문, 제품 구입, 산업표준, 전문위원회",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "소비자 설문조사 결과를 바탕으로 관련 기준(한국산업표준(KS), 전자파적합성기준 등) 등을 참고하여 전문위원회 심의를 거쳐 선정.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "이어폰 배터리는 리튬이온 계열이라 기온이 낮으면 출력이 떨어지고, 소비자원 시험의 재생시간도 상온 조건에서 잰 값이다. 겨울 야외에서 쓰면 표기 시간보다 짧게 느껴질 수 있다.",
+      "value": "리튬이온, 저온, 상온 조건",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "연속 재생시간은 일정 조건(75dBA)에서 측정한 값이며 사용 조건(소리크기, 배터리 상태, 사용 코덱 등)에 따라 달라질 수 있음.",
+      "asOf": "2026-11-16"
+    }
+  ],
+  "calculations": [
+    {
+      "claim": "가격 14.5배는 359,000원을 24,800원으로 나눈 값이다.",
+      "value": "359,000 / 24,800 = 14.48",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "24,800원과 359,000원의 비율 계산.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "재생시간 3.1배는 15시간 10분(910분)을 4시간 50분(290분)으로 나눈 값이다.",
+      "value": "910 / 290 = 3.14",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "15시간 10분과 4시간 50분의 비율 계산.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "ANC 소음 감소 폭은 14dB에서 22dB로 8dB 차이다. 데시벨은 로그 단위라 8dB 차이는 숫자 차이보다 크게 들린다.",
+      "value": "22 - 14 = 8dB",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "최소 14dB, 최대 22dB 범위에서 데시벨 차이를 계산.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "지연시간 74퍼센트 감소는 0.38초에서 0.10초로 줄어든 값이다.",
+      "value": "(0.38 - 0.10) / 0.38 = 73.7퍼센트",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "0.38초와 0.10초의 감소율 계산.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "하루 두 시간씩 ANC를 켜고 듣는다면 3시간 20분짜리는 매일 충전해야 하고 9시간 10분짜리는 나흘에 한 번 충전하면 된다.",
+      "value": "120분 / 200분 = 0.6회, 120분 / 550분 = 0.22회",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "하루 2시간 사용 가정에서 ANC ON 재생시간으로 충전 주기를 계산.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "시험 제품 10종의 ANC를 켠 재생시간 평균은 6시간 8분이다.",
+      "value": "(390+390+470+350+550+280+280+200+470+300)/10 = 368분 = 6시간 8분",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "ANC ON 재생시간 10개 값의 평균 계산.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "ANC를 켜면 재생시간이 줄어드는 비율은 제품별로 0퍼센트에서 48퍼센트까지 차이가 난다. 보스는 6시간 30분에서 6시간 30분으로 줄지 않았고, 소니는 15시간 10분에서 7시간 50분으로 48퍼센트 줄었다.",
+      "value": "보스 0퍼센트, 삼성 11퍼센트, JBL 22퍼센트, 브리츠 24퍼센트, LG 30퍼센트, QCY 30퍼센트, 아이리버 31퍼센트, 샤오미 33퍼센트, 애플 35퍼센트, 소니 48퍼센트",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "종합결과표의 기본 재생시간과 ANC ON 재생시간을 비교해 감소율을 계산.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "데시벨은 로그 단위라 3dB 증가가 음향 에너지 두 배에 해당한다. 따라서 8dB 차이는 에너지 기준으로 6배가 넘는 차이다.",
+      "value": "3dB = 2배, 8dB = 10의 0.8승 = 6.3배",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "데시벨 정의(10log10)에 따른 환산.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "시험 가격표에서 41,500원 QCY와 359,000원 JBL의 차이는 8.7배다.",
+      "value": "359,000 / 41,500 = 8.65",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "41,500원과 359,000원의 비율 계산.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "이어폰 무게 최소 4.1g과 최대 7.1g의 차이는 3g이다.",
+      "value": "7.1 - 4.1 = 3.0g",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "무게 최소와 최대의 차이 계산.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "QCY HT08의 상품평 5,693건은 브리츠 AcousticANC7의 147건보다 38배 많다.",
+      "value": "5,693 / 147 = 38.7",
+      "sourceUrl": "https://www.coupang.com/vp/products/8670889752",
+      "evidence": "두 상품 페이지의 상품평 수 비교.",
+      "asOf": "2026-11-16"
+    },
+    {
+      "claim": "15시간 10분은 910분, 4시간 50분은 290분이다. 3.1배 차이를 분 단위로 계산한 기준값이다.",
+      "value": "15시간 10분 = 910분, 4시간 50분 = 290분, 910분 / 290분 = 3.14",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
+      "evidence": "연속 재생시간 최대·최소를 분으로 환산.",
+      "asOf": "2026-11-16"
+    }
+  ]
+}
