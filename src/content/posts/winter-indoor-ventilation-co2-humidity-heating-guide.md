@@ -30,7 +30,7 @@ summary:
   - "가습기 연간 전기요금은 한국소비자원 시험에서 초음파식 4,640–6,420원, 가열식 72,750–91,070원으로 15배 이상 차이 났다. 대신 가열식은 99℃ 증기로 화상 위험이 있다."
 volatility: medium
 ymyl: low
-reviewBy: 2026-11-16
+reviewBy: 2027-02-14
 sources:
   - title: "실내공기질 유지기준(실내공기질 관리법 시행규칙 별표 2)"
     url: "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?ccfNo=4&cciNo=1&cnpClsNo=2&csmSeq=1827"
