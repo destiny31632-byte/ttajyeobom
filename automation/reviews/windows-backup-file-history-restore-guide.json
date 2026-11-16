@@ -1,8 +1,8 @@
 {
   "approved": true,
   "factsVerified": true,
-  "reviewer": "Codex: official-source comparison",
-  "checkedAt": "2026-11-10T12:30:00+09:00",
+  "reviewer": "피클 자동화(정기 발행 루틴)",
+  "checkedAt": "2026-11-17T08:13:00+09:00",
   "contentSha256": "882040363c2af249ff66a926b7390606d5729121351e0a27cdac4523357731a6",
   "researchSha256": "2a8f66d602b6b12bf974c3ead37de9af52ed3af3fb02e8de9e3e77077bcdbfa9",
   "method": "Reviewed full draft against seven current official documents; corrected unsupported USB capacity, storage and restore scope, deletion warnings, and wording. Retained successful independent preview review as prior evidence, not as approval of later edits.",
