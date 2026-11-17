@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'christmas-tree-150cm-180cm-price-composition-kc-certification-guide': {
+    sectionTitle: '크리스마스트리 3종 (1.6m 만족도 · 1.3m 인증표기 · 180cm 대형)',
+    sectionSubtitle: '2026-11-17 쿠팡 가격·구성·인증 표기 기준(할인·쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '후기 1만건 1위 🥇',
+        productName: '하우쎈스 크리스마스트리 풀세트, 샴페인와인, 1.6m',
+        specSummary: '확인일 기준 65,900원에서 27퍼센트 내린 48,050원이고 상품평 10,951건이다. 상품정보 구성품은 26종, 조명과 전구가 모두 포함이다. 판매자는 쿠팡(지인데코 제조, 중국)이고 로켓배송으로 11월 18일 도착이 보장되며 무료배송·무료반품이 붙는다. 다만 인증·허가 사항이 해당없음으로만 적혀 있어 전구와 어댑터의 KC 인증번호는 판매자 문의로 확인해야 하고, 경량 트리라 가지를 충분히 펼쳐야 볼륨이 산다',
+        tag: '48,050원 · 후기 10,951건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6761140003&itemId=15845481846&vendorItemId=83056394674',
+      },
+      {
+        rank: 2,
+        rankBadge: '인증번호 공개 2위 🥈',
+        productName: '아웃팅 크리스마스 트리 풀세트, 벨벳 버건디, 1.3m',
+        specSummary: '확인일 기준 59,900원에서 쿠폰할인 4,390원을 적용해 39,510원이고 상품평 5,559건, 한 달간 100명 이상이 구매했다. 구성품은 19종에 조명·전구 포함이고 상품정보 고시에 어댑터 SU10733-21001(전기용품 안전인증)과 조명기구 R-R-ao1-LED100(방송통신기자재 적합성)이 적혀 있어 세 제품 중 인증 표기가 가장 분명하다. 리뷰 만족도는 최고 74퍼센트, 좋음 14퍼센트다. 다만 오너먼트 마감이 부실하고 흰 가루와 잎이 떨어진다는 후기, 전구 커버 수량이 부족하다는 후기가 있어 도착 후 구성품을 세어 보는 편이 낫다',
+        tag: '39,510원 · 후기 5,559건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=2044348611&itemId=15738380264&vendorItemId=71465602175',
+      },
+      {
+        rank: 3,
+        rankBadge: '180cm 대형 3위 🥉',
+        productName: '조아트 크리스마스 트리 볼륨빵빵 세트, 그레이, 180cm',
+        specSummary: '확인일 기준 129,000원에서 쿠폰할인 5,000원을 적용해 94,900원이고 상품평 407건, 한 달간 400명 이상이 구매했다. 180cm에 전구가 포함되고 150cm 구성 후기에는 USB 지네전구 600구와 LED 탑별 15cm, 지름 75cm 스노우 트리스커트, 2단 분리 철제다리가 들어 있었다. 리모컨으로 점멸 모드와 밝기를 바꿀 수 있고 리뷰 만족도는 최고 86퍼센트다. 다만 인증·허가 사항이 해당없음으로 적혀 있고 가지를 펼 때 잎이 떨어지며, 180cm라 설치 공간과 보관 공간을 미리 확보해야 한다',
+        tag: '94,900원 · 후기 407건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9668694043&itemId=28914056472&vendorItemId=96014350712',
+      },
+    ],
+  },
   'goose-down-padding-24-products-geese-down-ratio-guide': {
     sectionTitle: '구스다운 패딩 3종 (경량 이너 · 한겨울 숏 · 중헤비)',
     sectionSubtitle: '2026-11-17 쿠팡 가격·상품평 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
