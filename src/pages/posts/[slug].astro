@@ -15,6 +15,7 @@ import ArticleTopAd from '../../components/ads/ArticleTopAd.astro';
 import ArticleBottomAd from '../../components/ads/ArticleBottomAd.astro';
 import SidebarAd from '../../components/ads/SidebarAd.astro';
 import { AUTHORS, getCategory } from '../../config/taxonomy';
+import { getOwnAffiliateRanking } from '../../lib/affiliate';
 import { formatDateKo, isoKst, ymdKst } from '../../lib/format';
 import {
   categoryUrl,
@@ -51,6 +52,7 @@ const crumbs = [
   { name: category.name, href: categoryUrl(d.category) },
   { name: d.title, href: postUrl(post) },
 ];
+const ownRanking = getOwnAffiliateRanking(post.id);
 const related = await getRelatedPosts(post, 4);
 const { prev, next } = await getPrevNext(post);
 const latest = (await getPublishedPosts()).filter((p) => p.id !== post.id).slice(0, 5);
@@ -120,7 +122,7 @@ const jsonLd = graph(
           <Content />
         </div>
 
-        <AffiliateBox slug={post.id} />
+        {ownRanking && <AffiliateBox slug={post.id} />}
 
         <div data-pagefind-ignore><ArticleBottomAd /></div>
         <SourceList sources={d.sources} images={d.images} />

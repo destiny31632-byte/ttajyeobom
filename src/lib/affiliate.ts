@@ -2437,3 +2437,8 @@ const DEFAULT_RANKING_GROUP: AffiliateRankingGroup = {
 export function getAffiliateRankingForPost(slug: string): AffiliateRankingGroup {
   return AFFILIATE_RANKING_MAP[slug] || DEFAULT_RANKING_GROUP;
 }
+
+/** 글 주제에 맞는 추천 묶음이 있을 때만 반환합니다 (없으면 null → 구매 박스를 띄우지 않음) */
+export function getOwnAffiliateRanking(slug: string): AffiliateRankingGroup | null {
+  return AFFILIATE_RANKING_MAP[slug] ?? null;
+}
