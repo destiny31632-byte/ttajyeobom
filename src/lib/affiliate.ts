@@ -2584,6 +2584,37 @@ AFFILIATE_RANKING_MAP['electric-toothbrush-26970-vs-72100-head-cost-3year-guide'
     ],
   };
 
+AFFILIATE_RANKING_MAP['vacuum-sealer-33900-vs-79000-kimjang-bag-cost-guide'] = {
+    sectionTitle: '진공포장기 3종 (입문 3만3,900원 · 후기 4,583건 4만6,260원 · 커터·펌프 7만9,000원)',
+    sectionSubtitle: '2026-11-18 쿠팡 결제 화면 금액·필수 표기 정보 기준(할인·쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '입문·가성비 1위 🥇',
+        productName: '키친아트 진공포장기 + 롤팩, KJP-3700WS(화이트)',
+        specSummary: '확인일 기준 34,900원에서 2퍼센트 쿠폰 1,000원을 뺀 33,900원이고 상품평 976건, 한 달간 100명 이상이 구매했다. 구성품에 롤팩이 들어 있어 받은 날 바로 김장 소분을 시작할 수 있고, 크기가 374 x 66 x 56mm로 서랍에 넣어 둘 수 있다. 범용 엠보싱 롤을 쓸 수 있어 김장 40봉 기준 비닐값이 5,500원으로 끝나며, 본체와 비닐을 합쳐 39,400원이다. 다만 커터가 없고, 필수 표기 정보의 정격전압·소비전력이 컨텐츠 참조로 비어 있으며, 상품평 나쁨 비율이 8퍼센트로 확인한 세 제품 가운데 가장 높다',
+        tag: '33,900원 · 후기 976건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6220799511&itemId=24973857032&vendorItemId=79718608751',
+      },
+      {
+        rank: 2,
+        rankBadge: '후기 4,583건 2위 🥈',
+        productName: '위즈웰 스마트 진공포장기 WH6010W + 진공포장비닐 10p',
+        specSummary: '확인일 기준 58,900원에서 21퍼센트 내린 뒤 와우쿠폰 9,690원이 붙어 46,260원이고 상품평 4,583건, 한 달간 3,000명 이상 만족으로 표기됐다. 정격 220V 60Hz 110W와 출시 2018년 11월, KC 전기용품 안전인증 HU07502-18007A가 숫자로 적혀 있어 표기가 가장 충실하다. 다만 커터가 없고, 전용 롤 25 x 500cm가 13,900원으로 1m당 2,780원이라 1년 160봉을 전용 롤로 채우면 비닐값만 111,200원이 된다. 상위 상품평 다수가 쿠팡체험단 무료 제공 리뷰라는 점도 감안해야 한다',
+        tag: '46,260원 · 후기 4,583건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=194428415&itemId=557632383&vendorItemId=4464969413',
+      },
+      {
+        rank: 3,
+        rankBadge: '구성품 3위 🥉',
+        productName: '프리옴 스마트 가정용 진공포장기, PRO-B089, 실버',
+        specSummary: '확인일 기준 129,000원에서 38퍼센트 내린 79,000원이고 상품평 2,713건, 2,000명 이상 만족이다. 대형롤 1개와 진공백 중형 20매, 진공 펌프가 함께 오고 슬라이딩커터와 자동밀봉이 붙어 봉지를 수십 장 만드는 날 손이 덜 간다. 정격 220V 60Hz 120W, KC 안전인증 XU070545-24004와 전자파적합인증 R-R-Gyu-V104-B가 표기돼 있고 상품평 나쁨 비율은 1퍼센트다. 다만 출시년월은 상품 상세페이지 참조로 비어 있고, 김장 40봉 기준 본체와 비닐을 합치면 74,060원이다',
+        tag: '79,000원 · 후기 2,713건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8246442713&itemId=23735050449&vendorItemId=90887848829',
+      },
+    ],
+  };
+
 const DEFAULT_RANKING_GROUP: AffiliateRankingGroup = {
   sectionTitle: '따져봄 추천 쿠팡 생활·IT 베스트셀러 BEST 3',
   sectionSubtitle: '최근 30일 누적 판매량 및 실사용 리뷰 종합 기준',
