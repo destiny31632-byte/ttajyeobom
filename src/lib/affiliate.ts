@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'dehumidifier-mini-vs-8l-12l-dehumidification-rate-guide': {
+    sectionTitle: '겨울 결로용 제습기 3종 (12L 압축식 · 8L 압축식 · 1.8L 펠티에)',
+    sectionSubtitle: '2026-11-17 쿠팡 가격·물통·인증 표기 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '12리터 압축식 1위 🥇',
+        productName: '포첸 고성능 가정용 저소음 컴프레셔 제습기 12L, PC-DH2407',
+        specSummary: '확인일 기준 259,000원에서 61퍼센트 내린 99,000원이고 상품평 813건, 한 달간 500명 이상이 구매했다. 냉매를 압축하는 압축식이라 제습력이 강력하다는 응답이 54퍼센트로 미니 펠티에 제품(44퍼센트)보다 높고, 만족도는 최고 78퍼센트다. 무게 9.9킬로그램, 크기 295x215x510밀리미터로 원룸 한 칸에 두기 무난하며 연속 배수호스가 기본 구성품이라 물통을 비우지 않고도 쓸 수 있다. 다만 에너지소비효율 5등급이고 필수 표기 정보의 소비전력은 "컨텐츠 참조", 출시년월은 "업체 미제공"으로 비어 있어 와트는 상세 이미지에서 확인해야 한다',
+        tag: '99,000원 · 후기 813건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9593361623&itemId=28637889232&vendorItemId=95840107552',
+      },
+      {
+        rank: 2,
+        rankBadge: '브랜드 인증점 2위 🥈',
+        productName: '캐리어 공식인증점 미니제습기 8L, CDHC-080AONWOYH',
+        specSummary: '확인일 기준 136,350원에서 24퍼센트 내린 103,460원이고 상품평 219건, 판매자 평가 84퍼센트다. 8리터 압축식에 무게 10킬로그램, 바퀴와 타이머가 달려 있고 결로가 심한 집에서 쓴 사용기가 여럿 붙어 있다. 만족도 최고 84퍼센트, 제습력이 강력하다는 응답 55퍼센트로 확인한 세 제품 중 가장 높다. 다만 반품비가 왕복 20,000원이라 제품값의 19퍼센트에 해당하고, 필수 표기 정보의 인증·허가 사항이 "상품 상세페이지 참조"로 비어 있으며 에너지효율은 스티커 3등급·현재 조회 4등급으로 갈린다',
+        tag: '103,460원 · 후기 219건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8271426741&itemId=23838347293&vendorItemId=90443145889',
+      },
+      {
+        rank: 3,
+        rankBadge: '후기 3,022건 가성비 3위 🥉',
+        productName: '최신펠티어방식 미니 제습기 1.8L, DB-DH7',
+        specSummary: '확인일 기준 199,000원에서 77퍼센트 내린 43,900원이고 상품평 3,022건, 한 달간 1,000명 이상이 구매했다. 펠티에 방식이라 뜨거운 바람이 적고 조용하며, 물통이 1.8리터로 미니 제품 중에서는 큰 편이라 옷장·신발장·드레스룸에 두기 좋다. KC 전기용품 안전인증 HU10590-19017D와 적합성평가 R-R-iOh-DB-DH7이 고시에 적혀 있다. 다만 만족도 최고 73퍼센트·나쁨 6퍼센트이고 제습력이 강력하다는 응답은 44퍼센트라 방 전체 결로용으로는 부족하며, 필수 표기 정보에 소비전력 항목이 없다',
+        tag: '43,900원 · 후기 3,022건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8709628803&itemId=25294104517&vendorItemId=91923292139',
+      },
+    ],
+  },
   'induction-1-burner-vs-2-burner-power-socket-cost-guide': {
     sectionTitle: '겨울 전골용 인덕션 3종 (1구 2,000W · 2구 2,800W · 2구 와이드 3,500W)',
     sectionSubtitle: '2026-11-17 쿠팡 가격·정격 출력·KC 인증 표기 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
