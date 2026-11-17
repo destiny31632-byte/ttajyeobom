@@ -1,10 +1,10 @@
 {
   "date": "2026-11-17",
-  "published": [],
-  "remaining": 2,
-  "status": "held",
-  "newPost": null,
-  "topic": "winter-car-heater-blowing-cold-air-check-guide",
-  "reason": "30일 이내 무료 프로젝트·결제 미연결 재확인 필요",
-  "workflowStatus": "failure"
+  "published": [
+    "christmas-tree-150cm-180cm-price-composition-kc-certification-guide",
+    "goose-down-padding-24-products-geese-down-ratio-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
