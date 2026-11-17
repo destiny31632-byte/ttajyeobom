@@ -44,6 +44,36 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
       },
     ],
   },
+  'hairdryer-23900-vs-114590-watt-drying-time-guide': {
+    sectionTitle: '헤어드라이어 3종 (BLDC 저소음 5만4,800원 · 후기 7만건 2만3,900원 · 항공모터 11만4,590원)',
+    sectionSubtitle: '2026-11-17 쿠팡 결제 화면 금액·필수 표기 정보 기준(할인·쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '저소음 BLDC 1위 🥇',
+        productName: '신일 프리미엄 BLDC 초강력 헤어 드라이어 1500W, SHD-C8611, 그레이',
+        specSummary: '확인일 기준 119,000원에서 53퍼센트 내린 54,800원이고 상품평 2,796건, 한 달간 2,000명 이상이 구매했다. 출시 2025년 10월로 확인한 세 제품 가운데 가장 최근 모델이고, 상품 정보에 저소음기능과 온도조절 가능, 자석부착형노즐이 항목으로 적혀 있다. 소비전력 1,500W 기준 와트당 단가가 36.5원으로 114,590원 제품의 절반 수준이며, KC 인증번호 HU073587-25004가 표기돼 있다. 다만 필수 표기 정보의 정격전압·소비전력 칸에 220V에서 240V, 50/60Hz만 있고 와트가 빠져 있고, 제조자는 상세페이지 참조로 비어 있다',
+        tag: '54,800원 · 후기 2,796건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9171495621&itemId=27030813189&vendorItemId=94001839442',
+      },
+      {
+        rank: 2,
+        rankBadge: '후기 7만건 가성비 🥈',
+        productName: '파테크 한일전자 초고출력 헤어 드라이어 2300W, PD-H4300, 블랙',
+        specSummary: '확인일 기준 52,000원에서 54퍼센트 내린 23,900원이고 상품평 70,954건, 한 달간 1만명 이상이 구매했다. 소비전력 2,300W로 확인한 세 제품 가운데 가장 높지만 값은 가장 낮아 와트당 단가가 10.4원이다. 냉풍과 구성품 2개, 벽걸이 고리, 2018년 4월 출시가 표기돼 있고 KC 전기용품안전인증 SU071919-17002와 방송통신 MSIP-REI-HaN-PDH4300이 모두 적혀 있다. 저소음기능과 온도조절, 자석 노즐 항목이 없고 무게 표기도 없어 조용함을 원하면 위 제품이 맞다',
+        tag: '23,900원 · 후기 70,954건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=130911332&itemId=385318409&vendorItemId=3936474941',
+      },
+      {
+        rank: 3,
+        rankBadge: '항공모터 3위 🥉',
+        productName: 'JMW BLDC 항공모터 헤어 드라이기 1500W, MG1700, 블랙',
+        specSummary: '확인일 기준 120,000원에서 4퍼센트 내린 114,590원이고 상품평 8,247건, 7,000명 이상 만족으로 표시됐다. 소비전력은 신일 SHD-C8611과 같은 1,500W인데 결제 금액이 두 배가 넘어 와트당 단가가 76.4원이다. 상품 정보 항목에는 이 차이를 설명하는 수치가 없어, 소음과 무게를 직접 확인해야 한다. 냉풍과 구성품 2개, 벽걸이 고리가 표기돼 있고 KC 전기용품안전인증 JH07496-17001R과 방송통신 MSIP-REM-JMW-MS6000이 적혀 있다. 확인 시점에 단 2개 남음이 붙어 있었고 출시년월은 컨텐츠 참조로 비어 있다',
+        tag: '114,590원 · 후기 8,247건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=3675802&itemId=24290582477&vendorItemId=3090910427',
+      },
+    ],
+  },
   'toothbrush-sterilizer-uv-c-vs-heating-dry-15-product-test-guide': {
     sectionTitle: '칫솔살균기 3종 (1만3,600원 휴대용 · 4만4,900원 히팅 거치형 · 원적외선 건조)',
     sectionSubtitle: '2026-11-17 쿠팡 가격·상품평·필수 표기 정보 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
