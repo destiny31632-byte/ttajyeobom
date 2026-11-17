@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'toothbrush-sterilizer-uv-c-vs-heating-dry-15-product-test-guide': {
+    sectionTitle: '칫솔살균기 3종 (1만3,600원 휴대용 · 4만4,900원 히팅 거치형 · 원적외선 건조)',
+    sectionSubtitle: '2026-11-17 쿠팡 가격·상품평·필수 표기 정보 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '시험 통과 모델 1위 🥇',
+        productName: '프리쉐 UV LED 휴대용 칫솔살균기, PA-TS700, 파스텔블루',
+        specSummary: '확인일 기준 29,800원에서 54퍼센트 내린 13,600원이고 상품평 11,329건, 한 달간 2,000명 이상이 구매했다. 2021년 소비자연맹 시험에서 황색포도상구균·대장균·녹농균·뮤탄스균 4개를 모두 99.9퍼센트 줄인 3개 모델 중 하나다(시험은 15개 중 3개만 통과). 만족도 최고 78퍼센트, 좋음 13퍼센트로 나쁨은 2퍼센트다. 칫솔모가 닿는 받침대가 스테인리스이고 분리 세척되며 뚜껑 안쪽에 통풍구가 있다. 다만 USB는 전원 공급용이라 이동 중에는 AAA 건전지 2개를 넣어야 하고, UV는 약 10분 뒤 자동으로 꺼진다. 새 상품 최저가는 10,880원이다',
+        tag: '13,600원 · 후기 11,329건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6183820163&itemId=12160582232&vendorItemId=79432009502',
+      },
+      {
+        rank: 2,
+        rankBadge: '만족도 85퍼센트 2위 🥈',
+        productName: '유토렉스 칫솔 살균기 가정용 UV LED 히팅 건조기 스탠드 면도기 소독기, UTC-82UVW, 화이트',
+        specSummary: '확인일 기준 154,300원에서 70퍼센트 내린 44,900원이고 상품평 1,559건, 한 달간 200명 이상이 구매했다. 자외선 LED에 히터 열풍을 더해 칫솔모와 손잡이를 함께 말리고, 5칸 걸이에 면도기 분리 보관과 거울 도어가 붙는다. 필수 표기 정보에 KC 인증 JH07147-17001N과 방송통신기자재 적합성 MSIP-REM-LHY-UTC-92UVW, 제조국 대한민국이 적혀 있고 만족도 최고 85퍼센트·세척 편리성 64퍼센트다. 다만 정격전압·소비전력은 컨텐츠참조, 출시년월은 업체 미제공으로 비어 있고, 칫솔이 모두 젖은 채 들어가면 문 안쪽에 물방울이 맺힌다는 사용기와 전원 스위치가 없어 플러그를 뽑아야 한다는 지적이 있다',
+        tag: '44,900원 · 후기 1,559건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=5416481763&itemId=8165676186&vendorItemId=75453916648',
+      },
+      {
+        rank: 3,
+        rankBadge: '후기 9,171건 열건조 3위 🥉',
+        productName: '오투케어 거치용 칫솔 건조기, BS-7000S, 민트',
+        specSummary: '확인일 기준 121,500원에서 71퍼센트 내린 34,750원이고 상품평 9,171건, 한 달간 100명 이상이 구매했다. 살균 기능이 원적외선, 즉 열로 말리는 거치형이라 물기가 많은 욕실에 맞고 벽걸이와 스탠드를 모두 지원한다. 전원은 전기코드와 USB를 함께 쓴다. 상품평 수가 세 제품 중 두 번째로 많아 실사용 기록이 두껍다. 다만 확인일 기준 레드패턴·블루드림·스카이블루 등 여러 색상이 일시품절이었고, 새 상품 최저가는 33,360원이다',
+        tag: '34,750원 · 후기 9,171건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=1524052&itemId=6640483&vendorItemId=3008687190',
+      },
+    ],
+  },
   'dehumidifier-mini-vs-8l-12l-dehumidification-rate-guide': {
     sectionTitle: '겨울 결로용 제습기 3종 (12L 압축식 · 8L 압축식 · 1.8L 펠티에)',
     sectionSubtitle: '2026-11-17 쿠팡 가격·물통·인증 표기 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
