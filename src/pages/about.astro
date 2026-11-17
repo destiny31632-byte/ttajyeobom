@@ -99,7 +99,7 @@ const count = (await getPublishedPosts()).filter((p) => !p.data.draft).length;
 
   <h2>운영자와 연락처</h2>
   <p>
-    {SITE.name}는 개인이 운영합니다. 운영자 소개는 <a href="/author/editor/">작성자 소개</a>에서, 정정 요청이나 제보는
+    {SITE.name}은 개인이 운영합니다. 운영자 소개는 <a href="/author/editor/">작성자 소개</a>에서, 정정 요청이나 제보는
     <a href="/contact/">문의 페이지</a>에서 확인하실 수 있습니다. 이메일 주소는{' '}
     <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>입니다.
   </p>
