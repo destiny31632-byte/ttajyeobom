@@ -1,0 +1,48 @@
+---
+import { buildPostChart } from '../lib/post-chart';
+
+interface Props {
+  post: { id: string; title: string; body: string };
+}
+
+const chart = buildPostChart({ id: Astro.props.post.id, title: Astro.props.post.title, body: Astro.props.post.body ?? '' });
+---
+
+{
+  chart && (
+    <figure class="post-chart" data-pagefind-ignore>
+      <div class="post-chart__canvas" set:html={chart.svg} />
+      <figcaption class="post-chart__caption">{chart.caption}</figcaption>
+    </figure>
+  )
+}
+
+<style>
+  .post-chart {
+    margin: 24px 0 30px;
+    padding: 14px 14px 10px;
+    border: 1px solid var(--border, #e2e8f0);
+    border-radius: 16px;
+    background: var(--surface, #ffffff);
+    box-shadow: 0 6px 20px -14px rgba(15, 23, 42, 0.35);
+  }
+
+  .post-chart__canvas {
+    overflow-x: auto;
+  }
+
+  .post-chart__canvas :global(svg) {
+    display: block;
+    width: 100%;
+    max-width: 760px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .post-chart__caption {
+    margin: 10px 2px 2px;
+    font-size: 0.83rem;
+    line-height: 1.55;
+    color: var(--muted, #59636e);
+  }
+</style>

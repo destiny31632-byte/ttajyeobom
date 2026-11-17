@@ -25,6 +25,8 @@ const path = Astro.url.pathname;
       </ul>
     </nav>
     <div class="header-actions">
+      <a class="header-link" href="/about/">소개</a>
+      <a class="header-link" href="/contact/">문의</a>
       <a class="icon-btn" href="/search/" aria-label="사이트 검색">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
           <circle cx="11" cy="11" r="7"></circle>
@@ -43,6 +45,29 @@ const path = Astro.url.pathname;
     </div>
   </div>
 </header>
+
+<style>
+  .header-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 6px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--muted);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .header-link:hover {
+    color: var(--text);
+  }
+
+  @media (max-width: 560px) {
+    .header-link {
+      display: none;
+    }
+  }
+</style>
 
 <script>
   const btn = document.querySelector<HTMLButtonElement>('.theme-toggle');
