@@ -2553,6 +2553,37 @@ export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
   },
 };
 
+AFFILIATE_RANKING_MAP['electric-toothbrush-26970-vs-72100-head-cost-3year-guide'] = {
+    sectionTitle: '전동칫솔 3종 (후기 1만2,729건 필립스 4만9,090원 · 가성비 2만6,970원 · iO2 7만2,100원)',
+    sectionSubtitle: '2026-11-17 쿠팡 결제 화면 금액·필수 표기 정보 기준(할인·쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '후기 1만2,729건 1위 🥇',
+        productName: '필립스 소닉케어 3100 시리즈 전동칫솔, HX4031/32, 블랙',
+        specSummary: '확인일 기준 80,000원에서 38퍼센트 내린 49,090원(와우쿠폰 5퍼센트 적용)이고 상품평 12,729건, 한 달간 3,000명 이상이 구매했다. 음파식에 USB 충전식, 출시 2026년 1월이다. 상품평 분포는 최고 84퍼센트·좋음 11퍼센트로 만족 쪽이 95퍼센트이고 무게 항목은 가벼워요가 49퍼센트다. 판매자 답변 기준 HX6 또는 9로 시작하는 칫솔모와 호환되고 필립스원 전동칫솔과는 호환되지 않는다. 다만 필수 표기 정보의 정격전압·소비전력은 업체 미제공으로 비어 있다',
+        tag: '49,090원 · 후기 12,729건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6239624318&itemId=27622386096&vendorItemId=94585346047',
+      },
+      {
+        rank: 2,
+        rankBadge: '가성비 1위 🥈',
+        productName: '오랄비 바이탈리티 초미세모 전동칫솔, D100, 화이트',
+        specSummary: '확인일 기준 51,900원에서 48퍼센트 내린 26,970원(쿠폰 2,030원 적용)이고 상품평 10,370건, 한 달간 2,000명 이상이 구매했다. 모델명 3710, 출시 2022년 12월이다. 세 제품 가운데 유일하게 정격전압·소비전력이 숫자로 적혀 있고(220-240V 50-60Hz 0.9W), KC 본품·전지·충전기 인증번호가 모두 표기돼 있다. 칫솔모 끝이 부드러운 초미세모라 잇몸이 예민한 첫 전동칫솔 사용자에게 맞고, 정품 교체모를 8개 묶음으로 사면 3년 모값이 49,056원이다',
+        tag: '26,970원 · 후기 10,370건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8549496709&itemId=17990327512&vendorItemId=85146911087',
+      },
+      {
+        rank: 3,
+        rankBadge: '프리미엄 3위 🥉',
+        productName: '오랄비 플라그 제거 전동칫솔, iO2, 블랙',
+        specSummary: '확인일 기준 75,900원에서 5퍼센트 내린 72,100원이고 상품평 660건, 한 달간 500명 이상이 구매했다. 모델명 3770, 출시 2026년 7월이며 블랙 옵션 구성품은 칫솔모 2종과 충전기, 케이스다. 리뷰 분포는 최고 83퍼센트·좋음 11퍼센트지만 무게 항목은 보통이에요가 61퍼센트로, 가벼움을 중시하면 위 두 제품이 낫다. 정격전압 3.2V 외 소비전력은 업체 미제공이고, 본체 제조국이 독일·헝가리·중국 랜덤으로 표기돼 있다',
+        tag: '72,100원 · 후기 660건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9638431440&itemId=28797087902&vendorItemId=95732585910',
+      },
+    ],
+  };
+
 const DEFAULT_RANKING_GROUP: AffiliateRankingGroup = {
   sectionTitle: '따져봄 추천 쿠팡 생활·IT 베스트셀러 BEST 3',
   sectionSubtitle: '최근 30일 누적 판매량 및 실사용 리뷰 종합 기준',
