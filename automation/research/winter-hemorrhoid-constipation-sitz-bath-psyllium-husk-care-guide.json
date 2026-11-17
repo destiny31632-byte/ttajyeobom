@@ -110,7 +110,7 @@
     {
       "claim": "대한소화기학회 변비 진료지침은 증상 완화를 위해 하루 20~25g 정도의 식이섬유 섭취를 권장하지만 근거 수준은 낮은 편(2C)이라고 밝힌다. 차전자피(Plantago ovata)를 하루 15g씩 6주 먹인 연구에서는 서행성 변비의 약 80%, 배출장애형 변비의 63%에서 효과가 없었다.",
       "value": "20 25 2 15 6 80 63",
-      "sourceUrl": "https://synapse.koreamed.org/upload/SynapseXML/0028kjg/pdf/kjg-57-100.pdf",
+      "sourceUrl": "https://www.kjg.or.kr/journal/download_pdf.php?doi=10.4166/kjg.2011.57.2.100",
       "evidence": "Park MI, Shin JE. 변비 치료에 관한 임상진료지침. Korean J Gastroenterol 2011;57:100-114: '변비증상을 완화시키기 위해서 하루에 약 20-25 g 정도의 식이 섬유를 섭취하도록 권장하고 있다', '(Grade 2C, 권고수준: 낮음, 증거수준: 낮음)', 'Plantago ovate seed를 하루에 15 g를 6주간 복용시켜 ... 서행성 변비의 약 80%, 배출 장애형 변비의 63%가 효과가 없었다'",
       "asOf": "2011-02-01"
     },

@@ -78,10 +78,10 @@ sources:
     accessed: 2026-11-14
     note: "차전자피 식이섬유 고시형 원료, 배변활동 5.0g 이상·콜레스테롤 6.0g 이상, 충분한 물과 함께 섭취"
   - title: "변비 치료에 관한 임상진료지침"
-    url: "https://synapse.koreamed.org/upload/SynapseXML/0028kjg/pdf/kjg-57-100.pdf"
+    url: "https://www.kjg.or.kr/journal/download_pdf.php?doi=10.4166/kjg.2011.57.2.100"
     publisher: "대한소화기학회지 2011;57:100-114"
     type: primary
-    accessed: 2026-11-14
+    accessed: 2026-11-17
     note: "식이섬유 20~25g 권고(근거 2C), 차전자피 15g 6주 연구에서 서행성 80%·배출장애 63% 무효"
   - title: "The Effect of Fiber Supplementation on Chronic Constipation in Adults: An Updated Systematic Review and Meta-Analysis"
     url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9535527/"
