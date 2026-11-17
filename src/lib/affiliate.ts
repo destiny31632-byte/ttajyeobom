@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'electric-shaver-47300-vs-113900-rotary-foil-waterproof-guide': {
+    sectionTitle: '전기면도기 3종 (전체방수 회전식 6만9,230원 · 헤드방수 왕복식 4만7,300원 · 60분 회전식 11만3,900원)',
+    sectionSubtitle: '2026-11-17 쿠팡 결제 화면 금액·필수 표기 정보 기준(할인·쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '전체방수 1위 🥇',
+        productName: '필립스 5000 시리즈 전기면도기, S5466/17, 진한로열블루',
+        specSummary: '확인일 기준 156,000원에서 55퍼센트 내린 69,230원이고 상품평 4,168건, 한 달간 600명 이상이 구매했다. 확인한 세 제품 가운데 유일하게 방수 표기가 전체방수이고 트리머가 달려 있어, 본체를 통째로 헹구거나 구레나룻을 다듬을 때 유리하다. 회전식 3헤드에 사용시간 50분, 출시 2023년 4월이며 필수 표기 정보에 본품 R-R-PCE-S5466, 배터리 ZU10632-21002, 어댑터 HU071234-18007F가 적혀 있다. 다만 정격전압·소비전력과 출시년월 일부는 업체미제공으로 비어 있고, 필립스 안에서 상위 모델로 올라가면 오히려 방수 표기가 헤드방수로 내려간다',
+        tag: '69,230원 · 후기 4,168건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7324728924&itemId=18793616916&vendorItemId=85924628387',
+      },
+      {
+        rank: 2,
+        rankBadge: '후기 2만5천건 가성비 🥈',
+        productName: 'BRAUN 시리즈3 전기면도기, 300s, 볼트그린',
+        specSummary: '확인일 기준 67,000원에서 29퍼센트 내린 47,300원이고 상품평 25,011건으로 확인한 세 제품 중 가장 두껍다. 한 달간 300명 이상이 구매했고 만족도는 최고 78퍼센트·좋음 15퍼센트로 93퍼센트가 만족 쪽이며, 세척 편리성 63퍼센트·피부 자극 없음 61퍼센트다. 왕복식 1헤드에 사용시간 30분·충전 1시간, 방수는 헤드방수다. 정품 날망 21B가 21,330원으로 본체값의 45.1퍼센트이니, 날망값까지 계산하면 첫 면도기로 가장 부담이 적다',
+        tag: '47,300원 · 후기 25,011건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7757571595&itemId=20912024453&vendorItemId=74615882106',
+      },
+      {
+        rank: 3,
+        rankBadge: '사용 60분 3위 🥉',
+        productName: '필립스 SkinIQ 5000 시리즈 전기면도기, S5880/33, 오션블루',
+        specSummary: '확인일 기준 269,000원에서 57퍼센트 내린 113,900원이고 상품평 3,103건, 한 달간 700명 이상이 구매했다. 회전식 3헤드에 사용시간 60분으로 확인한 세 제품 중 가장 길고, 트리머가 달려 있다. 다만 방수 표기는 전체방수가 아니라 헤드방수이고, 같은 필립스 5000 시리즈 S5466/17보다 44,670원 비싼데도 방수 등급은 낮다. 정품 날망 94m 가격이 72,300원이라 2년에서 3년 뒤 유지비까지 함께 계산해야 한다',
+        tag: '113,900원 · 후기 3,103건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8266749193&itemId=21041433517&vendorItemId=88927812564',
+      },
+    ],
+  },
   'toothbrush-sterilizer-uv-c-vs-heating-dry-15-product-test-guide': {
     sectionTitle: '칫솔살균기 3종 (1만3,600원 휴대용 · 4만4,900원 히팅 거치형 · 원적외선 건조)',
     sectionSubtitle: '2026-11-17 쿠팡 가격·상품평·필수 표기 정보 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
