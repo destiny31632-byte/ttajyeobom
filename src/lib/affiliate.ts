@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'induction-1-burner-vs-2-burner-power-socket-cost-guide': {
+    sectionTitle: '겨울 전골용 인덕션 3종 (1구 2,000W · 2구 2,800W · 2구 와이드 3,500W)',
+    sectionSubtitle: '2026-11-17 쿠팡 가격·정격 출력·KC 인증 표기 기준(할인과 쿠폰은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '후기 2,285건 1위 🥇',
+        productName: '쿠첸 슬림 인덕션 1구, CEO-F160, 일반형',
+        specSummary: '확인일 기준 139,000원에서 53퍼센트 내린 64,980원이고 상품평 2,285건, 한 달간 1,000명 이상이 구매했다. 화구 1구에 최대출력 2,000W라 가정용 콘센트 권장선 2,640W 아래에 남아 같은 자리에서 쓰기 가장 수월하다. 상품정보 고시에 KC 인증번호 JU07517-22007과 R-R-CUC-CEO-F160, 에너지소비효율 2등급, 출시 2022년 12월이 적혀 있고 어린이잠금과 용기감지가 들어 있다. 만족도는 최고 79퍼센트, 좋음 14퍼센트다. 다만 전원선이 짧고 상판에 손자국이 남으며 팬 소음이 있다는 후기가 있고, 리뷰 상단에는 쿠팡체험단 표기 글이 여럿이라 분포와 함께 읽어야 한다',
+        tag: '64,980원 · 후기 2,285건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7000775184&itemId=17167598534',
+      },
+      {
+        rank: 2,
+        rankBadge: '2구 가성비 2위 🥈',
+        productName: '키친아트 듀얼 인덕션 2구, KID-2040NK, 일반형',
+        specSummary: '확인일 기준 99,800원에서 쿠폰할인 10,000원이 적용돼 89,800원이고 상품평 361건, 300명 이상 만족이다. 화구 2구에 최대출력 2,800W로 국과 반찬을 동시에 할 수 있고 프리스탠딩이라 코드만 꽂으면 된다. 상품인증정보에 KC 전기용품 안전인증 HU072734-21003B와 방송통신기자재 적합성 R-R-THJ-HJ-DU20ID가 공개돼 있다. 다만 2,800W는 가정용 콘센트 권장선 2,640W를 160W 넘어 같은 콘센트에 다른 고전력 기기를 함께 꽂으면 안 되고, 무료배송·무료반품에 11월 18일 도착이 보장된다',
+        tag: '89,800원 · 후기 361건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9608229867&itemId=28684653747&vendorItemId=80647203253',
+      },
+      {
+        rank: 3,
+        rankBadge: '화력 3,500W 3위 🥉',
+        productName: '신일 프리미엄 2구 인덕션 전기레인지 와이드, SHL-D3500BK, 일반형',
+        specSummary: '확인일 기준 219,000원에서 50퍼센트 내린 108,800원이고 상품평 546건, 한 달간 200명 이상이 구매했다. 정격 220-240V 3,500W로 좌측 2,000W·우측 1,500W를 동시에 쓸 수 있고, 후기에는 온도 60~240도와 타이머 240분, 무게 4.6kg이 적혀 있다. 상품정보 고시에 안전인증번호 HU072558-25015와 적합성 식별부호 R-R-Zfe-FS-IRC136B35, 출시 2026년 4월이 표기돼 있고 만족도는 최고 82퍼센트다. 다만 3,500W는 콘센트 권장선을 860W 넘어 벽 콘센트 단독 사용이 전제이고, 팬 소음과 무게, 짧은 전선이 단점으로 나온다',
+        tag: '108,800원 · 후기 546건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9557264885&itemId=28518674331&vendorItemId=95231062813',
+      },
+    ],
+  },
   'christmas-tree-150cm-180cm-price-composition-kc-certification-guide': {
     sectionTitle: '크리스마스트리 3종 (1.6m 만족도 · 1.3m 인증표기 · 180cm 대형)',
     sectionSubtitle: '2026-11-17 쿠팡 가격·구성·인증 표기 기준(할인·쿠폰은 판매자 사정에 따라 변동)',
