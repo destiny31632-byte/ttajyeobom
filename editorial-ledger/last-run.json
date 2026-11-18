@@ -5,5 +5,6 @@
   "status": "held",
   "newPost": null,
   "topic": "year-end-tax-monthly-rent-credit-2026-guide",
-  "reason": "30일 이내 무료 프로젝트·결제 미연결 재확인 필요"
+  "reason": "30일 이내 무료 프로젝트·결제 미연결 재확인 필요",
+  "workflowStatus": "failure"
 }
