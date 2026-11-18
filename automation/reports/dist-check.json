@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-11-18T10:41:28.689Z",
+  "checkedAt": "2026-11-18T23:21:46.576Z",
   "site": "https://ttajyeobom.com",
-  "pages": 788,
-  "indexable": 171,
+  "pages": 797,
+  "indexable": 173,
   "failures": [],
   "warnings": [
     {
       "level": "warn",
-      "page": "/category/home/2/, /category/home/3/, /category/home/4/, /category/home/",
+      "page": "/category/home/2/, /category/home/3/, /category/home/4/, /category/home/5/, /category/home/",
       "message": "설명 중복: 가전제품 선택 기준, 유지비, 관리법을 비교표와 계산으로 정리해 후회 없…"
     },
     {
@@ -18,7 +18,7 @@
     {
       "level": "warn",
       "page": "/tags/소비자원시험/2/, /tags/소비자원시험/",
-      "message": "설명 중복: '소비자원시험' 태그가 붙은 따져봄 글 14개를 모았습니다.…"
+      "message": "설명 중복: '소비자원시험' 태그가 붙은 따져봄 글 15개를 모았습니다.…"
     }
   ],
   "externalLinks": [
@@ -416,6 +416,7 @@
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=72986941&itemId=243287302&vendorItemId=71474316987",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7324728924&itemId=18793616916&vendorItemId=85924628387",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7388135207&itemId=19096088775&vendorItemId=86216873958",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7413368963&itemId=19213593388&vendorItemId=86330622200",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7458987011&itemId=19437353237&vendorItemId=95955593070",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7496025056&itemId=19611759123&vendorItemId=86694699389",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7536902861&itemId=21071919594&vendorItemId=92077751899",
@@ -489,10 +490,12 @@
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9674846251&itemId=28928275871&vendorItemId=96198431465",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9697936818&itemId=29008978314&vendorItemId=95937159506",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9699274712&itemId=29013737856&vendorItemId=96334252912",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9715298973&itemId=29070332162&vendorItemId=95996533583",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9727610179&itemId=26571328841&vendorItemId=85072867800",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9740371118&itemId=28957021928&vendorItemId=96274095320",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9749172394&itemId=29190919551&vendorItemId=93629376055",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9749503627&itemId=29192129896&vendorItemId=96115771470",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9768018726&itemId=29231757124&vendorItemId=3007335437",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9768620493&itemId=29238730106&vendorItemId=85071863348",
     "https://link.springer.com/article/10.1007/s13555-021-00611-y",
     "https://m.airkorea.or.kr/info/behaviorInfo1",
@@ -689,6 +692,7 @@
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1078883",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1079147",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1079886",
+    "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081112&page=1",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081252",
@@ -703,6 +707,7 @@
     "https://www.consumer.go.kr/user/ftc/consumer/recallnews/801/selectRecallNewsView.do?recallNewsIdx=374",
     "https://www.consumer.go.kr/user/ftc/consumer/recallnews/801/selectRecallNewsView.do?recallNewsIdx=695",
     "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224688&funcType=colctInfoFunction",
+    "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224717&funcType=colctInfoFunction",
     "https://www.consumer.go.kr/user/ftc/consumer/trublmdatcase/116/selectTrublMdatCaseView.do?page=87&row=25&searchCnd=&searchType=&searchWrd=&trublMdatCaseSn=13680",
     "https://www.consumernews.co.kr/news/articleView.html?idxno=399637",
     "https://www.consumerreports.org/cars/jump-starters/buying-guide/",
@@ -756,6 +761,7 @@
     "https://www.coupang.com/vp/products/7295797798",
     "https://www.coupang.com/vp/products/7324728924",
     "https://www.coupang.com/vp/products/7388135207",
+    "https://www.coupang.com/vp/products/7413368963?itemId=19213593388&vendorItemId=86330622200",
     "https://www.coupang.com/vp/products/7458987011",
     "https://www.coupang.com/vp/products/7496025056?itemId=19611759123&vendorItemId=86694699389",
     "https://www.coupang.com/vp/products/7549169480",
@@ -817,9 +823,11 @@
     "https://www.coupang.com/vp/products/9668694043",
     "https://www.coupang.com/vp/products/9674846251?itemId=28928275871&vendorItemId=96198431465",
     "https://www.coupang.com/vp/products/9699274712?itemId=29013737856&vendorItemId=96334252912",
+    "https://www.coupang.com/vp/products/9715298973?itemId=29070332162&vendorItemId=95996533583",
     "https://www.coupang.com/vp/products/9727610179?itemId=26571328841&vendorItemId=85072867800",
     "https://www.coupang.com/vp/products/9740371118",
     "https://www.coupang.com/vp/products/9749172394",
+    "https://www.coupang.com/vp/products/9768018726?itemId=29231757124&vendorItemId=3007335437",
     "https://www.coupang.com/vp/products/9768620493?itemId=29238730106&vendorItemId=85071863348",
     "https://www.cpsc.gov/s3fs-public/5046.pdf",
     "https://www.customs.go.kr/kcs/cm/cntnts/cntntsView.do?cntntsId=828&mi=2836",
@@ -1230,7 +1238,7 @@
     "https://zdnet.co.kr/view/?no=20150215140612",
     "https://zdnet.co.kr/view/?no=20201012164450"
   ],
-  "sitemapUrls": 157,
+  "sitemapUrls": 158,
   "stats": {
     "maxHtmlKb": 91.1,
     "avgHtmlKb": 17.8,

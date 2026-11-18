@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'led-desk-stand-12-products-illuminance-uniformity-flicker-guide': {
+    sectionTitle: 'LED 스탠드 3종 (레토 3만3,910원 · 반디 4만8,000원 · 필립스 5만2,320원)',
+    sectionSubtitle: '2026-11-19 쿠팡 상품 페이지 금액·상품평 기준(쿠폰·할인은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '균일성 우수 최저가 1위 🥇',
+        productName: '레토 시력 보호 학습용 데스크 LED 스탠드 LLS-01, 화이트',
+        specSummary: '확인일 기준 33,910원에 무료배송·무료반품이고 평점 4.5에 상품평 4,063건, 내일 새벽 도착이 보장된다. 한국소비자원 시험에 쓰인 것과 같은 LLS-01 모델로, 조도 균일성에서 12개 제품 가운데 상대적 우수 판정을 받은 2개 중 하나다. 최대 조도는 1,099lx로 KS C 7656과 KS A 3011의 권장 범위 600-1,500lx 안에 들고, 밝기 조절은 6단계다. 광효율은 75lm/W로 12개 중 중간 수준이다. 다만 빛 깜빡임 항목은 보통 판정이었고 수명성능 광속유지율은 95퍼센트로 시험 제품 가운데 가장 낮은 축이다. 세 제품 가운데 가장 싸고 후기가 가장 두껍다는 점이 첫 번째로 볼 이유다',
+        tag: '33,910원 · 후기 4,063건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9768018726&itemId=29231757124&vendorItemId=3007335437',
+      },
+      {
+        rank: 2,
+        rankBadge: '연색성·깜빡임 우수 2위 🥈',
+        productName: '필립스 LED 스워드 데스크 램프 스탠드 9290032130, 다크 그레이',
+        specSummary: '확인일 기준 정가 57,500원에서 와우쿠폰 9퍼센트를 적용해 52,320원이고 무료배송·무료반품에 오늘 도착이 보장된다. 평점 5에 상품평 440건이고 한 달간 300명 이상이 구매했다. 시험 대상과 같은 9290032130 모델로 연색성과 빛 깜빡임 두 항목에서 상대적 우수를 받았고, 색을 봐야 하는 인쇄물·모니터 작업에 맞는다. 최대 조도는 1,221lx로 권장 범위 안이고 조도 균일성은 양호 판정이다. 최대 밝기가 아닌 일부 모드에서 빛 깜빡임이 늘어나는 경우가 있다는 시험 주석이 붙은 제품이라 최대 밝기로 쓰는 편이 낫다. 출시는 2022년 10월, KC 인증번호는 R-R-Plk-929003213007이다',
+        tag: '52,320원 · 후기 440건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7413368963&itemId=19213593388&vendorItemId=86330622200',
+      },
+      {
+        rank: 3,
+        rankBadge: '균일성·깜빡임 2관왕 3위 🥉',
+        productName: '반디LED 큐브 T500 12W 와이드 LED 스탠드, 스탠드형타입',
+        specSummary: '확인일 기준 48,000원에 배송비 3,000원이 붙어 실제 결제액은 51,000원이고 내일 도착 예정이다. 판매자는 (주)반디이며 상품평은 2건, 평점은 3.5다. 한국소비자원 시험에서 조도 균일성과 빛 깜빡임을 모두 상대적 우수로 받은 12개 중 유일한 제품이다. 대신 최대 조도가 1,007lx로 시험 제품 가운데 가장 어둡고 광효율도 53lm/W로 가장 낮다. 시험 당시 전자파적합성 인증번호를 잘못 표기한 제품이라 판매사가 2023년 11월 9일 개선조치를 했다고 회신했고, 지금 파는 제품은 인증번호가 제대로 찍혀 있는지 받은 뒤 확인하는 편이 낫다. 후기가 얇다는 점은 감안해야 한다',
+        tag: '48,000원 + 배송 3,000원',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9715298973&itemId=29070332162&vendorItemId=95996533583',
+      },
+    ],
+  },
   'air-purifier-compatible-filter-genuine-cost-20-product-test-guide': {
     sectionTitle: '공기청정기 호환필터 3종 (대명필터 4만4,000원 · 메이저필터 2만8,760원 · 필터모아 1만7,690원)',
     sectionSubtitle: '2026-11-18 쿠팡 상품 페이지 금액·상품평 기준(쿠폰·할인은 판매자 사정에 따라 변동)',

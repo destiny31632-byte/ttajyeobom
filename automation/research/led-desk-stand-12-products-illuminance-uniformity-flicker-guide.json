@@ -1,0 +1,196 @@
+{
+  "slug": "led-desk-stand-12-products-illuminance-uniformity-flicker-guide",
+  "checkedAt": "2026-11-19T08:10:00+09:00",
+  "facts": [
+    {
+      "claim": "한국소비자원은 비교공감 제2023-20호로 LED 스탠드 12개 제품의 품질과 안전성을 시험평가해 2023년 11월 28일 공개했다.",
+      "value": "2023, 20, 12, 11, 28",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "게시일 2023-11-28. 시험평가국 전기전자팀. 주요 브랜드 12개 제품의 최대 조도, 조도 균일성, 빛 깜빡임, 색 구현성, 전자파 내성을 시험.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "시험 대상은 최근 2년 이내에 LED 스탠드를 구입해 사용한 경험이 있는 소비자 1,000명 설문(2023년 3월)에서 보유율이 높은 12개 브랜드 12종을 골랐고, 사각 형태의 LED 일체형이면서 소비전력이 9W에서 14W 사이인 제품으로 한정했다.",
+      "value": "2, 1000, 2023, 3, 12, 9, 14",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "소비자 설문조사 결과 보유율이 높은 12개 브랜드 12종 제품 선정. 제품 선정 기준은 사각 형태의 LED 일체형, 소비전력 9~14W.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "구입가는 넥소버 18,900원, 듀플렉스 29,800원, 레토 32,900원, 노브랜드 39,800원, 프리즘 39,800원, 루미앤 39,900원, 삼정 43,000원, 무아스 44,800원, 반디 45,000원, 브리츠 50,400원, 삼성전자 59,000원, 필립스 62,900원이다.",
+      "value": "18,900, 29,800, 32,900, 39,800, 39,800, 39,900, 43,000, 44,800, 45,000, 50,400, 59,000, 62,900",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "2023년 4월에서 5월 온·오프라인 1개당 구입가 기준. 온라인 구입 제품은 배송비 포함.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "표시 소비전력은 넥소버 10W, 노브랜드 11W, 듀플렉스 9W, 레토 10W, 루미앤 9W, 무아스 9W, 반디 12W, 브리츠 10.5W, 삼성전자 9W, 삼정 9W, 프리즘 10W, 필립스 12W다.",
+      "value": "10, 11, 9, 10, 9, 9, 12, 10.5, 9, 9, 10, 12",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "시험평가 대상 제품 표의 표시 소비전력[W] 항목.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "최대 조도는 스탠드가 40cm 아래 표면을 비출 때 중심의 단위면적 1제곱미터당 빛의 밝기로 측정한다.",
+      "value": "40, 1",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "스탠드 40cm 아래 표면의 중심 1㎡당 빛의 밝기를 확인한 결과.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "KS C 7656 이동형 LED 등기구와 KS A 3011 조도 기준의 조도 범위는 600lx에서 1,500lx이고, 이 범위를 충족한 제품은 6개다.",
+      "value": "600, 1500, 6",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "레토, 반디, 브리츠, 삼성전자, 삼정, 필립스 등 6개 제품이 1,500lx 이하로 한국산업표준 최대 권장기준을 충족.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "최대 조도는 반디 1,007lx, 레토 1,099lx, 필립스 1,221lx, 브리츠 1,334lx, 삼정 1,337lx, 삼성전자 1,432lx, 듀플렉스 1,510lx, 무아스 1,514lx, 넥소버 1,667lx, 루미앤 1,782lx, 프리즘 1,802lx, 노브랜드 2,053lx다.",
+      "value": "1007, 1099, 1221, 1334, 1337, 1432, 1510, 1514, 1667, 1782, 1802, 2053",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224717&funcType=colctInfoFunction",
+      "evidence": "붙임3 LED 스탠드 종합결과표의 최대 조도[lx] 항목(최대 밝기 조건 측정).",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "조도 균일성은 스탠드 40cm 아래에서 중심부와 중심에서 30cm 간격의 주변부 8개, 모두 9개 지점의 조도가 균일한지 평가하며, 레토와 반디 2개 제품이 상대적으로 우수했다.",
+      "value": "40, 30, 8, 9, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "중심부와 중심에서 30cm 간격으로 8개의 주변부, 총 9개 지점의 조도로 평가. 레토(LLS-01), 반디(T500) 2개 제품이 우수.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "조도 균일성에서 노브랜드와 프리즘 2개는 보통 수준이고 나머지 8개는 양호한 수준이다.",
+      "value": "2, 8",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "노브랜드(PL-2200WH), 프리즘(PL-2990BK) 등 2개 제품은 보통, 넥소버·듀플렉스 등 8개 제품은 양호.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "빛 깜빡임(플리커)은 10개 제품이 우수했고, 넥소버와 레토 2개 제품만 상대적으로 보통이었다.",
+      "value": "10, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "노브랜드, 듀플렉스, 루미앤, 무아스, 반디, 브리츠, 삼성전자, 삼정, 프리즘, 필립스 10개 제품이 빛 깜빡임이 거의 없어 우수.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "삼성전자 SI-GM9C10A1A2D와 필립스 9290032130은 최대 밝기 조건이 아닌 일부 모드에서 빛 깜빡임이 증가하는 경우가 있다는 주석이 붙었다.",
+      "value": "1",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224717&funcType=colctInfoFunction",
+      "evidence": "종합결과표 주1. 최대 밝기 조건이 아닌 일부 모드에서 빛 깜빡임이 증가하는 경우가 있음(삼성전자, 필립스).",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "색 구현성(연색성)은 듀플렉스, 브리츠, 필립스 3개 제품이 우수했고, 나머지 9개 제품은 연색지수가 80 이상으로 양호했다.",
+      "value": "3, 9, 80",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "연색지수는 듀플렉스, 브리츠, 필립스 3개 제품이 상대적으로 우수. 넥소버, 노브랜드 등 9개 제품은 연색지수 80 이상 양호.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "수명성능은 초기 밝기 대비 2,000시간 점등 후 광속유지율이 90% 이상이어야 하며, 전 제품이 기준을 충족해 95%에서 117%였다.",
+      "value": "2000, 90, 95, 117",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "2,000시간 사용 후 밝기 변화를 확인. 광속유지율 90% 이상이 기준이며 제품 모두 충족.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "광효율은 무아스 MLW5가 82lm/W로 가장 높고 프리즘 PL-2990BK가 42lm/W로 가장 낮아 제품 간 1.9배 차이가 났다.",
+      "value": "82, 42, 1.9",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "소비전력 당 광속을 나타내는 광효율은 무아스 82lm/W, 프리즘 42lm/W로 최대 1.9배 차이.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "소비전력은 8.1W에서 13.7W 사이이고, 1일 3시간 사용과 kWh당 160원을 적용한 연간 전기요금은 제품별로 1,400원에서 2,400원이었다.",
+      "value": "8.1, 13.7, 3, 160, 1400, 2400",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "연간 사용 시 전기요금은 1,400원~2,400원. 1일 3시간 작동, kWh당 단가 160원 적용.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "누설전류, 전도안정성, 광생물학적 안전성은 전 제품 이상이 없었다.",
+      "value": "3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "누설전류, 전도안정성, 광생물학적 안전성을 시험평가한 결과 전 제품 이상 없음.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "전자파 내성에서는 듀플렉스 DP-031LS와 삼정 SL-2300 2개 제품이 전원이 꺼지는 등 이상 현상으로 전자파적합성 기준에 부적합했고, 판매사는 각각 2023년 11월 23일과 11월 24일 개선조치를 회신했다.",
+      "value": "2, 11, 23, 24",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "듀플렉스, 삼정 2개 제품이 전원이 꺼지는 등 이상 현상으로 부적합. 관계기관 통보 예정, 양일상사 개선 완료(23.11.23), 삼정엘이디 개선 예정(23.11.24) 회신.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "법정 표시사항은 반디 T500의 전자파적합성 인증번호 오표기와 브리츠 BE-LED50의 어댑터 인증번호 미표시로 2개 제품이 부적합이었고, 두 판매사는 2023년 11월 9일과 11월 7일 개선조치를 회신했다.",
+      "value": "2, 11, 9, 7",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080036",
+      "evidence": "반디(T500), 브리츠(BE-LED50) 2개 제품이 인증번호를 잘못 표기하거나 표시하지 않음. 반디 개선(23.11.09), 브리츠 개선(23.11.07) 회신.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "쿠팡에서 레토 시력 보호 학습용 데스크 LED 스탠드 LLS-01을 33,910원에 무료배송으로 확인했고, 평점 4.5에 상품평 4,063건, 내일 새벽 도착 보장이었다.",
+      "value": "33,910, 4.5, 4,063",
+      "sourceUrl": "https://www.coupang.com/vp/products/9768018726?itemId=29231757124&vendorItemId=3007335437",
+      "evidence": "2026-11-19 쿠팡 상품 페이지: 33,910원, 무료배송, 무료반품, 평점 4.5, 상품평 4,063건, 내일(금) 새벽 도착 보장, KC 인증 MSIP-REI-GMS-LLS-01N.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "쿠팡에서 필립스 LED 스워드 데스크 램프 스탠드 9290032130을 정가 57,500원에서 9% 와우쿠폰할인을 적용해 52,320원에 확인했고, 상품평 440건에 평점 5였다.",
+      "value": "57,500, 9, 52,320, 440, 5",
+      "sourceUrl": "https://www.coupang.com/vp/products/7413368963?itemId=19213593388&vendorItemId=86330622200",
+      "evidence": "2026-11-19 쿠팡 상품 페이지: 57,500원에서 2,300원 쿠폰 적용 52,320원, 무료배송, 무료반품, 오늘(목) 도착 보장, 상품평 440건, 최고 85%.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "쿠팡에서 반디LED 큐브 T500 12W 와이드 LED 스탠드 스탠드형타입을 48,000원에 배송비 3,000원으로 확인했고, 상품평은 2건에 평점 3.5였다.",
+      "value": "500, 12, 48,000, 3,000, 2, 3.5",
+      "sourceUrl": "https://www.coupang.com/vp/products/9715298973?itemId=29070332162&vendorItemId=95996533583",
+      "evidence": "2026-11-19 쿠팡 상품 페이지: 판매자 (주)반디, 48,000원, 배송비 3,000원, 롯데택배, 상품평 2건 평점 3.5, 내일 도착 예정.",
+      "asOf": "2026-11-19"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "최대 조도 차이",
+      "formula": "2,053lx - 1,007lx = 1,046lx",
+      "assumptions": "소비자원 종합결과표의 최대 조도 12개 값 가운데 최댓값과 최솟값",
+      "values": [2053, 1007, 1046]
+    },
+    {
+      "table": "연간 전기요금 재계산(최대 소비전력)",
+      "formula": "13.7W x 3시간 x 365일 = 15,001.5Wh = 15.0kWh, 15.0kWh x 160원 = 2,400원",
+      "assumptions": "소비자원과 같은 1일 3시간, kWh당 160원 적용",
+      "values": [13.7, 3, 365, 15001.5, 15, 160, 2400]
+    },
+    {
+      "table": "연간 전기요금 재계산(최소 소비전력)",
+      "formula": "8.1W x 3시간 x 365일 = 8,869.5Wh = 8.87kWh, 8.87kWh x 160원 = 1,419원",
+      "assumptions": "소비자원과 같은 1일 3시간, kWh당 160원 적용",
+      "values": [8.1, 3, 365, 8869.5, 8.87, 160, 1419]
+    },
+    {
+      "table": "시험 구입가와 쿠팡 확인가 차이",
+      "formula": "62,900원 - 33,910원 = 28,990원",
+      "assumptions": "시험 대상 필립스 구입가와 쿠팡 레토 판매가 비교",
+      "values": [62900, 33910, 28990]
+    },
+    {
+      "table": "반디 실제 결제액",
+      "formula": "48,000원 + 배송비 3,000원 = 51,000원",
+      "assumptions": "쿠팡 상품 페이지의 판매가와 배송비 합계",
+      "values": [48000, 3000, 51000]
+    },
+    {
+      "table": "필립스 할인 폭",
+      "formula": "57,500원 - 52,320원 = 5,180원",
+      "assumptions": "정가와 와우쿠폰 적용가 차이",
+      "values": [57500, 52320, 5180]
+    }
+  ],
+  "watch": [
+    "레토 LLS-01, 필립스 9290032130, 반디 T500의 쿠팡 판매가와 상품평 수",
+    "한국소비자원 비교공감 원문 게시 상태",
+    "단종·후속 모델 출시 여부"
+  ]
+}
