@@ -1,10 +1,10 @@
 {
   "date": "2026-11-18",
-  "published": [],
-  "remaining": 2,
-  "status": "held",
-  "newPost": null,
-  "topic": "winter-tire-wear-winter-tire-replacement-timing-guide",
-  "reason": "30일 이내 무료 프로젝트·결제 미연결 재확인 필요",
-  "workflowStatus": "failure"
+  "published": [
+    "carbon-running-shoes-7-knee-impact-outsole-wear-guide",
+    "vacuum-sealer-33900-vs-79000-kimjang-bag-cost-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
