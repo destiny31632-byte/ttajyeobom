@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'air-purifier-compatible-filter-genuine-cost-20-product-test-guide': {
+    sectionTitle: '공기청정기 호환필터 3종 (대명필터 4만4,000원 · 메이저필터 2만8,760원 · 필터모아 1만7,690원)',
+    sectionSubtitle: '2026-11-18 쿠팡 상품 페이지 금액·상품평 기준(쿠폰·할인은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '시험 2관왕 1위 🥇',
+        productName: '대명필터 국내산 삼성 큐브 공기청정기 호환 필터 세트, CFX-H170D(AX47N9980SSD)',
+        specSummary: '확인일 기준 44,000원이고 무료배송에 11월 20일 도착 예정이다. 한국소비자원 호환필터 시험에 쓰인 것과 같은 삼성 큐브 CFX-H170D 모델로, 20개 제품 가운데 유해가스 제거효율 기준을 충족한 4개 중 하나이며 미세먼지 제거성능도 상대적으로 우수(★★★)를 받았다. 권장 교체주기는 12개월로, 1년 필터값이 44,000원으로 끝난다. 3년을 쓰면 132,000원, 5년이면 220,000원이다. 유해물질 안전성도 적합 판정이다. 두 항목을 모두 통과한 제품이 20개 중 2개뿐이라 오래 쓰면서 냄새까지 잡으려는 경우 첫 번째로 볼 만하다',
+        tag: '44,000원 · 12개월 주기',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9768620493&itemId=29238730106&vendorItemId=85071863348',
+      },
+      {
+        rank: 2,
+        rankBadge: '탈취 통과 가성비 🥈',
+        productName: '메이저필터 위닉스 공기청정기 제로 3.0 필터 세트, CAF-P0S3',
+        specSummary: '확인일 기준 28,760원이고 평점 4.5에 상품평 17건, 무료배송·무료반품이며 11월 19일 도착이 보장된다. 재고가 2개로 표시돼 있다. 같은 브랜드의 위닉스 제로4.0용 필터가 한국소비자원 시험에서 유해가스 기준 충족과 미세먼지 ★★★를 동시에 받았다. 다만 쿠팡에서 파는 이 제품은 제로3.0용이라 시험 대상과 모델이 다르고, 3.0용은 시험에 포함되지 않았다는 점을 감안해야 한다. 12개월 주기로 계산하면 연 28,760원이다',
+        tag: '28,760원 · 후기 17건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7227954992&itemId=18333323691&vendorItemId=84392812841',
+      },
+      {
+        rank: 3,
+        rankBadge: '최저가 미세먼지 3위 🥉',
+        productName: '필터모아 LG 엘지 퓨리케어 360 공기청정기 호환 필터, LG 360 헤파형',
+        specSummary: '확인일 기준 25,900원에서 31퍼센트 내린 17,690원이고 평점 5에 상품평 240건, 무료배송이며 11월 20일 도착 예정이다. 세 제품 가운데 가장 싸고 후기도 가장 두껍다. 한국소비자원 시험에서 이 브랜드의 프리미엄형은 미세먼지 제거성능 상대적 우수(★★★)를 받았지만 유해가스 제거효율은 기준에 미달했다. 쿠팡 판매분은 시험 대상인 프리미엄형이 아니라 헤파형이라 등급을 그대로 적용할 수 없다. 냄새 제거보다 먼지 걸러내는 성능과 가격을 우선할 때 맞는 선택지다',
+        tag: '17,690원 · 후기 240건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9025516869&itemId=27643710650&vendorItemId=95199235610',
+      },
+    ],
+  },
   'carbon-running-shoes-7-knee-impact-outsole-wear-guide': {
     sectionTitle: '카본 러닝화 3종 (나이키 줌플라이6 12만2,490원 · 푸마 디비에이트 나이트로4 10만9,000원 · 아식스 매직스피드5 12만5,800원)',
     sectionSubtitle: '2026-11-18 쿠팡 상품 페이지 금액·상품평 기준(쿠폰·할인은 판매자 사정에 따라 변동)',

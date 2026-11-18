@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-18T03:59:10.189Z",
+  "checkedAt": "2026-11-18T10:41:28.689Z",
   "site": "https://ttajyeobom.com",
-  "pages": 782,
-  "indexable": 168,
+  "pages": 788,
+  "indexable": 171,
   "failures": [],
   "warnings": [
     {
@@ -18,7 +18,7 @@
     {
       "level": "warn",
       "page": "/tags/소비자원시험/2/, /tags/소비자원시험/",
-      "message": "설명 중복: '소비자원시험' 태그가 붙은 따져봄 글 13개를 모았습니다.…"
+      "message": "설명 중복: '소비자원시험' 태그가 붙은 따져봄 글 14개를 모았습니다.…"
     }
   ],
   "externalLinks": [
@@ -409,6 +409,7 @@
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6976280145&itemId=17268931390&vendorItemId=4279138910",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7000775184&itemId=17167598534",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7168565942&itemId=25991937308&vendorItemId=92974298970",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7227954992&itemId=18333323691&vendorItemId=84392812841",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7266119002&itemId=18667659772&vendorItemId=85802089124",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7276600397&itemId=20014531934&vendorItemId=94608420401",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7295797798&itemId=26851205798&vendorItemId=93821021994",
@@ -460,6 +461,7 @@
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8810139212&itemId=25663413274&vendorItemId=91716806450",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8959101148&itemId=26214824851&vendorItemId=93193854577",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8973154333&itemId=26264563866&vendorItemId=93237482508",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9025516869&itemId=27643710650&vendorItemId=95199235610",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9053141046&itemId=22048953474&vendorItemId=83358381384",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9080861108&itemId=26676808369&vendorItemId=73761603647",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9156454963&itemId=26967015147&vendorItemId=93935944525",
@@ -491,6 +493,7 @@
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9740371118&itemId=28957021928&vendorItemId=96274095320",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9749172394&itemId=29190919551&vendorItemId=93629376055",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9749503627&itemId=29192129896&vendorItemId=96115771470",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9768620493&itemId=29238730106&vendorItemId=85071863348",
     "https://link.springer.com/article/10.1007/s13555-021-00611-y",
     "https://m.airkorea.or.kr/info/behaviorInfo1",
     "https://m.blog.naver.com/autolog/221796220423",
@@ -671,6 +674,7 @@
     "https://www.cleantopia.com/kr/customer/faqList.do?searchCondition=3",
     "https://www.cochrane.org/evidence/CD004522_thermotherapy-heat-treatment-treating-osteoarthritis-knee",
     "https://www.colon.or.kr/colonlife_new/bbs/index.kin?bbs_mode=view&f_master_idx=46&f_template_type=list&f_wbcode=board_story_1",
+    "https://www.consumer.go.kr/ccp/user/bbs/ccp/41/38/bbsDataView/1028.do",
     "https://www.consumer.go.kr/user/bbs/consumer/261/731/bbsDataView/2392.do",
     "https://www.consumer.go.kr/user/bbs/consumer/261/731/bbsDataView/2417.do",
     "https://www.consumer.go.kr/user/bbs/consumer/340/900/bbsDataView/2397.do",
@@ -688,6 +692,7 @@
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081112&page=1",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081252",
+    "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081444",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&cntntsNm=&infoId=A1081103",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A0000355",
@@ -746,6 +751,7 @@
     "https://www.coupang.com/vp/products/6838116861",
     "https://www.coupang.com/vp/products/6955955921",
     "https://www.coupang.com/vp/products/7000775184",
+    "https://www.coupang.com/vp/products/7227954992?itemId=18333323691&vendorItemId=84392812841",
     "https://www.coupang.com/vp/products/7266119002?itemId=18667659772&vendorItemId=85802089124",
     "https://www.coupang.com/vp/products/7295797798",
     "https://www.coupang.com/vp/products/7324728924",
@@ -789,6 +795,7 @@
     "https://www.coupang.com/vp/products/8709628803",
     "https://www.coupang.com/vp/products/8747007590?itemId=25425251931&vendorItemId=93031910278",
     "https://www.coupang.com/vp/products/8959101148?itemId=26214824851&vendorItemId=93193854577",
+    "https://www.coupang.com/vp/products/9025516869?itemId=27643710650&vendorItemId=95199235610",
     "https://www.coupang.com/vp/products/9053141046",
     "https://www.coupang.com/vp/products/9171495621",
     "https://www.coupang.com/vp/products/9206998605",
@@ -813,6 +820,7 @@
     "https://www.coupang.com/vp/products/9727610179?itemId=26571328841&vendorItemId=85072867800",
     "https://www.coupang.com/vp/products/9740371118",
     "https://www.coupang.com/vp/products/9749172394",
+    "https://www.coupang.com/vp/products/9768620493?itemId=29238730106&vendorItemId=85071863348",
     "https://www.cpsc.gov/s3fs-public/5046.pdf",
     "https://www.customs.go.kr/kcs/cm/cntnts/cntntsView.do?cntntsId=828&mi=2836",
     "https://www.customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10142854&nttSnUrl=0ddd5ddedd8d336d4b66b4d9ea728964",
@@ -988,6 +996,7 @@
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156671771",
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156721628",
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156734593",
+    "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156772414",
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156784394",
     "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156397603",
     "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156432392",
@@ -1221,7 +1230,7 @@
     "https://zdnet.co.kr/view/?no=20150215140612",
     "https://zdnet.co.kr/view/?no=20201012164450"
   ],
-  "sitemapUrls": 154,
+  "sitemapUrls": 157,
   "stats": {
     "maxHtmlKb": 91.1,
     "avgHtmlKb": 17.8,

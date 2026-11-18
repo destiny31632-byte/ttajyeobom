@@ -1,0 +1,219 @@
+{
+  "slug": "air-purifier-compatible-filter-genuine-cost-20-product-test-guide",
+  "checkedAt": "2026-11-18",
+  "facts": [
+    {
+      "claim": "한국소비자원은 비교공감 제2026-12호로 공기청정기 호환필터 20개 제품의 품질과 안전성을 시험평가해 2026년 7월 28일 공개했다.",
+      "value": "제2026-12호, 20개 제품, 2026-07-28",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "시중에 판매되는 공기청정기 호환필터 20개 제품의 품질과 안전성을 시험평가, 게시일 2026-07-28.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "호환필터 가격은 정품필터의 30~56% 수준이고, 시험 대상은 LG전자·삼성전자·위닉스·샤오미 공기청정기와 호환되는 20개 브랜드 20개 제품이다.",
+      "value": "30%, 56%, 20개 브랜드, 20개 제품",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "정품필터와 형태·기능이 유사한 필터로 가격은 정품필터의 30~56% 수준.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "정품필터 4종의 세트 가격은 LG PFSAJC01 89,000원, 삼성 CFX-H170D 79,000원, 위닉스 CAF-P0S3 59,000원, 샤오미 M8R-FLH 42,800원이다.",
+      "value": "89,000 / 79,000 / 59,000 / 42,800",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "정품필터 가격[원/세트] 89,000 / 79,000 / 59,000 / 42,800.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "가장 싼 호환필터는 필터연구소 샤오미 미에어용 13,000원이고 가장 비싼 호환필터는 하우스필터 삼성 큐브용 40,700원이다.",
+      "value": "13,000 / 40,700",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "가격[원/세트] 13,000(필터연구소)에서 40,700(하우스필터)까지.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "유해가스 제거효율 기준은 5개 가스의 개별 제거율이 각각 40% 이상, 평균 제거율이 70% 이상이며, 이 기준을 충족한 제품은 20개 중 4개다.",
+      "value": "40%, 70%, 4개",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "5개 가스의 개별 제거율이 각각 40% 이상, 평균 제거율은 70% 이상인지 확인.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "기준을 충족한 4개 제품은 대명필터 삼성 큐브 CFX-H170D, 메이저필터 위닉스 제로4.0, 바른필터 위닉스 제로4.0(프리미엄), 베스트필터 위닉스 제로4.0(필터세트)이고, 이들의 평균 제거효율은 73~79%다.",
+      "value": "4개, 73%, 79%",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "4개 제품만 73~79% 수준의 평균 제거효율로 관련 기준을 충족.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "기준을 충족하지 못한 16개 제품의 유해가스 평균 제거효율은 20~63%이고, 정품필터 4종의 평균 제거효율은 81~100%다.",
+      "value": "16개, 20%, 63%, 81%, 100%",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "16개 제품의 유해가스 평균 제거효율은 20~63% 수준, 정품필터 4종은 81~100% 수준.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "유해가스 제거효율 시험은 약 8m3 공간에 5개 가스를 10ppm 농도로 넣고 호환필터를 장착한 공기청정기를 30분간 작동해 측정했다.",
+      "value": "8m3, 10ppm, 30분",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "약 8m3 공간에 폼알데하이드 등 5개 가스를 10ppm 농도로 주입하고 30분간 작동.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "미세먼지 제거성능은 공기청정기에 표시된 표준사용면적의 90% 이상이 기준이고, 8개 제품이 90~107%로 충족, 10개 제품이 80~89%로 보통, 2개 제품이 68~77%로 미흡했다.",
+      "value": "90%, 8개, 90~107%, 10개, 80~89%, 2개, 68~77%",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "표시값의 90% 이상이어야 하며, 8개 90~107%, 10개 80~89%, 2개 68~77%.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "정품필터 4종의 미세먼지 제거성능은 공기청정기 표시값 대비 102~113%다.",
+      "value": "102%, 113%",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "정품필터 4종의 미세먼지 제거성능은 표시값 대비 102~113% 수준.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "미세먼지 제거성능 시험은 약 30m3 공간에 지름 0.3㎛ 미세입자를 살포하고 호환필터를 장착한 공기청정기를 20분간 작동해 측정했다.",
+      "value": "30m3, 0.3㎛, 20분",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "약 30m3 공간에 지름 0.3㎛ 미세입자를 살포하고 20분간 작동.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "2개 제품(TSI 샤오미 미에어 호환필터 그레이 프리미엄, 세진 샤오미 미에어 호환필터 그레이필터)의 유해가스 제거필터에서 함유금지물질 메틸이소티아졸리논(MIT)이 검출됐다.",
+      "value": "2개, MIT",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "2개 제품의 유해가스 제거(탈취) 필터에서 MIT가 검출돼 관련 기준에 부적합.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "MIT가 검출된 두 제품은 판매가 중단됐고 기존 판매분은 무상 교환 또는 환불 대상이다. TSI 제품은 2025년 7월 23일부터 9월 13일까지 433개, 세진 제품은 2025년 4월 7일부터 5월 30일까지 192개가 팔렸다.",
+      "value": "433개, 192개, 2025-07-23, 2025-09-13, 2025-04-07, 2025-05-30",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "판매시기·판매수량 표: TSI 2025.7.23~9.13 433개, 세진 2025.4.7~5.30 192개, 무상 교환 또는 환불.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "필터형 보존처리 제품에는 생활화학제품 및 살생물제의 안전관리에 관한 법률에 따라 MIT, CMIT, 염화벤잘코늄류, 이염화이소시아눌산나트륨이 함유되어서는 안 된다.",
+      "value": "MIT, CMIT, 염화벤잘코늄류, 이염화이소시아눌산나트륨",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "공기청정기 필터에 항균·멸균 보존처리를 했을 경우 해당 물질은 함유 금지.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "20개 제품의 권장 교체주기는 3개월에서 12개월까지 차이가 있고, 호환 공기청정기 모델이 같아도 교체주기가 2배 이상 차이 나는 경우가 있었다.",
+      "value": "3개월, 12개월, 2배",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "교체주기는 3~12개월로 제품별 차이, 동일 모델에서도 2배 이상 차이.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "호환 가능한 공기청정기 모델 수는 브랜드별로 2종에서 150종까지 차이가 난다.",
+      "value": "2종, 150종",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "호환 공기청정기 모델수 2(바른필터·베스트필터)에서 150(필터모아)까지.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "한국소비자원은 성능이 미흡한 16개 업체에 품질 개선을 권고했고 13개 업체가 재질 변경과 생산 공정 개선 계획을 회신했다.",
+      "value": "16개, 13개",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "16개 업체 권고, 13개 업체가 개선 계획 회신.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "2026년 11월 18일 쿠팡에서 필터모아 LG 퓨리케어 360 호환필터 헤파형을 25,900원에서 31% 내린 17,690원에 판매하며 상품평은 240건이다.",
+      "value": "25,900, 31%, 17,690, 240건",
+      "sourceUrl": "https://www.coupang.com/vp/products/9025516869?itemId=27643710650&vendorItemId=95199235610",
+      "evidence": "검색 결과 표시: 와우할인 25,900원 31% 17,690원, 평점 5, 상품평 240, 무료배송, 모레(금) 도착 예정.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "2026년 11월 18일 쿠팡에서 대명필터 국내산 삼성 큐브 AX47N9980SSD 호환 필터 세트 CFX-H170D를 44,000원에 판매한다.",
+      "value": "44,000",
+      "sourceUrl": "https://www.coupang.com/vp/products/9768620493?itemId=29238730106&vendorItemId=85071863348",
+      "evidence": "검색 결과 표시: 44,000원, 무료배송, 모레(금) 도착 예정.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "2026년 11월 18일 쿠팡에서 메이저필터 위닉스 제로 3.0 필터 세트 CAF-P0S3를 28,760원에 판매하며 상품평은 17건, 평점 4.5다.",
+      "value": "28,760, 17건, 4.5",
+      "sourceUrl": "https://www.coupang.com/vp/products/7227954992?itemId=18333323691&vendorItemId=84392812841",
+      "evidence": "검색 결과 표시: 28,760원, 무료배송·무료반품, 내일(목) 도착 보장, 4.5점 17건, 단 2개 남음.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "시험 대상 선정 설문은 최근 3년 내 호환필터를 구매·사용한 경험이 있는 소비자 1,500명을 대상으로 2025년 2월에 실시했다.",
+      "value": "1,500명, 2025년 2월",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "최근 3년 내 호환필터 구매·사용 경험이 있는 소비자 1,500명 대상(한국소비자원, 2025. 2.).",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "본문의 정품 대비 비율과 연간·5년 유지비는 시험보고서의 가격과 교체주기로 직접 계산한 값이다. LG 정품 89,000원과 필터모아 32,000원의 차액은 57,000원, 5년이면 정품 445,000원과 호환 160,000원으로 285,000원 차이다.",
+      "value": "57,000, 31.2, 39.5, 39.7, 30.4, 42,667, 77,520, 73,848, 94,587, 445,000, 160,000, 285,000, 90,450, 23,587, 9, 5, 4.5",
+      "sourceUrl": "https://www.consumer.go.kr/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+      "evidence": "계산: 89,000-32,000=57,000 / 27,800/89,000=31.2 / 32,000×12/9=42,667 / 32,300×12/5=77,520 / 18,462×12/3=73,848 / 35,470×12/4.5=94,587 / 89,000×5=445,000 / 32,000×5=160,000 / 445,000-160,000=285,000 / 17,690+44,000+28,760=90,450 / 17,690×12/9=23,587",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "LG 기기용 호환필터 5개와 샤오미 기기용 5개, 합쳐 10개 제품이 유해가스 기준을 넘지 못했고, 두 항목을 모두 통과한 제품은 2개, 미세먼지 제거성능이 표시값의 90% 미만인 제품은 12개다.",
+      "value": "5개, 5개, 10개, 2개, 12개",
+      "sourceUrl": "https://www.consumer.go.kr/ccp/user/bbs/ccp/41/38/bbsDataView/1028.do",
+      "evidence": "LG용은 필터모아·메가필터·필터왕국·스타더스트필터·한국필터 5개, 샤오미용은 TSI·상상그램·세진·필터연구소·환경필터 5개이며 모두 유해가스 준용기준 불충족.",
+      "asOf": "2026-11-18"
+    },
+    {
+      "claim": "쿠팡 상품 페이지의 도착 예정일은 필터모아와 대명필터가 11월 20일, 메이저필터가 11월 19일이고, 대명필터 삼성 큐브 옵션의 상품평은 2건부터 13건까지다.",
+      "value": "20일, 19일, 2건, 13건",
+      "sourceUrl": "https://www.coupang.com/vp/products/9768620493?itemId=29238730106&vendorItemId=85071863348",
+      "evidence": "검색 결과 표시: 필터모아·대명필터 모레(금) 도착 예정, 메이저필터 내일(목) 도착 보장, 대명필터 옵션별 상품평 1~13건.",
+      "asOf": "2026-11-18"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "정품 대비 호환필터 가격 비율",
+      "formula": "호환필터 가격 나누기 정품필터 가격 곱하기 100",
+      "values": ["27,800/89,000=31.2", "31,210/79,000=39.5", "23,400/59,000=39.7", "13,000/42,800=30.4"]
+    },
+    {
+      "table": "정품과 호환의 차액",
+      "formula": "정품필터 가격 − 호환필터 가격",
+      "values": ["89,000-27,800=61,200", "79,000-31,210=47,790", "59,000-23,400=35,600", "42,800-13,000=29,800"]
+    },
+    {
+      "table": "교체주기를 반영한 연간 비용",
+      "formula": "세트 가격 × (12 ÷ 교체주기)",
+      "assumptions": "교체주기가 범위로 표시된 제품은 범위의 중간값(예: 6~12개월은 9개월)을 적용",
+      "values": ["35,470×12/4.5=94,587", "32,300×12/5=77,520", "18,462×12/3=73,848", "32,000×12/9=42,667", "34,900×12/12=34,900", "28,500×12/12=28,500"]
+    },
+    {
+      "table": "쿠팡 확인가 기준 연간 비용",
+      "formula": "확인가 × (12 ÷ 교체주기)",
+      "values": ["17,690×12/9=23,587", "28,760×12/12=28,760", "44,000×12/12=44,000"]
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "미세먼지 제거성능 미달 제품 수",
+      "detail": "본문 요약부는 '12개 제품이 표시값 대비 68~89%'로, 붙임 1 세부 결과는 '10개 80~89%(보통), 2개 68~77%(미흡)'로 나뉘어 표기된다.",
+      "sources": [
+        "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387",
+        "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailNo=01&fileGroupNo=000224883&funcType=colctInfoFunction"
+      ],
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-18",
+        "reason": "90% 미만 12개를 요약부가 '68~89%'로 묶은 것이고, 세부 결과는 같은 12개를 80~89% 10개와 68~77% 2개로 나눈 것이다. 본문은 세부 결과(10개·2개)를 쓰고 90% 미만 합계 12개를 함께 적어 두 표기를 모두 설명한다.",
+        "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081387"
+      }
+    }
+  ],
+  "watch": [
+    "쿠팡 판매가와 상품평 수(필터모아·대명필터·메이저필터)",
+    "MIT 검출 2개 제품의 교환·환불 진행 상황",
+    "한국소비자원 권고를 수용한 13개 업체의 개선 제품 출시 여부",
+    "2026년 겨울 미세먼지 계절관리제 시행 기간"
+  ]
+}
