@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-17T23:20:47.819Z",
+  "checkedAt": "2026-11-18T03:44:16.051Z",
   "site": "https://ttajyeobom.com",
-  "pages": 771,
-  "indexable": 166,
+  "pages": 782,
+  "indexable": 168,
   "failures": [],
   "warnings": [
     {
@@ -14,6 +14,11 @@
       "level": "warn",
       "page": "/category/living/2/, /category/living/3/, /category/living/",
       "message": "설명 중복: 전기·가스요금, 통신비, 쇼핑과 세금처럼 매달 나가는 돈을 직접 계산해 …"
+    },
+    {
+      "level": "warn",
+      "page": "/tags/소비자원시험/2/, /tags/소비자원시험/",
+      "message": "설명 중복: '소비자원시험' 태그가 붙은 따져봄 글 13개를 모았습니다.…"
     }
   ],
   "externalLinks": [
@@ -444,6 +449,7 @@
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8529338891&itemId=22585561384&vendorItemId=89627301433",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8549496709&itemId=17990327512&vendorItemId=85146911087",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8563858640&itemId=24803423835&vendorItemId=91811102751",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8614892478&itemId=26148979116&vendorItemId=93128975842",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8634254220&itemId=25051307045&vendorItemId=92499627818",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8642503470&itemId=25081961325&vendorItemId=92082588002",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8670889752&itemId=25171009362&vendorItemId=91389574628",
@@ -478,7 +484,9 @@
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9638431440&itemId=28797087902&vendorItemId=95732585910",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9642057711&itemId=28811368258&vendorItemId=95746386237",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9668694043&itemId=28914056472&vendorItemId=96014350712",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9674846251&itemId=28928275871&vendorItemId=96198431465",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9697936818&itemId=29008978314&vendorItemId=95937159506",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9699274712&itemId=29013737856&vendorItemId=96334252912",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9727610179&itemId=26571328841&vendorItemId=85072867800",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9740371118&itemId=28957021928&vendorItemId=96274095320",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9749172394&itemId=29190919551&vendorItemId=93629376055",
@@ -680,6 +688,7 @@
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080962",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081112&page=1",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081252",
+    "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081444",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&cntntsNm=&infoId=A1081103",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A0000355",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A0000562",
@@ -774,6 +783,7 @@
     "https://www.coupang.com/vp/products/8549496709",
     "https://www.coupang.com/vp/products/8563858640",
     "https://www.coupang.com/vp/products/8584308126?itemId=24884910464&vendorItemId=91899132358",
+    "https://www.coupang.com/vp/products/8614892478?itemId=26148979116&vendorItemId=93128975842",
     "https://www.coupang.com/vp/products/8634254220",
     "https://www.coupang.com/vp/products/8670889752",
     "https://www.coupang.com/vp/products/8709628803",
@@ -798,6 +808,8 @@
     "https://www.coupang.com/vp/products/9638431440",
     "https://www.coupang.com/vp/products/9642057711?itemId=28811368258&vendorItemId=95746386237",
     "https://www.coupang.com/vp/products/9668694043",
+    "https://www.coupang.com/vp/products/9674846251?itemId=28928275871&vendorItemId=96198431465",
+    "https://www.coupang.com/vp/products/9699274712?itemId=29013737856&vendorItemId=96334252912",
     "https://www.coupang.com/vp/products/9727610179?itemId=26571328841&vendorItemId=85072867800",
     "https://www.coupang.com/vp/products/9740371118",
     "https://www.coupang.com/vp/products/9749172394",
@@ -860,6 +872,7 @@
     "https://www.fpn119.co.kr/252178",
     "https://www.fs.usda.gov/t-d/pubs/html/05231301/05231301.html",
     "https://www.ftc.go.kr/www/selectBbsNttView.do?bordCd=3&key=12&nttSn=46724&searchCtgry=01%2C02",
+    "https://www.ftc.go.kr/www/selectBbsNttView.do?bordCd=3&key=12&nttSn=48090",
     "https://www.galaxus.ch/en/page/ive-tested-five-static-clothing-hacks-almost-all-of-them-are-rubbish-25506",
     "https://www.gasnews.com/news/articleView.html?idxno=118825",
     "https://www.gasnews.com/news/articleView.html?idxno=94991",
@@ -975,6 +988,7 @@
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156671771",
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156721628",
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156734593",
+    "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156784394",
     "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156397603",
     "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156432392",
     "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156769067",
@@ -1207,7 +1221,7 @@
     "https://zdnet.co.kr/view/?no=20150215140612",
     "https://zdnet.co.kr/view/?no=20201012164450"
   ],
-  "sitemapUrls": 153,
+  "sitemapUrls": 154,
   "stats": {
     "maxHtmlKb": 91.1,
     "avgHtmlKb": 17.8,

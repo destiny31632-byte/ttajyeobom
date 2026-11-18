@@ -14,6 +14,36 @@ export interface AffiliateRankingGroup {
 }
 
 export const AFFILIATE_RANKING_MAP: Record<string, AffiliateRankingGroup> = {
+  'carbon-running-shoes-7-knee-impact-outsole-wear-guide': {
+    sectionTitle: '카본 러닝화 3종 (나이키 줌플라이6 12만2,490원 · 푸마 디비에이트 나이트로4 10만9,000원 · 아식스 매직스피드5 12만5,800원)',
+    sectionSubtitle: '2026-11-18 쿠팡 상품 페이지 금액·상품평 기준(쿠폰·할인은 판매자 사정에 따라 변동)',
+    products: [
+      {
+        rank: 1,
+        rankBadge: '안정성·후기 1위 🥇',
+        productName: '나이키 남성 줌 플라이 6 런닝화, FN8454-100',
+        specSummary: '확인일 기준 128,480원에서 4퍼센트 내린 122,490원이고 상품평 289건(최고 86퍼센트·좋음 9퍼센트·보통 3퍼센트)으로 확인한 세 제품 가운데 후기가 가장 두껍다. 소비자원 시험에서 신체압력중심과 충격흡수 두 항목 모두 상대적으로 우수(★★★)를 받았고, 무게는 270mm 기준 242g, 스택 차이 8mm다. 로켓직구 상품이라 관부가세가 포함되고 11월 24일 도착 예정이며, 판매자 답변에 국내 A/S는 제공되지 않는다고 적혀 있다. 상품평 만족도는 최고 86퍼센트·좋음 9퍼센트·보통 3퍼센트로 95퍼센트가 만족 쪽이다',
+        tag: '122,490원 · 후기 289건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8614892478&itemId=26148979116&vendorItemId=93128975842',
+      },
+      {
+        rank: 2,
+        rankBadge: '만족도·가격 1위 🥈',
+        productName: '푸마 디비에이트 나이트로4 남성 카본 러닝화, 312123-09',
+        specSummary: '확인일 기준 219,000원에서 50퍼센트 내린 109,000원으로 세 제품 중 가장 싸다. 소비자원 시험에서 충격흡수와 무릎 피로도를 모두 상대적으로 우수(★★★)로 받은 유일한 제품이고, 착용 만족도는 5점 만점에 4.6점으로 7종 가운데 1위다. 겉창 마모는 4.8mm로 7종 중 두 번째로 적고 무게는 244g, 스택 차이 8mm다. 로켓배송에 무료반품이 붙는다. 다만 상품평이 1건뿐이고 재고가 3개로 표시돼 있어 후기로 검증된 제품을 원한다면 불안한 선택지다',
+        tag: '109,000원 · 후기 1건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9699274712&itemId=29013737856&vendorItemId=96334252912',
+      },
+      {
+        rank: 3,
+        rankBadge: '경량·접지 1위 🥉',
+        productName: '아식스 매직 스피드 5 운동화, 1013A183-100',
+        specSummary: '확인일 기준 125,800원이고 상품평은 7건이다. 11월 27일 도착 예정이며 반품 비용은 왕복 11,000원이다. 소비자원 시험에서 무게가 270mm 기준 198g으로 7종 중 가장 가볍고, 최대견인력과 접착강도, 무릎 피로도 세 항목에서 상대적으로 우수(★★★)를 받았다. 겉창 마모는 5.0mm, 스택 차이 7mm다. 다만 발바닥 압력은 7종 중 유일하게 보통(★)이어서 장거리에서 압력 분산은 상대적으로 약하다',
+        tag: '125,800원 · 후기 7건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9674846251&itemId=28928275871&vendorItemId=96198431465',
+      },
+    ],
+  },
   'electric-shaver-47300-vs-113900-rotary-foil-waterproof-guide': {
     sectionTitle: '전기면도기 3종 (전체방수 회전식 6만9,230원 · 헤드방수 왕복식 4만7,300원 · 60분 회전식 11만3,900원)',
     sectionSubtitle: '2026-11-17 쿠팡 결제 화면 금액·필수 표기 정보 기준(할인·쿠폰은 판매자 사정에 따라 변동)',
