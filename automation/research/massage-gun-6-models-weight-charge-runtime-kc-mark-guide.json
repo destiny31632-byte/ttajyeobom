@@ -1,0 +1,197 @@
+{
+  "slug": "massage-gun-6-models-weight-charge-runtime-kc-mark-guide",
+  "checkedAt": "2026-11-19T19:40:00+09:00",
+  "facts": [
+    {
+      "claim": "소비자24에 2021년 5월 14일 게시된 무선 마사지건 비교시험은 녹색소비자연대전국협의회가 진행했고, 만 20세 이상 소비자 200명 설문(2020년 9월)으로 브랜드를 골라 2020년 10월에 6개 브랜드 제품을 구입해 시험했다.",
+      "value": "2021, 5, 14, 20, 200, 2020, 9, 10, 6",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "게시일 2021-05-14. 무선 마사지건 사용 경험이 있는 만 20세 이상 소비자 200명 설문(2020.09.). 6개 브랜드 제품, 구입 시점 2020년 10월.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "시험 항목은 헤드를 제외한 무게, 완전 방전 상태에서 10분 작동 후 5분 휴식을 반복해 전원이 꺼질 때까지 걸린 작동시간, 완전 충전까지 걸린 시간, 표시사항 7개 항목이다.",
+      "value": "10, 5, 7",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "무게는 헤드(마사지봉) 제외. 작동시간은 10분 작동 후 5분 휴식 반복. 표시사항은 법정 표시사항 7개 항목.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "시험 대상 6종의 2020년 10월 구입가는 닥터웰 156,000원, 바디픽셀 107,100원, 샤오미 70,000원, 제스파 108,250원, 테라건 549,000원, 피닉스 42,500원이다.",
+      "value": "156000, 107100, 70000, 108250, 549000, 42500, 6",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "시험대상 제품표 가격(원). 닥터웰 DR2700업텐션 156,000원, 바디픽셀 BIU004 107,100원, 샤오미 3세대 Meavon 70,000원, 제스파 ZP2420 108,250원, 테라건 ELITE 블랙 549,000원, 피닉스 A2E 42,500원.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "무게는 닥터웰 1,036g, 바디픽셀 829g, 샤오미 812g, 제스파 831g, 테라건 998g, 피닉스 951g이다.",
+      "value": "1036, 829, 812, 831, 998, 951",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "종합평가표 1회차 무게(g). 닥터웰 1,036g, 바디픽셀 829g, 샤오미 812g, 제스파 831g, 테라건 998g, 피닉스 951g.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "최고 강도 작동시간은 테라건 2시간 51분, 제스파 3시간 08분, 피닉스 4시간, 닥터웰 4시간 20분, 바디픽셀 4시간 35분, 샤오미 6시간 06분이다.",
+      "value": "171, 188, 240, 260, 275, 366",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "최고 강도 작동시간 1회차: 테라건 2시간 51분, 제스파 3시간 08분, 피닉스 4시간, 닥터웰 4시간 20분, 바디픽셀 4시간 35분, 샤오미 6시간 06분.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "최저 강도 작동시간은 테라건 3시간 51분, 피닉스 6시간 25분, 제스파 6시간 47분, 바디픽셀 11시간 10분, 닥터웰 12시간 09분, 샤오미 12시간 22분이다.",
+      "value": "231, 385, 407, 670, 729, 742",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "최저 강도 작동시간 1회차: 테라건 3시간 51분, 피닉스 6시간 25분, 제스파 6시간 47분, 바디픽셀 11시간 10분, 닥터웰 12시간 09분, 샤오미 12시간 22분.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "충전 시간은 테라건 1시간 52분, 제스파 2시간 22분, 바디픽셀 2시간 24분, 닥터웰 2시간 40분, 피닉스 3시간 17분, 샤오미 3시간 48분이다.",
+      "value": "112, 142, 144, 160, 197, 228",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "충전시간 1회차: 테라건 1시간 52분, 제스파 2시간 22분, 바디픽셀 2시간 24분, 닥터웰 2시간 40분, 피닉스 3시간 17분, 샤오미 3시간 48분.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "같은 제품을 두 번 재도 무게가 조금씩 달라 닥터웰은 1,040g, 바디픽셀 832g, 샤오미 814g, 제스파 838g, 테라건 1,000g이었고, 충전 시간도 테라건 1시간 41분, 샤오미 3시간 49분처럼 회차별 차이가 있었다.",
+      "value": "1040, 832, 814, 838, 1000, 101, 229",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "종합평가표 2회차: 닥터웰 1,040g, 바디픽셀 832g, 샤오미 814g, 제스파 838g, 테라건 1,000g. 충전시간 최소 1시간 41분, 최대 3시간 49분.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "가장 무거운 1,040g과 가장 가벼운 812g의 차이는 228g이고, 소비자원은 215mL 캔음료 무게 약 230g과 비슷한 수준이라고 설명했다.",
+      "value": "1040, 812, 228, 215, 230",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "가장 무거운 제품 1,040g, 가장 가벼운 제품 812g, 차이 228g. 시판 215mL 캔음료 무게 약 230g 수준.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "자극 강도는 사용자 10명 관능평가로 봤고, 자극이 약한 편인 제품도 사용에는 무리가 없는 것으로 판단됐다.",
+      "value": "10",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "자극 강도는 사용자 10명 대상 관능적 판단. 자극이 약한 편인 제품도 사용에는 무리가 없는 것으로 판단.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "1회 사용시간은 30분을 넘지 않을 것으로 추정됐고, 일부 제품은 10분 작동 후 자동으로 전원이 차단되지만 그 사실이 표시되지 않아 고장으로 오해할 소지가 있었다.",
+      "value": "30, 10",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "1회 사용시간은 30분이 넘지 않을 것으로 추정. 일부 제품은 10분 작동 후 자동 전원 차단, 미표시로 불량 오해 소지.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "표시사항이 미흡한 제품은 2개다. 샤오미 3세대 Meavon은 KC마크와 인증번호를 포함한 표시사항이 전부 누락됐고, 피닉스 A2E는 충전지의 KC마크가 누락됐다.",
+      "value": "2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "표시 적합성: 샤오미 3세대 Meavon 표시사항 전부 누락, 피닉스 A2E 충전지 KC마크 누락. 미흡 2개 제품.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "피닉스 A2E는 충전기 KC 인증번호 HU10920-19011과 모델명 XH2520-0450wD가 표시돼 있었다.",
+      "value": "10920, 19011, 2520, 450",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "피닉스 A2E 충전기 KC마크 표시, 인증번호 HU10920-19011, 모델명 XH2520-0450wD.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "무선 마사지건의 충전지는 안전확인대상, 충전기는 안전인증대상이고, 해외직구는 개인 사용 목적 1개까지 인증 없이 살 수 있지만 피해구제를 받기 어렵다.",
+      "value": "1",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
+      "evidence": "충전지는 안전확인대상, 충전기는 안전인증대상. 해외직구는 개인 사용 목적 1개까지 인증 없이 구입 가능하나 피해구제가 어려움.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "한국소비자원 소비자안전주의보에 따르면 2015년부터 2017년까지 소비자위해감시시스템에 접수된 전기 안마기 위해사례는 262건이고, 2015년 71건, 2016년 92건, 2017년 99건으로 늘었으며 안마의자 관련이 148건(56.5%)이었다.",
+      "value": "2015, 2017, 262, 71, 92, 99, 148, 56.5",
+      "sourceUrl": "https://www.kca.go.kr/home/sub.do?menukey=4006&mode=view&no=1002638092",
+      "evidence": "2018-04-25 게시. 최근 3년간 CISS 접수 전기 안마기 위해사례 262건(2015년 71건, 2016년 92건, 2017년 99건), 안마의자 관련 148건(56.5%).",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "한국소비자원 소비자 피해주의보에 따르면 2019년부터 2022년 3월까지 접수된 가정용 의료기기 피해구제 신청은 452건이고, 품목별로 마사지기 129건(28.5%)이 가장 많았고 보청기 85건(18.8%)이 뒤를 이었다.",
+      "value": "2019, 2022, 3, 452, 129, 28.5, 85, 18.8",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/740/selectInfoCDMGCSLCDetail.do?infoId=A1079156",
+      "evidence": "2022-07-11 게시. 2019년부터 2022년 3월까지 의료기기 피해구제 신청 452건. 마사지기 129건(28.5%), 보청기 85건(18.8%).",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "같은 자료에서 피해 유형은 품질·AS 불만 276건(61.1%), 계약해지 거부·계약불이행 99건(21.9%), 청약철회 거부 51건(11.3%), 표시·광고 불이행 18건(4.0%) 순이었다.",
+      "value": "276, 61.1, 99, 21.9, 51, 11.3, 18, 4.0",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/740/selectInfoCDMGCSLCDetail.do?infoId=A1079156",
+      "evidence": "품질 및 AS 불만 276건(61.1%), 계약해지 거부 및 불이행 99건(21.9%), 청약철회 거부 51건(11.3%), 표시·광고 불이행 18건(4.0%).",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "마사지기 피해구제 신청은 2019년 27건, 2020년 34건, 2021년 40건, 2022년 3월까지 13건으로 매년 늘었다.",
+      "value": "2019, 27, 2020, 34, 2021, 40, 2022, 13",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/740/selectInfoCDMGCSLCDetail.do?infoId=A1079156",
+      "evidence": "마사지기 피해구제 신청건수: 2019년 27건, 2020년 34건, 2021년 40건, 2022년 3월 13건.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "2017년 1월 24일 공개된 전기마사지기 9개 제품 시험에서 구입가는 49,000원에서 139,000원이었고, 전자파장해시험 기준을 넘은 제품이 3개, 적합성평가 표시가 미흡한 제품이 5개, 소비전력이 제시값을 넘은 제품이 2개였다.",
+      "value": "2017, 1, 24, 9, 49000, 139000, 3, 5, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A0001195",
+      "evidence": "게시일 2017-01-24. 전기마사지기 9개 제품, 가격 49,000원에서 139,000원. 전자파적합성 기준 초과 3개, 적합성평가 표시 미흡 5개, 소비전력 초과 2개.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "2026년 11월 19일 쿠팡에서 제스파 바디볼트 전신 진동 무선 마사지건 ZP2420은 정가 290,000원에서 69% 할인한 89,000원이었고 쿠폰 10,000원이 적용됐으며, 새 상품 최저가 74,850원, 상품평 9,026건, 11월 20일 새벽 도착 보장이었다.",
+      "value": "2026, 11, 19, 2420, 290000, 69, 89000, 10000, 74850, 9026, 20",
+      "sourceUrl": "https://www.coupang.com/vp/products/1200621912?itemId=23355477441&vendorItemId=70349479796",
+      "evidence": "2026-11-19 확인. 제스파 바디볼트 ZP2420 블랙, 290,000원에서 69% 할인 89,000원, 쿠폰 10,000원 적용, 새 상품 최저 74,850원, 상품평 9,026개, 내일(11/20) 새벽 도착 보장.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "같은 날 닥터웰 무선 업텐션 드릴 마사지건 DR-2700은 149,000원에서 27% 할인한 107,360원이었고, 상품평 210건, 11월 21일 도착 예정이며 판매 페이지 품명에 리퍼로 표기돼 있고 KC 인증번호는 YU101269-20002다.",
+      "value": "2700, 149000, 27, 107360, 210, 21, 101269, 20002",
+      "sourceUrl": "https://www.coupang.com/vp/products/1338003810?itemId=2364478829&vendorItemId=82597078831",
+      "evidence": "2026-11-19 확인. 닥터웰 DR-2700, 149,000원에서 27% 할인 107,360원, 상품평 210개, 모레(11/21) 도착 예정, 품명 '리퍼 업텐션 마사지건', KC 인증정보 YU101269-20002.",
+      "asOf": "2026-11-19"
+    },
+    {
+      "claim": "ZP2420의 KC 인증정보는 본품 R-R-ZSP-ZP4270, 어댑터 HU101015-19003C와 R-R-JZB-J151-1801010KX이고 출시년월은 2020년 2월이다.",
+      "value": "2420, 4270, 101015, 19003, 151, 1801010, 2020, 2",
+      "sourceUrl": "https://www.coupang.com/vp/products/1200621912?itemId=23355477441&vendorItemId=70349479796",
+      "evidence": "필수 표기 정보: 본품 R-R-ZSP-ZP4270, 어댑터 HU101015-19003C, R-R-JZB-J151-1801010KX. 출시년월 2020년 2월.",
+      "asOf": "2026-11-19"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "무게 차이",
+      "formula": "1,040g - 812g",
+      "assumptions": "종합평가표 2회차 닥터웰 무게와 1회차 샤오미 무게",
+      "values": [228]
+    },
+    {
+      "table": "강도별 작동시간 비율",
+      "formula": "최저 강도 작동시간 / 최고 강도 작동시간",
+      "assumptions": "닥터웰 729분 / 260분, 테라건 231분 / 171분",
+      "values": [2.8, 1.35, 26]
+    },
+    {
+      "table": "제품 간 작동시간 격차",
+      "formula": "최고 강도 최대 - 최소, 최저 강도 최대 - 최소",
+      "assumptions": "최고 강도 366분 - 188분, 최저 강도 742분 - 231분",
+      "values": [178, 511]
+    },
+    {
+      "table": "1회 30분 기준 사용 횟수",
+      "formula": "작동시간 / 30분",
+      "assumptions": "최고 강도 최소 171분, 최대 366분",
+      "values": [5, 12]
+    },
+    {
+      "table": "가격 격차",
+      "formula": "최고가 / 최저가",
+      "assumptions": "2020년 10월 구입가 기준. 156,000원 / 42,500원, 549,000원 / 42,500원",
+      "values": [3.67, 12.9]
+    }
+  ],
+  "watch": [
+    "쿠팡 ZP2420·DR-2700 판매가와 상품 상태(리퍼 여부)",
+    "소비자24 비교시험 원문 게시 상태",
+    "마사지기 피해구제 신청 추이 갱신 여부"
+  ]
+}
