@@ -1,0 +1,151 @@
+{
+  "slug": "winter-running-jacket-8-models-thermal-retention-air-permeability-guide",
+  "checkedAt": "2026-11-20T08:20:00+09:00",
+  "facts": [
+    {
+      "claim": "한국소비자원 비교공감 제2025-19호 '러닝 재킷'은 2025년 11월 5일 게시됐고, 최근 3년 내 러닝 재킷을 구입한 소비자 1,500명 설문(2025년 3월)과 전문가위원회 검토로 상위 8개 브랜드의 8개 제품을 골라 시험했다.",
+      "value": "2025, 11, 5, 3, 1500, 3, 8, 8",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081164",
+      "evidence": "게시일 2025-11-05, 소비자 1,500명 설문 2025.03., 8개 브랜드 8개 제품. 제품 선정 기준은 러닝용·발수성·어두운 색·기준 충족 최저가.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "시험대상 8종의 표시가격은 나이키 리펠마일러 115,000원, 뉴발란스 UNI스포츠에센셜바람막이 99,900원, 데상트 러닝웜업바람막이 199,000원, 아디다스 아디제로에센셜러닝재킷 89,000원, 안다르 클리어페더맨즈윈드자켓 119,000원, 언더아머 UA론치후드재킷 109,000원, 젝시믹스 RX에어라이트자켓 119,000원, 휠라 PERTEX경량바람막이 189,000원이다.",
+      "value": "115000, 99900, 199000, 89000, 119000, 109000, 119000, 189000, 8",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=01&funcType=colctInfoFunction",
+      "evidence": "붙임1 시험대상 제품표와 붙임5 종합결과표의 표시가격(원/1벌). 브랜드 순서는 가나다 순, 휠라 색상은 남색.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "체온유지성은 15℃, 63% 환경에서 1.8m/s 바람이 정면으로 불 때 상체 보온성 감소율을 써멀마네킨으로 쟀고, 8종 평균 14.8% 감소했다. 우수(★★★) 제품은 없었고 나이키·데상트·안다르·언더아머 4종이 양호(★★), 나머지 4종은 보통(★)이었다.",
+      "value": "15, 63, 1.8, 14.8, 8, 4, 4",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임2 기능성(1) 체온유지성. 서울 가을 평균 풍속 2.0m/s와 유사한 1.8m/s 조건, 머리·손 제외 상체, 반팔 티셔츠 착용.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "반팔 티셔츠만 입었을 때보다는 러닝 재킷을 걸쳤을 때 보온성이 최소 73% 이상 좋아졌다.",
+      "value": "73",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임2 체온유지성 결론 문단. 기능성 바람막이보다는 낮지만 반팔 단독보다 73% 이상 높다.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "공기투과도는 뉴발란스·아디다스·젝시믹스 3종이 우수(★★★), 나이키·데상트·안다르·언더아머·휠라 5종이 양호(★★)였다.",
+      "value": "3, 5, 8",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임2 기능성(2) 공기투과도(원단), KS K ISO 9237.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "습윤저항성(발수성)은 세탁 전 8종 모두 5급이었으나 5회 세탁 후 뉴발란스·데상트·아디다스·언더아머 4종이 3급으로 떨어졌고, 나이키·안다르·젝시믹스·휠라 4종은 5급을 유지했다.",
+      "value": "5, 5, 4, 3, 4, 5",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임2 기능성(3) 습윤저항성. 0~5급 평가, 5급이 가장 우수. 제품 표시 세탁 방법으로 5회 반복 세탁.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "지퍼는 왕복개폐 2,000회(기준 500회)까지 이상이 없었고, 필링·색상견뢰도·내세탁성도 8종 모두 기준을 충족했다.",
+      "value": "2000, 500, 8",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임2 내구성·색상변화 및 내세탁성. KS G 3102, 섬유제품권장품질기준.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "안전성은 pH 4.0~9.0, 폼알데하이드 300mg/kg 이하, 아릴아민 각각 30mg/kg 이하 기준에 8종 모두 적합했고, PFOA·PFOS는 전 제품 불검출이었다.",
+      "value": "4.0, 9.0, 300, 30, 8",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임2 안전성·환경성. 안전기준준수부속서1 가정용 섬유제품, PFOA/PFOS 일반시험법.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "재생 소재는 제품에 나이키·뉴발란스·아디다스·휠라 4종, 포장재에 데상트·아디다스·안다르·휠라 4종이 사용됐다.",
+      "value": "4, 4",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임2 환경성(2) 재생 소재. 재생폴리에스터·재생나일론.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "무게는 아디다스 173g에서 언더아머 243g까지 70g 차이고, 두께는 0.14mm에서 0.28mm로 2배 차이다.",
+      "value": "173, 243, 70, 0.14, 0.28, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임2 제품특징. 무게는 M 또는 95 사이즈 기준. 243-173=70, 0.28/0.14=2.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "제품별 무게·두께는 나이키 187g·0.14mm, 뉴발란스 178g·0.23mm, 데상트 200g·0.21mm, 아디다스 173g·0.25mm, 안다르 218g·0.22mm, 언더아머 243g·0.28mm, 젝시믹스 177g·0.21mm, 휠라 185g·0.18mm다.",
+      "value": "187, 0.14, 178, 0.23, 200, 0.21, 173, 0.25, 218, 0.22, 243, 0.28, 177, 0.21, 185, 0.18",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=05&funcType=colctInfoFunction",
+      "evidence": "붙임5 종합결과표 표시사항 및 제품 특징 열.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "디자인은 나이키 1종이 패커블, 모자 일체형이 나이키·뉴발란스·언더아머 3종, 겨드랑이·등 망사 통풍 구조가 5종이다.",
+      "value": "1, 3, 5",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임2 제품특징 및 표시사항. 망사 5종은 아디다스·안다르·언더아머·젝시믹스·휠라.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "소비자 76.6%가 세탁기를 쓰지만 데상트·안다르·젝시믹스 3종은 손세탁으로 표시돼 있었고, 안다르를 뺀 데상트·젝시믹스 2개 업체가 세탁 방법 개선 예정(검토)을 회신했다.",
+      "value": "76.6, 3, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임2 제품특징 및 표시사항(세탁 방법). 소비자 설문 76.6%가 기계 세탁 응답.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "표시가격은 가장 낮은 제품 89,000원, 가장 높은 제품 199,000원으로 2.2배 이상 차이가 났다.",
+      "value": "89000, 199000, 2.2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081164",
+      "evidence": "상세 페이지 결론 문단. 199000/89000=2.236.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "정책브리핑 보도자료는 2025년 11월 5일 '러닝 재킷 8개 제품 비교정보 제공'을 내고 체온유지성과 공기투과도가 상반되는 기능이라고 설명했다.",
+      "value": "2025, 11, 5, 8",
+      "sourceUrl": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156725226",
+      "evidence": "소비자원 섬유신소재팀장 브리핑. 체온유지성 4개 제품 양호, 공기투과도와 상충.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "2026년 11월 20일 쿠팡에서 아디다스 아디제로 에센셜 러닝 재킷 IT7585를 62,100원(99,000원에서 37% 할인)에 배송비 2,500원, A/L 사이즈, 2개 남음, 11월 26일 도착 예정으로 확인했다.",
+      "value": "2026, 11, 20, 62100, 99000, 37, 2500, 2, 26",
+      "sourceUrl": "https://www.coupang.com/vp/products/9771908215?itemId=29250241797&vendorItemId=96168401712",
+      "evidence": "2026-11-20 로그인 상태에서 확인. 판매자 이랜드리테일NC구로점, 블랙, 폴리에스터 100%, 상품평 없음, 사이즈 AL~A2XL 중 A/L만 재고.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "2026년 11월 20일 쿠팡에서 나이키 DD4747-010 바람막이 자켓을 64,100원(123,800원에서 48% 할인), 상품평 14건, 로켓직구, 11월 25일 도착 예정으로 확인했다.",
+      "value": "2026, 11, 20, 64100, 123800, 48, 14, 25",
+      "sourceUrl": "https://www.coupang.com/vp/products/6047309219?itemId=11073700775&vendorItemId=78353169006",
+      "evidence": "2026-11-20 검색 결과에서 확인. 시험 제품과 같은 모델명 DD4747-010(블랙).",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "2026년 11월 20일 쿠팡에서 언더아머 남성 론치 후드 재킷 1376795-026을 57,920원(87,750원에서 33% 할인), 상품평 12건, M 사이즈, 그레이, 1개 남음, 11월 23일 도착 예정으로 확인했다.",
+      "value": "2026, 11, 20, 57920, 87750, 33, 12, 1, 23",
+      "sourceUrl": "https://www.coupang.com/vp/products/8321354054?itemId=24949059348&vendorItemId=91954970861",
+      "evidence": "2026-11-20 상품 페이지 확인. 로켓직구, 교환·반품 왕복 2,500원, 사이즈 M 단일.",
+      "asOf": "2026-11-20"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "무게·두께 격차",
+      "formula": "243 - 173 = 70, 0.28 / 0.14 = 2",
+      "assumptions": "붙임5 종합결과표 무게(M·95 기준)·두께 값",
+      "values": [70, 2]
+    },
+    {
+      "table": "표시가격 배수",
+      "formula": "199000 / 89000 = 2.2",
+      "assumptions": "붙임1 표시가격",
+      "values": [2.2]
+    }
+  ],
+  "watch": [
+    "한국소비자원 비교공감 러닝 재킷 시험 결과가 갱신되는지",
+    "쿠팡 아디다스 IT7585·나이키 DD4747-010·언더아머 1376795 판매가와 재고",
+    "새 시즌 모델 출시로 시험 제품 단종 여부"
+  ]
+}
