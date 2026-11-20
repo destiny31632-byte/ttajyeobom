@@ -1,0 +1,221 @@
+{
+  "slug": "clothing-care-machine-3-models-wrinkle-drying-dehumidification-cost-guide",
+  "checkedAt": "2026-11-21T08:20:00+09:00",
+  "facts": [
+    {
+      "claim": "한국소비자원은 시중에 판매되는 의류관리기 3개 제품의 품질과 안전성 등을 시험·평가해 2026년 9월 16일 소비자24 비교공감 제2026-15호로 공개했다.",
+      "value": "3, 2026, 9, 16, 15",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081416",
+      "evidence": "게시일 2026-09-16. '[비교공감 제2026-15호] 의류관리기' 본문과 붙임 1~4 PDF 링크.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "시험 대상은 최근 3년 이내 의류관리기를 구입·사용한 소비자 500명 설문(2026년 1월)에서 선호도가 높은 최대용량 제품 가운데 최신 3개다. 의류관리기를 출시한 전체 브랜드가 3개이며, 코웨이 제품만 최대용량이 3벌이다.",
+      "value": "3, 500, 2026, 1, 3, 3, 5, 3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 1 '2. 시험평가 대상'. (브랜드) 의류관리기 전체 브랜드(3개), (제품) 소비자 설문조사 결과 선호도가 높은 최대용량(5벌·3벌용) 제품 중 최신 제품(3개), 소비자 500명(2026.01.), 코웨이 제품은 3벌이 최대용량.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "시험 대상 3개 제품은 삼성전자 DF90H24R4D(5벌, 구입가 2,399,000원), LG전자 SC5MSR82S(5벌, 2,360,000원), 코웨이 FAD-02S(3벌, 2,250,000원)이고, 구입가는 2026년 2~3월 자사 온라인몰 기준이다.",
+      "value": "3, 90, 24, 4, 5, 2399000, 2360000, 2250000, 2026, 2, 3, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081416",
+      "evidence": "본문 '의류관리기 시험대상 제품' 표와 각주(2026년 2~3월 자사 온라인몰 구입가).",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "구김제거 시험은 셔츠 뒤면을 가로로 3번 접어 180도로 꺾은 뒤 3.4kg 하중을 20분간 가해 1.5등급 수준의 구김을 만들고, 폴리에스터 65%·면 35% 남성셔츠를 최대용량으로 넣어 표준스타일링 코스로 평가했다. 구김은 1~5등급을 0.5단계로 판정하며 등급이 높을수록 구김이 적다.",
+      "value": "3, 180, 3.4, 20, 1.5, 65, 35, 1, 5, 0.5, 5, 3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 '가. 구김제거 성능' 시험 조건과 각주. KS C IEC 60456 기준 남성셔츠 폴리에스터 65%/면 35%.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "표준스타일링 코스의 셔츠 구김제거 성능은 3개 제품 모두 2.5등급 이상에서 3.0등급 이하로 '보통'이었고, 작동시간은 LG전자 31분, 삼성전자 37분, 코웨이 45분으로 최대 14분 차이다.",
+      "value": "2.5, 3.0, 3, 31, 37, 45, 14",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 구김제거 성능 시험평가 결과 표(작동시간 0:37, 0:31, 0:45)와 서술.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "구김제거 특화 코스·기능을 둔 삼성전자(주름집중 코스, 25분)와 LG전자(내장 고압 핸드스티머, 3분 예열 후 셔츠 1벌 약 30초 다림질)는 특화 조건에서 4.0등급 이상으로 상대적으로 우수했고, 코웨이에는 해당 기능이 없다.",
+      "value": "25, 3, 1, 30, 4.0",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 구김제거 특화 각주와 결과 표(특화 ★★★).",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "탈취성능은 담배(4-에테닐피리딘)와 땀(이소발레릭 애시드) 냄새 원인 물질에 대해 3개 제품 모두 99% 이상 제거였고, 살균성능도 황색포도상구균·대장균·폐렴간균·녹동균 4개 시험균주에서 모두 99% 이상 감소했다. 추가로 알레르겐 3종(집먼지 진드기, 삼나무 꽃가루)의 특정 단백질은 모든 제품에서 90% 이상 감소했다.",
+      "value": "4, 99, 4, 3, 90",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 '나. 탈취·살균성능'과 결과 표, 알레르겐 각주.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "건조 시험은 세탁·탈수한 표준셔츠를 초기 함수율 약 43% 상태로 넣고 제품별 건조코스로 돌렸으며, 3개 제품 모두 건조도 102%로 추가 건조가 필요 없는 양호한 수준이었다. 2024년 한국소비자원 일체형 세탁건조기 시험에서는 건조도가 103~104% 수준이었다.",
+      "value": "43, 3, 102, 2024, 103, 104",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 '다. 건조성능' 시험 조건과 건조도 표, 2024년 제품비교 결과 각주.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "최대용량 건조시간은 삼성전자 1시간 7분, LG전자 1시간 10분, 코웨이 1시간 30분으로 최대 23분 차이다. 셔츠 1벌 조건에서는 삼성전자 39분, LG전자 54분, 코웨이 1시간 30분이 걸려 최대용량 대비 삼성전자는 28분, LG전자는 16분이 줄었고 코웨이는 차이가 없었다.",
+      "value": "1, 7, 1, 10, 1, 30, 23, 1, 39, 54, 28, 16",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 건조성능 시험평가 결과 표(최대용량 1:07/1:10/1:30, 1벌 0:39/0:54/1:30)와 서술.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "제습성능은 약 27℃·습도 60% 조건에서 2시간 제습코스를 돌렸을 때 삼성전자 937mL, LG전자 626mL, 코웨이 567mL였다. 삼성전자는 문을 열어 둔 상태, 나머지 2개 제품은 문을 닫은 상태로 작동하는 방식 차이가 있다.",
+      "value": "27, 60, 2, 937, 626, 567, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 '라. 제습성능'과 결과 표, KS C 9317 조건 각주.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "공기청정 기능은 코웨이 FAD-02S에만 있었고, 미세먼지 제거성능을 표준 사용면적으로 환산하면 16.6㎡(터보모드)였다. 정화능력(CADR)을 7.7로 나눠 환산했다.",
+      "value": "16.6, 7.7",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 제습성능 항목의 공기청정 기능 서술과 각주(CADR÷7.7).",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "표준스타일링 코스의 평균 소음(음향파워레벨)은 코웨이 44dB 이하로 상대적 우수, 삼성전자와 LG전자는 48dB 이하로 보통이었다. 3dB 차이는 소리 에너지 2배이고, 제습기 최소 풍량 소음은 43~54dB, 최대 풍량은 49~57dB 수준이다.",
+      "value": "44, 48, 3, 2, 43, 54, 49, 57",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 '마. 소음'과 결과 표, 제습기 소음 각주(한국소비자원 2024년 제품비교).",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "표준스타일링 코스 소비전력량은 코웨이 332Wh, LG전자 342Wh, 삼성전자 397Wh이고, 최대용량 건조코스에서는 코웨이 441Wh, LG전자 686Wh, 삼성전자 521Wh다. 셔츠 1벌 건조 시에는 삼성전자 260Wh, LG전자 516Wh, 코웨이 419Wh로 최대용량 대비 삼성전자는 261Wh, LG전자는 170Wh 줄었고 코웨이는 22Wh 줄어 감소 폭이 미미했다.",
+      "value": "332, 342, 397, 441, 686, 521, 260, 516, 419, 261, 170, 22",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 '2. 경제성·환경성' 소비전력량 서술과 결과 표.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "표준스타일링 코스 소비전력량을 연 144회 사용, 1kWh당 160원으로 환산한 연간 전기요금은 코웨이 7,600원, LG전자 7,900원, 삼성전자 9,100원으로 최대 1,500원 차이다. 1회 사용 시 CO2 배출량은 141~169g, 평균 152g이다.",
+      "value": "144, 160, 7600, 7900, 9100, 1500, 141, 145, 169, 152",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 연간 전기요금 서술과 결과 표, 효율관리기자재 운용규정 각주(연 144회, 1kWh 160원, 1Wh 0.425g).",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "감전보호(누설전류·절연내력), 누수 등 구조 안전성, KC마크와 안전인증번호 등 의무표시사항은 3개 제품 모두 관련 기준에 적합했다.",
+      "value": "3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 '4. 안전성·표시사항'.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "개선 권고는 제품별로 하나씩 나왔다. LG전자는 AI건조 코스 작동시간이 같은 조건에서도 1시간 이상 차이 날 수 있어 ThinQ 앱 소프트웨어 자동 업데이트와 무상서비스(1544-7777)를, 삼성전자는 문이 완전히 닫히지 않아도 작동할 가능성이 있어 문 상단 힌지 강도 개선(2026년 7월 9일)과 조작부 알림창 표시 추가(2026년 8월 7일) 및 무상서비스(1588-3366)를 회신했다. 코웨이는 의류량·수분함량이 건조시간에 반영되지 않아 향후 출시 제품부터 자동 반영하도록 설계하겠다고 회신했다.",
+      "value": "1, 1544, 7777, 2026, 7, 9, 2026, 8, 7, 1588, 3366",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 '3. 품질·사용성 개선 조치'와 각 사업자 회신.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "제품 특성은 삼성전자와 LG전자가 5벌, 코웨이가 3벌이며, LG전자와 코웨이에는 바지관리기가 있고 공기청정 기능은 코웨이에만 있다. 스마트폰 앱 연동은 삼성전자와 LG전자가 지원한다.",
+      "value": "5, 3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224888&funcType=colctInfoFunction",
+      "evidence": "붙임 2 '5. 제품 특성' 표와 부가기능 표.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "2026년 11월 21일 쿠팡에서 삼성전자 DF90H24R4D(클린화이트)는 정가 2,500,000원에서 16% 할인한 2,099,000원, 무료배송, 3~5일 후 전화·문자로 배송일정 안내, 판매자 제이엘커머스·배송 삼성직배송으로 확인했다. 교환·반품 왕복비는 20,000원이고 이 판매자 상품평은 0건이다.",
+      "value": "2026, 11, 21, 90, 24, 4, 2500000, 16, 2099000, 3, 5, 20000, 0",
+      "sourceUrl": "https://www.coupang.com/vp/products/9758009138?itemId=29213917970&vendorItemId=96133777085",
+      "evidence": "상품 페이지 실측. 무료배송(도서산간 배송불가), 업체직송, 상품평 (0), 판매자 정보 제이엘커머스.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "2026년 11월 21일 쿠팡에서 LG전자 SC5MSR82S 스타일러 의류관리기+스티머 세트(에센스 화이트)는 정가 2,440,000원에서 24% 할인한 1,832,710원이고 와우쿠폰과 하나카드 결제 조건이 붙는다. 무료배송·무료설치, 11월 23일부터 12월 22일 사이 설치일 지정 가능, 상품평 136건(평점 5.0), 판매자 쿠팡이다. KC 인증번호는 HM07125-23174P, 전자파 적합성 R-R-LGE-RXBEST, 크기는 폭 600mm·높이 1965mm·깊이 620mm다.",
+      "value": "2026, 11, 21, 5, 82, 2440000, 24, 1832710, 11, 23, 12, 22, 136, 5.0, 600, 1965, 620, 07125, 23174",
+      "sourceUrl": "https://www.coupang.com/vp/products/9349343662?itemId=27734782692&vendorItemId=94696008107",
+      "evidence": "상품 페이지 실측. 카드할인 '신한, 농협, 하나, 삼성카드 결제 시 1,832,710원', 로켓설치, 필수 표기 정보.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "같은 날 쿠팡 검색에서 LG전자 SC5MSR82S 단품(에센스화이트)은 정가 2,590,000원에서 9% 할인한 2,349,000원, 무료배송, 상품평 505건(평점 5.0)으로 확인했다.",
+      "value": "2026, 11, 21, 2590000, 9, 2349000, 505, 5.0",
+      "sourceUrl": "https://www.coupang.com/np/search?q=SC5MSR82S",
+      "evidence": "2026-11-21 쿠팡 검색 결과 8번째 항목 'LG 스타일러 오브제컬렉션(2026 NEW) SC5MSR82S, 에센스화이트 2,590,000원 9% 2,349,000원 무료배송 5 (505)'.",
+      "asOf": "2026-11-21"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "시험 구입가 차이",
+      "formula": "삼성 2,399,000원 - LG 2,360,000원 = 39,000원. 삼성 2,399,000원 - 코웨이 2,250,000원 = 149,000원",
+      "assumptions": "2026년 2~3월 자사 온라인몰 구입가 기준",
+      "values": [2399000, 2360000, 2250000, 39000, 149000]
+    },
+    {
+      "table": "쿠팡 확인가와 시험 구입가 비교",
+      "formula": "삼성 2,099,000 - 2,399,000 = -300,000원(-12.5%). LG 세트 1,832,710 - 2,360,000 = -527,290원(-22.3%). LG 단품 2,349,000 - 2,360,000 = -11,000원(-0.5%)",
+      "assumptions": "시험 구입가는 2026년 2~3월 온라인몰 가격, 쿠팡가는 2026년 11월 21일 화면 값",
+      "values": [2099000, 2399000, 300000, 12.5, 1832710, 2360000, 527290, 22.3, 2349000, 11000, 0.5]
+    },
+    {
+      "table": "1회 사용 전기요금",
+      "formula": "연간 전기요금 ÷ 144회. 코웨이 7,600 ÷ 144 = 52.8원, LG 7,900 ÷ 144 = 54.9원, 삼성 9,100 ÷ 144 = 63.2원",
+      "assumptions": "연 144회, 1kWh 160원 기준(효율관리기자재 운용규정). 실제 요금은 누진구간에 따라 달라진다",
+      "values": [7600, 7900, 9100, 144, 52.8, 54.9, 63.2]
+    },
+    {
+      "table": "5년 전기요금",
+      "formula": "연간 전기요금 × 5년. 코웨이 38,000원, LG 39,500원, 삼성 45,500원. 최대 차이 1,500 × 5 = 7,500원",
+      "assumptions": "같은 사용 패턴이 5년 유지되고 전기 단가가 그대로라고 가정",
+      "values": [5, 38000, 39500, 45500, 1500, 7500, 0.4]
+    },
+    {
+      "table": "벌당 전력량",
+      "formula": "최대용량 건조 전력량 ÷ 벌수. 삼성 521 ÷ 5 = 104.2Wh, LG 686 ÷ 5 = 137.2Wh, 코웨이 441 ÷ 3 = 147.0Wh. 1벌만 넣었을 때는 삼성 260Wh(2.5배), LG 516Wh(3.8배), 코웨이 419Wh(2.9배)",
+      "assumptions": "AI건조(삼성·LG)·표준건조(코웨이) 코스 기준 시험값",
+      "values": [521, 5, 104.2, 686, 137.2, 441, 3, 147, 260, 2.5, 516, 3.8, 419, 2.9]
+    },
+    {
+      "table": "제습량 배수",
+      "formula": "삼성 937mL ÷ LG 626mL = 1.50배, 삼성 937mL ÷ 코웨이 567mL = 1.65배",
+      "assumptions": "2시간 제습량 기준이며 삼성은 문을 연 상태, 나머지는 문을 닫은 상태로 측정",
+      "values": [937, 626, 567, 1.5, 1.65]
+    },
+    {
+      "table": "소음 에너지 배수",
+      "formula": "3dB 차이면 소리 에너지 2배. 48dB와 44dB의 4dB 차이는 2의 (4÷3)제곱 = 약 2.5배",
+      "assumptions": "음향파워레벨 기준이고 측정값은 '이하' 표기라 실제 차이는 이보다 작을 수 있다",
+      "values": [3, 2, 48, 44, 4, 2.5]
+    },
+    {
+      "table": "연간 건조시간 차이",
+      "formula": "23분 × 144회 = 3,312분 = 55.2시간. 삼성 1시간 7분과 LG 1시간 10분의 3분 차이는 3 × 144 = 432분 = 7.2시간",
+      "assumptions": "최대용량 건조를 연 144회 한다고 가정",
+      "values": [23, 144, 3312, 55.2, 1, 7, 1, 10, 3, 432, 7.2]
+    },
+    {
+      "table": "연간 사용 횟수의 주당 환산",
+      "formula": "144회 ÷ 52주 = 2.77회. 주 3회 수준",
+      "assumptions": "효율관리기자재 운용규정의 연 144회 기준",
+      "values": [144, 52, 2.77, 3]
+    },
+    {
+      "table": "1벌 건조 전기요금",
+      "formula": "삼성 260Wh × 160원/kWh = 41.6원, LG 516Wh × 160원 = 82.6원, 코웨이 419Wh × 160원 = 67.0원",
+      "assumptions": "1kWh 160원 기준",
+      "values": [260, 160, 41.6, 516, 82.6, 419, 67]
+    },
+    {
+      "table": "최대용량 건조 1회 전기요금",
+      "formula": "441Wh × 160원/kWh = 70.6원, 686Wh × 160원 = 109.8원, 521Wh × 160원 = 83.4원",
+      "assumptions": "1kWh 160원 기준, 최대용량 AI건조(삼성·LG)·표준건조(코웨이) 시험값",
+      "values": [441, 686, 521, 160, 70.6, 109.8, 83.4]
+    }
+  ],
+  "watch": [
+    "한국소비자원 의류관리기 비교정보가 갱신되거나 추가 제품 시험이 나오는지",
+    "삼성 DF90H24R4D·LG SC5MSR82S의 쿠팡 판매가와 판매자, 카드 할인 조건 변경",
+    "LG AI건조 소프트웨어 업데이트와 삼성 힌지 개선 제품의 시판 반영 여부",
+    "코웨이 FAD-02S의 일반 판매(구입) 채널 개설 여부",
+    "겨울 시즌 설치 대기 기간과 설치비 변동"
+  ]
+}
