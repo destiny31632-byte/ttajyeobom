@@ -2736,7 +2736,7 @@ AFFILIATE_RANKING_MAP['vacuum-sealer-33900-vs-79000-kimjang-bag-cost-guide'] = {
   };
 
 AFFILIATE_RANKING_MAP['clothing-care-machine-3-models-wrinkle-drying-dehumidification-cost-guide'] = {
-    sectionTitle: '의류관리기 2종 (삼성 에어드레서 209만9,000원 · LG 스타일러+스티머 183만2,710원)',
+    sectionTitle: '의류관리기 3종 (삼성 209만9,000원 · LG 183만2,710원 · 코웨이 225만원)',
     sectionSubtitle: '2026-11-21 쿠팡 상품 페이지 금액·상품평 기준(카드 할인·쿠폰은 판매자 사정에 따라 변동)',
     products: [
       {
@@ -2754,6 +2754,14 @@ AFFILIATE_RANKING_MAP['clothing-care-machine-3-models-wrinkle-drying-dehumidific
         specSummary: '확인일 기준 정가 2,440,000원에서 와우쿠폰과 하나카드 결제 조건으로 24퍼센트 내린 1,832,710원이고 무료배송·무료설치, 11월 23일부터 12월 22일 사이 설치일을 고를 수 있다. 판매자는 쿠팡이고 상품평은 136건에 평점 5.0이며, 94퍼센트가 최고 평가다. 시험에 쓰인 SC5MSR82S와 같은 모델이고 스티머가 함께 온다. 표준 코스 31분으로 가장 짧고 핸드스티머로 셔츠 한 벌을 30초 안에 다려 4.0등급 이상을 냈다. 다만 최대용량 건조가 1시간 10분으로 삼성보다 3분 길고, 자동건조 작동시간 편차(1시간 이상) 개선 권고를 받아 ThinQ 업데이트 대상인지 확인할 필요가 있다. KC 인증번호 HM07125-23174P, 크기 600 곱하기 1965 곱하기 620밀리미터다',
         tag: '1,832,710원 · 상품평 136건',
         link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9349343662&itemId=27734782692&vendorItemId=94696008107',
+      },
+      {
+        rank: 3,
+        rankBadge: '소음·공기청정 3위 🥉',
+        productName: '코웨이 사계절 의류청정기 더블케어 FAD-02S, 무료방문설치',
+        specSummary: '확인일 기준 2,250,000원에 무료배송이고 주문 후 3~5일 안에 전화·문자로 배송일정을 안내받는다. 판매자는 주식회사 진광고(평가 98%, 61건)이고 업체직송, 교환·반품 왕복비는 0원이며 이 판매자 상품평은 아직 0건이다. 시험에 쓰인 FAD-02S와 같은 모델로 3벌용이다. 표준 코스 평균 소음이 44데시벨 이하로 세 제품 가운데 가장 조용하고, 공기청정 기능(표준 사용면적 16.6제곱미터)은 이 제품에만 있다. 대신 최대용량 건조가 1시간 30분으로 가장 길고, 최대용량 건조 전력량은 441와트시로 가장 적다. KC 인증번호는 HH07041-18105E다',
+        tag: '2,250,000원 · 상품평 0건',
+        link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9200590036&itemId=27165042672&vendorItemId=94533245926',
       },
     ],
   };

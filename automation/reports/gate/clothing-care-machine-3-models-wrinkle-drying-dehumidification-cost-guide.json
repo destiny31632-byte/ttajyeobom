@@ -2,18 +2,18 @@
   "slug": "clothing-care-machine-3-models-wrinkle-drying-dehumidification-cost-guide",
   "pass": true,
   "score": 97,
-  "checkedAt": "2026-11-20T23:09:47.728Z",
+  "checkedAt": "2026-11-20T23:32:59.109Z",
   "stats": {
-    "chars": 5833,
+    "chars": 5934,
     "h2": 10,
     "tables": 5,
-    "sources": 6,
+    "sources": 7,
     "internalLinks": 2,
     "images": 0
   },
   "failures": [],
   "warnings": [
-    "출처 링크 접속 — 403 https://www.coupang.com/vp/products/9758009138?itemId=29213917970&vendorItemId=96133777085; 403 https://www.coupang.com/vp/products/9349343662?itemId=27734782692&vendorItemId=94696008107"
+    "출처 링크 접속 — 403 https://www.coupang.com/vp/products/9758009138?itemId=29213917970&vendorItemId=96133777085; 403 https://www.coupang.com/vp/products/9349343662?itemId=27734782692&vendorItemId=94696008107; 403 https://www.coupang.com/vp/products/9200590036?itemId=27165042672&vendorItemId=94533245926"
   ],
   "checks": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "id": "length",
-      "label": "본문 분량 5,833자",
+      "label": "본문 분량 5,934자",
       "status": "pass",
       "detail": "최소 2500자, 권장 3500자 이상 (공백 제외)"
     },
@@ -92,13 +92,13 @@
     },
     {
       "id": "sources-count",
-      "label": "출처 6개",
+      "label": "출처 7개",
       "status": "pass",
       "detail": "최소 3개"
     },
     {
       "id": "sources-tier",
-      "label": "공식·원자료 출처 6개",
+      "label": "공식·원자료 출처 7개",
       "status": "pass"
     },
     {
@@ -115,7 +115,7 @@
       "id": "sources-online",
       "label": "출처 링크 접속",
       "status": "warn",
-      "detail": "403 https://www.coupang.com/vp/products/9758009138?itemId=29213917970&vendorItemId=96133777085; 403 https://www.coupang.com/vp/products/9349343662?itemId=27734782692&vendorItemId=94696008107"
+      "detail": "403 https://www.coupang.com/vp/products/9758009138?itemId=29213917970&vendorItemId=96133777085; 403 https://www.coupang.com/vp/products/9349343662?itemId=27734782692&vendorItemId=94696008107; 403 https://www.coupang.com/vp/products/9200590036?itemId=27165042672&vendorItemId=94533245926"
     },
     {
       "id": "title-body",
@@ -189,7 +189,7 @@
     },
     {
       "id": "fact-support",
-      "label": "숫자 근거 확인 (192/192)",
+      "label": "숫자 근거 확인 (196/196)",
       "status": "pass"
     },
     {
