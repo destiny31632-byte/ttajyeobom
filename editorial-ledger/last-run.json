@@ -1,10 +1,10 @@
 {
   "date": "2026-11-20",
-  "published": [],
-  "remaining": 2,
-  "status": "held",
-  "newPost": null,
-  "topic": "winter-dehumidifier-vs-moisture-absorber-mold-cost-guide",
-  "reason": "30일 이내 무료 프로젝트·결제 미연결 재확인 필요",
-  "workflowStatus": "failure"
+  "published": [
+    "ip-camera-10-models-privacy-security-video-clarity-comparison-guide",
+    "winter-running-jacket-8-models-thermal-retention-air-permeability-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
