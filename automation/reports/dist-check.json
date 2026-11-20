@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-20T03:46:07.413Z",
+  "checkedAt": "2026-11-20T10:44:00.705Z",
   "site": "https://ttajyeobom.com",
-  "pages": 823,
-  "indexable": 181,
+  "pages": 830,
+  "indexable": 183,
   "failures": [],
   "warnings": [
     {
@@ -18,7 +18,7 @@
     {
       "level": "warn",
       "page": "/tags/소비자원시험/2/, /tags/소비자원시험/",
-      "message": "설명 중복: '소비자원시험' 태그가 붙은 따져봄 글 19개를 모았습니다.…"
+      "message": "설명 중복: '소비자원시험' 태그가 붙은 따져봄 글 20개를 모았습니다.…"
     }
   ],
   "externalLinks": [
@@ -405,6 +405,7 @@
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6203450632&itemId=12323547369&vendorItemId=83313715861",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6220799511&itemId=24973857032&vendorItemId=79718608751",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6239624318&itemId=27622386096&vendorItemId=94585346047",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6352791866&itemId=13374814541&vendorItemId=92436402911",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6360359973&itemId=22466224083&vendorItemId=94745535865",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6726839965&itemId=15661230400&vendorItemId=82877098629",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6761140003&itemId=15845481846&vendorItemId=83056394674",
@@ -419,6 +420,7 @@
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7276600397&itemId=20014531934&vendorItemId=94608420401",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7295797798&itemId=26851205798&vendorItemId=93821021994",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=72986941&itemId=243287302&vendorItemId=71474316987",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7307481235&itemId=18713285062&vendorItemId=85846361733",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7324728924&itemId=18793616916&vendorItemId=85924628387",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7388135207&itemId=19096088775&vendorItemId=86216873958",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7413368963&itemId=19213593388&vendorItemId=86330622200",
@@ -473,6 +475,7 @@
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9025516869&itemId=27643710650&vendorItemId=95199235610",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9053141046&itemId=22048953474&vendorItemId=83358381384",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9080861108&itemId=26676808369&vendorItemId=73761603647",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9101282848&itemId=26754844568&vendorItemId=93725831421",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9156454963&itemId=26967015147&vendorItemId=93935944525",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9171495621&itemId=27030813189&vendorItemId=94001839442",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9174232499&itemId=27600679953&vendorItemId=94649355176",
@@ -720,6 +723,7 @@
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?cntntsId=00000205&infoId=A1078497",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1078376",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1081251",
+    "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1081393",
     "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1081468",
     "https://www.consumer.go.kr/user/ftc/consumer/crtfc/73/selectCrtfcInfo.do?crtfcSn=CRTF_000000000223378",
     "https://www.consumer.go.kr/user/ftc/consumer/recallnews/801/selectRecallNewsView.do?recallNewsIdx=374",
@@ -730,6 +734,8 @@
     "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=02&funcType=colctInfoFunction",
     "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224839&fileDetailSn=05&funcType=colctInfoFunction",
     "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+    "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileGroupNo=000224885&fileDetailSn=01&funcType=colctInfoFunction",
+    "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileGroupNo=000224885&fileDetailSn=02&funcType=colctInfoFunction",
     "https://www.consumer.go.kr/user/ftc/consumer/trublmdatcase/116/selectTrublMdatCaseView.do?page=87&row=25&searchCnd=&searchType=&searchWrd=&trublMdatCaseSn=13680",
     "https://www.consumernews.co.kr/news/articleView.html?idxno=399637",
     "https://www.consumerreports.org/cars/jump-starters/buying-guide/",
@@ -776,6 +782,7 @@
     "https://www.coupang.com/vp/products/6220799511",
     "https://www.coupang.com/vp/products/6239624318",
     "https://www.coupang.com/vp/products/6256871913",
+    "https://www.coupang.com/vp/products/6352791866?itemId=13374814541&vendorItemId=92436402911",
     "https://www.coupang.com/vp/products/6360359973?itemId=22466224083&vendorItemId=94745535865",
     "https://www.coupang.com/vp/products/6746447827?itemId=15763825943",
     "https://www.coupang.com/vp/products/6761140003",
@@ -786,6 +793,7 @@
     "https://www.coupang.com/vp/products/7227954992?itemId=18333323691&vendorItemId=84392812841",
     "https://www.coupang.com/vp/products/7266119002?itemId=18667659772&vendorItemId=85802089124",
     "https://www.coupang.com/vp/products/7295797798",
+    "https://www.coupang.com/vp/products/7307481235?itemId=18713285062&vendorItemId=85846361733",
     "https://www.coupang.com/vp/products/7324728924",
     "https://www.coupang.com/vp/products/7388135207",
     "https://www.coupang.com/vp/products/7413368963?itemId=19213593388&vendorItemId=86330622200",
@@ -833,6 +841,7 @@
     "https://www.coupang.com/vp/products/8959101148?itemId=26214824851&vendorItemId=93193854577",
     "https://www.coupang.com/vp/products/9025516869?itemId=27643710650&vendorItemId=95199235610",
     "https://www.coupang.com/vp/products/9053141046",
+    "https://www.coupang.com/vp/products/9101282848?itemId=26754844568&vendorItemId=93725831421",
     "https://www.coupang.com/vp/products/9171495621",
     "https://www.coupang.com/vp/products/9206998605",
     "https://www.coupang.com/vp/products/92182487?itemId=18869630258&vendorItemId=4457447732",
@@ -1273,9 +1282,9 @@
     "https://zdnet.co.kr/view/?no=20150215140612",
     "https://zdnet.co.kr/view/?no=20201012164450"
   ],
-  "sitemapUrls": 165,
+  "sitemapUrls": 167,
   "stats": {
-    "maxHtmlKb": 91,
+    "maxHtmlKb": 91.1,
     "avgHtmlKb": 17.8,
     "scriptsPerPage": 1
   },

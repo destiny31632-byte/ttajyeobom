@@ -2,8 +2,8 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "피클 자동화(정기 발행 루틴)",
-  "checkedAt": "2026-11-13T10:38:00.000Z",
+  "checkedAt": "2026-11-20T09:50:00.000Z",
   "contentSha256": "75118f078ed2a5aa5338e8073d4705a542f39adba7266b7bbddd4d4a33a079fa",
   "researchSha256": "53a8dd7cd215a887c3c123bcac125c271744f3ba52fecb6295ab5d0621263b23",
-  "method": "Renewed on 2026-11-13: the post and research file are byte-identical to the previously approved versions (content and research hashes match), the government policy briefing page and the Yonhap article were re-fetched and return HTTP 200, and the condensation, bubble-wrap insulation and mould figures were re-read from the source notes, so the approval is renewed without changing any claim."
+  "method": "Renewed on 2026-11-13: the post and research file are byte-identical to the previously approved versions (content and research hashes match), the government policy briefing page and the Yonhap article were re-fetched and return HTTP 200, and the condensation, bubble-wrap insulation and mould figures were re-read from the source notes, so the approval is renewed without changing any claim. 7일 검증 갱신(2026-11-20 19:45 KST): 인용 URL 16개를 다시 요청해 15개 정상 응답(200), 법제처 easylaw 1건이 503으로 응답했다. 정책브리핑 문풍지 자료에서 창문 열손실 30%·지붕 16%·벽체 15%, 한국에너지공단 난방비 절약 실천요령에서 에어캡·커튼·문풍지로 실내 2~3℃ 상승, 적정 20℃, 1℃ 절감 7%, 환기 1회 5~10분·장시간 환기 결로 주의를 다시 확인해 본문 수치가 그대로임을 확인했다. 본문 변경 없음."
 }
