@@ -1,0 +1,214 @@
+{
+  "slug": "ip-camera-10-models-privacy-security-video-clarity-comparison-guide",
+  "checkedAt": "2026-11-20T12:40:00+09:00",
+  "facts": [
+    {
+      "claim": "한국소비자원은 한국인터넷진흥원(KISA)과 함께 IP카메라 10개 제품의 보안성을 점검하고, 이 가운데 소비자 보유율이 높은 5개 제품은 품질(영상 선명도·색 정확성·시야각·밝기 편차·동영상 저장 효율)까지 시험·평가해 2026년 11월 12일 소비자24 일반 비교정보로 공개했다.",
+      "value": "10, 5, 2026, 11, 12",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1081468",
+      "evidence": "게시일 2026-11-12. 'IP카메라 품질·보안성 비교결과' 본문과 붙임 1~6 PDF 링크(붙임1 품질비교 시험평가 결과, 붙임2 품질 종합평가표, 붙임3 보안성 평가 종합결과표, 붙임4 보안 점검항목, 붙임5 사용자 보안 수칙, 붙임6 제품 사진).",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "시험 대상 10개 브랜드는 최근 2년 이내 IP카메라를 구입·사용한 소비자 600명 설문(2025년 12월)과 다나와·11번가·쿠팡 판매순위를 종합해 골랐고, 최근 2년 내 출시·해상도 300만 화소 이상·무선연결 제품으로 한정했다.",
+      "value": "10, 2, 600, 2025, 12, 3, 300",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+      "evidence": "붙임 1 'IP카메라 품질비교 시험평가 결과' 1. 시험평가 대상. 소비자 설문 600명(2025.12.), 3개 쇼핑몰(다나와·11번가·쿠팡) 판매순위, 해상도 300만 화소 이상·무선연결.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "시험 대상 10종의 구입가격(2026년 2월 온·오프라인, SD카드 등 부속품 제외 단품)은 아이피타임 C500G 29,900원, 다후아 DH-H3B 35,000원, 샤오미 MJSXJ16CM(C500 PRO) 64,800원, 파인뷰 K11 69,000원, 타포 TC74 69,800원, 헤이홈 GKW-MC0511 72,900원, 하이크비전 CN-D1153G 73,000원, 이글루 TSC-443P(S8) 119,000원, 브이스타캠 VSTARCAM-800X 159,000원, 로보뷰 GI-ROBOA7 176,500원이다.",
+      "value": "29900, 35000, 64800, 69000, 69800, 72900, 73000, 119000, 159000, 176500, 2026, 2, 10",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1081468",
+      "evidence": "본문 '점검·시험평가 대상 제품' 표와 붙임 1의 동일 표. 가격은 2026년 2월 구입가 기준이며 구입처·수량·시기에 따라 달라질 수 있다고 명시.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "해상도는 아이피타임·샤오미·타포·헤이홈·로보뷰·하이크비전이 500만 화소, 이글루가 400만 화소, 다후아가 300만 화소, 파인뷰·브이스타캠이 800만 화소다.",
+      "value": "500, 400, 300, 800, 10",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+      "evidence": "붙임 1 시험대상 제품표의 해상도 열(5MP·4MP·3MP·8MP).",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "보안성 점검은 기기(하드웨어·네트워크·펌웨어) 19개, 모바일 앱 15개, 정책·관리 3개 등 총 37개 항목으로 진행됐다.",
+      "value": "37, 19, 15, 3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+      "evidence": "붙임 1 보안성 평가 항목 표와 각주. 하드웨어 3개, 네트워크 5개, 펌웨어 11개, 모바일 앱 15개, 정책·관리 3개.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "10개 제품 중 3개는 사용자 인증 절차가 미비해 사생활 유출이 가능한 취약점이 확인됐다. 로보뷰 GI-ROBOA7은 카메라 원격 기능 강제 활성화, 브이스타캠 VSTARCAM-800X는 타 사용자의 이미지 조회·탈취, 파인뷰 K11은 타 사용자의 이미지·영상 조회·탈취 및 카메라 조작이 가능했다.",
+      "value": "10, 3, 26, 7, 8, 10, 14",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1081468",
+      "evidence": "본문 '이미지·영상 탈취 등 사생활 유출 가능성' 표와 붙임 1 (1) 보안점검 종합결과. 해당 취약점은 보안 전문 인력의 고도화된 공격 시나리오 기반 점검 결과라고 명시.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "KISA는 취약점이 발견된 3개 사업자에 개선을 요청했고, 로보뷰는 2026년 7월 8일, 파인뷰는 7월 10일 회신으로 개선이 완료된 것을 확인했으며 브이스타캠은 7월 14일 계획을 회신하고 조치 중이다.",
+      "value": "3, 2026, 7, 8, 7, 10, 7, 14",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1081468",
+      "evidence": "본문 '사생활 유출이 취약한 3개 제품 중 2개 제품에 대해서는 조치가 완료되었으며, 1개 제품(브이스타캠)은 조치 중' 문단과 사업자별 회신 날짜.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "하드웨어 점검에서는 4개 제품(브이스타캠, 이글루, 파인뷰, 헤이홈)에서 UART 등 노출된 테스트 단자가 비활성화되지 않았다.",
+      "value": "4, 0",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+      "evidence": "붙임 1 (2) 기기·모바일 앱 보안 점검 중 하드웨어 항목.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "8개 제품(다후아, 로보뷰, 브이스타캠, 아이피타임, 이글루, 타포, 파인뷰, 하이크비전)이 SSL/TLS 같은 안전한 통신 프로토콜을 쓰지 않았다.",
+      "value": "8",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+      "evidence": "붙임 1 네트워크 항목. 미사용 시 데이터 유출 위험이 있다고 설명.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "10개 제품 모두 펌웨어 보안 설정이 취약했고, 모든 제품의 모바일 앱에서 역설계 방지 기법이 취약했다. 5개 제품(다후아, 브이스타캠, 샤오미, 아이피타임, 타포)은 안전한 패스워드 정책이 적용되지 않았다.",
+      "value": "10, 5, 8",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+      "evidence": "붙임 1 펌웨어·모바일 앱 항목. 패스워드 정책 기준은 대·소문자·숫자·특수문자 중 3조합 8자리 이상 또는 2조합 10자리 이상.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "정책·관리 분야에서는 5개 제품(로보뷰, 아이피타임, 이글루, 파인뷰, 헤이홈)에 취약점 신고·처리 절차가 없었고, 6개 제품(로보뷰, 브이스타캠, 아이피타임, 이글루, 파인뷰, 헤이홈)은 보안 업데이트 지원 기간을 확인할 수 없었다.",
+      "value": "5, 6, 3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+      "evidence": "붙임 1 (3) 정책·관리 보안 점검. 취약점 관리 정책, 보안 업데이트 지원 기간 명시, 개인정보 보호정책을 점검.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "보안성 종합평가는 샤오미 C500 PRO·타포 TC74·헤이홈 GKW-MC0511이 양호(★★), 다후아·아이피타임·이글루·하이크비전이 보통(★), 로보뷰·브이스타캠·파인뷰가 미흡(☆)이다. 상대적 우수(★★★)를 받은 제품은 없다.",
+      "value": "3, 4, 3, 10",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+      "evidence": "붙임 1 'IP카메라 보안점검 종합평가 결과' 표. 기호 표시는 ★★★ 상대적 우수, ★★ 양호, ★ 보통, ☆ 미흡.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "영상 선명도는 샤오미 C500 PRO, 아이피타임 C500G, 이글루 TSC-443P(S8) 3종이 상대적 우수(★★★)였고 타포 TC74, 헤이홈 GKW-MC0511 2종이 양호(★★)였다. 색 정확성은 헤이홈이 우수(★★★), 나머지 4종이 양호(★★)였다.",
+      "value": "3, 2, 1, 4, 5",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+      "evidence": "붙임 1 (1) 영상 선명도(해상력), (2) 색 정확성. 선명도는 주·야간 유효해상력·감마·신호 대 잡음비, 색 정확성은 색 정확도 오차·색온도 오차를 종합.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "시야각은 이글루 S8이 119도로 가장 넓고 헤이홈 Pro+가 88도로 가장 좁아 31도 차이가 났다. 샤오미는 87~106도, 아이피타임은 89~96도, 타포는 99도다.",
+      "value": "119, 88, 31, 87, 106, 89, 96, 99",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+      "evidence": "붙임 1 (3) 시야각 및 밝기 편차. 대각선 기준 최대 촬영범위. 샤오미·아이피타임은 왜곡 보정 활성화 시 시야각이 줄어드는 범위로 표기.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "밝기 편차(화면 가장자리 밝기 감소율)는 타포 TC74가 15%로 가장 작고 샤오미 C500 PRO가 26%로 가장 커 11%포인트 차이가 났다. 이글루 20%, 헤이홈 24%, 아이피타임 25%다.",
+      "value": "15, 26, 11, 20, 24, 25",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+      "evidence": "붙임 1 밝기 편차 표. 수치가 작을수록 화면 밝기가 균일함.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "동영상 저장 효율은 헤이홈 Pro+가 분당 2.4MB로 가장 적고 샤오미 C500 PRO가 5.7MB로 가장 많아 2.4배(3.3MB/분) 차이가 났다. 256GB SD카드 기준 연속 녹화 기간은 헤이홈 72일, 이글루 34일, 아이피타임 32일, 타포 31일, 샤오미 30일로 최대 42일 차이다.",
+      "value": "2.4, 5.7, 5.0, 5.3, 5.5, 3.3, 256, 72, 34, 32, 31, 30, 42, 64, 62",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+      "evidence": "붙임 1 (4) 동영상 저장 효율. 아이피타임·타포는 512GB 지원 모델로 256GB 기준 수치를 우선 산출했고 512GB 장착 시 각각 64일·62일.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "보유기능은 왜곡 보정이 샤오미·아이피타임, 안티플리커가 아이피타임·이글루에 있었고, 양방향 통화·움직임 추적·감시영역 별도설정은 5종 모두 갖췄다. 움직임을 사람·반려동물·자동차로 나눠 감지하는 제품은 아이피타임과 타포(3종)이고 샤오미는 사람·반려동물 2종이다.",
+      "value": "2, 2, 5, 3, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224896&funcType=colctInfoFunction",
+      "evidence": "붙임 1 제품 특성(보유 기능) 표. 움직임 감지 ㉠사람 ㉡반려동물 ㉢자동차, 소리 감지 Ⓐ일반 소리 Ⓑ아이 울음소리.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "인증번호 등 법정 표시사항은 10개 제품 모두 전파법과 전기용품 및 생활용품 안전관리법 기준에 적합했다.",
+      "value": "10",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1081468",
+      "evidence": "본문 '표시사항, 전 제품 관련 기준에 적합해'. 전파법 방송통신기자재 적합성평가 고시(국립전파연구원 고시 제2026-4호), 전기용품안전기준(국가기술표준원 고시 제2022-10호).",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "소비자원 구매·선택 가이드(2026. 11.)는 보안성 양호(★★) 이상 제품 중에서 영상 선명도(샤오미), 색 정확성(헤이홈), 밝기 편차(타포)를 보고 고르라고 안내한다.",
+      "value": "3, 2026, 11",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1081468",
+      "evidence": "본문 'IP카메라 구매·선택 가이드' 표와 각주. 추천 제품은 보안성 종합평가 양호 이상 충족 제품.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "개인정보보호위원회는 2026년 4월 22일 IP카메라 비밀번호 변경 캠페인을 알리며 초기 계정·비밀번호 변경, 문자·특수문자·숫자 3가지 유형을 섞은 8자리 이상 비밀번호, 보안인증 제품 확인, 해외직구 제품 주의를 권고했다.",
+      "value": "2026, 4, 22, 8, 3",
+      "sourceUrl": "https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=&nttId=12007",
+      "evidence": "2026-04-22 보도자료 '내 일상이 실시간으로 중계된다고? IP카메라 비밀번호 당장 바꾸세요'. 권고 3가지와 인증 예시(정보통신망연결기기등 정보보호 인증 CIC, TTA Verified, PbD).",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "경찰청은 2025년 12월 1일 국내 IP카메라 12만 대를 해킹해 영상을 탈취한 피의자 4명을 검거했다고 발표했고, 해킹된 기기는 아이디와 비밀번호가 단순한 형태였다.",
+      "value": "2025, 12, 1, 12, 4",
+      "sourceUrl": "https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=&nttId=12007",
+      "evidence": "개인정보위 보도자료 각주. admin·root·user1 등 실제 해킹 사례 계정과 0000·123456 같은 연속 문자·숫자 비밀번호 예시.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "2026년 11월 20일 쿠팡에서 샤오미 3K 스마트 카메라 C500 Pro(MJSXJ16CM)를 64,800원, 무료배송, 11월 26일 도착 예정, 상품평 91건으로 확인했다.",
+      "value": "2026, 11, 20, 64800, 8134835602, 91",
+      "sourceUrl": "https://www.coupang.com/vp/products/8134835602?itemId=23106466054&vendorItemId=93741907759",
+      "evidence": "2026-11-20 쿠팡 상품 페이지(로그인 상태) 확인. 판매자 주식회사 플랩슨, 한진택배, KC 인증 R-R-Sl9-MJSXJ16CM, 출시 2024.06.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "2026년 11월 20일 쿠팡에서 아이피타임 C500G를 37,600원, 무료배송·무료반품, 11월 21일 새벽 도착 보장, 상품평 10건으로 확인했다. 시험 구입가 29,900원보다 7,700원(25.8%) 높다.",
+      "value": "2026, 11, 20, 37600, 9793949619, 10, 29900, 7700, 25.8",
+      "sourceUrl": "https://www.coupang.com/vp/products/9793949619?itemId=29324211153&vendorItemId=96238645584",
+      "evidence": "2026-11-20 쿠팡 상품 페이지 확인. 판매자 (주)이에프엠네트웍스, 로켓배송, 모델명 C500G.",
+      "asOf": "2026-11-20"
+    },
+    {
+      "claim": "2026년 11월 20일 쿠팡에서 헤이홈 Pro+ 5MP 스마트 홈카메라(GKW-MC0511)를 정가 89,900원, 와우쿠폰·카드할인 적용가 78,930원, 무료배송·무료반품, 11월 21일 새벽 도착 보장, 상품평 1,382건으로 확인했다. 한 달간 500명 이상이 구매했다는 표시가 있다.",
+      "value": "2026, 11, 20, 89900, 78930, 1382, 500, 8586833663",
+      "sourceUrl": "https://www.coupang.com/vp/products/8586833663?itemId=24893971243&vendorItemId=91900557576",
+      "evidence": "2026-11-20 쿠팡 상품 페이지 확인. KC 인증 R-R-GQL-GKW-MC0511, 출시 2025년 2월, 제조사 주식회사 고퀄. 다른 판매자 새 상품 최저 59,780원 표시도 있었으나 재고·구성 확인이 필요해 본문에는 쓰지 않음.",
+      "asOf": "2026-11-20"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "구입가 배수",
+      "formula": "176500 / 29900 = 5.9",
+      "assumptions": "소비자원 2026년 2월 구입가(단품, SD카드 제외)",
+      "values": [
+        5.9
+      ]
+    },
+    {
+      "table": "256GB 연속 녹화 기간 차이",
+      "formula": "72 - 30 = 42",
+      "assumptions": "붙임 1 동영상 저장 효율 표의 256GB 기준 녹화 가능 기간",
+      "values": [
+        42
+      ]
+    },
+    {
+      "table": "밝기 편차 차이",
+      "formula": "26 - 15 = 11",
+      "assumptions": "붙임 1 밝기 편차(감소율 %)",
+      "values": [
+        11
+      ]
+    },
+    {
+      "table": "아이피타임 쿠팡가 상승률",
+      "formula": "(37600 - 29900) / 29900 x 100 = 25.8",
+      "assumptions": "시험 구입가 29,900원과 2026-11-20 쿠팡가 37,600원",
+      "values": [
+        7700,
+        25.8
+      ]
+    }
+  ],
+  "watch": [
+    "한국소비자원·KISA IP카메라 보안 점검 결과와 브이스타캠 조치 완료 여부",
+    "쿠팡 샤오미 C500 PRO·아이피타임 C500G·헤이홈 Pro+ 판매가와 재고",
+    "개인정보보호위원회 IP카메라 보안 캠페인 후속 조치"
+  ]
+}
