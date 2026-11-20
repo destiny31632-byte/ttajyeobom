@@ -1,11 +1,9 @@
 {
-  "date": "2026-11-20",
-  "published": [
-    "ip-camera-10-models-privacy-security-video-clarity-comparison-guide",
-    "winter-running-jacket-8-models-thermal-retention-air-permeability-guide"
-  ],
-  "remaining": 0,
-  "status": "daily-limit-reached",
+  "date": "2026-11-21",
+  "published": [],
+  "remaining": 2,
+  "status": "held",
   "newPost": null,
-  "workflowStatus": "success"
+  "topic": "winter-briquette-charcoal-brazier-carbon-monoxide-guide",
+  "reason": "공식 문서 접근 실패"
 }
