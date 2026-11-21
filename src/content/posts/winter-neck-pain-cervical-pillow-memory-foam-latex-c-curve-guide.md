@@ -45,8 +45,8 @@ sources:
     accessed: 2026-11-09
     note: "일자목 시 목 움직임 30% 감소·디스크 압력 최대 90% 증가, 30도 숙이면 5kg→18kg, 수면 시 경추 전만 유지와 목을 받치는 베개 권고"
   - title: "IT 기술은 청신호, 목 건강은 적신호 — 목디스크 관련 질환 진료 현황"
-    url: "https://www.hira.or.kr/bbsDummy.do?brdBltNo=9235&brdScnBltNo=4&pgmid=HIRAA020041000100"
-    publisher: "건강보험심사평가원"
+    url: "https://www.mohw.go.kr/board.es?act=view&bid=0027&list_no=334889&mid=a10503010100&nPage=675&tag="
+    publisher: "보건복지부 보도자료(건강보험심사평가원)"
     type: government
     accessed: 2026-11-09
     note: "2015년 목디스크 관련 질환 진료인원 약 265만명(2011년 227만명 대비 16.6% 증가), 목디스크·경추통 62%가 40~60대, 60대 10만명당 8,371명"
