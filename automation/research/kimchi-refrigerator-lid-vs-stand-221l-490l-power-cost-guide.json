@@ -1,0 +1,265 @@
+{
+  "slug": "kimchi-refrigerator-lid-vs-stand-221l-490l-power-cost-guide",
+  "checkedAt": "2026-11-21T12:30:00+09:00",
+  "facts": [
+    {
+      "claim": "한국소비자원은 김치냉장고 6개 제품의 품질·성능을 시험평가해 2023년 10월 31일 비교공감 제2023-17호로 공개했다.",
+      "value": "6, 2023, 10, 31, 17",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080012",
+      "evidence": "제목 '[비교공감 제2023-17호] 김치냉장고', 게시일 2023-10-31, 붙임 1~4 PDF 링크.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "시험 대상은 최근 2년 이내 김치냉장고를 구입해 쓴 소비자 1,000명 설문(2023년 2월)으로 선정했고, 국내에서 김치냉장고를 파는 브랜드 3곳의 스탠드형(4도어, 450~499L) 3종과 뚜껑형(2도어, 200~249L) 3종이다.",
+      "value": "2, 1000, 2023, 2, 3, 4, 450, 499, 3, 2, 200, 249, 3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&fileDetailSn=01&funcType=colctInfoFunction",
+      "evidence": "붙임 1 '1. 시험평가 대상' — 소비자 1,000명(2023.2.), 스탠드형 450~499L 3종·뚜껑형 200~249L 3종.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "시험 제품은 삼성전자 RQ48A94W1AP(490L, 3,230,000원), 위니아 BDQ48HKLKCN(467L, 3,300,000원), LG전자 Z492GBB171S(491L, 3,264,000원), 삼성전자 RP22A3231Z3(221L, 1,440,000원), 위니아 BDL22HKSXS(221L, 1,400,000원), LG전자 Z222MTT151(219L, 1,240,000원)이며 모두 에너지소비효율 1등급 표시 제품이고, 구입가는 2023년 3월 오프라인 브랜드 직영점 기준이다.",
+      "value": "48, 94, 1, 490, 3230000, 467, 3300000, 492, 491, 3264000, 22, 3231, 221, 1440000, 221, 1400000, 222, 219, 1240000, 1, 2023, 3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임 2 종합결과표 — 제품형태·모델명·유효용량·등급·구입가 열, 각주 '2023년 3월 오프라인 직영점 구입가'.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "시험은 주위온도 16℃·25℃·32℃ 조건에서 김치용기 용량의 80%만큼 소금물을 채우고 김치표준(중) 모드로 작동시켜 저장온도·소비전력량을 쟀다.",
+      "value": "16, 25, 32, 80, 3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임 2 주1 — 김치용기 80% 소금물, 김치표준(중) 모드, 주위온도 16·25·32℃.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "김치 저장온도성능은 6개 제품 모두 상대적 우수(★★★)였고, 설정온도 대비 평균 온도편차는 0.5℃ 이하, 최대 온도편차는 1.0℃ 이하였다.",
+      "value": "6, 3, 0.5, 1.0",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&fileDetailSn=01&funcType=colctInfoFunction",
+      "evidence": "붙임 1 '가. 품질 (1) 김치 저장온도성능' — 전 제품 우수, 평균 0.5℃ 이하·최대 1.0℃ 이하.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "소음은 제품별로 35dB에서 41dB 수준이었다. 삼성 스탠드형 35dB, 위니아 스탠드형 41dB, LG 스탠드형 37dB, 삼성 뚜껑형 38dB, 위니아 뚜껑형 37dB, LG 뚜껑형 40dB이다.",
+      "value": "35, 41, 35, 41, 37, 38, 37, 40",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임 2 종합결과표 소음[dB] 열 — 35/41/37/38/37/40.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "월간소비전력량은 삼성 스탠드형 14.6kWh, 위니아 스탠드형 17.7kWh, LG 스탠드형 14.3kWh, 삼성 뚜껑형 8.9kWh, 위니아 뚜껑형 8.5kWh, LG 뚜껑형 9.4kWh다.",
+      "value": "14.6, 17.7, 14.3, 8.9, 8.5, 9.4",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임 2 종합결과표 월간 소비전력량[kWh/월] 열.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "연간 전기요금은 삼성 스탠드형 28,000원, 위니아 스탠드형 34,000원, LG 스탠드형 27,500원, 삼성 뚜껑형 17,100원, 위니아 뚜껑형 16,300원, LG 뚜껑형 18,000원이다. 1kWh당 160원, CO2는 1kWh당 0.425kg을 적용했다.",
+      "value": "28000, 34000, 27500, 17100, 16300, 18000, 160, 0.425",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임 2 연간 전기요금·CO2 열과 주2(1kWh 160원, 0.425kg).",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "뚜껑형 3종의 월간소비전력량 평균은 8.9kWh, 스탠드형 3종 평균은 15.5kWh로 뚜껑형이 42.6% 적었고, 연간 전기요금은 뚜껑형 평균 17,100원, 스탠드형 평균 29,800원이었다.",
+      "value": "3, 8.9, 3, 15.5, 42.6, 17100, 29800",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&funcType=colctInfoFunction",
+      "evidence": "본문 '제품 형태별 에너지소비량 비교' 표 — 뚜껑형 평균 8.9, 스탠드형 평균 15.5, 42.6% 적음.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "설치공간 주위온도가 16℃에서 25℃로 오르면 연간 전기요금이 평균 1.7배, 16℃에서 32℃로 오르면 평균 2.6배까지 늘었다. 증가액은 뚜껑형 평균 6,700원(1.7배)·8,500원(1.5배)·15,200원(2.6배), 스탠드형 평균 8,800원(1.5배)·14,400원(1.5배)·23,200원(2.2배)이다.",
+      "value": "16, 25, 1.7, 16, 32, 2.6, 6700, 1.7, 8500, 1.5, 15200, 2.6, 8800, 1.5, 14400, 1.5, 23200, 2.2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&funcType=colctInfoFunction",
+      "evidence": "본문 '주위온도별 연간 전기요금 비교' 표.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "사용하지 않는 저장실의 전원을 끄면 월간소비전력량이 전체 사용 대비 23.3~34.1% 줄었다. 삼성 스탠드형 14.6→11.2kWh(76.7%), 위니아 스탠드형 17.7→13.3kWh(75.1%), 삼성 뚜껑형 8.9→6.4kWh(71.9%), 위니아 뚜껑형 8.5→5.6kWh(65.9%), LG 뚜껑형 9.4→6.4kWh(68.1%)였다.",
+      "value": "23.3, 34.1, 14.6, 11.2, 76.7, 17.7, 13.3, 75.1, 8.9, 6.4, 71.9, 8.5, 5.6, 65.9, 9.4, 6.4, 68.1",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&funcType=colctInfoFunction",
+      "evidence": "본문 '(저장실 부분사용)' 표 — 저장실 사용 비율별 전력 사용 비율.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "LG전자 스탠드형 Z492GBB171S는 저장실을 부분 사용해도 월간소비전력량이 14.8kWh에서 14.3kWh로 줄지 않아 개선이 필요했고, LG전자는 2023년 10월 10일 ThinQ 앱 펌웨어 업데이트로 일부 저장실 전원을 껐을 때의 소모량을 개선하겠다고 회신했다.",
+      "value": "492, 14.8, 14.3, 2023, 10, 10",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&funcType=colctInfoFunction",
+      "evidence": "본문 '(저장실 부분사용)' 서술 — LG 스탠드형 절전 안 됨, 펌웨어 업데이트('23.10.10.).",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "에너지소비효율등급은 6개 제품 모두 표시등급과 측정등급이 1등급으로 일치했다. 한국에너지공단과 공동 검증했다.",
+      "value": "6, 1",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1080012",
+      "evidence": "본문 '에너지소비효율등급은 전 제품이 1등급으로 표시등급과 일치' — 한국에너지공단 공동 검증.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "스탠드형 3종의 유효용량 평균은 482.7L, 뚜껑형 3종 평균은 220.3L로 스탠드형이 262.4L(2.2배) 넓었다.",
+      "value": "3, 482.7, 3, 220.3, 262.4, 2.2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&funcType=colctInfoFunction",
+      "evidence": "본문 '제품 형태별 용량 비교' 표 — 482.7, 220.3, 2.2배(262.4L).",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "김치용기 저장용량은 스탠드형 평균 159.1L, 뚜껑형 평균 140.7L로 차이가 18.4L(1.1배)뿐이었다. 김치 저장용량 비율(김치용기 저장용량/유효용량)은 스탠드형 33.0%, 뚜껑형 63.9%다.",
+      "value": "159.1, 140.7, 18.4, 1.1, 33.0, 63.9",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&funcType=colctInfoFunction",
+      "evidence": "본문 '제품 형태별 용량 비교' 표 — 김치용기 저장용량과 비율.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "삼성 스탠드형 RQ48A94W1AP의 김치용기 저장용량은 147.6L이고, 10.9L 김치용기를 개당 2만 원에 3개 더 사면 최대 180.3L(36.8%)까지 늘어난다.",
+      "value": "48, 94, 147.6, 10.9, 2, 3, 180.3, 36.8",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&funcType=colctInfoFunction",
+      "evidence": "붙임 2 주5 — 추가 김치용기(10.9L, 개당 2만원) 3개, 최대 180.3L(36.8%).",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "김치용기에 80% 용량의 물을 넣고 1m 높이에서 떨어뜨리는 낙하충격강도 시험에서 6개 제품 모두 파손이 없었고, 감전보호·구조 안전성과 표시사항도 전 제품이 이상 없었다.",
+      "value": "80, 1, 6",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&funcType=colctInfoFunction",
+      "evidence": "본문 '안전성·표시사항은 전 제품이 이상 없어', 낙하충격강도 주4.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "제품별 부가기능(저장기능·편의사항)은 차이가 있어 구매 전 확인이 필요하다. 앱 연동, 저장실 개별 ON/OFF, 탈취, 문 열림 알람 등이 제품마다 다르다.",
+      "value": "",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&funcType=colctInfoFunction",
+      "evidence": "본문 '제품별로 부가기능에 차이 있어 구매 전 확인해야'와 부가기능 기호표.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "2026년 11월 21일 쿠팡에서 삼성전자 김치플러스 뚜껑형 221L RP22C3111Z1(세레네 실버)을 정가 1,109,000원에서 39% 할인한 665,880원(하나카드가, 신한·농협·하나·삼성카드 결제 시)에 판매했다. 무료배송·무료설치, 삼성직배송, 11월 23일~12월 22일 설치일 지정, 교환·반품비 0원, 상품평 2,876건, 한 달간 2,000명 이상 구매.",
+      "value": "2026, 11, 21, 221, 1109000, 39, 665880, 11, 23, 12, 22, 0, 2876, 2000",
+      "sourceUrl": "https://www.coupang.com/vp/products/7350966080?itemId=18916110121&vendorItemId=86043345833",
+      "evidence": "상품 페이지 실측 — 정가·할인가·카드 조건·배송/설치·반품비 0원·상품평 2,876.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "같은 상품 페이지에서 RP22C3111Z1은 용량 221L, 크기 가로 925mm·높이 973mm·깊이 702mm, 에너지효율 1등급, 출시 2023년 5월, KC 인증 SE07007-23003·R-R-dhg-RP22C로 표시돼 있었다.",
+      "value": "221, 925, 973, 702, 1, 2023, 5, 23003",
+      "sourceUrl": "https://www.coupang.com/vp/products/7350966080?itemId=18916110121&vendorItemId=86043345833",
+      "evidence": "상품 정보 표기 — 사이즈, 에너지효율 1등급, 출시 2023.05, KC 인증번호.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "2026년 11월 21일 쿠팡에서 LG전자 디오스 김치톡톡 217L 뚜껑형 2도어 K225SS131(샤이니 퓨어)을 정가 1,230,000원에서 32% 할인하고 쿠폰 8,630원을 더한 833,900원(쿠폰·하나카드가)에 판매했다. 무료배송·무료설치, LG전자 기사 방문, 교환·반품비 0원, 상품평 3,472건, 한 달간 1,000명 이상 구매.",
+      "value": "2026, 11, 21, 217, 1230000, 32, 8630, 833900, 0, 3472, 1000",
+      "sourceUrl": "https://www.coupang.com/vp/products/8552558726?itemId=25393142416&vendorItemId=93877818533",
+      "evidence": "상품 페이지 실측 — 1,230,000원→833,900원, 쿠폰 8,630원, 상품평 3,472, 반품비 0원.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "K225SS131은 용량 217L, 크기 W 920mm·H 949mm·D 691mm, 에너지효율 1등급, 출시 2025년 9월, KC 인증 SM07005-23005A로 표시돼 있었다.",
+      "value": "217, 920, 949, 691, 1, 2025, 9, 23005",
+      "sourceUrl": "https://www.coupang.com/vp/products/8552558726?itemId=25393142416&vendorItemId=93877818533",
+      "evidence": "상품 정보 표기 — 사이즈, 에너지효율 1등급, 출시 2025.09, KC 인증번호.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "2026년 11월 21일 쿠팡에서 삼성전자 Bespoke AI 김치플러스 490L 스탠드형 4도어 RK70F49M2Z(에센셜 화이트)를 정가 2,900,000원에서 43% 할인하고 쿠폰 235,410원을 더한 1,649,000원(쿠폰·하나카드가)에 판매했다. 무료배송·무료설치, 삼성직배송, 교환·반품비 0원, 상품평 1,011건, 한 달간 300명 이상 구매.",
+      "value": "2026, 11, 21, 490, 2900000, 43, 235410, 1649000, 0, 1011, 300",
+      "sourceUrl": "https://www.coupang.com/vp/products/9066427400?itemId=26580058313&vendorItemId=93553482830",
+      "evidence": "상품 페이지 실측 — 2,900,000원→1,649,000원, 쿠폰 235,410원, 상품평 1,011.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "RK70F49M2Z는 에너지소비효율 2등급, 출시 2025년 9월, 구성품은 김치통 10.8L 4개와 19.5L 2개이며 KC 인증은 SE07003-21005Q·R-R-SEC-RQ49DA다.",
+      "value": "2, 2025, 9, 10.8, 4, 19.5, 2, 21005",
+      "sourceUrl": "https://www.coupang.com/vp/products/9066427400?itemId=26580058313&vendorItemId=93553482830",
+      "evidence": "필수 표기 정보 — 에너지소비효율등급 2등급, 구성품 김치통 10.8L 4개·19.5L 2개.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "2026년 11월 21일 쿠팡에서 위니아 딤채 뚜껑형 221L DDLE22ABWRS3(루센트실버, 김치통 8개 포함)을 정가 1,290,000원에서 32% 할인한 871,000원에 판매했다. 판매자는 주식회사와이엠비전이고 업체직송으로 3~5일 후 배송일정을 안내하며, 단순변심 교환·반품 왕복비가 300,000원이다.",
+      "value": "2026, 11, 21, 221, 1290000, 32, 871000, 3, 5, 8, 300000",
+      "sourceUrl": "https://www.coupang.com/vp/products/9769420542?itemId=29241339359&vendorItemId=96256080063",
+      "evidence": "상품 페이지 실측 — 871,000원, 업체직송 3~5일, 반품 왕복 300,000원, 김치통 8개.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "DDLE22ABWRS3은 에너지소비효율 3등급, 출시 2026년 10월, 상품평 10건이고 제조자는 위니아(주식회사 광원)로 표시돼 있었다.",
+      "value": "3, 2026, 10, 10",
+      "sourceUrl": "https://www.coupang.com/vp/products/9769420542?itemId=29241339359&vendorItemId=96256080063",
+      "evidence": "필수 표기 정보 — 에너지소비효율등급 3등급, 출시 2026년 10월, 상품평 10.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "삼성 RP22C3111Z1 상품 문의에서 판매자는 설치 가이드상 제품 옆면과 벽 사이 간격이 최소 50mm 필요하다고 답했다.",
+      "value": "50",
+      "sourceUrl": "https://www.coupang.com/vp/products/7350966080?itemId=18916110121&vendorItemId=86043345833",
+      "evidence": "상품문의(2026.11.19) — 설치 가이드 옆면 간격 최소 50mm.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "정책브리핑은 2023년 10월 31일 '김치냉장고 6개 제품 비교정보 제공' 브리핑에서 뚜껑형이 가격과 전기요금에서 유리하다고 정리했다.",
+      "value": "2023, 10, 31, 6",
+      "sourceUrl": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156597068",
+      "evidence": "한국소비자원 전기전자팀장 브리핑 — 2023.10.31, 6개 제품 비교.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "형태별 평균 연간 CO2 배출량은 스탠드형 79.2kg, 뚜껑형 45.6kg이다.",
+      "value": "79.2, 45.6",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224708&funcType=colctInfoFunction",
+      "evidence": "본문 '제품 형태별 에너지소비량 비교' 표 — 연간 CO2 배출량.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "2026년 11월 21일 쿠팡 표시가를 만 원 단위로 줄이면 뚜껑형 221L 66만 원, 217L 83만 원, 3등급 221L 87만 원, 스탠드형 490L 165만 원이다. 시험 구입가는 뚜껑형 124만~144만 원, 스탠드형 323만~330만 원이었다.",
+      "value": "66, 83, 87, 165, 124, 144, 323, 330, 221, 217, 490",
+      "sourceUrl": "https://www.coupang.com/vp/products/7350966080?itemId=18916110121&vendorItemId=86043345833",
+      "evidence": "실측 표시가 665,880원·833,900원·871,000원·1,649,000원의 반올림 표기.",
+      "asOf": "2026-11-21"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "위니아 반품비가 본체 값에서 차지하는 비율",
+      "formula": "300,000 / 871,000 = 34.4%",
+      "assumptions": "2026년 11월 21일 쿠팡 표시가와 왕복 반품비",
+      "values": [34.4, 300000, 871000]
+    },    {
+      "table": "형태별 연간 전기요금 차이",
+      "formula": "29,800 - 17,100 = 12,700원",
+      "assumptions": "소비자원 형태별 평균 연간 전기요금(1kWh 160원)",
+      "values": [12700, 127000]
+    },
+    {
+      "table": "브랜드별 스탠드형·뚜껑형 구입가 차이",
+      "formula": "삼성 3,230,000-1,440,000=1,790,000 / 위니아 3,300,000-1,400,000=1,900,000 / LG 3,264,000-1,240,000=2,024,000",
+      "assumptions": "2023년 3월 구입가",
+      "values": [1790000, 1900000, 2024000]
+    },
+    {
+      "table": "2026년 쿠팡 221L·217L와 490L 가격 차이",
+      "formula": "1,649,000 - 665,880 = 983,120원, 983,120 / 12,700 = 77.4년",
+      "assumptions": "연간 전기요금 차이는 소비자원 형태별 평균값",
+      "values": [983120, 77.4, 77]
+    },
+    {
+      "table": "용량당 가격(원/L)",
+      "formula": "665,880/221=3,013.0 / 1,649,000/490=3,365.3 / 833,900/217=3,842.9 / 871,000/221=3,941.2",
+      "assumptions": "2026년 11월 21일 쿠팡 표시가",
+      "values": [3013.0, 3365.3, 3842.9, 3941.2]
+    },
+    {
+      "table": "월간소비전력량 최대·최소 배율",
+      "formula": "17.7 / 8.5 = 2.08배",
+      "assumptions": "위니아 스탠드형 대 위니아 뚜껑형",
+      "values": [2.08, 2.1]
+    },
+    {
+      "table": "소음 차이의 음향에너지 배율",
+      "formula": "3dB 차이 = 2배, 6dB 차이 = 약 4배(41dB 대 35dB)",
+      "assumptions": "음향파워레벨 기준",
+      "values": [3, 2, 6, 4, 41, 35]
+    }
+  ],
+  "conflicts": [],
+  "watch": [
+    "쿠팡 표시가는 카드 조건·쿠폰·판매자 재고에 따라 바뀐다",
+    "위니아 DDLE22ABWRS3의 3등급 표기는 판매 페이지 필수 표기 정보 기준이다",
+    "소비자원 시험은 2023년 3월 구입 제품 기준이라 2026년 판매 모델과 모델명이 다르다"
+  ]
+}
