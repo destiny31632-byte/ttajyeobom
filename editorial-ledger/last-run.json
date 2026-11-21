@@ -1,10 +1,10 @@
 {
   "date": "2026-11-21",
-  "published": [],
-  "remaining": 2,
-  "status": "held",
-  "newPost": null,
-  "topic": "winter-briquette-charcoal-brazier-carbon-monoxide-guide",
-  "reason": "공식 문서 접근 실패",
-  "workflowStatus": "failure"
+  "published": [
+    "kimchi-refrigerator-lid-vs-stand-221l-490l-power-cost-guide",
+    "clothing-care-machine-3-models-wrinkle-drying-dehumidification-cost-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
