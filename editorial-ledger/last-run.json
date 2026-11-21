@@ -1,11 +1,8 @@
 {
-  "date": "2026-11-21",
-  "published": [
-    "kimchi-refrigerator-lid-vs-stand-221l-490l-power-cost-guide",
-    "clothing-care-machine-3-models-wrinkle-drying-dehumidification-cost-guide"
-  ],
-  "remaining": 0,
-  "status": "daily-limit-reached",
+  "date": "2026-11-22",
+  "published": [],
+  "remaining": 2,
+  "status": "held",
   "newPost": null,
-  "workflowStatus": "success"
+  "reason": "기존 공개 글 검토 갱신 필요: 작성 전 중단"
 }
