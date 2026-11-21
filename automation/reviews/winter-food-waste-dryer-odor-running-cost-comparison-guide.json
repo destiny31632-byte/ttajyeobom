@@ -2,7 +2,8 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "피클 자동화(정기 발행 루틴)",
-  "checkedAt": "2026-11-14T14:42:05.772Z",
+  "checkedAt": "2026-11-22T08:14:58+09:00",
   "contentSha256": "6f532ab55c217f26ceba612467df0dfcb5a42f135e5ff0beb0ce74fadfc8df39",
-  "researchSha256": "bc5d3f13e6575ddd5f022737aa46c0590f99e7878e53428efcddb1906abed680"
+  "researchSha256": "bc5d3f13e6575ddd5f022737aa46c0590f99e7878e53428efcddb1906abed680",
+  "method": " 2026-11-22 7일 검증 갱신: 등록된 출처 URL 전수 접속 확인(모두 200, easylaw.go.kr 1건은 503 지속으로 경고)과 조사 기록 facts의 핵심 수치를 원문 페이지에서 재대조한 뒤 검증 시각만 갱신했다(본문·조사 기록 변경 없음, 이전 검증 2026-11-14T14:42:05.772Z)."
 }
