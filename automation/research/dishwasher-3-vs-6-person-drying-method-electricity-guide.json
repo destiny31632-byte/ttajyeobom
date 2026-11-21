@@ -1,0 +1,466 @@
+{
+  "slug": "dishwasher-3-vs-6-person-drying-method-electricity-guide",
+  "checkedAt": "2026-11-21T19:40:00+09:00",
+  "facts": [
+    {
+      "claim": "한국소비자원은 소형(카운터탑) 식기세척기 6개 제품의 품질과 경제성, 안전성을 시험평가해 2025년 9월 10일 소비자24 '일반 비교정보'로 공개했다.",
+      "value": "6, 2025, 9, 10",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1081045",
+      "evidence": "제목 '소형 식기세척기 품질비교 결과, 건조성능·작동시간 등에 차이 있어 꼼꼼히 확인하고 선택해야 해요', 담당 스마트제품시험국 전기가전팀, 게시일 2025-09-10.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "시험 대상은 소비자 설문조사 결과를 바탕으로 고른 4개 브랜드 6개 제품이며, 6인용 3종과 3인용 3종이다. 구입가는 2025년 3월 온라인 가격 기준이다.",
+      "value": "4, 6, 6, 3, 3, 3, 2025, 3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&fileDetailSn=04&funcType=colctInfoFunction",
+      "evidence": "붙임 1 '1. 시험평가 대상' — 4개 브랜드(삼성전자·쉐프본·쿠쿠전자·미닉스) 6개 제품, 6인용 3종·3인용 3종, 가격 각주 '2025년 03월 온라인 구입가'.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "시험 구입가는 삼성전자 DW30CB300CW0 559,000원, 쉐프본 WQP6-8204V1 459,000원, 쿠쿠전자 CDW-CS0620TGPE 459,000원, 미닉스 MNDW-110G 349,000원, 쉐프본 WQP4-6201 269,000원, 쿠쿠전자 CDW-A0310TW 222,300원이다. 쉐프본 2종과 미닉스, 쿠쿠 3인용은 급수연결 설치비가 별도이며 무설치 방식으로 쓸 수 있다.",
+      "value": "30, 300, 559000, 6, 8204, 459000, 620, 459000, 110, 349000, 4, 6201, 269000, 310, 222300",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&fileDetailSn=05&funcType=colctInfoFunction",
+      "evidence": "붙임 2 종합평가표 — 브랜드·모델명·구입가격 열과 주13 '급수연결 설치비는 별도이며, 무설치 방식으로 사용 가능'.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "세척성능 시험은 표시용량(3·6인용)의 80% 수준 식기에 밥알·마가린·고춧가루·커피 등 오염물을 도포하고 2시간 이상 상온에 방치한 뒤 전용 올인원 타블렛 세제로 표준코스를 돌려 평가했으며 공급수 온도는 15℃였다.",
+      "value": "80, 3, 6, 2, 15",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&fileDetailSn=04&funcType=colctInfoFunction",
+      "evidence": "붙임 1 '(1) 세척성능' — 표시용량 80%, 오염물 2시간 이상 방치, 올인원 타블렛(고체) 세제, 표준코스, 공급수 온도 15℃, 주1.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "세척성능은 6개 제품 모두 상대적 우수(★★★)였고, 오염물이 많고 2시간 이상 방치한 조건에서도 대부분의 오염이 제거됐다.",
+      "value": "6, 3, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&fileDetailSn=04&funcType=colctInfoFunction",
+      "evidence": "붙임 1 '(1) 세척성능' — '6개 제품 모두 대부분의 오염이 제거되어 세척성능이 우수한 수준으로 평가됨'.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "건조성능은 열풍건조를 쓰는 쉐프본 WQP6-8204V1, 쉐프본 WQP4-6201, 미닉스 MNDW-110G 등 3개 제품이 상대적 우수(★★★)였고, 송풍건조를 쓰는 쿠쿠전자 CDW-CS0620TGPE와 CDW-A0310TW, 팬 건조 없이 자연건조하는 삼성전자 DW30CB300CW0 등 3개 제품은 양호(★★)였다.",
+      "value": "6, 8204, 4, 6201, 110, 3, 620, 310, 30, 300, 3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&fileDetailSn=04&funcType=colctInfoFunction",
+      "evidence": "붙임 1 '(2) 건조성능'과 '세척·건조성능' 표 — 열풍 3종 ★★★, 송풍 2종·자연건조 1종 ★★, 건조는 작동 종료 30분 뒤 식기별 물방울·습윤 면적으로 평가.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "표준코스 작동시간은 1시간 9분부터 2시간 32분까지로 제품 간 최대 1시간 23분 차이가 났다. 세척시간은 모든 제품이 1시간 내외로 비슷했고, 건조방식에 따라 건조시간이 2분부터 1시간 34분까지 벌어졌다.",
+      "value": "1, 9, 2, 32, 1, 23, 1, 2, 1, 34",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&fileDetailSn=04&funcType=colctInfoFunction",
+      "evidence": "붙임 1 '(3) 작동시간' — 1시간 9분에서 2시간 32분, 최대 1시간 23분 차이, 건조시간 2분에서 1시간 34분.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "제품별 표준코스 작동시간은 삼성전자 DW30CB300CW0 1시간 9분, 쿠쿠전자 CDW-CS0620TGPE 1시간 43분, 쿠쿠전자 CDW-A0310TW 2시간, 미닉스 MNDW-110G 2시간 21분, 쉐프본 WQP4-6201 2시간 23분, 쉐프본 WQP6-8204V1 2시간 32분이다.",
+      "value": "1, 9, 620, 1, 43, 310, 2, 110, 2, 21, 4, 6201, 2, 23, 6, 8204, 2, 32",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&fileDetailSn=05&funcType=colctInfoFunction",
+      "evidence": "붙임 2 종합평가표 작동시간(세척+건조)[시간:분] 열.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "세척과 건조 1회에 소비되는 전력량은 431Wh부터 808Wh까지로 제품 간 최대 1.9배 차이가 났고, 세척 후 열풍건조를 하는 쉐프본 2종과 미닉스 제품이 상대적으로 많았다.",
+      "value": "431, 808, 1.9, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&funcType=colctInfoFunction",
+      "evidence": "본문 '(1) 에너지사용량' — 소비전력량 431Wh에서 808Wh, 최대 1.9배, 열풍건조 3개 제품이 상대적으로 많음.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "제품별 소비전력량(세척+건조)은 쿠쿠전자 CDW-A0310TW 431Wh, 쿠쿠전자 CDW-CS0620TGPE 470Wh, 삼성전자 DW30CB300CW0 559Wh, 미닉스 MNDW-110G 660Wh, 쉐프본 WQP4-6201 714Wh, 쉐프본 WQP6-8204V1 808Wh다.",
+      "value": "431, 620, 470, 30, 300, 559, 110, 660, 6201, 714, 8204, 808",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&fileDetailSn=05&funcType=colctInfoFunction",
+      "evidence": "붙임 2 종합평가표 소비전력량(세척+건조)[Wh] 열.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "하루 1회 사용 기준 연간 전기요금은 25,000원부터 47,000원까지로 제품 간 최대 1.9배 차이가 났다. 건조방식별로는 열풍건조 평균 43,000원, 송풍·자연건조 평균 28,000원이었고, 용량별로는 3인용 평균 35,000원, 6인용 평균 36,000원으로 차이가 작았다.",
+      "value": "1, 25000, 47000, 1.9, 43000, 28000, 35000, 36000, 3, 6",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&funcType=colctInfoFunction",
+      "evidence": "본문 '(1) 에너지사용량' — 연간 전기요금 25,000원에서 47,000원, 1.9배, 열풍 평균 43,000원·송풍·자연 평균 28,000원, 3인용 평균 35,000원·6인용 평균 36,000원.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "제품별 연간 전기요금은 쿠쿠전자 CDW-A0310TW 25,000원, 쿠쿠전자 CDW-CS0620TGPE 27,000원, 삼성전자 DW30CB300CW0 33,000원, 미닉스 MNDW-110G 39,000원, 쉐프본 WQP4-6201 42,000원, 쉐프본 WQP6-8204V1 47,000원이다.",
+      "value": "310, 25000, 620, 27000, 30, 300, 33000, 110, 39000, 6201, 42000, 8204, 47000",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&fileDetailSn=05&funcType=colctInfoFunction",
+      "evidence": "붙임 2 종합평가표 연간 전기요금[원] 열.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "연간 전기요금 계산에는 1일 1회 사용, 1kWh당 160원, CO2 배출량 1Wh당 0.425g이 적용됐다. 1회 세척 시 CO2 배출량은 183g부터 343g까지로 평균 258g이었다.",
+      "value": "1, 160, 0.425, 183, 343, 258",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&fileDetailSn=05&funcType=colctInfoFunction",
+      "evidence": "붙임 2 주9 — 1일 1회 사용, 1kWh 160원, CO2 0.425g/Wh 기준; CO2 열 183g에서 343g, 본문 평균 258g.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "물 사용량은 3인용이 5.3L부터 7.2L, 6인용이 8.6L부터 10.8L였고, 물을 계속 틀어놓는 손 설거지가 100L 이상 드는 것과 비교해 약 10% 수준이었다.",
+      "value": "3, 5.3, 7.2, 6, 8.6, 10.8, 100, 10",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&funcType=colctInfoFunction",
+      "evidence": "본문 '(2) 물 사용량' — 손 설거지 약 100L 이상 대비 10L 정도(약 10%), 3인용 5.3L에서 7.2L, 6인용 8.6L에서 10.8L.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "소음은 표준코스 세척 시 평균 기준으로 삼성전자 DW30CB300CW0이 53dB로 가장 낮아 상대적 우수(★★★)였고, 나머지 5개 제품은 60dB 이하로 양호(★★)였다.",
+      "value": "30, 300, 53, 5, 60",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&funcType=colctInfoFunction",
+      "evidence": "본문 '(4) 소음' — 삼성 53dB 상대적 우수, 나머지 5개 60dB 이하 양호, 주10 '표준코스 작동 시 평균 소음'.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "안전성(감전보호·구조)과 표시사항은 6개 제품 모두 이상이 없었다.",
+      "value": "6",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&funcType=colctInfoFunction",
+      "evidence": "본문 '다. 안전성 및 표시사항' — 누설전류·절연내력, 누수·냄새 등 구조, 법정 표시사항 전 제품 이상 없음.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "급수관 연결 없이 무설치로 쓸 수 있는 제품은 쉐프본 2종, 미닉스 MNDW-110G, 쿠쿠전자 CDW-A0310TW 등 4개였고, 삼성전자 DW30CB300CW0과 쿠쿠전자 CDW-CS0620TGPE는 급수관 연결이 필요했다.",
+      "value": "2, 110, 310, 4, 30, 300, 620",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&funcType=colctInfoFunction",
+      "evidence": "본문 '라. 제품 특성' — 내장 물탱크·외부 물통 흡입 방식 4개 제품 무설치 가능, 제품 특성 표의 무설치 방식 열.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "부가기능에서 자동 문열림은 6인용 3종(삼성전자·쉐프본·쿠쿠전자)에 있었고, 3인용 가운데 미닉스 MNDW-110G는 문이 열려 습기를 빼고 다시 닫힌 상태로 건조하는 방식이었다. 쿠쿠전자 CDW-CS0620TGPE는 셀프 교체형 정수필터를 설치할 수 있었다.",
+      "value": "6, 3, 110, 620",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&funcType=colctInfoFunction",
+      "evidence": "본문 '라. 제품 특성' — 자동 문열림 6인용 3개, 미닉스 문 열림·재닫힘, 쿠쿠 CS0620TGPE 정수필터.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "소비자원의 용량 선택 기준은 3인용이 1인·2인 가구(밥그릇 2·국그릇 2·접시 5·컵 4, 작은 냄비나 프라이팬 1개, 지름 20cm 이하 조리도구), 6인용이 식기량이 많은 1인~2인 가구나 2인~3인 가구(밥그릇 5·국그릇 5·접시 10·컵 4, 냄비·프라이팬 1~2개), 12~14인용이 3인~4인 가구나 4인 이상 가구(밥그릇 10·국그릇 10·접시 18·컵 10, 냄비·프라이팬 2~3개)다.",
+      "value": "3, 1, 2, 2, 2, 5, 4, 1, 20, 6, 1, 2, 2, 3, 5, 5, 10, 4, 1, 2, 12, 14, 3, 4, 4, 10, 10, 18, 10, 2, 3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&fileDetailSn=06&funcType=colctInfoFunction",
+      "evidence": "붙임 3 '식기세척기 구입 시 선택 요령 — 용량' 표.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "소비자원은 건조방식 선택 기준으로 충분한 건조를 원하면 열풍건조, 에너지 절약이 목적이면 송풍·자연건조를 쓰라고 안내했다.",
+      "value": "1",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&fileDetailSn=06&funcType=colctInfoFunction",
+      "evidence": "붙임 3 '기타 고려사항 — 건조방식' — '충분한 건조는 열풍건조, 에너지절약 목적은 송풍·자연건조'.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "일반 주방세제를 쓰면 거품이 많이 생겨 세척성능이 떨어지고 감전·화재·고장의 원인이 될 수 있어 식기세척기 전용 세제와 린스를 써야 하며, 내열 소재가 아닌 플라스틱과 두께가 얇은 유리는 변형·파손 위험이 있어 넣지 말라고 안내했다.",
+      "value": "1",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224826&fileDetailSn=06&funcType=colctInfoFunction",
+      "evidence": "붙임 3 '식기세척기 사용 시 주의사항' — 전용 세제·린스, 일반 세제 금지, 내열 아닌 플라스틱·얇은 유리 주의, 식기 배치·내부 세척·필터와 노즐 점검.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "한국소비자원은 대형(스탠드형) 식기세척기 5개 브랜드 5종을 시험평가해 2021년 12월 15일 비교공감 제2021-21호로 공개했다. 대상은 빌트인을 제외한 12~14인용이고 구입가는 2021년 3월 온라인 가격 기준 550,020원부터 1,285,900원이다.",
+      "value": "5, 5, 2021, 12, 15, 2021, 21, 12, 14, 2021, 3, 550020, 1285900",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1078802",
+      "evidence": "제목 '[비교공감 제2021-21호] 식기세척기', 게시일 2021-12-15, 스탠드형 12~14인용 5종(빌트인 제외), 2021년 3월 온라인 구입가.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "대형 5종도 세척성능은 모두 우수(★★★)였고, 건조성능은 자동 문열림 기능이 있는 삼성전자 DW60T8075FG, SK매직 DWA-81U0D, LG전자 DFB22MA 3종이 우수(★★★), 밀레 G4310SC와 쿠쿠전자 CDW-A1210UBS 2종이 양호(★★)였다.",
+      "value": "5, 3, 60, 8075, 81, 22, 3, 4310, 1210, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224533&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "붙임 2 종합결과표 세척성능·건조성능 열, 본문 '나. 건조성능'.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "대형 5종의 세척시간은 자동코스 1시간 50분부터 3시간 23분, 표준코스 1시간 6분부터 2시간으로 자동코스에서 최대 1시간 33분 차이가 났다.",
+      "value": "5, 1, 50, 3, 23, 1, 6, 2, 1, 33",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224533&fileDetailSn=01&funcType=colctInfoFunction",
+      "evidence": "붙임 1 '다. 세척시간' — 자동코스 1시간 50분에서 3시간 23분, 표준코스 1시간 6분에서 2시간, 최대 1시간 33분.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "대형 5종의 소비전력량은 자동코스 1,305Wh부터 1,846Wh(최대 1.4배), 표준코스 1,177Wh부터 1,293Wh였고, 연간 에너지비용은 자동코스 76,200원부터 107,800원, 표준코스 68,700원부터 75,500원이었다.",
+      "value": "5, 1305, 1846, 1.4, 1177, 1293, 76200, 107800, 68700, 75500",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224533&fileDetailSn=01&funcType=colctInfoFunction",
+      "evidence": "붙임 1 '라. 에너지소비량' — 자동 1,305Wh에서 1,846Wh, 표준 1,177Wh에서 1,293Wh, 연간 76,200원에서 107,800원·68,700원에서 75,500원.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "대형 5종의 물 사용량은 자동코스 15.0L부터 21.2L, 표준코스 10.8L부터 17.3L였고, 대기전력은 0.15W부터 1.18W였다.",
+      "value": "5, 15.0, 21.2, 10.8, 17.3, 0.15, 1.18",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224533&fileDetailSn=01&funcType=colctInfoFunction",
+      "evidence": "붙임 1 '마. 물 사용량'·'(대기전력)' — 자동 15.0L에서 21.2L, 표준 10.8L에서 17.3L, 대기전력 0.15W에서 1.18W.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "대형 5종의 소음은 밀레·삼성전자·쿠쿠전자 3종이 상대적 우수, SK매직·LG전자 2종이 양호였고, 소비자원은 이 수준이 냉장고보다 높고 전자레인지와 비슷하다고 적었다.",
+      "value": "5, 3, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224533&fileDetailSn=01&funcType=colctInfoFunction",
+      "evidence": "붙임 1 '바. 소음' — 3종 ★★★·2종 ★★, '냉장고보다 높고 전자레인지와 유사한 수준' 각주.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "대형 시험에서 전용 린스를 함께 쓰면 밀레·삼성전자·LG전자 3종은 소비전력량이 평균 20% 이상 줄었고, 삼성전자·LG전자 2종은 세척시간이 40분 이상 줄었다.",
+      "value": "3, 20, 2, 40",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224533&fileDetailSn=01&funcType=colctInfoFunction",
+      "evidence": "붙임 1 '라. 에너지소비량'·'다. 세척시간' — 린스 사용 시 3개 제품 소비전력 평균 20% 이상 감소, 삼성·LG 세척시간 40분 이상 감소.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "2026년 11월 21일 쿠팡에서 미닉스 미니 식기세척기 PRO 3인용 MNDW-110G(그레이지, 고객직접설치)는 정가 619,000원에서 57% 할인한 261,880원이었고, 상품평 1,198건, 평점 4.5, 한 달간 200명 이상 구매, 무료배송·무료반품, 에너지소비효율 2등급, KC XU070405-22007F였다.",
+      "value": "2026, 11, 21, 3, 110, 619000, 57, 261880, 1198, 4.5, 200, 2, 22007",
+      "sourceUrl": "https://www.coupang.com/vp/products/7494775376?vendorItemId=24144790693",
+      "publisher": "쿠팡",
+      "evidence": "2026-11-21 브라우저로 상품 페이지 확인 — 619,000원, 57%, 와우쿠폰 37,850원, 261,880원, 상품평 1,198, 한 달 200명 이상 구매, 무료배송·무료반품, 11/22 도착 보장, KC XU070405-22007F·R-R-RaD-WQP4-6207-KR, 에너지 2등급, 수저통 미포함, 자동문열림.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "2026년 11월 21일 쿠팡에서 쿠쿠 전기분해살균 인테리어 식기세척기 6인용 CDW-CS0620TGPE(그레이스 핑크, 단순배송상품)는 419,190원에서 5% 쿠폰을 적용해 394,550원이었고, 상품평 306건, 평점 4.5, 무료배송·무료반품, 출시 2025년 2월, 에너지소비효율 2등급, KC ZU07403-21001C였다.",
+      "value": "2026, 11, 21, 6, 620, 419190, 5, 394550, 306, 4.5, 2025, 2, 2, 21001",
+      "sourceUrl": "https://www.coupang.com/vp/products/8635500367?vendorItemId=92060109794",
+      "publisher": "쿠팡",
+      "evidence": "2026-11-21 브라우저 확인 — 419,190원, 5% 쿠폰 24,640원, 394,550원, 상품평 306, 200명 이상 만족, 수저통 포함, 출시 2025.02, KC ZU07403-21001C·R-R-cke-WQP6-8418-FK, 2등급, 내일 도착 보장.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "2026년 11월 21일 쿠팡 검색 결과에서 쿠쿠 마시멜로 식기세척기 3인용 CDW-A0310TW는 376,100원에 '품절임박' 표시가 붙어 있었고, 상품평 1,010건에 평점 4.5였다.",
+      "value": "2026, 11, 21, 3, 310, 376100, 1010, 4.5",
+      "sourceUrl": "https://www.coupang.com/np/search?q=CDW-A0310TW",
+      "publisher": "쿠팡",
+      "evidence": "2026-11-21 쿠팡 검색 결과 첫 상품 — '쿠쿠 마시멜로 식기세척기 3인용, 화이트, CDW-A0310TW, 고객직접설치 376,100원 무료배송 11/25(수) 도착 예정 4.5 (1,010) 품절임박'.",
+      "asOf": "2026-11-21"
+    },
+    {
+      "claim": "2026년 11월 21일 쿠팡에서 삼성전자 Bespoke 카운터탑 식기세척기 6인용 DW30FB300CW0(화이트, 방문설치)은 690,000원에서 26% 할인한 505,150원이었고, 상품평 1,692건, 평점 5.0, 한 달간 1,000명 이상 구매, 무료배송·무료 기본설치, 11월 23일부터 12월 22일 사이 설치일 지정, 출시 2025년 8월, 에너지소비효율 2등급, KC ZU07193-21002B·R-R-SEC-DW30CB300CW0이었다. 전파적합성 인증 모델명이 시험 모델 DW30CB300CW0과 같아 후속 모델로 확인된다.",
+      "value": "2026, 11, 21, 6, 30, 300, 690000, 26, 505150, 1692, 5.0, 1000, 11, 23, 12, 22, 2025, 8, 2, 21002",
+      "sourceUrl": "https://www.coupang.com/vp/products/8982193574?vendorItemId=93276664024",
+      "publisher": "쿠팡",
+      "evidence": "2026-11-21 브라우저 확인 — 690,000원, 26%, 와우쿠폰 47,240원, 505,150원, 상품평 1,692, 한 달 1,000명 이상 구매, 삼성직배송·무료 기본설치, 설치일 지정, 정격 220V 1170W, KC ZU07193-21002B, R-R-SEC-DW30CB300CW0, 출시 2025년 8월, 제조 Foshan Shunde Midea.",
+      "asOf": "2026-11-21"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "1회 소비전력 최대·최소 배율",
+      "formula": "808 / 431 = 1.87배",
+      "assumptions": "소비자원 소형 식기세척기 6종 표준코스 세척+건조 소비전력량",
+      "values": [
+        1.87,
+        808,
+        431
+      ]
+    },
+    {
+      "table": "대형 5종 표 값과 비교 계산",
+      "formula": "대형 자동코스 소비전력 1,546·1,305·1,846·1,375·1,368Wh, 연간 90,300·76,200·107,800·80,300·79,900원, 물 18.6·15.0·21.2·17.5L; 1,846 / 808 = 2.3배; 714Wh × 160원 = 114원, 42,000 × 5 = 210,000원, 660 - 470 = 190Wh",
+      "assumptions": "2021년·2025년 시험 종합결과표 값과 1kWh 160원 단가, 5년 단순 합산",
+      "values": [
+        1546,
+        90300,
+        1305,
+        76200,
+        1846,
+        107800,
+        1375,
+        80300,
+        1368,
+        79900,
+        18.6,
+        15.0,
+        21.2,
+        17.5,
+        2.3,
+        114,
+        210000,
+        190,
+        808,
+        714
+      ]
+    },
+    {
+      "table": "연간 전기요금 최대·최소 차이",
+      "formula": "47,000 - 25,000 = 22,000원, 47,000 / 25,000 = 1.88배",
+      "assumptions": "1일 1회 사용, 1kWh 160원",
+      "values": [
+        22000,
+        1.88,
+        47000,
+        25000
+      ]
+    },
+    {
+      "table": "1회 세척 전기요금",
+      "formula": "431Wh × 160원/kWh = 68.96원, 808Wh × 160원/kWh = 129.28원",
+      "assumptions": "1kWh 160원, 세척+건조 1회",
+      "values": [
+        69,
+        129,
+        68.96,
+        129.28
+      ]
+    },
+    {
+      "table": "5년 전기요금",
+      "formula": "25,000 × 5 = 125,000원, 47,000 × 5 = 235,000원, 차이 110,000원",
+      "assumptions": "연간 전기요금을 5년 단순 합산",
+      "values": [
+        125000,
+        235000,
+        110000
+      ]
+    },
+    {
+      "table": "건조방식별 평균 연간 전기요금",
+      "formula": "열풍 (39,000 + 42,000 + 47,000) / 3 = 42,667원, 송풍·자연 (25,000 + 27,000 + 33,000) / 3 = 28,333원",
+      "assumptions": "소비자원이 제시한 43,000원·28,000원과 같은 반올림",
+      "values": [
+        42667,
+        28333,
+        43000,
+        28000,
+        1.5,
+        1.54
+      ]
+    },
+    {
+      "table": "전 제품 1회·5년 전기요금",
+      "formula": "470Wh × 160원/kWh = 75원, 559Wh × 160원/kWh = 89원, 660Wh × 160원/kWh = 106원; 5년은 27,000 × 5 = 135,000원, 33,000 × 5 = 165,000원, 39,000 × 5 = 195,000원",
+      "assumptions": "1kWh 160원, 하루 1회 기준 연간 전기요금을 5년 단순 합산",
+      "values": [
+        75,
+        89,
+        106,
+        135000,
+        165000,
+        195000,
+        470,
+        559,
+        660,
+        27000,
+        33000,
+        39000
+      ]
+    },
+    {
+      "table": "본체 가격대와 만 단위 표기",
+      "formula": "시험 구입가 222,300원(22만2,300원)부터 559,000원(55만9,000원)까지, 만 단위로 적으면 22만원대부터 56만원대",
+      "assumptions": "본문의 만 단위 표기를 함께 기록한다",
+      "values": [
+        222300,
+        559000,
+        220000,
+        560000,
+        2300,
+        9000,
+        22,
+        56
+      ]
+    },
+    {
+      "table": "건조방식별 평균 작동시간",
+      "formula": "열풍 (141 + 143 + 152) / 3 = 145.3분, 송풍·자연 (69 + 103 + 120) / 3 = 97.3분, 차이 48분, 시각으로는 1시간 37분",
+      "assumptions": "표준코스 세척+건조 작동시간을 분으로 환산",
+      "values": [
+        145,
+        97,
+        37,
+        48,
+        145.3,
+        97.3
+      ]
+    },
+    {
+      "table": "본체 가격 차와 5년 전기요금 차",
+      "formula": "559,000 - 222,300 = 336,700원, 5년 전기요금 차 110,000원",
+      "assumptions": "2025년 3월 온라인 시험 구입가",
+      "values": [
+        336700,
+        110000
+      ]
+    },
+    {
+      "table": "12인용을 3일에 1회 돌릴 때 연간 전기요금",
+      "formula": "LG 1,305Wh × 122회 = 159,210Wh = 159.2kWh × 160원 = 25,474원, SK매직 1,846Wh × 122회 = 225,212Wh = 225.2kWh × 160원 = 36,034원",
+      "assumptions": "2021년 시험 자동코스 소비전력량, 365일 ÷ 3 = 121.7회를 122회로 계산",
+      "values": [
+        122,
+        159210,
+        159.2,
+        25474,
+        225212,
+        225.2,
+        36034,
+        25500,
+        36000
+      ]
+    },
+    {
+      "table": "3일에 1회 대형과 하루 1회 소형 비교",
+      "formula": "39,000 - 25,474 = 13,526원(34.7% 적음)",
+      "assumptions": "미닉스 MNDW-110G 연 39,000원 대비 LG DFB22MA 122회 25,474원",
+      "values": [
+        13526,
+        34.7
+      ]
+    },
+    {
+      "table": "물 사용량 1년 비교",
+      "formula": "12인용 15.0L × 122회 = 1,830L, 미닉스 7.2L × 365회 = 2,628L",
+      "assumptions": "자동코스 물 사용량과 표준코스 물 사용량",
+      "values": [
+        1830,
+        2628
+      ]
+    },
+    {
+      "table": "겨울 손 설거지 온수 에너지",
+      "formula": "90L × 25℃ × 4.186kJ/kg·K = 9,418.5kJ = 2.62kWh, 2.62kWh × 160원 = 419원",
+      "assumptions": "손 설거지 100L와 식기세척기 10L의 차이 90L를 15℃에서 40℃로 데우는 열량, 전기온수기 효율 100% 가정",
+      "values": [
+        90,
+        25,
+        9418.5,
+        2.62,
+        419
+      ]
+    },
+    {
+      "table": "손 설거지 대비 물 절감",
+      "formula": "100L - 10L = 90L, 10 / 100 = 10%",
+      "assumptions": "소비자원이 제시한 손 설거지 100L 이상, 식기세척기 약 10L",
+      "values": [
+        90,
+        10,
+        100
+      ]
+    },
+    {
+      "table": "용량별 평균 물 사용량",
+      "formula": "3인용 (7.2 + 7.2 + 5.3) / 3 = 6.57L, 6인용 (10.8 + 8.6 + 10.1) / 3 = 9.83L",
+      "assumptions": "표준코스 물 사용량",
+      "values": [
+        6.57,
+        9.83
+      ]
+    },
+    {
+      "table": "소음 7dB 차이의 음향에너지 배율",
+      "formula": "10^(7/10) = 5.0배",
+      "assumptions": "삼성 53dB와 나머지 제품 상한 60dB 비교",
+      "values": [
+        7,
+        5.0,
+        53,
+        60
+      ]
+    },
+    {
+      "table": "쿠팡 3종 합계와 시험가 대비 등락",
+      "formula": "261,880 + 394,550 + 505,150 = 1,161,580원, 미닉스 (349,000-261,880)/349,000 = 25.0% 하락, 쿠쿠 (459,000-394,550)/459,000 = 14.0% 하락",
+      "assumptions": "2026년 11월 21일 쿠팡 표시가와 2025년 3월 시험 구입가",
+      "values": [
+        1161580,
+        25.0,
+        14.0
+      ]
+    }
+  ],
+  "conflicts": [],
+  "watch": [
+    "소형 식기세척기 시험은 2025년 3월 온라인 가격 기준이라 2026년 11월 쿠팡 가격과 차이가 크다(미닉스 349,000원에서 261,880원, 쿠쿠 459,000원에서 394,550원).",
+    "삼성 DW30CB300CW0은 단종·후속 모델 교체 가능성이 있어 7일 검증 때 판매 목록을 다시 확인한다.",
+    "쿠쿠 CDW-A0310TW는 2026년 11월 21일 '품절임박' 표시가 있었으므로 추천 박스에서 제외했다."
+  ]
+}
