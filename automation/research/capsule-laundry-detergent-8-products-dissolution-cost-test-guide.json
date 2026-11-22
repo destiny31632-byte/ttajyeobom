@@ -1,0 +1,225 @@
+{
+  "slug": "capsule-laundry-detergent-8-products-dissolution-cost-test-guide",
+  "checkedAt": "2026-11-23T08:20:00+09:00",
+  "facts": [
+    {
+      "claim": "한국소비자원(원장 윤수현)이 캡슐형 세탁세제 8개 제품의 품질·가격·안전성·환경성 등을 시험·평가한 결과를 비교공감 제2026-13호로 2026년 8월 19일 소비자24에 공개했다.",
+      "value": "2026, 13, 8, 19",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "[비교공감 제2026-13호] 캡슐형 세탁세제 — 게시일 2026-08-19, 제공기관 한국소비자원.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "시험 대상은 최근 3년 이내 캡슐형 세탁세제를 사용한 경험이 있는 소비자 1,500명 대상 설문조사(한국소비자원, 2025년 12월)와 시장조사 결과를 바탕으로 고른 상위 8개 브랜드 제품이다.",
+      "value": "3, 1500, 2025, 12, 8",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "최근 3년 이내 캡슐형 세탁세제를 사용한 경험이 있는 소비자 1,500명 대상(한국소비자원, 2025.12.).",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "시험 대상 8종은 리큐 미니파워캡슐 프레시코튼(애경산업), 비트 라벤더 클린 캡슐세제(라이온코리아), 생활공작소 고농축 캡슐형 세탁세제 라벤더향, 스너글 캡슐 세탁세제 허거블 코튼 클린 앤 케어(유니레버코리아), 액츠 퍼펙트 딥클린 캡슐세제(피죤), 커클랜드 시그니춰 울트라 클린 팩세제(코스트코코리아), 테크 수퍼볼 캡슐세제 알파(LG생활건강), 퍼실 디스크 프로 파우치(헨켈홈케어코리아)이고 모두 일반·드럼 겸용이다.",
+      "value": "8",
+      "sourceUrl": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156774815",
+      "evidence": "[시험대상 제품] 표 — 브랜드 8개, 세탁기 종류는 8종 모두 일반/드럼 겸용.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "세척 성능은 기름·단백질 같은 일상 오염에서 비트 1개 제품만 상대적 우수였고 6개 제품이 양호, 생활공작소가 보통이었다.",
+      "value": "1, 6",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "일상 오염 — 비트 라벤더 클린 캡슐세제 상대적으로 우수, 양호 6개, 생활공작소 보통.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "혈액·잉크 오염에서는 리큐 미니파워캡슐 프레시코튼과 퍼실 디스크 프로 파우치 2개 제품이 상대적 우수였고, 양호 4개, 보통 2개였다.",
+      "value": "2, 4, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "혈액·잉크 오염 — 리큐·퍼실 우수(★★★), 양호 4개, 보통 2개.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "피지 오염과 고추 색소 오염에서는 우수 등급 제품이 없었고 8개 가운데 7개가 양호, 생활공작소가 보통이었다.",
+      "value": "8, 7",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "피지·고추 색소 — 우수 제품 없음, 8개 중 7개 양호, 생활공작소 보통.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "세제로 인한 세탁물 탈색과 이염은 8개 제품 모두 발생하지 않았다.",
+      "value": "8",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "[세탁물 탈색·이염] 표 — 전 제품 이상 없음.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "캡슐 용해속도는 물 1L에 캡슐 1개를 넣고 교반했을 때 상온수 25℃에서 평균 5분, 겨울철 평균 수온인 냉수 8℃에서 평균 11분으로 냉수가 2배가량 느렸다.",
+      "value": "1, 25, 5, 8, 11, 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "상온수(25℃) 5분, 냉수(8℃) 11분 — 캡슐 1개를 물 1L에 넣고 교반한 평균 용해시간.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "상온수에서는 비트·액츠·테크·퍼실 4개 제품의 용해속도가 상대적 우수였고 4개가 양호였으며, 냉수에서는 비트·커클랜드·테크·퍼실 4개가 양호, 나머지 4개가 보통이었다.",
+      "value": "4, 4, 4, 4",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "[캡슐 용해속도] 표 — 상온수 우수 4개·양호 4개, 냉수 양호 4개·보통 4개.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "용해속도 평가 구간은 4분 47초 미만이 상대적 우수, 4분 47초 이상 11분 11초 이하가 양호, 11분 11초 초과가 보통이다.",
+      "value": "4, 47, 11, 11",
+      "sourceUrl": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156774815",
+      "evidence": "상대적으로 우수 4분 47초 미만 / 양호 4분 47초 이상~11분 11초 이하 / 보통 11분 11초 초과.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "시험 대상 8종의 가격은 리큐 22,000원 60개입, 비트 33,900원 42개입, 생활공작소 18,900원 100개입, 스너글 28,500원 30개입, 액츠 11,900원 28개입, 커클랜드 21,990원 140개입, 테크 15,300원 30개입, 퍼실 21,000원 40개입이었다.",
+      "value": "8, 22000, 60, 33900, 42, 18900, 100, 28500, 30, 11900, 28, 21990, 140, 15300, 21000, 40",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "[1회 세탁 비용] 표 — 가격과 캡슐 수량 8종.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "1회 세탁 비용은 1~2인 가구 평균 세탁량 4kg 기준 최소 157원에서 최대 950원, 4인 가구 평균 세탁량 7kg 기준 최소 314원에서 최대 950원이었다.",
+      "value": "2, 4, 157, 950, 4, 7, 314, 950",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "1·2인 가구 157~950원, 4인 가구 314~950원. 평균 세탁량 4kg·7kg 기준.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "캡슐당 세탁량은 리큐 4kg 미만, 비트 7kg 미만, 생활공작소 4kg 이하, 스너글 7kg 이하, 액츠 5kg 이하, 커클랜드 6kg 미만, 테크 7kg 이하, 퍼실 7kg 이하이다.",
+      "value": "4, 7, 4, 7, 5, 6, 7, 7",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "[1회 세탁 비용] 표 — 캡슐당 세탁량 열.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "1회 세탁 비용 4kg 기준은 커클랜드 157원, 생활공작소 189원, 리큐 367원, 액츠 425원, 테크 510원, 퍼실 525원, 비트 807원, 스너글 950원이고 7kg 기준은 커클랜드 314원, 생활공작소 378원, 테크 510원, 퍼실 525원, 비트 807원, 스너글 950원, 리큐 734원, 액츠 850원이다.",
+      "value": "4, 157, 189, 367, 425, 510, 525, 807, 950, 7, 314, 378, 510, 525, 807, 950, 734, 850",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "[1회 세탁 비용] 표 — 4kg 기준·7kg 기준 열 값.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "권장 세탁량이 4kg 이내인 제품은 2개, 5kg에서 7kg 이내인 제품은 6개였고 권장량을 넘겨 세탁하면 제품을 추가로 쓰도록 권고하고 있다.",
+      "value": "4, 2, 5, 7, 6",
+      "sourceUrl": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156774815",
+      "evidence": "권장 세탁량 ① 4kg 이내 2개, ② 5kg에서 7kg 이내 6개.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "벤젠·비소·테트라클로로에틸렌·염화비닐·브롬화에틸 등 함유금지물질과 전인산염 함량, 용기 내구성, 어린이보호포장은 8개 제품 모두 기준에 적합했다.",
+      "value": "8, 5",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "금지물질 5종·전인산염·용기 내구성·어린이보호포장 전 제품 적합.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "생활공작소 고농축 캡슐형 세탁세제 라벤더향은 알레르기 반응가능 물질인 벤질살리실레이트·리날로올·시트로넬롤을 기준농도 0.01% 이상 함유하고도 표시를 누락했고, 업체는 9월 중순부터 개선 제품을 유통하겠다고 회신했다.",
+      "value": "3, 0.01, 9",
+      "sourceUrl": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156774815",
+      "evidence": "생활공작소 3개 성분 표시 누락, 0.01% 이상, 9월 중순 개선 제품 유통 회신.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "생분해도는 28일 이내 70% 이상 기준에 8개 제품 모두 적합했고, 포장재 재활용 용이성은 스너글 1개가 우수, 나머지 7개가 보통이었다.",
+      "value": "28, 70, 8, 1, 7",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+      "evidence": "생분해도 전 제품 적합(28일 내 70% 이상, KS I ISO 7827), 재활용 우수 1개·보통 7개.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "기본 2회 헹굼만으로 잔류 세제 성분이 97.3% 제거됐고, 헹굼 1회 물 사용량은 7kg 기준 드럼세탁기 20L·일반세탁기 60L로 하루 평균 가정용 물 사용량 195L의 10.3%에서 30.8%에 해당했다.",
+      "value": "2, 97.3, 7, 20, 60, 195, 10.3, 30.8",
+      "sourceUrl": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156774815",
+      "evidence": "2회 헹굼으로 97.3% 제거, 헹굼수 20L·60L, 1인당 일평균 가정용 물 사용량 195L의 10.3~30.8%.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "2026년 11월 23일 쿠팡에서 퍼실 디스크 프로 초미세세탁 캡슐세제 40개입은 정가 43,400원에서 58% 할인한 17,820원, 1개입당 446원이고 상품평 1,377건, 판매자 쿠팡, 무료배송·무료반품, 11월 24일 도착 보장이었다.",
+      "value": "2026, 11, 23, 40, 43400, 58, 17820, 446, 1377, 24",
+      "sourceUrl": "https://www.coupang.com/vp/products/9769621754?itemId=29309001940&vendorItemId=96160576929",
+      "evidence": "쿠팡 상품 페이지 — 58% 43,400원 → 17,820원, 1개입당 446원, 상품평 1,377, 판매자 쿠팡, 쿠팡상품번호 9769621754-29309001940.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "2026년 11월 23일 쿠팡에서 비트 라벤더 클린 캡슐 세제 42개입 1개는 정가 23,900원에서 33% 할인한 15,900원, 1개입당 379원이고 2개는 31,300원, 상품평 2,314건, 판매자 쿠팡, 당일 도착 보장이었다.",
+      "value": "2026, 11, 23, 42, 1, 23900, 33, 15900, 379, 2, 31300, 2314",
+      "sourceUrl": "https://www.coupang.com/vp/products/8814763846?vendorItemId=92681473735",
+      "evidence": "쿠팡 상품 페이지 — 1개 15,900원(개당 379원), 2개 31,300원, 상품평 2,314, 쿠팡상품번호 8814763846-25692315868.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "2026년 11월 23일 쿠팡에서 커클랜드 시그니춰 울트라클린팩세제 140PC 140개입은 25,560원, 1개입당 183원이고 상품평 11,488건, 무료배송, 11월 24일 도착 예정이었다.",
+      "value": "2026, 11, 23, 140, 25560, 183, 11488, 24",
+      "sourceUrl": "https://www.coupang.com/vp/products/8363764498?itemId=29139126897&vendorItemId=94039244689",
+      "evidence": "쿠팡 검색·상품 목록 — [커클랜드 시그니처] 커클랜드 울트라클린팩세제 140PC 25,560원(개당 183원), 상품평 11,488.",
+      "asOf": "2026-11-23"
+    },
+    {
+      "claim": "캡슐형 세탁세제는 안전확인대상 생활화학제품 중 어린이보호포장 적용 품목이라 어린이 삼킴사고 예방을 위한 보호포장 적용 여부를 확인했다.",
+      "value": "1",
+      "sourceUrl": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156774815",
+      "evidence": "캡슐형 세탁세제는 안전확인대상생활화학제품 중 어린이보호포장 적용 품목.",
+      "asOf": "2026-11-23"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "시험가 기준 1회 세탁비용 격차",
+      "formula": "950 / 157 = 6.05",
+      "values": [6.05, 6]
+    },
+    {
+      "table": "2026-11-23 쿠팡가 캡슐당 가격",
+      "formula": "퍼실 17820/40=445.5, 비트 15900/42=378.6, 커클랜드 25560/140=182.6",
+      "values": [446, 379, 183, 445.5, 378.6, 182.6]
+    },
+    {
+      "table": "2026-11-23 쿠팡가 1회 세탁비용(7kg 기준 포함)",
+      "formula": "커클랜드 183×2=366, 퍼실 446, 비트 379",
+      "values": [366, 446, 379]
+    },
+    {
+      "table": "쿠팡가 기준 격차",
+      "formula": "446/183=2.44, 379/183=2.07",
+      "values": [2.44, 2.07]
+    },
+    {
+      "table": "주 3회 세탁 연간 비용(52주 156회, 4kg 기준)",
+      "formula": "퍼실 446×156=69576, 비트 379×156=59124, 커클랜드 183×156=28548, 차이 69576-28548=41028",
+      "values": [156, 69576, 59124, 28548, 41028]
+    },
+    {
+      "table": "7kg 기준 격차",
+      "formula": "446-366=80, 379-366=13",
+      "values": [80, 13]
+    },
+    {
+      "table": "시험가와 쿠팡가 차이",
+      "formula": "퍼실 525-446=79, 비트 807-379=428, 커클랜드 183-157=26",
+      "values": [79, 428, 26]
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "시험 단가 기준일과 쿠팡 확인가 기준일",
+      "detail": "1회 세탁 비용 157원부터 950원까지는 2026년 8월 시험 당시 제품 가격 기준이고, 이 글의 쿠팡 확인가는 2026년 11월 23일 표시가라 기준일이 다르다. 와우할인과 쿠폰 적용 여부에 따라 값이 달라진다.",
+      "sources": [
+        "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402",
+        "https://www.coupang.com/vp/products/9769621754?itemId=29309001940&vendorItemId=96160576929"
+      ],
+      "resolution": {
+        "status": "resolved",
+        "checkedAt": "2026-11-23T08:20:00+09:00",
+        "reason": "시험 단가표와 쿠팡 확인가를 각각 다른 절과 다른 표로 분리하고, 쿠팡 값은 확인일과 할인 조건을 함께 적었다.",
+        "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081402"
+      }
+    }
+  ],
+  "watch": [
+    "쿠팡 캡슐세제 표시가와 와우할인 조건",
+    "생활공작소 알레르기 표시 개선 제품 유통 여부",
+    "커클랜드 140개입 판매자·배송일 변동"
+  ]
+}
