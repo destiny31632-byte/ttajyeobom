@@ -1,9 +1,10 @@
 {
   "date": "2026-11-22",
-  "published": [],
-  "remaining": 2,
-  "status": "held",
-  "newPost": null,
-  "reason": "기존 공개 글 검토 갱신 필요: 작성 전 중단",
-  "workflowStatus": "failure"
+  "published": [
+    "moisturizer-8-products-skin-moisture-unit-price-test-guide",
+    "winter-boots-10-products-warmth-waterproof-slip-test-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
