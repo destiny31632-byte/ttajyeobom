@@ -3,10 +3,10 @@
   "slug": "window-insulation-bubble-wrap-vs-thermal-film-draft-stopper-guide",
   "factsVerified": true,
   "reviewer": "피클 자동화(정기 발행 루틴)",
-  "checkedAt": "2026-11-17T08:13:00+09:00",
+  "checkedAt": "2026-11-24T08:21:48.659+09:00",
   "contentSha256": "2d5a0fd906b680a2093c72e0b5241729ba0a996caf0d0ffc6bd4db41a76df440",
   "researchSha256": "97a9671bcf84f02e9c53794ba028f6263b902e4bf158e6c09bb37214ae9673c0",
   "method": "Reviewed full draft against Korea Energy Agency min24 winter heating guidance (indoor temperature rise of about 2-3C from bubble wrap, curtains and draft stoppers, 20C setpoint, 7% saving per 1C, 5-10 minute ventilation), Ministry policy briefing pages (window heat loss share 30% cited from the former Ministry of Land; 40-60% humidity, condensation and mold prevention), the BECC window U-value explainer (window frames conduct heat at least 7x faster than walls, up to 20% heating cost difference), the MOLIT energy saving design standard annex 4 U-value table (single glazing 6.6, double low-E 1.9-3.5, triple 1.5-2.8 W/m2K) and the SBS field test quoting the Korea Conformity Laboratories (bubble wrap room 9.2C vs 7.0C after one hour, 2.2C difference; draft stopper 7.2C, storm film 7.7C). Film certification criteria (visible light transmittance >=50%, solar heat gain <=0.5) come from the KEA high-efficiency appliance registry. All numbers in the draft are covered by the research record.",
-  "renewedAt": "2026-11-10T12:30:00+09:00",
-  "renewalNote": "7-day validity renewal 2026-11-10 12:30 UTC (Pickle). Basis: post Markdown and research JSON SHA-256 unchanged since the original verification (verified again before renewal); all cited source URLs re-checked the same day - 249 of 266 URLs returned HTTP 200/203, 15 returned 403 from bot-blocking commerce sites (coupang.com, store.ohou.se, tokyo/toptirereview, agent.jinair.com) that open in a browser, 1 timed out (koroad.or.kr board view); CI 'Quality' gate (npm run gate -- all) passing on the same HEAD. No fact text was changed."
+  "renewedAt": "2026-11-23T23:21:48.659Z",
+  "renewalNote": "7일 검증 갱신 2026-11-24 08:21 KST (피클 정기 발행 루틴). 근거: 본문(md)·조사 기록(json) 해시가 승인본과 동일함을 확인했고 사실 문구·수치는 바꾸지 않았다. 인용 출처 URL 288개를 재접속 대조해 정상 응답 265개, 자동 접속 차단 403 22개(쿠팡·오늘의집 등 커머스와 DOI), 응답 없음 1개(koroad.or.kr 게시판 타임아웃)를 확인했다. 출처 내용과 본문 수치의 불일치는 발견하지 못했다."
 }

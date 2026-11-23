@@ -2,10 +2,10 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "피클 자동화(정기 발행 루틴)",
-  "checkedAt": "2026-11-17T08:13:00+09:00",
+  "checkedAt": "2026-11-24T08:21:48.659+09:00",
   "contentSha256": "16ab97fb85a34a09d6f64f72ad864ade7d5dee8acc86d4b50be4ece524a9f700",
   "researchSha256": "537ffb196e435ca1aa6655f14b9a9eef3b7685d623e1eaf46e9b1db564e31bc2",
   "method": "Reviewed full draft against official Korea Policy Briefing, Korea Energy Agency, and Korea Electric Power Corporation guidelines. Verified humidity 40-60%, temperature 18-20C, wattage ratings (15W, 30W, 150W, 300W), tiered electricity calculation formulas, cleaning schedules, and safety instructions. All facts match official documentation.",
-  "renewedAt": "2026-11-10T12:30:00+09:00",
-  "renewalNote": "7-day validity renewal 2026-11-10 12:30 UTC (Pickle). Basis: post Markdown and research JSON SHA-256 unchanged since the original verification (verified again before renewal); all cited source URLs re-checked the same day - 249 of 266 URLs returned HTTP 200/203, 15 returned 403 from bot-blocking commerce sites (coupang.com, store.ohou.se, tokyo/toptirereview, agent.jinair.com) that open in a browser, 1 timed out (koroad.or.kr board view); CI 'Quality' gate (npm run gate -- all) passing on the same HEAD. No fact text was changed."
+  "renewedAt": "2026-11-23T23:21:48.659Z",
+  "renewalNote": "7일 검증 갱신 2026-11-24 08:21 KST (피클 정기 발행 루틴). 근거: 본문(md)·조사 기록(json) 해시가 승인본과 동일함을 확인했고 사실 문구·수치는 바꾸지 않았다. 인용 출처 URL 288개를 재접속 대조해 정상 응답 265개, 자동 접속 차단 403 22개(쿠팡·오늘의집 등 커머스와 DOI), 응답 없음 1개(koroad.or.kr 게시판 타임아웃)를 확인했다. 출처 내용과 본문 수치의 불일치는 발견하지 못했다."
 }

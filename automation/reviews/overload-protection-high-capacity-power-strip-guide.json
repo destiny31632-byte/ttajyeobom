@@ -3,10 +3,10 @@
   "slug": "overload-protection-high-capacity-power-strip-guide",
   "factsVerified": true,
   "reviewer": "피클 자동화(정기 발행 루틴)",
-  "checkedAt": "2026-11-17T08:13:00+09:00",
+  "checkedAt": "2026-11-24T08:21:48.659+09:00",
   "contentSha256": "c09e31634915f4815cab803aa40d82628af343dfa7d983489fad625736fe5056",
   "researchSha256": "6e0c47c584c544913e58aebd81028271c2c57ed0f163f954acaedd6577a3e95a",
   "method": "Reviewed full draft against official Korea Electrical Safety Corporation (KESCO), Korean Agency for Technology and Standards (KATS KS C 8305), and Korea Energy Agency guidelines. Verified ratings (10A/2500W vs 16A/4000W), 80% safety margin rule (2000W/3200W), 2.5sq wire thickness, circuit breaker types (MCCB vs ELCB, 15-30mA/0.03s), appliance power ratings, and maintenance schedules. All facts match official documentation.",
-  "renewedAt": "2026-11-10T12:30:00+09:00",
-  "renewalNote": "7-day validity renewal 2026-11-10 12:30 UTC (Pickle). Basis: post Markdown and research JSON SHA-256 unchanged since the original verification (verified again before renewal); all cited source URLs re-checked the same day - 249 of 266 URLs returned HTTP 200/203, 15 returned 403 from bot-blocking commerce sites (coupang.com, store.ohou.se, tokyo/toptirereview, agent.jinair.com) that open in a browser, 1 timed out (koroad.or.kr board view); CI 'Quality' gate (npm run gate -- all) passing on the same HEAD. No fact text was changed."
+  "renewedAt": "2026-11-23T23:21:48.659Z",
+  "renewalNote": "7일 검증 갱신 2026-11-24 08:21 KST (피클 정기 발행 루틴). 근거: 본문(md)·조사 기록(json) 해시가 승인본과 동일함을 확인했고 사실 문구·수치는 바꾸지 않았다. 인용 출처 URL 288개를 재접속 대조해 정상 응답 265개, 자동 접속 차단 403 22개(쿠팡·오늘의집 등 커머스와 DOI), 응답 없음 1개(koroad.or.kr 게시판 타임아웃)를 확인했다. 출처 내용과 본문 수치의 불일치는 발견하지 못했다."
 }
