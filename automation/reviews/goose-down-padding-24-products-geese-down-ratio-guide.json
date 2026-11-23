@@ -1,8 +1,9 @@
 {
   "approved": true,
   "factsVerified": true,
-  "reviewer": "피클 자동화(정기 발행 루틴)",
-  "checkedAt": "2026-11-17T08:00:00+09:00",
+  "reviewer": "피클(백그라운드 작업: Bing 소유권 재인증 중 7일 검증 만료 갱신)",
+  "checkedAt": "2026-11-24T08:35:00+09:00",
   "contentSha256": "0ff40b028fc4fe6143c193f1cd890307c32c5f3453a181f5dac705912e6f20ba",
-  "researchSha256": "c2f9ac34f7b4da21b2a413bb279e883eb629c9644ea0eaf587dd5c1d3c55fb55"
+  "researchSha256": "c2f9ac34f7b4da21b2a413bb279e883eb629c9644ea0eaf587dd5c1d3c55fb55",
+  "note": "2026-11-24 08:35 KST 7일 검증 만료 갱신: 본문·조사 해시가 승인본과 동일함을 확인하고(수치·문장 변경 없음), 인용 출처 5개 URL을 재접속 대조했다(정상 응답 2개 — 소비자24·매일경제, 쿠팡 3개는 자동 접속 차단 403). 출처 내용과 본문 수치의 불일치는 발견하지 못했다."
 }
