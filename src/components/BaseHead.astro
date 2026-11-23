@@ -76,6 +76,7 @@ const ldJson = jsonLd ? JSON.stringify(jsonLd).replace(/</g, '\\u003c') : '';
 }
 
 {VERIFICATION.google && <meta name="google-site-verification" content={VERIFICATION.google} />}
+{VERIFICATION.googleWorkersDev && <meta name="google-site-verification" content={VERIFICATION.googleWorkersDev} />}
 {VERIFICATION.naver && <meta name="naver-site-verification" content={VERIFICATION.naver} />}
 {VERIFICATION.bing && <meta name="msvalidate.01" content={VERIFICATION.bing} />}
 
