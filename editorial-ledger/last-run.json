@@ -1,10 +1,10 @@
 {
   "date": "2026-11-23",
-  "published": [],
-  "remaining": 2,
-  "status": "held",
-  "newPost": null,
-  "topic": "winter-boiler-pipe-flush-efficiency-check-guide",
-  "reason": "허용된 공식 HTTPS 주소만 수집",
-  "workflowStatus": "failure"
+  "published": [
+    "spicy-ramen-12-products-capsaicin-sodium-price-coupang-guide",
+    "capsule-laundry-detergent-8-products-dissolution-cost-test-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
