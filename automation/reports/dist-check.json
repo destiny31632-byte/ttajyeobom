@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-23T03:41:14.001Z",
+  "checkedAt": "2026-11-23T23:12:16.384Z",
   "site": "https://ttajyeobom.com",
-  "pages": 888,
-  "indexable": 192,
+  "pages": 896,
+  "indexable": 193,
   "failures": [],
   "warnings": [
     {
@@ -18,7 +18,7 @@
     {
       "level": "warn",
       "page": "/tags/소비자원시험/2/, /tags/소비자원시험/3/, /tags/소비자원시험/",
-      "message": "설명 중복: '소비자원시험' 태그가 붙은 따져봄 글 26개를 모았습니다.…"
+      "message": "설명 중복: '소비자원시험' 태그가 붙은 따져봄 글 27개를 모았습니다.…"
     }
   ],
   "externalLinks": [
@@ -671,7 +671,6 @@
     "https://support.microsoft.com/ko-kr/windows/windows-10-%EC%A7%80%EC%9B%90%EC%9D%B4-2025%EB%85%84-10%EC%9B%94-14%EC%9D%BC%EC%97%90-%EC%A2%85%EB%A3%8C%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-2ca8b313-1946-43d3-b55c-2b95b107f281",
     "https://support.microsoft.com/ko-kr/windows/windows-11%EC%9D%84-%EC%B5%9C%EC%86%8C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%9A%94%EA%B5%AC-%EC%82%AC%ED%95%AD%EC%9D%84-%EC%B6%A9%EC%A1%B1%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%EC%97%90-%EC%84%A4%EC%B9%98-0b2dc4a2-5933-4ad4-9c09-ef0a331518f1",
     "https://tips.energy.or.kr/diagnosis/qna_view.do?no=2284",
-    "https://tousefulot.com/remove-prevent-knit-pilling/",
     "https://ultimatecomfort.ca/themes/ciph_2013/pdfs/waterTemperatureControlAndLimitationAnalysis.pdf",
     "https://vercel.com/legal/privacy-policy",
     "https://weather.apple.com/",
@@ -970,6 +969,7 @@
     "https://www.epa.gov/sites/default/files/2014-08/documents/humidifier_factsheet.pdf",
     "https://www.etnews.com/20151105000095",
     "https://www.etnews.com/20190507000457",
+    "https://www.etnews.com/20261028000437",
     "https://www.etoday.co.kr/news/view/1075023",
     "https://www.etoday.co.kr/news/view/2647369",
     "https://www.etoday.co.kr/news/view/539804",
@@ -983,6 +983,7 @@
     "https://www.fnnews.com/news/202304061101480542",
     "https://www.fnnews.com/news/202406201449273499",
     "https://www.fnnews.com/news/202511261201139491",
+    "https://www.fnnews.com/news/202611221816292900",
     "https://www.foodnuri.go.kr/portal/bbs/B0000277/view.do?menuNo=300087&nttId=228256&pageIndex=62",
     "https://www.foodsafetykorea.go.kr/popup/safefoodlife/food/foodRvlv/foodRvlvDetail.do?rvlv_no=13",
     "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_no=3120&ntctxt_no=21793",
@@ -1032,6 +1033,7 @@
     "https://www.joongang.co.kr/article/25113122",
     "https://www.joongang.co.kr/article/25383312",
     "https://www.joongang.co.kr/article/25389315",
+    "https://www.joongang.co.kr/article/25481340",
     "https://www.jspu.org/english/publication/docs/Guidelines.pdf",
     "https://www.jstage.jst.go.jp/article/onki1962/66/4/66_4_214/_article/-char/en",
     "https://www.jstage.jst.go.jp/article/senshoshi1960/21/2/21_2_67/_article/-char/en",
@@ -1051,6 +1053,7 @@
     "https://www.kca.go.kr/home/sub.do?menukey=4002&mode=view&no=1002962053",
     "https://www.kca.go.kr/home/sub.do?menukey=4002&mode=view&no=1003228055",
     "https://www.kca.go.kr/home/sub.do?menukey=4002&mode=view&no=1003588682",
+    "https://www.kca.go.kr/home/sub.do?menukey=4002&mode=view&no=1003943880",
     "https://www.kca.go.kr/home/sub.do?menukey=4002&mode=view&no=1003970724&page=4",
     "https://www.kca.go.kr/home/sub.do?menukey=4005&mode=view&no=1003802576",
     "https://www.kca.go.kr/home/sub.do?menukey=4005&mode=view&no=1003900990",
@@ -1064,6 +1067,7 @@
     "https://www.kca.go.kr/kca/sub.do?menukey=5293&mode=view&no=1001991652",
     "https://www.kca.go.kr/kca/sub.do?menukey=5293&mode=view&no=1002872348&page=88",
     "https://www.kca.go.kr/repo/handle/2015.oak/630",
+    "https://www.kca.go.kr/smartconsumer/sub.do?menukey=7714&mode=view&no=1003052879",
     "https://www.kca.go.kr/smartconsumer/sub.do?menukey=7714&mode=view&no=1004000014",
     "https://www.kca.go.kr/webzine/board/view?div=kca_1908&linkId=76&menuId=MENU00307",
     "https://www.kca.go.kr/webzine/board/view?div=kca_2011&linkId=241&menuId=MENU00307",
@@ -1107,6 +1111,7 @@
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156641453",
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156671771",
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156721628",
+    "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156724174",
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156725226",
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156734593",
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156772414",
@@ -1182,6 +1187,7 @@
     "https://www.law.go.kr/lsSc.do?menuId=1&query=%EB%8F%84%EB%A1%9C%EA%B5%90%ED%86%B5%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
     "https://www.lawfirmkb.com/bbs/board.php?bo_table=success&wr_id=1620",
     "https://www.lawtimes.co.kr/news/articleView.html?idxno=212688",
+    "https://www.lge.co.kr/story/newsroom/236223",
     "https://www.lorealdermatologicalbeauty.com/vichy/poster-pages/12-eadv2021-dercos-ds-vs-zinc",
     "https://www.m-i.kr/news/articleView.html?idxno=1305775",
     "https://www.mcgill.ca/oss/article/environment-general-science/how-can-i-stop-getting-static-shocks",
@@ -1337,6 +1343,7 @@
     "https://www.yna.co.kr/view/AKR20260119060300003",
     "https://www.yna.co.kr/view/AKR20260930110000518",
     "https://www.yna.co.kr/view/AKR20261106160100530",
+    "https://www.yna.co.kr/view/AKR20261115021500030",
     "https://www.yna.co.kr/view/PYH20240305070900013",
     "https://www.yonhapnewstv.co.kr/news/MYH20241022010800641",
     "https://www.youtube.com/watch?v=UffbTzl27Sk",
@@ -1348,7 +1355,7 @@
     "https://zdnet.co.kr/view/?no=20150215140612",
     "https://zdnet.co.kr/view/?no=20201012164450"
   ],
-  "sitemapUrls": 175,
+  "sitemapUrls": 176,
   "stats": {
     "maxHtmlKb": 91.1,
     "avgHtmlKb": 17.8,
