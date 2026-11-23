@@ -47,7 +47,10 @@ function resolveToFile(urlPath: string): string | null {
 export function checkDist(siteUrl: string): DistReport {
   if (!fs.existsSync(DIST_DIR)) throw new Error('dist 폴더가 없습니다. 먼저 npm run build 를 실행하세요.');
   const site = new URL(siteUrl);
-  const files = listFiles(DIST_DIR, '.html').filter((f) => !f.includes(`${path.sep}pagefind${path.sep}`));
+  // 검색엔진 소유확인이 요구하는 평문 .html 파일(google…html 등)은 문서가 아니므로 검사에서 뺍니다.
+  const files = listFiles(DIST_DIR, '.html').filter(
+    (f) => !f.includes(`${path.sep}pagefind${path.sep}`) && !/^google[0-9a-f]+\.html$/i.test(path.basename(f)),
+  );
   const failures: DistIssue[] = [];
   const warnings: DistIssue[] = [];
   const fail = (page: string, message: string) => failures.push({ level: 'fail', page, message });
