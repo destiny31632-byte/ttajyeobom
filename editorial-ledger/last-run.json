@@ -7,5 +7,6 @@
   "status": "held",
   "newPost": null,
   "topic": "winter-car-battery-indicator-replacement-timing-guide",
-  "reason": "30일 이내 무료 프로젝트·결제 미연결 재확인 필요"
+  "reason": "30일 이내 무료 프로젝트·결제 미연결 재확인 필요",
+  "workflowStatus": "failure"
 }
