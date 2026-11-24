@@ -2,7 +2,9 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "피클 자동화(정기 발행 루틴)",
-  "checkedAt": "2026-11-17T21:30:00+09:00",
+  "checkedAt": "2026-11-25T08:00:00+09:00",
   "contentSha256": "a722db1a927e0e2dd540544e1e7176c56786dded58fa6495952ee8adcab0d503",
-  "researchSha256": "99a910ed380bed9ee6e4b9ee89ebfb1bd6069759cb71c4830d5ff33fb4380c95"
+  "researchSha256": "99a910ed380bed9ee6e4b9ee89ebfb1bd6069759cb71c4830d5ff33fb4380c95",
+  "renewedAt": "2026-11-24T23:00:00Z",
+  "renewalNote": "7일 검증 갱신 2026-11-25 08:00 KST (피클 정기 발행 루틴). 근거: 본문(md)과 조사 기록(json) 해시가 직전 승인본과 동일해 문구·수치를 바꾸지 않았다. 인용 출처 5곳 가운데 2곳이 200 응답를 확인했고, 쿠팡 상품·일부 학술지·판매처 3곳는 자동 요청 차단 또는 리다이렉트로 응답 본문을 받지 못해 수치는 이전 확인값을 그대로 둔다. 본문 수치와 출처 내용의 불일치는 새로 발견하지 못했다."
 }

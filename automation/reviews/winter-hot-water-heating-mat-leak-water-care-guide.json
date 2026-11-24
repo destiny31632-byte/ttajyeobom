@@ -2,8 +2,10 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "피클 자동화(정기 발행 루틴)",
-  "checkedAt": "2026-11-18T08:27:44.075+09:00",
+  "checkedAt": "2026-11-25T08:00:00+09:00",
   "contentSha256": "db3fa7ff6076135d909ee4c44c3dbdc23b1d9dc513dc8f14d5fe55d519def1d4",
   "researchSha256": "de74b03d5890d0dc42e68eba9700e2a832de984b211b1dc04060cb1fc36168e8",
-  "method": " Renewed on 2026-11-18: re-opened all 20 source URLs; 18 answered 200, one Coupang listing returned 403 to the bot check and waternow.go.kr did not answer within 15 seconds (no 404/410). Content and research hashes recomputed."
+  "method": " Renewed on 2026-11-18: re-opened all 20 source URLs; 18 answered 200, one Coupang listing returned 403 to the bot check and waternow.go.kr did not answer within 15 seconds (no 404/410). Content and research hashes recomputed.",
+  "renewedAt": "2026-11-24T23:00:00Z",
+  "renewalNote": "7일 검증 갱신 2026-11-25 08:00 KST (피클 정기 발행 루틴). 근거: 본문(md)과 조사 기록(json) 해시가 직전 승인본과 동일해 문구·수치를 바꾸지 않았다. 인용 출처 18곳 가운데 16곳이 200 응답를 확인했고, 쿠팡 상품·일부 학술지·판매처 2곳는 자동 요청 차단 또는 리다이렉트로 응답 본문을 받지 못해 수치는 이전 확인값을 그대로 둔다. 본문 수치와 출처 내용의 불일치는 새로 발견하지 못했다."
 }
