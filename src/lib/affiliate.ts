@@ -2946,6 +2946,37 @@ AFFILIATE_RANKING_MAP['clothing-care-machine-3-models-wrinkle-drying-dehumidific
     ],
   };
 
+AFFILIATE_RANKING_MAP['toilet-paper-11-products-10m-price-dust-strength-flu-season-guide'] = {
+  sectionTitle: '화장지 3종 (코지파우더 10m당 114.8원 · 보타닉포레소프트 115.9원 · 클린케어 180.8원)',
+  sectionSubtitle: '2026-11-24 쿠팡 상품 페이지 금액·상품평 기준(쿠폰·묶음·판매처에 따라 달라짐)',
+  products: [
+    {
+      rank: 1,
+      rankBadge: '최저 단가 + 두 항목 우수 🥇',
+      productName: '코멧 코지 파우더 도톰한 3겹 화장지 30m, 30롤, 3개',
+      specSummary: '확인일 기준 정가 46,000원에서 32퍼센트 내린 30,990원이고 페이지 표기 10m당 115원(직접 계산 114.8원), 무료배송·무료반품에 11월 25일 도착이 보장된다. 한국소비자원이 2026년 10월 공개한 화장지 11개 시험에서 10m당 114.8원으로 가장 쌌고, 파열강도와 화장지 가루 두 항목 모두 우수 등급을 받은 2개 제품 가운데 하나다. 비데겸용 표기 제품이고 향이 첨가돼 있으며 평량은 39.4g/㎡로 시험 제품 가운데 가장 가볍다. 물풀림성은 30초에 100퍼센트 통과했다. 상품평 94,188건, 평점 5.0, 팩당 30m 곱하기 30롤로 3팩 총 2,700m다',
+      tag: '30,990원 · 10m당 115원',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8056327270&vendorItemId=89656297599',
+    },
+    {
+      rank: 2,
+      rankBadge: '파열강도 우수 🥈',
+      productName: '모나리자 보타닉포레 소프트 천연펄프 화장지, 30m, 30개입, 1개',
+      specSummary: '확인일 기준 정가 25,900원에서 59퍼센트 내린 10,430원이고 페이지 표기 10m당 116원(직접 계산 115.9원), 무료배송·무료반품이다. 같은 시험에서 파열강도가 우수 등급이었고 가루는 양호, 평량 41.0g/㎡다. 물풀림성은 30초에 100퍼센트였고 더마테스트 표기가 있는 제품이다. 한 팩 900m라 1인 가구나 화장실 두 곳에 나눠 두기에 부담이 적고, 3팩 묶음보다 한 팩 단가가 조금 높다. 상품평 1,959건, 평점 4.5, 30롤 기준이다',
+      tag: '10,430원 · 10m당 116원',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7749913151&vendorItemId=89566139620',
+    },
+    {
+      rank: 3,
+      rankBadge: '도톰함·FSC 인증 🥉',
+      productName: '크리넥스 클린케어 롤화장지 3겹, 25m, 30개입, 3개',
+      specSummary: '확인일 기준 정가 47,850원에서 15퍼센트 내린 40,670원이고 페이지 표기 10m당 181원(직접 계산 180.8원)이다. 같은 상품 2개는 27,960원에 10m당 186원, 1개는 18,330원에 244원이라 묶음이 클수록 단가가 내려간다. 시험에서는 평량 44.5g/㎡로 시험 제품 가운데 가장 두꺼운 축이고 파열강도·가루 모두 양호, 유연성은 상대적으로 작은 쪽이었다. 포장재에 재생원료 30퍼센트를 쓰고 FSC 인증을 받았다. 롤 길이가 25m라 3팩 총 2,250m이고 상품평은 같은 상품 기준 17,702건, 평점 5.0이다',
+      tag: '40,670원 · 10m당 181원',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=1548171002&vendorItemId=85101496021',
+    },
+  ],
+};
+
 const DEFAULT_RANKING_GROUP: AffiliateRankingGroup = {
   sectionTitle: '따져봄 추천 쿠팡 생활·IT 베스트셀러 BEST 3',
   sectionSubtitle: '최근 30일 누적 판매량 및 실사용 리뷰 종합 기준',
