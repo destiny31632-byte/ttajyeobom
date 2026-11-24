@@ -1,11 +1,8 @@
 {
-  "date": "2026-11-24",
-  "published": [
-    "toilet-paper-11-products-10m-price-dust-strength-flu-season-guide",
-    "black-friday-2026-appliance-deadline-total-cost-guide"
-  ],
-  "remaining": 0,
-  "status": "daily-limit-reached",
+  "date": "2026-11-25",
+  "published": [],
+  "remaining": 2,
+  "status": "held",
   "newPost": null,
-  "workflowStatus": "success"
+  "reason": "기존 공개 글 검토 갱신 필요: 작성 전 중단"
 }
