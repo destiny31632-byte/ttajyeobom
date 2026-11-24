@@ -3008,6 +3008,37 @@ const DEFAULT_RANKING_GROUP: AffiliateRankingGroup = {
   ],
 };
 
+AFFILIATE_RANKING_MAP['induction-pot-10-products-heating-time-weight-price-guide'] = {
+  sectionTitle: '20cm 인덕션 냄비 3종 (키친아트 21,500원 · 퀸센스 18,500원 · 바겐슈타이거 27,170원)',
+  sectionSubtitle: '2026-11-25 쿠팡 상품 페이지 금액·상품평 기준(쿠폰·배송비·재고에 따라 달라짐)',
+  products: [
+    {
+      rank: 1,
+      rankBadge: '가열·보온·요금 모두 상위 🥇',
+      productName: '키친아트 인덕션 올데이 IH 스텐 양수냄비 20cm, 1개',
+      specSummary: '확인일 기준 21,500원에 배송비 3,000원이 붙어 실제 결제액은 24,500원이고, 상품평 59건·평점 4.5다. 스테인리스 재질에 뚜껑 포함, 인덕션 사용가능, 식기세척기 사용가능으로 표시돼 있다. 소비자원이 2026년 11월 24일 공개한 20cm 인덕션 냄비 10종 시험에서 키친아트 올데이 스텐 양수 20cm는 물 500mL를 76~82초에 끓이는 우수 7종에 들었고, 25분 뒤 물 온도가 500mL 44도·1,500mL 60도로 가장 높았으며, 연간 전기요금도 10,600원으로 가장 낮았다. 세 항목을 동시에 만족한 제품은 이 제품과 바겐슈타이거뿐이다. 같은 라인 2종 세트는 편수 18cm와 양수 20cm 구성이 37,050원, 양수 20cm와 22cm 구성이 41,800원이다',
+      tag: '21,500원 · 배송 3,000원',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9237203889&vendorItemId=95132868421',
+    },
+    {
+      rank: 2,
+      rankBadge: '최저가·최경량 라인 🥈',
+      productName: '퀸센스 인덕션 센스 양수냄비 20cm, 1개',
+      specSummary: '확인일 기준 정가 47,900원에서 61퍼센트 내린 18,500원이고 무료배송·무료반품, 상품평 87건·평점 4.5에 품절임박 표시가 붙어 있다. 소비자원 시험에서 같은 브랜드의 빅토리아 센스 냄비가 뚜껑 포함 810g으로 가장 가벼웠고 시험 가격도 17,020원으로 가장 쌌으며 가열 우수 7종에 들었다. 다만 판매 상품명은 센스 양수냄비로 시험 제품명과 완전히 같지 않아, 같은 브랜드·20cm·스테인리스 라인으로 보고 고르는 것이 맞다. 한 손으로 드는 일이 많은 1~2인 가구에 무게 부담이 가장 적은 쪽이다',
+      tag: '18,500원 · 개당 18,500원',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=227477955&vendorItemId=4802466551',
+    },
+    {
+      rank: 3,
+      rankBadge: '보온 최고·상품평 최다 🥉',
+      productName: '바겐슈타이거 인덕션 티프 IH 스텐 양수냄비 20cm, 1개',
+      specSummary: '확인일 기준 정가 42,900원에서 36퍼센트 내린 27,170원이고 무료배송·무료반품, 오늘 도착 보장에 상품평 262건·평점 4.5다. 소비자원 시험에서 바겐슈타이거 티프 양수냄비 20cm는 물 500mL를 76~82초에 끓이는 우수 7종에 들었고, 25분 뒤 물 온도가 500mL 44도·1,500mL 60도로 키친아트와 함께 가장 높았다. 세 제품 가운데 상품평이 가장 많고 배송비가 없어 실결제액은 27,170원이다. 국물 요리를 오래 따뜻하게 두는 집에 맞고, 무게와 만수용량은 시험표에 제품별 값이 공개되지 않아 확인하지 못했다',
+      tag: '27,170원 · 무료배송',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8273258375&vendorItemId=90869143097',
+    },
+  ],
+};
+
 export function getAffiliateRankingForPost(slug: string): AffiliateRankingGroup {
   return AFFILIATE_RANKING_MAP[slug] || DEFAULT_RANKING_GROUP;
 }
