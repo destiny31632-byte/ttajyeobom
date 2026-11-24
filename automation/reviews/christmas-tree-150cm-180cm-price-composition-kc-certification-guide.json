@@ -2,7 +2,9 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "피클 자동화(정기 발행 루틴)",
-  "checkedAt": "2026-11-17T12:40:00+09:00",
+  "checkedAt": "2026-11-24T12:45:00+09:00",
   "contentSha256": "3995a3b9ad632d7eecf12b32d41224de7f5aaed5a7130a8ded6a349184914439",
-  "researchSha256": "dd1052afb57dee14d6c30ef432b49d2942f5aff9ffcfce8a7d0889ad9dc13beb"
+  "researchSha256": "dd1052afb57dee14d6c30ef432b49d2942f5aff9ffcfce8a7d0889ad9dc13beb",
+  "renewedAt": "2026-11-24T03:45:00Z",
+  "renewalNote": "7일 검증 갱신 2026-11-24 12:45 KST (피클 정기 발행 루틴). 근거: 본문(md)·조사 기록(json) 해시가 11-17 승인본과 동일함을 확인해 문구·수치는 바꾸지 않았다. 인용 출처 가운데 국가기술표준원·산업통상자원부 보도자료(motir.go.kr)와 언론 3곳(네이버뉴스·전북일보·한국농어촌방송)을 재접속해 모두 200 응답을 확인했고, 쿠팡 상품 5개 주소는 자동 요청 차단으로 응답을 받지 못해 가격 수치는 11-17 확인값 그대로 둔다. 본문 수치와 출처 내용의 불일치는 발견하지 못했다."
 }
