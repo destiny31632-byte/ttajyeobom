@@ -1,11 +1,8 @@
 {
-  "date": "2026-11-25",
-  "published": [
-    "carbon-mat-10-products-temperature-deviation-heating-speed-guide",
-    "induction-pot-10-products-heating-time-weight-price-guide"
-  ],
-  "remaining": 0,
-  "status": "daily-limit-reached",
+  "date": "2026-11-26",
+  "published": [],
+  "remaining": 2,
+  "status": "held",
   "newPost": null,
-  "workflowStatus": "success"
+  "reason": "기존 공개 글 검토 갱신 필요: 작성 전 중단"
 }
