@@ -3070,6 +3070,37 @@ AFFILIATE_RANKING_MAP['carbon-mat-10-products-temperature-deviation-heating-spee
   ],
 };
 
+AFFILIATE_RANKING_MAP['co-alarm-detector-15-products-13-fail-alarm-loudness-test-guide'] = {
+  sectionTitle: '일산화탄소 경보기 3종 (수산홈텍 27,930원 · 귀뚜라미 22,620원 · 센코 39,500원)',
+  sectionSubtitle: '2026-11-26 쿠팡 상품 페이지 금액·상품평 기준(쿠폰·재고·판매자에 따라 달라짐)',
+  products: [
+    {
+      rank: 1,
+      rankBadge: '인증 표기까지 확인되는 국산 🥇',
+      productName: '수산홈텍 일산화탄소 경보기 COB-380V, 1개, 블랙 + 화이트',
+      specSummary: '확인일 기준 27,930원, 무료배송·무료반품, 오늘 도착이고 상품평 460건·평점 5, 판매자는 쿠팡이다. 필수표기 인증·허가 사항에 전파인증 R-R-GAS-COB380V와 BEQJ 89395(가24-47)가 함께 적혀 있어 형식승인 표기를 직접 확인할 수 있는 쪽이다. 크기 9 x 9 x 2.5cm, 건전지형이라 보일러실 손잡이나 텐트 고리에 걸기 좋다. 상품문의 답변에서는 배터리 수명을 약 7년으로 안내했고, 150ppm은 되어야 울린다는 사용자 지적도 있었으니 받은 뒤 시험 버튼으로 낮은 농도 반응을 확인하는 편이 좋다',
+      tag: '27,930원 · 무료배송',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6911591845&vendorItemId=91962494353',
+    },
+    {
+      rank: 2,
+      rankBadge: '보일러 브랜드·최저가 🥈',
+      productName: '귀뚜라미 세이프온 KGD-500B 일산화탄소(CO) 경보기, 혼합, 1개',
+      specSummary: '확인일 기준 정가 45,000원에서 49퍼센트 내린 22,620원이고 무료배송·무료반품, 오늘 도착이다. 상품평 542건·평점 4.5, 한 달간 400명 이상이 샀다. 판매자는 주식회사 키움유통, 제조자는 나노켐이며 모델명은 KGD-500B다. KC 인증정보는 상품 상세페이지 참조로만 표기돼 있어 형식승인번호는 제품 라벨이나 상세페이지에서 따로 확인해야 한다. 보일러 브랜드 이름으로 고르는 경우의 선택지이며, 세 제품 가운데 가격이 가장 낮다',
+      tag: '22,620원 · 무료배송',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8397515157&vendorItemId=91289314907',
+    },
+    {
+      rank: 3,
+      rankBadge: '후기 최다·캠핑용 🥉',
+      productName: '센코 캠핑용 일산화탄소 경보기 SI-611, 1개',
+      specSummary: '확인일 기준 정가 45,000원에서 12퍼센트 내린 39,500원이고 무료배송·무료반품, 오늘 도착이다. 상품평 602건·평점 4.5로 세 제품 가운데 후기가 가장 많고, 한 달간 700명 이상이 샀다. 전원공급방식은 건전지라 콘센트가 없는 텐트와 차박에 맞는다. 다만 상품명에는 KFI인증이 적혀 있지만 필수표기 정보의 인증·허가 사항에는 전파인증 R-R-Sp8-SI-610만 있고 모델명도 S610으로 표기돼 있어, 형식승인을 확인하려면 판매자에게 번호를 먼저 물어야 한다',
+      tag: '39,500원 · 무료배송',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6252461006&vendorItemId=86716424134',
+    },
+  ],
+};
+
 export function getAffiliateRankingForPost(slug: string): AffiliateRankingGroup {
   return AFFILIATE_RANKING_MAP[slug] || DEFAULT_RANKING_GROUP;
 }

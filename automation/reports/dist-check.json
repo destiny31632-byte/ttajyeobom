@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-25T04:09:38.475Z",
+  "checkedAt": "2026-11-25T23:16:40.470Z",
   "site": "https://ttajyeobom.com",
-  "pages": 915,
-  "indexable": 198,
+  "pages": 922,
+  "indexable": 200,
   "failures": [],
   "warnings": [
     {
@@ -14,6 +14,16 @@
       "level": "warn",
       "page": "/posts/carbon-mat-10-products-temperature-deviation-heating-speed-guide/",
       "message": "img width/height 없음 (레이아웃 흔들림): /images/posts/carbon-mat-10-products-temperature-deviation-heating-speed-guide/price-gap-vs-4month-power-cost.svg"
+    },
+    {
+      "level": "warn",
+      "page": "/posts/co-alarm-detector-15-products-13-fail-alarm-loudness-test-guide/",
+      "message": "img width/height 없음 (레이아웃 흔들림): /images/posts/co-alarm-detector-15-products-13-fail-alarm-loudness-test-guide/alarm-level-pass-count.svg"
+    },
+    {
+      "level": "warn",
+      "page": "/posts/co-alarm-detector-15-products-13-fail-alarm-loudness-test-guide/",
+      "message": "img width/height 없음 (레이아웃 흔들림): /images/posts/co-alarm-detector-15-products-13-fail-alarm-loudness-test-guide/alarm-loudness-15-products.svg"
     },
     {
       "level": "warn",
@@ -33,7 +43,7 @@
     {
       "level": "warn",
       "page": "/tags/소비자원시험/2/, /tags/소비자원시험/3/, /tags/소비자원시험/",
-      "message": "설명 중복: '소비자원시험' 태그가 붙은 따져봄 글 30개를 모았습니다.…"
+      "message": "설명 중복: '소비자원시험' 태그가 붙은 따져봄 글 31개를 모았습니다.…"
     }
   ],
   "externalLinks": [
@@ -423,6 +433,7 @@
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6203450632&itemId=12323547369&vendorItemId=83313715861",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6220799511&itemId=24973857032&vendorItemId=79718608751",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6239624318&itemId=27622386096&vendorItemId=94585346047",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6252461006&vendorItemId=86716424134",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6352791866&itemId=13374814541&vendorItemId=92436402911",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6360359973&itemId=22466224083&vendorItemId=94745535865",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6492007298&vendorItemId=3002041112",
@@ -430,6 +441,7 @@
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6761140003&itemId=15845481846&vendorItemId=83056394674",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6795362843&itemId=16769422001&vendorItemId=96138395210",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6838116861&itemId=17981312404&vendorItemId=85138128516",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6911591845&vendorItemId=91962494353",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=6976280145&itemId=17268931390&vendorItemId=4279138910",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7000775184&itemId=17167598534",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7041169364&itemId=17413081929&vendorItemId=4384377401",
@@ -477,6 +489,7 @@
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8321354054&itemId=24949059348&vendorItemId=91954970861",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8330725092&itemId=23021736099&vendorItemId=79923886105",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8363764498&vendorItemId=94039244689",
+    "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8397515157&vendorItemId=91289314907",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8399513884&vendorItemId=91206887403",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8405162018&itemId=24298803412&vendorItemId=91336461046",
     "https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8416474413&itemId=24339509268&vendorItemId=93508859658",
@@ -725,6 +738,7 @@
     "https://www.bosa.co.kr/news/articleView.html?idxno=2162273",
     "https://www.bsbukgu.go.kr/news/board/view.do?boardId=NEWS&categoryCode1=4&dataSid=415195&menuCd=DOM_000000704000000000&paging=ok&startPage=29",
     "https://www.busan.com/view/busan/view.php?code=2024121014540054453",
+    "https://www.busan.com/view/busan/view.php?code=2025121515151147792",
     "https://www.caa.go.jp/policies/policy/consumer_safety/caution/caution_080/",
     "https://www.caa.go.jp/policies/policy/consumer_safety/child/project_001/mail/20241225/",
     "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/technical-bulletins/silica-gel-relative-humidity.html",
@@ -853,6 +867,7 @@
     "https://www.coupang.com/vp/products/6203450632?itemId=12323547369&vendorItemId=83313715861",
     "https://www.coupang.com/vp/products/6220799511",
     "https://www.coupang.com/vp/products/6239624318",
+    "https://www.coupang.com/vp/products/6252461006",
     "https://www.coupang.com/vp/products/6256871913",
     "https://www.coupang.com/vp/products/6352791866?itemId=13374814541&vendorItemId=92436402911",
     "https://www.coupang.com/vp/products/6360359973?itemId=22466224083&vendorItemId=94745535865",
@@ -860,6 +875,7 @@
     "https://www.coupang.com/vp/products/6746447827?itemId=15763825943",
     "https://www.coupang.com/vp/products/6761140003",
     "https://www.coupang.com/vp/products/6838116861",
+    "https://www.coupang.com/vp/products/6911591845",
     "https://www.coupang.com/vp/products/6955955921",
     "https://www.coupang.com/vp/products/7000775184",
     "https://www.coupang.com/vp/products/7041169364?itemId=17413081929&vendorItemId=4384377401",
@@ -906,6 +922,7 @@
     "https://www.coupang.com/vp/products/8321354054?itemId=24949059348&vendorItemId=91954970861",
     "https://www.coupang.com/vp/products/8330725092",
     "https://www.coupang.com/vp/products/8363764498?itemId=29139126897&vendorItemId=94039244689",
+    "https://www.coupang.com/vp/products/8397515157",
     "https://www.coupang.com/vp/products/8399513884",
     "https://www.coupang.com/vp/products/8405162018",
     "https://www.coupang.com/vp/products/8437153678?itemId=24325398314&vendorItemId=94173335559",
@@ -1096,6 +1113,7 @@
     "https://www.kca.go.kr/home/sub.do?menukey=4002&mode=view&no=1002962053",
     "https://www.kca.go.kr/home/sub.do?menukey=4002&mode=view&no=1003228055",
     "https://www.kca.go.kr/home/sub.do?menukey=4002&mode=view&no=1003588682",
+    "https://www.kca.go.kr/home/sub.do?menukey=4002&mode=view&no=1003825747",
     "https://www.kca.go.kr/home/sub.do?menukey=4002&mode=view&no=1003943880",
     "https://www.kca.go.kr/home/sub.do?menukey=4002&mode=view&no=1003970724&page=4",
     "https://www.kca.go.kr/home/sub.do?menukey=4005&mode=view&no=1003802576",
@@ -1165,6 +1183,8 @@
     "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156789553",
     "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156397603",
     "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156432392",
+    "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156611142",
+    "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156730580",
     "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156769067",
     "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156774815",
     "https://www.korea.kr/multi/visualNewsView.do?newsId=148879941",
@@ -1209,6 +1229,7 @@
     "https://www.kyeongin.com/article/1041594",
     "https://www.laroche-posay.com/cicaplast-baume-b5-plus",
     "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B4%80%EC%84%B8%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+    "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B0%80%EC%8A%A4%EB%88%84%EC%84%A4%EA%B2%BD%EB%B3%B4%EA%B8%B0%EC%9D%98%20%ED%98%95%EC%8B%9D%EC%8A%B9%EC%9D%B8%20%EB%B0%8F%20%EC%A0%9C%ED%92%88%EA%B2%80%EC%82%AC%EC%9D%98%20%EA%B8%B0%EC%88%A0%EA%B8%B0%EC%A4%80",
     "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000265840",
     "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000275290",
     "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000281108",
@@ -1402,7 +1423,7 @@
     "https://zdnet.co.kr/view/?no=20150215140612",
     "https://zdnet.co.kr/view/?no=20201012164450"
   ],
-  "sitemapUrls": 180,
+  "sitemapUrls": 182,
   "stats": {
     "maxHtmlKb": 91,
     "avgHtmlKb": 18,
