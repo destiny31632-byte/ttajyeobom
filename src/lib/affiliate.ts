@@ -3039,6 +3039,37 @@ AFFILIATE_RANKING_MAP['induction-pot-10-products-heating-time-weight-price-guide
   ],
 };
 
+AFFILIATE_RANKING_MAP['carbon-mat-10-products-temperature-deviation-heating-speed-guide'] = {
+  sectionTitle: '탄소매트 3종 (나비엔 217,550원 · 귀뚜라미 279,000원 · 일월 39,900원)',
+  sectionSubtitle: '2026-11-25 쿠팡 상품 페이지 금액·상품평 기준(쿠폰·사이즈·재고에 따라 달라짐)',
+  products: [
+    {
+      rank: 1,
+      rankBadge: '시험 제품과 같은 모델 🥇',
+      productName: '나비엔 숙면 DC 카본매트 EME510-SP, 싱글(950 x 1800 mm), 1개',
+      specSummary: '확인일 기준 정가 393,000원에서 44퍼센트 내린 217,550원이고 무료배송·무료반품, 상품평 339건·평점 5다. 소비전력 105W, 과열방지·분리난방 표기, KC 인증 JH07487-21001E, 쿠팡상품번호 8399513884-24579246582, 판매자 쿠팡이다. 소비자원이 2025년 12월 공개한 1인용 탄소매트 10종 시험에서 경동나비엔 EME510-SP는 위치별 온도편차 2.2도로 작은 편이면서 최대 표면온도 51도, 발열속도 25분, 8시간 소비전력 662Wh, 월 에너지비용 3,200원을 기록했다. 머리부 20cm 이상에 열선을 넣지 않은 4개 제품 가운데 하나라 매트 방향을 구분해 깔아야 한다. 상품평에는 리모컨 예약 기능이 없다는 지적과 시트가 밀린다는 지적이 있으니 타이머가 필요하면 상품 정보를 다시 확인해야 한다',
+      tag: '217,550원 · 무료배송',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8399513884&vendorItemId=91206887403',
+    },
+    {
+      rank: 2,
+      rankBadge: '온도편차 최소 브랜드 🥈',
+      productName: '귀뚜라미 카본매트 KDM-92 고급형 다이얼 DC 탄소매트 전기요, 퀸(150 x 200 cm), 1개',
+      specSummary: '확인일 기준 정가 378,000원에서 26퍼센트 내린 279,000원이고 무료배송, 평점 4·상품평 37건, 11월 28일 도착 예정이다. 소비자원 시험에서 같은 브랜드의 KDM-921(1인용 103x196cm, 시험 가격 249,000원)이 위치별 온도편차 0.4도로 가장 균일했고, 최대 표면온도 39도·발열속도 49분·월 에너지비용 2,300원이었다. 다만 판매 상품은 모델명이 KDM-92이고 사이즈가 퀸이라 시험값을 그대로 적용할 수는 없어, 같은 브랜드의 다이얼 DC 계열이라는 점까지 확인한 참고값으로 봐야 한다. 온도가 고르게 퍼지는 쪽을 우선하는 경우의 선택지다',
+      tag: '279,000원 · 무료배송',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9697936818&vendorItemId=95937159506',
+    },
+    {
+      rank: 3,
+      rankBadge: '최저가·후기 최다 🥉',
+      productName: '일월 워셔블 카본 온열 전기매트 체크 그레이, 싱글(90 x 180 cm), 1개',
+      specSummary: '확인일 기준 정가 81,000원에서 50퍼센트 내린 39,900원이고 무료배송·무료반품, 평점 4.5·상품평 5,092건으로 세 제품 가운데 가장 싸고 후기가 가장 많다. 소비자원 시험에 같은 브랜드의 IW-KM59S-SP10(91x180cm, 시험 가격 69,000원)이 포함됐는데, 위치별 온도편차가 10.5도로 10개 제품 가운데 가장 컸고 최대 표면온도 48도·발열속도 29분·월 에너지비용 2,300원이었다. 판매 상품은 모델명이 달라 시험값을 그대로 옮길 수 없으므로, 가격과 후기 수를 우선할 때의 선택지로 두는 편이 안전하다',
+      tag: '39,900원 · 무료배송',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9080861108&vendorItemId=73761603647',
+    },
+  ],
+};
+
 export function getAffiliateRankingForPost(slug: string): AffiliateRankingGroup {
   return AFFILIATE_RANKING_MAP[slug] || DEFAULT_RANKING_GROUP;
 }
