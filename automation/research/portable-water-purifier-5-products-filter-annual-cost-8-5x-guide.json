@@ -1,0 +1,177 @@
+{
+  "slug": "portable-water-purifier-5-products-filter-annual-cost-8-5x-guide",
+  "checkedAt": "2026-11-26T12:38:00+09:00",
+  "facts": [
+    {
+      "claim": "한국소비자원은 자연 여과식 휴대용 정수기(간이형) 5개 제품의 정수 성능·안전성·환경성·경제성을 시험·평가해 2026년 1월 29일 공개했다. 시험 대상은 브리타(Marella White), 제로워터(ZD-010RP), 청호나이스(EC268), 필립스(AWP2933WHT), 휴롬(WP1T-F01WH)이다.",
+      "value": "5 2026 1 29",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1081267",
+      "evidence": "한국소비자원(원장 윤수현)은 휴대용 정수기 5개 제품에 대해 정수 성능·안전성·환경성 등을 시험·평가했다. 게시일 2026-01-29.",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "시험 대상 제품 가격은 2025년 4월 공식 판매사이트 기준 본체+필터 1개입 구성으로 필립스 19,900원, 청호나이스 24,900원, 휴롬 34,900원, 브리타 36,000원, 제로워터 55,000원이고, 용량은 브리타·제로워터·휴롬이 2.4ℓ, 청호나이스·필립스가 2.6ℓ다.",
+      "value": "2025 4 19,900 24,900 34,900 36,000 55,000 2.4 2.6",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224858&funcType=colctInfoFunction",
+      "evidence": "시험대상 제품표: 브리타 Marella White 2.4ℓ 36,000원, 제로워터 ZD-010RP 2.4ℓ 55,000원, 청호나이스 EC268 2.6ℓ 24,900원, 필립스 AWP2933WHT 2.6ℓ 19,900원, 휴롬 WP1T-F01WH 2.4ℓ 34,900원. 가격은 2025.4. 공식 판매사이트 구매가.",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "권장 교체주기와 필터 단가는 휴롬 4개월·11,633원, 청호나이스 60일·5,967원, 브리타 28일·7,550원, 필립스 1개월·7,967원, 제로워터 1개월·24,825원이다.",
+      "value": "4 11,633 60 5,967 28 7,550 1 7,967 24,825",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=02&fileGroupNo=000224858&funcType=colctInfoFunction",
+      "evidence": "종합결과표 경제성 항목: 필터 단가 7,550원(브리타)·24,825원(제로워터)·5,967원(청호나이스)·7,967원(필립스)·11,633원(휴롬). 권장교체주기 28일·1개월·60일·1개월·4개월.",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "연간 소요 비용은 휴롬 34,900원, 청호나이스 35,800원, 필립스 95,600원, 브리타 98,150원, 제로워터 297,900원으로 제품 간 최대 8.5배 차이가 났고 전체 평균은 112,470원이다.",
+      "value": "34,900 35,800 95,600 98,150 297,900 8.5 112,470",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1081267",
+      "evidence": "연간 필터 교체 유지비용은 휴롬이 34,900원으로 가장 낮고 제로워터가 297,900원으로 가장 높아 최대 8.5배 차이. 전체 평균 112,470원.",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "연간 유지비는 1인 가구 생수 구매비 211,650원의 16.5%에서 46.4% 수준이고, 제로워터만 140.8%로 생수보다 비쌌으며 전체 평균은 53.1%다.",
+      "value": "211,650 16.5 46.4 140.8 53.1",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/80/selectInfoCmprDetail.do?infoId=A1081267",
+      "evidence": "대부분 제품의 연간 유지비용은 먹는 샘물 구매비용의 16.5~46.4% 수준이나 제로워터는 140.8%. 생수 연간 구매비용 211,650원(2ℓ 255병, 2025.6. 기준).",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "정수 성능 3개 항목(유리잔류염소·클로로포름·탁도, 제거율 기준 80% 이상)에서 휴롬은 3개 항목 모두 기준 이상이었고, 브리타·청호나이스·필립스는 탁도가, 제로워터는 클로로포름이 기준 미만이었다.",
+      "value": "3 80",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224858&funcType=colctInfoFunction",
+      "evidence": "정수 성능 시험결과표: 제거율 기준 80% 이상. 휴롬 3개 항목 모두 기준 이상, 브리타·청호나이스·필립스 탁도 기준 미만, 제로워터 클로로포름 기준 미만.",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "유효정수량은 유리잔류염소에서 전 제품이 상대적 우수였고, 클로로포름은 휴롬 우수·브리타 양호·청호나이스와 필립스 보통이었으며, 제로워터는 최소 처리용량 50ℓ를 만족하지 못해 평가에서 제외됐다.",
+      "value": "50",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224858&funcType=colctInfoFunction",
+      "evidence": "유효정수량 평가표: 제로워터 클로로포름란 '최소 처리용량(50ℓ)을 만족하지 못해 평가에서 제외'. 휴롬 2개 항목 우수.",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "여과속도는 브리타·청호나이스·필립스가 상대적 우수, 제로워터와 휴롬이 보통이었다.",
+      "value": "3 2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224858&funcType=colctInfoFunction",
+      "evidence": "여과속도 평가: 시험대상 5개 중 3개 제품(브리타·청호나이스·필립스)이 상대적으로 빠라 우수, 나머지 2개(제로워터·휴롬)는 보통.",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "대장균 제거율은 시험 대상 전 제품이 기준(불검출)에 미달했고, 소비자원은 수돗물이 아닌 지하수·약수·샘물을 정수해 먹지 말라고 권고했다.",
+      "value": "5",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224858&funcType=colctInfoFunction",
+      "evidence": "대장균 제거율 시험 결과 모든 제품이 기준 미만. 4개 업체가 사용상 주의사항 표시를 개선하겠다고 회신.",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "환경부 고시 정수기 기준은 유리잔류염소·색도·탁도·클로로포름 4개 의무정수성능 가운데 1개 이상에서 기준을 만족하면 KC 인증을 받을 수 있게 하고 있다.",
+      "value": "4 1 80",
+      "sourceUrl": "https://law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000203667",
+      "evidence": "정수기의 기준·규격 및 검사기관 지정고시(환경부고시 제2021-157호, 시행 2021.8.3.). 소비자원 시험은 이 고시의 의무정수성능 4개 항목과 80% 제거율 기준을 적용.",
+      "asOf": "2021-08-03"
+    },
+    {
+      "claim": "필터 1개 플라스틱 무게는 브리타 20.8g, 제로워터 78.4g, 청호나이스 24.0g, 필립스 30.9g, 휴롬 30.8g이고, 교체주기를 반영한 연간 플라스틱은 270g·941g·144g·371g·92g으로 저감률이 97.6%·91.6%·98.7%·96.7%·99.2%였다. 전체 평균은 364g·96.7%다.",
+      "value": "20.8 78.4 24.0 30.9 30.8 270 941 144 371 92 97.6 91.6 98.7 96.7 99.2 364",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224858&funcType=colctInfoFunction",
+      "evidence": "플라스틱 소비 저감 표: 필터 외관 케이스 플라스틱 20.8g/78.4g/24.0g/30.9g/30.8g, 연간 270g/941g/144g/371g/92g, 저감률 97.6%/91.6%/98.7%/96.7%/99.2%, 전체 평균 364g·96.7%.",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "1인 가구가 생수를 사 먹으면 연간 플라스틱 11,142g을 쓰게 되며, 이는 2ℓ 생수 255병에 병당 평균 43.7g을 적용한 값이다.",
+      "value": "11,142 2 255 43.7",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224858&funcType=colctInfoFunction",
+      "evidence": "1인 가구 연간 2ℓ 먹는샘물 구매량 255병 × 2ℓ 먹는샘물 개당 플라스틱 무게 평균 43.7g = 11,142g.",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "2022년 국내 1인당 플라스틱 배출량은 103.9kg으로 OECD 국가 가운데 호주 110.1kg 다음으로 많았고, 먹는 샘물 시장 규모는 2024년 3조원을 넘었다.",
+      "value": "2022 103.9 110.1 2024 3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224858&funcType=colctInfoFunction",
+      "evidence": "2022년 국내 1인당 플라스틱 배출량 103.9kg으로 OECD 국가 중 호주(110.1kg) 다음. 먹는 샘물 시장규모는 2024년 3조원 돌파.",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "의무표시사항은 제로워터·청호나이스·필립스 3개 제품이 제조일자·제조번호 등 일부 항목을 누락해 부적합 판정을 받았다.",
+      "value": "3",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224858&funcType=colctInfoFunction",
+      "evidence": "표시 적합성: 전 제품 KC 인증 표시는 있었으나 3개 제품(제로워터·청호나이스·필립스)이 제조일자 등 일부 항목 누락으로 부적합.",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "필터 분리배출 구조는 브리타·청호나이스·휴롬이 양호, 제로워터·필립스가 미흡이었고, 분리배출 표시는 휴롬 1개 제품만 했고 나머지 4개 제품은 없었다.",
+      "value": "3 2 1 4",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/80/userFileInfoDownload.do?fileDetailSn=01&fileGroupNo=000224858&funcType=colctInfoFunction",
+      "evidence": "분리배출 편리성: 3개 제품 양호, 2개 제품 미흡. 분리배출 표시는 4개 제품이 없었고 1개 제품(휴롬)은 표시가 작아 확인이 어려움.",
+      "asOf": "2026-01-29"
+    },
+    {
+      "claim": "2026년 11월 26일 쿠팡에서 휴롬 미니 휴대용 간이 정수기 WP1T-F01WH는 59,800원, 무료배송, 12월 1일 도착 예정, 상품평 115건, 판매자 청우마켓, 인증번호 No.48353607로 확인됐다.",
+      "value": "2026 11 26 59,800 12 1 115 48353607",
+      "sourceUrl": "https://www.coupang.com/vp/products/8039869388",
+      "evidence": "상품 페이지 2026-11-26 확인: 59,800원, 무료배송, 화요일 12/1 도착 예정, 품절임박 9개, 상품평 115개, 판매자 청우마켓, 배송 CJ대한통운, 정수전용·휴대용·2.4L·화이트, 인증/허가 사항 No.48353607, 쿠팡상품번호 8039869388-22506374590.",
+      "asOf": "2026-11-26"
+    },
+    {
+      "claim": "같은 날 쿠팡에서 필립스 피처 간이 정수기 AWP2933WHT는 정가 23,830원에서 10% 와우할인이 적용된 21,440원, 새벽 도착, 무료배송·무료반품, 상품평 676건, 판매자 쿠팡, 인증번호 No.48826091이며 반품 상품 최저가는 19,510원이었다.",
+      "value": "23,830 10 21,440 676 48826091 19,510",
+      "sourceUrl": "https://www.coupang.com/vp/products/7090258240",
+      "evidence": "상품 페이지 2026-11-26 확인: 23,830원 10% 할인 21,440원, 내일 11/27 새벽 7시 전 도착, 무료배송·무료반품, 상품평 676개, 한 달간 100명 이상 구매, 판매자 쿠팡, 2.6L, 구성품 본체+필터 1개입, 인증 No.48826091, 쿠팡상품번호 7090258240-17666408807.",
+      "asOf": "2026-11-26"
+    },
+    {
+      "claim": "같은 날 쿠팡에서 브리타 마렐라 XL(화이트)는 정가 49,400원에서 39% 쿠폰할인이 적용된 29,900원, 새벽 도착, 상품평 23,676건, 판매자 쿠팡, 인증번호 No.49121515이며 용량은 3.5ℓ다.",
+      "value": "49,400 39 29,900 23,676 49121515 3.5",
+      "sourceUrl": "https://www.coupang.com/vp/products/7506258233",
+      "evidence": "상품 페이지 2026-11-26 확인: 49,400원 39% 할인 29,900원, 내일 11/27 새벽 7시 전 도착, 무료배송·무료반품, 상품평 23,676개, 한 달간 1,000명 이상 구매, 판매자 쿠팡, 높이 25.8cm, 인증 No.49121515, 쿠팡상품번호 7506258233-19658813386.",
+      "asOf": "2026-11-26"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "3년 총비용(오늘 쿠팡 본체가 + 연간 필터비 × 3년)",
+      "formula": "본체가 + 연간 소요 비용 × 3",
+      "assumptions": "본체가는 2026-11-26 쿠팡 판매가, 연간 필터비는 소비자원 시험평가 값. 필터 가격 변동은 반영하지 않음.",
+      "values": [164500, 308240, 324350, 634950]
+    },
+    {
+      "table": "연간 유지비 배수",
+      "formula": "297,900 ÷ 34,900",
+      "values": [8.5]
+    },
+    {
+      "table": "생수 대비 비율",
+      "formula": "연간 필터비 ÷ 211,650 × 100",
+      "values": [16.5, 16.9, 45.2, 46.4, 140.8, 53.1]
+    },
+    {
+      "table": "3년 필터비(연간 소요 비용 × 3년)",
+      "formula": "연간 소요 비용 × 3",
+      "values": [104700, 286800, 294450]
+    },
+    {
+      "table": "첫해 총비용(휴롬)",
+      "formula": "본체 59,800 + 연간 34,900",
+      "values": [94700]
+    },
+    {
+      "table": "본체 가격 차이(휴롬−필립스)",
+      "formula": "59,800 − 21,440",
+      "values": [38360]
+    },
+    {
+      "table": "3년 총비용 비교 우위",
+      "formula": "164,500 ÷ 634,950 × 100",
+      "values": [25.9]
+    }
+  ],
+  "conflicts": [],
+  "watch": [
+    "쿠팡 3종 가격·재고·판매자 변동",
+    "소비자원 시험 대상 모델의 단종·후속 모델 출시",
+    "환경부 정수기 기준·규격 고시 개정",
+    "필터 권장 교체주기·단가 변동"
+  ]
+}

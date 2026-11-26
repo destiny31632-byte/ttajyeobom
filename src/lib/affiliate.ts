@@ -3101,6 +3101,37 @@ AFFILIATE_RANKING_MAP['co-alarm-detector-15-products-13-fail-alarm-loudness-test
   ],
 };
 
+AFFILIATE_RANKING_MAP['portable-water-purifier-5-products-filter-annual-cost-8-5x-guide'] = {
+  sectionTitle: '휴대용 정수기 3종 (휴롬 5만9,800원 · 브리타 2만9,900원 · 필립스 2만1,440원)',
+  sectionSubtitle: '2026-11-26 쿠팡 상품 페이지 금액·상품평 기준(와우할인·쿠폰·판매자 옵션에 따라 달라짐)',
+  products: [
+    {
+      rank: 1,
+      rankBadge: '3년 총비용 최저 🥇',
+      productName: '휴롬 미니 휴대용 간이 정수기 WP1T-F01WH, 1개',
+      specSummary: '확인일 기준 59,800원이고 무료배송, 12월 1일 도착 예정이며 상품평 115건에 평점 5다. 판매자는 청우마켓, 인증·허가 사항은 No.48353607, 쿠팡상품번호 8039869388-22506374590이다. 소비자원 시험에서 필터를 갈아 끼우는 연간 비용이 34,900원으로 5종 가운데 가장 낮았고, 유리잔류염소·클로로포름·탁도 세 항목을 모두 통과한 유일한 제품이다. 교체주기는 4개월로 길어 본체 59,800원에 연 필터비 34,900원을 더한 첫해 총비용이 94,700원이고 3년이면 164,500원이다. 용량 2.4L, 정수전용, 화이트이며 재고가 9개 남은 상태였다',
+      tag: '59,800원 · 무료배송',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8039869388&vendorItemId=96378943065',
+    },
+    {
+      rank: 2,
+      rankBadge: '본체값 최저 🥈',
+      productName: '필립스 피처 간이 정수기 본체 2.6L + 필터 AWP2933WHT, 1개',
+      specSummary: '확인일 기준 정가 23,830원에서 와우할인 10퍼센트가 적용된 21,440원이고 무료배송·무료반품에 11월 27일 새벽 7시 전 도착이 보장된다. 반품 상품을 고르면 19,510원까지 내려간다. 상품평 676건·평점 4.5, 한 달간 100명 이상이 샀고 판매자는 쿠팡, 인증 번호는 No.48826091이다. 시험에서는 탁도 항목이 기준에 못 미쳤고, 필터를 1개월마다 갈아야 해 연간 필터비가 95,600원이라 본체 21,440원에 3년 필터비 286,800원을 더하면 308,240원이 된다. 본체값만 보고 고르면 유지비에서 되돌려 받는 셈이다',
+      tag: '21,440원 · 새벽 도착',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7090258240&vendorItemId=84831851199',
+    },
+    {
+      rank: 3,
+      rankBadge: '후기 최다 🥉',
+      productName: '브리타 마렐라 XL 정수기 Marella XL White, 1개',
+      specSummary: '확인일 기준 정가 49,400원에서 쿠폰할인 39퍼센트가 적용된 29,900원이고 무료배송·무료반품에 11월 27일 새벽 도착이 보장된다. 상품평 23,676건에 평점 5로 세 제품 가운데 후기가 가장 많고 한 달간 1,000명 이상이 샀다. 판매자는 쿠팡, 인증 번호는 No.49121515다. 소비자원 시험이 끝난 2.4L 마렐라 화이트가 아니라 용량이 큰 3.5L XL 모델이라는 점은 감안해야 한다. 같은 막스트라 프로 필터 계열을 쓰고 교체주기는 28일, 연간 필터비는 98,150원으로 3년 총비용이 324,350원이다',
+      tag: '29,900원 · 무료배송',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7506258233&vendorItemId=90882440349',
+    },
+  ],
+};
+
 export function getAffiliateRankingForPost(slug: string): AffiliateRankingGroup {
   return AFFILIATE_RANKING_MAP[slug] || DEFAULT_RANKING_GROUP;
 }
