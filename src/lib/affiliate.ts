@@ -3132,6 +3132,37 @@ AFFILIATE_RANKING_MAP['portable-water-purifier-5-products-filter-annual-cost-8-5
   ],
 };
 
+AFFILIATE_RANKING_MAP['fabric-deodorizer-8-products-odor-type-price-per-100ml-guide'] = {
+  sectionTitle: '섬유탈취제 3종 (스너글 5,500원 · 샤프란케어 3,990원 · 피죤 3개 10,600원)',
+  sectionSubtitle: '2026-11-27 쿠팡 상품 페이지 금액·상품평 기준(와우할인·쿠폰·옵션에 따라 달라짐)',
+  products: [
+    {
+      rank: 1,
+      rankBadge: '고기 냄새·잔향 최상위 🥇',
+      productName: '스너글 허거블 코튼 더블 소프트 섬유탈취제 본품, 470ml, 1개',
+      specSummary: '확인일 기준 정가 8,050원에서 31퍼센트 내린 5,500원이고 100ml당 1,170원, 무료배송·무료반품에 오늘 도착이 보장된다. 상품평 87,116건, 한 달간 1만명 이상이 구매했다. 판매자는 쿠팡, 쿠팡상품번호 8820380371-25820880174, 생활화학제품 EB24-13-0480이다. 소비자원 시험에서 조향사 21명 관능평가 기준 고기구이 냄새 제거가 상대적 우수였고 잔향 점수도 2.8로 진한 편이다. 암모니아와 트리메틸아민은 우수, 황화수소와 메틸머캅탄은 보통이었다. 2개는 10,000원, 3개는 13,500원으로 묶음 단가가 더 낮다',
+      tag: '5,500원 · 100ml당 1,170원',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=8820380371&vendorItemId=92807808303',
+    },
+    {
+      rank: 2,
+      rankBadge: '100ml 단가 최저 🥈',
+      productName: '샤프란 케어 섬유탈취제 상쾌한향, 900ml, 1개',
+      specSummary: '확인일 기준 정가 4,210원에서 와우할인 5퍼센트가 적용된 3,990원이고 100ml당 443원으로 세 제품 가운데 가장 싸다. 상품평 3,596건, 무료배송·무료반품에 오늘 도착이 보장되고 판매자는 쿠팡, 쿠팡상품번호 2992065-260126, 생활화학제품 FB20-13-0221이다. 소비자원 시험 당시 900ml가 5,900원으로 100ml당 656원이었는데 지금은 443원까지 내렸다. 암모니아와 트리메틸아민에서 상대적 우수였지만 고기구이 냄새는 8종 가운데 유일하게 보통이었고, 잔향 점수는 1.0으로 향이 거의 남지 않는다. 냄새만 빠르게 지우고 향은 남기지 않으려는 사람에게 맞는다',
+      tag: '3,990원 · 100ml당 443원',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=2992065&vendorItemId=89031259556',
+    },
+    {
+      rank: 3,
+      rankBadge: '재활용 등급 유일 우수 🥉',
+      productName: '피죤 스프레이 강력 섬유탈취제 블루비앙카, 430ml, 3개',
+      specSummary: '확인일 기준 정가 26,700원에서 60퍼센트 내린 10,600원이고 100ml당 822원, 1개만 고르면 4,500원이다. 상품평 15,621건, 한 달간 2,000명 이상이 구매했고 무료배송·무료반품에 오늘 도착이 보장된다. 판매자는 쿠팡, 쿠팡상품번호 9198710095-26955913641이다. 소비자원 시험에서 포장재 재활용 용이성이 8종 가운데 유일하게 우수 등급이었고, 고기구이 냄새는 양호, 잔향 점수는 2.4였다. 암모니아와 트리메틸아민은 보통이었다. 430ml 세 병이라 현관과 옷방에 나눠 두고 쓰기 좋다',
+      tag: '10,600원 · 100ml당 822원',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=9198710095&vendorItemId=93924946275',
+    },
+  ],
+};
+
 export function getAffiliateRankingForPost(slug: string): AffiliateRankingGroup {
   return AFFILIATE_RANKING_MAP[slug] || DEFAULT_RANKING_GROUP;
 }
