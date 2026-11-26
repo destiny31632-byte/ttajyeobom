@@ -1,9 +1,10 @@
 {
   "date": "2026-11-26",
-  "published": [],
-  "remaining": 2,
-  "status": "held",
-  "newPost": null,
-  "reason": "기존 공개 글 검토 갱신 필요: 작성 전 중단",
-  "workflowStatus": "failure"
+  "published": [
+    "portable-water-purifier-5-products-filter-annual-cost-8-5x-guide",
+    "co-alarm-detector-15-products-13-fail-alarm-loudness-test-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
