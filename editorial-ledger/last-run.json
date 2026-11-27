@@ -1,11 +1,8 @@
 {
-  "date": "2026-11-27",
-  "published": [
-    "panty-type-sanitary-pad-7-products-leak-back-wear-fit-price-guide",
-    "fabric-deodorizer-8-products-odor-type-price-per-100ml-guide"
-  ],
-  "remaining": 0,
-  "status": "daily-limit-reached",
+  "date": "2026-11-28",
+  "published": [],
+  "remaining": 2,
+  "status": "held",
   "newPost": null,
-  "workflowStatus": "success"
+  "reason": "기존 공개 글 검토 갱신 필요: 작성 전 중단"
 }
