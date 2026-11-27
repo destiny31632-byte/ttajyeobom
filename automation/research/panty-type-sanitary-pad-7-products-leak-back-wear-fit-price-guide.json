@@ -1,0 +1,135 @@
+{
+  "slug": "panty-type-sanitary-pad-7-products-leak-back-wear-fit-price-guide",
+  "checkedAt": "2026-11-27T12:55:00+09:00",
+  "facts": [
+    {
+      "claim": "한국소비자원은 일회용 팬티형 생리대 7개 브랜드 7개 제품의 흡수성능, 소비자 실사용 평가, 기본 품질, 안전성, 가격을 시험·평가해 2026년 7월 21일 공개했다(비교공감 제2026-11호).",
+      "value": "7 2026 7 21 11",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081379",
+      "evidence": "시험대상 7개 브랜드 7개 제품, 게시일 2026-07-21, 비교공감 제2026-11호.",
+      "asOf": "2026-07-21"
+    },
+    {
+      "claim": "시험대상은 고분자흡수체(SAP)를 쓰지 않고 피부에 닿는 커버를 순면으로 만든 팬티형 오버나이트 제품으로 한정했다. 그래서 SAP를 쓰는 일반 팬티형 생리대는 이 시험에 들어가지 않았다.",
+      "value": "7",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224882&fileDetailSn=01&funcType=colctInfoFunction",
+      "evidence": "제품 선정기준은 제품 유형 팬티형(입는 오버나이트), 흡수체 및 피부 접촉부 SAP FREE·순면커버.",
+      "asOf": "2026-07-21"
+    },
+    {
+      "claim": "제품은 최근 1년 내 일회용 팬티형 생리대를 구입한 경험이 있는 여성 소비자 1,000명 설문(2025년 5월)과 전문가위원회 검토로 골랐다.",
+      "value": "1,000 2025 5",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224882&fileDetailSn=01&funcType=colctInfoFunction",
+      "evidence": "최근 1년 내 구입 경험 여성 소비자 1,000명 대상 설문(한국소비자원, 2025.5.).",
+      "asOf": "2025-05-31"
+    },
+    {
+      "claim": "역류량은 흡수된 생리혈이 피부로 다시 묻어나오는 양으로, 말피 5mL를 흡수시킨 뒤 거즈를 덮고 무게를 가해 측정했다. 1차 역류량은 0.4g에서 1.1g, 2차는 0.6g에서 1.0g이었고, 좋은느낌 제품이 0.4g과 0.6g으로 두 차례 모두 가장 적었다.",
+      "value": "5 0.4 1.1 0.6 1.0 0.4 0.6",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224882&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "1차 역류량 최소 0.4g~최대 1.1g, 2차 0.6g~1.0g. 좋은느낌 1차 0.4g·2차 0.6g으로 최소.",
+      "asOf": "2026-07-21"
+    },
+    {
+      "claim": "흡수시간은 말피를 떨어뜨린 뒤 표면에서 완전히 사라질 때까지 걸린 시간이다. 3mL에서는 2.4초에서 20초 이상, 5mL에서는 3.6초에서 20초 이상으로 갈렸고, 내츄럴코튼이 5mL에서 3.6초로 가장 빨랐으며 라엘은 두 차례 모두 20초 이상이었다.",
+      "value": "3 2.4 20 5 3.6 20 3.6 20",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224882&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "3mL 2.4초~20초 이상, 5mL 3.6초~20초 이상. 내츄럴코튼 5mL 3.6초로 가장 빠름, 라엘 20초 이상.",
+      "asOf": "2026-07-21"
+    },
+    {
+      "claim": "내부습도는 35℃를 유지하는 써멀마네킨에 증류수 5mL를 넣은 생리대를 입혀 3시간 동안 측정했다. 내츄럴코튼, 순수한면, 쏘피, 라엘 4개 제품이 상대적으로 낮아 우수 평가를 받았고 리버티, 템포, 좋은느낌은 양호였다.",
+      "value": "35 5 3 4",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224882&fileDetailSn=05&funcType=colctInfoFunction",
+      "evidence": "써멀마네킨 35℃, 증류수 5mL 적하, 챔버 습도 45%, 3시간 후 측정. 내부습도 ★★★ 4개 제품.",
+      "asOf": "2026-07-21"
+    },
+    {
+      "claim": "제품별 시험 수치는 좋은느낌 0.4g·0.6g·5.0초·6.8초, 리버티 0.6g·0.8g·2.7초·4.2초, 순수한면 0.6g·0.9g·2.4초·4.4초, 템포 0.6g·1.0g·3.4초·6.0초, 내츄럴코튼 0.7g·0.9g·2.6초·3.6초, 쏘피 0.7g·0.9g·2.8초·5.1초, 라엘 1.1g·0.8g·20초 이상 순이다(역류량 1차·2차, 흡수시간 3mL·5mL).",
+      "value": "0.4 0.6 5.0 6.8 0.6 0.8 2.7 4.2 0.6 0.9 2.4 4.4 0.6 1.0 3.4 6.0 0.7 0.9 2.6 3.6 0.7 0.9 2.8 5.1 1.1 0.8 20",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224882&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "역류량·흡수시간 시험 결과표의 제품별 값. 좋은느낌 0.4/0.6g·5.0/6.8초, 라엘 1.1/0.8g·20초 이상.",
+      "asOf": "2026-07-21"
+    },
+    {
+      "claim": "소비자 실사용 평가는 20~40대 여성 110명이 2025년 8월 11일부터 9월 12일까지 앉기, 걷기, 서기 동작 후 5점 척도로 매겼다. 치수 맞음새는 쏘피 2.7점으로 가장 낮고 리버티 3.8점으로 가장 높았으며, 전체 착용감도 쏘피 2.8점과 리버티 3.8점으로 벌어졌다.",
+      "value": "20 40 110 2025 8 11 9 12 5 2.7 3.8 2.8 3.8",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224882&fileDetailSn=02&funcType=colctInfoFunction",
+      "evidence": "평가 대상 20~40대 여성 110명, 평가 기간 2025.8.11.~2025.9.12.",
+      "asOf": "2026-07-21"
+    },
+    {
+      "claim": "개당 가격은 2025년 10월 21일부터 11월 4일까지 조사한 온라인 최저가 기준으로 리버티 580원에서 쏘피 1,160원까지 2배 차이가 났다. 내츄럴코튼 640원, 좋은느낌 790원, 순수한면 830원, 템포 920원, 라엘 1,120원이었다.",
+      "value": "2025 10 21 11 4 580 1,160 2 640 790 830 920 1,120",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224882&fileDetailSn=05&funcType=colctInfoFunction",
+      "evidence": "개당가격 640·580·830·1,160·920·1,120·790원, 25.10.21~25.11.4 온라인 최저가.",
+      "asOf": "2025-11-04"
+    },
+    {
+      "claim": "기본 품질과 안전성은 7개 제품 모두 의약외품 기준에 적합했고, 발암성·생식독성 우려가 큰 휘발성 유기화합물(VOCs) 10종은 전 제품에서 검출되지 않았다.",
+      "value": "7 10",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081379",
+      "evidence": "기본 품질·안전성 전 제품 적합, VOCs 10종 불검출.",
+      "asOf": "2026-07-21"
+    },
+    {
+      "claim": "내츄럴코튼, 라엘, 리버티 3개 제품은 'Toxic free'처럼 객관적 근거가 없는 문구나 라벨을 표시해 소비자 오인 가능성이 있었고, 업체들은 2026년 7월 7일 기준으로 관련 문구를 삭제했다.",
+      "value": "3 2026 7 7",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081379",
+      "evidence": "3개 제품이 근거 없는 문구 표시, 개선 권고 후 2026.7.7. 기준 삭제 완료.",
+      "asOf": "2026-07-21"
+    },
+    {
+      "claim": "제품 크기는 전체 길이 55.6cm에서 72.2cm, 엉덩이 흡수체 폭 8.7cm에서 13.4cm, 두께 0.42cm에서 0.58cm, 질량 25.4g에서 35.7g으로 차이가 났다. 쏘피가 전체 길이 55.6cm로 가장 짧고 라엘이 72.2cm로 가장 길다.",
+      "value": "55.6 72.2 8.7 13.4 0.42 0.58 25.4 35.7 55.6 72.2",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/scCmmUtil/79/userFileInfoDownload.do?fileGroupNo=000224882&fileDetailSn=05&funcType=colctInfoFunction",
+      "evidence": "전체길이 62.3·67.5·65.7·55.6·65.3·72.2·63.7cm, 엉덩이 흡수체 폭 10.7·13.4·9.7·8.7·13.4·13.0·9.7cm.",
+      "asOf": "2026-07-21"
+    },
+    {
+      "claim": "7개 제품 중 6개가 유기농 순면 커버를 썼고, 리버티와 순수한면은 무염소 표백, 라엘과 좋은느낌은 표백하지 않은 면을 피부 접촉면에 썼다. 좋은느낌은 포장재의 50%를 재활용 소재로 사용했다.",
+      "value": "7 6 50",
+      "sourceUrl": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1081379",
+      "evidence": "유기농 순면커버 6개 제품, 무염소 표백 2개, 미표백 2개, 좋은느낌 재활용 포장재 50%.",
+      "asOf": "2026-07-21"
+    },
+    {
+      "claim": "2026년 11월 27일 쿠팡에서 좋은느낌 무표백 유기농 입는 오버나이트(대형 8개입 3개)는 23,410원으로 1개입당 975원이고 상품평은 12,464건이다.",
+      "value": "2026 11 27 8 3 23,410 975 12,464",
+      "sourceUrl": "https://www.coupang.com/vp/products/7495432682",
+      "evidence": "상품 페이지 금액 23,410원, 1개입당 975원, 상품평 12,464개, 쿠팡상품번호 7495432682-19609100591.",
+      "asOf": "2026-11-27"
+    },
+    {
+      "claim": "2026년 11월 27일 쿠팡에서 템포 내추럴 순면 입는 오버나이트(Free Size 5개입 2개)는 타임할인 67퍼센트가 붙어 6,480원으로 1개입당 648원이고 상품평은 8,329건이다.",
+      "value": "2026 11 27 5 2 67 6,480 648 8,329",
+      "sourceUrl": "https://www.coupang.com/vp/products/7546978005",
+      "evidence": "상품 페이지 금액 6,480원, 1개입당 648원, 상품평 8,329개, 쿠팡상품번호 7546978005-19919936230.",
+      "asOf": "2026-11-27"
+    },
+    {
+      "claim": "2026년 11월 27일 쿠팡에서 쏘피 안심숙면팬티 유기농 순면커버 입는 오버나이트(특대형 4개입 4개)는 정가 26,520원에서 43퍼센트 할인한 14,890원으로 1개입당 931원이고 상품평은 8,220건이다.",
+      "value": "2026 11 27 4 4 26,520 43 14,890 931 8,220",
+      "sourceUrl": "https://www.coupang.com/vp/products/7828471106",
+      "evidence": "상품 페이지 금액 14,890원, 1개입당 931원, 상품평 8,220개, 쿠팡상품번호 7828471106-21401501807.",
+      "asOf": "2026-11-27"
+    }
+  ],
+  "calculations": [
+    {
+      "table": "한 달 5개 사용 시 비용 비교",
+      "formula": "1개입당 가격 × 5",
+      "assumptions": "2026-11-27 쿠팡 1개입당 가격(좋은느낌 975원, 쏘피 931원, 템포 648원) 기준",
+      "values": [
+        4875,
+        4655,
+        3240
+      ]
+    }
+  ],
+  "watch": [
+    "쿠팡 판매 옵션과 가격 변동(타임할인·와우할인 종료)",
+    "제품 리뉴얼로 SAP 미사용 여부·커버 소재 표기가 바뀌는지",
+    "소비자원 후속 시험 또는 7일 재검증 기한(2027-02-27)"
+  ]
+}

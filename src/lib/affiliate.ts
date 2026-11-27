@@ -3163,6 +3163,37 @@ AFFILIATE_RANKING_MAP['fabric-deodorizer-8-products-odor-type-price-per-100ml-gu
   ],
 };
 
+AFFILIATE_RANKING_MAP['panty-type-sanitary-pad-7-products-leak-back-wear-fit-price-guide'] = {
+  sectionTitle: '팬티형 생리대 3종 (좋은느낌 2만3,410원 · 쏘피 1만4,890원 · 템포 6,480원)',
+  sectionSubtitle: '2026-11-27 쿠팡 상품 페이지 금액·상품평 기준(타임할인·와우할인·쿠폰에 따라 달라짐)',
+  products: [
+    {
+      rank: 1,
+      rankBadge: '역류량 두 차례 모두 최소 🥇',
+      productName: '좋은느낌 무표백 유기농 입는 오버나이트, 대형, 8개입, 3개',
+      specSummary: '확인일 기준 23,410원이고 1개입당 975원으로 세 제품 가운데 단가가 가장 높다. 상품평 12,464건, 무료배송·무료반품에 11월 28일 새벽 도착이 보장되고 판매자는 쿠팡, 쿠팡상품번호 7495432682-19609100591, 유통기한은 2028년 4월 6일 이후다. 소비자원 시험에서 역류량이 1차 0.4g, 2차 0.6g으로 7종 가운데 두 차례 모두 가장 적었고, 표백하지 않은 면을 피부에 닿는 커버로 써 환경성 항목 4개를 받았으며 포장재의 50퍼센트가 재활용 소재다. 대신 흡수시간은 3mL 5.0초, 5mL 6.8초로 중간이고 내부습도와 전체 착용감은 양호 등급이었다. 밤샘 누수가 가장 걱정되는 사람에게 맞는다',
+      tag: '23,410원 · 1개입당 975원',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7495432682&vendorItemId=85762247264',
+    },
+    {
+      rank: 2,
+      rankBadge: '1개입당 단가 최저 🥈',
+      productName: '템포 내추럴 순면 입는 오버나이트, Free Size, 5개입, 2개',
+      specSummary: '확인일 기준 타임할인 67퍼센트가 붙어 6,480원이고 1개입당 648원으로 세 제품 가운데 가장 싸다. 상품평 8,329건, 무료배송·무료반품에 11월 28일 새벽 도착이 보장되고 판매자는 쿠팡, 쿠팡상품번호 7546978005-19919936230, 제조국은 중국이다. 소비자원 시험에서 역류량 1차 0.6g·2차 1.0g, 흡수시간 3mL 3.4초·5mL 6.0초였고 두께가 0.42cm로 7종 가운데 가장 얇아 낮 시간용으로도 부담이 적다. 엉덩이 흡수체 폭은 13.4cm로 넓은 편이고 내부습도와 전체 착용감은 양호였다. 값이 목적이면 이 제품이 답이다',
+      tag: '6,480원 · 1개입당 648원',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7546978005&vendorItemId=87019664616',
+    },
+    {
+      rank: 3,
+      rankBadge: '내부습도 우수 · 특대형 🥉',
+      productName: '쏘피 안심숙면팬티 유기농 순면커버 입는 오버나이트, 특대형, 4개입, 4개',
+      specSummary: '확인일 기준 정가 26,520원에서 43퍼센트 내린 14,890원이고 1개입당 931원, 상품평 8,220건, 무료배송·무료반품에 11월 28일 새벽 도착이 보장된다. 판매자는 쿠팡, 쿠팡상품번호 7828471106-21401501807, 유통기한은 2027년 4월 16일 이후다. 소비자원 시험에서 내부습도가 상대적으로 낮아 우수 등급이었고 역류량은 1차 0.7g·2차 0.9g로 중간이었다. 다만 전체 길이가 55.6cm, 엉덩이 흡수체 폭이 8.7cm로 7종 가운데 가장 짧고 좁아 110명 평가에서 치수 맞음새 2.7점, 전체 착용감 2.8점으로 가장 낮았다. 쿠팡 판매자 답변에 SAP 미사용 여부가 옵션에 따라 다르게 안내된 사례가 있으니 상품 표기를 확인해야 한다',
+      tag: '14,890원 · 1개입당 931원',
+      link: 'https://link.coupang.com/re/AFFSDP?lptag=AF6593875&pageKey=7828471106&vendorItemId=88458117737',
+    },
+  ],
+};
+
 export function getAffiliateRankingForPost(slug: string): AffiliateRankingGroup {
   return AFFILIATE_RANKING_MAP[slug] || DEFAULT_RANKING_GROUP;
 }
