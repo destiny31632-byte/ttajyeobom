@@ -2,7 +2,7 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "피클 자동화(정기 발행 루틴)",
-  "checkedAt": "2026-11-21T08:12:00+09:00",
+  "checkedAt": "2026-11-28T08:05:00+09:00",
   "contentSha256": "dd2fcb03a349d873cce49b0c2d0aa5951eac201bf2c3f7f75f3293fe324db0a5",
   "researchSha256": "5e8d02d12c963d381a7cc9f0abbdcb45818594a37b078a0be78f3f218d3502c0",
   "method": "7일 검증 만료 갱신. 2026-11-21 08:12 KST에 본문·조사 기록의 sha256이 2026-11-14 승인 때와 같은 것을 확인하고(본문 무변경), 출처 12개 URL을 다시 접속했다. 질병관리청 국가건강정보포털, 대한의학회지 DOI, Seminars in Arthritis and Rheumatism DOI, 한국소비자원 2건, Cochrane, 홍콩정형외과 HKCOS PDF, Pain and Therapy DOI, 소비자24 핫팩 화상 정보, 온열요법 수온 관리 PDF 등 11개가 HTTP 200으로 응답했고 본문에 인용한 수치와 어긋나는 변경은 없었다. 한국의료기기안전정보원(rainfo.or.kr) 압박용 밴드 품목 요약서는 이 환경에서 응답이 없어(000) 404 단절로 판단하지 않았고, 인용한 '1등급·압박용 밴드 사용목적' 표기는 기존 확인 내용 그대로 유지했다. 본문 수정 없이 checkedAt만 갱신했다."
