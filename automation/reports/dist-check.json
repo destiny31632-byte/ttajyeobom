@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-27T03:47:43.605Z",
+  "checkedAt": "2026-11-27T23:14:20.444Z",
   "site": "https://ttajyeobom.com",
-  "pages": 943,
-  "indexable": 205,
+  "pages": 951,
+  "indexable": 206,
   "failures": [],
   "warnings": [
     {
@@ -163,6 +163,8 @@
     "https://eep.energy.or.kr/more/knowhow7.aspx",
     "https://efamily.scourt.go.kr/index.jsp",
     "https://eiec.kdi.re.kr/publish/naraView.do?cidx=10366&fcode=00002000040000100012&sel_month=02&sel_year=2016",
+    "https://ems.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6449&cntntsId=7885",
+    "https://ems.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6452&cntntsId=7888",
     "https://enews.imbc.com/M/Detail/272641",
     "https://enews.imbc.com/News/RetrieveNewsInfo/271946",
     "https://eprints.whiterose.ac.uk/id/eprint/115545/3/Substitution%20of%20PFAS%20chemistry%20-%20Revised%202%20-%20not%20marked.pdf",
@@ -624,6 +626,7 @@
     "https://news.seoul.go.kr/env/indoor-air",
     "https://newsfield.net/%ec%98%81%ec%9c%a0%ec%95%84-%eb%a6%bd%eb%b0%a4-7%ec%a2%85-%eb%aa%a8%eb%91%90-%ec%95%88%ec%a0%84%ec%a0%9c%ed%92%88-%ea%b0%84-%ea%b0%80%ea%b2%a9-%ec%b5%9c%eb%8c%80-4-5%eb%b0%b0-%ec%b0%a8/",
     "https://nosearch.com/contents/guide/living/lint_remover",
+    "https://nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875",
     "https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular458.pdf",
     "https://ownersmanual.hyundai.com/full_webhelp/CE1/2025/ko_KR/id7429a7a08371.html",
     "https://ownersmanual.hyundai.com/full_webhelp/DN8/2026/ko_KR/id30acfcf3cbd.html",
@@ -1084,6 +1087,8 @@
     "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs400&menu_grp=MENU_NEW02&menu_no=4418&ntctxt_no=1068747",
     "https://www.fpn119.co.kr/252178",
     "https://www.fs.usda.gov/t-d/pubs/html/05231301/05231301.html",
+    "https://www.fss.or.kr/fss/main/contents.do?menuNo=201011",
+    "https://www.fss.or.kr/fss/main/contents.do?menuNo=201012",
     "https://www.ftc.go.kr/www/selectBbsNttView.do?bordCd=3&key=12&nttSn=46724",
     "https://www.ftc.go.kr/www/selectBbsNttView.do?bordCd=3&key=12&nttSn=46724&searchCtgry=01%2C02",
     "https://www.ftc.go.kr/www/selectBbsNttView.do?bordCd=3&key=12&nttSn=48090",
@@ -1279,7 +1284,9 @@
     "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1018486177",
     "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lspttninfSeq=164089",
     "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lspttninfSeq=195407",
+    "https://www.law.go.kr/LSW/lsLinkProc.do?efYd=20261008&joNo=006100&lsNm=%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95&mode=11",
     "https://www.law.go.kr/LSW/lsLinkProc.do?joNo=004502&lsNm=%EA%B5%AD%EC%84%B8%EA%B8%B0%EB%B3%B8%EB%B2%95&mode=11",
+    "https://www.law.go.kr/LSW/lsLinkProc.do?joNo=005903&lsNm=%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95&mode=10",
     "https://www.law.go.kr/LSW/lsLinkProc.do?lsNm=%EC%9E%90%EB%8F%99%EC%B0%A8%EA%B4%80%EB%A6%AC%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99&joNo=013400&mode=11",
     "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900569417",
     "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1030490025",
@@ -1459,7 +1466,7 @@
     "https://zdnet.co.kr/view/?no=20150215140612",
     "https://zdnet.co.kr/view/?no=20201012164450"
   ],
-  "sitemapUrls": 187,
+  "sitemapUrls": 188,
   "stats": {
     "maxHtmlKb": 91,
     "avgHtmlKb": 18,
