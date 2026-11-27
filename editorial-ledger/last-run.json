@@ -1,10 +1,10 @@
 {
   "date": "2026-11-27",
-  "published": [],
-  "remaining": 2,
-  "status": "held",
-  "newPost": null,
-  "topic": "winter-air-conditioner-heating-vs-boiler-cost-guide",
-  "reason": "fetch failed",
-  "workflowStatus": "failure"
+  "published": [
+    "panty-type-sanitary-pad-7-products-leak-back-wear-fit-price-guide",
+    "fabric-deodorizer-8-products-odor-type-price-per-100ml-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
