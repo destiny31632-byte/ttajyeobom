@@ -1,9 +1,10 @@
 {
   "date": "2026-11-28",
-  "published": [],
-  "remaining": 2,
-  "status": "held",
-  "newPost": null,
-  "reason": "기존 공개 글 검토 갱신 필요: 작성 전 중단",
-  "workflowStatus": "failure"
+  "published": [
+    "national-pension-defer-early-chunab-break-even-guide",
+    "pension-savings-irp-tax-credit-900-man-december-31-guide"
+  ],
+  "remaining": 0,
+  "status": "daily-limit-reached",
+  "newPost": null
 }
