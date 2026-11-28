@@ -2,7 +2,8 @@
   "approved": true,
   "factsVerified": true,
   "reviewer": "피클 자동화(정기 발행 루틴) (2026-11-21 7일 검증 갱신: 출처 10개 URL 재접속 200·203 확인, 본문·조사 기록 해시 불변)",
-  "checkedAt": "2026-11-21T12:40:00+09:00",
+  "checkedAt": "2026-11-28T12:43:00+09:00",
   "contentSha256": "92ae026d4b28fd90ecde1f6c6f48e954c459201ef4080344b01ae8cac19e7c0e",
-  "researchSha256": "e5bc81291dddaa84a9c4caac29fcdebe896aecae40e05b48e9a538371750bfc7"
+  "researchSha256": "e5bc81291dddaa84a9c4caac29fcdebe896aecae40e05b48e9a538371750bfc7",
+  "method": " 2026-11-28 재확인: 대한피부과학회 두 질환 안내, 질병관리청 국가건강정보포털 2건, JKMA 2건, KCA, 식약처, doi 원문이 모두 HTTP 200으로 유지되는 것을 확인하고 승인일만 갱신했다. 본문·조사 기록은 수정하지 않았다."
 }
